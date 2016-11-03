@@ -1,0 +1,42 @@
+---
+layout: default
+title: Home
+---
+
+<header class="clean">
+    {% include top.html %}
+    <div class="header-title">
+        <a href="/xtensor">xtensor</a>
+    </div>
+    <div class="header-content">
+        <div id="xtensor-baseline">
+        The C++ Tensor Algebra Library
+        </div>
+        <div id="xtensor-summary-line">
+        Multi-dimensional arrays with broadcasting and lazy computing - all open-source.
+        </div>
+        <div class="xtensor-buttons">
+            <div class="xtensor-button-container">
+                <a href="http://mybinder.org/repo/QuantStack/xtensor/notebooks/notebooks/xtensor.ipynb" title="xtensor on mybinder"><div class="xtensor-icon genericon genericon-play"></div></a>
+                <a href="http://mybinder.org/repo/QuantStack/xtensor/notebooks/notebooks/xtensor.ipynb" title="xtensor on mybinder"><div class="xtensor-button">Try it Now</div></a>
+            </div>
+            <div class="xtensor-button-container">
+                <a href="https://github.com/QuantStack/xtensor" title="xtensor on GitHub"><div class="xtensor-icon genericon genericon-github"></div></a>
+                <a href="https://github.com/QuantStack/xtensor" title="xtensor on GitHub"><div class="xtensor-button">Browse the Code</div></a>
+            </div>
+            <div class="xtensor-button-container">
+                <a href="https://xtensor.readthedocs.io" title="xtensor on readthedocs"><div class="xtensor-icon genericon genericon-help"></div></a>
+                <a href="https://xtensor.readthedocs.io" title="xtensor on readthedocs"><div class="xtensor-button">Documentation</div></a>
+                </div>
+        </div>
+    </div>
+</header>
+<div id="middle">
+    <div class="middle-content" markdown="1">
+{% capture xtensor %}{% include xtensor_middle.md %}{% endcapture %}
+{{ xtensor | markdownify }}
+    </div>
+</div>
+<footer class="clean">
+    <p class="copyright">&copy;{{ site.time | date: "%Y" }}, <a href="{{ site.copyright.url }}" target="_blank">{{ site.copyright.author }}</a>. <a href="{{ site.copyright.type_url }}" target="_blank">{{ site.copyright.type_title }}</a>.</p>
+</footer>

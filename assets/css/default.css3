@@ -1,0 +1,336 @@
+:root {
+    --qs-clean-color: #333;
+    --qs-clean-background: #fff;
+	--qs-clean-hover-color: #000;
+	--qs-clean-footer-height: 60px;
+    --qs-clean-opacity: 0.90;
+    --qs-menu-background: #a3a3a3;
+    --qs-middle-background: #eee;
+
+}
+
+html, body {
+    margin: 0 0 0 0;
+    border: 0 0 0 0;
+    padding: 0 0 0 0;
+    width: 100%;
+    font-family: "Source Sans Pro Light", Calibri, Candara, Arial, sans-serif;
+}
+
+a {
+    color: black;
+}
+
+a:visited {
+    color: #333;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/SourceSansPro.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Source Sans Pro Light';
+    font-style: normal;
+    font-weight: 300;
+    src: url(../fonts/SourceSansProLight.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Source Sans Pro Bold';
+    font-style: normal;
+    font-weight: 700;
+    src: url(../fonts/SourceSansProBold.ttf) format('truetype');
+}
+
+html, body {
+    position: relative;
+}
+
+header, footer {
+    width: 100%;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header a, footer a {
+    transition-duration: .1s;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0 10px 0;
+}
+
+.clean {
+    color: var(--qs-clean-color);
+    background-color: var(--qs-clean-background);
+}
+
+.clean a {
+    color: var(--qs-clean-color);
+}
+
+.header-title {
+    padding-top: 160px;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    font-size: 100px;
+    line-height: 100px;
+    color: var(--qs-clean-hover-color);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+
+.header-title a:hover {
+    color: var(--qs-clean-hover-color);
+    opacity: 1;
+}
+
+.header-content {
+    width: 100%;
+}
+
+.social-links {
+    width: auto;
+    top: 20px;
+    right: 20px;
+    position: fixed;
+    z-index: 2;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+
+.social-links a {
+    opacity: var(--qs-clean-opacity);
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 5px 0 5px;
+    padding: 0;
+}
+
+.social-links a span {
+    font-size: 24px;
+    height: 24px;
+    width: 24px;
+}
+
+.social-links a:hover {
+    color: var(--qs-clean-hover-color);
+    opacity: 1;
+    cursor: pointer;
+}
+
+.menu a:hover {
+    opacity: 1;
+}
+
+.menu {
+    display: block;
+    cursor: pointer;
+    background-color: var(--qs-clean-color);
+    width: 30px;
+    height: 30px;
+    top: 12px;
+    left: 12px;
+    padding-top: 5px;
+    padding-left: 5px;
+    z-index: 6;
+    transition-duration: .5s;
+}
+
+.menu-title {
+    display: none;
+}
+
+.menu-content {
+    font-family: "Source Sans Pro Bold", Helvetica, Arial, sans-serif;
+    opacity: var(--qs-clean-opacity);
+}
+
+.menu-content > .social-links-menu {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.menu-content hr {
+    margin: 15px 0;
+    border-top: 1px solid var(--qs-clean-background);
+    border-bottom: 0;
+}
+
+.menu-content {
+    font-family: "Source Sans Pro Light", Helvetica, Arial, sans-serif;
+    background-color: var(--qs-clean-color);
+    text-align: center;
+    z-index: 5;
+}
+
+.menu-content a {
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: antialiased;
+     -webkit-font-smoothing: antialiased;
+         font-smoothing: antialiased;
+    letter-spacing: 1.2pt;
+    font-size: 12px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 35px;
+    display: block;
+    color: var(--qs-clean-background);
+}
+
+.menu-content a:hover {
+    font-size: 14px;
+}
+
+.menu span {
+    color: var(--qs-clean-background);
+    font-size: 16px;
+    height: 20px;
+    width: 20px;
+    opacity: 1;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.menu + input {
+    display: none;
+}
+
+.menu + input + * {
+    display: none;
+}
+
+.menu + input:checked + * {
+    display: block;
+}
+
+.copyright {
+    color: inherit;
+    font-size: 14px;
+    text-transform: uppercase;
+    bottom: 10px;
+    position: absolute;
+}
+
+.copyright a {
+    text-decoration: none;
+}
+
+a.site-title:hover, .copyright a:hover {
+    text-decoration: underline;
+}
+
+footer.clean {
+    height: var(--qs-clean-footer-height);
+    position: absolute;
+    bottom: 0;
+}
+
+#middle {
+    padding: 10px 20px calc(var(--qs-clean-footer-height) + 10px) 20px;
+    background-color: var(--qs-middle-background);
+}
+
+.middle-content {
+    margin: 0 auto 0 auto;
+    max-width: 600px;
+}
+
+.xtensor-button-container {
+    height: 50px;
+}
+
+.xtensor-button {
+    transition-duration: .1s;
+    display: inline-block;
+    height: 44px;
+    width: 200px;
+    margin: 3px 5px 3px 5px;
+    padding: 14px;
+    text-align: center;
+    border-radius: 20px;
+    /*border: 2px solid var(--qs-clean-color);*/
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: bold;
+    opacity: var(--qs-clean-opacity);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+    background-color: #fff482;
+    color: black;
+}
+
+.xtensor-button:hover {
+    font-size: 16px;
+    /*border-color: var(--qs-clean-hover-color);*/
+    opacity: 1;
+    cursor: pointer;
+}
+
+.xtensor-icon  {
+    display: inline-block;
+    height: 44px;
+    margin: 0 20px 0 0;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    box-sizing: border-box;
+    opacity: var(--qs-clean-opacity);
+}
+
+.xtensor-icon:hover {
+    color: var(--qs-clean-hover-color);
+    opacity: 1;
+    cursor: pointer;
+}
+
+#xtensor-baseline {
+    font-size: 24px;
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+#xtensor-summary-line {
+    font-size: 24px;
+    max-width: 800px;
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+
+.qs-people {
+    font-size: 20px;
+    max-width: 900px;
+    margin: 0 auto 0 auto;
+}
+
+.xtensor-buttons {
+    width: 260px;
+    height: 150px;
+    margin: 60px auto 60px auto;
+}
+
+.highlight {
+    padding: 8px;
+    border-radius: 2px;
+}

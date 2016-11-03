@@ -1,52 +1,18 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
-"http://www.w3.org/TR/html4/strict.dtd">
-<html lang="en">
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <title>QuantStack</title>
-    <style type="text/css">
-      @font-face {
-        font-family: 'Source Sans Pro';
-        font-style: normal;
-        font-weight: 300;
-        src: url(fonts/SourceSansProLight.ttf) format('truetype');
-      }
-      @font-face {
-        font-family: 'Source Sans Pro';
-        font-style: normal;
-        font-weight: 400;
-        src: url(fonts/SourceSansPro.ttf) format('truetype');
-      }
-      @font-face {
-        font-family: 'Source Sans Pro';
-        font-style: normal;
-        font-weight: 700;
-        src: url(fonts/SourceSansProBold.ttf) format('truetype');
-      }
-      h1, h2, h3, h4, h5, h6 {
-        font-family: "Source Sans Pro", Calibri, Candara, Arial, sans-serif;
-        font-weight: 300;
-        line-height: 1.1;
-      }
-      html, body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-      }
-    </style>
-    <link rel="shortcut icon" href="./images/favicon.png">
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-85704569-1', 'auto');
-      ga('send', 'pageview');
-    </script>
-  </head>
-  <body>
-    <div style="width: 100%; height: 100%; display: table; text-align: center;">
-        <h1 style="display: table-cell; vertical-align: middle; font-size: 60px;">QuantStack</h1>
-    </div>
-  </body>
-</html>
+---
+layout: default
+title: Home
+---
+
+<header class="clean" style="height: 100vh;">
+	{% include top.html %}
+	<div class="header-title" style="max-width: 600px;">
+		<a href="{{ site.url }}"><img src="./assets/images/logo.svg" alt="QuantStack"></a>
+	</div>
+    <div class="header-content">
+		<div id="xtensor-summary-line">
+        We build scientific computing software, from high-performance scientific
+        computing in C++ to interactive data visualization in the web browser
+        and the Python scientific stack.
+        </div>
+    <div>
+</header>
