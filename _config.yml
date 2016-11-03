@@ -1,0 +1,32 @@
+# Dependencies
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  parse_block_html: true
+
+# Setup
+title: QuantStack
+description: 'The QuantStack Website'
+url: http://quantstack.net
+
+social:
+  - icon: twitter
+    url: https://twitter.com/QuantStack
+    desc: Follow QuantStack on Twitter
+
+  - icon: github
+    url: https://github.com/QuantStack
+    desc: Follow QuantStack on GitHub
+
+menu:
+  - title: Home
+    url: /
+
+  - title: xtensor
+    url: /xtensor
+
+copyright:
+  author: QuantStack
+  url: http://quantstack.net
+  type_title: All rights reserved
