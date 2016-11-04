@@ -15,7 +15,6 @@ The implementation of the containers of `xtensor` is inspired by [NumPy](http://
  - On Windows platforms, Visual C++ 2015 Update 2, or more recent
  - On Unix platforms, gcc 4.9 or a recent version of Clang
 
-<!--
 ## Installation
 
 `xtensor` is a header-only library. We provide a package for the conda package manager.
@@ -23,7 +22,6 @@ The implementation of the containers of `xtensor` is inspired by [NumPy](http://
 ```bash
 conda install -c conda-forge xtensor
 ```
--->
 
 ## Usage
 
