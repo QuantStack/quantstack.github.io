@@ -334,3 +334,8 @@ footer.clean {
     padding: 8px;
     border-radius: 2px;
 }
+
+.twitter-tweet {
+    margin-left: auto;
+    margin-right: auto;
+}
