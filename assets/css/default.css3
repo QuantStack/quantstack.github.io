@@ -55,6 +55,7 @@ header, footer {
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
+    overflow: auto;
 }
 
 header a, footer a {
