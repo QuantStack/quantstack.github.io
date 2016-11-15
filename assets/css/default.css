@@ -85,6 +85,10 @@ p {
   user-select: none;
 }
 
+.header-title img {
+  max-width: 600px;
+}
+
 .header-title a:hover {
   color: #000;
   opacity: 1;
