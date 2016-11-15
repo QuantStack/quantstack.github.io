@@ -91,6 +91,10 @@ p {
     user-select: none;
 }
 
+.header-title img {
+    max-width: 600px;
+}
+
 .header-title a:hover {
     color: var(--qs-clean-hover-color);
     opacity: 1;
