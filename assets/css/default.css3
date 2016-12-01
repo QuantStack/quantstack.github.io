@@ -268,7 +268,6 @@ footer.clean {
     padding: 14px;
     text-align: center;
     border-radius: 20px;
-    /*border: 2px solid var(--qs-clean-color);*/
     box-sizing: border-box;
     font-size: 14px;
     line-height: 14px;
@@ -280,13 +279,12 @@ footer.clean {
     -ms-user-select: none;
     -khtml-user-select: none;
     user-select: none;
-    background-color: #fff482;
+    background-color: #7ddb85;
     color: black;
 }
 
 .xtensor-button:hover {
     font-size: 16px;
-    /*border-color: var(--qs-clean-hover-color);*/
     opacity: 1;
     cursor: pointer;
 }
