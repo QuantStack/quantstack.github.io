@@ -19,6 +19,10 @@ social:
     url: https://github.com/QuantStack
     desc: Follow QuantStack on GitHub
 
+  - icon: linkedin
+    url: https://www.linkedin.com/company/quantstack
+    desc: Follow QuantStack on Linkedin
+
 menu:
   - title: Home
     url: /
