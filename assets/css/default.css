@@ -242,18 +242,16 @@ a.site-title:hover,
 
 footer.clean {
   height: 60px;
-  position: absolute;
-  bottom: 0;
 }
 
-#middle {
-  padding: 10px 20px 70px 20px;
+.section {
+  padding: 10px 20px;
   background-color: #eee;
 }
 
-.middle-content {
+.section-content {
   margin: 0 auto 0 auto;
-  max-width: 600px;
+  max-width: 700px;
 }
 
 .xtensor-button-container {
