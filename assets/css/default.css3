@@ -17,6 +17,10 @@ html, body {
     font-family: "Source Sans Pro Light", Calibri, Candara, Arial, sans-serif;
 }
 
+h1, h2 {
+    text-align: center;
+}
+
 a {
     color: black;
 }
