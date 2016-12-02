@@ -5,7 +5,7 @@
 	--qs-clean-footer-height: 60px;
     --qs-clean-opacity: 0.90;
     --qs-menu-background: #a3a3a3;
-    --qs-middle-background: #eee;
+    --qs-section-background: #eee;
 
 }
 
@@ -245,18 +245,16 @@ a.site-title:hover, .copyright a:hover {
 
 footer.clean {
     height: var(--qs-clean-footer-height);
-    position: absolute;
-    bottom: 0;
 }
 
-#middle {
-    padding: 10px 20px calc(var(--qs-clean-footer-height) + 10px) 20px;
-    background-color: var(--qs-middle-background);
+.section {
+    padding: 10px 20px;
+    background-color: var(--qs-section-background);
 }
 
-.middle-content {
+.section-content {
     margin: 0 auto 0 auto;
-    max-width: 600px;
+    max-width: 700px;
 }
 
 .xtensor-button-container {
