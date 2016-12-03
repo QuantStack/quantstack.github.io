@@ -342,3 +342,53 @@ footer.clean {
   margin-left: auto;
   margin-right: auto;
 }
+
+.bio-card {
+  background: #f7f7f7;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  display: inline-block;
+  width: 260px;
+  height: 320px;
+  margin: 1rem;
+  position: relative;
+}
+
+.card-photo {
+  display: block;
+  width: 200px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  margin: 28px auto 0 auto;
+}
+
+.card-header {
+  width: 100%;
+  font-size: 20px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.card-info {
+  width: 100%;
+  float: left;
+  font-size: 13px;
+  margin-top: 0;
+  padding: 0 4px;
+  text-align: center;
+}
+
+.card-info a {
+  text-decoration: none;
+  color: #333;
+}
+
+.bio-social a {
+  text-decoration: none;
+}
+
+.bio-photo {
+  width: 200px;
+  margin: 0 40px 40px -40px;
+  float: left;
+}
