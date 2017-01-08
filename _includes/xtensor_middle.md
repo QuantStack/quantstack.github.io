@@ -23,6 +23,13 @@ Containers of `xtensor` are inspired by [NumPy](http://www.numpy.org), the Pytho
 conda install -c conda-forge xtensor
 ```
 
+Or you can directly install it from the sources:
+
+```bash
+cmake -D CMAKE_INSTALL_PREFIX=your_install_prefix
+make install
+```
+
 ## Usage
 
 ### Basic Usage
@@ -156,7 +163,7 @@ All `xexpression`s offer two sets of functions to retrieve iterator pairs (and t
  - `begin()` and `end()` provide instances of `xiterator`s which can be used to iterate over all the elements of the expression. The order in which elements are listed is `row-major` in that the index of last dimension is incremented first.
  - `xbegin(shape)` and `xend(shape)` are similar but take a *broadcasting shape* as an argument. Elements are iterated upon in a row-major way, but certain dimensions are repeated to match the provided shape as per the rules described above. For an expression `e`, `e.xbegin(e.shape())` and `e.begin()` are equivalent.
 
-### Fixed-dimension *and* Dynamic dimension
+### Runtime vs Compile-time dimensionality
 
 Two container classes implementing multi-dimensional arrays are provided: `xarray` and `xtensor`.
 
@@ -172,6 +179,18 @@ Besides, two access operators are provided:
  - And the `operator[]` which takes a single multi-index argument, which can be of size determined at runtime. `operator[]` also supports
    access with braced initializers.
 
+### Performance
+
+The dynamic nature of `xarray` over `xtensor` has a cost. Since the dimension is unknown at build time, the sequences holding shape and strides
+of `xarray` instances are heap-allocated, which makes it significantly more expansive than `xtensor`. Shape and strides of `xtensor` are stack
+allocated which makes them more efficient.
+
+More generally, the library implement a `promote_shape` mechanism at build time to determine the optimal sequence type to hold the shape of an
+expression. The shape type of a broadcasting expression whose members have a dimensionality determined at compile time will have a stack allocated
+shape. If a single member of a broadcasting expression has a dynamic dimension (for example an `xarray`), it bubbles up to entire broadcasting expression which will have a heap allocated shape. The same hold for views, broadcast expressions, etc...
+
+Therefore, when building an application with xtensor, we recommend using statically dimensioned containers whenever possible to improve the overall performance of the application.
+
 ## Python bindings
 
 The [xtensor-python](https://github.com/QuantStack/xtensor-python) project provides the implementation of an `xtensor` container, `pyarray` which
@@ -181,7 +200,7 @@ effectively wraps numpy arrays, allowing inplace edition, including reshapes.
 
 Building the tests requires the [GTest](https://github.com/google/googletest) testing framework and [cmake](https://cmake.org).
 
-gtest and cmake are available as a packages for most linux distributions. Besideds, they can also be installed with the `conda` package manager (even on windows):
+gtest and cmake are available as a packages for most linux distributions. Besides, they can also be installed with the `conda` package manager (even on windows):
 
 ```bash
 conda install -c conda-forge gtest cmake
@@ -190,10 +209,10 @@ conda install -c conda-forge gtest cmake
 Once `gtest` and `cmake` are installed, you can build and run the tests:
 
 ```bash
-cd test
-cmake .
-make
-./test_xtensor
+mkdir build
+cd build
+cmake ../
+make xtest
 ```
 
 In the context of continuous integration with Travis CI, tests are run in a `conda` environment, which can be activated with
@@ -202,9 +221,9 @@ In the context of continuous integration with Travis CI, tests are run in a `con
 cd test
 conda env create -f ./test-environment.yml
 source activate test-xtensor
+cd ..
 cmake .
-make
-./test_xtensor
+make xtest
 ```
 
 ## Building the HTML Documentation
