@@ -1,10 +1,12 @@
-# QuantStack's Website
+# ![QuantStack](http://quantstack.net/assets/images/logo.svg)
 
 This is the source to [quantstack.net](http://quantstack.net/).
 
 # Build instruction. 
 
-The site is build using GitHub Pages Jekyll, see [Jekyll website](http://jekyllrb.com/).
+The site is build using GitHub Pages and Jekyll.
+
+The `default.css` css file is generated from `default.css3` using `myth`.
 
 # Local testing
 
