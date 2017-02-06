@@ -27,6 +27,9 @@ menu:
   - title: Home
     url: /
 
+  #- title: The team
+  #  url: /team.html
+
   - title: xtensor
     url: /xtensor
 
