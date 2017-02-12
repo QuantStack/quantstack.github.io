@@ -8,39 +8,31 @@ title: Team
 </header>
 
 <div class="section">
-<div class="section-content">
+<div class="team-section-content">
 
     <h1>The Team</h1>
-    <div class="bio-card">
-        <a href="/SylvainCorlay"><img class="card-photo" alt="Sylvain Corlay's avatar picture" src="https://avatars1.githubusercontent.com/u/2397974?v=3&amp;s=200"></a>
-        <p class="card-header">Sylvain Corlay</p>
-        <p class="card-info">
-            <a href="https://github.com/SylvainCorlay" target="_blank">
-                <span class="genericon genericon-github"></span>
-            </a>
-            <a href="https://twitter.com/SylvainCorlay" target="_blank">
-                <span class="genericon genericon-twitter"></span>
-            </a>
-            <em>@SylvainCorlay</em>
-        </p>
-    </div>
 
+    {% for m in site.people %}
+    {% assign person = m[1] %}
     <div class="bio-card">
-        <a href="/JohanMabille"><img class="card-photo" alt="Johan Mabille's avatar picture" src="https://avatars1.githubusercontent.com/u/6754742?v=3&amp;s=200"></a>
-        <p class="card-header">Johan Mabille</p>
-        <p class="card-info">
-            <a href="https://github.com/JohanMabille" target="_blank">
+        <a href="/{{ person.url }}"><img class="card-photo" alt="Avatar picture" src="https://avatars1.githubusercontent.com/u/{{ person.avatar }}?v=3&amp;s=200"></a>
+
+        <p class="card-header">{{ person.name }}</p>
+
+        <div class="card-info">
+            <a href="https://github.com/{{ person.github }}" target="_blank">
                 <span class="genericon genericon-github"></span>
+                <em>@{{ person.github }}</em>
             </a>
-            <a href="https://twitter.com/JohanMabille" target="_blank">
+        </div>
+
+        <div class="card-info">
+            <a href="https://twitter.com/{{ person.twitter }}" target="_blank">
                 <span class="genericon genericon-twitter"></span>
+                <em>@{{ person.twitter }}</em>
             </a>
-            <em>@JohanMabille</em>
-        </p>
+        </div>
     </div>
+    {% endfor %}
 </div>
 </div>
-
-<footer class="clean">
-    <p class="copyright">&copy;{{ site.time | date: "%Y" }}, <a href="{{ site.copyright.url }}" target="_blank">{{ site.copyright.author }}</a>. <a href="{{ site.copyright.type_url }}" target="_blank">{{ site.copyright.type_title }}</a>.</p>
-</footer>

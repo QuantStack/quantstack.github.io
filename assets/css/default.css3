@@ -81,7 +81,6 @@ p {
 }
 
 .header-title {
-    padding-top: 160px;
     margin: 0 auto 0 auto;
     text-align: center;
     font-size: 100px;
@@ -257,6 +256,11 @@ footer.clean {
     max-width: 700px;
 }
 
+.team-section-content {
+    margin: 0 auto 0 auto;
+    max-width: 900px;
+}
+
 .xtensor-button-container {
     height: 50px;
 }
@@ -383,6 +387,10 @@ footer.clean {
 .card-info a {
     text-decoration: none;
     color: var(--qs-clean-color);
+}
+
+.card-info a .genericon {
+    vertical-align: middle;
 }
 
 .bio-social a {
