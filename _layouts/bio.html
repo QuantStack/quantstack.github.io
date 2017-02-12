@@ -2,6 +2,30 @@
 <html>
     {% include head.html %}
     <body>
-        {{ content }}
+
+        <header class="clean">
+        {% include top.html %}
+        </header>
+
+        <div class="section">
+            <div class="section-content bio">
+                <img class="bio-photo" alt="Avatar picture" src="https://avatars1.githubusercontent.com/u/{{ site.people[page.author].avatar}}?v=3&amp;s=200">
+                <h1>{{ site.people[page.author].name }}</h1>
+                {{ content }}
+                <p class="bio-social">
+                    <a href="https://github.com/SylvainCorlay" target="_blank">
+                    <span class="genericon genericon-github" style="vertical-align: bottom;"></span>
+                    </a>
+                    <em>@{{ site.people[page.author].github }}</em>
+                    <a href="https://twitter.com/SylvainCorlay" target="_blank">
+                    <span class="genericon genericon-twitter" style="vertical-align: bottom;"></span>
+                    </a>
+                    <em>@{{ site.people[page.author].twitter }}</em>
+                </p>
+            </div>
+        </div>
+        <footer class="clean">
+            <p class="copyright">&copy;{{ site.time | date: "%Y" }}, <a href="{{ site.copyright.url }}" target="_blank">{{ site.copyright.author }}</a>. <a href="{{ site.copyright.type_url }}" target="_blank">{{ site.copyright.type_title }}</a>.</p>
+        </footer>
     </body>
 </html>
