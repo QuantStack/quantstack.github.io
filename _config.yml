@@ -40,13 +40,13 @@ people:
     github: JohanMabille
     url: JohanMabille
 
-  #WolfVollprecht:
-  #  name: Wolf Vollprecht
-  #  avatar: 885054
-  #  email: w.vollprecht@gmail.com
-  #  twitter: wuoulf 
-  #  github: wolfv
-  #  url: WolfVollprecht
+  WolfVollprecht:
+    name: Wolf Vollprecht
+    avatar: 885054
+    email: w.vollprecht@gmail.com
+    twitter: wuoulf 
+    github: wolfv
+    url: WolfVollprecht
 
 menu:
   - title: Home
