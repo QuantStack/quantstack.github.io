@@ -246,6 +246,7 @@ footer.clean {
 .section {
   padding: 10px 20px;
   background-color: #eee;
+  font-size: 16px;
 }
 
 .section-content {
@@ -340,6 +341,7 @@ footer.clean {
 .highlight {
   padding: 8px;
   border-radius: 2px;
+  overflow-x: auto;
 }
 
 .twitter-tweet {
@@ -399,4 +401,55 @@ footer.clean {
   width: 200px;
   margin: 0 40px 40px -40px;
   float: left;
+}
+
+.post-footer {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blog-post img {
+  display: block;
+}
+
+.post-preview {
+  background: white;
+  padding: 8px;
+  margin: 24px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.author-image img {
+  display: inline-block;
+  border-radius: 100px;
+}
+
+.blog-author {
+  margin: 0 auto 0 auto;
+  text-align: center;
+  font-size: 20px;
+  line-height: 40px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.navigation {
+  font-size: 14px;
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
+
+.navigation a {
+  display: block;
+  width: 50%;
+  float: left;
+  margin: 1em 0;
+}
+
+.navigation .next {
+  text-align: right;
 }
