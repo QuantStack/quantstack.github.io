@@ -48,6 +48,13 @@ people:
     github: wolfv
     url: WolfVollprecht
 
+  QuantStack:
+    name: The QuantStack Team
+    avatar: 19627246
+    email: sylvain.corlay@quantstack.net
+    github: QuantStack
+    url: /
+
 menu:
   - title: Home
     url: /
