@@ -202,17 +202,17 @@ p {
 }
 
 .menu-content a:hover {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .menu span {
     color: var(--qs-clean-background);
-    font-size: 16px;
+    font-size: 20px;
     height: 20px;
     width: 20px;
     opacity: 1;
-    margin-left: 5px;
-    margin-top: 5px;
+    margin-left: 2.5px;
+    margin-top: 3px;
 }
 
 .menu + input {
@@ -229,7 +229,7 @@ p {
 
 .copyright {
     color: inherit;
-    font-size: 14px;
+    font-size: 16px;
     text-transform: uppercase;
     bottom: 10px;
     position: absolute;
@@ -250,12 +250,12 @@ footer.clean {
 .section {
     padding: 10px 20px;
     background-color: var(--qs-section-background);
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .section-content {
     margin: 0 auto 0 auto;
-    max-width: 700px;
+    max-width: 900px;
 }
 
 .team-section-content {
@@ -264,21 +264,21 @@ footer.clean {
 }
 
 .xtensor-button-container {
-    height: 50px;
+    height: 54px;
 }
 
 .xtensor-button {
     transition-duration: .1s;
     display: inline-block;
-    height: 44px;
+    height: 48px;
     width: 200px;
     margin: 3px 5px 3px 5px;
-    padding: 14px;
+    padding: 16px;
     text-align: center;
     border-radius: 20px;
     box-sizing: border-box;
-    font-size: 14px;
-    line-height: 14px;
+    font-size: 16px;
+    line-height: 16px;
     font-weight: bold;
     opacity: var(--qs-clean-opacity);
     -webkit-touch-callout: none;
@@ -292,7 +292,7 @@ footer.clean {
 }
 
 .xtensor-button:hover {
-    font-size: 16px;
+    font-size: 20px;
     opacity: 1;
     cursor: pointer;
 }
@@ -316,7 +316,7 @@ footer.clean {
 
 #xtensor-baseline {
     font-size: 24px;
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto 60px auto;
     text-align: center;
     font-weight: bold;
@@ -324,7 +324,7 @@ footer.clean {
 
 #xtensor-summary-line {
     font-size: 24px;
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto 0 auto;
     text-align: center;
 }
@@ -407,13 +407,24 @@ footer.clean {
 }
 
 .post-footer {
-    max-width: 700px;
+    max-width: 900px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .blog-post img {
     display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blog-post .img-caption {
+    text-align: center;
+    max-width: 400px;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .post-preview {
@@ -437,7 +448,7 @@ footer.clean {
 }
 
 .navigation {
-    font-size: 14px;
+    font-size: 16px;
     display: block;
     width: auto;
     overflow: hidden;
