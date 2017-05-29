@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Scientific computing in a polyglot world with xtensor"
-date: 2017-05-10 20:20:40 +0100
+date: 2017-05-29 20:20:40 +0100
 author: QuantStack
 categories: [C++]
 excerpt_separator: <!--more-->
@@ -17,7 +17,7 @@ The *One Language to Rule Them All* probably does not exist yet. In the world of
 
 For numerical code, C-level efficiency can be achieved in different ways. Preferred approaches differ in Python and Julia. On the one hand, authors of Python extension modules often make use of tools such as cython, or write their code in a way that is amenable to vectorization with numpy. On the other hand, Julia fully relies on just-in-time compilation and the LLVM stack. These two approaches are not easily reconcilable.
 
-As library authors, we directly work with C++ for the numerical code, and provide bindings for the preferred languages of the end users (Julia, Python, R, etc...). This is a usecase in which the `xtensor` C++ library particularly shines.
+As library authors, we directly work with C++ for the numerical code, and provide bindings for the preferred languages of the end users (Julia, Python, R, etc...). This is a use case in which the `xtensor` C++ library particularly shines.
 
 `xtensor` is a C++ lazy tensor algebra library providing an API similar to that of numpy, including broadcasting and universal functions. You can check out the [numpy to xtensor cheat sheet](http://xtensor.readthedocs.io/en/latest/numpy.html). More importantly, `xtensor` is an *expression system*, which enables the use of tensor expressions backed by arbitrary backends such as
 
@@ -38,11 +38,11 @@ But there is still hope
 
 ## Learning by the example
 
-Assume we have some Python module based on a `process` function that operates on two numpy arrays. After some time, we realize that the performances are not so good and that the bottleneck is the `process` function. To fix that, we decide to replace it with a C++ native implementation, exposed to Python as an extension module.
+Assume we have some Python module based on a `process` function that operates on two numpy arrays. After some time, we realize that the performance is not so good and that the bottleneck is the `process` function. To fix that, we decide to replace it with a C++ native implementation, exposed to Python as an extension module.
 
 ## First implementation
 
-Let's start with a straightforward implementation, that is, a simple C++ module exposing one function to Python using `pybind11` and `xtensor-python`, which can be done with a single cpp file, `pyprocess.cpp`. In this example, we provide all the boilerplate to produce a minimal extension module.
+Let's start with a straightforward implementation, that is, a simple C++ module exposing one function to Python using `pybind11` and `xtensor-python`, which can be done with a single cpp file, `process.cpp`. In this example, we provide all the boilerplate to produce a minimal extension module.
 
 ```cpp
 #define FORCE_IMPORT_ARRAY
@@ -51,16 +51,16 @@ Let's start with a straightforward implementation, that is, a simple C++ module 
 namespace py = pybind11;
 using pyarray_type = xt::pyarray<double>;
 
-double pyprocess(const pyarray_type& e1, const pyarray_type& e2)
+double process(const pyarray_type& e1, const pyarray_type& e2)
 {
     // Operate on `e1` and `e2` using the xtensor numpy-style API.
 }
 
-PYBIND11_PLUGIN(fast_process)
+PYBIND11_PLUGIN(cppprocess)
 {
     xt::import_numpy();
-    py::module m("pyprocess");
-    m.def("process", pyprocess);
+    py::module m("cppprocess");
+    m.def("process", process);
     return m.ptr();
 }
 ```
@@ -68,73 +68,37 @@ PYBIND11_PLUGIN(fast_process)
 Once the module is built, we can use it in our Python code like any other Python function:
 
 ```python
-import pyprocess as xp
+import cppprocess as xp
 res = xp.process(e1, e2)  # for e1 and e2 are numpy arrays
 ```
 
-In the `xprocess` C++ function implemented above, the `pyarray` C++ objects offers an API very similar to that of a numpy array, while following the idioms of the C++ standard library including:
+In the `process` C++ function implemented above, the `pyarray` C++ objects offers an API very similar to that of a numpy array, while following the idioms of the C++ standard library including:
 
  - iterator pairs to iterate in various fashions onto N-dimensional arrays
  - special functions, reducers, broadcasting, universal functions
- - linear algebra
+ - linear algebra routines
 
 A cheat sheet for the numpy to xtensor migration can be found [here](http://xtensor.readthedocs.io/en/latest/numpy.html).
 
-Now we would like to reuse this new implementation in othter contexts:
+Now we would like to reuse this new implementation in other contexts:
 
  - a pure C++ context
  - a Julia module
 
-A naive approach would be to make this C++ implementation standalone, make use of it in the for the Python extension. The same headers would be included in the C++ module that requires it so that we can use `process` from both Python and C++. The issue with this approach is that the resulting C++ program would depend on numpy. Indeed, `pyprocess` operates on argument of type `pyarray` which is a C++ wrapper for numpy arrays.
+A naive approach would be to make this C++ implementation standalone, make use of it in the for the Python extension. The same headers would be included in the C++ module that requires it so that we can use `process` from both Python and C++. The issue with this approach is that the resulting C++ program would depend on numpy. Indeed, `process` operates on argument of type `pyarray` which is a C++ wrapper for numpy arrays.
 
 In a pure C++ module, we would rather make use of the `xarray` and `xtensor` container, or any other implementation the xtensor expression interface. The way to reconcile these use cases is to make use of the abstract xtensor expression type.
 
-## Working with expressions
+## Enforcing the usage of expressions
 
-Before separating the `process` implementation, let's make it a template function so it can works with any expression type:
+Before separating the implementation of `process`, we make it a template function so it can works with any expression type. A naive approach would be a signature of the form
 
 ```cpp
 template <class E1, class E2>
 double xprocess(const E1& e1, const E2& e2)
-{
-    // Operate on `e1` and `e2` using the xtensor numpy-style API.
-}
 ```
 
-With that change, we have two ways of exposing `xprocess` to Python. The first one is to directly instantiate the template:
-
-```cpp
-PYBIND11_PLUGIN(fast_process)
-{
-    xt::import_numpy();
-    py::module m("pyprocess");
-    m.def("process", xprocess<pyarray_type, pyarray_type>);
-    return m.ptr();
-}
-```
-
-or we can wrap the call to the template `xprocess` into a C++ function and let the template parameter deduction work for us:
-
-```cpp
-double pyprocess(const pyarray_type& e1, const pyarray_type& e2)
-{
-    return xprocess(e1, e2);
-}
-
-PYBIND11(fast_process)
-{
-    xt::import_numpy();
-    py::module m("pyprocess");
-    m.def("process", pyprocess);
-    return m.ptr();
-}
-```
-
-## Enforcing the usage of expressions
-
-The `xprocess` template function is generic allows to use any type for its argument. If we try to call it with something that does not implement the `xexpression` interface, we will end up with cryptic errors.
-
-To avoid this, we can modify the signature of `xprocess` so that the compiler complains when passed parameters are not xtensor expressions:
+The `xprocess` template function is generic allows to use any type for its argument. If we try to call it with something that does not implement the `xexpression` interface, we will end up with cryptic errors. To avoid this, we can modify the signature of `xprocess` so that the compiler complains when passed parameters are not xtensor expressions:
 
 ```cpp
 template <class E1, class E2>
@@ -147,13 +111,13 @@ double xprocess(const xt::xexpression<E1>& e1,
 }
 ```
 
-The first line in the function retrieves the real type of the expression, so that we can keep the rest of the implementation unchanged. Now you can see the benefits of wrapping `process` inside `pyprocess`: we don't have to change anything else in the code. Whereas if we had used direct instantiation of the template, the following changes would have been required:
+The first line in the function retrieves the real type of the expression, so that we can keep the rest of the implementation unchanged.
 
 ```cpp
-PYBIND11_PLUGIN(fast_process
+PYBIND11_PLUGIN(cppprocess)
 {
     xt::import_numpy();
-    py::module m("pyprocess", "pyprocess extension module");
+    py::module m("cppprocess", "cppprocess extension module");
     m.def("process", xprocess<xt::xexpression<pyarray_type>,
                               xt::xexpression<pyarray_type>>);
     return m.ptr();
@@ -172,7 +136,7 @@ This way, we can use `xprocess` in pure C++ contexts without any dependency on `
 But we can go further. We can now expose `xprocess` to Julia with very little additional work:
 
 ```cpp
-#include <cxx_wrap.hpp>
+#include "jlcxx/jlcxx.hpp"
 #include "xtensor-julia/jlarray.hpp
 #include "xprocess/xprocess.hpp"
 
@@ -183,8 +147,8 @@ double jlprocess(jlarray_type e1, jlarray_type e2)
     return xprocess(e1, e2);
 }
 
-JULIA_CPP_MODULE_BEGIN(fast_process)
-    cxx_wrap::Module mod = registry.create_module("xprocess");
+JULIA_CPP_MODULE_BEGIN(cppprocess)
+    jlcxx::Module mod = registry.create_module("xprocess");
     mod.method("process", jlprocess);
 JULIA_CPP_MODULE_END
 ```
@@ -195,7 +159,7 @@ Creating extension modules for Julia and Python based on a single implementation
 
 Following the rules below will help you avoid code duplication and leverage on generic code:
 
-- separate the pure C++ implementation in a dedicated project, that does not depend on `xtensor-python` or `xtensor-julia`.
+- separate the pure C++ implementation in a dedicated project, that does not depend on `xtensor-python`, `xtensor-julia` or other language bindings.
 - operate on abstract `xexpression` rather than explicit types such as `xtensor` or `xarray`.
 - Python bindings and Julia bindings should be thin wrappers around the expression-based implementation.
 
