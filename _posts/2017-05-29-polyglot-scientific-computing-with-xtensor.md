@@ -13,7 +13,7 @@ excerpt_separator: <!--more-->
 In the future, there will be actual wars about which language humans should use to speak to the machine.
 </div>
 
-The *One Language to Rule Them All* probably does not exist yet. In the world of interactive scientific computing, countless articles and blog posts argue on the merits of R, Python, Julia and other technologies. The truth is, while this diversity is an chance, efforts are duplicated in each community and collaboration is sparse, which hurts sustainability in the long run.
+The *One Language to Rule Them All* probably does not exist yet. In the world of interactive scientific computing, countless articles and blog posts argue on the merits of R, Python, Julia and other technologies. The truth is, while this diversity is a chance, efforts are duplicated in each community and collaboration is sparse, which hurts sustainability in the long run.
 
 For numerical code, C-level efficiency can be achieved in different ways. Preferred approaches differ in Python and Julia. On the one hand, authors of Python extension modules often make use of tools such as cython, or write their code in a way that is amenable to vectorization with numpy. On the other hand, Julia fully relies on just-in-time compilation and the LLVM stack. These two approaches are not easily reconcilable.
 
@@ -85,9 +85,9 @@ Now we would like to reuse this new implementation in other contexts:
  - a pure C++ context
  - a Julia module
 
-A naive approach would be to make this C++ implementation standalone, make use of it in the for the Python extension. The same headers would be included in the C++ module that requires it so that we can use `process` from both Python and C++. The issue with this approach is that the resulting C++ program would depend on numpy. Indeed, `process` operates on argument of type `pyarray` which is a C++ wrapper for numpy arrays.
+A naive approach would be to make this C++ implementation standalone and use of it in the Python extension. The same headers would be included in the C++ module that requires it so that we can use `process` from both Python and C++. The issue with this approach is that the resulting C++ program would depend on numpy. Indeed, `process` operates on argument of type `pyarray` which is a C++ wrapper for numpy arrays.
 
-In a pure C++ module, we would rather make use of the `xarray` and `xtensor` container, or any other implementation the xtensor expression interface. The way to reconcile these use cases is to make use of the abstract xtensor expression type.
+In a pure C++ module, we would rather make use of the `xarray` and `xtensor` containers, or any other implementation the xtensor expression interface. The way to reconcile these use cases is to make use of the abstract xtensor expression type.
 
 ## Enforcing the usage of expressions
 
@@ -98,7 +98,7 @@ template <class E1, class E2>
 double xprocess(const E1& e1, const E2& e2)
 ```
 
-The `xprocess` template function is generic allows to use any type for its argument. If we try to call it with something that does not implement the `xexpression` interface, we will end up with cryptic errors. To avoid this, we can modify the signature of `xprocess` so that the compiler complains when passed parameters are not xtensor expressions:
+This `xprocess` template function is generic and allow the use of any type for its arguments. If we try to call it with something that does not actually implement the `xexpression` interface, we will end up with cryptic errors. To avoid this, we can modify the signature of `xprocess` so that the compiler complains when passed parameters are not xtensor expressions:
 
 ```cpp
 template <class E1, class E2>
