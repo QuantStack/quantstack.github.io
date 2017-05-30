@@ -69,12 +69,12 @@ Once the module is built, we can use it in our Python code like any other Python
 
 ```python
 import cppprocess as xp
-res = xp.process(e1, e2)  # for e1 and e2 are numpy arrays
+res = xp.process(e1, e2)  # e1 and e2 are numpy arrays
 ```
 
-In the `process` C++ function implemented above, the `pyarray` C++ objects offers an API very similar to that of a numpy array, while following the idioms of the C++ standard library including:
+In the `process` C++ function implemented above, the `pyarray` C++ objects offer an API very similar to that of a numpy array, while following the idioms of the C++ standard library, including:
 
- - iterator pairs to iterate in various fashions onto N-dimensional arrays
+ - iterator pairs to iterate in various fashions over N-dimensional arrays
  - special functions, reducers, broadcasting, universal functions
  - linear algebra routines
 
@@ -85,20 +85,18 @@ Now we would like to reuse this new implementation in other contexts:
  - a pure C++ context
  - a Julia module
 
-A naive approach would be to make this C++ implementation standalone and use of it in the Python extension. The same headers would be included in the C++ module that requires it so that we can use `process` from both Python and C++. The issue with this approach is that the resulting C++ program would depend on numpy. Indeed, `process` operates on argument of type `pyarray` which is a C++ wrapper for numpy arrays.
-
-In a pure C++ module, we would rather make use of the `xarray` and `xtensor` containers, or any other implementation the xtensor expression interface. The way to reconcile these use cases is to make use of the abstract xtensor expression type.
+A naive approach would be to make this C++ implementation standalone and use it both in a native C++ context and a Python extension. However, the resulting C++ program would then depend on numpy, since `process` operates on arguments of type `pyarray`, which is a C++ wrapper for numpy arrays. In a pure C++ module, we would rather make use of the `xarray` and `xtensor` containers, or any other implementation of the xtensor expression interface. The way to reconcile these use cases is to make use of the abstract xtensor expression type.
 
 ## Enforcing the usage of expressions
 
-Before separating the implementation of `process`, we make it a template function so it can works with any expression type. A naive approach would be a signature of the form
+Before separating the implementation of `process`, we make it a template function so it can work with any expression type. A naive approach would be a signature of the form
 
 ```cpp
 template <class E1, class E2>
 double xprocess(const E1& e1, const E2& e2)
 ```
 
-This `xprocess` template function is generic and allow the use of any type for its arguments. If we try to call it with something that does not actually implement the `xexpression` interface, we will end up with cryptic errors. To avoid this, we can modify the signature of `xprocess` so that the compiler complains when passed parameters are not xtensor expressions:
+This `xprocess` template function is generic and allows the use of any type for its arguments. If we try to call it with something that does not actually implement the `xexpression` interface, we will end up with cryptic errors. To avoid this, we can modify the signature of `xprocess` so that the compiler complains when the function arguments are not xtensor expressions:
 
 ```cpp
 template <class E1, class E2>
@@ -111,7 +109,7 @@ double xprocess(const xt::xexpression<E1>& e1,
 }
 ```
 
-The first line in the function retrieves the real type of the expression, so that we can keep the rest of the implementation unchanged.
+The first line in the function retrieves the real type of the expression so we can keep the rest of the implementation unchanged.
 
 ```cpp
 PYBIND11_PLUGIN(cppprocess)
@@ -131,7 +129,7 @@ Now we can split the project into:
 - A header-only C++ project containing the generic `xprocess` template function.
 - A Python extension depending on the C++ template library, exposing to Python a specialization of the abstract implementation for the `pyarray` and `pytensor` wrappers on numpy.
 
-This way, we can use `xprocess` in pure C++ contexts without any dependency on `pybind11` or `xtensor-python`. And since `xprocess` is generic, we can use it with other types of expressions, such as `xtensor`, `xarray`, or even expresions backed by database calls, filesystem operations, etc ...
+We can now use `xprocess` in pure C++ contexts without any dependency on `pybind11` or `xtensor-python`. Since `xprocess` is generic, we can use it with other types of expressions, such as `xtensor`, `xarray`, or even expresions backed by database calls, filesystem operations, etc.
 
 But we can go further. We can now expose `xprocess` to Julia with very little additional work:
 
@@ -155,13 +153,13 @@ JULIA_CPP_MODULE_END
 
 ## Conclusion
 
-Creating extension modules for Julia and Python based on a single implementation of the C++ engine is made easy by the `xtensor-python` and `xtensor-julia` projects. 
+Creating extension modules for Julia and Python based on a single implementation of the C++ engine is made easy by the `xtensor`, `xtensor-python`, and `xtensor-julia` projects. 
 
-Following the rules below will help you avoid code duplication and leverage on generic code:
+In summary, these guiding principles help you reuse your code in many different languages and contexts:
 
-- separate the pure C++ implementation in a dedicated project, that does not depend on `xtensor-python`, `xtensor-julia` or other language bindings.
-- operate on abstract `xexpression` rather than explicit types such as `xtensor` or `xarray`.
-- Python bindings and Julia bindings should be thin wrappers around the expression-based implementation.
+- separate the pure C++ implementation in a dedicated project that does not depend on `xtensor-python`, `xtensor-julia`, or other language bindings.
+- operate on abstract `xexpression` types rather than explicit types such as `xtensor` or `xarray`.
+- Python bindings and Julia bindings should be thin wrappers around the expression-based C++ implementation.
 
 ![sad](/assets/images/posts/sad.png)
 <div class="img-caption">
