@@ -343,6 +343,8 @@ footer.clean {
   padding: 8px;
   border-radius: 2px;
   overflow-x: auto;
+  font-size: 20px;
+  line-height: 20px;
 }
 
 .twitter-tweet {
