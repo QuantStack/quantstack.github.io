@@ -701,7 +701,7 @@
                     </section>
                     <section>
                         <div class="splitting"></div>
-                        <p>Broadcasting>
+                        <p>Broadcasting</p>
                         <div class="fragment" style="margin-top: 5%;">
                             <div class="left-panel">
                                 <pre class="panel"><code class="cpp panel" data-trim>
@@ -730,12 +730,12 @@
                         <div class="splitting"></div>
                         <p>Broadcasting</p>
                         <div style="margin-top: 2%;">
-                            <div class="left-panel fragment">
+                            <div class="left-panel">
                                 <pre class="panel"><code class="cpp panel" data-trim>
                                     xarray&lt;double&gt; a = {1., 2., 3., 4.};
                                 </code></pre>
                             </div>
-                            <div class="right-panel fragment">
+                            <div class="right-panel">
                                 <img alt="broadcasting1.svg" src="broadcasting1.svg" width="30%"/>
                             </div>
                         </div>
@@ -950,17 +950,17 @@
                     <p>C++: Using an algorithm from the STL on a numpy array</p>
 <pre class="panel">
 <code class="cpp">
-#include <numeric>                        // Standard library import for std::accumulate
+#include &lt;numeric&gt;                        // Standard library import for std::accumulate
 #include "pybind11/pybind11.h"            // Pybind11 import to define Python bindings
 #include "xtensor/xmath.hpp"              // xtensor import for the C++ universal functions
 #define FORCE_IMPORT_ARRAY                // numpy C api loading
 #include "xtensor-python/pyarray.hpp"     // Numpy bindings
 
-double sum_of_sines(xt::pyarray<double> &m)
+double sum_of_sines(xt::pyarray&lt;double&gt; &m)
 {
     auto sines = xt::sin(m);
     // sines does not actually hold any value, which are only computed upon access
-    return std::accumulate(sines.begin(), sines.end(), 0.0);
+    return std::accumulate(sines.cbegin(), sines.cend(), 0.0);
 }
 
 PYBIND11_PLUGIN(xtensor_python_test)
@@ -994,8 +994,8 @@ xt.sum_of_sines(v)
 #include "pybind11/pybind11.h"
 #define FORCE_IMPORT_ARRAY
 #include "xtensor-python/pyvectorize.hpp"
-#include <numeric>
-#include <cmath>
+#include &lt;numeric&gt;
+#include &lt;cmath&gt;
 
 namespace py = pybind11;
 
