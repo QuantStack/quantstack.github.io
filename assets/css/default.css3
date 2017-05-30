@@ -251,6 +251,7 @@ footer.clean {
     padding: 10px 20px;
     background-color: var(--qs-section-background);
     font-size: 20px;
+    line-height: 28px;
 }
 
 .section-content {
