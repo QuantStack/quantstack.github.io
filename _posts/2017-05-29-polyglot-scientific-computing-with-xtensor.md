@@ -42,9 +42,10 @@ Assume we have some Python module based on a `process` function that operates on
 
 ## First implementation
 
-Let's start with a straightforward implementation, that is, a simple C++ module exposing one function to Python using `pybind11` and `xtensor-python`, which can be done with a single cpp file, `process.cpp`. In this example, we provide all the boilerplate to produce a minimal extension module.
+Let's start with a straightforward implementation, that is, a simple C++ module exposing one function to Python using `pybind11` and `xtensor-python`, which can be done with a single cpp file, `pyprocess.cpp`. In this example, we provide all the boilerplate to produce a minimal extension module.
 
 ```cpp
+// pyprocess.cpp
 #define FORCE_IMPORT_ARRAY
 #include "xtensor-python/pyarray.hpp"
 
@@ -99,6 +100,8 @@ double xprocess(const E1& e1, const E2& e2)
 This `xprocess` template function is generic and allows the use of any type for its arguments. If we try to call it with something that does not actually implement the `xexpression` interface, we will end up with cryptic errors. To avoid this, we can modify the signature of `xprocess` so that the compiler complains when the function arguments are not xtensor expressions:
 
 ```cpp
+// in xprocess.hpp
+
 template <class E1, class E2>
 double xprocess(const xt::xexpression<E1>& e1,
                 const xt::xexpression<E2>& e2)
@@ -112,6 +115,8 @@ double xprocess(const xt::xexpression<E1>& e1,
 The first line in the function retrieves the real type of the expression so we can keep the rest of the implementation unchanged.
 
 ```cpp
+// in pyprocess.cpp
+
 PYBIND11_PLUGIN(cppprocess)
 {
     xt::import_numpy();
@@ -134,6 +139,8 @@ We can now use `xprocess` in pure C++ contexts without any dependency on `pybind
 But we can go further. We can now expose `xprocess` to Julia with very little additional work:
 
 ```cpp
+// in jlprocess.cpp
+
 #include "jlcxx/jlcxx.hpp"
 #include "xtensor-julia/jlarray.hpp
 #include "xprocess/xprocess.hpp"
