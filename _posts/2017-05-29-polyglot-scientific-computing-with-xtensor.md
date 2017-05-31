@@ -13,6 +13,8 @@ excerpt_separator: <!--more-->
 In the future, there will be actual wars about which language humans should use to speak to the machine.
 </div>
 
+<!--more-->
+
 The *One Language to Rule Them All* probably does not exist yet. In the world of interactive scientific computing, countless articles and blog posts argue on the merits of R, Python, Julia and other technologies. The truth is, while this diversity is a chance, efforts are duplicated in each community and collaboration is sparse, which hurts sustainability in the long run.
 
 For numerical code, C-level efficiency can be achieved in different ways. Preferred approaches differ in Python and Julia. On the one hand, authors of Python extension modules often make use of tools such as cython, or write their code in a way that is amenable to vectorization with numpy. On the other hand, Julia fully relies on just-in-time compilation and the LLVM stack. These two approaches are not easily reconcilable.
