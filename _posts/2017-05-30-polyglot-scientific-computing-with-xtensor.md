@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Scientific computing in a polyglot world with xtensor"
-date: 2017-05-29 20:20:40 +0100
+date: 2017-05-30 20:20:40 +0100
 author: QuantStack
 categories: [C++]
 excerpt_separator: <!--more-->
