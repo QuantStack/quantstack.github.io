@@ -14,6 +14,7 @@ title: Team
 
     {% for m in site.people %}
     {% assign person = m[1] %}
+    {% if m[0] != "QuantStack" %}
     <div class="bio-card">
         <a href="/{{ person.url }}"><img class="card-photo" alt="Avatar picture" src="https://avatars1.githubusercontent.com/u/{{ person.avatar }}?v=3&amp;s=200"></a>
 
@@ -33,6 +34,7 @@ title: Team
             </a>
         </div>
     </div>
+    {% endif %}
     {% endfor %}
 </div>
 </div>
