@@ -91,6 +91,8 @@ p {
 
 .header-title img {
   max-width: 600px;
+  width: auto;
+  height: 120px;
 }
 
 .header-title a:hover {
