@@ -100,6 +100,7 @@ p {
 
 .header-content {
   width: 100%;
+  margin-bottom: 40px;
 }
 
 .social-links {
@@ -260,11 +261,11 @@ footer.clean {
   max-width: 900px;
 }
 
-.xtensor-button-container {
+.project-button-container {
   height: 54px;
 }
 
-.xtensor-button {
+.project-button {
   -webkit-transition-duration: .1s;
   transition-duration: .1s;
   display: inline-block;
@@ -285,17 +286,30 @@ footer.clean {
   -ms-user-select: none;
   -khtml-user-select: none;
   user-select: none;
-  background-color: #7ddb85;
-  color: black;
 }
 
-.xtensor-button:hover {
+.xtensor .project-button {
+  color: black;
+  background-color: #7ddb85;
+}
+
+.xsimd .project-button {
+  color: black;
+  background-color: #3fb4c5;
+}
+
+.xeus .project-button {
+  color: black;
+  background-color: #5555ff;
+}
+
+.project-button:hover {
   font-size: 20px;
   opacity: 1;
   cursor: pointer;
 }
 
-.xtensor-icon {
+.project-icon {
   display: inline-block;
   height: 44px;
   margin: 0 20px 0 0;
@@ -306,13 +320,13 @@ footer.clean {
   opacity: 0.90;
 }
 
-.xtensor-icon:hover {
+.project-icon:hover {
   color: #000;
   opacity: 1;
   cursor: pointer;
 }
 
-#xtensor-baseline {
+.project-baseline {
   font-size: 24px;
   max-width: 900px;
   margin: 0 auto 60px auto;
@@ -320,7 +334,7 @@ footer.clean {
   font-weight: bold;
 }
 
-#xtensor-summary-line {
+.project-summary-line {
   font-size: 24px;
   max-width: 900px;
   margin: 0 auto 0 auto;
@@ -333,9 +347,8 @@ footer.clean {
   margin: 0 auto 0 auto;
 }
 
-.xtensor-buttons {
+.project-buttons {
   width: 260px;
-  height: 150px;
   margin: 60px auto 60px auto;
 }
 

@@ -65,6 +65,12 @@ menu:
   - title: xtensor
     url: /xtensor
 
+  - title: xeus
+    url: /xeus
+
+  - title: xsimd
+    url: /xsimd
+
 copyright:
   author: QuantStack
   url: http://quantstack.net
