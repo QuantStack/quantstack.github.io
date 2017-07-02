@@ -8,9 +8,11 @@
  - an API following the idioms of the **C++ standard library**.
  - tools to manipulate array expressions and build upon `xtensor`.
 
-Containers of `xtensor` are inspired by [NumPy](http://www.numpy.org), the Python array programming library. **Adaptors** for existing data structures to be plugged into our expression system can easily be written. In fact, `xtensor` can be used to **process `numpy` data structures inplace** using Python's [buffer protocol](https://docs.python.org/3/c-api/buffer.html). For more details on the numpy bindings, check out the [xtensor-python](https://github.com/QuantStack/xtensor-python) project.
+Containers of `xtensor` are inspired by [NumPy](http://www.numpy.org), the Python array programming library. **Adaptors** for existing data structures to be plugged into our expression system can easily be written.
 
-`xtensor` requires a modern C++ compiler supporting C++14. The following C+ compilers are supported:
+In fact, `xtensor` can be used to **process `numpy` data structures inplace** using Python's [buffer protocol](https://docs.python.org/3/c-api/buffer.html). Similarly, we can operate on Julia arrays. For more details on the numpy bindings and Julia, check out the [xtensor-python](https://github.com/QuantStack/xtensor-python) and [xtensor-julia](https://github.com/QuantStacl/Xtensor.jl) projects respectively.
+
+`xtensor` requires a modern C++ compiler supporting C++14. The following C++ compilers are supported:
 
  - On Windows platforms, Visual C++ 2015 Update 2, or more recent
  - On Unix platforms, gcc 4.9 or a recent version of Clang
@@ -113,6 +115,10 @@ Outputs:
  {1, 128, 2187}}{% endraw %}
 ```
 
+## The Numpy to xtensor cheat sheet
+
+If you are familiar with numpy APIs, and you are interested in xtensor, you can check out the [numpy to xtensor cheat sheet](https://xtensor.readthedocs.io/en/latest/numpy.html) provided in the documentation.
+
 ## Lazy Broadcasting with `xtensor`
 
 We can operate on arrays of different shapes of dimensions in an elementwise fashion. Broadcasting rules of xtensor are similar to those of [numpy](http://www.numpy.org) and [libdynd](http://libdynd.org).
@@ -193,8 +199,8 @@ Therefore, when building an application with xtensor, we recommend using statica
 
 ## Python bindings
 
-The [xtensor-python](https://github.com/QuantStack/xtensor-python) project provides the implementation of an `xtensor` container, `pyarray` which
-effectively wraps numpy arrays, allowing inplace modification, including reshapes.
+The [xtensor-python](https://github.com/QuantStack/xtensor-python) project provides the implementation of two `xtensor` containers, `pyarray` and `pytensor` which
+effectively wrap numpy arrays, allowing inplace modification, including reshapes.
 
 ## Building and Running the Tests
 
@@ -211,7 +217,16 @@ Once `gtest` and `cmake` are installed, you can build and run the tests:
 ```bash
 mkdir build
 cd build
-cmake ../
+cmake -DBUILD_TESTS=ON ../
+make xtest
+```
+
+You can also use CMake to download the source of `gtest`, build it, and use the generated libraries:
+
+```bash
+mkdir build
+cd build
+cmake -DBUILD_TESTS=ON -DDOWNLOAD_GTEST=ON ../
 make xtest
 ```
 
@@ -222,7 +237,7 @@ cd test
 conda env create -f ./test-environment.yml
 source activate test-xtensor
 cd ..
-cmake .
+cmake -DBUILD_TESTS=ON .
 make xtest
 ```
 
