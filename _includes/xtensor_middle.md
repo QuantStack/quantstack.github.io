@@ -1,4 +1,4 @@
-## What is xtensor?
+## Introduction
 
 `xtensor` is a C++ library meant for numerical analysis with multi-dimensional array expressions.
 
@@ -58,7 +58,7 @@ std::cout << res;{% endraw %}
 
 Outputs:
 
-```cpp
+```
 {7, 11, 14}
 ```
 

@@ -29,5 +29,7 @@ title: Home
 </header>
 <div class="section">
     <div class="section-content" markdown="1">
+{% capture xproperty %}{% include xproperty_middle.md %}{% endcapture %}
+{{ xproperty | markdownify }}
     </div>
 </div>
