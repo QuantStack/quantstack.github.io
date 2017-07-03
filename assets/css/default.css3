@@ -298,14 +298,19 @@ footer.clean {
     background-color: #7ddb85;
 }
 
+.xeus .project-button {
+    color: black;
+    background-color: #5555ff;
+}
+
 .xsimd .project-button {
     color: black;
     background-color: #3fb4c5;
 }
 
-.xeus .project-button {
+.xproperty .project-button {
     color: black;
-    background-color: #5555ff;
+    background-color: #ff8f45;
 }
 
 .project-button:hover {

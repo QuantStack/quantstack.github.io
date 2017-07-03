@@ -71,6 +71,9 @@ menu:
   - title: xsimd
     url: /xsimd
 
+  - title: xproperty
+    url: /xproperty
+
 copyright:
   author: QuantStack
   url: http://quantstack.net
