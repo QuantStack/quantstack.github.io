@@ -300,17 +300,17 @@ footer.clean {
 
 .xeus .project-button {
     color: black;
-    background-color: #5555ff;
+    background-color: #40b3c3;
 }
 
 .xsimd .project-button {
     color: black;
-    background-color: #3fb4c5;
+    background-color: #d8e448;
 }
 
 .xproperty .project-button {
     color: black;
-    background-color: #ff8f45;
+    background-color: #0092ca;
 }
 
 .project-button:hover {
