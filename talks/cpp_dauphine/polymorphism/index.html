@@ -950,6 +950,19 @@
     }
                         </code></pre>
                     </section>
+                    <section>
+                        <h3>Entity semantic</h3>
+                        <pre class="panel"><code class="panel cpp">
+    void test_cast()
+    {
+        volatility* v1 = make_volatility("BNP Paribas", {0.15, 0.18, 0.20, 0.22});
+        implied_volatility* iv = dynamic_cast&lt;implied_volatility*&gt;(v1);
+        bumped_volatility* bv = dynamic_cast&lt;bumped_volatility*&gt;(v1);
+        std::cout &lt;&lt; iv &lt;&lt; std::endl;
+        std::cout &lt;&lt; bv &lt;&lt; std::endl;
+    }
+                        </code></pre>
+                    </section>
                 </section>
                 <section>
                     <section>
@@ -1128,6 +1141,37 @@
                     </section>
                     <section>
                         <h3>Multiple inheritance</h3>
+                        <pre class="panel"><code class="panel cpp">
+    class implementation : public interface1, public interface2
+    {
+    public:
+
+        virtual ~implementation();
+    };
+                        </code></pre>
+                    </section>
+                    <section>
+                        <h3>Multiple inheritance</h3>
+                        <pre class="panel"><code class="panel cpp">
+    class root {};
+    
+    class interface_1 : public root {};
+    class interface_2 : public root {};
+
+    // The following is problematic
+    class implementation : public interface_1, public interface2 {};
+                        </code></pre>
+                    </section>
+                    <section>
+                        <h3>Multiple inheritance</h3>
+                        <pre class="panel"><code class="panel cpp">
+    class implied_volatility : public volatility, private surface
+    {
+    public:
+
+        ~implied_volatility();
+    };
+                        </code></pre>
                     </section>
                 </section>
             </div>
