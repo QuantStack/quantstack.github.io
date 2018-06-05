@@ -1,26 +1,177 @@
----
-layout: default
-title: Home
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
 
-<header class="clean">
-	{% include top.html %}
-	<div class="header-title" style="max-width: 600px; padding-top: 160px;">
-		<a href="{{ site.url }}"><img src="./assets/images/logo.svg" style="height: auto;" alt="QuantStack"></a>
-	</div>
-    <div class="header-content">
-        <div class="project-summary-line">
-        We build scientific computing software, from high-performance
-        scientific computing in C++ to interactive data visualization
-        in the web browser and the Python scientific stack.
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+    <link href="css/styles.css" rel="stylesheet">
+    <title>Quantstack</title>
+</head>
+<body>
+    <div id="content-head"> </div>
+    <div class="container-fluid fond fond1 parallax">
+        <div class="container">
+            <h1 class="col-md-8 col-md-push-2">From quantitative finance to physics and computational economics, our team can help you get more from your data and computational resources.</h1>
         </div>
-        <div style="height: 150px"></div>
-    <div>
-</header>
+        <!--<a href="downloads.html" class="btn transparent">Download</a>-->
+    </div>
+    <div class="container-fluid fond2 global">
+        <div class="container">
+            <div class="spacer big "></div>
+            <div class="row">
+                <div class="col-md-10 col-md-push-1">
+                    <h2>QuantStack is a team of developers and contributors of major open-source projects for scientific computing, who are passionate about science and technology.</h2>
+                </div>
+            </div>
+            <div class="spacer big"></div>
+            <div class="row">
+                <div class="col-md-10 col-md-push-1">
+                    <div class="col-md-6">
+                        <div class=" bloc-home tall">
+                            <a href="xtensor.html">
+                                <img src="img/projets/xtensor.svg" class="img-responsive" >
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-6 ">
+                                <div class=" bloc-home">
+                                    <a href="xsimd.html">
+                                        <img src="img/projets/xsimd.svg" class="img-responsive" >
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 ">
+                                <div class=" bloc-home">
+                                    <a href="xeus.html">
+                                        <img src="img/projets/xeus.svg" class="img-responsive" >
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 ">
+                                <div class=" bloc-home">
+                                    <a href="xwidgets.html">
+                                        <img src="img/projets/xwidgets.svg" class="img-responsive" >
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="clear: both"></div>
+                <div class="row">
+                    <div class="spacer  "></div>
+                    <a href="projects.html" class="btn transparent-black" style="margin: 0 auto; width: 200px">See all our projects</a>
+                    <div class="spacer  big"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid yellow-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-push-1">
+                    <h1>We joined forces to improve the workflows of data scientists, engineers and businesses.   </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid fond3 icons">
+        <div class="container">
+            <div class="spacer big"></div>
+            <div class="spacer big"></div>
 
-<div class="section">
-<div class="section-content">
-    <a class="twitter-timeline" href="https://twitter.com/QuantStack" data-tweet-limit="1">Latest tweet by @QuantStack</a>
-    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div>
-</div>
+            <div class="row">
+                <div class="col-md-10 col-md-push-1">
+                    <div class="row">
+                        <div class="col-md-4 icon-content">
+                            <img src="img/icone-perf.svg" width="198" />
+                            <p>High-performance scientific computing </p>
+                        </div>
+                        <div class="col-md-4  icon-content">
+                            <img src="img/icone-jupyter.svg" width="198" />
+                            <p>Extensions and features for Jupyter and JupyterLab</p>
+                        </div>
+                        <div class="col-md-4  icon-content">
+                            <img src="img/icone-training.svg" width="198" />
+                            <p>Custom development & in-person training</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="clear: both;"></div>
+            <div class="spacer big"></div>
+            <a href="the-team.html" class="btn transparent" style="margin: 0 auto; width: 325px">Meet the people behind the technology</a>
+            <div class="spacer big"></div>
+
+        </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <div id="content-foot"></div>
+    <script src="js/include-menus.js"></script>
+    <script>
+
+        function isInViewport(node) {
+            var rect = node.getBoundingClientRect()
+            return (
+                (rect.height > 0 || rect.width > 0) &&
+                rect.bottom >= 0 &&
+                rect.right >= 0 &&
+                rect.top <= (window.innerHeight || document.documentElement.clientHeight) &&
+                rect.left <= (window.innerWidth || document.documentElement.clientWidth)
+            )
+        }
+
+
+        $(window).scroll(function() {
+            var scrolled = $(window).scrollTop()
+            $('.parallax').each(function(index, element) {
+                var initY = $(this).offset().top+200
+                var height = $(this).height()
+                var endY  = initY + $(this).height()
+                // Check if the element is in the viewport.
+                var visible = isInViewport(this)
+                if(visible) {
+                    var diff = scrolled - initY
+                    var ratio = Math.round((diff / height) * 100)
+                    var move = parseInt(-(ratio * 1.5));
+                  //  if (move>90)move = 90;
+                    $(this).css('background-position','center ' + move + 'px')
+                }
+            })
+
+            $('.icons').each(function(index, element) {
+                var visible = isInViewport(this);
+                if(visible) {
+                    $('.icon-content').each(function (index,element) {
+                          $(this).delay(index*500).fadeIn();
+                    });
+                }
+            });
+        });
+
+
+    </script>
+    </body>
+    </html>
+

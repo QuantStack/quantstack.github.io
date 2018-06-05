@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+    <title>Quantstack PROJECTS</title>
+
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!--OWL Carousel slider-->
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.transitions.css" type="text/css">
+
+    <style>
+        .owl-prev {
+            position: absolute;
+            left: -80px;
+            top: 42%;
+            font-size: 40px;
+        }
+        .owl-next {
+            position: absolute;
+            right: -60px;
+            top: 42%;
+            font-size: 40px;
+
+        }
+    </style>
+</head>
+<body>
+<div id="content-head"> </div>
+<div class="container-fluid fond fond4 parallax">
+    <div class="container">
+        <p class="petit-titre">PROJECTS</p>
+        <div class="trait"></div>
+        <h1 class="col-md-10 col-md-push-1">QuantStack developers contribute to a number of open-source projects, including jupyter, xtensor, bqplot, conda-forge and many others.</h1>
+    </div>
+</div>
+<div class="container portraits projects " >
+    <div class="row">
+        <div class="col-lg-10 col-md-12 col-lg-push-1">
+            <div class="col-md-12">
+                <h3 class="secondaire">High-Performance-Computing</h3>
+             </div>
+            <div class="spacer big"></div>
+            <div class="spacer big"></div>
+            <div class="owl-carousel owl-theme" id="pt-0">
+              <!--  <div class="col-md-4 owl-item">
+                    <div class="portrait" data-href="xtensor.html">
+                        <a href="javascript:;">
+                            <img src="img/projets/xtensor.svg" class="img-responsive" >
+                        </a>
+                        <div class="text-center">
+                            <p>Multi-dimensional arrays with broadcasting and lazy computing.</p>
+                            <a href="javascript:;"><img class="fleche" src="img/fleche-droite.svg"></a>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+</div>
+<div class="spacer big "></div>
+<div class="container-fluid  grey-bg" >
+    <div class="container portraits projects  " >
+        <div class="row">
+            <div class="col-lg-10 col-md-12 col-lg-push-1">
+                <div class="col-md-12">
+                    <h3 class="secondaire">Jupyter Extensions</h3>
+                </div>
+                <div class="spacer big"></div>
+                <div class="spacer big"></div>
+                <div class="owl-carousel owl-theme" id="pt-1">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="spacer big grey-bg"></div>
+
+<div class="container portraits projects " >
+    <div class="row">
+        <div class="col-lg-10 col-md-12 col-lg-push-1">
+            <div class="col-md-12">
+                <h3 class="secondaire">Data Visualization</h3>
+            </div>
+            <div class="spacer big"></div>
+            <div class="spacer big"></div>
+            <div class="owl-carousel owl-theme" id="pt-2">
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="spacer big "></div>
+ <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+
+<div id="content-foot"></div>
+<script src="js/include-menus.js"></script>
+
+<script src="js/owl.carousel.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+
+        // Ajax call to projects.json
+        $.ajax({
+            type:"GET",
+            url:"assets/projects.json", //get the current project
+            success: function(data) {
+
+                var projects = data.Projects;
+                var collectionToAdd;
+
+
+                $.each(projects, function(id, project) {
+                    if( $("#pt-"+project.type))
+                        $("#pt-"+project.type).append(addHtmlItem(id,project));
+                });
+                initOwls();
+                $("div").click(function () {
+                    if($(this).data("href") != null){
+                        window.location.href = $(this).data("href");
+                    }
+                });
+            }
+        });
+
+        function addHtmlItem(id,project) {
+
+            var tag =  (project.tag2 !=="")?project.tag2:project.tag; //Fallback if tag2 is empty..
+
+            var html = "<div class=\"col-md-4 owl-item\">\n" +
+                "                        <div class=\"portrait\" data-href=\""+id+".html\">\n" +
+                "                            <a href=\"javascript:;\">\n" +
+                "                                <img src=\"img/projets/"+id+".svg\" class=\"img-responsive\" >\n" +
+                "                            </a>\n" +
+                "                            <div class=\"text-center\">\n" +
+                "                                <p>"+tag+"</p>\n" +
+                "                                <a href=\"javascript:;\"><img class=\"fleche\" src=\"img/fleche-droite.svg\"></a>\n" +
+                "                            </div>\n" +
+                "                        </div>\n" +
+                "                    </div>";
+
+            return html;
+        }
+
+        function initOwls() {
+            var owl = $(".owl-carousel");
+            owl.owlCarousel({
+                loop: true,
+                nav:true,
+                items:3,
+                margin:35,
+                navigation : true,
+                pagination: true,
+                autoPlay  : false
+
+            });
+
+            $( ".owl-prev").html('<i class="glyphicon glyphicon-chevron-left"></i>');
+            $( ".owl-next").html('<i class="glyphicon glyphicon-chevron-right"></i>');
+
+        }
+
+
+    })
+
+
+</script>
+
+
+</body>
+</html>
+
