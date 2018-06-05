@@ -760,6 +760,7 @@ h3.secondaire{
     padding: 40px;
     background-color:#171729;
     max-height: 135px;
+    min-height: 135px;
 }.projects .portrait a:first-child img {
     max-height: 70px;
     text-align: center;
