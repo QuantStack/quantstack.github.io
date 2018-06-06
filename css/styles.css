@@ -759,8 +759,7 @@ h3.secondaire{
     display: block;
     padding: 40px;
     background-color:#171729;
-    max-height: 135px;
-    min-height: 135px;
+    height: 135px;
 }.projects .portrait a:first-child img {
     max-height: 70px;
     text-align: center;
@@ -778,6 +777,7 @@ h3.secondaire{
     color: #0e0e0e;
     margin: 40px 5px;
     min-height: 78px;
+    overflow: hidden;
 }
 
 .owl-item{

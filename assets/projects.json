@@ -31,7 +31,7 @@
             "documentation": "https://xeus.readthedocs.io",
             "try": "",
             "tag": "The C++ implementation of the Jupyter Kernel protocol",
-            "tag2": "Let the Jupyter kernel authors focus on implementing the language-specific components",
+            "tag2": "C++ implementation of the Jupyter Kernel protocol",
             "tagDel": "C++ implementation of the Jupyter Kernel protocol"
         },
         "xeus-cling": {
