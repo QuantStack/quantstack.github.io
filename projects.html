@@ -24,19 +24,22 @@
     <!--OWL Carousel slider-->
     <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
     <link rel="stylesheet" href="css/owl.transitions.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.template.css" type="text/css">
 
     <style>
         .owl-prev {
             position: absolute;
             left: -80px;
             top: 42%;
-            font-size: 40px;
+            width: 26px;
+            height: 48px;
         }
         .owl-next {
             position: absolute;
             right: -60px;
             top: 42%;
-            font-size: 40px;
+            width: 26px;
+            height: 48px;
 
         }
         @media (max-width: 768px) {
@@ -180,12 +183,13 @@
                 margin:35,
                 navigation : true,
                 pagination: true,
+                dots:true,
                 autoPlay  : false
 
             });
 
-            $( ".owl-prev").html('<i class="glyphicon glyphicon-chevron-left"></i>');
-            $( ".owl-next").html('<i class="glyphicon glyphicon-chevron-right"></i>');
+            $( ".owl-prev").html('<img src="img/fleche-gauche-gde.svg" class="img-responsive" />');
+            $( ".owl-next").html('<img src="img/fleche-droite-gde.svg" class="img-responsive" />');
 
         }
 

@@ -363,14 +363,17 @@ div.spacer.big{
 }
 .bloc-home a{
     display: block;
-    padding: 44px 25px;
+    padding: 35px 0 15px;
 }
 .bloc-home.tall a{
-    padding: 130px 50px;
+    padding: 90px 0 50px;
+}
+.bloc-home.middle a{
+    padding: 30px 58px 0px;
 }
 @media (max-width: 776px) {
-    .bloc-home.tall a{
-        padding: 44px 25px;
+    .bloc-home.tall a, .bloc-home.middle a{
+        padding: 35px 0 15px;
     }
 }
 .icon-content{
@@ -755,13 +758,13 @@ h3.secondaire{
 
 .projects .portrait a:first-child {
     width: 100%;
-     overflow: hidden;
+    overflow: hidden;
     display: block;
-    padding: 40px;
+    padding: 30px 15px;
     background-color:#171729;
     height: 135px;
 }.projects .portrait a:first-child img {
-    max-height: 70px;
+    height: 97px;
     text-align: center;
     margin: 0 auto;
 }
