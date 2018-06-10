@@ -8,7 +8,7 @@
         "documentation": "https://xtensor.readthedocs.io",
         "try": "https://mybinder.org/v2/gh/QuantStack/xtensor/0.16.1?filepath=notebooks/xtensor.ipynb",
         "tag": "The C++ Tensor Algebra Library",
-        "tag2": "Multi-dimensional arrays with broadcasting and lazy computing - all open-source.",
+        "tag2": "C++ tensor algebra library",
         "tagDel": "Multi-dimensional arrays with broadcasting and lazy computing."
       },
       "xtensor-blas": {
@@ -85,7 +85,7 @@
             "md": "https://raw.githubusercontent.com/QuantStack/xsimd/master/README.md",
             "documentation": "https://xsimd.readthedocs.io",
             "try": "",
-            "tag": "C++ wrappers for SIMD intrinsics and parallelized, optimized math implementations",
+            "tag": "C++ wrappers for SIMD intrinsics and optimized math implementations",
             "tag2": "",
             "tagDel": "C++ wrappers for SIMD intrinsics"
         },
