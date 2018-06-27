@@ -547,7 +547,7 @@ footer{
     font-size: 18px;
 }
 
-.portraits .portrait {
+.portraits .portrait,.portraits .portrait-bis {
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0px 1px 10px 0 rgba(1, 0, 0, 0.17);
@@ -555,11 +555,34 @@ footer{
     margin-bottom: 25px;
     min-height: 490px;
 }
+.portraits .portrait-bis div:first-child:hover {
+    cursor:pointer;
+}
+.portraits .portrait-bis a.avatar {
+    display: block;
+    width: 166px;
+    height: 166px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: -86px auto 0;
+
+}
+.portraits .portrait-bis div:first-child:hover a.avatar{
+    border: solid 3px var(--yellowish-tan);
+    padding: -6px;
+}
+.portraits .portrait-bis div:first-child:hover a.avatar img{
+    margin: -3px;
+
+}
+.portraits .portrait-bis div:first-child:hover img.fleche {
+    content:url("../img/fleche-droite-jaune.svg");
+}
 .owl-carousel .portrait {
     min-height: 360px;
  }
 .portraits .portrait:hover {
-    border: solid 3px var(--yellowish-tan);
+   border: solid 3px var(--yellowish-tan);
     padding: 7px;
     cursor: pointer;
 }
@@ -570,10 +593,7 @@ footer{
     background-color: var(--yellowish-tan);
     height: 119px;
 }
-.portraits img.avatar, .fiche img.avatar{
-    margin-top: -85px;
-    width: 166px;
-}
+
 .portraits img.fleche {
     width: 25px;
     margin-top: 18px;
@@ -616,7 +636,7 @@ footer{
     color: var(--yellowish-tan);
 }
 .fleche-retour.y a:hover span{
-    color: var(--ye);
+    color: var(--yellowish-tan);
 }
 .fleche-retour.y a img{
     fill: var(--yellowish-tan);
