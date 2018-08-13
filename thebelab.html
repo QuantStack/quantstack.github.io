@@ -1,0 +1,95 @@
+<html>
+<head>
+  <meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+  <title>Thebe Lab examples</title>
+  <link rel="stylesheet" type="text/css" href="thebelab.css" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js">
+  </script>
+
+  <script type="text/x-thebe-config">
+    {
+      bootstrap: true,
+      binderOptions: {
+        repo: "QuantStack/xleaflet",
+        ref: "stable"
+      },
+      kernelOptions: {
+        name: "xeus-cling-cpp14"
+      }
+    }
+  </script>
+  <script type="text/javascript" src="https://unpkg.com/thebelab@^0.3.0"></script>
+
+</head>
+<body>
+<h1>Turn any HTML &lt;pre&gt; tag into a C++ interpreter</h1>
+
+  <p>This page illustrates a minimal setup to get the xeus-cling C++ Jupyter
+  kernel attached to an HTML tag.</p>
+
+  <h2>A simple test</h2>
+  <pre data-executable="true" data-language="clike">#include &lt;iostream&gt;
+
+std::cout &lt;&lt; "hello, world" &lt;&lt; std::endl;
+  </pre>
+
+  <p>Try executing some more code. You may need to restart the kernel to start over.</p>
+
+  <h2>How does this work?</h2>
+
+  <p>This demonstration is powered by:</p>
+
+  <ul>
+      <li><a href="http://jupyter.org/">Project Jupyter</a></li>
+      <li>The <a href="https://mybinder.org/">Binder</a> project, for serving live language kernels.</li>
+      <li>The <a href="https://github.com/QuantStack/xeus-cling">xeus-cling</a> C++ Jupyter kernel, built on the top of the cling C++ interpreter.</li>
+      <li>THe <a href="https://github.com/minrk/thebelab">ThebeLab</a> project, for turning HTML pages into live documents.</li>
+  </ul>
+
+  <p>To include such examples on your own website, this requires adding a few
+  script tags to the page:</p>
+
+  <ul>
+      <li>loading <tt>thebelab</tt> on the page,</li>
+      <li>loading the <tt>requirejs</tt> library, which is only required for Interactive Widgets,</li>
+      <li>and a script tag for configuring ThebeLab.</pre>
+  </ul>
+
+  <h2>A fully-fledged C++ notebook?</h2>
+
+  You can also try out a <a href="https://mybinder.org/v2/gh/QuantStack/xeus-cling/stable?filepath=notebooks/xcpp.ipynb">fully-fledged C++ Jupyter notebook</a> powered by Binder.
+
+  <h2>Making use of Jupyter interactive widgets</h2>
+  <p>This example makes use of the <a href="https://github.com/QuantStack/xwidgets">xwidgets</a> and <a href="https://github.com/QuantStack/xleaflet">xleaflet</a>
+  projects, for interactive maps visualization in C++</a>
+
+  <pre data-executable="true" data-language="clike">#include &lt;iostream&gt;
+#include &lt;string&gt;
+
+#include "xleaflet/xmap.hpp"
+#include "xleaflet/xbasemaps.hpp"
+
+#include "xcpp/xdisplay.hpp"
+
+auto water_color = xlf::basemap({"Stamen", "Watercolor"});
+
+auto map = xlf::map_generator()
+    .layers({water_color})
+    .center({50, 354})
+    .zoom(5)
+    .finalize();
+
+xcpp::display(map);
+  </pre>
+
+  <h2>Adding layers and a layers-control to the map</h2>
+  <pre data-executable="true" data-language="clike">#include "xleaflet/xlayers_control.hpp"
+auto terrain = xlf::basemap({"Stamen", "Terrain"});
+
+map.add_layer(terrain);
+map.add_control(xlf::layers_control());
+  </pre>
+
+</body>
+</html>
