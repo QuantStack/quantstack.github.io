@@ -79,7 +79,7 @@
                                     </div>
                                     <div class="col-md-6 col-md-push-1">
                                     <p><strong>QuantStack</strong><br>
-                                    52 Passage du Bureau<br>
+                                    27 Rue du Chemin Vert<br>
                                     75011, PARIS<br>
                                     France</p>
                                     <div class="clearfix"></div>
@@ -221,8 +221,7 @@
                 }
             ];
             function initMap() {
-
-                var quantStack = {lat: 48.853297 , lng: 2.394142};
+		var quantStack = {lat: 48.8586119, lng: 2.3708596};
                 var map = new google.maps.Map(document.getElementById('map'), {
                     zoom: 12,
                     center: quantStack,
@@ -232,12 +231,8 @@
                 var marker = new google.maps.Marker({
                     position: quantStack,
                     map: map
-
-
                 });
-
              //   map.mapTypes.set(stylesArray);
-
             }
         </script>
         <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBCE5lcUTrHY8N0ZdI-EBNdg29SECCH5iU&callback=initMap">
