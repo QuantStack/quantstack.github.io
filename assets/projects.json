@@ -42,8 +42,8 @@
         "url": "https://github.com/QuantStack/xtensor-python",
         "name": "Xtensor-python",
         "md": "https://raw.githubusercontent.com/QuantStack/xtensor-python/master/README.md",
-        "documentation": "https://xtensor-python.readthedocs.io/en/latest/",
-        "try": "https://mybinder.org/v2/gh/QuantStack/xtensor/stable?filepath=notebooks/xtensor.ipynb",
+        "documentation": "https://xtensor-python.readthedocs.io/",
+        "try": "",
         "tag": "Python extension to xtensor",
         "tag2": "",
         "tagDel": ""
