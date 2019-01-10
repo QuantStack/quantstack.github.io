@@ -45,6 +45,17 @@
             "tag2": "",
             "tagDel": ""
         },
+        "xeus-python": {
+            "type": "1",
+            "url": "https://github.com/QuantStack/xeus-python",
+            "name": "Xeus-Python",
+            "md": "https://raw.githubusercontent.com/QuantStack/xeus-python/master/README.md",
+            "documentation": "https://xeus-python.readthedocs.io",
+            "try": "https://mybinder.org/v2/gh/QuantStack/xeus-python/stable?filepath=notebooks/xeus-python.ipynb",
+            "tag": "Jupyter Kernel for Python",
+            "tag2": "",
+            "tagDel": ""
+        },
         "xwidgets": {
             "type": "2",
             "url": "https://github.com/QuantStack/xwidgets",
