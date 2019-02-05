@@ -66,7 +66,7 @@ TorchScript models.
 **Mentors:** This project will be mentored by both the QuantStack team and the
 Pythran developers.
 
-### **Xeus:** A Xeus-based Jupyter Kernel for Scilab**
+### **Xeus:** A Xeus-based Jupyter Kernel for Scilab
 
 Scilab is a free and open-source numerical and computational programming
 language. It can be used for statistical analysis, image processing, signal
