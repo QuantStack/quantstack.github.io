@@ -66,9 +66,9 @@
     var project;
     $(document).ready(function() {
         $('title').html(projectName+' - QuantStack');
-        $("img.logo-project").attr("src","img/projets/GSOC.svg");
+        $("img.logo-project").attr("src", "img/projets/GSOC.svg");
         var preview = $('.md'); //get the container where markdown Html will be displayed
-        var converter = new Markdown.getSanitizingConverter(); //initialisation converter
+        var converter = new Markdown.Converter(); //initialisation converter
         Markdown.Extra.init(converter); // init xtras (for tables and code html tags)
         var convert = converter.makeHtml;
 
