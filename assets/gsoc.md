@@ -46,7 +46,7 @@ to create serializable and optimizable models from PyTorch. Any code written in
 TorchScript can be saved from your Python process and loaded in a process where
 there is no Python dependency.
 
-Pythran is a claimless Python to C++ transpiler, which support a large subset of
+Pythran is a claimless Python to C++ transpiler, which supports a large subset of
 Python and produces machine efficient code. Pythran can be used as an
 ahead-of-time compiler to produce standalone programs or Python extensions.
 
@@ -76,9 +76,9 @@ less emphasis is put in compatibility with MATLAB.
 
 The Jupyter framework is a collection of tools meant to simplify and unify the
 workflows of researchers, engineers, and more generally all practicioners of
-scientific computing. The Jupyter is agnostic to the programming language and
-provides a complete specification of the communication protocol to implement
-for new language kernels.
+scientific computing. The Project Jupyter is agnostic to the programming
+language and provides a complete specification of the communication protocol
+to implement for new language kernels.
 
 The QuantStack team comprises several core developers of Project Jupyter, as
 well as the authors of the "Xeus" reference implementation of the Jupyter
