@@ -2,7 +2,7 @@
 
 ![](img/projets/xtensor_orig.svg)
 
-<img src="img/projets/xtensor_orig.svg" style="margin: 50px 0; width: 300px; text-align: center;" />
+<img src="img/projets/xtensor_orig.svg" style="margin: 50px 0; height: 150px; text-align: center;" />
 
 ### **xtensor**: Support for Sparse n-dimensional Arrays
 
@@ -54,7 +54,7 @@ A good research project would be to experiment with the use of Pythran as a Torc
 
 ---
 
-<img src="img/projets/xeus_orig.svg" style="margin: 50px 0; width: 300px; text-align: center;" />
+<img src="img/projets/xeus_orig.svg" style="margin: 50px 0; height: 150px; text-align: center;" />
 
 ### **xeus:** A xeus-based Jupyter Kernel for Scilab
 
@@ -75,3 +75,54 @@ For this project, we propose to implement a xeus-based Scilab kernel for Jupyter
 - https://www.scilab.org/
 - https://github.com/QuantStack/xeus
 - https://github.com/QuantStack/xeus-python
+
+<img src="img/projets/codecast.png" style="margin: 50px 0; height: 150px; text-align: center; display: inline;" /> <span style="font-size: 100px; vertical-align: middle; margin-left: 50px; margin-right: 50px; color: #333;">+</span> <img src="img/projets/jupyter.png" style="margin: 50px 0; height: 150px; text-align: center; display: inline;" /> 
+
+### **Jupyter + Codecast:** JupyterLab codecast extension
+
+Jupyterlab [1], the new front end for Project Jupyter, is based on a plugin architecture allowing extension authors to add features to the application enriching the experience of the users. Codecast is a recorder and a player for interactive coding tutorials in C and Arduino languages [3]. It enables voice recording while typing code and plays back the voice synchronized with the key/mouse events. Codecast has also a variety of algorithm visualization, memory visualization... It has been successfully used in many Massive Open Online Courses like the ones in the professional certificate "C programming with Linux" [4]. 
+This "Jupterlab codecast extension" project aims to develop an extension for jupyterlab to open codecasts tutorials within jupyterlab.
+
+**Reommended skills:** TypeScript, JavaScript, NodeJS, ReactJS, AngujarJS, npm, bower, gulp, little bit of python and C/arduino.
+
+**Mentors:** Remi SHARROCK, Associate Professor at Telecom ParisTech, France-IOI developpers, QuantStack team.
+
+**Further links:**
+
+[1] https://github.com/jupyterlab
+[2] https://github.com/jupyter/notebook
+[3] https://github.com/France-ioi/codecast 
+[4] https://www.edx.org/professional-certificate/dartmouth-imtx-c-programming-with-linux
+
+### **Jupyter + Codecast:** Binder backend for codecast
+
+BinderHub (or jupyterhub/binderhub) [1] builds and registers a Docker image using a GitHub repository, then connects with JupyterHub [2], allowing users to interact with the code and environment within a live JupyterHub instance. Codecast is a recorder and a player for interactive coding tutorials in C and Arduino languages [3]. It enables voice recording while typing code and plays back the voice synchronized with the key/mouse events. Codecast has also a variety of algorithm visualization, memory visualization... It has been successfully used in many Massive Open Online Courses like the ones in the professional certificate "C programming with Linux" [4]. Codecast uses c-to-json as a backend to translate C code to JSON that is interpreted in Javascript [5] and also a amazon web service EC2 to execute c-to-json and to store to store audio/event files for codecasts.
+This project aims to develop a binderhub backend to execute c-to-json and to store audio/event files for codecast (if possible).
+
+**Recommanded skills:** C, Clang, JavaScript, JSON, Docker, bash/Linux.
+
+**Mentors:** Remi SHARROCK, Associate Professor at Telecom ParisTech, France-IOI developpers, QuantStack team.
+
+**Further links:**
+
+[1] https://github.com/jupyterhub/binderhub
+[2] https://github.com/jupyterhub
+[3] https://github.com/France-ioi/codecast 
+[4] https://www.edx.org/professional-certificate/dartmouth-imtx-c-programming-with-linux
+[5] https://github.com/France-ioi/c-to-json
+
+### **Jupyter + Codecast:** A Jupyter text/code editor recorder
+
+Codecast is a recorder and a player for interactive coding tutorials in C and Arduino languages [1]. It enables voice recording while typing code and plays back the voice synchronized with the key/mouse events. Codecast has also a variety of algorithm visualization, memory visualization... It has been successfully used in many Massive Open Online Courses like the ones in the professional certificate "C programming with Linux" [2]. 
+
+Jupyter is a web-based development environment for interactive computing [3]. This project aims to develop a recorder/player for any text/code notebook. The voice can be recorded and played back synchronized with the key/mouse events.
+
+**Recommanded skills:** JavaScript, Docker, bash/Linux, Jupyter.
+
+**Mentors:** Remi SHARROCK, Associate Professor at Telecom ParisTech, France-IOI developpers, QuantStack team.
+
+**Further links:**
+
+[1] https://github.com/France-ioi/codecast 
+[2] https://www.edx.org/professional-certificate/dartmouth-imtx-c-programming-with-linux
+[3] https://github.com/jupyter/notebook
