@@ -29,7 +29,7 @@
      inkscape:cx="1196.9243"
      inkscape:cy="-283.0467"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="text961"
      showgrid="false"
      inkscape:window-width="2560"
      inkscape:window-height="1376"
@@ -48,7 +48,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -130,16 +130,30 @@
            sodipodi:nodetypes="cc" />
       </g>
     </g>
-    <text
-       xml:space="preserve"
+    <g
+       aria-label="MAMBA"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:35.31371689px;line-height:1.25;font-family:'Input Sans';-inkscape-font-specification:'Input Sans Bold';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="-331.86652"
-       y="-11.875827"
-       id="text961"><tspan
-         sodipodi:role="line"
-         id="tspan959"
-         x="-331.86652"
-         y="-11.875827"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Input Sans';-inkscape-font-specification:'Input Sans Bold';fill:#ffffff;stroke-width:0.26458332">MAMBA</tspan></text>
+       id="text961">
+      <path
+         d="m -318.96096,-18.296503 -4.94392,-13.419212 v 19.839888 h -4.7513 V -37.55853 h 7.19116 l 5.26495,14.960175 5.26496,-14.960175 h 6.99853 v 25.682703 h -4.71919 v -19.904095 l -4.97603,13.483419 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Input Sans';-inkscape-font-specification:'Input Sans Bold';fill:#ffffff;stroke-width:0.26458332"
+         id="path838" />
+      <path
+         d="m -284.80472,-22.373632 -3.30665,-11.236182 -3.33875,11.236182 z m 3.08193,10.497805 -1.8299,-6.260159 h -9.14946 l -1.862,6.260159 h -5.13654 l 8.34688,-25.682703 h 6.93433 l 8.28267,25.682703 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Input Sans';-inkscape-font-specification:'Input Sans Bold';fill:#ffffff;stroke-width:0.26458332"
+         id="path840" />
+      <path
+         d="m -262.19692,-18.296503 -4.94392,-13.419212 v 19.839888 h -4.7513 V -37.55853 h 7.19116 l 5.26495,14.960175 5.26496,-14.960175 h 6.99854 v 25.682703 h -4.7192 v -19.904095 l -4.97602,13.483419 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Input Sans';-inkscape-font-specification:'Input Sans Bold';fill:#ffffff;stroke-width:0.26458332"
+         id="path842" />
+      <path
+         d="M -240.78572,-11.875827 V -37.55853 h 12.55242 q 4.26975,0 6.26016,1.476755 2.02252,1.476756 2.02252,4.55868 v 1.187825 q 0,1.958306 -0.931,3.017718 -0.8989,1.059411 -2.793,1.380445 v 0.930998 q 2.11883,0.224724 3.30665,1.540962 1.21993,1.284136 1.21993,3.274545 v 1.605169 q 0,3.435062 -2.21513,5.072334 -2.18303,1.637272 -6.87013,1.637272 z m 5.45758,-15.217001 h 6.51698 q 1.8941,0 2.66458,-0.577861 0.80259,-0.609964 0.80259,-1.99041 v -1.348342 q 0,-1.380445 -0.80259,-1.958306 -0.77048,-0.577861 -2.66458,-0.577861 h -6.51698 z m 0,11.204079 h 6.61329 q 2.24724,0 3.17824,-0.674171 0.931,-0.706275 0.931,-2.343547 v -1.476755 q 0,-1.605169 -0.931,-2.27934 -0.931,-0.706275 -3.17824,-0.706275 h -6.61329 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Input Sans';-inkscape-font-specification:'Input Sans Bold';fill:#ffffff;stroke-width:0.26458332"
+         id="path844" />
+      <path
+         d="m -200.10698,-22.373632 -3.30664,-11.236182 -3.33876,11.236182 z m 3.08193,10.497805 -1.82989,-6.260159 h -9.14947 l -1.86199,6.260159 h -5.13654 l 8.34688,-25.682703 h 6.93432 l 8.28268,25.682703 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Input Sans';-inkscape-font-specification:'Input Sans Bold';fill:#ffffff;stroke-width:0.26458332"
+         id="path846" />
+    </g>
   </g>
 </svg>
