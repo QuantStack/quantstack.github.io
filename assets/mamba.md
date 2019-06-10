@@ -1,14 +1,12 @@
-## What is Mamba
+## What is Mamba?
 
-Mamba is a drop-in replacement for conda package manager, that uses a different dependency resolution mechanism that makes mamba much faster than conda. The mamba-backend is called `libsolv` -- a library 	implemented in C for speed.
+Mamba is a drop-in replacement for conda package manager, that uses a different dependency resolution mechanism that makes mamba much faster than conda. The mamba-backend is called `libsolv` -- a library implemented in C for speed.
 
-Using mamba instead of conda should give you the package installations as with conda, but much faster.
+Using mamba instead of conda should give you the same package installations as with conda, but much faster.
 
-Currently, mamba is still in beta-state. Some features of the conda package manager are not yet implemented, 
-but for the general use case it works very well.
+Currently, mamba is still in beta-state. Some features of the conda package manager are not yet implemented, but for the general use case it works very well.
 
-We are looking forward to hear feedback on github: https://github.com/QuantStack/mamba
-You can follow the main author on Twitter for updates: https://twitter.com/wuoulf
+We are looking forward to your feedback on GitHub: https://github.com/QuantStack/mamba. You can follow the main author on Twitter for updates: https://twitter.com/wuoulf.
 
 ## Mamba Installation
 
@@ -34,11 +32,9 @@ $ conda activate xstack # Note: still use conda for activation/deactivation
 ...
 ```
 
-Minimamba comes with Python 3.7. We do not currently provide versions for legacy Python,
-although mamba works fine with Python 2.7.
+Minimamba comes with Python 3.7. We do not currently provide versions for legacy versions of Python, although mamba works fine with Python 2.7.
 
-You can still install and create environments for Python 2.7 by explicitly setting the Python
-version for the new enviornment.
+You can still install and create environments for Python 2.7 by explicitly setting the Python version for the new enviornment.
 
 #### Note
 
