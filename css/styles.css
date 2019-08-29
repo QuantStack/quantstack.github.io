@@ -380,7 +380,7 @@ div.spacer.big{
     border: solid 8px rgba(0, 0, 0, 0);
     background-color: var(--light);
     margin-bottom: 15px;
-    padding: 35px 0 15px;
+    padding: 25px 10px;
 }
 .bloc-company:hover{
     border: solid 8px var(--yellowish-tan);
