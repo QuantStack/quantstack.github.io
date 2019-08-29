@@ -387,6 +387,9 @@ div.spacer.big{
     box-shadow: 0px 1px 10px 0 rgba(1, 0, 0, 0.17);
     cursor: pointer;
 }
+.bloc-company a img{
+    margin: auto;
+}
 .icon-content{
     text-align: center;
     color: #ffffff;
