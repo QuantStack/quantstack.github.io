@@ -348,8 +348,7 @@ div.spacer{
 }
 div.spacer.big{
   height: 50px;
- }
-
+}
 .bloc-home {
     border-radius: 10px;
     box-shadow: 0px 1px 10px 0 rgba(1, 0, 0, 0.17);
@@ -375,6 +374,18 @@ div.spacer.big{
     .bloc-home.tall a, .bloc-home.middle a{
         padding: 35px 0 15px;
     }
+}
+.bloc-company {
+    border-radius: 10px;
+    border: solid 8px rgba(0, 0, 0, 0);
+    background-color: var(--light);
+    margin-bottom: 15px;
+    padding: 35px 0 15px;
+}
+.bloc-company:hover{
+    border: solid 8px var(--yellowish-tan);
+    box-shadow: 0px 1px 10px 0 rgba(1, 0, 0, 0.17);
+    cursor: pointer;
 }
 .icon-content{
     text-align: center;
