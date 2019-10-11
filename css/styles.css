@@ -205,7 +205,7 @@ header a.btn:hover{
     border: solid 1.5px var(--yellowish-tan);
 }
 .fond1{
-    background: url("../img/fond-1.jpg");
+    background: url("../img/fond-1.png");
     background-repeat: no-repeat;
     background-color:#171729;
     background-position: center 57px;
