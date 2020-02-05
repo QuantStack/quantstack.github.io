@@ -76,6 +76,30 @@ For this project, we propose to implement a xeus-based Scilab kernel for Jupyter
 - https://github.com/QuantStack/xeus
 - https://github.com/QuantStack/xeus-python
 
+---
+
+<div style="text-align: center">
+<img src="img/projets/jupyter_logo.svg" width="20%"/>
+</div>
+
+### JupyterLab Extension Editor and Theme Manager
+
+*Help making JupyterLab the most awesome interactive computing platform and IDE!*
+
+JupyterLab has an awesome extension system -- almost every part of the UI can be customized and changed. However, currently extension development is somewhat difficult, as extensions need to be compiled _into_ the JupyterLab JavaScript application. We have already developed a mature prototype to dynamically execute JavaScript extensions, which makes the development of JLab extensions much faster and more fun! Now we want to make it simple to create extensions from a template _right inside_ JLab, and execute and hot-reload them. The idea is to have a special code editor inside JLab that let's one edit the extension from right inside the web IDE.
+
+Additionally, the ability to download extensions and themes from the internet without the tedious JupyterLab rebuilding process would be great. We could imagine a theme manager for JupyterLab that is just as snappy as for Sublime Text, Atom or VSCode -- by hot-loading the theme CSS. For this we will need to come up with a good looking, functional user interface.
+
+With this project, we will dive into JavaScript and TypeScript and other web technologies, look at the architecture of a complex web application, and last but not least, interact with the global Jupyter open source community.
+
+**Further links:** 
+
+- A demo and a mockup can be found here: https://wolfv.github.io/posts/2020/01/19/ipywidgets-writeup.html
+- https://github.com/wolfv/jupyterlab-dynext
+- https://github.com/jupyterlab/jupyterlab
+
+
+
 <img src="img/projets/codecast.png" style="margin: 50px 0; height: 150px; text-align: center; display: inline;" /> <span style="font-size: 100px; vertical-align: middle; margin-left: 50px; margin-right: 50px; color: #333;">+</span> <img src="img/projets/jupyter.png" style="margin: 50px 0; height: 150px; text-align: center; display: inline;" /> 
 
 ### **Jupyter + Codecast:** JupyterLab codecast extension
