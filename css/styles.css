@@ -536,6 +536,9 @@ footer{
 .team-intro-txt ul li {
     margin: 10px 0;
 }
+.locations {
+    margin-top: 75px;
+}
 .portraits {
     margin-top: 75px;
 }
@@ -681,7 +684,7 @@ div.md h1 img{
 div.md p:first-of-type{
     display: none;
 }
-div.md{
+div.md {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: normal;
@@ -692,12 +695,12 @@ div.md{
     text-align: left;
     color: var(--black);
 }
-div.md code{
+div.md code {
     color: var(--black);
     font-weight: bold;
     background-color:initial;
 }
- div.md h2{
+div.md h2 {
      font-family: 'Dosis', sans-serif;
      font-size: 20px;
      font-weight: bold;
@@ -709,8 +712,8 @@ div.md code{
      color: var(--black);
      margin-top: 50px;
      margin-bottom: 35px;
- }
-div.md pre  {
+}
+div.md pre {
     padding: 25px;
 }
  div.md pre code {
