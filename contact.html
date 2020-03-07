@@ -31,9 +31,9 @@
 
                 <div class="col-md-10 col-md-push-1  ">
 
-                     <div class="spacer big"></div>
+                    <div class="spacer big"></div>
                     <div class="row">
-                        <div class="col-md-6  ">
+                        <div class="col-md-12  ">
                             <div class="col-md-12 bloc-contact">
                                 <form action="https://formspree.io/info@quantstack.net" method="POST" class="contact-form">
                                       <div class="form-group">
@@ -69,16 +69,18 @@
                                 </form>
                              </div>
                         </div>
+                    </div>
+                    <div class="row">
                         <div class="col-md-6 ">
                                  <div class="col-md-12 bloc-contact">
-                                    <div id="map" style="width: 100%; height: 360px; margin: 0;"></div>
+                                    <div id="map-paris" style="width: 100%; height: 360px; margin: 0;"></div>
                                 </div>
                                 <div class="bloc-contact col-md-12">
                                     <div class="col-md-5">
                                         <img src="img/drapeau.svg" class="img-responsive hidden-xs hidden-sm">
                                     </div>
                                     <div class="col-md-6 col-md-push-1">
-                                    <p><strong>QuantStack</strong><br>
+                                    <p><strong>QuantStack Paris</strong><br>
                                     27 Rue du Chemin Vert<br>
                                     75011, PARIS<br>
                                     France</p>
@@ -86,9 +88,26 @@
                                     </div>
                                 </div>
                          </div>
+                        <div class="col-md-6 ">
+                                <div class="bloc-contact col-md-12">
+                                    <div class="col-md-5">
+                                        <img src="img/drapeau.svg" class="img-responsive hidden-xs hidden-sm">
+                                    </div>
+                                    <div class="col-md-6 col-md-push-1">
+                                    <p><strong>QuantStack Berlin</strong><br>
+                                    Harzer Straße 39<br>
+                                    12059 BERLIN<br>
+                                    Germany</p>
+                                    <div class="clearfix"></div>
+                                    </div>
+                                </div>
+                                 <div class="col-md-12 bloc-contact">
+                                    <div id="map-berlin" style="width: 100%; height: 360px; margin: 0;"></div>
+                                </div>
+                         </div>
                     </div>
-                     <div class="spacer big"></div>
-                 </div>
+                    <div class="spacer big"></div>
+                </div>
                 </div>
             </div>
             <div class="spacer big"></div>
@@ -110,9 +129,6 @@
         <script src="js/markdown/Markdown.Extra.js"></script>
 
         <script>
-
-
-
         </script>
 
         <script>
@@ -220,22 +236,34 @@
                     ]
                 }
             ];
-            function initMap() {
-		var quantStack = {lat: 48.8585532, lng: 2.3729551};
-                var map = new google.maps.Map(document.getElementById('map'), {
-                    zoom: 12,
-                    center: quantStack,
-                    styles:stylesArray,
+            function initMaps() {
+                var paris = {lat: 48.8585532, lng: 2.3729551};
+                var berlin = {lat: 52.48992, lng: 13.4281088};
+
+                var parisMap = new google.maps.Map(document.getElementById('map-paris'), {
+                    zoom: 11,
+                    center: paris,
+                    styles: stylesArray,
                     disableDefaultUI: true
                 });
-                var marker = new google.maps.Marker({
-                    position: quantStack,
-                    map: map
+                var parisMarker = new google.maps.Marker({
+                    position: paris,
+                    map: parisMap
                 });
-             //   map.mapTypes.set(stylesArray);
+
+                var berlinMap = new google.maps.Map(document.getElementById('map-berlin'), {
+                    zoom: 11,
+                    center: berlin,
+                    styles: stylesArray,
+                    disableDefaultUI: true
+                });
+                var parisMarker = new google.maps.Marker({
+                    position: berlin,
+                    map: berlinMap
+                });
             }
         </script>
-        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBCE5lcUTrHY8N0ZdI-EBNdg29SECCH5iU&callback=initMap">
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBCE5lcUTrHY8N0ZdI-EBNdg29SECCH5iU&callback=initMaps">
         </script>
     </body>
   </html>
