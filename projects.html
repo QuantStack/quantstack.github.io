@@ -26,31 +26,6 @@
     <link rel="stylesheet" href="css/owl.transitions.css" type="text/css">
     <link rel="stylesheet" href="css/owl.carousel.template.css" type="text/css">
 
-    <style>
-        .owl-prev {
-            position: absolute;
-            left: -80px;
-            top: 42%;
-            width: 26px;
-            height: 48px;
-        }
-        .owl-next {
-            position: absolute;
-            right: -60px;
-            top: 42%;
-            width: 26px;
-            height: 48px;
-
-        }
-        @media (max-width: 768px) {
-            .owl-prev {
-                 left: -10px;
-            }
-            .owl-next {
-                 right: -10px;
-            }
-        }
-    </style>
 </head>
 <body>
 <div id="content-head"> </div>
@@ -58,67 +33,123 @@
     <div class="container">
         <p class="petit-titre">PROJECTS</p>
         <div class="trait"></div>
-        <h1 class="col-md-10 col-md-push-1">QuantStack developers contribute to a number of open-source projects, including jupyter, xtensor, bqplot, conda-forge and many others.</h1>
+        <h1 class="col-md-10 col-md-push-1">QuantStack developers are behind major open-source scientific computing project which you already use and love, including Jupyter, Xtensor, Voilà, and many others.</h1>
     </div>
 </div>
-<div class="container portraits projects " >
+
+<div class="spacer big"></div>
+<div class="container-fluid">
     <div class="row">
         <div class="col-lg-10 col-md-12 col-lg-push-1">
             <div class="col-md-12">
-                <h3 class="secondaire">High-Performance Computing</h3>
-             </div>
-            <div class="spacer big hidden-xs"></div>
-            <div class="spacer big hidden-xs"></div>
-            <div class="owl-carousel owl-theme" id="pt-0">
-              <!--  <div class="col-md-4 owl-item">
-                    <div class="portrait" data-href="xtensor.html">
-                        <a href="javascript:;">
-                            <img src="img/projets/xtensor.svg" class="img-responsive" >
-                        </a>
-                        <div class="text-center">
-                            <p>Multi-dimensional arrays with broadcasting and lazy computing.</p>
-                            <a href="javascript:;"><img class="fleche" src="img/fleche-droite.svg"></a>
-                        </div>
-                    </div>
-                </div> -->
+                <h3 class="secondaire">Project Jupyter</h3>                
             </div>
+            <div class="col-md-4 bloc-contact">
+            <img src="img/project-categories/jupyter.png" class="img-responsive">
+            </div>
+            <div class="col-md-8 team-intro-txt">
+            <p>The QuantStack team comprises five core contributors and maintainers of <a href="https://jupyter.org/">Project Jupyter</a>, including <a href="https://github.com/jupyterlab/jupyterlab/">JupyterLab</a>, the <a href="https://github.com/jupyter/notebook/">classic notebook</a>, <a href="https://gitter.im/jupyterhub">JupyterHub</a>, <a href="https://github.com/jupyter-widgets/ipywidgets/tree/master/ipywidgets">ipywidgets</a>, and more.</p>
+            <p>The team also includes the main authors of popular Jupyter widget packages, such as <a href="https://github.com/jupyter-widgets/ipyleaflet">ipyleaflet</a> (interactive maps visualization toolkit), <a href="https://github.com/bloomberg/bqplot">bqplot</a> (2-D plotting), <a href="https://github.com/maartenbreddels/ipywebrtc/">ipywebrtc</a> (audio and video streaming), <a href="https://github.com/matplotlib/jupyter-matplotlib">ipympl</a> (Jupyter-Matplotlib integration), <a href="https://github.com/maartenbreddels/ipyvolume">ipyvolume</a> (3-D data visualization and volume rendering).</p>
+            <p>We are also responsible for the development of the <a href="https://github.com/jupyterlab/debugger">JupyterLab visual debugger</a>, and other Lab extensions such as the JupyterLab <a href="https://github.com/jupyter-widgets/jupyterlab-sidecar.git">sidecar</a>, and the <a href="https://github.com/QuantStack/jupyterlab-drawio.git">drawio integration</a>.</p>
+            </div>
+            <div class="col-md-12 team-intro-txt">
+            <p>For our customers, we have integrated, customized, and developed complex JupyterLab front-end extensions, widget libraries. We have deployed JupyterHub in large enterprise settings, integrating with corporate SSOs.</p>
+           </div>
         </div>
     </div>
 </div>
-<div class="spacer big "></div>
-<div class="container-fluid  grey-bg" >
-    <div class="container portraits projects  " >
-        <div class="row">
-            <div class="col-lg-10 col-md-12 col-lg-push-1">
-                <div class="col-md-12">
-                    <h3 class="secondaire">Jupyter Extensions and Kernels</h3>
-                </div>
-                <div class="spacer big hidden-xs"></div>
-                <div class="spacer big hidden-xs"></div>
-                <div class="owl-carousel owl-theme" id="pt-1">
 
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 <div class="spacer big grey-bg"></div>
-
-<div class="container portraits projects " >
+<div class="container-fluid grey-bg">
     <div class="row">
         <div class="col-lg-10 col-md-12 col-lg-push-1">
-            <div class="col-md-12">
-                <h3 class="secondaire">Data Visualization</h3>
+            <div class="col-md-12 team-intro-txt">
+                <h3 class="secondaire">Xtensor</h3>
             </div>
-            <div class="spacer big hidden-xs"></div>
-            <div class="spacer big hidden-xs"></div>
-            <div class="owl-carousel owl-theme" id="pt-2">
-
+            <div class="col-md-8 team-intro-txt">
+            <p>QuantStack is the main organization behind the <a href="https://github.com/xtensor-stack/xtensor">Xtensor</a> project, a <i>fast</i> N-D array library in modern C++, with <a href="https://github.com/xtensor-stack/xtensor-python">Python</a>, <a href="https://github.com/xtensor-stack/xtensor-r">R</a>, and <a href="https://github.com/xtensor-stack/xtensor-julia">Julia</a> bindings.</p>
+            <p>With the Xtensor project, we strive to offer high-level C++ API similar to the NumPy API, but the performance of fine-tuned SIMD-accelerated code.</p>
+            </div>
+            <div class="col-md-4 bloc-contact">
+            <img src="img/project-categories/xtensor.png" class="img-responsive">
+            </div>
             </div>
         </div>
     </div>
 </div>
-<div class="spacer big "></div>
+
+<div class="spacer big"></div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-10 col-md-12 col-lg-push-1">
+            <div class="col-md-12">
+                <h3 class="secondaire">RoboStack</h3>
+            </div>
+            <div class="col-md-4 bloc-contact">
+            <img src="img/project-categories/robostack.png" class="img-responsive">
+            </div>
+            <div class="col-md-8 team-intro-txt">
+            <p>We started the RoboStack initiative, a project to bring together the PyData, Jupyter, and ROS stack, into a unified toolkit, including a rich ROS and Jupyter integration and the packaging of ROS packages with conda.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="spacer big grey-bg"></div>
+<div class="container-fluid grey-bg">
+    <div class="row">
+        <div class="col-lg-10 col-md-12 col-lg-push-1">
+            <div class="col-md-12">
+                <h3 class="secondaire">Xeus</h3>
+            </div>
+            <div class="col-md-8 team-intro-txt">
+            <p>We are the team the <a href="https://github.com/jupyter-xeus/xeus">Xeus</a> framework, which comprises a reference implementation of the Jupyter kernel protocol in C++, and several new Jupyter kernels, such as <a href="https://github.com/jupyter-xeus/xeus-cling">xeus-cling</a>, the C++ Jupyter kernel, and <a href="https://github.com/jupyter-xeus/xeus-python">xeus-python</a>, an alternative Python kernel implementing the Jupyter debugger protocol.</p>
+            <p>Xeus is now officially part of the Jupyter project.</p>
+            </div>
+            <div class="col-md-4 bloc-contact">
+            <img src="img/project-categories/xeus.png" class="img-responsive">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="spacer big"></div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-10 col-md-12 col-lg-push-1">
+            <div class="col-md-12">
+                <h3 class="secondaire">Voilà</h3>
+            </div>
+            <div class="col-md-4 bloc-contact">
+            <img src="img/project-categories/voila.png" class="img-responsive">
+            </div>
+            <div class="col-md-8 team-intro-txt">
+            <p>We are the creators of <a href="https://github.com/voila-dashboards/voila">Voilà</a>, which can transform Jupyter notebooks into standalone web applications and dashboards.</p>
+            <p>Voilà has been incorporated as a Jupyter subproject.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="spacer big grey-bg"></div>
+<div class="container-fluid grey-bg">
+    <div class="row">
+        <div class="col-lg-10 col-md-12 col-lg-push-1">
+            <div class="col-md-12">
+                <h3 class="secondaire">Mamba</h3>
+            </div>
+            <div class="col-md-8 team-intro-txt">
+            <p>Our latest endeavor is the <a href="https://github.com/QuantStack/mamba">Mamba</a> project, a <i>fast</i> drop-in replacement for the conda package manager.</p>
+            <p>Mamba can be several orders of magnitude faster than conda to resolve compatibility contraints of conda environment, especially when dealing with large package respositories such as <a href="https://conda-forge.org/">conda-forge</a>.</p>
+            <p>Mamba is currently being adopted in large corporate settings.</p>
+            </div>
+            <div class="col-md-4 bloc-contact" style="background: #2d0922; border-color: #2d0922">
+            <img src="img/project-categories/mamba.png" class="img-responsive">
+            </div>
+        </div>
+    </div>
+</div>
+
  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -126,83 +157,6 @@
 
 <div id="content-foot"></div>
 <script src="js/include-menus.js"></script>
-
-<script src="js/owl.carousel.min.js"></script>
-
-<script>
-    $(document).ready(function(){
-
-        // Ajax call to projects.json
-        $.ajax({
-            type:"GET",
-            url:"assets/projects.json", //get the current project
-            success: function(data) {
-
-                var projects = data.Projects;
-                var collectionToAdd;
-
-
-                $.each(projects, function(id, project) {
-                    if( $("#pt-"+project.type))
-                        $("#pt-"+project.type).append(addHtmlItem(id,project));
-                });
-                initOwls();
-                $("div").click(function () {
-                    if($(this).data("href") != null){
-                        window.location.href = $(this).data("href");
-                    }
-                });
-            }
-        });
-
-        function addHtmlItem(id,project) {
-
-            var tag =  (project.tag2 !=="")?project.tag2:project.tag; //Fallback if tag2 is empty..
-
-            var html = "<div class=\"col-md-4 owl-item\">\n" +
-                "                        <div class=\"portrait\" data-href=\""+id+".html\">\n" +
-                "                            <a href=\"javascript:;\">\n" +
-                "                                <img src=\"img/projets/"+id+".svg\" class=\"img-responsive\" >\n" +
-                "                            </a>\n" +
-                "                            <div class=\"text-center\">\n" +
-                "                                <p>"+tag+"</p>\n" +
-                "                                <a href=\"javascript:;\"><img class=\"fleche\" src=\"img/fleche-droite.svg\"></a>\n" +
-                "                            </div>\n" +
-                "                        </div>\n" +
-                "                    </div>";
-
-            return html;
-        }
-
-        function initOwls() {
-            var owl = $(".owl-carousel");
-            owl.owlCarousel({
-                loop: true,
-                nav:true,
-                items:3,
-                margin:35,
-                navigation : true,
-                pagination: true,
-                dots:false,
-                autoPlay  : false,
-                scrollPerPage: true
-            });
-
-
-            $( ".owl-prev").html('<img src="img/fleche-gauche-gde.svg" class="img-responsive" />');
-            $( ".owl-next").html('<img src="img/fleche-droite-gde.svg" class="img-responsive" />');
-
-
-        }
-
-
-
-
-    })
-
-
-</script>
-
 
 </body>
 </html>
