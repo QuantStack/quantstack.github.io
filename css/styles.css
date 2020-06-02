@@ -720,24 +720,7 @@ div.md pre {
      color: #f8f8f2;
      font-size: 16px;
  }
- #name-project{
-     font-family: 'Open Sans', sans-serif;
-     font-size: 16px;
-     font-weight: bold;
-     font-style: normal;
-     font-stretch: normal;
-     line-height: normal;
-     letter-spacing: normal;
-     text-align: center;
-      color: var(--battleship-grey);
-     border-bottom: solid 2px var(--battleship-grey);
-     width: 100px;
-     margin: 0 auto;
-     padding-bottom: 10px;
-     overflow: visible;
- }
  #tag{
-
      font-size: 20px;
      font-family: 'Dosis', sans-serif;
       font-weight: bold;
@@ -747,7 +730,6 @@ div.md pre {
      letter-spacing: normal;
      text-align: center;
      color: #ffffff;
-
  }
  .p-head img{
      margin: 50px 0;
@@ -772,7 +754,7 @@ div.md table tr:nth-child(2n) {
      background-color: #f6f8fa;
  }
 
-h3.secondaire{
+h3.secondaire {
     font-family: 'Dosis', sans-serif;
     font-size: 20px;
     font-weight: bold;
@@ -783,47 +765,16 @@ h3.secondaire{
     text-align: center;
       color: var(--black);
 }
-.projects .portrait a:first-child {
-    width: 100%;
-    max-height: 240px;
-    overflow: hidden;
-    display: block;
-    padding: 40px;
-    background-color:#171729;
-    text-align: center;
+
+.project-category {
+    max-width: 1200px;
+    margin: auto;
 }
 
-.projects .portrait a:first-child {
-    width: 100%;
-    overflow: hidden;
-    display: block;
-    padding: 30px 15px;
-    background-color:#171729;
-    height: 135px;
-}.projects .portrait a:first-child img {
-    height: 97px;
-    text-align: center;
-    margin: 0 auto;
-}
-.projects .portrait p{
-    font-family: 'Dosis', sans-serif;
-    font-size: 20px;
-    font-weight: 300;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    color: #0e0e0e;
-    margin: 40px 5px;
-    min-height: 78px;
-    overflow: hidden;
-}
-
-.owl-item{
+.owl-item {
     min-height: 360px;
 }
-.grey-bg{
+.grey-bg {
     background-color: #f4f4f4;;
 }
 
