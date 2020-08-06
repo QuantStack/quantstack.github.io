@@ -1,7 +1,3 @@
----
-title: home
----
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -32,19 +28,10 @@ title: home
         </div>
     </div>
     <div class="container">
-    {% for post in site.blog %}
-    <a href="{{ post.url }}">
-    <div class="post-card">
-        <div class="post-image">
-            <img alt="Post featured image" src="{{ post.image }}">
-        </div>
-        <div class="post-description">
-            <div class="post-title"><h2>{{ post.title }}</h2></div>
-            <div class="post-summary">{{ post.summary }}</div>
-        </div>
-    </div>
-    </a>
-    {% endfor %}
+<<<<<<< HEAD
+        {% linkpreview "https://github.com" %}
+=======
+>>>>>>> c691f00... Add blog page
     </div>        
     <div class="spacer big"></div>
 

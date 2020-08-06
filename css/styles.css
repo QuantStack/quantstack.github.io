@@ -848,3 +848,36 @@ textarea:focus, input:focus{
     width: 100%;
     display: block;
 }
+.post-card {
+  display: flex;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 10px 0 rgba(1, 0, 0, 0.17);
+  padding: 10px;
+  margin-top: 33px;
+}
+
+.post-card:hover {
+  box-shadow: none;
+}
+
+.post-image {
+   display: flex;
+   min-width: 300px;
+   max-width: 300px;
+}
+.post-image img {
+   margin: auto;
+   max-width: 100%;
+   max-height: 100%;
+}
+.post-summary {
+   font-size: 20px;
+}
+.post-description {
+   flex-grow: 1;
+   margin: 14px;
+}
+.post-title h2 {
+   text-align: left;
+}
