@@ -1,2 +1,301 @@
-plugins:
-    - jekyll-linkpreview
+copyright:
+  author: QuantStack
+  url: https://quantstack.net
+  type_title: All rights reserved
+
+blog:
+
+  - url: https://blog.jupyter.org/slicerjupyter-a-3d-slicer-kernel-for-interactive-publications-6f2ad829f635
+    title: SlicerJupyter, a 3-D Slicer Kernel for Interactive Publications
+    image: https://miro.medium.com/max/341/1*ePhHKkjqV-AW0mvDkaeurw.png
+    summary: Use Jupyter and 3D Slicer kernel to implement biomedical data processing workflows in a notebook.
+    date: Jul 8, 2020
+    authors: Sylvain Corlay, Jean-Christophe Fillion-Robin, Mike Grauer, Andras Lasso, Matt MacCormick, Isaiah Norton, Steve Pieper, Martin Renou, Mike Sarahan
+
+  - url: https://medium.com/@QuantStack/open-software-packaging-for-science-61cecee7fc23
+    title: Open Software Packaging for Science
+    image: https://miro.medium.com/max/1260/1*1P1l_kh2ernLpozcRYNBEw.png
+    summary: Modern scientific applications typically depend on a very large number of libraries written in various programming languages, ranging from Fortran to TypeScript, C, C++, Python, etc. So, we need to…
+    date: Jun 19, 2020
+    authors: Wolf Vollprecht, Mario Buikhuizen, Marianne Corvellec, Johan Mabille, David Brochart
+
+  - url: https://blog.jupyter.org/a-jupyter-kernel-for-sqlite-9549c5dcf551
+    title: A Jupyter Kernel for SQLite
+    image: https://miro.medium.com/max/604/1*pzPTGCJVgIO10N7OwOGWKw.png
+    summary: While it is well known in the Python scientific computing community, Jupyter is in fact a language-agnostic development environment. High-quality language kernels exist for the main languages of data…
+    date: Jun 11, 2020
+    authors: Mariana Meireles
+
+  - url: https://blog.jupyter.org/plasma-a-learning-platform-powered-by-jupyter-1b850fcd8624
+    title: PLASMA, a Learning Platform Powered by Jupyter
+    image: https://miro.medium.com/max/933/0*wWdglu7KBVC08Lcc.png
+    summary: Jupyter has been a great choice for education for many years. The Jupyter Notebook has become one of the most popular tools to conduct workshops, tutorials, and teach online classes. Recently we have…
+    date: May 11, 2020
+    authors: Jeremy Tuloup
+
+  - url: https://blog.jupyter.org/interactive-graph-visualization-in-jupyter-with-ipycytoscape-a8828a54ab63
+    title: Interactive Graph Visualization in Jupyter with IPycytoscape
+    image: https://miro.medium.com/max/933/1*d9UZBB4OB3LXVm7fTHBHaw.png
+    summary: The Jupyter widgets ecosystem offers a broad variety of data visualization tools for exploratory analysis in the notebook. However, we…
+    date: Apr 30, 2020
+    authors: Mariana Meireles
+
+  - url: https://blog.jupyter.org/a-visual-debugger-for-jupyter-914e61716559
+    title: A Visual Debuger for Jupyter
+    image: https://miro.medium.com/max/933/0*9pVDg58cTz5Yezw8.gif
+    summary: Most of the progress made in software projects comes from incrementalism. The ability to quickly see the outcome of an execution and iterate has been one of the main reasons for the success of…
+    date: Mar 25, 2020
+    authors: Jeremy Tuloup, Borys Palka, Johan Mabille, Martin Renou, Afshin Darian, Sylvain Corlay
+
+  - url: https://blog.jupyter.org/report-on-the-jupyter-community-workshop-on-dashboarding-14f8ad9f3c0
+    title: Field Report on the Jupyter Community Workshop on Dashboarding
+    image: https://miro.medium.com/max/933/1*e8gJ4j2hCn4XMPagp6etOA.jpeg
+    summary: From June 3rd to June 6th 2019, thirty-five developers from the Jupyter community met in Paris for a four-day workshop on dashboarding with Project Jupyter. For four days, attendees worked full time…
+    date: Feb 14, 2020
+    authors: Sylvain Corlay
+
+  - url: https://medium.com/@wolfv/introducing-scikit-geometry-ae1dccaad5fd
+    title: Introducing Scikit-Geometry
+    image: https://miro.medium.com/max/1260/1*Ns12n2k0T3m0Hoe-5gg4kQ.png
+    summary: As a robotics researcher (but also in many other fields) computations on geometric primitives are used very frequently— but it’s harder than anticipated to find the right abstractions in a nice…
+    date: Jan 24, 2020
+    authors: Wolf Vollprecht
+
+  - url: https://medium.com/@wolfv/2019-in-review-d7d03fb0d17d
+    title: 2019 in Review
+    image: https://miro.medium.com/max/3600/1*64DQjEYUaRMtHA2Ou3It8w.png
+    summary: This year has seen major changes in xeus and xeus-python, driven by the requirements for developing a visual debugger. We have implemented a prototype that supports the Debug Adapter Protocol from…
+    date: Jan 2, 2020
+    authors: Wolf Vollprecht
+
+  - url: https://medium.com/@wolfv/robot-development-with-jupyter-ddae16d4e688
+    title: Robot Development with Jupyter
+    image: https://miro.medium.com/max/1260/1*rqyB9qBQUlonff3PR9YuvA.png
+    summary: Jupyter and Voilà are two popular packages in the data science ecosystem. But the Jupyter plugins jupyter-ros and jupyter-amphion make them more interesting than ever for robotics applications. This…
+    date: Dec 31, 2019
+    authors: Wolf Vollprecht
+
+  - url: https://medium.com/@johan.mabille/how-we-wrote-xtensor-7-n-broadcasting-cf37a974d029
+    title: How we Wrote Xtensor (Episode 7) - Broadcasting
+    image: https://miro.medium.com/max/1260/0*mdtjNgTehPo6xzRO.png
+    summary: In the previous article, we implemented operator and mathematical function overloads so that we can build arbitrary complex expression trees and access their elements. Before we can assign an…
+    date: Nov 24, 2019
+    authors: Johan Mabille
+
+  - url: https://medium.com/@wolfv/ros-on-conda-forge-dca6827ac4b6
+    title: ROS on Conda-forge
+    image: https://miro.medium.com/max/1260/1*Vs520qK74Y0O3O5BtlgB7g.png
+    summary: ROS is a fantastic and very large suite of software tools for Robotics. It’s used in many applications and with great success, ranging from the hobbyist market to industrial use cases. Most people…
+    date: Oct 28, 2019
+    authors: Wolf Vollprecht
+
+  - url: https://blog.jupyter.org/ipycanvas-a-python-canvas-for-jupyter-bbb51e4777f7
+    title: IPycanvas, a Python Canvas for Jupyter
+    image: https://miro.medium.com/max/933/1*LHrtcPJMCWVMgsvNR6tR6w.png
+    summary: As you may already know, the Jupyter Notebook and JupyterLab are Browser-based applications. Browsers are incredibly powerful, they allow you to swap rich and interactive graphical interfaces…
+    date: Oct 25, 2019
+    authors: Martin Renou
+
+  - url: https://blog.jupyter.org/field-report-on-the-kernel-community-workshop-a4ad73a1a718
+    title: Field Report on the Kernel Community Workshop
+    image: https://miro.medium.com/max/933/1*AKYqXS6qtE0k6EcTKl3BEQ.jpeg
+    summary: From May 27th to May 29th, thirty developers from the Jupyter community met in Paris for a three-days workshop on the Jupyter kernel…
+    date: Oct 7, 2019
+    authors: Sylvain Corlay
+
+  - url: https://medium.com/@johan.mabille/how-we-wrote-xtensor-6-n-operator-overloading-984c2e5b4171
+    title: How we Wrote Xtensor (Episode 6) - Operator Overloading
+    image: https://miro.medium.com/max/1260/0*lB4lCWmmeVGAfBUq.png
+    summary: In the previous article, we introduced expression templates and developed the skeleton of the xfunction class, meant to represent a node of the abstract syntax tree of a tensor expression. We left…
+    date: Sep 25, 2019
+    authors: Johan Mabille
+
+  - url: https://blog.jupyter.org/interactive-gis-in-jupyter-with-ipyleaflet-52f9657fa7a
+    title: Interactive GIS in Jupyter with IPyleaflet
+    image: https://miro.medium.com/max/667/1*YA26aVkLDM1KXjNtGu5-Hw.gif
+    summary: As Jupyter grew in popularity, a broad ecosystem of visualization packages based on Jupyter widgets has been developed, bringing even more interactivity to the Jupyter world. In this article, we dive…
+    date: Sep 25, 2019
+    authors: Martin Renou
+
+  - url: https://medium.com/@johan.mabille/how-we-wrote-xtensor-5-n-expression-templates-d07332e73d1d
+    title: How we Wrote Xtensor (Episode 5) - Expression Templates
+    image: https://miro.medium.com/max/506/1*s4m7A7i78pzy-swZZwHkAA.png
+    summary: In the previous articles, we started to implement an N-D container, xarray, which has value semantics and provides all the methods required to access its data. The next step is to give it computation…
+    date: Sep 5, 2019
+    authors: Johan Mabille
+
+  - url: https://blog.jupyter.org/building-a-calculator-jupyter-kernel-4aed5764a295
+    title: Building a Calculator Jupyter Kernel
+    image: https://miro.medium.com/max/933/0*h6rfGRuTgOkwonN9
+    summary: In order to provide a language-agnostic scientific development environment, the Jupyter project is built upon a well-specified protocol to communicate with the Kernel, the part of the infrastructure…
+    date: Jul 16, 2019
+    authors: Vasavan Thiru, Thibault Lacharme
+
+  - url: https://medium.com/@johan.mabille/how-we-wrote-xtensor-4-n-value-semantics-6baa6856d313
+    title: How we Wrote Xtensor (Episode 4) - Value Semantics
+    image: https://miro.medium.com/proxy/1*HsU43Jzp1vJZpX2g8XPJsg.png
+    summary: xtensor is a comprehensive framework for N-D arrays processing, including an extensible expression system, lazy evaluation, and many other…
+    date: Jul 16, 2019
+    authors: Johan Mabille
+
+  - url: https://medium.com/@johan.mabille/how-we-wrote-xtensor-3-n-the-constructors-65a177260638
+    title: How we Wrote Xtensor (Episode 3) - The Constructors
+    image: https://miro.medium.com/proxy/1*HsU43Jzp1vJZpX2g8XPJsg.png
+    summary: In the previous article, we detailed the implementation of a generic access operator for our N-D container. Two more things to implement before the xarray class can be used in practice are…
+    date: Jun 24, 2019
+    authors: Johan Mabille
+
+  - url: https://medium.com/@johan.mabille/how-we-wrote-xtensor-2-n-access-operators-57e8e3852263
+    title: How we Wrote Xtensor (Episode 2) - Access Operators
+    image: https://miro.medium.com/proxy/1*HsU43Jzp1vJZpX2g8XPJsg.png
+    summary: In the previous article, we started to design an N-dimensional container. We detailed the implementation of methods related to shape, strides, and memory layout. Let us now get to the access…
+    date: Jun 20, 2019
+    authors: Johan Mabille
+
+  - url: https://medium.com/@johan.mabille/how-we-wrote-xtensor-1-n-n-dimensional-containers-f79f9f4966a7
+    title: How we Wrote Xtensor (Episode 1) - N-Dimensional Containers
+    image: https://miro.medium.com/max/900/1*HsU43Jzp1vJZpX2g8XPJsg.png
+    summary: xtensor is a C++ library meant for numerical analysis with multi-dimensional array expressions. It exposes an API similar to that of NumPy…
+    date: Jun 17, 2019
+    authors: Johan Mabille
+
+  - url: https://blog.jupyter.org/and-voil%C3%A0-f6a2c08a4a93
+    title: And Voilà!
+    image: https://miro.medium.com/max/933/1*F0IS2B1XS6NCxp0Eh7linQ.png
+    summary: The goal of Project Jupyter is to improve the workflows of researchers, educators, scientists, and other practitioners of scientific computing, from the exploratory phase of their work to the…
+    date: Jun 11, 2019
+    authors: Sylvain Corlay, Maarten Breddels
+
+  - url: https://medium.com/@wolfv/mamba-development-news-29e32aaa8d6c
+    title: Mamba Development News
+    image: https://miro.medium.com/max/1800/1*g1iLyOfddtgWnkq3irRVmA.png 
+    summary: "Mamba is a drop-in replacement for conda, the awesome cross-platform package manager. In our opinion, conda has one tiny problem: it’s too slow when many packages are installed, or when installing…"
+    date: Jun 10, 2019
+    authors: Wolf Vollprecht
+
+  - url: https://medium.com/@wolfv/building-an-open-source-continuous-benchmark-system-717839093962
+    title: Building an Open-Source Continuous Benchmark System
+    image: https://miro.medium.com/max/3686/1*Oopw8DH88w_5ryddn-TIcw.png
+    summary: "Concourse is a continuous integration software, and we use it for two purposes: multi-project continuous integration, and continuous benchmarking. It’s easy to setup on a low cost server, using…"
+    date: May 29, 2019
+    authors: Wolf Vollprecht
+
+  - url: https://blog.jupyter.org/ros-jupyter-b7e82b5e1202
+    title: ROS @ Jupyter
+    image: https://miro.medium.com/max/933/1*35w3erSL2xz0mp9le6YNyg.png
+    summary: Historically, the ROS (Robot Operating System) community has relied on Qt for building complex user interfaces. Nowadays, the Jupyter notebook and the ipywidgets framework offer a compelling…
+    date: Apr 7, 2019
+    authors: Wolf Vollprecht
+
+  - url: https://medium.com/@wolfv/making-conda-fast-again-4da4debfb3b7
+    title: Making Conda Fast Again
+    image: https://miro.medium.com/max/1260/1*5gXPul2JQUjm6oe8Gt6WgQ.png
+    summary: "You might have seen the announcement on Twitter: at QuantStack we’ve been working on making a prototype of a conda-compatible package manager called mamba. Conda is a great tool to distribute data…"
+    date: Mar 28, 2019
+    authors: Wolf Vollprecht
+
+  - url: https://blog.jupyter.org/a-new-python-kernel-for-jupyter-fcdf211e30a8
+    title: A New Python Kernel for Jupyter
+    image: https://miro.medium.com/max/604/1*YIXmS4xfX9MxQ6dHZLU8-g.png
+    summary: Project Jupyter aims at providing a consistent set of tools for interactive computing workflows across multiple programming languages. Jupyter projects are popular at all stages of a research project…
+    date: Jan 9, 2019
+    authors: Martin Renou
+
+  - url: https://medium.com/@johan.mabille/xframe-towards-a-c-dataframe-26e1ccde211b
+    title: "Xframe: Towards a C++ Dataframe"
+    image: https://miro.medium.com/max/1260/1*oIyi7fqvyjIwEw49XkMFig.png
+    summary: For a very long time, the C++ programming language lacked a high-level toolset for scientific computing. Data structures such as N-dimensional arrays, data frames, are the bread and butter of the R…
+    date: Jan 4, 2019
+    authors: Johan Mabille
+
+  - url: https://medium.com/@johan.mabille/designing-language-bindings-with-xtensor-f32aa0f20db
+    title: Designing Language Bindings with Xtensor
+    image: https://raw.githubusercontent.com/xtensor-stack/xtensor/master/docs/source/xtensor.svg
+    summary: xtensor and its satellite projects make it easy to implement a feature once in C++ and expose it to the main languages of data science, such as Python, Julia and R with little extra work. Although…
+    date: Nov 30, 2018
+    authors: Johan Mabille
+
+  - url: https://towardsdatascience.com/the-xtensor-vision-552dd978e9ad
+    title: The Xtensor Vision
+    image: https://miro.medium.com/max/3200/0*VgDZuseWa2S05e6A
+    summary: Here we’re laying out a vision for the xtensor project, the n-dimensional array in the C++ language — that makes it easy to write high-performance code and bind it to the languages of data science…
+    date: Nov 10, 2018
+    authors: Wolf Vollprecht
+
+  - url: https://serge-sans-paille.github.io/pythran-stories/bye-bye-boostsimd-welcome-xsimd.html
+    title: Bye bye Boost.SIMD, Welcome XSimd
+    image: https://raw.githubusercontent.com/xtensor-stack/xsimd/master/docs/source/xsimd.svg
+    summary: Boost.simd provides a C++ abstraction of vector type, allowing for efficient vectorization of array computations. It has been (optionally) used as part of the expression template engine of Pythran for a long time, a great collaboration that led to several patches in boost.simd, and great performance for Pythran.
+    date: Oct 31, 2019
+    authors: Serge Guelton
+
+  - url: https://medium.com/@QuantStack/xtensor-c-and-the-julia-challenge-643d4b119761
+    title: Xtensor, C++, and the Julia Challenge
+    image: https://miro.medium.com/max/1260/1*FU8d3qA5_wXxxd7Q_ZUEUQ.png
+    summary: Last month, Simon Danisch launched the Julia Language Challenge, a programming challenge from a member of the Julia community to other programming languages. with high performances. This can be…
+    date: Oct 24, 2018
+    authors: Sylvain Corlay, Johan Mabille, Wolf Vollprecht
+
+  - url: https://medium.com/@wolfv/the-julia-challenge-in-c-21272d36c002
+    title: The Julia Challenge in C++
+    image: https://raw.githubusercontent.com/JuliaLang/julia-logo-graphics/master/images/julia-logo-color.png
+    summary: Recently, some folks of the Julia community were boasting about the expressiveness of the Julia programming language, compared to older languages. That’s how they started the Julia Challenge. The…
+    date: Oct 12, 2018
+    authors: Wolf Vollprecht
+
+  - url: https://blog.jupyter.org/interpreted-c-for-gis-with-jupyter-ae191bc6fb8e
+    title: Interpreter C++ for GIS with Jupyter
+    image: https://miro.medium.com/max/933/1*FzUw4j635uJgWHZzc8_QiQ.png
+    summary: The recent release of the Jupyter kernel for C++, based on the Cling interpreter enabled a number of new workflows for the users of the C++ programming language. More than a limited set of base…
+    date: Apr 24, 2018
+    authors: Martin Renou
+
+  - url: https://blog.jupyter.org/authoring-custom-jupyter-widgets-2884a462e724
+    title: Authoring Custom Jupyter Widgets
+    image: https://miro.medium.com/max/933/1*FnkBH8yA-PfCNCxXA2PNIw.gif
+    summary: Jupyter interactive widgets enhance the notebook experience by allowing users to create graphical user interfaces. They enable richer interaction with the data and computing resources. While the base…
+    date: Mar 5, 2018
+    authors: Olivier Borderies, Olivier Coudray, Pierre Marion
+
+  - url: https://blog.jupyter.org/jupyter-receives-the-acm-software-system-award-d433b0dfe3a2
+    title: Jupyter Receives the ACM Software System Award
+    image: https://miro.medium.com/max/1333/1*4gB92wu3PVYsKabkNCkgjg.png
+    summary: It is our pleasure to announce that Project Jupyter has been awarded the 2017 ACM Software System Award, a significant honor for the project. We are humbled to join an illustrious list of projects…
+    date: Mar 2, 2018
+    authors: Project Jupyter
+
+  - url: https://blog.jupyter.org/a-diagram-editor-for-jupyterlab-a254121ff919
+    title: A Diagram Editor for JupyterLab
+    image: https://raw.githubusercontent.com/QuantStack/jupyterlab-drawio/master/drawio.gif
+    summary: The new JupyterLab interface is much more than a replacement for the classic notebook. It aims to bring together all the pieces required for a complete scientific workflow. The extension-based…
+    date: Feb 26, 2018
+    authors: Wolf Vollprecht
+
+  - url: https://medium.com/@wolfv/fast-reductions-in-xtensor-with-simd-212a8543960a
+    title: Fast Reductions in Xtensor with Xsimd
+    image: https://miro.medium.com/max/1260/1*lKyNuvdkZlJwhwdatalQmw.png
+    summary: "xtensor has a wealth of mathematical functions available already: we support a lot of the NumPy API right there in C++. One of the areas where we were a bit slower than NumPy in the past were…"
+    date: Feb 20, 2018
+    authors: Wolf Vollprecht
+
+  - url: https://medium.com/@wolfv/faster-xtensor-87fcbe7f5293
+    title: Faster Xtensor
+    image: https://miro.medium.com/max/1260/1*NXfksdUzAtHjlw3y8wwqDg.jpeg
+    summary: Knowing the size of the memory that is to be allocated at compile time can improve the runtime performance a lot — the compiler can already reserve the required space on the stack (instead of having…
+    date: Feb 18, 2018
+    authors: Wolf Vollprecht
+
+  - url: https://blog.jupyter.org/interactive-workflows-for-c-with-jupyter-fe9b54227d92
+    title: Interactive Workflows for C++ with Jupyter
+    image: https://miro.medium.com/max/933/1*t_9qAXtdkSXr-0tO9VvOzQ.png
+    summary: Scientists, educators and engineers not only use programming languages to build software systems, but also in interactive workflows, using the tools available to explore a problem and reason about…
+    date: Nov 29, 2017
+    authors: Sylvain Corlay, Loic Gouarin, Johan Mabille, Wolf Vollprecht
+
+  - url: https://medium.com/@SylvainCorlay/scientific-computing-in-a-polyglot-world-with-xtensor-d81ff3865d6
+    title: Scientific Computing in a Polyglot World with Xtensor
+    image: https://miro.medium.com/max/540/1*mtoK6AtRa0pNGGm576Yj0w.jpeg
+    summary: The One Language to Rule Them All probably does not exist yet. In the world of interactive scientific computing, countless articles and blog posts argue on the merits of R, Python, Julia and other…
+    date: May 5, 2017
+    authors: Sylvain Corlay
+
