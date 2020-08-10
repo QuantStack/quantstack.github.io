@@ -874,11 +874,15 @@ textarea:focus, input:focus{
 .post-summary {
    font-size: 20px;
 }
+.post-title h2 {
+   text-align: left;
+}
+.post-authors {
+   color: gray;
+   font-style: italic;
+}
 .post-description {
    flex-grow: 1;
    margin: 14px;
    overflow: hidden;
-}
-.post-title h2 {
-   text-align: left;
 }

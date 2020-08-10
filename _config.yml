@@ -82,6 +82,20 @@ blog:
     date: Nov 24, 2019
     authors: Johan Mabille
 
+  - url: https://blog.jupyter.org/voila-gridstack-template-8a431c2b353e
+    title: Configure your dashboards with Voilà gridstack template
+    image: https://miro.medium.com/max/933/1*Pl6z5oPeFixFjxMEYzEpIA.gif
+    summary: Voilà is a new dashboarding solution from Jupyter ecosystem. It provides an easy-to-use tool to convert your Jupyter notebooks into standalone web applications. If you have not used it before, you…
+    date: Nov 11, 2019
+    authors: Bartosz Telenczuk
+
+  - url: https://blog.jupyter.org/a-slideshow-template-for-voil%C3%A0-apps-435f67d10b4f
+    title: A Slideshow template for Voilà
+    image: https://miro.medium.com/max/512/1*JLepfTuigc_h1Gfy768BWg.png
+    summary: Last June, QuantStack announced the first release of Voilà, a solution to turn Jupyter notebooks into standalone web applications. Voilà enforces security (preventing arbitrary code execution) while…
+    date: Oct 29, 2019
+    authors: Marianne Corvellec
+
   - url: https://medium.com/@wolfv/ros-on-conda-forge-dca6827ac4b6
     title: ROS on Conda-forge
     image: https://miro.medium.com/max/1260/1*Vs520qK74Y0O3O5BtlgB7g.png
@@ -137,6 +151,13 @@ blog:
     summary: xtensor is a comprehensive framework for N-D arrays processing, including an extensible expression system, lazy evaluation, and many other…
     date: Jul 16, 2019
     authors: Johan Mabille
+
+  - url: https://blog.jupyter.org/introducing-templates-for-jupyter-widget-layouts-f72bcb35a662
+    title: Introducing Templates for Jupyter Widget Layouts
+    image: https://miro.medium.com/max/933/1*YQrJiSx2g6GfhkIqK24RUw.png
+    summary: Notebooks come alive with Jupyter widgets, which allow users to produce interactive GUIs inline in the Jupyter notebook or JupyterLab. You can either use them to add a few interactive controls and…
+    date: Jul 4, 2019
+    authors: Bartosz Telenczuk
 
   - url: https://medium.com/@johan.mabille/how-we-wrote-xtensor-3-n-the-constructors-65a177260638
     title: How we Wrote Xtensor (Episode 3) - The Constructors
