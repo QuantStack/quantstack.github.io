@@ -877,6 +877,7 @@ textarea:focus, input:focus{
 .post-description {
    flex-grow: 1;
    margin: 14px;
+   overflow: hidden;
 }
 .post-title h2 {
    text-align: left;
