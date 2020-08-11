@@ -5,6 +5,13 @@ copyright:
 
 blog:
 
+  - url: https://blog.jupyter.org/jupyterlab-ros-3dc9dab7f421
+    title: JupyterLab, the Cloud Robotics Command Station
+    image: https://miro.medium.com/max/3200/1*zfaBPxiCzlnoNoKrVpcrIA.png
+    summary: Building the next generation of robotics cloud computing using ROS and JupyterLab
+    date: Aug 11, 2020
+    authors: Carlos Herrero, Wolv Vollprecht
+
   - url: https://blog.jupyter.org/slicerjupyter-a-3d-slicer-kernel-for-interactive-publications-6f2ad829f635
     title: SlicerJupyter, a 3-D Slicer Kernel for Interactive Publications
     image: https://miro.medium.com/max/341/1*ePhHKkjqV-AW0mvDkaeurw.png
