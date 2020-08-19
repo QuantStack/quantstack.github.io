@@ -21,7 +21,7 @@ blog:
 
   - url: https://medium.com/@QuantStack/open-software-packaging-for-science-61cecee7fc23
     title: Open Software Packaging for Science
-    image: https://miro.medium.com/max/1260/1*1P1l_kh2ernLpozcRYNBEw.png
+    image: https://miro.medium.com/max/1260/1*K_6kde5NvZbnEQfvKxVrdg.png
     summary: Modern scientific applications typically depend on a very large number of libraries written in various programming languages, ranging from Fortran to TypeScript, C, C++, Python, etc. So, we need to…
     date: Jun 19, 2020
     authors: Wolf Vollprecht, Mario Buikhuizen, Marianne Corvellec, Johan Mabille, David Brochart
