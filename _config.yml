@@ -136,7 +136,7 @@ blog:
     image: https://miro.medium.com/max/667/1*YA26aVkLDM1KXjNtGu5-Hw.gif
     summary: As Jupyter grew in popularity, a broad ecosystem of visualization packages based on Jupyter widgets has been developed, bringing even more interactivity to the Jupyter world. In this article, we dive…
     date: Sep 25, 2019
-    authors: Martin Renou
+    authors: Sylvain Corlay, Martin Renou
 
   - url: https://medium.com/@johan.mabille/how-we-wrote-xtensor-5-n-expression-templates-d07332e73d1d
     title: How we Wrote Xtensor (Episode 5) - Expression Templates
