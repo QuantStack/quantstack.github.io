@@ -5,6 +5,13 @@ copyright:
 
 blog:
 
+  - url: https://medium.com/@martinRenou/real-time-rendering-of-water-caustics-59cda1d74aa
+    title: Real-time rendering of water caustics
+    image: https://miro.medium.com/max/875/1*lbqTcvsdT_5D2LT1h5bO2g.png
+    summary: In this article, I present an attempt for generalizing caustics computation in real-time using WebGL and ThreeJS. The fact that it is an attempt is important, finding a solution that works well in…
+    date: Aug 27, 2020
+    authors: Martin Renou
+
   - url: https://blog.jupyter.org/jupyterlab-ros-3dc9dab7f421
     title: JupyterLab, the Cloud Robotics Command Station
     image: https://miro.medium.com/max/3200/1*zfaBPxiCzlnoNoKrVpcrIA.png
@@ -67,6 +74,13 @@ blog:
     summary: As a robotics researcher (but also in many other fields) computations on geometric primitives are used very frequently— but it’s harder than anticipated to find the right abstractions in a nice…
     date: Jan 24, 2020
     authors: Wolf Vollprecht
+
+  - url: https://medium.com/@johan.mabille/how-we-wrote-xtensor-8-n-iterators-7df77e3223f7
+    title: How we Wrote Xtensor (Episode 8) - Iterators
+    image: https://miro.medium.com/max/1260/0*mdtjNgTehPo6xzRO.png
+    summary: In the previous article, we implemented the broadcasting rules so that we can compute the shape of arbitrary complex trees that involve arrays with different but compatible shapes. This is the first…
+    date: Jan 7, 2020
+    authors: Johan Mabille
 
   - url: https://medium.com/@wolfv/2019-in-review-d7d03fb0d17d
     title: 2019 in Review
