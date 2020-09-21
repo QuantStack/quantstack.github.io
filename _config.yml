@@ -5,6 +5,13 @@ copyright:
 
 blog:
 
+  - url: https://medium.com/@mari_meir/memestra-a21c0c1f362
+    title: Memestra!
+    image: https://miro.medium.com/max/1200/1*usMYAuVljfxl9LnSPnseVg.png
+    summary: Modern IDE features such as interactive debugging, linting, code formatting, and refactoring tools are now available in JupyterLab, thanks to the JupyterLab-LSP extension and the recent release of…
+    date: Sep 21, 2020
+    authors: Mariana Meireles
+
   - url: https://medium.com/@martinRenou/real-time-rendering-of-water-caustics-59cda1d74aa
     title: Real-time rendering of water caustics
     image: https://miro.medium.com/max/875/1*lbqTcvsdT_5D2LT1h5bO2g.png
