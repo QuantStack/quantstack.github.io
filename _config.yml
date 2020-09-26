@@ -5,6 +5,13 @@ copyright:
 
 blog:
 
+  - url: https://blog.jupyter.org/the-templating-system-of-nbconvert-6-47ea781eacd2
+    title: The templating system of nbconvert 6
+    image: https://miro.medium.com/max/1200/1*nrUKm5eexRd9ReMergNnEw.png
+    summary: One of the main changes in nbconvert 6 is the refactor of the template system, which should be easier to extend and build upon. In this article, we dive into the template system, and provide a… 
+    date: Sep 26, 2020
+    authors: Sylvain Corlay
+
   - url: https://medium.com/@mari_meir/memestra-a21c0c1f362
     title: Memestra!
     image: https://miro.medium.com/max/1200/1*usMYAuVljfxl9LnSPnseVg.png
