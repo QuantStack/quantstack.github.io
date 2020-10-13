@@ -5,6 +5,13 @@ copyright:
 
 blog:
 
+  - url: https://medium.com/@mari_meir/rhumba-a-faster-r-distribution-d619fb93043a
+    title: Rhumba, a faster R distribution
+    image: https://miro.medium.com/max/1260/1*qNdIl4oTgd0F6JAExK7CNg.gif
+    summary: CRAN is the official package manager for the R ecosystem. Unfortunately, simple operations such as creating new environments or installing packages with it can be very time-consuming due to the fact…
+    date: Oct 13, 2020
+    authors: Mariana Meireles
+
   - url: https://blog.jupyter.org/the-templating-system-of-nbconvert-6-47ea781eacd2
     title: The templating system of nbconvert 6
     image: https://miro.medium.com/max/1200/1*nrUKm5eexRd9ReMergNnEw.png
