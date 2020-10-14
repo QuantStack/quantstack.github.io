@@ -5,6 +5,13 @@ copyright:
 
 blog:
 
+  - url: https://blog.jupyter.org/ipygany-jupyter-into-the-third-dimension-29a97597fc33
+    title: ipygany: Jupyter into the third dimension
+    image: https://miro.medium.com/max/1000/1*IB4Bf4aEC5RXJJ1gY1zGFw.png
+    summary: From Paraview to Mayavi, there are multiple solutions for data analysis on 3D meshes on the desktop. Most of these tools provide high-level APIs that can be driven with a scripting language like…
+    date: Oct 14, 2020
+    authors: Martin Renou
+
   - url: https://medium.com/@mari_meir/rhumba-a-faster-r-distribution-d619fb93043a
     title: Rhumba, a faster R distribution
     image: https://miro.medium.com/max/1260/1*qNdIl4oTgd0F6JAExK7CNg.gif
