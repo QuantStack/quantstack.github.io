@@ -5,6 +5,13 @@ copyright:
 
 blog:
 
+  - url: https://blog.jupyter.org/a-c-backend-for-vega-lite-bd2524b247c2
+    title: A C++ API for Vega-Lite
+    image: https://miro.medium.com/max/700/1*UkIPGquufhYT7-S62MTECg.png
+    summary: In this post, we present the first public release of XVega, a C++ library for producing Vega-Lite charts. Data science workflows differ from traditional software development in that engineers make…
+    date: Dec 2, 2020
+    authors: Madhur Tandon
+
   - url: https://blog.jupyter.org/ipygany-jupyter-into-the-third-dimension-29a97597fc33
     title: ipygany, Jupyter into the third dimension
     image: https://miro.medium.com/max/1000/1*IB4Bf4aEC5RXJJ1gY1zGFw.png
