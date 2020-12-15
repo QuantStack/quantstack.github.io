@@ -881,6 +881,9 @@ textarea:focus, input:focus{
    color: gray;
    font-style: italic;
 }
+.post-date {
+   color: gray;
+}
 .post-description {
    flex-grow: 1;
    margin: 14px;
