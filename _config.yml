@@ -8,7 +8,7 @@ blog:
   - url: https://david-brochart.medium.com/xtensor-%EF%B8%8F-zarr-4f5cf25c65e5
     title: Xtensor ❤️  Zarr
     image: https://miro.medium.com/max/2160/1*N1w2lJOA9n0HKw0Hlf0ruQ.png
-    summary: Xtensor ❤️  Zarr. A C++ implementation of the Zarr… | by David Brochart | Dec, 2020 | Medium
+    summary: A C++ implementation of the Zarr specification…
     date: Dec 15, 2020
     authors: David Brochart
 
