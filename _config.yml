@@ -5,6 +5,13 @@ copyright:
 
 blog:
 
+  - url: https://blog.llvm.org/posts/2020-12-21-interactive-cpp-for-data-science/
+    title: Interactive C++ for Data Science
+    image: https://blog.llvm.org/img/cling-2020-12-21-figure3.png
+    summary: This post will discuss some applications of Cling developed to support data science researchers. In particular, interactively probing data and interfaces makes complex libraries and complex data more accessible users.
+    date: Dec 23, 2020
+    authors: Vassil Vassilev, David Lange, Simeon Ehrig, Sylvain Corlay
+
   - url: https://david-brochart.medium.com/xtensor-%EF%B8%8F-zarr-4f5cf25c65e5
     title: Xtensor ❤️  Zarr
     image: https://miro.medium.com/max/2160/1*N1w2lJOA9n0HKw0Hlf0ruQ.png
