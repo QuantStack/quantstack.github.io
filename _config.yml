@@ -5,6 +5,13 @@ copyright:
 
 blog:
 
+  - url: https://blog.jupyter.org/jupyterlab-3-0-is-out-4f58385e25bb
+    title: JupyterLab 3.0 is released!
+    image: https://miro.medium.com/max/1400/1*iZTmCAefbExeTZNJKWy4cQ.png
+    summary: The 3.0 release of JupyterLab brings many new features to users and substantial improvements to the extension distribution system.
+    date: January 5th, 2021
+    authors: Jeremy Tuloup
+
   - url: https://blog.llvm.org/posts/2020-12-21-interactive-cpp-for-data-science/
     title: Interactive C++ for Data Science
     image: https://blog.llvm.org/img/cling-2020-12-21-figure3.png
