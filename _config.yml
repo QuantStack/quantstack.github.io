@@ -5,6 +5,13 @@ copyright:
 
 blog:
 
+  - url: https://blog.jupyter.org/dashboarding-with-jupyterlab-3-789fcb1a5857
+    title: Dashboarding with JupyterLab 3.0
+    image: https://miro.medium.com/max/2000/1*t4EW3oCIrt5FaMXUyjYPFw.gif
+    summary: Project Jupyter offers a complete suite of open-source tools for the scientific computing community, reaching from the exploratory phase of a project to the presentation of the results. In this last…
+    date: January 8th, 2021
+    authors: Carlos Herrero, Jeremy Tuloup
+
   - url: https://blog.jupyter.org/jupyterlab-3-0-is-out-4f58385e25bb
     title: JupyterLab 3.0 is released!
     image: https://miro.medium.com/max/1400/1*iZTmCAefbExeTZNJKWy4cQ.png
