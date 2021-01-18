@@ -5,6 +5,13 @@ copyright:
 
 blog:
 
+  - url: https://blog.jupyter.org/robotic-process-automation-with-jupyterlab-713b5630e457
+    title: Robotic Process Automation with JupyterLab
+    image: https://miro.medium.com/max/1120/1*3HNfLnwDpXNZ6n6HPD2lXQ.png
+    summary: Robotic Process Automation (RPA) differs from classical automation tools in that the actions to automate can be developed by observing a user perform a task in a graphical user interface, across…
+    date: January 18th, 2021
+    authors: Martin Renou, Johan Mabille
+
   - url: https://blog.jupyter.org/dashboarding-with-jupyterlab-3-789fcb1a5857
     title: Dashboarding with JupyterLab 3.0
     image: https://miro.medium.com/max/2000/1*t4EW3oCIrt5FaMXUyjYPFw.gif
@@ -13,7 +20,7 @@ blog:
     authors: Carlos Herrero, Jeremy Tuloup
 
   - url: https://blog.jupyter.org/jupyterlab-3-0-is-out-4f58385e25bb
-    title: JupyterLab 3.0 is released!
+    title: JupyterLab 3.0 is Released!
     image: https://miro.medium.com/max/1400/1*iZTmCAefbExeTZNJKWy4cQ.png
     summary: The 3.0 release of JupyterLab brings many new features to users and substantial improvements to the extension distribution system.
     date: January 5th, 2021
@@ -41,21 +48,21 @@ blog:
     authors: Madhur Tandon
 
   - url: https://blog.jupyter.org/ipygany-jupyter-into-the-third-dimension-29a97597fc33
-    title: ipygany, Jupyter into the third dimension
+    title: Ipygany, Jupyter into the Third Dimension
     image: https://miro.medium.com/max/1000/1*IB4Bf4aEC5RXJJ1gY1zGFw.png
     summary: From Paraview to Mayavi, there are multiple solutions for data analysis on 3D meshes on the desktop. Most of these tools provide high-level APIs that can be driven with a scripting language like…
     date: Oct 14, 2020
     authors: Martin Renou
 
   - url: https://medium.com/@mari_meir/rhumba-a-faster-r-distribution-d619fb93043a
-    title: Rhumba, a faster R distribution
+    title: Rhumba, a Faster R Distribution
     image: https://miro.medium.com/max/1260/1*qNdIl4oTgd0F6JAExK7CNg.gif
     summary: CRAN is the official package manager for the R ecosystem. Unfortunately, simple operations such as creating new environments or installing packages with it can be very time-consuming due to the fact…
     date: Oct 13, 2020
     authors: Mariana Meireles
 
   - url: https://blog.jupyter.org/the-templating-system-of-nbconvert-6-47ea781eacd2
-    title: The templating system of nbconvert 6
+    title: The Templating System of Nbconvert 6
     image: https://miro.medium.com/max/1200/1*nrUKm5eexRd9ReMergNnEw.png
     summary: One of the main changes in nbconvert 6 is the refactor of the template system, which should be easier to extend and build upon. In this article, we dive into the template system, and provide a… 
     date: Sep 26, 2020
@@ -69,7 +76,7 @@ blog:
     authors: Mariana Meireles
 
   - url: https://medium.com/@martinRenou/real-time-rendering-of-water-caustics-59cda1d74aa
-    title: Real-time rendering of water caustics
+    title: Real-time Rendering of Water Caustics
     image: https://miro.medium.com/max/875/1*lbqTcvsdT_5D2LT1h5bO2g.png
     summary: In this article, I present an attempt for generalizing caustics computation in real-time using WebGL and ThreeJS. The fact that it is an attempt is important, finding a solution that works well in…
     date: Aug 27, 2020
@@ -167,7 +174,7 @@ blog:
     authors: Johan Mabille
 
   - url: https://blog.jupyter.org/voila-gridstack-template-8a431c2b353e
-    title: Configure your dashboards with Voilà gridstack template
+    title: Configure your Dashboards with the Voilà Gridstack Template
     image: https://miro.medium.com/max/933/1*Pl6z5oPeFixFjxMEYzEpIA.gif
     summary: Voilà is a new dashboarding solution from Jupyter ecosystem. It provides an easy-to-use tool to convert your Jupyter notebooks into standalone web applications. If you have not used it before, you…
     date: Nov 11, 2019
