@@ -10,7 +10,7 @@ blog:
     image: https://miro.medium.com/max/1120/1*i1D4_PqaKhej-XRSKkoyBw.png
     summary: Diving into the implementation of xwidgets…
     date: January 27th, 2021
-    author: Sylvain Corlay
+    authors: Sylvain Corlay
 
   - url: https://blog.jupyter.org/robotic-process-automation-with-jupyterlab-713b5630e457
     title: Robotic Process Automation with JupyterLab
