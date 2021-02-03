@@ -5,6 +5,14 @@ copyright:
 
 blog:
 
+  - url: https://blog.jupyter.org/an-sql-solution-for-jupyter-ef4a00a0d925?postPublishedType=initial
+    title: An SQL Solution for Jupyter
+    image: https://miro.medium.com/max/992/1*tbfa_AWoqb-yB1Tk6Uq3ng.png
+    summary: A few months ago we released xeus-sqlite, a Jupyter kernel that allows users to make SQLite queries directly from the notebook. With the needs of the Jupyter data science community in mind we decided…
+    date: February 3rd, 2021
+    authors: Mariana Meireles
+
+
   - url: https://blog.jupyter.org/a-curiously-recurring-widget-library-261a65bd56fe
     title: A Curiously Recurring Widget Library
     image: https://miro.medium.com/max/1120/1*i1D4_PqaKhej-XRSKkoyBw.png
