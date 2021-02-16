@@ -8,7 +8,7 @@ blog:
   - url: https://medium.com/robostack/cross-platform-conda-packages-for-ros-fa1974fd1de3
     title: Cross-platform conda packages for ROS
     image: https://miro.medium.com/max/2000/0*CWMpP2kGWulIQeHf.jpg
-    summary: 2020 has been a busy year for the RoboStack project: we collaboratively published ros-noetic on four platforms (Windows, macOS, Linux x64 and ARM64) and revamped how ROS packages can be released on…
+    summary: 2020 has been a busy year for the RoboStack project. We collaboratively published ros-noetic on four platforms (Windows, macOS, Linux x64 and ARM64) and revamped how ROS packages can be released on…
     date: February 16th, 2021
     authors: Wolf Vollprecht, Tobias Fischer
 
