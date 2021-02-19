@@ -5,6 +5,12 @@ copyright:
 
 blog:
 
+  - url: https://blog.jupyter.org/abracadabra-bringing-the-magics-to-xeus-python-9d17bcfacb4
+    title: Abracadabra! Bringing the Magics to Xeus-Python
+    image: https://miro.medium.com/max/1120/1*PTiGVyDsazc_ziz6Bk4EnA.gif
+    summary: Last year, we set ourselves to implement a visual debugger for JupyterLab. This endeavor required major developments in the JupyterLab…
+    authors: Martin Renou
+
   - url: https://medium.com/robostack/cross-platform-conda-packages-for-ros-fa1974fd1de3
     title: Cross-platform Conda Packages for ROS
     image: https://miro.medium.com/max/2000/0*CWMpP2kGWulIQeHf.jpg
