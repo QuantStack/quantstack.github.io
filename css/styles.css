@@ -104,7 +104,7 @@ header a.logo{
     display: block;
 
 }
-@media (max-width: 992px) {
+@media (max-width: 768px) {
     header a.logo {
         padding-top: 5px;
     }
@@ -154,7 +154,7 @@ header .menu ul li.picto img {
         padding: 25px 14px 25px 5px;
     }
 }
-@media (max-width:992px) {
+@media (max-width:768px) {
     header .menu ul li:not(.picto) {
         display: block;
         width: 100%;
@@ -888,35 +888,4 @@ textarea:focus, input:focus{
    flex-grow: 1;
    margin: 14px;
    overflow: hidden;
-}
-.underline {
-    text-decoration: underline;
-}
-.padding-team-intro-txt {
-    padding: 27px;
-}
-
-@media (max-width: 992px) {
-    header a.logo {
-        padding-top: 15px;
-    }
-}
-
-@media (max-width: 768px) {
-    header a.logo {
-        width: 50%;
-    }
-}
-
-@media (max-width: 600px) {
-    header a.logo {
-        width: 75%;
-    }
-}
-
-
-@media (max-width: 500px) {
-    header a.logo {
-        width: 100%;
-    }
 }
