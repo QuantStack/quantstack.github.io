@@ -5,6 +5,12 @@ copyright:
 
 blog:
 
+  - url: https://blog.jupyter.org/nbterm-jupyter-notebooks-in-the-terminal-6a2b55d08b70
+    title: nbterm: Jupyter Notebooks in the terminal
+    image: https://miro.medium.com/max/1120/1*jZFC3kPJqxMSUeCGd7PHxw.jpeg
+    summary: Jupyter notebooks are mostly known for their web-based user interface, such as JupyterLab or the Classic Notebook. They offer a great user experience, allow for rich output rendering, provide…
+    authors: David Brochart
+
   - url: https://blog.jupyter.org/abracadabra-bringing-the-magics-to-xeus-python-9d17bcfacb4
     title: Abracadabra! Bringing the Magics to Xeus-Python
     image: https://miro.medium.com/max/1120/1*PTiGVyDsazc_ziz6Bk4EnA.gif
