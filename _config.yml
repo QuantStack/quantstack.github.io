@@ -5,6 +5,12 @@ copyright:
 
 blog:
 
+  - url: https://johan-mabille.medium.com/zarray-a-dynamic-expression-system-based-on-xtensor-ded69f37ff5e
+    title: "zarray: a dynamic expression system based on xtensor"
+    image: https://miro.medium.com/max/782/0*MH-GD9T19Fjn32ur.png
+    summary: In this article we demonstrate how we pushed xtensor one step further, implementing a dynamic expression system on top of it. xtensor is a comprehensive C++framework for multi-dimensional array…
+    authors: Johan Mabille
+
   - url: https://blog.jupyter.org/nbterm-jupyter-notebooks-in-the-terminal-6a2b55d08b70
     title: "nbterm: Jupyter Notebooks in the terminal"
     image: https://miro.medium.com/max/1120/1*jZFC3kPJqxMSUeCGd7PHxw.jpeg
