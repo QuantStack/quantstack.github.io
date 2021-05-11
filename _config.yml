@@ -5,6 +5,12 @@ copyright:
 
 blog:
 
+  - url: https://medium.com/@mari_meir/jupyter-%EF%B8%8F-%EF%B8%8F-cytoscape-e2e77be8e0f9
+    title: Jupyter ️❤️ Cytoscape
+    image: https://miro.medium.com/max/250/1*fib_QqwBNksN4YiJiAneQg.png
+    summary: Cytoscape is an open source software platform for visualizing complex networks and integrating these with any type of attribute data. While the project was started in the life sciences community, it…
+    authors: Mariana Meireles
+
   - url: https://johan-mabille.medium.com/zarray-a-dynamic-expression-system-based-on-xtensor-ded69f37ff5e
     title: "zarray: a dynamic expression system based on xtensor"
     image: https://miro.medium.com/max/782/0*MH-GD9T19Fjn32ur.png
