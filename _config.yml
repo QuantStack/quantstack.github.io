@@ -5,6 +5,13 @@ copyright:
 
 blog:
 
+  - url: https://adelsalle.medium.com/rhumba-the-fast-r-distribution-is-available-on-windows-fa975b2aefa2
+    title: Rhumba, the fast R distribution is available on Windows
+    image: https://miro.medium.com/max/700/1*23wOYejHZA5dLluhyLUYhA.gif
+    summary: A few months ago, Mariana Meireles created Rhumba, a fast R package manager and distribution leveraging the conda-forge initiative and the mamba library. Today, we’re happy to announce a new major…
+    date: May 18th, 2021
+    author: Adrien Delsalle
+
   - url: https://blog.jupyter.org/enabling-the-jupyterlab-debugger-with-ipykernel-8d7248f522b0
     title: Enabling the JupyterLab Debugger with ipykernel
     image: https://miro.medium.com/max/4214/1*jSQWLvCYoV-L-kp_lTkRKg.gif
