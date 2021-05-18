@@ -10,7 +10,7 @@ blog:
     image: https://miro.medium.com/max/700/1*23wOYejHZA5dLluhyLUYhA.gif
     summary: A few months ago, Mariana Meireles created Rhumba, a fast R package manager and distribution leveraging the conda-forge initiative and the mamba library. Today, we’re happy to announce a new major…
     date: May 18th, 2021
-    author: Adrien Delsalle
+    authors: Adrien Delsalle
 
   - url: https://blog.jupyter.org/enabling-the-jupyterlab-debugger-with-ipykernel-8d7248f522b0
     title: Enabling the JupyterLab Debugger with ipykernel
