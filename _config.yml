@@ -17,7 +17,7 @@ blog:
     image: https://miro.medium.com/max/4214/1*jSQWLvCYoV-L-kp_lTkRKg.gif
     summary: JupyterLab 3.0 includes a visual debugger that allows to interactively set breakpoints, step into functions, and inspect variables with any Jupyter kernel that implements the Jupyter debugger…
     date: May 13th, 2021
-    authors: Sylvain Corlay
+    authors: Sylvain Corlay, Johan Mabille
 
   - url: https://medium.com/@mari_meir/jupyter-%EF%B8%8F-%EF%B8%8F-cytoscape-e2e77be8e0f9
     title: Jupyter ️❤️ Cytoscape
