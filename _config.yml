@@ -5,6 +5,13 @@ copyright:
 
 blog:
 
+  - url: https://blog.jupyter.org/retrolab-a-jupyterlab-distribution-with-a-retro-look-and-feel-8096b8b223d0
+    title: RetroLab — A JupyterLab distribution with a retro look and feel
+    image: https://miro.medium.com/max/3840/1*n9MydI9CDW9vlav1gMlo0Q.png
+    summary: RetroLab is an alternative JupyterLab distribution, built from the ground-up, providing a notebook interface with a retro look and feel. Currently at version 3.0, JupyterLab provides an advanced…
+    date: May 27th
+    authors: Jeremy Tuloup
+
   - url: https://adelsalle.medium.com/rhumba-the-fast-r-distribution-is-available-on-windows-fa975b2aefa2
     title: Rhumba, the fast R distribution is available on Windows
     image: https://miro.medium.com/max/700/1*23wOYejHZA5dLluhyLUYhA.gif
