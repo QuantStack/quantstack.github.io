@@ -142,7 +142,7 @@ blog:
   - url: https://blog.jupyter.org/the-templating-system-of-nbconvert-6-47ea781eacd2
     title: The Templating System of Nbconvert 6
     image: https://miro.medium.com/max/1200/1*nrUKm5eexRd9ReMergNnEw.png
-    summary: One of the main changes in nbconvert 6 is the refactor of the template system, which should be easier to extend and build upon. In this article, we dive into the template system, and provide a… 
+    summary: One of the main changes in nbconvert 6 is the refactor of the template system, which should be easier to extend and build upon. In this article, we dive into the template system, and provide a…
     date: Sep 26, 2020
     authors: Sylvain Corlay
 
@@ -358,7 +358,7 @@ blog:
 
   - url: https://medium.com/@wolfv/mamba-development-news-29e32aaa8d6c
     title: Mamba Development News
-    image: https://miro.medium.com/max/1800/1*g1iLyOfddtgWnkq3irRVmA.png 
+    image: https://miro.medium.com/max/1800/1*g1iLyOfddtgWnkq3irRVmA.png
     summary: "Mamba is a drop-in replacement for conda, the awesome cross-platform package manager. In our opinion, conda has one tiny problem: it’s too slow when many packages are installed, or when installing…"
     date: Jun 10, 2019
     authors: Wolf Vollprecht
@@ -383,6 +383,13 @@ blog:
     summary: "You might have seen the announcement on Twitter: at QuantStack we’ve been working on making a prototype of a conda-compatible package manager called mamba. Conda is a great tool to distribute data…"
     date: Mar 28, 2019
     authors: Wolf Vollprecht
+
+  - url: https://towardsdatascience.com/interactive-spreadsheets-in-jupyter-32ab6ec0f4ff
+    title: Interactive spreadsheets in Jupyter
+    image: https://miro.medium.com/max/3322/1*sKQkf8JV8xTIq9pxVBHGow.png
+    summary: ipysheet is a new interactive widgets library that aims at implementing the core features of a good spreadsheet application and more…
+    date: Mar 8, 2019
+    authors: Martin Renou
 
   - url: https://blog.jupyter.org/a-new-python-kernel-for-jupyter-fcdf211e30a8
     title: A New Python Kernel for Jupyter
@@ -495,4 +502,3 @@ blog:
     summary: The One Language to Rule Them All probably does not exist yet. In the world of interactive scientific computing, countless articles and blog posts argue on the merits of R, Python, Julia and other…
     date: May 5, 2017
     authors: Sylvain Corlay
-
