@@ -405,6 +405,13 @@ blog:
     date: Nov 30, 2018
     authors: Johan Mabille
 
+  - url: https://towardsdatascience.com/video-streaming-in-the-jupyter-notebook-635bc5809e85
+    title: Video Streaming in the Jupyter Notebook
+    image: https://miro.medium.com/max/1400/1*HTd5uPpq8hsVhxv0MeVfAg.gif
+    summary: ipywidgets plays an essential part in the Jupyter ecosystem; it brings interactivity between user and data. Widgets are eventful Python objects that often have a visual representation in the Jupyter…
+    date: Nov 19, 2018
+    authors: Martin Renou
+
   - url: https://towardsdatascience.com/the-xtensor-vision-552dd978e9ad
     title: The Xtensor Vision
     image: https://miro.medium.com/max/3200/0*VgDZuseWa2S05e6A
