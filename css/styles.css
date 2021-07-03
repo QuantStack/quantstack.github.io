@@ -834,7 +834,7 @@ textarea:focus, input:focus{
     line-height: normal;
     letter-spacing: normal;
     text-align: left;
-     color: var(--black);
+    color: var(--black);
     margin: 33px 0   ;
 
 }
@@ -849,27 +849,37 @@ textarea:focus, input:focus{
     display: block;
 }
 .post-card {
-  display: flex;
-  height: 300px;
   border-radius: 10px;
   box-shadow: 0px 1px 10px 0 rgba(1, 0, 0, 0.17);
   padding: 10px;
-  margin-top: 33px;
 }
+
+.post-card:first-child { margin-top: 33px; }
 
 .post-card:hover {
   box-shadow: none;
 }
 
 .post-image {
-   display: flex;
-   min-width: 300px;
-   max-width: 300px;
+   min-width: 280px;
+   max-width: 280px;
+   padding: 10px;
 }
-.post-image img {
-   margin: auto;
-   max-width: 100%;
-   max-height: 100%;
+
+.post-image > img {
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+@media (min-width: 768px) {
+    .post-image {
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .post-card {
+        height: 300px;
+    }
 }
 .post-summary {
    font-size: 20px;
@@ -885,7 +895,6 @@ textarea:focus, input:focus{
    color: gray;
 }
 .post-description {
-   flex-grow: 1;
    margin: 14px;
    overflow: hidden;
 }
