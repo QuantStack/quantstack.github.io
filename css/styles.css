@@ -573,7 +573,7 @@ footer{
     min-height: 490px;
 }
 .portraits .portrait-bis div:first-child:hover {
-    cursor:pointer;
+    cursor: pointer;
 }
 .portraits .portrait-bis a.avatar {
     display: block;
@@ -582,7 +582,9 @@ footer{
     border-radius: 50%;
     overflow: hidden;
     margin: -86px auto 0;
-
+}
+.avatar {
+    filter: grayscale(1);
 }
 .portraits .portrait-bis div:first-child:hover a.avatar{
     border: solid 3px var(--yellowish-tan);
@@ -590,7 +592,6 @@ footer{
 }
 .portraits .portrait-bis div:first-child:hover a.avatar img{
     margin: -3px;
-
 }
 .portraits .portrait-bis div:first-child:hover img.fleche {
     content:url("../img/fleche-droite-jaune.svg");
@@ -599,7 +600,7 @@ footer{
     min-height: 360px;
  }
 .portraits .portrait:hover {
-   border: solid 3px var(--yellowish-tan);
+    border: solid 3px var(--yellowish-tan);
     padding: 7px;
     cursor: pointer;
 }
@@ -723,7 +724,7 @@ div.md pre {
  #tag{
      font-size: 20px;
      font-family: 'Dosis', sans-serif;
-      font-weight: bold;
+     font-weight: bold;
      font-style: normal;
      font-stretch: normal;
      line-height: 1.65;
@@ -763,7 +764,7 @@ h3.secondaire {
     line-height: 1.65;
     letter-spacing: normal;
     text-align: center;
-      color: var(--black);
+    color: var(--black);
 }
 
 .project-category {
@@ -837,7 +838,6 @@ textarea:focus, input:focus{
     text-align: left;
     color: var(--black);
     margin: 33px 0   ;
-
 }
 .bloc-contact img{
     margin: 20px 0 ;
@@ -850,21 +850,23 @@ textarea:focus, input:focus{
     display: block;
 }
 .post-card {
-  border-radius: 10px;
-  box-shadow: 0px 1px 10px 0 rgba(1, 0, 0, 0.17);
-  padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px 0 rgba(1, 0, 0, 0.17);
+    padding: 10px;
 }
 
-.post-card:first-child { margin-top: 33px; }
+.post-card:first-child {
+    margin-top: 33px;
+}
 
 .post-card:hover {
-  box-shadow: none;
+    box-shadow: none;
 }
 
 .post-image {
-   min-width: 280px;
-   max-width: 280px;
-   padding: 10px;
+    min-width: 280px;
+    max-width: 280px;
+    padding: 10px;
 }
 
 .post-image > img {
