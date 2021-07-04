@@ -769,6 +769,7 @@ h3.secondaire {
 .project-category {
     max-width: 1200px;
     margin: auto;
+    margin-bottom: 60px;
 }
 
 .owl-item {
