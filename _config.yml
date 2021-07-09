@@ -5,6 +5,13 @@ copyright:
 
 blog:
 
+  - url: https://wolfv.medium.com/mamba-0-15-0-475d1dca0418
+    title: Mamba 0.15.0
+    image: https://miro.medium.com/max/2000/1*neAjO4lTmq4TIZTmMGkKNg.png
+    summary: We’ve just dropped one of the biggest releases of mamba (the fast conda package manager)— along with some nice improvements in libsolv! This is a quick update on some new and improved features in…
+    date: July 9th, 2021
+    authors: Wolf Vollprecht, Adrien Delsalle
+
   - url: https://www.polytechnique.edu/fondation/content/le-calcul-haute-performance-au-service-de-l%E2%80%99innovation
     title: Le calcul haute performance au service de l'innovation (in French)
     image: https://xpuissancevous.fr/assets/frontend/images/header/logo_share.png
