@@ -5,6 +5,13 @@ copyright:
 
 blog:
 
+  - url: https://blog.jupyter.org/jupyterlite-jupyter-%EF%B8%8F-webassembly-%EF%B8%8F-python-f6e2e41ab3fa
+    title: Jupyter ️❤️ WebAssembly ❤️ Python
+    image: https://miro.medium.com/max/1024/1*CMvcTaLSAD5A-WHCtnIFwA.png
+    summary: JupyterLite is a JupyterLab distribution that runs entirely in the web browser, backed by in-browser language kernels. JupyterLite is a reboot of several attempts at making a full static Jupyter…
+    date: July 13th, 2021
+    authors: Jeremy Tuloup
+
   - url: https://wolfv.medium.com/mamba-0-15-0-475d1dca0418
     title: Mamba 0.15.0
     image: https://miro.medium.com/max/2000/1*neAjO4lTmq4TIZTmMGkKNg.png
