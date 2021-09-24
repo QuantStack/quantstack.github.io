@@ -5,6 +5,13 @@ copyright:
 
 blog:
 
+  - url: https://blog.jupyter.org/from-jupyter-to-the-moon-2e432df402c8
+    title: From Jupyter to the Moon
+    image: https://miro.medium.com/max/2750/1*Or2bu8twFwywgACqLOE9AA.png
+    summary: A key principle in Jupyter’s design is language agnosticism, and one of the main extension points of the Jupyter ecosystem is the kernel, the part of the architecture responsible for executing the…
+    date: September 24th, 2021
+    authors: Thorsten Beier
+
   - url: https://blog.jupyter.org/jupyterlite-jupyter-%EF%B8%8F-webassembly-%EF%B8%8F-python-f6e2e41ab3fa
     title: Jupyter ️❤️ WebAssembly ❤️ Python
     image: https://miro.medium.com/max/1024/1*CMvcTaLSAD5A-WHCtnIFwA.png
