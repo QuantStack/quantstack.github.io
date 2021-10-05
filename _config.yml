@@ -5,6 +5,20 @@ copyright:
 
 blog:
 
+  - url: https://blog.jupyter.org/looking-at-notebooks-from-a-new-perspective-bfd06797f188
+    title: Looking at notebooks from a new perspective
+    image: https://miro.medium.com/max/3000/1*g3OWLubcUFgVIGBfPYztJQ.png
+    summary: Jupyter notebooks are a great tool for practitioners of scientific computing from the research phase of their work to the communication of their results. The interleaving of code and rich text makes…
+    date: October 5th, 2021
+    authors: Mariana Meireles
+
+  - url: https://blog.jupyter.org/xeus-2-0-cb460d4daed4
+    title: Xeus 2.0
+    image: https://miro.medium.com/max/4800/1*kGCA9WV-Gf5tiNqqy9vTMQ.png
+    summary: We have just released Xeus 2.0. This is a major release of the library. While it includes backward-incompatible changes, they are very limited and upgrading your kernels should be relatively easy… 
+    date: September 28th, 2021
+    authors: Johan Mabille, Sylvain Corlay
+
   - url: https://blog.jupyter.org/from-jupyter-to-the-moon-2e432df402c8
     title: From Jupyter to the Moon
     image: https://miro.medium.com/max/2750/1*Or2bu8twFwywgACqLOE9AA.png
