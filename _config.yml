@@ -5,6 +5,13 @@ copyright:
 
 blog:
 
+  - url: https://wolfv.medium.com/the-mamba-project-and-the-czi-grant-ec88fb27c25
+    title: The mamba project and the CZI grant
+    image: https://miro.medium.com/max/2000/1*6hKli3Nr3p6eX3TN5hRaSQ.png
+    summary: For those who don’t know yet: mamba is a fast, cross-platform & non-language-specific package manager widely used in the scientific space. Mamba works with conda -packages and works great in tandem…
+    date: October 19th, 2021
+    authors: Wolf Vollprecht
+
   - url: https://blog.jupyter.org/looking-at-notebooks-from-a-new-perspective-bfd06797f188
     title: Looking at notebooks from a new perspective
     image: https://miro.medium.com/max/3000/1*g3OWLubcUFgVIGBfPYztJQ.png
