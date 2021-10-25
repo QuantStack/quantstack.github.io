@@ -5,6 +5,13 @@ copyright:
 
 blog:
 
+  - url: https://blog.jupyter.org/xeus-lite-379e96bb199d
+    title: Xeus-Lite
+    image: https://miro.medium.com/max/4020/1*PUlJi6czJovO90t-Dsgt5g.png
+    summary: JupyterLite is a JupyterLab distribution that runs entirely in the web browser, backed by in-browser language kernels. Xeus is C++ library for writing Jupyter kernels. In this blogpost we show how…
+    date: October 25th, 2021
+    authors: Thorsten Beier
+
   - url: https://wolfv.medium.com/the-mamba-project-and-the-czi-grant-ec88fb27c25
     title: The mamba project and the CZI grant
     image: https://miro.medium.com/max/2000/1*6hKli3Nr3p6eX3TN5hRaSQ.png
