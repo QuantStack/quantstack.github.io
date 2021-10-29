@@ -5,6 +5,13 @@ copyright:
 
 blog:
 
+  - url: https://johan-mabille.medium.com/toward-a-faster-and-thinner-xsimd-9e4eef41bc17
+    title: Toward a faster and thinner xsimd
+    image: https://miro.medium.com/max/1094/1*5jX4Eemb2CsUkRo3V2FGow.png
+    summary: xsimd, the SIMD library by QuantStack, got more and more adoption in recent years. While it helped improve the library, adoption also brought new requirements. Among them was the abitility to...
+    date: October 29th, 2021
+    authors: Serge Guelton, Johan Mabille
+
   - url: https://blog.jupyter.org/xeus-lite-379e96bb199d
     title: Xeus-Lite
     image: https://miro.medium.com/max/4020/1*PUlJi6czJovO90t-Dsgt5g.png
