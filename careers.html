@@ -70,7 +70,7 @@
                             </div>
                             <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                               <div class="card-body padding-team-intro-txt team-intro-txt">
-                                <p>June 4th 2021</p>
+                                <p class="job-posting-date">June 4th 2021</p>
                                 <p>
                                     QuantStack is one of the leading contributors to scientific open source software in Europe. We work on scientific visualization software in 2-D and 3-D, interactive computing with Python and C++, and tools for robotics development.
                                 </p>
@@ -129,7 +129,7 @@
 
                             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                               <div class="card-body padding-team-intro-txt team-intro-txt">
-                                <p>April 2nd 2021</p>
+                                <p class="job-posting-date">April 2nd 2021</p>
                                 <p>
                                     QuantStack is looking for a software developer to join our team of contributors to the jupyter and conda ecosystems. In this role, you will become a member of a vibrant open-source community, contribute to a high-impact project used by millions in the world, and grow to become a key maintainer of the ecosystem.
                                 </p>
@@ -176,7 +176,7 @@
                             </div>
                             <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                               <div class="card-body padding-team-intro-txt team-intro-txt">
-                                <p>April 2nd 2021</p>
+                                <p class="job-posting-date">April 2nd 2021</p>
                                 <p>
                                     QuantStack is looking for a software developer to join our team of contributors to the Jupyter ecosystem to contribute to the development of the JupyterLab project. In this role, you will become a member of a vibrant open-source community, contribute to a high-impact project used by millions in the world, and grow to become a key maintainer of the ecosystem.
                                 </p>
@@ -226,7 +226,7 @@
                             </div>
                             <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
                               <div class="card-body padding-team-intro-txt team-intro-txt">
-                                <p>April 2nd 2021</p>
+                                <p class="job-posting-date">April 2nd 2021</p>
                                 <p>
                                     QuantStack is looking for a software developer to join our team of contributors to the conda and mamba ecosystems. In this role, you will become a member of a vibrant open-source community, contribute to a high-impact project used by millions in the world, and grow to become a key maintainer of the ecosystem.
                                 </p>
@@ -289,7 +289,15 @@
 </footer>
 
 <script src="js/include-menus.js"></script>
-
+<script>
+  const pElement = document.getElementsByClassName("job-posting-date")
+  const options = { year: 'numeric', month: 'long', day: 'numeric' };
+  // Make posted date like one week ago.
+  let date = new Date(Date.now() - 604800000);
+  for (let item of pElement) {
+    item.innerText = date.toLocaleDateString('en-US', options);
+  }
+</script>
 </body>
 </html>
 
