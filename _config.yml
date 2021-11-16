@@ -5,6 +5,13 @@ copyright:
 
 blog:
 
+  - url: https://adelsalle.medium.com/towards-a-more-secure-conda-ecosystem-5ce65a27d7d5
+    title: Towards a more secure conda ecosystem
+    image: https://miro.medium.com/max/2000/1*-dT0h3rEi07pzgl_wnkj_g.png
+    summary: Supply chain security is crucial to the overall security of package managers, which are a major attack vector of information systems. Today, we are pleased to announce that mamba has gained the…
+    date: November 16th, 2021
+    authors: Adrien Delsalle
+
   - url: https://johan-mabille.medium.com/toward-a-faster-and-thinner-xsimd-9e4eef41bc17
     title: Toward a faster and thinner xsimd
     image: https://miro.medium.com/max/1094/1*5jX4Eemb2CsUkRo3V2FGow.png
