@@ -5,6 +5,13 @@ copyright:
 
 blog:
 
+  - url: https://blog.jupyter.org/need-for-speed-voil%C3%A0-edition-a9e1300ab3b2
+    title: "Need for speed: Voilà edition"
+    image: https://miro.medium.com/max/2000/1*gSWxQGu60SG5DdH8MIzCjw.png
+    summary: Voilà turns Jupyter notebooks into standalone applications without requiring any modification to the content. You want to share your content with non-technical readers? Just call Voilà with the…
+    date: December 10th, 2021
+    authors: Duc Trung Le
+
   - url: https://adelsalle.medium.com/towards-a-more-secure-conda-ecosystem-5ce65a27d7d5
     title: Towards a more secure conda ecosystem
     image: https://miro.medium.com/max/2000/1*-dT0h3rEi07pzgl_wnkj_g.png
