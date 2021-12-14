@@ -5,6 +5,13 @@ copyright:
 
 blog:
 
+  - url: https://blog.jupyter.org/jupyter-games-cda20dc15a21
+    title: Jupyter Games
+    image: https://miro.medium.com/max/4854/1*gXbeqCDvKyaRySdAX6SnKg.png
+    summary: Making their own tiny video games can be a great way for kids to learn programming in a playful matter. While Jupyter is widely used as a scientific and educational tool, Jupyter is seldom used as a…
+    date: December 14th, 2021
+    authors: Thorsten Beier
+
   - url: https://blog.jupyter.org/need-for-speed-voil%C3%A0-edition-a9e1300ab3b2
     title: "Need for speed: Voilà edition"
     image: https://miro.medium.com/max/2000/1*gSWxQGu60SG5DdH8MIzCjw.png
