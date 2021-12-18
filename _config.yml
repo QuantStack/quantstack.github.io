@@ -5,6 +5,13 @@ copyright:
 
 blog:
 
+  - url: https://medium.com/@QuantStack/quantstack-2021-in-review-fe5eac2e0f6d
+    title: "QuantStack: 2021 in review"
+    image: https://miro.medium.com/max/5000/1*sTrv_3hnvCHQdh_6SOYVIg.png
+    summary: This was a crazy year of innovation for the open-source team at QuantStack. From JupyterLab to the packaging ecosystem and high-performance computing, we made some major strides in all areas, while almost doubling the size of the team.
+    date: December 18th, 2021
+    authors: Sylvain Corlay     
+
   - url: https://blog.jupyter.org/jupyter-games-cda20dc15a21
     title: Jupyter Games
     image: https://miro.medium.com/max/4854/1*gXbeqCDvKyaRySdAX6SnKg.png
