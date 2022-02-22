@@ -5,12 +5,19 @@ copyright:
 
 blog:
 
+  - url: https://medium.com/@kmathewos92/ros2-support-for-zethus-e6ecfcdb1c4c
+    title: "ROS2 support for Zethus"
+    image: https://miro.medium.com/max/1400/1*PjL5c71-hE2rO4EyqrVu9Q.png
+    summary: Zethus is an Open Source library for Robot visualization in the browser. Initially developed by Rapyuta Robotics, it provides a web-based…
+    date: February 17th, 2022
+    authors: Kedus Mathewos   
+
   - url: https://medium.com/@QuantStack/quantstack-2021-in-review-fe5eac2e0f6d
     title: "QuantStack: 2021 in review"
     image: https://miro.medium.com/max/5000/1*sTrv_3hnvCHQdh_6SOYVIg.png
     summary: This was a crazy year of innovation for the open-source team at QuantStack. From JupyterLab to the packaging ecosystem and high-performance computing, we made some major strides in all areas, while almost doubling the size of the team.
     date: December 18th, 2021
-    authors: Sylvain Corlay     
+    authors: Sylvain Corlay
 
   - url: https://blog.jupyter.org/jupyter-games-cda20dc15a21
     title: Jupyter Games
