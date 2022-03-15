@@ -5,6 +5,13 @@ copyright:
 
 blog:
 
+  - url: https://blog.jupyter.org/jupyter-everywhere-f8151c2cc6e8
+    title: "Jupyter Everywhere"
+    image: https://miro.medium.com/max/1342/0*TK59W6sOJHNg-Sgi.jpg
+    summary: Easily embed a console, a notebook, or a fully-fledged IDE on any web page.
+    date: March 15th, 2022
+    authors: Martin Renou, Jeremy Tuloup 
+
   - url: https://medium.com/@kmathewos92/ros2-support-for-zethus-e6ecfcdb1c4c
     title: "ROS2 support for Zethus"
     image: https://miro.medium.com/max/1400/1*PjL5c71-hE2rO4EyqrVu9Q.png
