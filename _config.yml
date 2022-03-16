@@ -5,6 +5,13 @@ copyright:
 
 blog:
 
+  - url: https://blog.jupyter.org/congratulations-distinguished-contributors-bc349fa60d68
+    title: Congratulations, Distinguished Contributors!
+    image: https://miro.medium.com/max/1400/1*Cw8VcAfJKv42NLtAN6v-rw.png
+    summary: We are proud to announce the recipients of the Jupyter Distinguished Contributor (JDC) award for the 2021 cohort of contributors.
+    date: March 15th, 2022
+    authors: Johan Mabille 
+
   - url: https://blog.jupyter.org/jupyter-everywhere-f8151c2cc6e8
     title: "Jupyter Everywhere"
     image: https://miro.medium.com/max/1342/0*TK59W6sOJHNg-Sgi.jpg
