@@ -5,6 +5,13 @@ copyright:
 
 blog:
 
+  - url: https://wolfv.medium.com/the-future-of-mamba-fdf6d628b3df
+    title: The future of mamba
+    image: https://miro.medium.com/max/1400/1*uF6b_NEqPQqQafnOnrdVXg.png
+    summary: The recent adoption of libmamba by the conda project was a great validation of our work. Several other game-changing innovations are in the works by the mamba team. Stay tuned!
+    date: March 31st, 2022
+    authors: Wolf Vollprecht
+
   - url: https://blog.jupyter.org/congratulations-distinguished-contributors-bc349fa60d68
     title: Congratulations, Distinguished Contributors!
     image: https://miro.medium.com/max/1400/1*Cw8VcAfJKv42NLtAN6v-rw.png
