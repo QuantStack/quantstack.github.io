@@ -8,7 +8,7 @@ blog:
   - url: https://blog.jupyter.org/inspector-jupyterlab-404cce3e1df6
     title: Inspector JupyterLab
     image: https://miro.medium.com/max/1215/1*pRzjLlwQIIMhJmx2G_3-Mw.png
-    summary: JupyterLab provides multiple ways to improve your coding workflow: code highlighting, code completion, theming, debugger with rich variable rendering and more.
+    summary: "JupyterLab provides multiple ways to improve your coding workflow: code highlighting, code completion, theming, debugger with rich variable rendering and more."
     date: April 11th, 2022
     authors: Martin Renou
 
