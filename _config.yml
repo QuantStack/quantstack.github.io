@@ -5,6 +5,13 @@ copyright:
 
 blog:
 
+  - url: https://blog.jupyter.org/inspector-jupyterlab-404cce3e1df6
+    title: Inspector JupyterLab
+    image: https://miro.medium.com/max/1215/1*pRzjLlwQIIMhJmx2G_3-Mw.png
+    summary: JupyterLab provides multiple ways to improve your coding workflow: code highlighting, code completion, theming, debugger with rich variable rendering and more.
+    date: April 11th, 2022
+    authors: Martin Renou
+
   - url: https://blog.pyodide.org/posts/canvas-renderer-matplotlib-in-pyodide/
     title: HTML5 &lt;canvas&gt; based renderer for Matplotlib in Pyodide
     image: https://blog.pyodide.org/posts/2/results.png
