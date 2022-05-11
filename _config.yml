@@ -14,7 +14,7 @@ blog:
 
   - url: https://blog.pyodide.org/posts/canvas-renderer-matplotlib-in-pyodide/
     title: HTML5 &lt;canvas&gt; based renderer for Matplotlib in Pyodide
-    image: https://blog.pyodide.org/posts/2/results.png
+    image: https://blog.pyodide.org/posts/canvas-renderer-matplotlib-in-pyodide/featured.png
     summary: In this post, we present a new backend for Matplotlib enabling the rendering of figures in the browser by leveraging the &lt;canvas&gt; element. This showcases how JavaScript and Python can interact with each other, thanks to Pyodide.
     date: April 1st, 2022
     authors: Madhur Tandon
