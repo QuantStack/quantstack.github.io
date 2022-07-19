@@ -5,6 +5,13 @@ copyright:
 
 blog:
 
+  - url: https://blog.jupyter.org/mamba-meets-jupyterlite-88ef49ac4dc8
+    title: Mamba meets JupyterLite
+    image: https://miro.medium.com/max/1400/1*JCiZIwwkFen5kwEA2rK4SA.png
+    summary: "JupyterLite is a Jupyter distribution that runs entirely in the web browser without any server components. To achieve this, all language kernels must also run in the browser. A significant benefit of…"
+    date: July 14th, 2022
+    authors: Thorsten Beier, Martin Renou
+
   - url: https://blog.jupyter.org/inspector-jupyterlab-404cce3e1df6
     title: Inspector JupyterLab
     image: https://miro.medium.com/max/1215/1*pRzjLlwQIIMhJmx2G_3-Mw.png
