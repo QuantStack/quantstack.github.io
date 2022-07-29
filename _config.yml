@@ -5,6 +5,13 @@ copyright:
 
 blog:
 
+  - url: https://blog.jupyter.org/visual-programming-in-jupyterlab-with-blockly-7731ec3e113c
+    title: Visual programming in JupyterLab with Blockly
+    image: https://miro.medium.com/max/1400/0*yEQ8djozBKDLcCxZ
+    summary: When moving from block-based programming to a more classical language like Python, students often have to switch to a completely new environment. In order to provide a smooth ramp of complexity for learners, we designed a JupyterLab extension for Blockly so that Jupyter can be used from the very first steps of their learning journey.
+    date: July 29th, 2022
+    authors: Denisa Checiu, Carlos Herrero
+
   - url: https://blog.jupyter.org/mamba-meets-jupyterlite-88ef49ac4dc8
     title: Mamba meets JupyterLite
     image: https://miro.medium.com/max/1400/1*JCiZIwwkFen5kwEA2rK4SA.png
