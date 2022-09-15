@@ -5,6 +5,13 @@ copyright:
 
 blog:
 
+  - url: https://blog.jupyter.org/upgrading-nbgrader-99c56ae56c47
+    title: Upgrading nbgrader 
+    image: https://miro.medium.com/max/922/1*C1fPJUhN8pk86GIXCQq5AA.png
+    summary: Project Jupyter provides a broad collection of open-source tools for interactive computing that has become ubiquitous in data science and scientific computing, and is very popular in educational…
+    date: September 15th, 2022
+    authors: Nicolas Brichet
+
   - url: https://blog.jupyter.org/visual-programming-in-jupyterlab-with-blockly-7731ec3e113c
     title: Visual programming in JupyterLab with Blockly
     image: https://miro.medium.com/max/1400/0*yEQ8djozBKDLcCxZ
