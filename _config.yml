@@ -5,6 +5,13 @@ copyright:
 
 blog:
 
+  - url: https://blog.jupyter.org/accelerating-jupyterlab-68942bb8d602
+    title: Accelerating JupyterLab 
+    image: https://miro.medium.com/max/1400/1*EZX55-XLmck_LfFfV3KeaA.png
+    summary: The next major release of JupyterLab will be significantly faster than previous versions. This was achieved both through systematic tracking of performance bugs and through significant upgrades to the Jupyter communication protocol and rendering mechanism for documents.
+    date: September 15th, 2022
+    authors: Frédéric Collonval, Johan Mabille, David Brochart, Afshin Darian
+
   - url: https://blog.jupyter.org/upgrading-nbgrader-99c56ae56c47
     title: Upgrading nbgrader 
     image: https://miro.medium.com/max/922/1*C1fPJUhN8pk86GIXCQq5AA.png
