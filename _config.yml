@@ -5,6 +5,13 @@ copyright:
 
 blog:
 
+  - url: https://blog.jupyter.org/jupytercon-is-back-in-2023-90e5c25eeec9
+    title: JupyterCon is back in 2023
+    image: https://miro.medium.com/max/1400/1*Mn75xGD3GWU0tpI7Rx9utQ.png
+    summary: JupyterCon 2023 will be held May 10–12 (Thursday to Friday) in the city of light, Paris, France at the largest science museum in Europe, the Cité des Sciences et de l’Industrie.
+    date: October 17th, 2022
+    authors: Gayle Ollington
+
   - url: https://blog.jupyter.org/accelerating-jupyterlab-68942bb8d602
     title: Accelerating JupyterLab 
     image: https://miro.medium.com/max/1400/1*EZX55-XLmck_LfFfV3KeaA.png
