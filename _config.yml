@@ -5,6 +5,13 @@ copyright:
 
 blog:
 
+  - url: https://medium.com/@AntoineProuvost/managing-conflicts-with-mamba-6a5fa10ed6a 
+    title: Managing conflicts with Mamba
+    image: https://miro.medium.com/max/4800/1*4FgY6y9QfGLMO3qtim-zSw.png
+    summary: A key aspect of package management is finding a set of compatible versions of the required packages. Indeed, even in the case when few packages are explicitly required, second-order dependencies may…
+    date: November 29th, 2022
+    authors: Antoine Prouvost
+
   - url: https://blog.jupyter.org/jupytercon-is-back-in-2023-90e5c25eeec9
     title: JupyterCon is back in 2023
     image: https://miro.medium.com/max/1400/1*Mn75xGD3GWU0tpI7Rx9utQ.png
