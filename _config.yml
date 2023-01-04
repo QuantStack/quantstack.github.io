@@ -5,6 +5,13 @@ copyright:
 
 blog:
 
+  - url: https://medium.com/@QuantStack/quantstack-2022-in-review-7d4704b1db42
+    title: "QuantStack: 2022 in review"
+    image: https://miro.medium.com/max/1400/1*QnDNfCXtgb2vLbmmag9ngQ.webp
+    summary: 2022 was an amazing year of innovation for the open-source developers at QuantStack. Developments range from major improvements to the Jupyter project to the packaging ecosystem and high-performance computing. 
+    date: December 26th, 2022
+    authors: Sylvain Corlay
+
   - url: https://medium.com/@AntoineProuvost/managing-conflicts-with-mamba-6a5fa10ed6a 
     title: Managing conflicts with Mamba
     image: https://miro.medium.com/max/4800/1*4FgY6y9QfGLMO3qtim-zSw.png
