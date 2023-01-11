@@ -5,6 +5,13 @@ copyright:
 
 blog:
 
+  - url: https://blog.jupyter.org/a-jupyter-kernel-for-gnu-octave-b6d29e56341f
+    title: A Jupyter kernel for GNU Octave
+    image: https://miro.medium.com/max/4800/0*_HZJpXD-awr4mPDG
+    summary: We are happy to announce the xeus-octave project, a Jupyter kernel for GNU Octave. Xeus-octave was created by Giulio Girardi, recently joined by Antoine Prouvost - and has been incorporated into the Project Jupyter governance.
+    date: January 11th, 2023
+    authors: Giulio Girardi, Antoine Prouvost
+
   - url: https://medium.com/@QuantStack/quantstack-2022-in-review-7d4704b1db42
     title: "QuantStack: 2022 in review"
     image: https://miro.medium.com/max/1400/1*QnDNfCXtgb2vLbmmag9ngQ.webp
