@@ -5,6 +5,13 @@ copyright:
 
 blog:
 
+  - url: https://blog.jupyter.org/embed-interactive-itkwidgets-3d-renderings-into-jupyterlite-deployments-10eb9ea30980
+    title: Embed interactive itkwidgets 3D renderings into JupyterLite deployments
+    image: https://miro.medium.com/v2/resize:fit:1100/0*_zowwA1kefuHdpEX.gif
+    summary: A tutorial that demonstrates a zero-server, interactive 3D rendering notebook and walks through the quick and easy configuration that can be customized to your needs.
+    date: March 15th, 2023
+    authors: Matt McCormick, Brianna Major, Jeremy Tuloup, Wei Ouyang, Stephen Aylward
+
   - url: https://blog.jupyter.org/improving-the-accessibility-of-jupyter-6c695db518d3
     title: Improving the accessibility of Jupyter
     image: https://miro.medium.com/v2/resize:fit:4800/0*7imwXY7uST5QSNfi
