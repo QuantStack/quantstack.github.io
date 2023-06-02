@@ -5,6 +5,13 @@ copyright:
 
 blog:
 
+  - url: https://blog.jupyter.org/congratulations-distinguished-contributors-7a7b215b8bd0
+    title: Congratulations, Distinguished Contributors!
+    image: https://miro.medium.com/v2/resize:fit:720/format:webp/1*awcttRVT1kQ1dWqJig7DWQ.jpeg
+    summary: We are proud to announce the recipients of the Jupyter Distinguished Contributor (JDC) award for the 2022 cohort of contributors. 
+    date: June 2nd, 2023
+    authors: Johan Mabille
+
   - url: https://blog.jupyter.org/embed-interactive-itkwidgets-3d-renderings-into-jupyterlite-deployments-10eb9ea30980
     title: Embed interactive itkwidgets 3D renderings into JupyterLite deployments
     image: https://miro.medium.com/v2/resize:fit:1100/0*_zowwA1kefuHdpEX.gif
