@@ -5,6 +5,13 @@ copyright:
 
 blog:
 
+  - url: https://blog.jupyter.org/a-theme-editor-for-jupyterlab-8f08ab62894d
+    title: A theme editor for JupyterLab
+    image: https://miro.medium.com/v2/resize:fit:4800/format:webp/0*5OLBiA8tmTbD1Nan.png
+    summary: To lower the bar for customizing JupyterLab we created a new tool providing a simple interface for tuning the JupyterLab appearance interactively.
+    date: June 19th, 2023
+    authors: Florence Haudin
+
   - url: https://blog.jupyter.org/collaborative-cad-in-jupyterlab-8eb9e8f81f0
     title: Collaborative CAD in JupyterLab
     image: https://miro.medium.com/v2/resize:fit:1400/format:webp/1*9r3Xz-v5wyuz8aAKY2WV-A.png
