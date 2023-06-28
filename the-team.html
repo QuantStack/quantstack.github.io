@@ -685,17 +685,17 @@
         <script>
           function initMaps() {
             var parisMap = L.map('map-paris', {attributionControl: false} ).setView([48.81646, 2.46912], 11);
-            var berlinMap = L.map('map-berlin', {attributionControl: false}).setView([52.493625, 13.448053], 11);
+            // var berlinMap = L.map('map-berlin', {attributionControl: false}).setView([52.493625, 13.448053], 11);
 
             L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
               maxZoom: 14,
             }).addTo(parisMap);
-            L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-              maxZoom: 14,
-            }).addTo(berlinMap);
+            //L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            //  maxZoom: 14,
+            //}).addTo(berlinMap);
 
             var parisMarker = L.marker([48.81646, 2.46912], { title: "QuantStack Paris" }).addTo(parisMap);
-            var berlinMarker = L.marker([52.493625, 13.448053], { title: "QuantStack Berlin" }).addTo(berlinMap);
+            //var berlinMarker = L.marker([52.493625, 13.448053], { title: "QuantStack Berlin" }).addTo(berlinMap);
           }
           initMaps();
         </script>
