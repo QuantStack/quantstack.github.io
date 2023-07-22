@@ -5,6 +5,13 @@ copyright:
 
 blog:
 
+  - url: https://blog.jupyter.org/jupytercon-2023-recordings-now-live-on-youtube-17564b75a2a
+    title: 🎉 JupyterCon 2023 recordings now live on YouTube! 🎉
+    image: https://miro.medium.com/v2/resize:fit:1400/format:webp/1*j0Cai6fnoYoJ-axQzIvpaA.png 
+    summary: Get ready to relive the magic of JupyterCon 2023, because the long-awaited moment is finally here! The JupyterCon YouTube channel has just dropped a treasure trove of content — all the talk and keynote recordings from the most epic conference of the year. 
+    date: July 22nd, 2023
+    authors: Gayle Ollington, Sylvain Corlay
+
   - url: https://blog.jupyter.org/a-theme-editor-for-jupyterlab-8f08ab62894d
     title: A theme editor for JupyterLab
     image: https://miro.medium.com/v2/resize:fit:4800/format:webp/0*5OLBiA8tmTbD1Nan.png
