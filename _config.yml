@@ -7,7 +7,7 @@ blog:
 
   - url: https://blog.jupyter.org/voil%C3%A0-0-5-0-homecoming-66f2465aa86f
     title: Voilà 0.5 - Homecoming
-    image: https://blog.jupyter.org/voil%C3%A0-0-5-0-homecoming-66f2465aa86f 
+    image: https://miro.medium.com/v2/resize:fit:4800/format:webp/1*W1dHdjWC0CYoLjCWXXxU2w.png
     summary: Following the launch of Jupyter Notebook 7, it is now Voilà’s turn to join the JupyterLab family. In Version 0.5.0, the front-end of Voilà has been rebuilt from scratch using JupyterLab 4.0 components, just like in the case of Notebook 7. 
     date: September 25th, 2023
     authors: Jeremy Tuloup, Martin Renou, Trung Duc Le
