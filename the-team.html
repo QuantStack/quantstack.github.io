@@ -664,8 +664,8 @@
                     </div>
                     <div class="col-md-7">
                     <p><strong>QuantStack Paris</strong><br>
-                    55 rue de Paris<br>
-                    94340 Joinville-le-Pont<br>
+                    16 avenue Curti<br>
+                    94100 Saint-Maur-des-Fossés<br>
                     France</p>
                     <div class="clearfix"></div>
                     </div>
@@ -708,7 +708,7 @@
         <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
         <script>
           function initMaps() {
-            var parisMap = L.map('map-paris', {attributionControl: false} ).setView([48.81646, 2.46912], 11);
+            var parisMap = L.map('map-paris', {attributionControl: false} ).setView([48.80451, 2.49294], 11);
             // var berlinMap = L.map('map-berlin', {attributionControl: false}).setView([52.493625, 13.448053], 11);
 
             L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -718,7 +718,7 @@
             //  maxZoom: 14,
             //}).addTo(berlinMap);
 
-            var parisMarker = L.marker([48.81646, 2.46912], { title: "QuantStack Paris" }).addTo(parisMap);
+            var parisMarker = L.marker([48.80451, 2.49294], { title: "QuantStack Paris" }).addTo(parisMap);
             //var berlinMarker = L.marker([52.493625, 13.448053], { title: "QuantStack Berlin" }).addTo(berlinMap);
           }
           initMaps();
