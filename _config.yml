@@ -5,6 +5,13 @@ copyright:
 
 blog:
 
+  - url: https://blog.jupyter.org/plug-your-application-into-the-jupyter-world-805e48918801
+    title: Plug your application into the Jupyter world
+    image: https://miro.medium.com/v2/resize:fit:1400/format:webp/1*ENzq7i52UtqxESs4UTKBYw.png
+    summary: "Kernels are a simple but powerful abstraction in the Jupyter architecture. They encapsulate language interpreters and make them accessible through a standardized interface. This is the key to…"
+    date: October 23rd, 2023
+    authors: David Brochart
+
   - url: https://blog.jupyter.org/voil%C3%A0-0-5-0-homecoming-66f2465aa86f
     title: Voilà 0.5 - Homecoming
     image: https://miro.medium.com/v2/resize:fit:4800/format:webp/1*W1dHdjWC0CYoLjCWXXxU2w.png
