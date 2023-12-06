@@ -5,6 +5,13 @@ copyright:
 
 blog:
 
+  - url: https://blog.jupyter.org/and-voici-e02367197ba2
+    title: And Voici!
+    image: https://miro.medium.com/v2/resize:fit:1400/format:webp/1*Tjh9IaZrdJhTQzxyIOgI8Q.png 
+    summary: "Voici (meaning “here is” in French) is a novel project reshaping Jupyter-based interactive dashboards by combining Voilà and JupyterLite features. It facilitates the creation of dynamic, in-browser environments for data visualization and exploration."
+    date: December 6th, 2023
+    authors: Trung Duc Le, Martin Renou
+
   - url: https://blog.jupyter.org/plug-your-application-into-the-jupyter-world-805e48918801
     title: Plug your application into the Jupyter world
     image: https://miro.medium.com/v2/resize:fit:1400/format:webp/1*ENzq7i52UtqxESs4UTKBYw.png
