@@ -5,7 +5,7 @@ copyright:
 
 blog:
 
-  - url: https://blog.jupyter.org/and-voici-e02367197ba2
+  - url: https://blog.jupyter.org/recent-keyboard-navigation-improvements-in-jupyter-4df32f97628d
     title: Recent keyboard navigation improvements in Jupyter
     image: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/W3C_icon.svg/320px-W3C_icon.svg.png
     summary: "Upcoming versions of JupyterLab (4.1.0) and Notebook (7.1.0) will include major keyboard accessibility fixes."
