@@ -5,6 +5,13 @@ copyright:
 
 blog:
 
+  - url: https://medium.com/@QuantStack/quantstack-2023-in-review-94fea0a35520
+    title: "QuantStack: 2023 in review" 
+    image: https://miro.medium.com/v2/resize:fit:2000/format:webp/0*rwQcR7xvAIr_7pzY 
+    summary: "Since QuantStack was founded in 2016, we have remained committed to releasing our work under permissive open-source licenses. Here are some highlights of the 2023 achievements. Buckle up!" 
+    date: January 3rd, 2023
+    authors: Sylvain Corlay
+
   - url: https://blog.jupyter.org/recent-keyboard-navigation-improvements-in-jupyter-4df32f97628d
     title: Recent keyboard navigation improvements in Jupyter
     image: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/W3C_icon.svg/320px-W3C_icon.svg.png
