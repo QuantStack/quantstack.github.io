@@ -5,6 +5,13 @@ copyright:
 
 blog:
 
+  - url: https://blog.jupyter.org/meet-xeus-r-a-future-proof-jupyter-kernel-for-r-1adc5fdd09ab
+    title: "Meet Xeus-R: a future-proof Jupyter kernel for R"
+    image: https://miro.medium.com/v2/resize:fit:1400/format:webp/1*cFmKZKFycjvG1v_Xub4snQ.png 
+    summary: "Today, we, a collaborative team led by Romain François and supported by QuantStack, are thrilled to announce the initial release of Xeus-R, a future-proof Jupyter kernel for R."
+    date: January 22nd, 2024
+    authors: Romain François
+
   - url: https://medium.com/@QuantStack/quantstack-2023-in-review-94fea0a35520
     title: "QuantStack: 2023 in review" 
     image: https://miro.medium.com/v2/resize:fit:2000/format:webp/0*rwQcR7xvAIr_7pzY 
