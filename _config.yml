@@ -5,6 +5,13 @@ copyright:
 
 blog:
 
+  - url: https://medium.com/@PyDataParis/announcing-pydata-paris-2024-700220accc72
+    title: "Announcing PyData Paris 2024"
+    image: https://miro.medium.com/v2/resize:fit:1100/format:webp/0*jYrq6Du7WpJDOTUf
+    summary: "We are thrilled to announce the upcoming PyData Paris 2024, the gathering of the open-source data science and AI/ML community in France. PyData Paris will take place at the Cité des Sciences from September 25 to September 26, 2024."
+    date: March 11, 2024
+    authors: Sylvain Corlay
+
   - url: https://blog.jupyter.org/meet-xeus-r-a-future-proof-jupyter-kernel-for-r-1adc5fdd09ab
     title: "Meet Xeus-R: a future-proof Jupyter kernel for R"
     image: https://miro.medium.com/v2/resize:fit:1400/format:webp/1*cFmKZKFycjvG1v_Xub4snQ.png 
