@@ -1,0 +1,100 @@
+.header_grid_container {
+  display: grid;
+  grid-template-columns: 60% 20%;
+  grid-column-gap: 3em;
+}
+
+.header_title {
+  color: var(--ifm-color-primary-p10);
+  font-family: var(--ifm-font-family-bebas-neue);
+  font-size: 3em;
+  font-style: normal;
+  font-weight: bolder;
+  line-height: 150%; /* 72px */
+  letter-spacing: 2.112px;
+}
+
+.header_description {
+  font-family: var(--ifm-font-family-roboto);
+  /*width: 697px;
+  height: 72px;*/
+  font-size: 24px;
+  font-style: normal;
+  font-weight: bolder;
+  line-height: 150%; /* 36px */
+  letter-spacing: -0.264px;
+}
+.header_yellow {
+  background-color: white;
+  width: 100%;
+  height: 956px;
+}
+
+.astronaut {
+  width: 435px;
+  height: 435px;
+  margin-top: 95px;
+  grid-area: "astronaut";
+}
+.header_text_box {
+  /* width: 723px;
+    height: 336x;*/
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 213px;
+  margin-top: 133px;
+  grid-area: "text-box";
+}
+
+.header_title {
+  color: var(--ifm-color-primary-p10);
+  font-family: var(--ifm-font-family-bebas-neue);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: bolder;
+  line-height: 150%; /* 72px */
+  letter-spacing: 2.112px;
+}
+
+.header_description {
+  font-family: var(--ifm-font-family-roboto);
+  /*width: 697px;
+  height: 72px;*/
+  font-size: 1.5em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 36px */
+  letter-spacing: -0.264px;
+}
+
+.header_projects {
+  color: var(--ifm-color-secondary-s40);
+  font-family: var(--ifm-font-family-bebas-neue);
+  font-size: 2em;
+  font-style: normal;
+  font-weight: bolder;
+  line-height: 150%; /* 48px */
+  letter-spacing: 0.1em;
+}
+
+@media only screen and (min-width: 768px) {
+  .header_grid_container {
+    grid-template-columns: 50% 20%;
+    display: grid;
+    flex-direction: column;
+    grid-template-areas:
+      "text-box"
+      "astronaut";
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .header_grid_container {
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr;
+    display: grid;
+    flex-direction: column;
+    grid-template-areas: "text-box" "astronaut";
+  }
+}
