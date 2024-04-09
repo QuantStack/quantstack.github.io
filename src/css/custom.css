@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto");
+@import url("https://fonts.cdnfonts.com/css/bebas-neue");
+@import url("https://fonts.googleapis.com/css?family=Rubik One");
+
+:root {
+  --ifm-color-primary-p10: #1e1c00;
+  --ifm-color-primary-p30: #4b4900;
+  --ifm-color-primary-p40: #646100;
+  --ifm-color-primary-p80: #d0cb54;
+  --ifm-color-primary-p90: #ede76d;
+  --ifm-color-primary-p95: #FBF67A;
+  --ifm-color-primary-p98: #FFFBD7;
+  --ifm-color-primary-seed: #F5F094;
+  --ifm-color-primary-p100: #ffffff;
+  --ifm-color-secondary-s10: #001355;
+  --ifm-color-secondary-p30: #0c37b7;
+  --ifm-color-secondary-s40: #3252cf;
+  --ifm-color-secondary-s80: #b8c3ff;
+  --ifm-color-secondary-s90: #dde1ff;
+  --ifm-color-secondary-s100: #ffffff;
+  --ifm-color-tertiary-t40: #b80069;
+  --ifm-color-neutral-n40: #605E58;
+  --ifm-color-logo-jupyter:  #F37726;
+  --ifm-footer-background-color: var(--ifm-color-primary-p90);
+  --ifm-font-family-roboto: "Roboto";
+  --ifm-base-font-size: 16px;
+  --ifm-font-family-bebas-neue: "Bebas Neue";
+  --ifm-font-family-rubik-one: "Rubik One";
+  --ifm-vertical-spacing-s: 16px;
+  --ifm-vertical-spacing-m: 32px;
+  --ifm-vertical-spacing-l: 56px;
+  --ifm-vertical-spacing-xl: 73px;
+  --ifm-vertical-spacing-xxl: 150px;
+}
+
+/*
+Hyperlink states are crucial for accessibility.
+Please double check before changing the rules below.
+*/
+a {
+  text-decoration: underline;
+  text-decoration-thickness: var(--pydata-link-underline-thickness);
+  text-underline-offset: var(--pydata-link-underline-offset);
+}
+
+a:hover,
+/* We need to (re)override some of the infima rules to have proper states on
+navbar links, table of contents, and docs sidebar links, respectively */
+a.navbar__link:hover,  /* Top bar navigation links */
+a.table-of-contents__link:hover, /*Right sidebar links (table of contents) */
+a[class^="sidebarItemLink"]:hover /* The docs sidebar links do not have its own class */ {
+  text-decoration: underline;
+  text-decoration-thickness: var(--pydata-link-hover-decoration-thickness);
+  text-decoration-skip-ink: none;
+  text-decoration-skip: none;
+}
+a:active,
+a.navbar__link:active,
+a.table-of-contents__link:active,
+a[class^="sidebarItemLink"]:active {
+  text-decoration-thickness: var(--pydata-link-decoration-thickness);
+}
+
+/* In some cases, we override the underlines because there are other elements that
+already report the state (e.g. borders, background colors, etc) */
+a[class^="sidebarItemLink"][aria-current="page"], /* No underline if this is the current page */
+a.navbar__link,
+.navbar-sidebar__item,
+.menu a,
+.navbar__items--right a,
+.pagination-nav__link,
+a.card, /* These cards are used in index-like documentation pages */
+a.card:hover {
+  text-decoration: none;
+}
+
+/* On these elements, we only rely on background color changes. They are navigation items,
+so they are already assumed to be clickable anyway */
+.pagination-nav__link:active,
+a.card:active,
+a.menu__link:active {
+  background: var(--ifm-color-primary-lightest);
+  color: #000;
+}
+[data-theme="dark"] .pagination-nav__link:active,
+[data-theme="dark"] a.card:active,
+[data-theme="dark"] a.menu__link:active {
+  background: var(--ifm-color-primary-darkest);
+  color: #fff;
+}
+
+/* Animate the top navbar conda-forge logo a bit */
+.navbar__logo img:hover {
+  transform: scale(1.05);
+}
+.navbar__logo img:active {
+  transform: scale(1);
+}
+
+
+.contact {
+  background-color: var(--ifm-color-primary-p90);
+  border: transparent;
+  border-width: 2px;
+  border-radius: 4px;
+  font-weight: bolder;
+}
+
+.contact:hover {
+  background-color: white;
+  border: solid;
+  border-width: 2px;
+  border-radius: 4px;
+  border-color: var(--ifm-color-primary-p80);
+  font-style: normal;
+}
+
+.navbar__item {
+  color: black;
+  display: flex;
+  font-family: var(--ifm-font-family-roboto);
+  height: 36px;
+  padding: 6px 14px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  margin-right: 10px;
+}
+
+.navbar__item:hover {
+  background-color: var(--ifm-color-primary-p90);
+  border-radius: 4px;
+  
+}
+.navbar__link:hover {
+  color: black;
+}
+.github-icon:hover {
+  opacity: 0.6;
+}
+
+.github-icon:before {
+  background: url(../../static/img/GH.svg);
+  content: "";
+  display: flex;
+  height: 36px;
+  width: 37px;
+  background-repeat: no-repeat;
+}
+
+.linkedin-icon:hover {
+  opacity: 0.6;
+}
+
+.linkedin-icon:before {
+  background: url(../../static/img/LinkedIn.svg);
+  content: "";
+  display: flex;
+  height: 36px;
+  width: 37px;
+  background-repeat: no-repeat;
+}
+
+.x-icon:hover {
+  opacity: 0.6;
+}
+
+.x-icon:before {
+  background: url(../../static/img/X.svg);
+  content: "";
+  display: flex;
+  height: 36px;
+  width: 37px;
+  background-repeat: no-repeat;
+}
+
+.vertical-spacing-s {
+  width: auto;
+  height: var(--ifm-vertical-spacing-s)
+ }
+ .vertical-spacing-m {
+  width: auto;
+  height: var(--ifm-vertical-spacing-m)
+ }
+
+ .vertical-spacing-l {
+  width: auto;
+  height: var(--ifm-vertical-spacing-l)
+ }
+
+ .vertical-spacing-l {
+  width: auto;
+  height: var(--ifm-vertical-spacing-l)
+ }
+
+ .vertical-spacing-xxl {
+  width: auto;
+  height: var(--ifm-vertical-spacing-xxl)
+ }

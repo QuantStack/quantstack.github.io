@@ -1,0 +1,123 @@
+.project_container {
+  width: 1440px;
+  height: 640px;
+  display: flex;
+}
+
+.project_grid_container {
+  display: grid;
+  grid-template-columns: 35% 35%;
+  grid-gap: 20%;
+}
+
+.project_text_box {
+  width: 630px;
+  height: 428px;
+  text-align: start;
+}
+.project_image_box {
+  width: 500px;
+  height: 428px;
+}
+
+.project_title {
+  color: var(--ifm-color-primary-p10);
+  font-family: var(--ifm-font-family-bebas-neue);
+  font-size: 3em;
+  font-style: normal;
+  font-weight: bolder;
+  line-height: 150%; /* 72px */
+  letter-spacing: 2.112px;
+  text-align: start;
+}
+
+.project_description {
+  width: 537px;
+  height: auto;
+  font-family: var(--ifm-font-family-roboto);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  letter-spacing: -0.176px;
+  text-align: start;
+}
+
+.project_subtitle {
+  color: var(--ifm-color-secondary-s40);
+  font-family: var(--ifm-font-family-bebas-neue);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: bolder;
+  line-height: 150%; /* 72px */
+  letter-spacing: 2.112px;
+  text-align: start;
+}
+
+@media only screen and (min-width: 800px) {
+  /*Desktop */
+
+  .project_container {
+    width: 1440px;
+    height: 640px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .project_grid_container {
+    margin:calc((1440-(614*2+20))/2);
+    display: grid;
+    grid-template-columns: 614px 614px;
+    height: 640px;
+    grid-gap: 20px;
+    padding: 8px;
+    text-align: center;
+  }
+
+  .project_text_box {
+    width: 610px;
+    height: 428px;
+    text-align: start;
+  }
+
+  .project_image_box {
+    width: 610px;
+    height: 428px;
+  }
+  
+  .project_title {
+    color: var(--ifm-color-primary-p10);
+    font-family: var(--ifm-font-family-bebas-neue);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%; /* 72px */
+    letter-spacing: 2.112px;
+    text-align: start;
+  }
+
+  .project_subtitle {
+    width: 610px;
+    color: var(--ifm-color-secondary-s40);
+    font-family: var(--ifm-font-family-bebas-neue);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%; /* 48px */
+    letter-spacing: 1.408px;
+    text-align: start;
+  }
+
+  .project_description {
+    color: var(--ifm-color-neutral-n40);
+    width: 537px;
+    font-family: var(--ifm-font-family-roboto);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: -0.176px;
+    text-align: start;
+  }
+}
