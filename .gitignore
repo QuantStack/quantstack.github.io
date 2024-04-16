@@ -1,3 +1,4 @@
 _site/
 .DS_store
 .ipynb_checkpoints/
+node_modules/

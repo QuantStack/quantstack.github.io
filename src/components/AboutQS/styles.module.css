@@ -1,0 +1,38 @@
+.container {
+  width: 1440px;
+  height: 750px;
+  background-color: var(--ifm-color-secondary-s60);
+  justify-content: center;
+}
+
+.title {
+  margin-top: 21px;
+  margin-left: auto;
+  color: #fff;
+  font-family: var(--ifm-font-family-roboto-flex);
+  font-size: 128px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 192px */
+  letter-spacing: 5.632px;
+  text-align: center;
+}
+
+.description {
+  color: #fff;
+  font-family: var(--ifm-font-family-roboto);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 125% */
+  width: 964px;
+  text-align: center;
+}
+
+.photo_box {
+  margin-top: 16px;
+  margin-left: auto;
+  width: 1371px;
+  height: 421px;
+  text-align: center
+}

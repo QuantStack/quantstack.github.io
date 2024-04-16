@@ -4,12 +4,6 @@
   display: flex;
 }
 
-.project_grid_container {
-  display: grid;
-  grid-template-columns: 35% 35%;
-  grid-gap: 20%;
-}
-
 .project_text_box {
   width: 630px;
   height: 428px;
