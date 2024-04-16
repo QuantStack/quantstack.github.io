@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto");
 @import url("https://fonts.cdnfonts.com/css/bebas-neue");
 @import url("https://fonts.googleapis.com/css?family=Rubik One");
+@import url("https://fonts.cdnfonts.com/css/roboto-flex");
+@import url('https://fonts.googleapis.com/css2?family=Dosis');
 
 :root {
   --ifm-color-primary-p10: #1e1c00;
@@ -8,29 +10,33 @@
   --ifm-color-primary-p40: #646100;
   --ifm-color-primary-p80: #d0cb54;
   --ifm-color-primary-p90: #ede76d;
-  --ifm-color-primary-p95: #FBF67A;
-  --ifm-color-primary-p98: #FFFBD7;
-  --ifm-color-primary-seed: #F5F094;
+  --ifm-color-primary-p95: #fbf67a;
+  --ifm-color-primary-p98: #fffbd7;
+  --ifm-color-primary-seed: #f5f094;
   --ifm-color-primary-p100: #ffffff;
   --ifm-color-secondary-s10: #001355;
   --ifm-color-secondary-p30: #0c37b7;
   --ifm-color-secondary-s40: #3252cf;
+  --ifm-color-secondary-s60: #4f6dea;
   --ifm-color-secondary-s80: #b8c3ff;
   --ifm-color-secondary-s90: #dde1ff;
   --ifm-color-secondary-s100: #ffffff;
   --ifm-color-tertiary-t40: #b80069;
-  --ifm-color-neutral-n40: #605E58;
-  --ifm-color-logo-jupyter:  #F37726;
+  --ifm-color-neutral-n40: #605e58;
+  --ifm-color-logo-jupyter: #f37726;
   --ifm-footer-background-color: var(--ifm-color-primary-p90);
   --ifm-font-family-roboto: "Roboto";
+  --ifm-font-family-roboto-flex: "Roboto Flex";
   --ifm-base-font-size: 16px;
   --ifm-font-family-bebas-neue: "Bebas Neue";
   --ifm-font-family-rubik-one: "Rubik One";
+  --ifm-font-family-dosis: "Dosis";
   --ifm-vertical-spacing-s: 16px;
+  --ifm-vertical-spacing-sm: 24px;
   --ifm-vertical-spacing-m: 32px;
   --ifm-vertical-spacing-l: 56px;
   --ifm-vertical-spacing-xl: 73px;
-  --ifm-vertical-spacing-xxl: 150px;
+  --ifm-vertical-spacing-xxl: 168px;
 }
 
 /*
@@ -97,7 +103,6 @@ a.menu__link:active {
   transform: scale(1);
 }
 
-
 .contact {
   background-color: var(--ifm-color-primary-p90);
   border: transparent;
@@ -113,25 +118,21 @@ a.menu__link:active {
   border-radius: 4px;
   border-color: var(--ifm-color-primary-p80);
   font-style: normal;
+  
 }
 
-.navbar__item {
-  color: black;
-  display: flex;
+.custom_navbar_item {
   font-family: var(--ifm-font-family-roboto);
+  width: 117px;
   height: 36px;
   padding: 6px 14px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  flex-shrink: 0;
-  margin-right: 10px;
+  text-align: center;
 }
 
-.navbar__item:hover {
+.custom_navbar_item:hover {
   background-color: var(--ifm-color-primary-p90);
+  justify-items: center;
   border-radius: 4px;
-  
 }
 .navbar__link:hover {
   color: black;
@@ -177,24 +178,39 @@ a.menu__link:active {
 
 .vertical-spacing-s {
   width: auto;
-  height: var(--ifm-vertical-spacing-s)
- }
- .vertical-spacing-m {
-  width: auto;
-  height: var(--ifm-vertical-spacing-m)
- }
+  height: var(--ifm-vertical-spacing-s);
+}
 
- .vertical-spacing-l {
+.vertical-spacing-m {
   width: auto;
-  height: var(--ifm-vertical-spacing-l)
- }
+  height: var(--ifm-vertical-spacing-m);
+}
 
- .vertical-spacing-l {
+.vertical-spacing-sm {
   width: auto;
-  height: var(--ifm-vertical-spacing-l)
- }
+  height: var(--ifm-vertical-spacing-m);
+}
 
- .vertical-spacing-xxl {
+.vertical-spacing-l {
   width: auto;
-  height: var(--ifm-vertical-spacing-xxl)
- }
+  height: var(--ifm-vertical-spacing-l);
+}
+
+.vertical-spacing-l {
+  width: auto;
+  height: var(--ifm-vertical-spacing-l);
+}
+
+.vertical-spacing-xxl {
+  width: auto;
+  height: var(--ifm-vertical-spacing-xxl);
+}
+.heading2
+{
+  color:palevioletred
+}
+
+.heading3
+{
+  color:rgb(117, 216, 112)
+}
