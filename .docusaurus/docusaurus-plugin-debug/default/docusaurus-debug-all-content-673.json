@@ -445,11 +445,6 @@
       },
       {
         "type": "jsx",
-        "permalink": "/contact",
-        "source": "@site/src/pages/contact.tsx"
-      },
-      {
-        "type": "jsx",
         "permalink": "/",
         "source": "@site/src/pages/index.tsx"
       },
@@ -471,6 +466,198 @@
         "type": "jsx",
         "permalink": "/services",
         "source": "@site/src/pages/services.tsx"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/About/Alexis",
+        "source": "@site/src/pages/About/Alexis.mdx",
+        "description": "alt text",
+        "frontMatter": {},
+        "unlisted": false
+      },
+      {
+        "type": "mdx",
+        "permalink": "/About/Anastasiia",
+        "source": "@site/src/pages/About/Anastasiia.mdx",
+        "description": "alt text",
+        "frontMatter": {},
+        "unlisted": false
+      },
+      {
+        "type": "mdx",
+        "permalink": "/About/Andreas",
+        "source": "@site/src/pages/About/Andreas.mdx",
+        "description": "alt text",
+        "frontMatter": {},
+        "unlisted": false
+      },
+      {
+        "type": "mdx",
+        "permalink": "/About/Anutosh",
+        "source": "@site/src/pages/About/Anutosh.mdx",
+        "description": "alt text",
+        "frontMatter": {},
+        "unlisted": false
+      },
+      {
+        "type": "mdx",
+        "permalink": "/About/Darian",
+        "source": "@site/src/pages/About/Darian.mdx",
+        "description": "alt text",
+        "frontMatter": {},
+        "unlisted": false
+      },
+      {
+        "type": "mdx",
+        "permalink": "/About/David",
+        "source": "@site/src/pages/About/David.mdx",
+        "description": "alt text",
+        "frontMatter": {},
+        "unlisted": false
+      },
+      {
+        "type": "mdx",
+        "permalink": "/About/Denisa",
+        "source": "@site/src/pages/About/Denisa.mdx",
+        "description": "alt text",
+        "frontMatter": {},
+        "unlisted": false
+      },
+      {
+        "type": "mdx",
+        "permalink": "/About/Fanny",
+        "source": "@site/src/pages/About/Fanny.mdx",
+        "description": "alt text",
+        "frontMatter": {},
+        "unlisted": false
+      },
+      {
+        "type": "mdx",
+        "permalink": "/About/Florence",
+        "source": "@site/src/pages/About/Florence.mdx",
+        "description": "alt text",
+        "frontMatter": {},
+        "unlisted": false
+      },
+      {
+        "type": "mdx",
+        "permalink": "/About/Gabriela",
+        "source": "@site/src/pages/About/Gabriela.mdx",
+        "description": "alt text",
+        "frontMatter": {},
+        "unlisted": false
+      },
+      {
+        "type": "mdx",
+        "permalink": "/About/Greg",
+        "source": "@site/src/pages/About/Greg.mdx",
+        "description": "alt text",
+        "frontMatter": {},
+        "unlisted": false
+      },
+      {
+        "type": "mdx",
+        "permalink": "/About/Hind",
+        "source": "@site/src/pages/About/Hind.mdx",
+        "description": "alt text",
+        "frontMatter": {},
+        "unlisted": false
+      },
+      {
+        "type": "mdx",
+        "permalink": "/About/Isabel",
+        "source": "@site/src/pages/About/Isabel.mdx",
+        "description": "alt text",
+        "frontMatter": {},
+        "unlisted": false
+      },
+      {
+        "type": "mdx",
+        "permalink": "/About/Jeremy",
+        "source": "@site/src/pages/About/Jeremy.mdx",
+        "description": "alt text",
+        "frontMatter": {},
+        "unlisted": false
+      },
+      {
+        "type": "mdx",
+        "permalink": "/About/Joel",
+        "source": "@site/src/pages/About/Joel.mdx",
+        "description": "alt text",
+        "frontMatter": {},
+        "unlisted": false
+      },
+      {
+        "type": "mdx",
+        "permalink": "/About/Johan",
+        "source": "@site/src/pages/About/Johan.mdx",
+        "description": "alt text",
+        "frontMatter": {},
+        "unlisted": false
+      },
+      {
+        "type": "mdx",
+        "permalink": "/About/Julien",
+        "source": "@site/src/pages/About/Julien.mdx",
+        "description": "alt text",
+        "frontMatter": {},
+        "unlisted": false
+      },
+      {
+        "type": "mdx",
+        "permalink": "/About/Martin",
+        "source": "@site/src/pages/About/Martin.mdx",
+        "description": "alt text",
+        "frontMatter": {},
+        "unlisted": false
+      },
+      {
+        "type": "mdx",
+        "permalink": "/About/Meriem",
+        "source": "@site/src/pages/About/Meriem.mdx",
+        "description": "alt text",
+        "frontMatter": {},
+        "unlisted": false
+      },
+      {
+        "type": "mdx",
+        "permalink": "/About/Nicolas",
+        "source": "@site/src/pages/About/Nicolas.mdx",
+        "description": "alt text",
+        "frontMatter": {},
+        "unlisted": false
+      },
+      {
+        "type": "mdx",
+        "permalink": "/About/Nour",
+        "source": "@site/src/pages/About/Nour.mdx",
+        "description": "alt text",
+        "frontMatter": {},
+        "unlisted": false
+      },
+      {
+        "type": "mdx",
+        "permalink": "/About/Sylvain",
+        "source": "@site/src/pages/About/Sylvain.mdx",
+        "description": "alt text",
+        "frontMatter": {},
+        "unlisted": false
+      },
+      {
+        "type": "mdx",
+        "permalink": "/About/Thorsten",
+        "source": "@site/src/pages/About/Thorsten.mdx",
+        "description": "alt text",
+        "frontMatter": {},
+        "unlisted": false
+      },
+      {
+        "type": "mdx",
+        "permalink": "/About/Trung",
+        "source": "@site/src/pages/About/Trung.mdx",
+        "description": "alt text",
+        "frontMatter": {},
+        "unlisted": false
       }
     ]
   },

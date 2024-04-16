@@ -65,11 +65,11 @@ const config: Config = {
       },
 
       items: [
-        { to: "/projects", label: "Projects", position: "left" },
-        { to: "/services", label: "Services", position: "left" },
-        { to: "/about", label: "About us", position: "left" },
-        { to: "/careers", label: "Careers", position: "left" },
-        { to: "/blog", label: "Blog", position: "left" },
+        { to: "/projects", className:"custom_navbar_item", label: "Projects", position: "left"},
+        { to: "/services", className:"custom_navbar_item",label: "Services", position: "left" },
+        { to: "/about", className:"custom_navbar_item",label: "About us", position: "left" },
+        { to: "/careers", className:"custom_navbar_item", label: "Careers", position: "left" },
+        { to: "/blog", className:"custom_navbar_item",label: "Blog", position: "left" },
         {
           to: "/contact",
           label: "CONTACT US",

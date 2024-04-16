@@ -1,8 +1,9 @@
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
-import Header from "../components/LandingPage";
+import Header from "../components/Header";
 import WhatWeDo from "../components/WhatWeDo";
 import Projects from "../components/Projects";
+import AboutQS from "../components/AboutQS";
 
 export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
@@ -11,8 +12,8 @@ export default function Home(): JSX.Element {
       <main>
         <Header />
         <WhatWeDo />
-        <Projects/>
-
+        <Projects />
+        <AboutQS />
       </main>
     </Layout>
   );

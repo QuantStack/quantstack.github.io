@@ -1,83 +1,83 @@
-.projects_main_container {
-  width: 1440px;
-  height: 720px;
-}
-
-.projects_title {
-  /* Title-font2-lg */
-  font-family: var(--ifm-font-family-bebas-neue);
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 150%; /* 72px */
-  letter-spacing: 2.112px;
-  text-align: center;
-}
-
-
-.projects_subtitle {
-  font-family: var(--ifm-font-family-rubik-one);
-  font-size: 31px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 28px;
-  letter-spacing: -0.286px;
-}
-
-
-.button_discover {
-  text-align: center;
-  justify-content: center;
-  color: white;
-  display: flex;
-  width: 258px;
-  padding: 16px 36px;
-  justify-content: center;
-  align-items: center;
-  gap: 22px;
-  border-radius: 35px;
-  background-color: var(--ifm-color-logo-jupyter);
-  border-style: none;
-  margin: auto;
-}
-
 @media only screen and (min-width: 800px) {
-  .projects_card {
+  .main_container {
+    margin-top: 98px;
+    width: 1440px;
+    height: 720px;
+  }
+
+  .grid_container {
+    grid-template-columns: 366px 366px 366px;
+    display: grid;
+    gap: 40px;
+    grid-template-areas: "card" "card" "card";
+    margin-left: auto;
+    justify-content: center;
+  }
+
+  .project_card {
     display: flex;
     width: 350x;
-    height: 416px;
-    padding-left: 36px;
-    padding-right: 37px;
-    padding-top: 97px;
-    padding-bottom: 26px;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
+    height: 378px;
+    padding: 56px 24px;
+    /*align-items: center;*/
     flex-shrink: 0;
     border-radius: 8px;
     background: #fff;
     box-shadow: 0px 0px 8px 1px #c8c8c7;
     grid-area: "card";
-    background-color: var( --ifm-color-primary-p90);
+    background-color: var(--ifm-color-primary-p90);
   }
 
-  .projects_grid_container {
-    grid-template-columns: 366px 366px 366px;
-    display: grid;
-    gap: 40px;
-    grid-template-areas: "card" "card" "card";
-    margin-left: auto;  
-    justify-content: center;
+  .main_title {
+    font-family: var(--ifm-font-family-bebas-neue);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%; /* 72px */
+    letter-spacing: 2.112px;
+    text-align: center;
   }
 
-  .projects_description {
-    width: 277px;
-    height: 222px;
+  .card_title {
+    font-family: var(--ifm-font-family-rubik-one);
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 28px;
+    letter-spacing: -0.286px;
+    text-align: center;
+  }
+  
+  .description {
     font-family: var(--ifm-font-family-roboto);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 42.857% */
+    letter-spacing: 0.25px;
+    text-align: center;
+  }
+
+  .link_to_services {
+    width: 258px;
+    font-family: var(--ifm-font-family-roboto);
+    background-color: var(--ifm-color-logo-jupyter);
+    color: white;
     font-size: var(--ifm-base-font-size);
     font-style: normal;
+    border-radius: 35px;
     font-weight: 300;
     line-height: 150%; /* 24px */
     letter-spacing: -0.176px;
+    padding: 16px 36px;
+    border: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .link_container {
+    display: flex;
+    width: 1440px;
+    align-items: center;
+    justify-content: center;
   }
 }
