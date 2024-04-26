@@ -1,0 +1,100 @@
+@media only screen and (min-width: 600px) {
+  .small_portrait_card {
+    width: 279px;
+    height: 388px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px 0 rgba(1, 0, 0, 0.17);
+    padding: var(--ifm-spacing-lg) var(--ifm-spacing-md);
+    text-align: center;
+    margin-bottom: var(--ifm-spacing-md);
+  }
+
+  .complete_name {
+    font-size: 16px;
+    font-family: var(--ifm-font-family-roboto);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.15px;
+    margin: var(--ifm-spacing-xs) 0 var(--ifm-spacing-xs) 0;
+  }
+
+  .position {
+    font-size: var(--ifm--font-size-normal);
+    font-family: var(--ifm-font-family-roboto);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 133.333% */
+    letter-spacing: 0.5px;
+  }
+
+  .social_icons {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .social_icons_box {
+    margin-top: var(--ifm-spacing-xl);
+  }
+
+  .cards_list {
+    list-style-type: none;
+  }
+
+  .avatar_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .avatar {
+    filter: grayscale(1);
+    width: 168px;
+    height: 168px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  .value_card {
+    height: 416px;
+    padding: var(--ifm-spacing-2xl) var(--ifm-spacing-lg);
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 1px #c8c8c7;
+    /*background-color: var(--ifm-color-orange-light2);*/
+    background-color: var(--ifm-color-primary-p1);
+  }
+
+  .githubname {
+    font-size: var(--ifm-font-size-normal);
+    font-family: var(--ifm-font-family-roboto);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 133.333% */
+    letter-spacing: 0.5px;
+  }
+  .image_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: var(--ifm-spacing-5xl);
+  }
+
+  .subteam_component {
+    margin: var(--ifm-spacing-5xl) 0 var(--ifm-spacing-5xl) 0;
+  }
+
+  .join_the_team {
+    font-family: var(--ifm-font-family-roboto);
+    font-size: 28px;
+    font-style: normal;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 400;
+    line-height: 36px; /* 128.571% */
+    background-color: var(--ifm-color-secondary-s1);
+    color: var(--ifm-color-secondary-s4);
+    padding: var(--ifm-spacing-3xl) var(--ifm-spacing-4xl);
+  }
+}

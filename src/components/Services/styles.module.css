@@ -1,0 +1,14 @@
+@media only screen and (min-width: 600px) {
+  /*Desktop */
+  .contract {
+    font-family: var(--ifm-font-family-bebas-neue);
+    font-size: var(--ifm-font-size-secondary-title);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 800;
+    background-color: var(--ifm-color-secondary-s1);
+    color: var(--ifm-color-secondary-s4);
+    padding: var(--ifm-spacing-2xl) 0 var(--ifm-spacing-2xl) 0 ;
+  }
+}

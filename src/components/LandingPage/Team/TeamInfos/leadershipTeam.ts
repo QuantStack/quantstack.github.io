@@ -1,4 +1,4 @@
-const leadershipTeam = [
+export const leadershipTeam = [
   {
     completeName: "Sylvain Corlay",
     firstName: "Sylvain",

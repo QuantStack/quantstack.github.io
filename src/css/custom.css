@@ -1,42 +1,228 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto");
 @import url("https://fonts.cdnfonts.com/css/bebas-neue");
-@import url("https://fonts.googleapis.com/css?family=Rubik One");
+@import url("https://fonts.cdnfonts.com/css/rubik-one");
 @import url("https://fonts.cdnfonts.com/css/roboto-flex");
-@import url('https://fonts.googleapis.com/css2?family=Dosis');
+@import url("https://fonts.googleapis.com/css2?family=Dosis");
 
 :root {
-  --ifm-color-primary-p10: #1e1c00;
-  --ifm-color-primary-p30: #4b4900;
-  --ifm-color-primary-p40: #646100;
-  --ifm-color-primary-p80: #d0cb54;
-  --ifm-color-primary-p90: #ede76d;
-  --ifm-color-primary-p95: #fbf67a;
-  --ifm-color-primary-p98: #fffbd7;
-  --ifm-color-primary-seed: #f5f094;
-  --ifm-color-primary-p100: #ffffff;
-  --ifm-color-secondary-s10: #001355;
-  --ifm-color-secondary-p30: #0c37b7;
-  --ifm-color-secondary-s40: #3252cf;
-  --ifm-color-secondary-s60: #4f6dea;
-  --ifm-color-secondary-s80: #b8c3ff;
-  --ifm-color-secondary-s90: #dde1ff;
-  --ifm-color-secondary-s100: #ffffff;
-  --ifm-color-tertiary-t40: #b80069;
-  --ifm-color-neutral-n40: #605e58;
-  --ifm-color-logo-jupyter: #f37726;
-  --ifm-footer-background-color: var(--ifm-color-primary-p90);
+  --ifm-color-neutral-n1: #605e58;
+  --ifm-color-primary-p1: #f6f195;
+  --ifm-color-primary-p2: #1c1c16;
+  --ifm-color-primary-p3: #1e1c00;
+  --ifm-footer-background-color: var(--ifm-color-primary-p1);
+  --ifm-color-orange-jupyter: #f37726;
+  --ifm-color-green-xtensor: #4ecb71;
+  --ifm-color-grey-condaforge: #7a7865;
+  --ifm-color-orange-light1: #fdf9f0;
+  --ifm-color-orange-light2: #fef9ec;
+  --ifm-color-primary-button: var(--ifm-color-orange-jupyter);
+  --ifm-color-secondary-s1: #a0c9ff;
+  --ifm-color-secondary-s2: #1861a1;
+  --ifm-color-secondary-s3: #001355;
+  --ifm-color-secondary-s4: #002646;
+  --ifm-color-indigo-test: #4042e2;
+  --ifm-color-secondary-button: var(--ifm-color-secondary-s1);
+  --ifm-font-size-small: 14px;
+  --ifm-font-size-normal: 18px;
+  --ifm-font-size-medium: 24px;
+  --ifm-font-size-main-title: 48px;
+  --ifm-font-size-secondary-title: 32px;
   --ifm-font-family-roboto: "Roboto";
   --ifm-font-family-roboto-flex: "Roboto Flex";
-  --ifm-base-font-size: 16px;
   --ifm-font-family-bebas-neue: "Bebas Neue";
   --ifm-font-family-rubik-one: "Rubik One";
   --ifm-font-family-dosis: "Dosis";
-  --ifm-vertical-spacing-s: 16px;
-  --ifm-vertical-spacing-sm: 24px;
-  --ifm-vertical-spacing-m: 32px;
-  --ifm-vertical-spacing-l: 56px;
-  --ifm-vertical-spacing-xl: 73px;
-  --ifm-vertical-spacing-xxl: 168px;
+  --ifm-spacing-none: 0px;
+  --ifm-spacing-2xs: 4px;
+  --ifm-spacing-xs: 8px;
+  --ifm-spacing-sm: 12px;
+  --ifm-spacing-md: 16px;
+  --ifm-spacing-lg: 24px;
+  --ifm-spacing-xl: 36px;
+  --ifm-spacing-2xl: 56px;
+  --ifm-spacing-3xl: 64px;
+  --ifm-spacing-4xl: 96px;
+  --ifm-spacing-5xl: 120px;
+  --ifm-spacing-6xl: 144px;
+  --ifm-spacing-7xl: 240px;
+}
+
+.spacing-none {
+  width: auto;
+  height: var(--ifm-spacing-none);
+}
+
+.spacing-2xs {
+  width: auto;
+  height: var(--ifm-spacing-2xs);
+}
+
+.spacing-xs {
+  width: auto;
+  height: var(--ifm-spacing-xs);
+}
+
+.spacing-sm {
+  width: auto;
+  height: var(--ifm-spacing-sm);
+}
+
+.spacing-md {
+  width: auto;
+  height: var(--ifm-spacing-md);
+}
+
+.spacing-lg {
+  width: auto;
+  height: var(--ifm-spacing-lg);
+}
+
+.spacing-l {
+  width: auto;
+  height: var(--ifm-spacing-l);
+}
+
+.spacing-xl {
+  width: auto;
+  height: var(--ifm-spacing-xl);
+}
+
+.spacing-2xl {
+  width: auto;
+  height: var(--ifm-spacing-2xl);
+}
+
+.spacing-3xl {
+  width: auto;
+  height: var(--ifm-spacing-3xl);
+}
+
+.spacing-4xl {
+  width: auto;
+  height: var(--ifm-spacing-4xl);
+}
+
+.spacing-5xl {
+  width: auto;
+  height: var(--ifm-spacing-5xl);
+}
+
+.spacing-6xl {
+  width: auto;
+  height: var(--ifm-spacing-6xl);
+}
+
+.spacing-7xl {
+  width: auto;
+  height: var(--ifm-spacing-7xl);
+}
+
+.link-to-contact {
+  width: 258px;
+  height: 59px;
+  font-family: var(--ifm-font-family-roboto);
+  border-radius: 35px;
+  background: var(--ifm-color-secondary-s4);
+  color: white;
+  font-size: var(--ifm-font-size-normal);
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%;
+  letter-spacing: -0.176px;
+  padding: 16px 36px;
+  border: none;
+  text-align: center;
+}
+
+.link-box {
+  height: 59px;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: var(--ifm-spacing-2xl);
+}
+
+h1 {
+  color: var(--ifm-color-primary-p2);
+  font-family: var(--ifm-font-family-bebas-neue);
+  font-size: var(--ifm-font-size-main-title);
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%;
+  letter-spacing: 2.112px;
+  text-align: start;
+}
+
+h2 {
+  font-family: var(--ifm-font-family-bebas-neue);
+  font-size: var(--ifm-font-size-secondary-title);
+  color: var(--ifm-color-secondary-s2);
+  font-style: normal;
+  font-weight: bolder;
+  line-height: 150%;
+  text-align: start;
+}
+
+h3 {
+  font-family: var(--ifm-font-family-bebas-neue);
+  font-size: var(--ifm-font-size-secondary-title);
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%;
+  text-align: start;
+}
+
+h4 {
+  font-family: var(--ifm-font-family-roboto);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+}
+
+.container {
+  background-color: #4ecb71;
+  width: auto;
+}
+
+.card_header_custom {
+  font-family: var(--ifm-font-family-rubik-one);
+  font-size: var(--ifm-font-size-secondary-title);
+  font-style: normal;
+  font-weight: 800;
+  line-height: 28px;
+  text-align: center;
+  margin-bottom: var(--ifm-spacing-xl);
+}
+
+p {
+  font-family: var(--ifm-font-family-roboto);
+  font-size: var(--ifm-font-size-normal);
+  color: var(--ifm-color-primary-p3);
+  font-style: normal;
+  line-height: 150%;
+  text-align: justify;
+  margin-bottom: var(--ifm-spacing-lg);
+}
+
+.card_body_custom {
+  font-family: var(--ifm-font-family-roboto);
+  font-size: 14px;
+  color: #371300;
+  font-style: normal;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: 0.25px;
+  text-align: center;
+}
+
+.card_image_custom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: var(--ifm-spacing-lg);
 }
 
 /*
@@ -104,7 +290,7 @@ a.menu__link:active {
 }
 
 .contact {
-  background-color: var(--ifm-color-primary-p90);
+  background-color: var(--ifm-color-primary-p1);
   border: transparent;
   border-width: 2px;
   border-radius: 4px;
@@ -118,7 +304,6 @@ a.menu__link:active {
   border-radius: 4px;
   border-color: var(--ifm-color-primary-p80);
   font-style: normal;
-  
 }
 
 .custom_navbar_item {
@@ -130,7 +315,7 @@ a.menu__link:active {
 }
 
 .custom_navbar_item:hover {
-  background-color: var(--ifm-color-primary-p90);
+  background-color: var(--ifm-color-primary-p1);
   justify-items: center;
   border-radius: 4px;
 }
@@ -176,41 +361,10 @@ a.menu__link:active {
   background-repeat: no-repeat;
 }
 
-.vertical-spacing-s {
-  width: auto;
-  height: var(--ifm-vertical-spacing-s);
+.heading2 {
+  color: palevioletred;
 }
 
-.vertical-spacing-m {
-  width: auto;
-  height: var(--ifm-vertical-spacing-m);
-}
-
-.vertical-spacing-sm {
-  width: auto;
-  height: var(--ifm-vertical-spacing-m);
-}
-
-.vertical-spacing-l {
-  width: auto;
-  height: var(--ifm-vertical-spacing-l);
-}
-
-.vertical-spacing-l {
-  width: auto;
-  height: var(--ifm-vertical-spacing-l);
-}
-
-.vertical-spacing-xxl {
-  width: auto;
-  height: var(--ifm-vertical-spacing-xxl);
-}
-.heading2
-{
-  color:palevioletred
-}
-
-.heading3
-{
-  color:rgb(117, 216, 112)
+.heading3 {
+  color: rgb(117, 216, 112);
 }

@@ -1,0 +1,27 @@
+@media only screen and (min-width: 600px) {
+  .project_card {
+    height: 462px;
+    padding: var(--ifm-spacing-2xl)  var(--ifm-spacing-lg);
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 1px #c8c8c7;
+    background-color: var(--ifm-color-orange-light2);
+  }
+
+  .link_to_services {
+    width: 258px;
+    height: 56px;
+    font-family: var(--ifm-font-family-roboto);
+    background-color: var(--ifm-color-orange-jupyter);
+    color: white;
+    font-size: var(--ifm-font-size-normal);
+    font-style: normal;
+    border-radius: 35px;
+    font-weight: 300;
+    line-height: 150%;
+    letter-spacing: -0.176px;
+    padding: 16px 26px;
+    border: none;
+    margin-top: var(--ifm-spacing-2xl);
+    margin-bottom: var(--ifm-spacing-2xl);
+  }
+}

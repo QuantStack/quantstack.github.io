@@ -1,14 +1,12 @@
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import Layout from '@theme/Layout';
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import Layout from "@theme/Layout";
+import Services from "../components/Services";
 
-
-export default function Services(): JSX.Element {
-  const {siteConfig} = useDocusaurusContext();
+export default function ServicesPage(): JSX.Element {
+  const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout
-      title={`QuantStack ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+    <Layout>
+      <Services />
     </Layout>
-  
   );
 }
