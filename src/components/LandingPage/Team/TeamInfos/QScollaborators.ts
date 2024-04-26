@@ -1,4 +1,4 @@
-const QuantStackCollaborators = [
+export const QSCollaboratorsTeam = [
     {
       completeName: "Serge Guelton",
       firstName: "Serge",
@@ -22,4 +22,4 @@ const QuantStackCollaborators = [
       avatarRoute: "img/avatars/Romain@2x.jpg",
     }
 ]
-export default QuantStackCollaborators;
+export default QSCollaboratorsTeam;

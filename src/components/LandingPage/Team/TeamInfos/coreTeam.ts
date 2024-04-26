@@ -1,12 +1,14 @@
-const coreTeam = [
+export const coreTeam = [
   {
     completeName: "Thorsten Beier",
     firstName: "Thorsten",
     position: "Scientific Software Developer",
     onX: "true",
     onGithub: "true",
+    onLinkedIn: "true",
     githubLink: "https://github.com/DerThorsten",
     Xlink: "https://twitter.com/ThorstenBeier",
+    linkedIn:"https://www.linkedin.com/in/thorsten-beier-95b121189/",
     githubName: "@derthorsten",
     avatarRoute: "img/avatars/Thorsten@2x.jpg",
   },
@@ -134,7 +136,7 @@ const coreTeam = [
   {
     completeName: "Greg Mooney",
     firstName: "Greg",
-    position: "Scientific Software Development Intern",
+    position: "Scientific Software Developer",
     onX: "false",
     onGithub: "true",
     githubLink: "https://github.com/gjmooney",
@@ -145,7 +147,7 @@ const coreTeam = [
   {
     completeName: "Ian Thomas",
     firstName: "Ian",
-    position: "Scientific Software Development Intern",
+    position: "Scientific Software Developer",
     onX: "false",
     onGithub: "true",
     githubLink: "https://github.com/ianthomas23",

@@ -149,7 +149,7 @@ export default [
   },
   {
     path: '/About/Sylvain',
-    component: ComponentCreator('/About/Sylvain', 'f02'),
+    component: ComponentCreator('/About/Sylvain', '319'),
     exact: true
   },
   {

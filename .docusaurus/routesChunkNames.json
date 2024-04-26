@@ -196,12 +196,12 @@
     },
     "content": "content---about-nour-118-4df"
   },
-  "/About/Sylvain-f02": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+  "/About/Sylvain-319": {
+    "__comp": "__comp---site-src-pages-about-sylvain-tsx-603-fe2",
     "__context": {
       "plugin": "plugin---about-19-c-ed1"
     },
-    "content": "content---about-sylvain-4-b-7-3f3"
+    "config": "config---about-5-e-9-bcb"
   },
   "/About/Thorsten-e65": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",

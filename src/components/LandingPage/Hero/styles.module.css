@@ -1,0 +1,16 @@
+
+@media only screen and (min-width: 600px) {
+  .logos_box {
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: var(--ifm-spacing-xl);
+  }
+  
+  .image_box {
+   margin-top: var(--ifm-spacing-5xl);
+   padding:78.5px 78.5px;
+  }
+}
+  

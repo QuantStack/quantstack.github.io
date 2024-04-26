@@ -636,12 +636,9 @@
         "unlisted": false
       },
       {
-        "type": "mdx",
+        "type": "jsx",
         "permalink": "/About/Sylvain",
-        "source": "@site/src/pages/About/Sylvain.mdx",
-        "description": "alt text",
-        "frontMatter": {},
-        "unlisted": false
+        "source": "@site/src/pages/About/Sylvain.tsx"
       },
       {
         "type": "mdx",
