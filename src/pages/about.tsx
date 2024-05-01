@@ -1,13 +1,13 @@
 import Layout from "@theme/Layout";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
-import Team from "../components/LandingPage/Team";
+import About from "../components/about";
 
 
-export default function About(): JSX.Element {
+export default function AboutPage(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout>
-      <Team/>
+      <About/>
     </Layout>
   )
 }

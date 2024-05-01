@@ -43,123 +43,133 @@ export default [
     exact: true
   },
   {
-    path: '/About/Alexis',
-    component: ComponentCreator('/About/Alexis', '6f8'),
+    path: '/about/Alexis',
+    component: ComponentCreator('/about/Alexis', '2cd'),
     exact: true
   },
   {
-    path: '/About/Anastasiia',
-    component: ComponentCreator('/About/Anastasiia', 'b1d'),
+    path: '/about/Anastasiia',
+    component: ComponentCreator('/about/Anastasiia', 'b18'),
     exact: true
   },
   {
-    path: '/About/Andreas',
-    component: ComponentCreator('/About/Andreas', '361'),
+    path: '/about/Andreas',
+    component: ComponentCreator('/about/Andreas', '8e8'),
     exact: true
   },
   {
-    path: '/About/Anutosh',
-    component: ComponentCreator('/About/Anutosh', '387'),
+    path: '/about/Anutosh',
+    component: ComponentCreator('/about/Anutosh', '67e'),
     exact: true
   },
   {
-    path: '/About/Darian',
-    component: ComponentCreator('/About/Darian', 'b29'),
+    path: '/about/Darian',
+    component: ComponentCreator('/about/Darian', '31a'),
     exact: true
   },
   {
-    path: '/About/David',
-    component: ComponentCreator('/About/David', '528'),
+    path: '/about/David',
+    component: ComponentCreator('/about/David', '568'),
     exact: true
   },
   {
-    path: '/About/Denisa',
-    component: ComponentCreator('/About/Denisa', '764'),
+    path: '/about/Denisa',
+    component: ComponentCreator('/about/Denisa', '8fc'),
     exact: true
   },
   {
-    path: '/About/Fanny',
-    component: ComponentCreator('/About/Fanny', '621'),
+    path: '/about/Florence',
+    component: ComponentCreator('/about/Florence', '7aa'),
     exact: true
   },
   {
-    path: '/About/Florence',
-    component: ComponentCreator('/About/Florence', '49f'),
+    path: '/about/Gabriela',
+    component: ComponentCreator('/about/Gabriela', 'e12'),
     exact: true
   },
   {
-    path: '/About/Gabriela',
-    component: ComponentCreator('/About/Gabriela', '95f'),
+    path: '/about/Greg',
+    component: ComponentCreator('/about/Greg', 'afd'),
     exact: true
   },
   {
-    path: '/About/Greg',
-    component: ComponentCreator('/About/Greg', '49b'),
+    path: '/about/Hind',
+    component: ComponentCreator('/about/Hind', '610'),
     exact: true
   },
   {
-    path: '/About/Hind',
-    component: ComponentCreator('/About/Hind', '8ed'),
+    path: '/about/Ian',
+    component: ComponentCreator('/about/Ian', 'd18'),
     exact: true
   },
   {
-    path: '/About/Isabel',
-    component: ComponentCreator('/About/Isabel', '673'),
+    path: '/about/Isabel',
+    component: ComponentCreator('/about/Isabel', '280'),
     exact: true
   },
   {
-    path: '/About/Jeremy',
-    component: ComponentCreator('/About/Jeremy', 'c30'),
+    path: '/about/Jeremy',
+    component: ComponentCreator('/about/Jeremy', '0a5'),
     exact: true
   },
   {
-    path: '/About/Joel',
-    component: ComponentCreator('/About/Joel', '71c'),
+    path: '/about/Joel',
+    component: ComponentCreator('/about/Joel', 'cfb'),
     exact: true
   },
   {
-    path: '/About/Johan',
-    component: ComponentCreator('/About/Johan', '1ad'),
+    path: '/about/Johan',
+    component: ComponentCreator('/about/Johan', 'cbc'),
     exact: true
   },
   {
-    path: '/About/Julien',
-    component: ComponentCreator('/About/Julien', 'c30'),
+    path: '/about/Julien',
+    component: ComponentCreator('/about/Julien', 'e4e'),
     exact: true
   },
   {
-    path: '/About/Martin',
-    component: ComponentCreator('/About/Martin', 'b41'),
+    path: '/about/Martin',
+    component: ComponentCreator('/about/Martin', 'd35'),
     exact: true
   },
   {
-    path: '/About/Meriem',
-    component: ComponentCreator('/About/Meriem', '8a6'),
+    path: '/about/Meriem',
+    component: ComponentCreator('/about/Meriem', '7b1'),
     exact: true
   },
   {
-    path: '/About/Nicolas',
-    component: ComponentCreator('/About/Nicolas', 'c64'),
+    path: '/about/Nicolas',
+    component: ComponentCreator('/about/Nicolas', '152'),
     exact: true
   },
   {
-    path: '/About/Nour',
-    component: ComponentCreator('/About/Nour', 'b9a'),
+    path: '/about/Nour',
+    component: ComponentCreator('/about/Nour', 'b63'),
     exact: true
   },
   {
-    path: '/About/Sylvain',
-    component: ComponentCreator('/About/Sylvain', '319'),
+    path: '/about/Romain',
+    component: ComponentCreator('/about/Romain', 'e2a'),
     exact: true
   },
   {
-    path: '/About/Thorsten',
-    component: ComponentCreator('/About/Thorsten', 'e65'),
+    path: '/about/Serge',
+    component: ComponentCreator('/about/Serge', '1d9'),
     exact: true
   },
   {
-    path: '/About/Trung',
-    component: ComponentCreator('/About/Trung', 'a2c'),
+    path: '/about/Sylvain',
+    component: ComponentCreator('/about/Sylvain', '2c7'),
+    exact: true
+  },
+  {
+    path: '/about/Thorsten',
+    component: ComponentCreator('/about/Thorsten', '5d3'),
+    exact: true
+  },
+  {
+    path: '/about/Trung',
+    component: ComponentCreator('/about/Trung', 'ac9'),
     exact: true
   },
   {
@@ -223,8 +233,8 @@ export default [
     exact: true
   },
   {
-    path: '/others',
-    component: ComponentCreator('/others', '207'),
+    path: '/contact',
+    component: ComponentCreator('/contact', '45e'),
     exact: true
   },
   {

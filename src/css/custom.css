@@ -6,6 +6,7 @@
 
 :root {
   --ifm-color-neutral-n1: #605e58;
+  --ifm-color-neutral-black: #1C1C16;
   --ifm-color-primary-p1: #f6f195;
   --ifm-color-primary-p2: #1c1c16;
   --ifm-color-primary-p3: #1e1c00;
@@ -183,19 +184,10 @@ h4 {
 }
 
 .container {
-  background-color: #4ecb71;
-  width: auto;
+  max-width: none;
 }
 
-.card_header_custom {
-  font-family: var(--ifm-font-family-rubik-one);
-  font-size: var(--ifm-font-size-secondary-title);
-  font-style: normal;
-  font-weight: 800;
-  line-height: 28px;
-  text-align: center;
-  margin-bottom: var(--ifm-spacing-xl);
-}
+
 
 p {
   font-family: var(--ifm-font-family-roboto);
@@ -207,23 +199,10 @@ p {
   margin-bottom: var(--ifm-spacing-lg);
 }
 
-.card_body_custom {
-  font-family: var(--ifm-font-family-roboto);
-  font-size: 14px;
-  color: #371300;
-  font-style: normal;
-  line-height: 20px;
-  font-weight: 400;
-  letter-spacing: 0.25px;
-  text-align: center;
-}
 
-.card_image_custom {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: var(--ifm-spacing-lg);
-}
+
+
+
 
 /*
 Hyperlink states are crucial for accessibility.
@@ -285,6 +264,7 @@ a.menu__link:active {
 .navbar__logo img:hover {
   transform: scale(1.05);
 }
+
 .navbar__logo img:active {
   transform: scale(1);
 }
@@ -319,15 +299,17 @@ a.menu__link:active {
   justify-items: center;
   border-radius: 4px;
 }
+
 .navbar__link:hover {
   color: black;
 }
+
 .github-icon:hover {
   opacity: 0.6;
 }
 
 .github-icon:before {
-  background: url(../../static/img/GH.svg);
+  background: url(../../static/img/socialmedias/GH.svg);
   content: "";
   display: flex;
   height: 36px;
@@ -340,7 +322,7 @@ a.menu__link:active {
 }
 
 .linkedin-icon:before {
-  background: url(../../static/img/LinkedIn.svg);
+  background: url(../../static/img/socialmedias/LinkedIn.svg);
   content: "";
   display: flex;
   height: 36px;
@@ -353,18 +335,10 @@ a.menu__link:active {
 }
 
 .x-icon:before {
-  background: url(../../static/img/X.svg);
+  background: url(../../static/img/socialmedias/X.svg);
   content: "";
   display: flex;
   height: 36px;
   width: 37px;
   background-repeat: no-repeat;
-}
-
-.heading2 {
-  color: palevioletred;
-}
-
-.heading3 {
-  color: rgb(117, 216, 112);
 }
