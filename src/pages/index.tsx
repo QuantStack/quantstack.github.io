@@ -1,11 +1,11 @@
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
-import Hero from "../components/LandingPage/Hero";
-import WhatWeDo from "../components/LandingPage/WhatWeDo";
-import ProjectsOverview from "../components/LandingPage/ProjectsOverview";
-import AboutQS from "../components/LandingPage/AboutQS";
+import Hero from "../components/home/Hero";
+import WhatWeDo from "../components/home/WhatWeDo";
+import ProjectsOverview from "../components/home/ProjectsOverview";
+import AboutQS from "../components/home/AboutQS";
 
-export default function LandingPage(): JSX.Element {
+export default function HomePage(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout>

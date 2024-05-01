@@ -3,5 +3,8 @@
   "extends": "@docusaurus/tsconfig",
   "compilerOptions": {
     "baseUrl": "."
-  }
+  },
+  "typeRoots": [
+    "node_modules/@types","./global.d.ts"
+  ],
 }
