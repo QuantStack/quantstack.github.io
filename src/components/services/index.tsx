@@ -3,14 +3,21 @@ import Link from "@docusaurus/Link";
 
 export function Support() {
   return (
-    <div className="container" style={{ margin: "var(--ifm-spacing-6xl) 0 var(--ifm-spacing-6xl) 0"}}>
+    <div
+      className="container"
+      style={{ margin: "var(--ifm-spacing-6xl) 0 var(--ifm-spacing-6xl) 0" }}
+    >
       <div className="row row--no-gutters">
         <div className="col col--4 col--offset-1">
-          <img src="img/illustrations/support.svg" width="350px" height="424px" />
+          <img
+            src="img/illustrations/support.svg"
+            width="350px"
+            height="424px"
+          />
         </div>
 
         <div
-          className="col col--6 col--offset-1"
+          className="col col--6 col--offset"
           style={{ padding: "var(--ifm-spacing-2xl)" }}
         >
           <h3>Professional Support</h3>
@@ -33,7 +40,10 @@ export function Support() {
 
 export function SpecialProjects() {
   return (
-    <div className="container" style={{ margin: "var(--ifm-spacing-6xl) 0 var(--ifm-spacing-6xl) 0"}}>
+    <div
+      className="container"
+      style={{ margin: "var(--ifm-spacing-6xl) 0 var(--ifm-spacing-6xl) 0" }}
+    >
       <div className="row row--no-gutters">
         <div className="col col--5 col--offset-1">
           <h3>Special projects</h3>
@@ -68,14 +78,24 @@ export function SpecialProjects() {
 
 export default function Services() {
   return (
-    <div className="container" style={{marginTop:"var(--ifm-spacing-6xl"}}>
-      <h1
-      >
-        Hire QuantStack to build upon the Jupyter, Mamba, and the PyData
-        ecosystem.
-      </h1>
+    <div
+      className="container"
+      style={{
+        marginTop: "var(--ifm-spacing-6xl)",
+      }}
+    >
+      <div className="container">
+        <div className="row">
+          <div className="col col--10 col--offset-1">
+            <h1>
+              Hire QuantStack to build upon the Jupyter, Mamba, and the PyData
+              ecosystem.
+            </h1>
+          </div>
+        </div>
+      </div>
       <Support />
-      <h2 style={{textAlign:"center"}}>
+      <h2 style={{ textAlign: "center" }}>
         Work with the people behind the technology.
       </h2>
       <SpecialProjects />

@@ -27,8 +27,8 @@ export function ValueCard({ name, valuesList, ValueComponent }) {
 
 export default function ValuesComponent() {
   return (
-    <div className="container" style={{ marginTop: "var(--ifm-spacing-5xl)" }}>
-      <h3 style={{ textAlign: "center" }}>Our values </h3>
+    <div className="container">
+      <h1 style={{ textAlign: "center" }}>Our values </h1>
       <div
         className="container"
         style={{

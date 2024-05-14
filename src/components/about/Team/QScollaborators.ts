@@ -10,7 +10,7 @@ export const QSCollaboratorsTeam = [
     LinkedInLink: "",
     XLink: "",
     githubName: "@serge-sans-paille",
-    avatarRoute: "img/avatars/Serge@2x.jpg",
+    avatarRoute: "/img/avatars/Serge@2x.jpg",
     JupyterDistinction: "false"
   },
   {
@@ -24,7 +24,7 @@ export const QSCollaboratorsTeam = [
     LinkedInLink: "https://www.linkedin.com/in/romain-menegaux-88a147134/",
     XLink: "https://twitter.com/RomainMenegaux",
     githubName: "@trmenegaux",
-    avatarRoute: "img/avatars/Romain@2x.jpg",
+    avatarRoute: "/img/avatars/Romain@2x.jpg",
     JupyterDistinction: "false"
   },
 ];

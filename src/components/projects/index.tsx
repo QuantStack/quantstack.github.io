@@ -216,7 +216,7 @@ export function Robotics() {
 export default function Projects() {
   return (
     <div>
-      <div className="container" style={{marginTop:"var(--ifm-spacing-5xl"}}>
+      <div className="container" style={{marginTop:"var(--ifm-spacing-6xl"}}>
         <div className="row">
           <div className="col col--10 col--offset-1">
             <h1>Working in the open</h1>

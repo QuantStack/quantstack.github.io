@@ -47,22 +47,30 @@ export default function Hero() {
   return (
     <div
       className="container"
-      style={{ marginBottom: "var(--ifm-spacing-xl)" }}
+      style={{ margin: "var(--ifm-spacing-3xl) 0 var(--ifm-spacing-xl) 0 " }}
     >
       <div className="row row--no-gutters">
-        <div className="col col--5 col--offset-1">
-          <h1 style={{ marginTop: "var(--ifm-spacing-6xl)" }}>
-            Open-source for discovery, science, and education
-          </h1>
-          <p>
-            A team behind major open-source projects of the scientific computing
-            ecosystem
-          </p>
-          <h2>Jupyter, Conda-forge, Mamba, Voilà, Xtensor and more.</h2>
+        <div
+          className="col col--5 col--offset-1"
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
+          <div className="header-text">
+            <h1>Open-source for discovery, science, and education</h1>
+            <p>
+              A team behind major open-source projects of the scientific
+              computing ecosystem
+            </p>
+            <h2>Jupyter, Conda-forge, Mamba, Voilà, Xtensor and more.</h2>
+          </div>
         </div>
         <div
           className="col col--5"
           style={{
+            display: "flex",
             alignItems: "center",
             justifyContent: "center",
             padding: "var(--ifm-spacing-6xl) var(--ifm-spacing-4xl)",

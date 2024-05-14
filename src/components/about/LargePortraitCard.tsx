@@ -42,7 +42,6 @@ export default function LargePortraitCard({ person, BioComponent }: ILargeCardpr
             className="col col--3 col--offset-1"
             style={{
               display: "flex",
-              alignItems: "center",
               justifyContent: "center",
             }}
           >
@@ -91,7 +90,6 @@ else {
               className="col col--3 col--offset-1"
               style={{
                 display: "flex",
-                alignItems: "center",
                 justifyContent: "center",
               }}
             >

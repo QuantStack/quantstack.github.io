@@ -49,7 +49,6 @@ export default function AboutQS() {
             justifyContent: "center",
           }}
         >
-          <GroupPhoto />
         </div>
       </div>
       <div className="row">

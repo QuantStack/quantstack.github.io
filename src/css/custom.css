@@ -6,11 +6,12 @@
 
 :root {
   --ifm-color-neutral-n1: #605e58;
-  --ifm-color-neutral-black: #1C1C16;
+  --ifm-color-neutral-black: #1c1c16;
   --ifm-color-primary-p1: #f6f195;
   --ifm-color-primary-p2: #1c1c16;
   --ifm-color-primary-p3: #1e1c00;
-  --ifm-footer-background-color: var(--ifm-color-primary-p1);
+  /*--ifm-footer-background-color: var(--ifm-color-primary-p1);*/
+  --ifm-footer-height: 200px;
   --ifm-color-orange-jupyter: #f37726;
   --ifm-color-green-xtensor: #4ecb71;
   --ifm-color-grey-condaforge: #7a7865;
@@ -187,8 +188,6 @@ h4 {
   max-width: none;
 }
 
-
-
 p {
   font-family: var(--ifm-font-family-roboto);
   font-size: var(--ifm-font-size-normal);
@@ -199,19 +198,78 @@ p {
   margin-bottom: var(--ifm-spacing-lg);
 }
 
+.footer {
+  height: 416px;
+  background-color: var(--ifm-color-primary-p1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  max-width: none;
+}
 
+.footer__links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 0;
+  padding:0;
+}
 
+.footer__link-item {
+  align-items: center;
+}
 
+.footer-astronaut {
+  display: flex;
+  text-align: left;
+  margin-right: var(--ifm-spacing-lg);
+  width: 400px;
+  height: 400px;
+  padding: 10px;
+}
 
+.social-media-links {
+  margin-left: var(--ifm-spacing-3xl);
+  text-align: start;
+}
+
+.office-address {
+  margin-left: var(--ifm-spacing-3xl);
+  text-align: start;
+  color: var(--ifm-color-neutral-black);
+}
+
+.card-header-custom {
+  font-family: var(--ifm-font-family-rubik-one);
+  font-size: var(--ifm-font-size-secondary-title);
+  color: #371300;
+  text-align: center;
+  line-height: 28px; /* 90.323% */
+  font-style: normal;
+  font-weight: 400;
+}
+
+.card-body-custom {
+  font-family: var(--ifm-font-family-roboto);
+  font-size: 14px;
+  color: #371300;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 0.25px;
+}
 
 /*
 Hyperlink states are crucial for accessibility.
 Please double check before changing the rules below.
 */
 a {
-  text-decoration: underline;
+  /*text-decoration: underline;
   text-decoration-thickness: var(--pydata-link-underline-thickness);
-  text-underline-offset: var(--pydata-link-underline-offset);
+  text-underline-offset: var(--pydata-link-underline-offset);*/
+  color: var(--ifm-color-neutral-black);
 }
 
 a:hover,
@@ -220,10 +278,10 @@ navbar links, table of contents, and docs sidebar links, respectively */
 a.navbar__link:hover,  /* Top bar navigation links */
 a.table-of-contents__link:hover, /*Right sidebar links (table of contents) */
 a[class^="sidebarItemLink"]:hover /* The docs sidebar links do not have its own class */ {
-  text-decoration: underline;
+  /*text-decoration: underline;
   text-decoration-thickness: var(--pydata-link-hover-decoration-thickness);
   text-decoration-skip-ink: none;
-  text-decoration-skip: none;
+  text-decoration-skip: none;*/
 }
 a:active,
 a.navbar__link:active,
@@ -304,6 +362,15 @@ a.menu__link:active {
   color: black;
 }
 
+.quantstack-icon {
+  background: url(../../static/img/logo-website.svg);
+  content: "";
+  display: flex;
+  height: 100px;
+  width: 100px;
+  background-repeat: no-repeat;
+}
+
 .github-icon:hover {
   opacity: 0.6;
 }
@@ -341,4 +408,9 @@ a.menu__link:active {
   height: 36px;
   width: 37px;
   background-repeat: no-repeat;
+}
+
+
+.cards_list {
+  list-style-type: none;
 }

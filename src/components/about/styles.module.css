@@ -110,20 +110,15 @@
     margin-bottom: 10px;
   }
 
-  .cards_list {
-    list-style-type: none;
-  }
-
   .avatar_box {
     display: flex;
-    align-items: center;
     justify-content: center;
   }
 
   .avatar {
     filter: grayscale(1);
-    width: 168px;
-    height: 168px;
+    width: 160px;
+    height: 160px;
     border-radius: 50%;
     overflow: hidden;
   }

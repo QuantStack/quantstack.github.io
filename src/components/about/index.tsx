@@ -6,14 +6,13 @@ import ValuesComponent from "./ValuesComponent";
 import SubTeamComponent from "./SubTeamComponent";
 import Link from "@docusaurus/Link";
 
-
 export default function About() {
   return (
-    <div className="container" style={{justifyContent: "center"}}>
+    <div
+      className="container"
+      style={{ justifyContent: "center", marginTop: "var(--ifm-spacing-5xl)" }}
+    >
       <ValuesComponent />
-      <div className={styles.image_box}>
-        <img src="img/illustrations/team.svg" />
-      </div>
       <h1 style={{ textAlign: "center" }}>Meet the QuantStack team</h1>
       <h4>
         A team of outliers, leaders in software projects adopted at the global
