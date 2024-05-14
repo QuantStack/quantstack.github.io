@@ -4,6 +4,7 @@ import Hero from "../components/home/Hero";
 import WhatWeDo from "../components/home/WhatWeDo";
 import ProjectsOverview from "../components/home/ProjectsOverview";
 import AboutQS from "../components/home/AboutQS";
+import News from "../components/home/News";
 
 export default function HomePage(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
@@ -14,6 +15,7 @@ export default function HomePage(): JSX.Element {
         <WhatWeDo />
         <ProjectsOverview />
         <AboutQS />
+        <News />
       </main>
     </Layout>
   );

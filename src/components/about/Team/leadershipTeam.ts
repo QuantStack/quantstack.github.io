@@ -10,7 +10,7 @@ export const leadershipTeam = [
     LinkedInLink: "https://www.linkedin.com/sylvaincorlay/?locale=en_US",
     XLink: "https://twitter.com/SylvainCorlay",
     githubName: "@SylvainCorlay",
-    avatarRoute: "img/avatars/Sylvain@2x.jpg",
+    avatarRoute: "/img/avatars/Sylvain@2x.jpg",
     JupyterDistinction: "true",
   },
   {
@@ -24,7 +24,7 @@ export const leadershipTeam = [
     LinkedInLink: "https://www.linkedin.com/in/johan-mabille/",
     XLink: "https://twitter.com/JohanMabille",
     githubName: "@JohanMabille",
-    avatarRoute: "img/avatars/Johan@2x.jpg",
+    avatarRoute: "/img/avatars/Johan@2x.jpg",
     JupyterDistinction: "true",
   },
   {
@@ -38,7 +38,7 @@ export const leadershipTeam = [
     LinkedInLink: "https://www.linkedin.com/in/martin-renou",
     XLink: "https://twitter.com/martinRenou",
     githubName: "@martinRenou",
-    avatarRoute: "img/avatars/Martin@2x.jpg",
+    avatarRoute: "/img/avatars/Martin@2x.jpg",
     JupyterDistinction: "true",
   },
   {
@@ -52,7 +52,7 @@ export const leadershipTeam = [
     LinkedInLink: "https://www.linkedin.com/in/jtuloup/",
     XLink: "https://twitter.com/jtpio",
     githubName: "@jtpio",
-    avatarRoute: "img/avatars/Jeremy@2x.jpg",
+    avatarRoute: "/img/avatars/Jeremy@2x.jpg",
     JupyterDistinction: "true",
   },
 
@@ -67,7 +67,7 @@ export const leadershipTeam = [
     LinkedInLink: "https://www.linkedin.com/in/afshindarian/",
     XLink: "",
     githubName: "@afshin",
-    avatarRoute: "img/avatars/Darian@2x.jpg",
+    avatarRoute: "/img/avatars/Darian@2x.jpg",
     JupyterDistinction: "true",
   },
   {
@@ -81,7 +81,7 @@ export const leadershipTeam = [
     LinkedInLink: "https://www.linkedin.com/in/david-brochart-4208721/",
     XLink: "https://twitter.com/davidbrochart",
     githubName: "@davidbrochart",
-    avatarRoute: "img/avatars/David@2x.jpg",
+    avatarRoute: "/img/avatars/David@2x.jpg",
     JupyterDistinction: "true",
   },
 ];

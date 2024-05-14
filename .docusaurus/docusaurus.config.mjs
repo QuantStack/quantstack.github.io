@@ -98,7 +98,7 @@ export default {
         },
         {
           "to": "https://twitter.com/QuantStack",
-          "title": "Twitter",
+          "title": "X",
           "position": "right",
           "target": "_blank",
           "className": "x-icon"
@@ -107,9 +107,40 @@ export default {
       "hideOnScroll": false
     },
     "footer": {
-      "style": "light",
-      "links": [],
-      "copyright": "Copyright © 2024 QuantStack's website, Inc. Built with Docusaurus."
+      "links": [
+        {
+          "html": "\n                <div class=\"footer-astronaut\">\n                  <img src=\"img/astronaut.svg\" alt=\"QuantStack logo\" />\n                </div>\n              "
+        },
+        {
+          "label": "Home",
+          "href": "/index"
+        },
+        {
+          "label": "Projects",
+          "href": "/projects"
+        },
+        {
+          "label": "Services",
+          "href": "/services"
+        },
+        {
+          "label": "About Us",
+          "href": "/about"
+        },
+        {
+          "label": "Careers",
+          "href": "/careers"
+        },
+        {
+          "label": "Blog",
+          "href": "/Blog"
+        },
+        {
+          "html": "\n        <div>\n        <div class=\"social-media-links\">\n          <a href=\"https://github.com/QuantStack\" target=\"_blank\" rel=\"noreferrer noopener\" aria-label=\"Visit our Github page\">\n                  <img src=\"img/socialmedias/GH.svg\" alt=\"Visit our GitHub page\" width=\"36\" height=\"36\" />\n          </a>\n          <a href=\"https://www.linkedin.com/company/quantstack/mycompany/\" target=\"_blank\" rel=\"noreferrer noopener\" aria-label=\"Visit our LinkedIn page\">\n          <img src=\"img/socialmedias/LinkedIn.svg\" alt=\"Visit our LinkedIn page\" width=\"36\" height=\"36\" />\n          </a>\n          <a href=\"https://twitter.com/QuantStack\" target=\"_blank\" rel=\"noreferrer noopener\" aria-label=\"Visit our X page\">\n          <img src=\"img/socialmedias/X.svg\" alt=\"Visit our X page\" width=\"36\" height=\"36\" />\n          </a>\n          </div>\n                <div class=\"office-address\">\n                <b>QuantStack </b><br/>\n                16 avenue Curti <br/>\n                94 100 Saint Maur des Fossés <br/>\n                France\n                </div>\n                </div>\n              "
+        }
+      ],
+      "copyright": "Copyright © 2024 QuantStack's website, Inc. Built with Docusaurus.",
+      "style": "light"
     },
     "prism": {
       "theme": {

@@ -1,10 +1,33 @@
 @media only screen and (min-width: 600px) {
-  .project_card {
+  .topics_card {
     height: 462px;
+    width: 350px;
     padding: var(--ifm-spacing-2xl)  var(--ifm-spacing-lg);
     border-radius: 8px;
     box-shadow: 0px 0px 8px 1px #c8c8c7;
     background-color: var(--ifm-color-orange-light2);
+  }
+
+
+  .topics_header {
+    font-family: var(--ifm-font-family-rubik-one);
+    font-size: var(--ifm-font-size-secondary-title);
+    font-style: normal;
+    font-weight: 800;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: var(--ifm-spacing-xl);
+  }
+
+  .topics_text {
+    color: #371300;
+    text-align: center;
+    font-family: var(--ifm-font-family-roboto);
+    font-size: 6px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.25px;
   }
 
   .link_to_services {

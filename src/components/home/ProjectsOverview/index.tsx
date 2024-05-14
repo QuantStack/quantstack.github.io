@@ -5,7 +5,6 @@ export function JupyterProject() {
     <div
       className="container"
       style={{
-        height: "640px",
         marginTop: "var(--ifm-spacing-7xl)",
         marginBottom: "var(--ifm-spacing-3xl)",
       }}
@@ -45,7 +44,7 @@ export function SupplyChainProjects() {
   return (
     <div
       className="container"
-      style={{ height: "640px", marginBottom: "var(--ifm-spacing-3xl)" }}
+      style={{ marginBottom: "var(--ifm-spacing-3xl)" }}
     >
       <div className="row">
         <div
@@ -83,7 +82,7 @@ export function SpecialProjects() {
   return (
     <div
       className="container"
-      style={{ height: "640px", marginBottom: "var(--ifm-spacing-3xl)" }}
+      style={{marginBottom: "var(--ifm-spacing-3xl)" }}
     >
       <div className="row">
         <div className="col col--6">
@@ -121,7 +120,7 @@ export function SpecialProjects() {
 
 export function RoboticsProjects() {
   return (
-    <div className="container" style={{ height: "640px", marginBottom: "var(--ifm-spacing-3xl)" }}>
+    <div className="container" style={{ marginBottom: "var(--ifm-spacing-3xl)" }}>
       <div className="row">
         <div
           className="col col--6"
@@ -131,7 +130,7 @@ export function RoboticsProjects() {
             justifyContent: "center",
           }}
         >
-          <img src="img/projects/robotics.svg" />
+          <img src="img/projects/robotics.svg" width="600px" />
         </div>
         <div className="col col--6">
           <h1>Robotics </h1>
@@ -157,7 +156,7 @@ export function RoboticsProjects() {
 
 export function ComputingProjects() {
   return (
-    <div className="container" style={{ height: "640px", marginBottom: "var(--ifm-spacing-3xl)" }}>
+    <div className="container" style={{ marginBottom: "var(--ifm-spacing-3xl)" }}>
       <div className="row">
         <div className="col col--6">
           <h1>Scientific computing </h1>

@@ -16,7 +16,7 @@ export default function SubTeamComponent({ description, subTeamName }: IProps) {
       >
         <ul className="row">
           {subTeamName.map((person, index) => (
-            <li className={styles.cards_list} key={index}>
+            <li className="cards_list" key={index}>
               <div className="col col--2">
                 <SmallPortraitCard person={person}></SmallPortraitCard>
               </div>
