@@ -5,6 +5,13 @@ copyright:
 
 blog:
 
+  - url: https://quantstack.net/fanny.html
+    title: "In memoriam: Fanny Loustau Chartez"
+    image: https://quantstack.net/img/avatar/Fanny@2x.jpg
+    summary: "It is with great sadness that we announce the passing of our colleague and friend, Fanny Loustau Chartez, who served as the Administrative and Financial Director of QuantStack since 2021."
+    date: May 16, 2024
+    authors: Sylvain Corlay
+
   - url: https://medium.com/@PyDataParis/announcing-pydata-paris-2024-700220accc72
     title: "Announcing PyData Paris 2024"
     image: https://miro.medium.com/v2/resize:fit:1100/format:webp/0*jYrq6Du7WpJDOTUf
