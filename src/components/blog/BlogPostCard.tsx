@@ -24,9 +24,7 @@ export default function BlogPostCard({ blogPost }) {
           </div>
           <div className="row">
             <div className={styles.blogpost_header}>
-              {blogPost.title.length < 80
-                ? blogPost.title
-                : blogPost.summary.substring(0, 80) + "..."}
+              {blogPost.title}
             </div>
             <div className={styles.blogpost_summary}>
               {blogPost.summary.length < 160

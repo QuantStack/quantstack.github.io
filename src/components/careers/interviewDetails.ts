@@ -1,0 +1,58 @@
+export const interviewDetails = [
+  {
+    completeName: "Sylvain Corlay",
+    firstName: "Sylvain",
+    position: "CEO",
+    pictureRoute: "/img/interviews/Sylvain_WTJ.webp",
+    url: "https://www.welcometothejungle.com/fr/companies/quantstack",
+  },
+  {
+    completeName: "Johan Mabille",
+    firstName: "Johan",
+    position: "Technical Director",
+    pictureRoute: "/img/interviews/Johan_WTJ.webp",
+    url: "https://youtu.be/ZoHJtMxfzW8",
+  },
+  {
+    completeName: "Martin Renou",
+    firstName: "Martin",
+    position: "Technical Director",
+    pictureRoute: "/img/interviews/Martin_WTJ.webp",
+    url: "https://youtu.be/s0Pdw-_GPjI",
+  },
+  {
+    completeName: "Jeremy Tuloup",
+    firstName: "Jeremy",
+    position: "Technical Director",
+    pictureRoute: "/img/interviews/Jeremy_WTJ.webp",
+    url: "https://youtu.be/5ChxIgwbVN8",
+  },
+  {
+    completeName: "Afshin Darian",
+    firstName: "Darian",
+    position: "Technical Director",
+    pictureRoute: "/img/interviews/Darian_WTJ.webp",
+    url: "https://youtu.be/lR-xEIluZOE",
+  },
+  {
+    completeName: "David Brochart",
+    firstName: "David",
+    position: "Technical Director",
+    pictureRoute: "/img/interviews/David_WTJ.webp",
+    url: "https://youtu.be/HDvJBT94_-A",
+  },
+  {
+    completeName: "Gabriela Vives",
+    firstName: "Gabriela",
+    position: "UX Designer and Researcher",
+    pictureRoute: "/img/interviews/Gabriela_WTJ.webp",
+    url: "https://youtu.be/cGk5OrNRDjQ",
+  },
+  {
+    completeName: "Trung Le Duc",
+    firstName: "Trung",
+    position: "Scientific Software Developer",
+    pictureRoute: "/img/interviews/Trung_WTJ.webp",
+    url: "https://youtu.be/5S4e9MzN5ts",
+  },
+];
