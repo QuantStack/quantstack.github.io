@@ -1,0 +1,67 @@
+@media only screen and (min-width: 600px) {
+  /*Desktop */
+
+  .interview_card {
+    width: 324px;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px 0 rgba(1, 0, 0, 0.17);
+    padding: var(--ifm-spacing-sm);
+    text-align: center;
+    margin-bottom: var(--ifm-spacing-xl);
+  }
+
+  .group_photo {
+    /*width: 1240px;
+    height: 405px;*/
+  }
+
+  .group_photo_box {
+    margin-top: var(--ifm-spacing-2xl);
+    margin-bottom: var(--ifm-spacing-6xl);
+  }
+
+  .join_the_team_text {
+    margin: var(--ifm-spacing-xl) 0 var(--ifm-spacing-xl) 0;
+    text-align: center;
+    font-size: 28px;
+    font-family: var(--ifm-font-family-roboto);
+    color: var(--ifm-color-primary-p2);
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; /* 128.571% */
+  }
+
+  .picture {
+    width: 300px;
+  }
+
+  .interview_card_first_name {
+    color: var(--ifm-color-primary-p2);
+    text-align: center;
+    font-family: var(--ifm-font-family-roboto);
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; /* 128.571% */
+  }
+
+  .interview_card_position {
+    color: var(--ifm-color-primary-p2);
+    text-align: center;
+    font-family: var(--ifm-font-family-roboto);
+    font-size: var(--ifm-font-size-normal);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 133.333% */
+    letter-spacing: 0.5px;
+  }
+
+  .image_WTJ_box {
+    display: center;
+    align-items: center;
+    justify-content: center;
+  }
+}

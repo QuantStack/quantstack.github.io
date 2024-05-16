@@ -15,9 +15,5 @@
   "frontMatter": {
     "sidebar_position": 1
   },
-  "sidebar": "tutorialSidebar",
-  "next": {
-    "title": "Hello",
-    "permalink": "/docs/hello"
-  }
+  "sidebar": "tutorialSidebar"
 }

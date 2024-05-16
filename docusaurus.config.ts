@@ -184,7 +184,7 @@ const config: Config = {
               `,
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} QuantStack's website, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} QuantStack Inc. - Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,

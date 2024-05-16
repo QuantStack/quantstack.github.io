@@ -2,6 +2,7 @@ export const valuesList = [
     {
       name: "Openness",
       imageRoute: "img/values/openness.svg",
+      valueComponent: "Openness"
     },
     {
       name: "Science",

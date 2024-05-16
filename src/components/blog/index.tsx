@@ -16,10 +16,10 @@ export default function BlogsComponent() {
   };
   
   return (
-    <div className="container" style={{ marginTop: "var(--ifm-spacing-5xl)" }}>
+    <div className="container" style={{ marginTop: "var(--ifm-spacing-6xl)" }}>
       <div className="row">
         <div className="col col--10 col--offset-1" style={{marginBottom:"var(--ifm-spacing-5xl)"}}>
-          <h1 style={{ textAlign: "left" }}> The quantstack blog</h1>
+          <h1 style={{ textAlign: "left" }}> Featured Posts by QuantStack Contributors</h1>
           <div>
         <input className={styles.search_input}
           type="search"
