@@ -2,6 +2,11 @@
   "name": "my-website",
   "version": "0.0.0",
   "private": true,
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
+  },
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
@@ -15,25 +20,34 @@
     "typecheck": "tsc"
   },
   "dependencies": {
+    "@coreui/react": "^5.0.0",
     "@docusaurus/core": "3.1.1",
     "@docusaurus/preset-classic": "3.1.1",
+    "@formspree/core": "^3.0.1",
+    "@formspree/react": "^2.5.1",
     "@fortawesome/free-brands-svg-icons": "^6.5.1",
     "@fortawesome/free-regular-svg-icons": "^6.5.1",
     "@mdx-js/react": "^3.0.0",
     "autoprefixer": "^10.4.19",
     "clsx": "^2.0.0",
+    "fs": "^0.0.1-security",
+    "js-yaml": "^4.1.0",
+    "nodejs": "^0.0.0",
     "postcss": "^8.4.38",
     "prism-react-renderer": "^2.3.0",
     "python": "^0.0.4",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-markdown": "^9.0.1",
-    "request": "^2.88.2"
+    "react-slick": "^0.30.2",
+    "request": "^2.88.2",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "3.1.1",
     "@docusaurus/tsconfig": "3.1.1",
     "@docusaurus/types": "3.1.1",
+    "@types/node": "^20.12.12",
     "typescript": "~5.2.2"
   },
   "browserslist": {

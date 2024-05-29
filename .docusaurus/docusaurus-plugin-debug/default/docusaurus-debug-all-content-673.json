@@ -136,6 +136,11 @@
       },
       {
         "type": "jsx",
+        "permalink": "/about/Fanny",
+        "source": "@site/src/pages/about/Fanny.tsx"
+      },
+      {
+        "type": "jsx",
         "permalink": "/about/Florence",
         "source": "@site/src/pages/about/Florence.tsx"
       },
@@ -228,6 +233,26 @@
         "type": "jsx",
         "permalink": "/about/Trung",
         "source": "@site/src/pages/about/Trung.tsx"
+      },
+      {
+        "type": "jsx",
+        "permalink": "/projects/condaforge",
+        "source": "@site/src/pages/projects/condaforge.tsx"
+      },
+      {
+        "type": "jsx",
+        "permalink": "/projects/jupyter",
+        "source": "@site/src/pages/projects/jupyter.tsx"
+      },
+      {
+        "type": "jsx",
+        "permalink": "/projects/robotics",
+        "source": "@site/src/pages/projects/robotics.tsx"
+      },
+      {
+        "type": "jsx",
+        "permalink": "/projects/xtensorxsimd",
+        "source": "@site/src/pages/projects/xtensorxsimd.tsx"
       }
     ]
   },

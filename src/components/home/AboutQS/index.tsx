@@ -3,7 +3,7 @@ import Link from "@docusaurus/Link";
 
 function GroupPhoto() {
   return (
-    <div className={styles.photo_box}>
+    <div className={styles.photo_container}>
       <img src="/img/QuantStack-2000-58.png"></img>
     </div>
   );
@@ -11,60 +11,32 @@ function GroupPhoto() {
 
 export default function AboutQS() {
   return (
-    <div
-      className="container"
-      style={{
-        margin: "var(--ifm-spacing 2xl 0 var(--ifm-spacing 2xl 0",
-        backgroundColor: "var(--ifm-color-primary-p1)",
-        height: "600px",
-      }}
-    >
-      <div className="row">
-        <div
-          className="col col--10 col--offset-1"
-          style={{
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-          }}
-        >
-          <p
-            style={{
-              color: "black",
-              textAlign: "center",
-              marginBottom: "var(--ifm-spacing-lg)",
-            }}
-          >
+    <div className={"container" + " " + styles.about_us_container}>
+      <div className={"row" + " " + styles.row_custom}>
+        <div className={"col col--10 col--offset-1" + " " + styles.col_custom}>
+          <div className={styles.text_container}>
             We are a team of expert of open-source developers, the very same
-            people behind a number of technologies that you already use...
-          </p>
+            people behind a number of technologies that you already use.
+          </div>
         </div>
       </div>
-      <div className="row">
-        <div
-          className="col col--10 col--offset-1"
-          style={{
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-          }}
-        >
+      <div className={"row" + " " + styles.row_custom}>
+        <div className={"col col--10 col--offset-1" + " " + styles.col_custom}>
+          <div className={styles.picture_container}>
+            <img src={"/img/QuantStack-2000-58.png"} />
+          </div>
         </div>
       </div>
-      <div className="row">
-        <div
-          className="col col--10 col--offset-1"
-          style={{
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            marginTop: "var(--ifm-spacing-lg)",
-            marginBottom: "var(--ifm-spacing-lg)",
-          }}
-        >
-          <Link className={styles.link_to_about_us} href="/about">
-            {" LEARN MORE ABOUT US "}
-          </Link>
+      <div className={"row" + " " + styles.row_custom}>
+        <div className={"col col--10 col--offset-1" + " " + styles.col_custom}>
+          <div className={styles.link_container}>
+            <Link
+              className={"link-to-button" + " " + styles.link_to_about_us}
+              href="/about"
+            >
+              {" LEARN MORE ABOUT US "}
+            </Link>
+          </div>
         </div>
       </div>
     </div>

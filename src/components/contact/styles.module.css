@@ -1,52 +1,63 @@
-@media only screen and (min-width: 600px) {
-    /*Desktop */
-    .contact_form {
-      margin-top: var(--ifm-spacing-xl);
-    }
-
-    .form_label {
-      font-size: 12px;
-      color: var(--ifm-color-neutral-black);
-      background-color: var(--ifm-color-orange-light);
-
-    }
-    .small_input {
-      width: 576px;
-      height: 56px;
-      border-radius: 4px;
-    }
-
-    .large_input {
-        width: 576px;
-        height: 220px;
-        border-radius: 4px;
-      }
-
-  
-      .send_button {
-        width: 258px;
-        height: 59px;
-        font-family: var(--ifm-font-family-roboto);
-        border-radius: 35px;
-        background: var(--ifm-color-secondary-s2);
-        color: white;
-        font-size: var(--ifm-font-size-normal);
-        font-style: normal;
-        font-weight: 300;
-        line-height: 150%;
-        letter-spacing: -0.176px;
-        padding: 16px 36px;
-        border: none;
-        text-align: center;
-      }
-      .send_button_box {
-        height: 59px;
-        width: auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: var(--ifm-spacing-2xl);
-      }
-      
+@media only screen and (min-width: 996px) {
+  /*Desktop */
+  .contact_container {
+    margin: var(--ifm-spacing-5xl) 0;
   }
-  
+
+  .contact_form {
+    margin-top: var(--ifm-spacing-xl);
+  }
+
+  .form_container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  }
+
+  .form_label {
+    font-size: 12px;
+    color: var(--ifm-color-neutral-black);
+    background-color: var(--ifm-color-orange-light);
+  }
+  .small_input {
+    width: 508px;
+    height: 56px;
+    border-radius: 4px;
+  }
+
+  .large_input {
+    width: 508px;
+    height: 220px;
+    border-radius: 4px;
+  }
+
+  .h1_custom {
+    text-align: left;
+    padding: 0;
+  }
+
+  .col_custom_picture {
+    margin: var(--ifm-spacing-2xl) 0;
+  }
+
+  .col_custom_form {
+    padding: 0;
+    margin: 0
+  }
+
+  .send_button {
+    width: 258px;
+    height: 59px;
+    background: var(--ifm-color-secondary-s2);
+  }
+
+  .send_button_container {
+    height: 59px;
+    width: 508px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: var(--ifm-spacing-2xl);
+  }
+}

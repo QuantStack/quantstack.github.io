@@ -1,0 +1,50 @@
+export const projectsDetails = [
+  {
+    name: "jupyter",
+    title: "Jupyter",
+    pictureRoute: "/img/projects/Jupyter.png",
+    pictureWidthDesktop: "198px",
+    pictureHeightDesktop: "234px",
+    pictureBorderDesktop: "solid 1px var(--ifm-color-orange-jupyter)",
+    pictureWidthMobile: "36px",
+    pictureHeightMobile: "43px",
+    pictureBorderMobile: "solid 0px",
+    reverse: "false"
+  },
+  {
+    name: "xtensorxsimd",
+    title: "Xtensor & Xsimd",
+    pictureRoute: "/img/projects/xtensor.png",
+    pictureWidthDesktop: "257px",
+    pictureHeightDesktop: "257px",
+    pictureBorderDesktop: "solid 1px  var(--ifm-color-green-xtensor)",
+    pictureWidthMobile: "36px",
+    pictureHeightMobile: "43px",
+    pictureBorderMobile: "solid 0px",
+    reverse: "true",
+  },
+  {
+    name: "condaforge",
+    title: "Conda-forge",
+    pictureRoute: "/img/projects/conda_forge.svg",
+    pictureWidthDesktop: "196px",
+    pictureHeightDesktop: "180px",
+    pictureBorderDesktop: "solid 1px var(--ifm-color-grey-condaforge)",
+    pictureWidthMobile: "36px",
+    pictureHeightMobile: "43px",
+    pictureBorderMobile: "solid 0px",
+    reverse:"false"
+  },
+  {
+    name: "robotics",
+    title: "Robotics",
+    pictureRoute: "/img/projects/robostack.png",
+    pictureWidthDesktop: "189px",
+    pictureHeightDesktop: "210px",
+    pictureBorderDesktop: "solid 1px rgb(146, 95, 218)",
+    pictureWidthMobile: "36px",
+    pictureHeightMobile: "43px",
+    pictureBorderMobile: "solid 0px",
+    reverse:"true"
+  },
+];

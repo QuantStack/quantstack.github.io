@@ -4,7 +4,7 @@ import Picture from "./Picture";
 
 export default function InterviewCard({ person }) {
   return (
-    <Link>
+    <Link href={person.url}>
       <div className={styles.interview_card}>
         <Picture person={person} />
         <div className={styles.interview_card_first_name}>

@@ -1,10 +1,10 @@
-import PersonComponent from "../../components/about/PersonComponent";
-import coreTeam from "../../components/about/Team/coreTeam";
+import PersonComponent from "@site/src/components/about/PortraitPage";
+import QSCollaboratorsTeam from "@site/src/components/about/Team/QScollaborators";
 import Serge from "@site/src/components/about/Team/Serge.md"
 
 
 export default function SergeComponent() {
   return(
-    <PersonComponent firstName={"Serge"} subTeam={coreTeam} BioComponent={Serge} ></PersonComponent>
+    <PersonComponent firstName={"Serge"} subTeam={QSCollaboratorsTeam} BioComponent={Serge} ></PersonComponent>
   )
 }

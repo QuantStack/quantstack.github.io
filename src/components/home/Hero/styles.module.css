@@ -1,16 +1,58 @@
+@media only screen and (max-width: 600px) {
+  /*Mobile*/
 
-@media only screen and (min-width: 600px) {
-  .logos_box {
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: var(--ifm-spacing-xl);
+  .row_custom {
+    flex-direction: column-reverse;
   }
-  
-  .image_box {
-   margin-top: var(--ifm-spacing-5xl);
-   padding:78.5px 78.5px;
+
+  .logos_table {
+    display: none;
+  }
+
+  .astronaut_picture {
+    height: 195px;
+    width: 195px;
   }
 }
-  
+
+@media only screen and (min-width: 996px) {
+  /* Desktop */
+  .hero_desktop {
+    margin: var(--ifm-spacing-5xl) 0 var(--ifm-spacing-xl) 0;
+  }
+
+  .table_with_12_customers {
+    margin-bottom: var(--ifm-spacing-xl);
+  }
+
+  .customer_logo {
+    filter: grayscale(1);
+    width: 100px;
+  }
+
+  .col_custom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .row_custom {
+    background-color: var(--ifm-color-secondary-s);
+  }
+
+  .h2_custom {
+    color: var(--ifm-color-secondary-s5);
+  }
+
+  .astronaut_column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: "var(--ifm-spacing-6xl) var(--ifm-spacing-4xl)";
+  }
+
+  .astronaut_picture {
+    height: 329px;
+    width: 329px;
+  }
+}

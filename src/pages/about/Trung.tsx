@@ -1,5 +1,5 @@
-import PersonComponent from "../../components/about/PersonComponent";
-import coreTeam from "../../components/about/Team/coreTeam";
+import PersonComponent from "@site/src/components/about/PortraitPage";
+import coreTeam from "@site/src/components/about/Team/coreTeam";
 import Trung from "@site/src/components/about/Team/Trung.md"
 
 
