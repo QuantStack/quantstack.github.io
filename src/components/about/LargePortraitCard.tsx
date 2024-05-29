@@ -29,7 +29,7 @@ export default function LargePortraitCard({ person, BioComponent }: ILargeCardpr
   return (
     <div className={styles.large_portrait_card}>
       <div className={"container"}>
-        <div className="row" style={{ marginBottom: "var(--ifm-spacing-lg)" }}>
+        <div className={"row" + " " + styles.row_custom }>
           <div className="col col--8 col--offset-1">
             <div className={styles.large_card_complete_name}>
               {person.completeName}
@@ -48,7 +48,7 @@ export default function LargePortraitCard({ person, BioComponent }: ILargeCardpr
             <Avatar person={person} />
           </div>
           <div className="col col--6 col--offset-1">
-            <div className={styles.bio_text}>
+            <div className={styles.bio_container}>
               <BioComponent></BioComponent>
             </div>
           </div>
@@ -85,19 +85,16 @@ else {
               <div className={styles.large_card_position}>{person.position}</div>
             </div>
           </div>
-          <div className="row" style={{ marginBottom: "var(--ifm-spacing-4xl)" }}>
+          <div className={"row" + " " + styles. row_custom }>
             <div
               className="col col--3 col--offset-1"
-              style={{
-                display: "flex",
-                justifyContent: "center",
-              }}
+             
             >
               <Avatar person={person} />
             </div>
             <div className="col col--6 col--offset-1">
-              <div className={styles.bio_text}>
-                <BioComponent></BioComponent>
+              <div className={styles.bio_container}>
+                <BioComponent/>
               </div>
             </div>
           </div>

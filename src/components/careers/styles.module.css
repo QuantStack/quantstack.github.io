@@ -1,5 +1,8 @@
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 996px) {
   /*Desktop */
+  .careers_container {
+    margin: var(--ifm-spacing-6xl) 0;
+  }
 
   .interview_card {
     width: 324px;
@@ -12,18 +15,12 @@
     margin-bottom: var(--ifm-spacing-xl);
   }
 
-  .group_photo {
-    /*width: 1240px;
-    height: 405px;*/
-  }
-
-  .group_photo_box {
+  .group_photo_container {
     margin-top: var(--ifm-spacing-2xl);
-    margin-bottom: var(--ifm-spacing-6xl);
+    padding: 0
   }
 
   .join_the_team_text {
-    margin: var(--ifm-spacing-xl) 0 var(--ifm-spacing-xl) 0;
     text-align: center;
     font-size: 28px;
     font-family: var(--ifm-font-family-roboto);
@@ -34,8 +31,16 @@
     line-height: 36px; /* 128.571% */
   }
 
-  .picture {
+  .join_the_team_container {
+    padding: var(--ifm-spacing-4xl) 0;
+    margin: var(--ifm-spacing-2xl) 0;
+  }
+
+  .interview_picture {
     width: 300px;
+  }
+  .interviews_container {
+    margin: var(--ifm-spacing-2xl) 0;
   }
 
   .interview_card_first_name {
@@ -59,9 +64,23 @@
     letter-spacing: 0.5px;
   }
 
-  .image_WTJ_box {
+  .image_WTJ_container {
     display: center;
     align-items: center;
     justify-content: center;
+  }
+
+  .h2_custom {
+    text-align: center;
+  }
+
+  .row_custom {
+    padding: 0;
+  }
+
+  .WTJ_profile {
+    margin-top: var(--ifm-spacing-6xl);
+    background-color: var(--ifm-color-secondary-s1);
+    padding: var(--ifm-spacing-2xl) 0;
   }
 }

@@ -4,7 +4,7 @@ export const interviewDetails = [
     firstName: "Sylvain",
     position: "CEO",
     pictureRoute: "/img/interviews/Sylvain_WTJ.webp",
-    url: "https://www.welcometothejungle.com/fr/companies/quantstack",
+    url: "https://youtu.be/y1J04klfiYA",
   },
   {
     completeName: "Johan Mabille",

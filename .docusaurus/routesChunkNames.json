@@ -98,6 +98,13 @@
     },
     "config": "config---about-5-e-9-bcb"
   },
+  "/about/Fanny-371": {
+    "__comp": "__comp---site-src-pages-about-fanny-tsxf-43-3a2",
+    "__context": {
+      "plugin": "plugin---about-19-c-ed1"
+    },
+    "config": "config---about-5-e-9-bcb"
+  },
   "/about/Florence-7aa": {
     "__comp": "__comp---site-src-pages-about-florence-tsx-264-1cc",
     "__context": {
@@ -254,6 +261,34 @@
   },
   "/projects-e5f": {
     "__comp": "__comp---site-src-pages-projects-tsxa-8-f-73b",
+    "__context": {
+      "plugin": "plugin---about-19-c-ed1"
+    },
+    "config": "config---about-5-e-9-bcb"
+  },
+  "/projects/condaforge-7f7": {
+    "__comp": "__comp---site-src-pages-projects-condaforge-tsxf-18-eb7",
+    "__context": {
+      "plugin": "plugin---about-19-c-ed1"
+    },
+    "config": "config---about-5-e-9-bcb"
+  },
+  "/projects/jupyter-c30": {
+    "__comp": "__comp---site-src-pages-projects-jupyter-tsxe-45-660",
+    "__context": {
+      "plugin": "plugin---about-19-c-ed1"
+    },
+    "config": "config---about-5-e-9-bcb"
+  },
+  "/projects/robotics-8ec": {
+    "__comp": "__comp---site-src-pages-projects-robotics-tsx-4-e-1-8cf",
+    "__context": {
+      "plugin": "plugin---about-19-c-ed1"
+    },
+    "config": "config---about-5-e-9-bcb"
+  },
+  "/projects/xtensorxsimd-6aa": {
+    "__comp": "__comp---site-src-pages-projects-xtensorxsimd-tsx-177-daa",
     "__context": {
       "plugin": "plugin---about-19-c-ed1"
     },

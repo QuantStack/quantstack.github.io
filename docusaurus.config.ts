@@ -127,7 +127,7 @@ const config: Config = {
         },
       ],
     },
-    footer: {
+    /*footer: {
       links: [
         {
           html: `
@@ -136,30 +136,34 @@ const config: Config = {
                 </div>
               `,
         },
-        {
-          label: "Home",
-          href: "/index",
-        },
-        {
-          label: "Projects",
-          href: "/projects",
-        },
-        {
-          label: "Services",
-          href: "/services",
-        },
-        {
-          label: "About Us",
-          href: "/about",
-        },
-        {
-          label: "Careers",
-          href: "/careers",
-        },
-        {
-          label: "Blog",
-          href: "/Blog",
-        },
+     
+     
+            {
+              label: "Home",
+              href: "/index",
+            },
+            {
+              label: "Projects",
+              href: "/projects",
+            },
+            {
+              label: "Services",
+              href: "/services",
+            },
+            {
+              label: "About Us",
+              href: "/about",
+            },
+            {
+              label: "Careers",
+              href: "/careers",
+            },
+            {
+              label: "Blog",
+              href: "/Blog",
+            },
+   
+
         {
           html: `
         <div>
@@ -176,7 +180,7 @@ const config: Config = {
           </div>
                 <div class="office-address">
                 <b>QuantStack </b><br/>
-                16 avenue Curti <br/>
+                16 avenue de Curti <br/>
                 94 100 Saint Maur des Fossés <br/>
                 France
                 </div>
@@ -185,7 +189,84 @@ const config: Config = {
         },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} QuantStack Inc. - Built with Docusaurus.`,
+    },*/
+
+    footer: {
+      links: [
+        {
+          title: " ",
+          items: [
+            {
+              html: `
+                      
+                      <img src="img/logo-quantstack.svg" alt="QuantStack logo" width="200px" />
+                      <div class="footer-astronaut">
+                      <img src="img/astronaut-footer.svg" alt="Astronaut" />
+                      </div>
+                    `,
+            },
+          ],
+        },
+        {
+          title: " ",
+          items: [
+            {
+              label: "Home",
+              href: "/index",
+            },
+            {
+              label: "Projects",
+              href: "/projects",
+            },
+            {
+              label: "Services",
+              href: "/services",
+            },
+            {
+              label: "About Us",
+              href: "/about",
+            },
+            {
+              label: "Careers",
+              href: "/careers",
+            },
+            {
+              label: "Blog",
+              href: "/Blog",
+            },
+          ],
+        },
+        {
+          title: " ",
+          items: [
+            {
+              html: `
+              <div>
+              <div class="social-media-links">
+                <a href="https://github.com/QuantStack" target="_blank" rel="noreferrer noopener" aria-label="Visit our Github page">
+                        <img src="img/socialmedias/GH.svg" alt="Visit our GitHub page" width="36" height="36" />
+                </a>
+                <a href="https://www.linkedin.com/company/quantstack/mycompany/" target="_blank" rel="noreferrer noopener" aria-label="Visit our LinkedIn page">
+                <img src="img/socialmedias/LinkedIn.svg" alt="Visit our LinkedIn page" width="36" height="36" />
+                </a>
+                <a href="https://twitter.com/QuantStack" target="_blank" rel="noreferrer noopener" aria-label="Visit our X page">
+                <img src="img/socialmedias/X.svg" alt="Visit our X page" width="36" height="36" />
+                </a>
+                </div>
+                  <div class="office-address">
+                      <b>QuantStack Office </b><br/>
+                      16 avenue de Curti <br/>
+                      94 100 Saint Maur des Fossés <br/>
+                      France
+                  </div>
+                </div>
+                    `,
+            },
+          ],
+        },
+      ],
     },
+
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,

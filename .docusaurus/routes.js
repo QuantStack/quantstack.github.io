@@ -78,6 +78,11 @@ export default [
     exact: true
   },
   {
+    path: '/about/Fanny',
+    component: ComponentCreator('/about/Fanny', '371'),
+    exact: true
+  },
+  {
     path: '/about/Florence',
     component: ComponentCreator('/about/Florence', '7aa'),
     exact: true
@@ -190,6 +195,26 @@ export default [
   {
     path: '/projects',
     component: ComponentCreator('/projects', 'e5f'),
+    exact: true
+  },
+  {
+    path: '/projects/condaforge',
+    component: ComponentCreator('/projects/condaforge', '7f7'),
+    exact: true
+  },
+  {
+    path: '/projects/jupyter',
+    component: ComponentCreator('/projects/jupyter', 'c30'),
+    exact: true
+  },
+  {
+    path: '/projects/robotics',
+    component: ComponentCreator('/projects/robotics', '8ec'),
+    exact: true
+  },
+  {
+    path: '/projects/xtensorxsimd',
+    component: ComponentCreator('/projects/xtensorxsimd', '6aa'),
     exact: true
   },
   {

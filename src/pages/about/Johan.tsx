@@ -1,5 +1,5 @@
-import PersonComponent from "../../components/about/PersonComponent";
-import leadershipTeam from "../../components/about/Team/leadershipTeam";
+import PersonComponent from "@site/src/components/about/PortraitPage";
+import leadershipTeam from "@site/src/components/about/Team/leadershipTeam";
 import Johan from "@site/src/components/about/Team/Johan.md"
 
 

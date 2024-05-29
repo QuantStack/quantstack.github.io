@@ -1,5 +1,10 @@
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 996px) {
   /*Desktop */
+
+  .service_container {
+    margin-top: var(--ifm-spacing-6xl);
+  }
+
   .contract {
     font-family: var(--ifm-font-family-bebas-neue);
     font-size: var(--ifm-font-size-secondary-title);
@@ -9,6 +14,30 @@
     font-weight: 800;
     background-color: var(--ifm-color-secondary-s1);
     color: var(--ifm-color-secondary-s4);
-    padding: var(--ifm-spacing-2xl) 0 var(--ifm-spacing-2xl) 0 ;
+    padding: var(--ifm-spacing-2xl) 0;
+  }
+
+  .h2_custom {
+    color: var(--ifm-color-secondary-s5)
+  }
+
+  .col_custom {
+    padding: var(--ifm-spacing-2xl);
+  }
+
+  .illustration_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .transition {
+    font-family: var(--ifm-font-family-bebas-neue);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: 150%;
+    text-align: start;
+    color: var(--ifm-color-secondary-s5);
+    text-align: center;
   }
 }

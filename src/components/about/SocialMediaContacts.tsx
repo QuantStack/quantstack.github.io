@@ -3,14 +3,8 @@ import Link from "@docusaurus/Link";
 
 export default function SocialMediaContacts({ person }) {
   return (
-    <div>
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-        }}
-      >
+    <>
+      <div className = {styles.social_media_contacts_container}>
         <Link href={person.githubLink}>{<img src={"/img/socialmedias/GH.svg"}></img>}</Link>
         <Link href={person.LinkedInLink}>
           {<img src={"/img/socialmedias/LinkedIn.svg"}></img>}
@@ -21,6 +15,6 @@ export default function SocialMediaContacts({ person }) {
         {" "}
         {person.githubName}
       </Link>
-    </div>
+    </>
   );
 }
