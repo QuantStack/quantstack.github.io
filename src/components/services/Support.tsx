@@ -9,7 +9,7 @@ export default function Support() {
           <div className="col col--4 col--offset-1">
             <div className={styles.illustration_container}>
               <img
-                src="img/illustrations/support.svg"
+                src="/img/illustrations/support.svg"
                 width="350px"
                 height="424px"
               />

@@ -1,328 +1,292 @@
 {
-  "/__docusaurus/debug-8c5": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
+  "/about-ca4": {
+    "__comp": "61809400",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-1-c-4-d3a"
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  },
+  "/about/Alexis-1ba": {
+    "__comp": "1b02ca2e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  },
+  "/about/Anastasiia-dca": {
+    "__comp": "55196a89",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  },
+  "/about/Andreas-182": {
+    "__comp": "2970f0ad",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  },
+  "/about/Anutosh-b3c": {
+    "__comp": "a60d50e7",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  },
+  "/about/Darian-399": {
+    "__comp": "926aebc8",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  },
+  "/about/David-783": {
+    "__comp": "6887af55",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  },
+  "/about/Denisa-157": {
+    "__comp": "d352b0bc",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  },
+  "/about/Fanny-bbb": {
+    "__comp": "f43ac5ca",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  },
+  "/about/Florence-c44": {
+    "__comp": "264daa71",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  },
+  "/about/Gabriela-273": {
+    "__comp": "f71871fc",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  },
+  "/about/Greg-d8e": {
+    "__comp": "29076868",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  },
+  "/about/Hind-ede": {
+    "__comp": "cde21fe1",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  },
+  "/about/Ian-087": {
+    "__comp": "f676ddc6",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  },
+  "/about/Isabel-1c7": {
+    "__comp": "b1937acd",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  },
+  "/about/Jeremy-e19": {
+    "__comp": "1b2674fc",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  },
+  "/about/Joel-1c7": {
+    "__comp": "9574930b",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  },
+  "/about/Johan-015": {
+    "__comp": "9062125b",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  },
+  "/about/Julien-785": {
+    "__comp": "27480011",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  },
+  "/about/Martin-53f": {
+    "__comp": "36ba1237",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  },
+  "/about/Meriem-925": {
+    "__comp": "a220fabc",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  },
+  "/about/Nicolas-c41": {
+    "__comp": "bd8f304f",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  },
+  "/about/Nour-2b4": {
+    "__comp": "5c3b1a75",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  },
+  "/about/Romain-bde": {
+    "__comp": "0e141341",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  },
+  "/about/Serge-39c": {
+    "__comp": "b4de01b5",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  },
+  "/about/Sylvain-840": {
+    "__comp": "8a46d643",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  },
+  "/about/Thorsten-b03": {
+    "__comp": "356f1bd2",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  },
+  "/about/Trung-670": {
+    "__comp": "b324f945",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  },
+  "/blog-656": {
+    "__comp": "3e30bf86",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  },
+  "/careers-909": {
+    "__comp": "cd1c0009",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  },
+  "/contact-a03": {
+    "__comp": "8b3a140c",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  },
+  "/home-2eb": {
+    "__comp": "151add9d",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  },
+  "/projects-21b": {
+    "__comp": "a8f03678",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  },
+  "/projects/condaforge-675": {
+    "__comp": "f18f98c8",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  },
+  "/projects/jupyter-573": {
+    "__comp": "e45f3345",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  },
+  "/projects/robotics-913": {
+    "__comp": "4e15f844",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  },
+  "/projects/xtensorxsimd-c5e": {
+    "__comp": "1771d067",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  },
+  "/services-e8b": {
+    "__comp": "9ba2902f",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  },
+  "/docs-f07": {
+    "__comp": "5e95c892",
+    "__context": {
+      "plugin": "aba21aa0"
     }
   },
-  "/__docusaurus/debug/config-d2a": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---docusaurus-debug-1-c-4-d3a"
-    }
+  "/docs-5b6": {
+    "__comp": "a7bd4aaa",
+    "__props": "7c110bd0"
   },
-  "/__docusaurus/debug/content-229": {
-    "__comp": "__comp---theme-debug-contentba-8-ce7",
+  "/docs-7fc": {
+    "__comp": "a94703ab"
+  },
+  "/docs/intro-61d": {
+    "__comp": "17896441",
+    "content": "0e384e19"
+  },
+  "/-e5f": {
+    "__comp": "1df93b7f",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-1-c-4-d3a"
+      "plugin": "a7456010"
     },
-    "allContent": "allContent---docusaurus-debug-content-246-9aa"
-  },
-  "/__docusaurus/debug/globalData-b74": {
-    "__comp": "__comp---theme-debug-global-dataede-0fa",
-    "__context": {
-      "plugin": "plugin---docusaurus-debug-1-c-4-d3a"
-    }
-  },
-  "/__docusaurus/debug/metadata-339": {
-    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
-    "__context": {
-      "plugin": "plugin---docusaurus-debug-1-c-4-d3a"
-    }
-  },
-  "/__docusaurus/debug/registry-b0b": {
-    "__comp": "__comp---theme-debug-registry-679-501",
-    "__context": {
-      "plugin": "plugin---docusaurus-debug-1-c-4-d3a"
-    }
-  },
-  "/__docusaurus/debug/routes-98a": {
-    "__comp": "__comp---theme-debug-routes-946-699",
-    "__context": {
-      "plugin": "plugin---docusaurus-debug-1-c-4-d3a"
-    }
-  },
-  "/about-c00": {
-    "__comp": "__comp---site-src-pages-about-tsx-618-aa9",
-    "__context": {
-      "plugin": "plugin---about-19-c-ed1"
-    },
-    "config": "config---about-5-e-9-bcb"
-  },
-  "/about/Alexis-2cd": {
-    "__comp": "__comp---site-src-pages-about-alexis-tsx-1-b-0-e8e",
-    "__context": {
-      "plugin": "plugin---about-19-c-ed1"
-    },
-    "config": "config---about-5-e-9-bcb"
-  },
-  "/about/Anastasiia-b18": {
-    "__comp": "__comp---site-src-pages-about-anastasiia-tsx-551-f6c",
-    "__context": {
-      "plugin": "plugin---about-19-c-ed1"
-    },
-    "config": "config---about-5-e-9-bcb"
-  },
-  "/about/Andreas-8e8": {
-    "__comp": "__comp---site-src-pages-about-andreas-tsx-297-94b",
-    "__context": {
-      "plugin": "plugin---about-19-c-ed1"
-    },
-    "config": "config---about-5-e-9-bcb"
-  },
-  "/about/Anutosh-67e": {
-    "__comp": "__comp---site-src-pages-about-anutosh-tsxa-60-135",
-    "__context": {
-      "plugin": "plugin---about-19-c-ed1"
-    },
-    "config": "config---about-5-e-9-bcb"
-  },
-  "/about/Darian-31a": {
-    "__comp": "__comp---site-src-pages-about-darian-tsx-926-fc1",
-    "__context": {
-      "plugin": "plugin---about-19-c-ed1"
-    },
-    "config": "config---about-5-e-9-bcb"
-  },
-  "/about/David-568": {
-    "__comp": "__comp---site-src-pages-about-david-tsx-688-09c",
-    "__context": {
-      "plugin": "plugin---about-19-c-ed1"
-    },
-    "config": "config---about-5-e-9-bcb"
-  },
-  "/about/Denisa-8fc": {
-    "__comp": "__comp---site-src-pages-about-denisa-tsxd-35-2b5",
-    "__context": {
-      "plugin": "plugin---about-19-c-ed1"
-    },
-    "config": "config---about-5-e-9-bcb"
-  },
-  "/about/Fanny-371": {
-    "__comp": "__comp---site-src-pages-about-fanny-tsxf-43-3a2",
-    "__context": {
-      "plugin": "plugin---about-19-c-ed1"
-    },
-    "config": "config---about-5-e-9-bcb"
-  },
-  "/about/Florence-7aa": {
-    "__comp": "__comp---site-src-pages-about-florence-tsx-264-1cc",
-    "__context": {
-      "plugin": "plugin---about-19-c-ed1"
-    },
-    "config": "config---about-5-e-9-bcb"
-  },
-  "/about/Gabriela-e12": {
-    "__comp": "__comp---site-src-pages-about-gabriela-tsxf-71-ac4",
-    "__context": {
-      "plugin": "plugin---about-19-c-ed1"
-    },
-    "config": "config---about-5-e-9-bcb"
-  },
-  "/about/Greg-afd": {
-    "__comp": "__comp---site-src-pages-about-greg-tsx-290-2c7",
-    "__context": {
-      "plugin": "plugin---about-19-c-ed1"
-    },
-    "config": "config---about-5-e-9-bcb"
-  },
-  "/about/Hind-610": {
-    "__comp": "__comp---site-src-pages-about-hind-tsxcde-425",
-    "__context": {
-      "plugin": "plugin---about-19-c-ed1"
-    },
-    "config": "config---about-5-e-9-bcb"
-  },
-  "/about/Ian-d18": {
-    "__comp": "__comp---site-src-pages-about-ian-tsxf-67-597",
-    "__context": {
-      "plugin": "plugin---about-19-c-ed1"
-    },
-    "config": "config---about-5-e-9-bcb"
-  },
-  "/about/Isabel-280": {
-    "__comp": "__comp---site-src-pages-about-isabel-tsxb-19-a3e",
-    "__context": {
-      "plugin": "plugin---about-19-c-ed1"
-    },
-    "config": "config---about-5-e-9-bcb"
-  },
-  "/about/Jeremy-0a5": {
-    "__comp": "__comp---site-src-pages-about-jeremy-tsx-1-b-2-936",
-    "__context": {
-      "plugin": "plugin---about-19-c-ed1"
-    },
-    "config": "config---about-5-e-9-bcb"
-  },
-  "/about/Joel-cfb": {
-    "__comp": "__comp---site-src-pages-about-joel-tsx-957-399",
-    "__context": {
-      "plugin": "plugin---about-19-c-ed1"
-    },
-    "config": "config---about-5-e-9-bcb"
-  },
-  "/about/Johan-cbc": {
-    "__comp": "__comp---site-src-pages-about-johan-tsx-906-ce0",
-    "__context": {
-      "plugin": "plugin---about-19-c-ed1"
-    },
-    "config": "config---about-5-e-9-bcb"
-  },
-  "/about/Julien-e4e": {
-    "__comp": "__comp---site-src-pages-about-julien-tsx-274-810",
-    "__context": {
-      "plugin": "plugin---about-19-c-ed1"
-    },
-    "config": "config---about-5-e-9-bcb"
-  },
-  "/about/Martin-d35": {
-    "__comp": "__comp---site-src-pages-about-martin-tsx-36-b-340",
-    "__context": {
-      "plugin": "plugin---about-19-c-ed1"
-    },
-    "config": "config---about-5-e-9-bcb"
-  },
-  "/about/Meriem-7b1": {
-    "__comp": "__comp---site-src-pages-about-meriem-tsxa-22-d3b",
-    "__context": {
-      "plugin": "plugin---about-19-c-ed1"
-    },
-    "config": "config---about-5-e-9-bcb"
-  },
-  "/about/Nicolas-152": {
-    "__comp": "__comp---site-src-pages-about-nicolas-tsxbd-8-a83",
-    "__context": {
-      "plugin": "plugin---about-19-c-ed1"
-    },
-    "config": "config---about-5-e-9-bcb"
-  },
-  "/about/Nour-b63": {
-    "__comp": "__comp---site-src-pages-about-nour-tsx-5-c-3-457",
-    "__context": {
-      "plugin": "plugin---about-19-c-ed1"
-    },
-    "config": "config---about-5-e-9-bcb"
-  },
-  "/about/Romain-e2a": {
-    "__comp": "__comp---site-src-pages-about-romain-tsx-0-e-1-0a9",
-    "__context": {
-      "plugin": "plugin---about-19-c-ed1"
-    },
-    "config": "config---about-5-e-9-bcb"
-  },
-  "/about/Serge-1d9": {
-    "__comp": "__comp---site-src-pages-about-serge-tsxb-4-d-faa",
-    "__context": {
-      "plugin": "plugin---about-19-c-ed1"
-    },
-    "config": "config---about-5-e-9-bcb"
-  },
-  "/about/Sylvain-2c7": {
-    "__comp": "__comp---site-src-pages-about-sylvain-tsx-8-a-4-129",
-    "__context": {
-      "plugin": "plugin---about-19-c-ed1"
-    },
-    "config": "config---about-5-e-9-bcb"
-  },
-  "/about/Thorsten-5d3": {
-    "__comp": "__comp---site-src-pages-about-thorsten-tsx-356-390",
-    "__context": {
-      "plugin": "plugin---about-19-c-ed1"
-    },
-    "config": "config---about-5-e-9-bcb"
-  },
-  "/about/Trung-ac9": {
-    "__comp": "__comp---site-src-pages-about-trung-tsxb-32-62e",
-    "__context": {
-      "plugin": "plugin---about-19-c-ed1"
-    },
-    "config": "config---about-5-e-9-bcb"
-  },
-  "/blog-0f9": {
-    "__comp": "__comp---site-src-pages-blog-tsx-3-e-3-316",
-    "__context": {
-      "plugin": "plugin---about-19-c-ed1"
-    },
-    "config": "config---about-5-e-9-bcb"
-  },
-  "/careers-45f": {
-    "__comp": "__comp---site-src-pages-careers-tsxcd-1-1bd",
-    "__context": {
-      "plugin": "plugin---about-19-c-ed1"
-    },
-    "config": "config---about-5-e-9-bcb"
-  },
-  "/contact-45e": {
-    "__comp": "__comp---site-src-pages-contact-tsx-8-b-3-cf6",
-    "__context": {
-      "plugin": "plugin---about-19-c-ed1"
-    },
-    "config": "config---about-5-e-9-bcb"
-  },
-  "/projects-e5f": {
-    "__comp": "__comp---site-src-pages-projects-tsxa-8-f-73b",
-    "__context": {
-      "plugin": "plugin---about-19-c-ed1"
-    },
-    "config": "config---about-5-e-9-bcb"
-  },
-  "/projects/condaforge-7f7": {
-    "__comp": "__comp---site-src-pages-projects-condaforge-tsxf-18-eb7",
-    "__context": {
-      "plugin": "plugin---about-19-c-ed1"
-    },
-    "config": "config---about-5-e-9-bcb"
-  },
-  "/projects/jupyter-c30": {
-    "__comp": "__comp---site-src-pages-projects-jupyter-tsxe-45-660",
-    "__context": {
-      "plugin": "plugin---about-19-c-ed1"
-    },
-    "config": "config---about-5-e-9-bcb"
-  },
-  "/projects/robotics-8ec": {
-    "__comp": "__comp---site-src-pages-projects-robotics-tsx-4-e-1-8cf",
-    "__context": {
-      "plugin": "plugin---about-19-c-ed1"
-    },
-    "config": "config---about-5-e-9-bcb"
-  },
-  "/projects/xtensorxsimd-6aa": {
-    "__comp": "__comp---site-src-pages-projects-xtensorxsimd-tsx-177-daa",
-    "__context": {
-      "plugin": "plugin---about-19-c-ed1"
-    },
-    "config": "config---about-5-e-9-bcb"
-  },
-  "/services-be9": {
-    "__comp": "__comp---site-src-pages-services-tsx-9-ba-5a6",
-    "__context": {
-      "plugin": "plugin---about-19-c-ed1"
-    },
-    "config": "config---about-5-e-9-bcb"
-  },
-  "/docs-cc8": {
-    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
-    "__context": {
-      "plugin": "plugin---docs-006-b5c"
-    }
-  },
-  "/docs-aae": {
-    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
-    "version": "version---docs-935-398"
-  },
-  "/docs-a32": {
-    "__comp": "__comp---theme-doc-roota-94-67a"
-  },
-  "/docs/intro-aed": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-intro-0-e-3-be1"
-  },
-  "/-1a9": {
-    "__comp": "__comp---site-src-pages-index-tsx-1-df-d3e",
-    "__context": {
-      "plugin": "plugin---about-19-c-ed1"
-    },
-    "config": "config---about-5-e-9-bcb"
+    "config": "5e9f5e1a"
   }
 }

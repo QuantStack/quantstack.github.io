@@ -1,0 +1,22 @@
+@media only screen and (min-width: 996px) {
+  /*Desktop */
+  .news_container {
+    margin: var(--ifm-spacing-5xl) 0;
+  }
+
+  .blog_button {
+    background-color: var(--ifm-color-orange-jupyter);
+  }
+
+  .h2_custom {
+    text-align: center;
+    margin-bottom: var(--ifm-spacing-2xl)
+  }
+  
+  .row_custom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+}

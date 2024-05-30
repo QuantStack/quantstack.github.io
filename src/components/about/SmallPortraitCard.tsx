@@ -8,10 +8,10 @@ export default function SmallPortraitCard({ person }) {
     <div className={styles.small_portrait_card}>
       <Avatar person={person} />
       <div className={styles.small_card_complete_name}>
-        <Link href={"about/" + person.firstName}>{person.completeName}</Link>
+        <Link href={"/about/" + person.firstName}>{person.completeName}</Link>
       </div>
       <div className={styles.small_card_position}>
-        <Link href={"about/" + person.firstName}>{person.position}</Link>
+        <Link href={"/about/" + person.firstName}>{person.position}</Link>
       </div>
       <div style={{marginTop: "var(--ifm-spacing-xl)"}}>
       <SocialMediaContacts person={person}></SocialMediaContacts>

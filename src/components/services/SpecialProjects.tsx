@@ -10,7 +10,7 @@ export default function SpecialProjects() {
           <SpecialProjectsMD />
         </div>
         <div className="col col--5 col--offset-1">
-          <img src="img/illustrations/special_projects.svg" />
+          <img src="/img/illustrations/special_projects.svg" />
         </div>
       </div>
     </div>

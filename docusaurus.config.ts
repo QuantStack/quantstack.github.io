@@ -66,37 +66,37 @@ const config: Config = {
 
       items: [
         {
-          to: "/projects",
+          to: "/projects/",
           className: "custom_navbar_item",
           label: "Projects",
           position: "left",
         },
         {
-          to: "/services",
+          to: "/services/",
           className: "custom_navbar_item",
           label: "Services",
           position: "left",
         },
         {
-          to: "/about",
+          to: "/about/",
           className: "custom_navbar_item",
           label: "About us",
           position: "left",
         },
         {
-          to: "/careers",
+          to: "/careers/",
           className: "custom_navbar_item",
           label: "Careers",
           position: "left",
         },
         {
-          to: "/blog",
+          to: "/blog/",
           className: "custom_navbar_item",
           label: "Blog",
           position: "left",
         },
         {
-          to: "/contact",
+          to: "/contact/",
           label: "CONTACT US",
           position: "right",
           className: "contact",
@@ -127,70 +127,7 @@ const config: Config = {
         },
       ],
     },
-    /*footer: {
-      links: [
-        {
-          html: `
-                <div class="footer-astronaut">
-                  <img src="img/astronaut.svg" alt="QuantStack logo" />
-                </div>
-              `,
-        },
-     
-     
-            {
-              label: "Home",
-              href: "/index",
-            },
-            {
-              label: "Projects",
-              href: "/projects",
-            },
-            {
-              label: "Services",
-              href: "/services",
-            },
-            {
-              label: "About Us",
-              href: "/about",
-            },
-            {
-              label: "Careers",
-              href: "/careers",
-            },
-            {
-              label: "Blog",
-              href: "/Blog",
-            },
    
-
-        {
-          html: `
-        <div>
-        <div class="social-media-links">
-          <a href="https://github.com/QuantStack" target="_blank" rel="noreferrer noopener" aria-label="Visit our Github page">
-                  <img src="img/socialmedias/GH.svg" alt="Visit our GitHub page" width="36" height="36" />
-          </a>
-          <a href="https://www.linkedin.com/company/quantstack/mycompany/" target="_blank" rel="noreferrer noopener" aria-label="Visit our LinkedIn page">
-          <img src="img/socialmedias/LinkedIn.svg" alt="Visit our LinkedIn page" width="36" height="36" />
-          </a>
-          <a href="https://twitter.com/QuantStack" target="_blank" rel="noreferrer noopener" aria-label="Visit our X page">
-          <img src="img/socialmedias/X.svg" alt="Visit our X page" width="36" height="36" />
-          </a>
-          </div>
-                <div class="office-address">
-                <b>QuantStack </b><br/>
-                16 avenue de Curti <br/>
-                94 100 Saint Maur des Fossés <br/>
-                France
-                </div>
-                </div>
-              `,
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} QuantStack Inc. - Built with Docusaurus.`,
-    },*/
-
     footer: {
       links: [
         {
@@ -212,27 +149,27 @@ const config: Config = {
           items: [
             {
               label: "Home",
-              href: "/index",
+              href: "/home/",
             },
             {
               label: "Projects",
-              href: "/projects",
+              href: "/projects/",
             },
             {
               label: "Services",
-              href: "/services",
+              href: "/services/",
             },
             {
               label: "About Us",
-              href: "/about",
+              href: "/about/",
             },
             {
               label: "Careers",
-              href: "/careers",
+              href: "/careers/",
             },
             {
               label: "Blog",
-              href: "/Blog",
+              href: "/blog/",
             },
           ],
         },
@@ -255,7 +192,7 @@ const config: Config = {
                 </div>
                   <div class="office-address">
                       <b>QuantStack Office </b><br/>
-                      16 avenue de Curti <br/>
+                      16 avenue Curti <br/>
                       94 100 Saint Maur des Fossés <br/>
                       France
                   </div>
