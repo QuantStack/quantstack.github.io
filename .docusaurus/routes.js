@@ -3,80 +3,80 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/about',
-    component: ComponentCreator('/about', 'ca4'),
+    path: '/quantstack.github.io/about',
+    component: ComponentCreator('/quantstack.github.io/about', '231'),
     exact: true
   },
   {
-    path: '/blog',
-    component: ComponentCreator('/blog', '656'),
+    path: '/quantstack.github.io/blog',
+    component: ComponentCreator('/quantstack.github.io/blog', '4ed'),
     exact: true
   },
   {
-    path: '/blogs/Fanny',
-    component: ComponentCreator('/blogs/Fanny', '4f1'),
+    path: '/quantstack.github.io/blogs/Fanny',
+    component: ComponentCreator('/quantstack.github.io/blogs/Fanny', '880'),
     exact: true
   },
   {
-    path: '/careers',
-    component: ComponentCreator('/careers', '909'),
+    path: '/quantstack.github.io/careers',
+    component: ComponentCreator('/quantstack.github.io/careers', 'b61'),
     exact: true
   },
   {
-    path: '/contact',
-    component: ComponentCreator('/contact', 'a03'),
+    path: '/quantstack.github.io/contact',
+    component: ComponentCreator('/quantstack.github.io/contact', 'cc6'),
     exact: true
   },
   {
-    path: '/home',
-    component: ComponentCreator('/home', '2eb'),
+    path: '/quantstack.github.io/home',
+    component: ComponentCreator('/quantstack.github.io/home', '127'),
     exact: true
   },
   {
-    path: '/projects',
-    component: ComponentCreator('/projects', '21b'),
+    path: '/quantstack.github.io/projects',
+    component: ComponentCreator('/quantstack.github.io/projects', '2db'),
     exact: true
   },
   {
-    path: '/projects/condaforge',
-    component: ComponentCreator('/projects/condaforge', '675'),
+    path: '/quantstack.github.io/projects/condaforge',
+    component: ComponentCreator('/quantstack.github.io/projects/condaforge', '8bc'),
     exact: true
   },
   {
-    path: '/projects/jupyter',
-    component: ComponentCreator('/projects/jupyter', '573'),
+    path: '/quantstack.github.io/projects/jupyter',
+    component: ComponentCreator('/quantstack.github.io/projects/jupyter', '7f5'),
     exact: true
   },
   {
-    path: '/projects/robotics',
-    component: ComponentCreator('/projects/robotics', '913'),
+    path: '/quantstack.github.io/projects/robotics',
+    component: ComponentCreator('/quantstack.github.io/projects/robotics', '2c1'),
     exact: true
   },
   {
-    path: '/projects/xtensorxsimd',
-    component: ComponentCreator('/projects/xtensorxsimd', 'c5e'),
+    path: '/quantstack.github.io/projects/xtensorxsimd',
+    component: ComponentCreator('/quantstack.github.io/projects/xtensorxsimd', 'a48'),
     exact: true
   },
   {
-    path: '/services',
-    component: ComponentCreator('/services', 'e8b'),
+    path: '/quantstack.github.io/services',
+    component: ComponentCreator('/quantstack.github.io/services', '2d6'),
     exact: true
   },
   {
-    path: '/docs',
-    component: ComponentCreator('/docs', 'f07'),
+    path: '/quantstack.github.io/docs',
+    component: ComponentCreator('/quantstack.github.io/docs', 'ece'),
     routes: [
       {
-        path: '/docs',
-        component: ComponentCreator('/docs', '5b6'),
+        path: '/quantstack.github.io/docs',
+        component: ComponentCreator('/quantstack.github.io/docs', '5d0'),
         routes: [
           {
-            path: '/docs',
-            component: ComponentCreator('/docs', '7fc'),
+            path: '/quantstack.github.io/docs',
+            component: ComponentCreator('/quantstack.github.io/docs', 'a54'),
             routes: [
               {
-                path: '/docs/intro',
-                component: ComponentCreator('/docs/intro', '61d'),
+                path: '/quantstack.github.io/docs/intro',
+                component: ComponentCreator('/quantstack.github.io/docs/intro', 'b2a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }
@@ -87,8 +87,8 @@ export default [
     ]
   },
   {
-    path: '/',
-    component: ComponentCreator('/', 'e5f'),
+    path: '/quantstack.github.io/',
+    component: ComponentCreator('/quantstack.github.io/', 'eb1'),
     exact: true
   },
   {

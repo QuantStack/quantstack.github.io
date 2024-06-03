@@ -6,12 +6,15 @@
 export default {
   "title": "QuantStack",
   "tagline": "",
-  "url": "https://your-docusaurus-site.example.com",
-  "baseUrl": "/",
-  "organizationName": "facebook",
-  "projectName": "docusaurus",
+  "url": "https://new-quantstack.net",
+  "baseUrl": "/quantstack.github.io/",
+  "organizationName": "/HaudinFlorence/",
+  "projectName": "quantstack.github.io",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
+  "staticDirectories": [
+    "static"
+  ],
   "i18n": {
     "defaultLocale": "en",
     "locales": [
@@ -381,9 +384,6 @@ export default {
   "baseUrlIssueBanner": true,
   "onBrokenAnchors": "warn",
   "onDuplicateRoutes": "warn",
-  "staticDirectories": [
-    "static"
-  ],
   "customFields": {},
   "plugins": [],
   "themes": [],
