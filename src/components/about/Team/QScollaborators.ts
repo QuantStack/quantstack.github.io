@@ -1,3 +1,9 @@
+import Romain from "@site/src/components/about/Team/Romain.md";
+import Serge from "@site/src/components/about/Team/Serge.md";
+
+export const QSCollaboratorsBioComponents = [Serge, Romain];
+
+
 export const QSCollaboratorsTeam = [
   {
     completeName: "Serge Guelton",
@@ -6,12 +12,13 @@ export const QSCollaboratorsTeam = [
     onGithub: "true",
     onLinkedIn: "true",
     onX: "false",
-    githubLink: "github.com/serge-sans-paille",
+    githubLink: "https://github.com/serge-sans-paille",
     LinkedInLink: "",
     XLink: "",
     githubName: "@serge-sans-paille",
     avatarRoute: "/img/avatars/Serge@2x.jpg",
-    JupyterDistinction: "false"
+    JupyterDistinction: "false",
+    subTeam: "QSCollaboratorsTeam"
   },
   {
     completeName: "Romain Menegaux",
@@ -25,7 +32,8 @@ export const QSCollaboratorsTeam = [
     XLink: "https://twitter.com/RomainMenegaux",
     githubName: "@trmenegaux",
     avatarRoute: "/img/avatars/Romain@2x.jpg",
-    JupyterDistinction: "false"
+    JupyterDistinction: "false",
+    subTeam: "QSCollaboratorsTeam"
   },
 ];
 export default QSCollaboratorsTeam;

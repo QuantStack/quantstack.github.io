@@ -203,7 +203,12 @@
 .spacing-7xl {
   height: var(--ifm-spacing-7xl);
 }
-
+.link-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--ifm-spacing-xl) 0;
+}
 .link-to-button {
   width: 258px;
   height: 56px;

@@ -8,8 +8,8 @@ export default function Hero() {
         <div className={"row row--no-gutters" + " " + styles.row_custom}>
           <div className={"col col--6" + " " + styles.col_custom}>
             <div className="header-text">
-              <h1>Open-source for discovery, science, and education</h1>
-              <p>
+              <h1 className={styles.h1_custom}>Open-source for discovery, science, and education</h1>
+              <p className={styles.p_custom}>
                 A team behind major open-source projects of the scientific
                 computing ecosystem
               </p>
@@ -20,7 +20,6 @@ export default function Hero() {
             <img src="img/astronaut.svg" className={styles.astronaut_picture} />
           </div>
         </div>
-        <SimpleSlider />
       </div>
     </div>
   );

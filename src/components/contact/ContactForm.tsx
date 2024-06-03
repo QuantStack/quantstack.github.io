@@ -12,7 +12,7 @@ export default function ContactForm() {
             <div>
               <label className={styles.form_label}>Your name</label>
             </div>
-            <div>
+            <div className={styles.input_container}>
               <input
                 type="text"
                 className={styles.small_input}
@@ -25,7 +25,7 @@ export default function ContactForm() {
             <div>
               <label className={styles.form_label}>Your company</label>
             </div>
-            <div>
+            <div className={styles.input_container}>
               <input className={styles.small_input} name="company" id="company" />
             </div>
           </div>
@@ -33,7 +33,7 @@ export default function ContactForm() {
             <div>
               <label className={styles.form_label}>Your email</label>
             </div>
-            <div>
+            <div className={styles.input_container}>
               <input
                 type="text"
                 className={styles.small_input}
@@ -46,7 +46,7 @@ export default function ContactForm() {
             <div>
               <label className={styles.form_label}>Your phone number</label>
             </div>
-            <div>
+            <div className={styles.input_container}>
               <input
                 type="text"
                 className={styles.small_input}
@@ -67,8 +67,10 @@ export default function ContactForm() {
               ></textarea>
             </div>
           </div>
+          <div>
           <div className={styles.send_button_container}>
             <input type="submit" value="SEND" className={"link-to-button" + " " + styles.send_button} />
+          </div>
           </div>
         </form>
       </>

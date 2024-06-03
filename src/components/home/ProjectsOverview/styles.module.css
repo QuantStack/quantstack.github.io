@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 996px) {
   /*Mobile */
 
   .row_custom {
@@ -9,7 +9,7 @@
   }
 }
 
-@media only screen and (min-width: 1136px) {
+@media only screen and (min-width: 996px) {
   /*Desktop */
   .project_desktop {
     margin-bottom: var(--ifm-spacing-3xl);

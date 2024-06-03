@@ -40,6 +40,7 @@
     "react-dom": "^18.0.0",
     "react-markdown": "^9.0.1",
     "react-slick": "^0.30.2",
+    "reactjs-popup": "^2.0.6",
     "request": "^2.88.2",
     "slick-carousel": "^1.8.1"
   },

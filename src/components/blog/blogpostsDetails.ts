@@ -1,6 +1,15 @@
 export const blogpostsDetails = [
   {
-    url: "/about/Fanny",
+  url: "https://medium.com/@SylvainCorlay/commit-cdf57415b94b",
+  title: "Commit!",
+  image: "https://miro.medium.com/v2/0*3gKzwBOWprSRs35k",
+  summary: "Open-source projects are not just about the latest exciting updates and features, but also the principles and people that drive these projects to success. In this blog post, I reflect on the dynamics…",
+  date: "May 29, 2024",
+  authors: "Sylvain Corlay",
+
+  },
+  {
+    url: "/blogs/Fanny",
     title: "In memoriam: Fanny Loustau-Chartez",
     image: "/img/avatars/Fanny@2x.jpg",
     summary:

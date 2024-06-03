@@ -1,39 +1,115 @@
 import styles from "./styles.module.css";
-import { leadershipTeam } from "./Team/leadershipTeam";
-import { coreTeam } from "./Team/coreTeam";
-import { QSCollaboratorsTeam } from "./Team/QScollaborators";
+import { leadershipTeam, leadershipBioComponents } from "./Team/leadershipTeam";
+import { coreTeam, coreBioComponents } from "./Team/coreTeam";
+import {
+  QSCollaboratorsTeam,
+  QSCollaboratorsBioComponents,
+} from "./Team/QScollaborators";
 import FourValues from "./FourValues";
 import SubTeam from "./SubTeam";
 import Link from "@docusaurus/Link";
+import { useEffect, useState } from "react";
+import LinkToContact from "../home/LinkToContact";
+
+const breakpointValue: number = 996;
 
 export default function About() {
+  const [isDesktop, setDesktop] = useState(window.innerWidth > breakpointValue);
+
+  const updateMedia = () => {
+    setDesktop(window.innerWidth > breakpointValue);
+  };
+
+  useEffect(() => {
+    window.addEventListener("resize", updateMedia);
+    return () => window.removeEventListener("resize", updateMedia);
+  });
+
+  return <div>{isDesktop ? <AboutDesktop /> : <AboutMobile />}</div>;
+}
+
+export function AboutDesktop() {
   return (
     <div className={"container" + " " + styles.about_container}>
-      <FourValues />
-      <h1 className={styles.h1_custom}>Meet the QuantStack team</h1>
-      <h4>
-        A team of outliers, leaders in software projects adopted at the global
-        scale, benefiting millions of people worldwide.
-      </h4>
-      <SubTeam
-        description={"The leadership team"}
-        subTeamName={leadershipTeam}
-      />
-      <SubTeam description={"The core team"} subTeamName={coreTeam} />
-      <SubTeam
-        description={"QuantStack collaborators"}
-        subTeamName={QSCollaboratorsTeam}
-      />
-      <div className={styles.join_the_team}>
-        <h1 className={styles.h1_custom}>Join the team</h1>
-        <div>
-          QuantStack is seeking talents in the open-source scientific computing
-          community. Join a team committed to open-science and free software.
+      <div className="row">
+        <div className="col col--12">
+          <h1 className={styles.h1_custom}>Our values </h1>
+          <FourValues />
+          <h1 className={styles.h1_custom}>Meet the QuantStack team</h1>
+          <h4>
+            A team of outliers, leaders in software projects adopted at the
+            global scale, benefiting millions of people worldwide.
+          </h4>
+          <SubTeam
+            description={"The leadership team"}
+            subTeam={leadershipTeam}
+            subTeamBioComponents={leadershipBioComponents}
+          />
+          <SubTeam
+            description={"The core team"}
+            subTeam={coreTeam}
+            subTeamBioComponents={coreBioComponents}
+          />
+          <SubTeam
+            description={"QuantStack collaborators"}
+            subTeam={QSCollaboratorsTeam}
+            subTeamBioComponents={QSCollaboratorsBioComponents}
+          />
+          <div className={styles.join_the_team_container}>
+            <h1 className={styles.h1_custom}>Join the team</h1>
+            <div className={styles.join_the_team_text}>
+              QuantStack is seeking talents in the open-source scientific
+              computing community. Join a team committed to open-science and
+              free software.
+            </div>
+            <LinkToContact label={"JOIN THE TEAM!"} />
+          </div>
         </div>
-        <div className="link-box">
-          <Link className="link-to-button" href="/contact">
-            {" CONTACT US! "}
-          </Link>
+      </div>
+    </div>
+  );
+}
+
+export function AboutMobile() {
+  return (
+    <div className={"container" + " " + styles.about_container}>
+      <div className={"row" + " "+ styles.row_custom}>
+        <div className={"col col--12" +" "+ styles.col_custom}>
+          <h2 className={styles.h2_custom}>
+            A team of outliers, leaders in software projects adopted at the
+            global scale, benefiting millions of people worldwide.
+          </h2>
+        </div>
+      </div>
+      <div className="row">
+        <div className={"col col--10 col--offset-1" +" "+ styles.col_custom}>
+          <div className ={styles.four_values_div}>
+          <FourValues />
+          </div>
+
+          <SubTeam
+            description={"The leadership team"}
+            subTeam={leadershipTeam}
+            subTeamBioComponents={leadershipBioComponents}
+          />
+              <SubTeam
+            description={"The core team"}
+            subTeam={coreTeam}
+            subTeamBioComponents={coreBioComponents}
+          />
+              <SubTeam
+            description={"QuantStack collaborators"}
+            subTeam={QSCollaboratorsTeam}
+            subTeamBioComponents={QSCollaboratorsBioComponents}
+          />
+          <div className={styles.join_the_team_container}>
+            <div className={styles.join_the_team_text}>
+              QuantStack is seeking talents in the open-source scientific
+              computing community. Join a team committed to open-science and
+              free software.
+            </div>
+            <LinkToContact label={"JOIN THE TEAM!"} />
+          </div>
         </div>
       </div>
     </div>

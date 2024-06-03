@@ -19,19 +19,16 @@
   letter-spacing: 0.25px;
 }
 
-.link_to_services {
-  background-color: var(--ifm-color-orange-jupyter);
-  margin: 0;
-  width: 258px;
-}
-
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 996x) {
   /*Mobile*/
   .topics_card {
     padding: var(--ifm-spacing-2xl) var(--ifm-spacing-lg);
     margin-bottom: var(--ifm-spacing-xl);
     background-color: var(--ifm-color-primary-p1);
-    width: auto;
+  }
+  
+  .link_to_services_desktop {
+    display: none;
   }
 }
 
@@ -63,7 +60,5 @@
     align-items: center;
     justify-content: center;
   }
-  .link_to_services {
-    margin-top: var(--ifm-spacing-2xl)
-  }
+
 }

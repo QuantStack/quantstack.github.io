@@ -1,4 +1,7 @@
 import LargePortraitCard from "./LargePortraitCard";
+import React from 'react';
+
+
 
 export default function PortraitPage
 ({firstName, subTeam, BioComponent}) {
