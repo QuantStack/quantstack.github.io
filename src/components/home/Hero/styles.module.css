@@ -1,5 +1,20 @@
-@media only screen and (max-width: 600px) {
+
+
+@media only screen and (max-width: 996px) {
   /*Mobile*/
+
+  .h1_custom {
+    text-align: center;
+  }
+
+  .h2_custom {
+    color: var(--ifm-color-secondary-s5);
+    text-align: center;
+  }
+
+  .p_custom {
+    text-align: center
+  }
 
   .row_custom {
     flex-direction: column-reverse;
@@ -12,6 +27,13 @@
   .astronaut_picture {
     height: 195px;
     width: 195px;
+  }
+
+  .astronaut_column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: var(--ifm-spacing-xl) 0;
   }
 }
 
@@ -30,6 +52,10 @@
     width: 100px;
   }
 
+  .h2_custom {
+    color: var(--ifm-color-secondary-s5);
+  }
+
   .col_custom {
     display: flex;
     align-items: center;
@@ -40,9 +66,7 @@
     background-color: var(--ifm-color-secondary-s);
   }
 
-  .h2_custom {
-    color: var(--ifm-color-secondary-s5);
-  }
+
 
   .astronaut_column {
     display: flex;

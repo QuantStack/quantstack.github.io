@@ -1,3 +1,11 @@
+@media only screen and (max-width: 996px) {
+  /*Desktop */
+  .news_container {
+    display: none;
+  }
+
+}
+
 @media only screen and (min-width: 996px) {
   /*Desktop */
   .news_container {

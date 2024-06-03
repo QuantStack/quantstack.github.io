@@ -14,6 +14,11 @@ export default function News() {
       <ul className={"row" + " " + styles.row_custom}>
         <li className="cards_list">
           <div className="col">
+            <BlogpostCard blogpost={blogpostsDetails[0]} />
+          </div>
+        </li>
+        <li className="cards_list">
+          <div className="col col--2 col--offset-1">
             <BlogpostCard blogpost={blogpostsDetails[1]} />
           </div>
         </li>
@@ -22,18 +27,13 @@ export default function News() {
             <BlogpostCard blogpost={blogpostsDetails[2]} />
           </div>
         </li>
-        <li className="cards_list">
-          <div className="col col--2 col--offset-1">
-            <BlogpostCard blogpost={blogpostsDetails[3]} />
-          </div>
-        </li>
       </ul>
       <div className="link-box">
         <Link
           className={"link-to-button" + " " + styles.blog_button}
           href="/blog"
         >
-          {"READ BLOGS! "}
+          {"READ MORE BLOGS! "}
         </Link>
       </div>
     </div>

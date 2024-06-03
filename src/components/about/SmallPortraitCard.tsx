@@ -3,19 +3,20 @@ import Link from "@docusaurus/Link";
 import Avatar from "./Avatar";
 import SocialMediaContacts from "./SocialMediaContacts";
 
+
 export default function SmallPortraitCard({ person }) {
   return (
     <div className={styles.small_portrait_card}>
-      <Avatar person={person} />
-      <div className={styles.small_card_complete_name}>
-        <Link href={"/about/" + person.firstName}>{person.completeName}</Link>
-      </div>
-      <div className={styles.small_card_position}>
-        <Link href={"/about/" + person.firstName}>{person.position}</Link>
-      </div>
-      <div style={{marginTop: "var(--ifm-spacing-xl)"}}>
-      <SocialMediaContacts person={person}></SocialMediaContacts>
-      </div>
+    
+        <Avatar person={person} />
+        <div className={styles.small_card_complete_name}>
+          {person.completeName}
+        </div>
+        <div className={styles.small_card_position}>{person.position}</div>
+        <div style={{ marginTop: "var(--ifm-spacing-xl)" }}>
+          <SocialMediaContacts person={person}></SocialMediaContacts>
+        </div>
+    
     </div>
   );
 }

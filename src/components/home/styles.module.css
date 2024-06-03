@@ -1,0 +1,21 @@
+.link_to_services {
+  background-color: var(--ifm-color-orange-jupyter);
+  margin: 0;
+  width: 258px;
+}
+
+@media only screen and (max-width: 996px) {
+  /* Mobile */
+  .link_to_projects {
+    background-color: var(--ifm-color-orange-jupyter);
+    margin-top: var(--ifm-spacing-2xl);
+    width: 358px;
+  }
+}
+
+@media only screen and (min-width: 996px) {
+  /* Desktop */
+  .link_to_services {
+    margin-top: var(--ifm-spacing-2xl);
+  }
+}

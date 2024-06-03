@@ -29,7 +29,7 @@ export default function AboutQS() {
       </div>
       <div className={"row" + " " + styles.row_custom}>
         <div className={"col col--10 col--offset-1" + " " + styles.col_custom}>
-          <div className={styles.link_container}>
+          <div className="link-container">
             <Link
               className={"link-to-button" + " " + styles.link_to_about_us}
               href="/about"

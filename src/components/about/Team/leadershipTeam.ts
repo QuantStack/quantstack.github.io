@@ -1,3 +1,21 @@
+import Darian from "@site/src/components/about/Team/Darian.md";
+import David from "@site/src/components/about/Team/David.md";
+import Jeremy from "@site/src/components/about/Team/Jeremy.md";
+import Johan from "@site/src/components/about/Team/Johan.md";
+import Martin from "@site/src/components/about/Team/Martin.md";
+import Sylvain from "@site/src/components/about/Team/Sylvain.md";
+
+
+export const leadershipBioComponents = [
+  Sylvain,
+  Johan,
+  Martin,
+  Jeremy,
+  Darian,
+  David,
+];
+
+
 export const leadershipTeam = [
   {
     completeName: "Sylvain Corlay",
@@ -12,6 +30,7 @@ export const leadershipTeam = [
     githubName: "@SylvainCorlay",
     avatarRoute: "/img/avatars/Sylvain@2x.jpg",
     JupyterDistinction: "true",
+    subTeam: "LeadershipTeam"
   },
   {
     completeName: "Johan Mabille",
@@ -26,6 +45,7 @@ export const leadershipTeam = [
     githubName: "@JohanMabille",
     avatarRoute: "/img/avatars/Johan@2x.jpg",
     JupyterDistinction: "true",
+    subTeam: "LeadershipTeam"
   },
   {
     completeName: "Martin Renou",
@@ -40,6 +60,7 @@ export const leadershipTeam = [
     githubName: "@martinRenou",
     avatarRoute: "/img/avatars/Martin@2x.jpg",
     JupyterDistinction: "true",
+    subTeam: "LeadershipTeam"
   },
   {
     completeName: "Jeremy Tuloup",
@@ -54,6 +75,7 @@ export const leadershipTeam = [
     githubName: "@jtpio",
     avatarRoute: "/img/avatars/Jeremy@2x.jpg",
     JupyterDistinction: "true",
+    subTeam: "LeadershipTeam"
   },
 
   {
@@ -69,6 +91,7 @@ export const leadershipTeam = [
     githubName: "@afshin",
     avatarRoute: "/img/avatars/Darian@2x.jpg",
     JupyterDistinction: "true",
+    subTeam: "LeadershipTeam"
   },
   {
     completeName: "David Brochart",
@@ -83,6 +106,7 @@ export const leadershipTeam = [
     githubName: "@davidbrochart",
     avatarRoute: "/img/avatars/David@2x.jpg",
     JupyterDistinction: "true",
+    subTeam: "LeadershipTeam",
   },
 ];
 export default leadershipTeam;
