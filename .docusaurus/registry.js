@@ -1,5 +1,6 @@
 export default {
   "0e384e19": [() => import(/* webpackChunkName: "0e384e19" */ "@site/docs/intro.md"), "@site/docs/intro.md", require.resolveWeak("@site/docs/intro.md")],
+  "12709bdf": [() => import(/* webpackChunkName: "12709bdf" */ "@generated/docusaurus-plugin-content-docs/default/p/quantstack-github-io-docs-072.json"), "@generated/docusaurus-plugin-content-docs/default/p/quantstack-github-io-docs-072.json", require.resolveWeak("@generated/docusaurus-plugin-content-docs/default/p/quantstack-github-io-docs-072.json")],
   "151add9d": [() => import(/* webpackChunkName: "151add9d" */ "@site/src/pages/home.tsx"), "@site/src/pages/home.tsx", require.resolveWeak("@site/src/pages/home.tsx")],
   "1771d067": [() => import(/* webpackChunkName: "1771d067" */ "@site/src/pages/projects/xtensorxsimd.tsx"), "@site/src/pages/projects/xtensorxsimd.tsx", require.resolveWeak("@site/src/pages/projects/xtensorxsimd.tsx")],
   "17896441": [() => import(/* webpackChunkName: "17896441" */ "@theme/DocItem"), "@theme/DocItem", require.resolveWeak("@theme/DocItem")],
@@ -10,7 +11,6 @@ export default {
   "5e9f5e1a": [() => import(/* webpackChunkName: "5e9f5e1a" */ "@generated/docusaurus.config"), "@generated/docusaurus.config", require.resolveWeak("@generated/docusaurus.config")],
   "61809400": [() => import(/* webpackChunkName: "61809400" */ "@site/src/pages/about.tsx"), "@site/src/pages/about.tsx", require.resolveWeak("@site/src/pages/about.tsx")],
   "65d0b86c": [() => import(/* webpackChunkName: "65d0b86c" */ "@site/src/pages/blogs/Fanny.tsx"), "@site/src/pages/blogs/Fanny.tsx", require.resolveWeak("@site/src/pages/blogs/Fanny.tsx")],
-  "7c110bd0": [() => import(/* webpackChunkName: "7c110bd0" */ "@generated/docusaurus-plugin-content-docs/default/p/docs-b5f.json"), "@generated/docusaurus-plugin-content-docs/default/p/docs-b5f.json", require.resolveWeak("@generated/docusaurus-plugin-content-docs/default/p/docs-b5f.json")],
   "8b3a140c": [() => import(/* webpackChunkName: "8b3a140c" */ "@site/src/pages/contact.tsx"), "@site/src/pages/contact.tsx", require.resolveWeak("@site/src/pages/contact.tsx")],
   "9ba2902f": [() => import(/* webpackChunkName: "9ba2902f" */ "@site/src/pages/services.tsx"), "@site/src/pages/services.tsx", require.resolveWeak("@site/src/pages/services.tsx")],
   "a7456010": [() => import(/* webpackChunkName: "a7456010" */ "@generated/docusaurus-plugin-content-pages/default/__plugin.json"), "@generated/docusaurus-plugin-content-pages/default/__plugin.json", require.resolveWeak("@generated/docusaurus-plugin-content-pages/default/__plugin.json")],
