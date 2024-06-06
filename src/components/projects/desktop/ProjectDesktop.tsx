@@ -10,7 +10,7 @@ export default function ProjectDesktop({
           <div className={"row" + " " + styles.row_custom}>
             <div
               className={
-                "col col--7 col--offset-1" + " " + styles.col_custom_text
+                "col col--6 col--offset-1" + " " + styles.col_custom_text
               }
             >
               <div className={styles.project_title}>{project.title}</div>
@@ -19,7 +19,7 @@ export default function ProjectDesktop({
               </div>
             </div>
             <div
-              className={"col col--4" + " " + styles.col_custom_picture_right}
+              className={"col col--3" + " " + styles.col_custom_picture_right}
               style={{ border: project.pictureBorderDesktop }}
             >
               <div className={styles.project_picture}></div>
@@ -38,7 +38,7 @@ export default function ProjectDesktop({
         <div className={"container" + " " + styles.project_container}>
           <div className={"row" + " " + styles.row_custom}>
             <div
-              className={"col col--4" + " " + styles.col_custom_picture_left}
+              className={"col col--4 col--offset-1" + " " + styles.col_custom_picture_left}
               style={{ border: project.pictureBorderDesktop }}
             >
               <div className={styles.project_picture}>
@@ -50,7 +50,7 @@ export default function ProjectDesktop({
               </div>
             </div>
   
-            <div className={"col col--7" + " " + styles.col_custom_text}>
+            <div className={"col col--6" + " " + styles.col_custom_text}>
               <div className={styles.project_title}>{project.title}</div>
               <div className={styles.project_description}>
                 <ProjectDescriptionMD />

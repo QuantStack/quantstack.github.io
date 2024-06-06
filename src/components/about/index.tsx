@@ -1,13 +1,13 @@
 import styles from "./styles.module.css";
-import { leadershipTeam, leadershipBioComponents } from "./Team/leadershipTeam";
-import { coreTeam, coreBioComponents } from "./Team/coreTeam";
+import { leadershipTeam, leadershipBioComponents, leadershipAvatarsUrls } from "./Team/leadershipTeam";
+import { coreTeam, coreBioComponents, coreAvatarsUrls } from "./Team/coreTeam";
 import {
   QSCollaboratorsTeam,
   QSCollaboratorsBioComponents,
+  QSCollaboratorsAvatarsUrls
 } from "./Team/QScollaborators";
 import FourValues from "./FourValues";
 import SubTeam from "./SubTeam";
-import Link from "@docusaurus/Link";
 import { useEffect, useState } from "react";
 import LinkToContact from "../home/LinkToContact";
 
@@ -43,16 +43,19 @@ export function AboutDesktop() {
           <SubTeam
             description={"The leadership team"}
             subTeam={leadershipTeam}
+            subTeamAvatarsUrls= {leadershipAvatarsUrls}
             subTeamBioComponents={leadershipBioComponents}
           />
           <SubTeam
             description={"The core team"}
             subTeam={coreTeam}
+            subTeamAvatarsUrls = {coreAvatarsUrls}
             subTeamBioComponents={coreBioComponents}
           />
           <SubTeam
             description={"QuantStack collaborators"}
             subTeam={QSCollaboratorsTeam}
+            subTeamAvatarsUrls = {QSCollaboratorsAvatarsUrls}
             subTeamBioComponents={QSCollaboratorsBioComponents}
           />
           <div className={styles.join_the_team_container}>

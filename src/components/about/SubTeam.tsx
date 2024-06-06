@@ -4,7 +4,7 @@ import Popup from "reactjs-popup";
 import LargePortraitCard from "./LargePortraitCard";
 import { useEffect, useState } from "react";
 
-export function SubTeamDesktop({ description, subTeam, subTeamBioComponents }) {
+export function SubTeamDesktop({ description, subTeam, subTeamAvatarsUrls, subTeamBioComponents }) {
   return (
     <div className={styles.subteam_component}>
       <h2 style={{ textAlign: "center" }}> {description}</h2>
@@ -18,12 +18,13 @@ export function SubTeamDesktop({ description, subTeam, subTeamBioComponents }) {
                   trigger={
                     <div>
                       {" "}
-                      <SmallPortraitCard person={person} />
+                      <SmallPortraitCard person={person} avatarUrl={subTeamAvatarsUrls[index]} />
                     </div>
                   }
                 >
                   <LargePortraitCard
                     person={person}
+                    avatarUrl={subTeamAvatarsUrls[index]}
                     BioComponent={subTeamBioComponents[index]}
                   ></LargePortraitCard>
                 </Popup>
@@ -36,7 +37,7 @@ export function SubTeamDesktop({ description, subTeam, subTeamBioComponents }) {
   );
 }
 
-export function SubTeamMobile({ description, subTeam }) {
+export function SubTeamMobile({ description,  subTeamAvatarsUrls, subTeam }) {
   return (
     <div className={styles.subteam_component}>
       <h2 style={{ textAlign: "center" }}> {description}</h2>
@@ -47,6 +48,7 @@ export function SubTeamMobile({ description, subTeam }) {
               <div className="col">
                 <SmallPortraitCard
                   person={person}
+                  avatarUrl={subTeamAvatarsUrls[index]}
                 ></SmallPortraitCard>
               </div>
             </li>
@@ -57,7 +59,7 @@ export function SubTeamMobile({ description, subTeam }) {
   );
 }
 
-export default function SubTeam ({ description, subTeam, subTeamBioComponents }) {
+export default function SubTeam ({ description, subTeam, subTeamAvatarsUrls, subTeamBioComponents }) {
   const breakpointValue: number = 996;
 
 
@@ -72,7 +74,7 @@ export default function SubTeam ({ description, subTeam, subTeamBioComponents })
     return () => window.removeEventListener("resize", updateMedia);
   });
 
-  return <div>{isDesktop ? <SubTeamDesktop description={description} subTeam={subTeam} subTeamBioComponents={subTeamBioComponents}/> : <SubTeamMobile description={description} subTeam={subTeam} subTeamBioComponents={subTeamBioComponents} />}</div>;
+  return <div>{isDesktop ? <SubTeamDesktop description={description} subTeam={subTeam} subTeamAvatarsUrls={subTeamAvatarsUrls} subTeamBioComponents={subTeamBioComponents}/> : <SubTeamMobile description={description} subTeam={subTeam} subTeamBioComponents={subTeamBioComponents} />}</div>;
 }
 
 

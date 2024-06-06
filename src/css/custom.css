@@ -52,7 +52,7 @@
   --ifm-spacing-7xl: 240px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 996px) {
   /*Mobile */
   .main-container-with-margins {
     margin: 0;
@@ -139,6 +139,12 @@
     max-width: none;
     padding: 0;
   }
+
+  @media (min-width: 1440px) {
+    .container {
+      max-width: none;
+    }
+}
 
   p {
     font-family: var(--ifm-font-family-roboto);
@@ -388,7 +394,7 @@ a.menu__link:active {
 }
 
 .quantstack-icon {
-  background: url(../../static/img/logo-website.svg);
+  background: url(@site/static/img/quantstack/logo-website.svg);
   content: "";
   display: flex;
   height: 100px;
@@ -401,7 +407,7 @@ a.menu__link:active {
 }
 
 .github-icon:before {
-  background: url(../../static/img/socialmedias/GH.svg);
+  background: url(@site/static/img/socialmedias/GH.svg);
   content: "";
   display: flex;
   height: 36px;

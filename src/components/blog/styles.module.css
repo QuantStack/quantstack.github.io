@@ -16,7 +16,7 @@
   align-items: center;
   justify-content: center;
   margin-bottom: var(--ifm-spacing-xl);
-  height: 150px;
+  height: 140px;
 }
 
 
@@ -84,7 +84,7 @@
   height: 34px;
   width: 255px;
   font-size: var(--ifm-font-size-small);
-  background-image: url(../../../static/img/search.svg);
+  background-image: url(@site/static/img/icons/Search.svg);
   background-repeat: no-repeat;
   background-position: 8px;
   border-radius: 8px;

@@ -1,5 +1,6 @@
 import styles from "./styles.module.css";
 import SpecialProjectsMD from "./descriptions/SpecialProjects.md";
+import SpecialProjectsIllustration from "@site/static/img/illustrations/special_projects.svg";
 
 export default function SpecialProjects() {
   return (
@@ -10,7 +11,7 @@ export default function SpecialProjects() {
           <SpecialProjectsMD />
         </div>
         <div className="col col--5 col--offset-1">
-          <img src="/img/illustrations/special_projects.svg" />
+          <SpecialProjectsIllustration />
         </div>
       </div>
     </div>

@@ -5,7 +5,7 @@ export default function Avatar({ person }) {
     return (
       <div className={styles.avatar_container}>
           <div className={styles.avatar}>
-            <img src={person.avatarRoute} width={"160px"} height={"160px"}></img>
+            <img src={require(person.avatarRoute).default} width={"160px"} height={"160px"}></img>
           </div>
       </div>
     );

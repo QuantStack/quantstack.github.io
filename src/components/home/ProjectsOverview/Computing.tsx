@@ -1,11 +1,11 @@
 import styles from "./styles.module.css";
-
+import XTensorXSIMDPicture from "@site/static/img/projects/xtensor_xsimd.svg";
 
 export default function ComputingProjects() {
   return (
     <div className={"container" + " " + styles.project_desktop}>
       <div className="row">
-        <div className="col col--5 col--offset-1">
+        <div className={"col col--5 col--offset-1" + " " + styles.col_custom_text}>
           <h1>Scientific computing </h1>
           <h2 className={styles.h2_custom}>
             Supporting the development of several C++ scientific computing
@@ -31,12 +31,8 @@ export default function ComputingProjects() {
             </li>
           </p>
         </div>
-        <div className={"col col--5" + " " + styles.col_custom}>
-          <img
-            src="img/projects/xtensor_xsimd.svg"
-            width="469px"
-            height="227px"
-          />
+        <div className={"col col--5" + " " + styles.col_custom_picture}>
+          <XTensorXSIMDPicture />
         </div>
       </div>
     </div>

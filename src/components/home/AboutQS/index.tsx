@@ -1,13 +1,7 @@
 import styles from "./styles.module.css";
 import Link from "@docusaurus/Link";
+import GroupPhotoUrl from "@site/static/img/group/QuantStack-2000-58.png"
 
-function GroupPhoto() {
-  return (
-    <div className={styles.photo_container}>
-      <img src="/img/QuantStack-2000-58.png"></img>
-    </div>
-  );
-}
 
 export default function AboutQS() {
   return (
@@ -23,7 +17,7 @@ export default function AboutQS() {
       <div className={"row" + " " + styles.row_custom}>
         <div className={"col col--10 col--offset-1" + " " + styles.col_custom}>
           <div className={styles.picture_container}>
-            <img src={"/img/QuantStack-2000-58.png"} />
+            <img src={GroupPhotoUrl} />
           </div>
         </div>
       </div>

@@ -8,7 +8,7 @@
   }
 
   .h2_custom {
-    color: var(--ifm-color-secondary-s5);
+    color: var(--ifm-color-secondary-s2);
     text-align: center;
   }
 
@@ -35,6 +35,10 @@
     justify-content: center;
     margin: var(--ifm-spacing-xl) 0;
   }
+  
+  .logos_carousel {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 996px) {
@@ -53,7 +57,7 @@
   }
 
   .h2_custom {
-    color: var(--ifm-color-secondary-s5);
+    color: var(--ifm-color-secondary-s2);
   }
 
   .col_custom {

@@ -15,11 +15,16 @@
     margin-bottom: var(--ifm-spacing-3xl);
   }
   .h2_custom {
-    color: var(--ifm-color-secondary-s5)
+    color: var(--ifm-color-secondary-s2);
   }
-  .col_custom {
+
+  .col_custom_text {
+    padding: var(--ifm-spacing-4xl) var(--ifm-spacing-3xl);
+  }
+  .col_custom_picture {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: var(--ifm-spacing-4xl) var(--ifm-spacing-3xl);
   }
 }

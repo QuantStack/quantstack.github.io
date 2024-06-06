@@ -1,21 +1,41 @@
 import Alexis from "@site/src/components/about/Team/Alexis.md";
+import AlexisAvatarUrl from "@site/static/img/avatars/Alexis.png";
 import Anastasiaa from "@site/src/components/about/Team/Anastasiia.md";
+import AnastasiiaAvatarUrl from "@site/static/img/avatars/Anastasiia.png";
 import Andreas from "@site/src/components/about/Team/Andreas.md";
+import AndreasAvatarUrl from "@site/static/img/avatars/Andreas.png";
 import Anutosh from "@site/src/components/about/Team/Anutosh.md";
+import AnutoshAvatarUrl from "@site/static/img/avatars/Anutosh.png";
 import Denisa from "@site/src/components/about/Team/Denisa.md";
+import DenisaAvatarUrl from "@site/static/img/avatars/Denisa.png";
 import Florence from "@site/src/components/about/Team/Florence.md";
+import FlorenceAvatarUrl from "@site/static/img/avatars/Florence.png";
 import Gabriela from "@site/src/components/about/Team/Gabriela.md";
+import GabrielaAvatarUrl from "@site/static/img/avatars/Gabriela.png";
 import Greg from "@site/src/components/about/Team/Greg.md";
+import GregAvatarUrl from "@site/static/img/avatars/Greg.png";
 import Hind from "@site/src/components/about/Team/Hind.md";
+import HindAvatarUrl from "@site/static/img/avatars/Hind.png";
 import Ian from "@site/src/components/about/Team/Ian.md";
+import IanAvatarUrl from "@site/static/img/avatars/Ian.png";
 import Isabel from "@site/src/components/about/Team/Isabel.md";
+import IsabelAvatarUrl from "@site/static/img/avatars/Isabel.png";
 import Joel from "@site/src/components/about/Team/Joel.md";
+import JoelAvatarUrl from "@site/static/img/avatars/Joel.png";
 import Julien from "@site/src/components/about/Team/Julien.md";
+import JulienAvatarUrl from "@site/static/img/avatars/Julien.png";
+import Kerim from "@site/src/components/about/Team/Kerim.md";
+import KerimAvatarUrl from "@site/static/img/avatars/Kerim.png";
 import Meriem from "@site/src/components/about/Team/Meriem.md";
+import MeriemAvatarUrl from "@site/static/img/avatars/Meriem.png";
 import Nicolas from "@site/src/components/about/Team/Nicolas.md";
+import NicolasAvatarUrl from "@site/static/img/avatars/Nicolas.png";
 import Nour from "@site/src/components/about/Team/Nour.md";
+import NourAvatarUrl from "@site/static/img/avatars/Nour.png";
 import Thorsten from "@site/src/components/about/Team/Thorsten.md";
+import ThorstenAvatarUrl from "@site/static/img/avatars/Thorsten.png";
 import Trung from "@site/src/components/about/Team/Trung.md";
+import TrungAvatarUrl from "@site/static/img/avatars/Trung.png";
 
 export const coreBioComponents = [
   Thorsten,
@@ -36,6 +56,29 @@ export const coreBioComponents = [
   Meriem,
   Alexis,
   Anastasiaa,
+  Kerim
+];
+
+export const coreAvatarsUrls = [
+  ThorstenAvatarUrl,
+  TrungAvatarUrl,
+  AndreasAvatarUrl,
+  DenisaAvatarUrl,
+  JoelAvatarUrl,
+  FlorenceAvatarUrl,
+  NicolasAvatarUrl,
+  IsabelAvatarUrl,
+  GabrielaAvatarUrl,
+  HindAvatarUrl,
+  JulienAvatarUrl,
+  AnutoshAvatarUrl,
+  GregAvatarUrl,
+  IanAvatarUrl,
+  NourAvatarUrl,
+  MeriemAvatarUrl,
+  AlexisAvatarUrl,
+  AnastasiiaAvatarUrl,
+  KerimAvatarUrl
 ];
 
 export const coreTeam = [
@@ -50,7 +93,7 @@ export const coreTeam = [
     XLink: "https://twitter.com/ThorstenBeier",
     LinkedInLink:"https://www.linkedin.com/in/thorsten-beier-95b121189/",
     githubName: "@derthorsten",
-    avatarRoute: "/img/avatars/Thorsten@2x.jpg",
+    avatarRoute: "@site/static/img/avatars/Thorsten@2x.jpg",
     JupyterDistinction: "false",
     subTeam: "coreTeam"
   },
@@ -65,7 +108,7 @@ export const coreTeam = [
     LinkedInLink:"https://www.linkedin.com/in/ductrung-le/",
     XLink: "",
     githubName: "@trungleduc",
-    avatarRoute: "/img/avatars/Trung@2x.jpg",
+    avatarRoute: "@site/static/img/avatars/Trung@2x.jpg",
     JupyterDistinction: "false",
     subTeam: "coreTeam"
   },
@@ -80,7 +123,7 @@ export const coreTeam = [
     LinkedInLink: "",
     XLink: "",
     githubName: "@atrawog",
-    avatarRoute: "/img/avatars/Andreas@2x.jpg",
+    avatarRoute: "@site/static/img/avatars/Andreas@2x.jpg",
     JupyterDistinction: "false"
   },
   {
@@ -94,7 +137,7 @@ export const coreTeam = [
     LinkedInLink: "https://www.linkedin.com/in/denisa-checiu-georgiana/",
     XLink: "https://twitter.com/DenisaCheciu",
     githubName: "DenisaCheciu",
-    avatarRoute: "/img/avatars/Denisa@2x.jpg",
+    avatarRoute: "@site/static/img/avatars/Denisa@2x.jpg",
     JupyterDistinction: "false",
     subTeam: "coreTeam"
   },
@@ -109,7 +152,7 @@ export const coreTeam = [
     LinkedInLink: "https://www.linkedin.com/in/a-jo%C3%ABl-lamotte-a5b09b85/",
     XLink: "",
     githubName: "@Klaim",
-    avatarRoute: "/img/avatars/Joel@2x.jpg",
+    avatarRoute: "@site/static/img/avatars/Joel@2x.jpg",
     JupyterDistinction: "false",
     subTeam: "coreTeam"
   },
@@ -124,7 +167,7 @@ export const coreTeam = [
     LinkedInLink:"https://www.linkedin.com/in/florence-haudin-fr/",
     XLink: "",
     githubName: "@HaudinFlorence",
-    avatarRoute: "/img/avatars/Florence@2x.jpg",
+    avatarRoute: "@site/static/img/avatars/Florence@2x.jpg",
     JupyterDistinction: "false",
     subTeam: "coreTeam"
   },
@@ -139,14 +182,14 @@ export const coreTeam = [
     LinkedInLink: "https://www.linkedin.com/in/nicolas-brichet-a26369150/",
     XLink: "",
     githubName: "@brichet",
-    avatarRoute: "/img/avatars/Nicolas@2x.jpg",
+    avatarRoute: "@site/static/img/avatars/Nicolas@2x.jpg",
     JupyterDistinction: "false",
     subTeam: "coreTeam"
   },
   {
     completeName: "Isabel Paredes",
     firstName: "Isabel",
-    position: "Robotics Software Developer",
+    position: "Scientific Software Developer",
     onGithub: "true",
     onLinkednIn: "true",
     onX: "false",
@@ -154,7 +197,7 @@ export const coreTeam = [
     LinkedInLink: "https://www.linkedin.com/in/isabel-paredes/",
     XLink: "",
     githubName: "@ihuicatl",
-    avatarRoute: "/img/avatars/Isabel@2x.jpg",
+    avatarRoute: "@site/static/img/avatars/Isabel@2x.jpg",
     JupyterDistinction: "false",
     subTeam: "coreTeam"
   },
@@ -169,7 +212,7 @@ export const coreTeam = [
     LinkedInLink: "https://www.linkedin.com/in/gabriela-vives-831ba853/",
     XLink: "",
     githubName: "@GabrielaVives",
-    avatarRoute: "/img/avatars/Gabriela@2x.jpg",
+    avatarRoute: "@site/static/img/avatars/Gabriela@2x.jpg",
     JupyterDistinction: "false",
     subTeam: "coreTeam"
   },
@@ -184,7 +227,7 @@ export const coreTeam = [
     LinkedInLink: "https://www.linkedin.com/in/hindmontassif/",
     XLink: "",
     githubName: "@Hind-M",
-    avatarRoute: "/img/avatars/Hind@2x.jpg",
+    avatarRoute: "@site/static/img/avatars/Hind@2x.jpg",
     JupyterDistinction: "false",
     subTeam: "coreTeam"
   },
@@ -199,7 +242,7 @@ export const coreTeam = [
     LinkedInLink: "https://www.linkedin.com/in/jjerphan/",
     XLink: "https://twitter.com/jjerphan",
     githubName: "@jjerphan",
-    avatarRoute: "/img/avatars/Julien@2x.jpg",
+    avatarRoute: "@site/static/img/avatars/Julien@2x.jpg",
     JupyterDistinction: "false",
     subTeam: "coreTeam"
   },
@@ -214,7 +257,7 @@ export const coreTeam = [
     LinkedInLink: "https://www.linkedin.com/in/anutosh-bhat-66ba961a8/",
     XLink: "",
     githubName: "@anutosh491",
-    avatarRoute: "/img/avatars/Anutosh@2x.jpg",
+    avatarRoute: "@site/static/img/avatars/Anutosh@2x.jpg",
     JupyterDistinction: "false",
     subTeam: "coreTeam"
   },
@@ -229,7 +272,7 @@ export const coreTeam = [
     LinkedInLink: "https://www.linkedin.com/in/gjmooney/",
     XLink: "",
     githubName: "@gjmooney",
-    avatarRoute: "/img/avatars/Greg@2x.jpg",
+    avatarRoute: "@site/static/img/avatars/Greg@2x.jpg",
     JupyterDistinction: "false",
     subTeam: "coreTeam"
   },
@@ -244,7 +287,7 @@ export const coreTeam = [
     LinkedInLink: "https://www.linkedin.com/in/ian-thomas-796814240/",
     XLink: "",
     githubName: "@ianthomas23",
-    avatarRoute: "/img/avatars/Ian@2x.jpg",
+    avatarRoute: "@site/static/img/avatars/Ian@2x.jpg",
     JupyterDistinction: "false",
     subTeam: "coreTeam"
     
@@ -260,7 +303,7 @@ export const coreTeam = [
     LinkedInLink: "https://www.linkedin.com/in/nour-cheour-606143206/",
     XLink: "",
     githubName: "@Nour-Cheour10",
-    avatarRoute: "/img/avatars/Nour@2x.jpg",
+    avatarRoute: "@site/static/img/avatars/Nour@2x.jpg",
     JupyterDistinction: "false",
     subTeam: "coreTeam"
   },
@@ -275,7 +318,7 @@ export const coreTeam = [
     LinkedInLink: "https://www.linkedin.com/in/meriem-ben-ismail-163042230/",
     XLink: "",
     githubName: "@Meriem-BenIsmail",
-    avatarRoute: "/img/avatars/Meriem@2x.jpg",
+    avatarRoute: "@site/static/img/avatars/Meriem@2x.jpg",
     JupyterDistinction: "false",
     subTeam: "coreTeam"
   },
@@ -290,7 +333,7 @@ export const coreTeam = [
     LinkedInLink: "https://www.linkedin.com/in/alexisplacet/",
     XLink: "",
     githubName: "@Alex-PLACET",
-    avatarRoute: "/img/avatars/Alexis@2x.jpg",
+    avatarRoute: "@site/static/img/avatars/Alexis@2x.jpg",
     JupyterDistinction: "false",
     subTeam: "coreTeam"
   },
@@ -305,7 +348,22 @@ export const coreTeam = [
     LinkedInLink: "https://www.linkedin.com/in/anastasiiasliusar-bellis/",
     XLink: "",
     githubName: "@AnastasiaSliusar",
-    avatarRoute: "/img/avatars/Anastasiia@2x.jpg",
+    avatarRoute: "@site/static/img/avatars/Anastasiia@2x.jpg",
+    JupyterDistinction: "false",
+    subTeam: "coreTeam"
+  },
+  {
+    completeName: "Kerim Birgi",
+    firstName: "Kerim",
+    position: " Scientific Software Development Intern",
+    onLinkednIn: "true",
+    onGithub: "true",
+    onX: "false",
+    githubLink: "https://github.com/KGB99",
+    LinkedInLink: "https://www.linkedin.com/in/kerim-gregory-birgi/?originalSubdomain=ch",
+    XLink: "",
+    githubName: "@kgb99",
+    avatarRoute: "@site/static/img/avatars/Kerim@2x.jpg",
     JupyterDistinction: "false",
     subTeam: "coreTeam"
   }

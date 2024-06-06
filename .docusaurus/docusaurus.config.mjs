@@ -46,7 +46,7 @@ export default {
       "title": "",
       "logo": {
         "alt": "QuantStack Logo",
-        "src": "/img/logo-website.svg"
+        "src": "/img/quantstack/logo-website.svg"
       },
       "items": [
         {
@@ -115,7 +115,7 @@ export default {
           "title": " ",
           "items": [
             {
-              "html": "\n                      \n                      <img src=\"/img/logo-quantstack.svg\" alt=\"QuantStack logo\" width=\"200px\" />\n                      <div class=\"footer-astronaut\">\n                      <img src=\"/img/astronaut-footer.svg\" alt=\"Astronaut\" />\n                      </div>\n                    "
+              "html": "\n                      \n                      <img src=\"img/quantstack/logo-quantstack.svg\" alt=\"QuantStack logo\" width=\"200px\" />\n                      <div class=\"footer-astronaut\">\n                      <img src=\"img/quantstack/astronaut-footer.svg\" alt=\"Astronaut\" />\n                      </div>\n                    "
             }
           ]
         },
@@ -152,7 +152,7 @@ export default {
           "title": " ",
           "items": [
             {
-              "html": "\n              <div>\n              <div class=\"social-media-links\">\n                <a href=\"https://github.com/QuantStack\" target=\"_blank\" rel=\"noreferrer noopener\" aria-label=\"Visit our Github page\">\n                        <img src=\"/img/socialmedias/GH.svg\" alt=\"Visit our GitHub page\" width=\"36\" height=\"36\" />\n                </a>\n                <a href=\"https://www.linkedin.com/company/quantstack/mycompany/\" target=\"_blank\" rel=\"noreferrer noopener\" aria-label=\"Visit our LinkedIn page\">\n                <img src=\"/img/socialmedias/LinkedIn.svg\" alt=\"Visit our LinkedIn page\" width=\"36\" height=\"36\" />\n                </a>\n                <a href=\"https://twitter.com/QuantStack\" target=\"_blank\" rel=\"noreferrer noopener\" aria-label=\"Visit our X page\">\n                <img src=\"/img/socialmedias/X.svg\" alt=\"Visit our X page\" width=\"36\" height=\"36\" />\n                </a>\n                </div>\n                  <div class=\"office-address\">\n                      <b>QuantStack Office </b><br/>\n                      16 avenue Curti <br/>\n                      94 100 Saint Maur des Fossés <br/>\n                      France\n                  </div>\n                </div>\n                    "
+              "html": "\n              <div>\n              <div class=\"social-media-links\">\n                <a href=\"https://github.com/QuantStack\" target=\"_blank\" rel=\"noreferrer noopener\" aria-label=\"Visit our Github page\">\n                        <img src=\"img/socialmedias/GH.svg\" alt=\"Visit our GitHub page\" width=\"36\" height=\"36\" />\n                </a>\n                <a href=\"https://www.linkedin.com/company/quantstack/mycompany/\" target=\"_blank\" rel=\"noreferrer noopener\" aria-label=\"Visit our LinkedIn page\">\n                <img src=\"img/socialmedias/LinkedIn.svg\" alt=\"Visit our LinkedIn page\" width=\"36\" height=\"36\" />\n                </a>\n                <a href=\"https://twitter.com/QuantStack\" target=\"_blank\" rel=\"noreferrer noopener\" aria-label=\"Visit our X page\">\n                <img src=\"img/socialmedias/X.svg\" alt=\"Visit our X page\" width=\"36\" height=\"36\" />\n                </a>\n                </div>\n                  <div class=\"office-address\">\n                      <b>QuantStack Office </b><br/>\n                      16 avenue Curti <br/>\n                      94 100 Saint Maur des Fossés <br/>\n                      France\n                  </div>\n                </div>\n                    "
             }
           ]
         }
