@@ -1,12 +1,12 @@
 import styles from "./styles.module.css";
 
-export default function ValueCard({ value, ValueComponent }) {
+export default function ValueCard({ value, ValuePicture, ValueComponent }) {
     return (
       <div className={"card " + styles.value_card}>
         <div className={styles.value_image}>
-          <img src={value.imageRoute}></img>
+        <ValuePicture/>
         </div>
-        <div className={styles.value_header}>{value.name}</div>
+        <div className={styles.value_header}>{value}</div>
         <div className={styles.value_text}>
           <ValueComponent />
         </div>

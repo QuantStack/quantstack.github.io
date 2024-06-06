@@ -2,6 +2,7 @@ import styles from "./styles.module.css";
 import { interviewDetails } from "./interviewDetails";
 import Link from "@docusaurus/Link";
 import { Interviews } from "./Interviews";
+import GroupPhotoJupyterConUrl from "@site/static/img/group/group-photo.png";
 
 export default function Careers() {
   return (
@@ -10,7 +11,7 @@ export default function Careers() {
         <div className="col col--8 col--offset-2">
           <h1 className={styles.h1_c}>Join the QuantStack team!</h1>
           <div className={styles.group_photo_container}>
-            <img src="/img/group-photo.png" />
+            <img src={GroupPhotoJupyterConUrl} />
           </div>
         </div>
       </div>

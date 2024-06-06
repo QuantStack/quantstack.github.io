@@ -23,10 +23,10 @@
 
 .avatar {
   filter: grayscale(1);
-  width: 160px;
-  height: 160px;
   border-radius: 50%;
   overflow: hidden;
+  height: 160px;
+  width: 160px;
 }
 
 .subteam_component {

@@ -1,6 +1,7 @@
 import styles from "./styles.module.css";
 import ContactForm from "./ContactForm";
 import { useEffect, useState } from "react";
+import ContactIllustration from "@site/static/img/illustrations/contact.svg";
 
 
 const breakpointValue: number = 996;
@@ -11,7 +12,7 @@ export function ContactDesktop() {
       <div className="row">
         <div className={"col col--6 col--offset-1" + " " + styles.col_custom_picture}>
          
-          <img src="/img/illustrations/contact.svg"></img>
+          <ContactIllustration/>
         </div>
         <div className={"col col--5" + " " + styles.col_custom_form}>
         <h1 className={styles.h1_custom}> Contact us</h1>

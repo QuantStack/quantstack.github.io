@@ -8,6 +8,7 @@ const breakpointValue: number = 996;
 export function WhatWeDoDesktop() {
   return (
     <div className={"container" + " " + styles.whatwedo_container}>
+       < h1 className = {styles.header}> What we do </h1>
       <div className={"row" + " " + styles.row_custom}>
         <div className={"col col--12" + " " + styles.col_custom}>
           <Topics />

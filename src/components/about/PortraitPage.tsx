@@ -4,7 +4,7 @@ import React from 'react';
 
 
 export default function PortraitPage
-({firstName, subTeam, BioComponent}) {
+({firstName, subTeam, avatarUrl, BioComponent}) {
     let selectedPerson: any;
     subTeam.map((person) => {
       if (person.firstName === firstName) {
@@ -14,6 +14,7 @@ export default function PortraitPage
     return (
       <LargePortraitCard
         person={selectedPerson}
+        avatarUrl={avatarUrl}
         BioComponent={BioComponent}
       ></LargePortraitCard>
     );

@@ -1,7 +1,10 @@
 import Romain from "@site/src/components/about/Team/Romain.md";
+import RomainAvatarUrl from "@site/static/img/avatars/Romain.png";
 import Serge from "@site/src/components/about/Team/Serge.md";
+import SergeAvatarUrl from "@site/static/img/avatars/Serge.png";
 
 export const QSCollaboratorsBioComponents = [Serge, Romain];
+export const QSCollaboratorsAvatarsUrls = [ SergeAvatarUrl, RomainAvatarUrl]
 
 
 export const QSCollaboratorsTeam = [
@@ -16,7 +19,7 @@ export const QSCollaboratorsTeam = [
     LinkedInLink: "",
     XLink: "",
     githubName: "@serge-sans-paille",
-    avatarRoute: "/img/avatars/Serge@2x.jpg",
+    avatarRoute: "@site/static/img/avatars/Serge@2x.jpg",
     JupyterDistinction: "false",
     subTeam: "QSCollaboratorsTeam"
   },
@@ -31,7 +34,7 @@ export const QSCollaboratorsTeam = [
     LinkedInLink: "https://www.linkedin.com/in/romain-menegaux-88a147134/",
     XLink: "https://twitter.com/RomainMenegaux",
     githubName: "@trmenegaux",
-    avatarRoute: "/img/avatars/Romain@2x.jpg",
+    avatarRoute: "@site/static/img/avatars/Romain@2x.jpg",
     JupyterDistinction: "false",
     subTeam: "QSCollaboratorsTeam"
   },
