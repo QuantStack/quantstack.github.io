@@ -1,9 +1,15 @@
 import Darian from "@site/src/components/about/Team/Darian.md";
+import DarianAvatarUrl from "@site/static/img/avatars/Darian.png";
 import David from "@site/src/components/about/Team/David.md";
+import DavidAvatarUrl from "@site/static/img/avatars/David.png";
 import Jeremy from "@site/src/components/about/Team/Jeremy.md";
+import JeremyAvatarUrl from "@site/static/img/avatars/Jeremy.png";
 import Johan from "@site/src/components/about/Team/Johan.md";
+import JohanAvatarUrl from "@site/static/img/avatars/Johan.png";
 import Martin from "@site/src/components/about/Team/Martin.md";
+import MartinAvatarUrl from "@site/static/img/avatars/Martin.png";
 import Sylvain from "@site/src/components/about/Team/Sylvain.md";
+import SylvainAvatarUrl from "@site/static/img/avatars/Sylvain.png";
 
 
 export const leadershipBioComponents = [
@@ -13,6 +19,15 @@ export const leadershipBioComponents = [
   Jeremy,
   Darian,
   David,
+];
+
+export const leadershipAvatarsUrls = [
+  SylvainAvatarUrl,
+  JohanAvatarUrl,
+  MartinAvatarUrl,
+  JeremyAvatarUrl,
+  DarianAvatarUrl,
+  DavidAvatarUrl,
 ];
 
 
@@ -28,7 +43,7 @@ export const leadershipTeam = [
     LinkedInLink: "https://www.linkedin.com/sylvaincorlay/?locale=en_US",
     XLink: "https://twitter.com/SylvainCorlay",
     githubName: "@SylvainCorlay",
-    avatarRoute: "/img/avatars/Sylvain@2x.jpg",
+    avatarRoute: "@site/static/img/avatars/Sylvain@2x.png",
     JupyterDistinction: "true",
     subTeam: "LeadershipTeam"
   },
@@ -43,7 +58,7 @@ export const leadershipTeam = [
     LinkedInLink: "https://www.linkedin.com/in/johan-mabille/",
     XLink: "https://twitter.com/JohanMabille",
     githubName: "@JohanMabille",
-    avatarRoute: "/img/avatars/Johan@2x.jpg",
+    avatarRoute: "@site/static/img/avatars/Johan@2x.png",
     JupyterDistinction: "true",
     subTeam: "LeadershipTeam"
   },
@@ -58,7 +73,7 @@ export const leadershipTeam = [
     LinkedInLink: "https://www.linkedin.com/in/martin-renou",
     XLink: "https://twitter.com/martinRenou",
     githubName: "@martinRenou",
-    avatarRoute: "/img/avatars/Martin@2x.jpg",
+    avatarRoute: "@site/static/img/avatars/Martin@2x.png",
     JupyterDistinction: "true",
     subTeam: "LeadershipTeam"
   },
@@ -73,7 +88,7 @@ export const leadershipTeam = [
     LinkedInLink: "https://www.linkedin.com/in/jtuloup/",
     XLink: "https://twitter.com/jtpio",
     githubName: "@jtpio",
-    avatarRoute: "/img/avatars/Jeremy@2x.jpg",
+    avatarRoute: "@site/static/img/avatars/Jeremy@2x.png",
     JupyterDistinction: "true",
     subTeam: "LeadershipTeam"
   },
@@ -89,7 +104,7 @@ export const leadershipTeam = [
     LinkedInLink: "https://www.linkedin.com/in/afshindarian/",
     XLink: "",
     githubName: "@afshin",
-    avatarRoute: "/img/avatars/Darian@2x.jpg",
+    avatarRoute: "@site/static/img/avatars/Darian@2x.png",
     JupyterDistinction: "true",
     subTeam: "LeadershipTeam"
   },
@@ -104,7 +119,7 @@ export const leadershipTeam = [
     LinkedInLink: "https://www.linkedin.com/in/david-brochart-4208721/",
     XLink: "https://twitter.com/davidbrochart",
     githubName: "@davidbrochart",
-    avatarRoute: "/img/avatars/David@2x.jpg",
+    avatarRoute: "@site/static/img/avatars/David@2x.png",
     JupyterDistinction: "true",
     subTeam: "LeadershipTeam",
   },

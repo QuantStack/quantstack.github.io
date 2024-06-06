@@ -1,3 +1,4 @@
+import FannyAvatarUrl from "@site/static/img/avatars/Fanny.png";
 export const blogpostsDetails = [
   {
   url: "https://medium.com/@SylvainCorlay/commit-cdf57415b94b",
@@ -11,7 +12,7 @@ export const blogpostsDetails = [
   {
     url: "/blogs/Fanny",
     title: "In memoriam: Fanny Loustau-Chartez",
-    image: "/img/avatars/Fanny@2x.jpg",
+    image: FannyAvatarUrl,
     summary:
       "It is with great sadness that we announce the passing of our colleague and friend, Fanny Loustau Chartez, who served as the Chief Financial Officer of QuantStack since 2021.",
     date: "May 16, 2024",

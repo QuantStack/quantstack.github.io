@@ -20,15 +20,19 @@ export default function Projects() {
   });
 
   return (
-    <div className="main-container-with-margins">
-      <div className={styles.header_container}>
-        <HeaderComponent />
+    <div>
+      <div className="main-container-with-margins">
+        <div className={styles.header_container}>
+          <HeaderComponent />
+        </div>
+        <div className={styles.all_projects_container}>
+          {isDesktop ? <AllProjectsDeskTop /> : <AllProjectsMobile />}
+        </div>
       </div>
-      <div className={styles.all_projects_container}>
-        {isDesktop ? <AllProjectsDeskTop /> : <AllProjectsMobile />}
-      </div>
-      <div className={styles.schedule_container}>
-        <ScheduleAMeeting />
+      <div>
+        <div className={styles.schedule_container}>
+          <ScheduleAMeeting />
+        </div>
       </div>
     </div>
   );

@@ -21,6 +21,10 @@
 
 @media only screen and (max-width: 996x) {
   /*Mobile*/
+
+  .header {
+    display: none;
+  }
   .topics_card {
     padding: var(--ifm-spacing-2xl) var(--ifm-spacing-lg);
     margin-bottom: var(--ifm-spacing-xl);

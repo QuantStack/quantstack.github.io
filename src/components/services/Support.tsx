@@ -1,5 +1,6 @@
 import styles from "./styles.module.css";
 import SupportMD from "./descriptions/Support.md";
+import SupportIllustration from "@site/static/img/illustrations/support.svg"
 
 export default function Support() {
   return (
@@ -8,8 +9,7 @@ export default function Support() {
         <div className="row">
           <div className="col col--4 col--offset-1">
             <div className={styles.illustration_container}>
-              <img
-                src="/img/illustrations/support.svg"
+              <SupportIllustration
                 width="350px"
                 height="424px"
               />

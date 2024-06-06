@@ -1,8 +1,15 @@
+import jupyterLogoUrl from "@site/static/img/projects/Jupyter.png";
+import xtensorLogoUrl from "@site/static/img/projects/xtensor.png";
+import condaforgeLogoUrl from "@site/static/img/projects/conda_forge.png";
+import robostackPictureUrl from "@site/static/img/projects/robostack.png";
+
+
+
 export const projectsDetails = [
   {
     name: "jupyter",
     title: "Jupyter",
-    pictureRoute: "/img/projects/Jupyter.png",
+    pictureRoute: jupyterLogoUrl,
     pictureWidthDesktop: "198px",
     pictureHeightDesktop: "234px",
     pictureBorderDesktop: "solid 1px var(--ifm-color-orange-jupyter)",
@@ -14,7 +21,7 @@ export const projectsDetails = [
   {
     name: "xtensorxsimd",
     title: "Xtensor & Xsimd",
-    pictureRoute: "/img/projects/xtensor.png",
+    pictureRoute: xtensorLogoUrl,
     pictureWidthDesktop: "257px",
     pictureHeightDesktop: "257px",
     pictureBorderDesktop: "solid 1px  var(--ifm-color-green-xtensor)",
@@ -26,7 +33,7 @@ export const projectsDetails = [
   {
     name: "condaforge",
     title: "Conda-forge",
-    pictureRoute: "/img/projects/conda_forge.svg",
+    pictureRoute: condaforgeLogoUrl,
     pictureWidthDesktop: "196px",
     pictureHeightDesktop: "180px",
     pictureBorderDesktop: "solid 1px var(--ifm-color-grey-condaforge)",
@@ -38,7 +45,7 @@ export const projectsDetails = [
   {
     name: "robotics",
     title: "Robotics",
-    pictureRoute: "/img/projects/robostack.png",
+    pictureRoute: robostackPictureUrl,
     pictureWidthDesktop: "189px",
     pictureHeightDesktop: "210px",
     pictureBorderDesktop: "solid 1px rgb(146, 95, 218)",

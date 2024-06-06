@@ -62,7 +62,8 @@ const config: Config = {
       title: "",
       logo: {
         alt: "QuantStack Logo",
-        src: "/img/logo-website.svg",
+        src: "/img/quantstack/logo-website.svg"
+        
       },
 
       items: [
@@ -137,9 +138,9 @@ const config: Config = {
             {
               html: `
                       
-                      <img src="/img/logo-quantstack.svg" alt="QuantStack logo" width="200px" />
+                      <img src="img/quantstack/logo-quantstack.svg" alt="QuantStack logo" width="200px" />
                       <div class="footer-astronaut">
-                      <img src="/img/astronaut-footer.svg" alt="Astronaut" />
+                      <img src="img/quantstack/astronaut-footer.svg" alt="Astronaut" />
                       </div>
                     `,
             },
@@ -182,13 +183,13 @@ const config: Config = {
               <div>
               <div class="social-media-links">
                 <a href="https://github.com/QuantStack" target="_blank" rel="noreferrer noopener" aria-label="Visit our Github page">
-                        <img src="/img/socialmedias/GH.svg" alt="Visit our GitHub page" width="36" height="36" />
+                        <img src="img/socialmedias/GH.svg" alt="Visit our GitHub page" width="36" height="36" />
                 </a>
                 <a href="https://www.linkedin.com/company/quantstack/mycompany/" target="_blank" rel="noreferrer noopener" aria-label="Visit our LinkedIn page">
-                <img src="/img/socialmedias/LinkedIn.svg" alt="Visit our LinkedIn page" width="36" height="36" />
+                <img src="img/socialmedias/LinkedIn.svg" alt="Visit our LinkedIn page" width="36" height="36" />
                 </a>
                 <a href="https://twitter.com/QuantStack" target="_blank" rel="noreferrer noopener" aria-label="Visit our X page">
-                <img src="/img/socialmedias/X.svg" alt="Visit our X page" width="36" height="36" />
+                <img src="img/socialmedias/X.svg" alt="Visit our X page" width="36" height="36" />
                 </a>
                 </div>
                   <div class="office-address">
