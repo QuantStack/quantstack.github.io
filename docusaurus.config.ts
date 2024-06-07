@@ -2,6 +2,8 @@ import { themes as prismThemes } from "prism-react-renderer";
 import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
+let copyright = `Copyright © ${new Date().getFullYear()} · QuantStack website · Built with Docusaurus`;
+
 const config: Config = {
   title: "QuantStack",
   tagline: "",
@@ -62,8 +64,7 @@ const config: Config = {
       title: "",
       logo: {
         alt: "QuantStack Logo",
-        src: "/img/quantstack/logo-website.svg"
-        
+        src: "img/quantstack/logo-website.svg",
       },
 
       items: [
@@ -129,30 +130,43 @@ const config: Config = {
         },
       ],
     },
-   
+
     footer: {
       links: [
         {
           title: " ",
           items: [
             {
-              html: `
-                      
-                      <img src="img/quantstack/logo-quantstack.svg" alt="QuantStack logo" width="200px" />
-                      <div class="footer-astronaut">
-                      <img src="img/quantstack/astronaut-footer.svg" alt="Astronaut" />
-                      </div>
-                    `,
+              label: " ",
+              className: "quantstack-astronaut-footer",
+              href: "/home",
+            },
+          ],
+        },
+        
+        {
+          title: "Follow QuantStack on",
+          items: [
+            {
+              label: "GitHub",
+              className: "github-icon",
+              href: "https://github.com/QuantStack",
+            },
+            {
+              label: "LinkedIn",
+              className: "linkedin-icon",
+              href: "https://www.linkedin.com/company/quantstack/mycompany/",
+            },
+            {
+              label: "X",
+              className: "x-icon",
+              href: "https://twitter.com/QuantStack",
             },
           ],
         },
         {
-          title: " ",
+          title: "Menu ",
           items: [
-            {
-              label: "Home",
-              href: "/home/",
-            },
             {
               label: "Projects",
               href: "/projects/",
@@ -175,35 +189,29 @@ const config: Config = {
             },
           ],
         },
+        
+
         {
           title: " ",
           items: [
             {
               html: `
-              <div>
-              <div class="social-media-links">
-                <a href="https://github.com/QuantStack" target="_blank" rel="noreferrer noopener" aria-label="Visit our Github page">
-                        <img src="img/socialmedias/GH.svg" alt="Visit our GitHub page" width="36" height="36" />
-                </a>
-                <a href="https://www.linkedin.com/company/quantstack/mycompany/" target="_blank" rel="noreferrer noopener" aria-label="Visit our LinkedIn page">
-                <img src="img/socialmedias/LinkedIn.svg" alt="Visit our LinkedIn page" width="36" height="36" />
-                </a>
-                <a href="https://twitter.com/QuantStack" target="_blank" rel="noreferrer noopener" aria-label="Visit our X page">
-                <img src="img/socialmedias/X.svg" alt="Visit our X page" width="36" height="36" />
-                </a>
-                </div>
+              
                   <div class="office-address">
-                      <b>QuantStack Office </b><br/>
-                      16 avenue Curti <br/>
+                  <b> QuantStack Office </b> <br/> 
+                  <br/>
+                      16, avenue Curti <br/>
                       94 100 Saint Maur des Fossés <br/>
                       France
                   </div>
-                </div>
+               
                     `,
             },
           ],
         },
       ],
+
+      copyright: copyright,
     },
 
     prism: {

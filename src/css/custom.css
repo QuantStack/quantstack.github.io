@@ -45,11 +45,13 @@
   --ifm-spacing-lg: 24px;
   --ifm-spacing-xl: 36px;
   --ifm-spacing-2xl: 56px;
+  --ifm-spacing-7xl: 240px;
   --ifm-spacing-3xl: 64px;
   --ifm-spacing-4xl: 96px;
   --ifm-spacing-5xl: 120px;
   --ifm-spacing-6xl: 144px;
   --ifm-spacing-7xl: 240px;
+  --ifm-spacing-8xl: 400px;
 }
 
 @media only screen and (max-width: 996px) {
@@ -97,6 +99,10 @@
     line-height: 150%;
     line-height: 20px; /* 142.857% */
     letter-spacing: 0.25px;
+  }
+
+  .office-address {
+    
   }
 }
 
@@ -148,7 +154,7 @@
     .container {
       max-width: none;
     }
-}
+  }
 
   p {
     font-family: var(--ifm-font-family-roboto);
@@ -158,6 +164,15 @@
     line-height: 150%;
     text-align: justify;
     /*margin-bottom: var(--ifm-spacing-lg);*/
+  }
+  .office-address {
+    margin-left: var(--ifm-spacing-6xl);
+    text-align: start;
+    color: var(--ifm-color-neutral-black);
+  }
+  .social-media-links {
+    margin-left: var(--ifm-spacing-3xl);
+    text-align: start;
   }
 }
 
@@ -184,7 +199,6 @@
 .spacing-lg {
   height: var(--ifm-spacing-lg);
 }
-
 
 .spacing-xl {
   height: var(--ifm-spacing-xl);
@@ -213,6 +227,11 @@
 .spacing-7xl {
   height: var(--ifm-spacing-7xl);
 }
+
+.spacing-8xl {
+  height: var(--ifm-spacing-8xl);
+}
+
 .link-container {
   display: flex;
   align-items: center;
@@ -288,12 +307,6 @@
 .social-media-links {
   margin-left: var(--ifm-spacing-3xl);
   text-align: start;
-}
-
-.office-address {
-  margin-left: var(--ifm-spacing-3xl);
-  text-align: start;
-  color: var(--ifm-color-neutral-black);
 }
 
 /*
@@ -401,8 +414,26 @@ a.menu__link:active {
   background: url(@site/static/img/quantstack/logo-website.svg);
   content: "";
   display: flex;
+  height: 40px;
+  width: 40px;
+  background-repeat: no-repeat;
+}
+
+.quantstack-astronaut {
+  background: url(@site/static/img/quantstack/astronaut.svg);
+  content: "";
+  display: flex;
   height: 100px;
   width: 100px;
+  background-repeat: no-repeat;
+}
+
+.quantstack-astronaut-footer {
+  background: url(@site/static/img/quantstack/astronaut-footer.svg);
+  content: "";
+  display: flex;
+  height: 200px;
+  width: 200px;
   background-repeat: no-repeat;
 }
 

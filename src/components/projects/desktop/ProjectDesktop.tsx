@@ -19,7 +19,7 @@ export default function ProjectDesktop({
               </div>
             </div>
             <div
-              className={"col col--3" + " " + styles.col_custom_picture_right}
+              className={"col col--4" + " " + styles.col_custom_picture_right}
               style={{ border: project.pictureBorderDesktop }}
             >
               <div className={styles.project_picture}></div>
