@@ -56,6 +56,8 @@
   /*Mobile */
   .main-container-with-margins {
     margin: 0;
+    display: flex;
+    justify-content: center;
   }
   h1 {
     color: var(--ifm-color-primary-p3);
@@ -103,6 +105,8 @@
   .main-container-with-margins {
     margin-left: 96px;
     margin-right: 96px;
+    display: flex;
+    justify-content: center;
   }
 
   h1 {
