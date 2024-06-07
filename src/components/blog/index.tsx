@@ -19,35 +19,40 @@ export default function BlogsComponent() {
   };
 
   return (
-    <div className="container" style={{ marginTop: "var(--ifm-spacing-6xl)" }}>
-      <div className="row">
-        <div
-          className="col col--10 col--offset-1"
-          style={{ marginBottom: "var(--ifm-spacing-5xl)" }}
-        >
-          <h1 style={{ textAlign: "left" }}>
-            {" "}
-            Featured Posts by QuantStack Contributors
-          </h1>
-          <div>
-            <input
-              className={styles.search_input}
-              type="search"
-              placeholder="Search blog posts"
-              onChange={handleChange}
-            />
+    <div className="main-container-with-margins">
+      <div
+        className="container"
+        style={{ marginTop: "var(--ifm-spacing-6xl)" }}
+      >
+        <div className="row">
+          <div
+            className="col col--10 col--offset-1"
+            style={{ marginBottom: "var(--ifm-spacing-5xl)" }}
+          >
+            <h1 style={{ textAlign: "left" }}>
+              {" "}
+              Featured Posts by QuantStack Contributors
+            </h1>
+            <div>
+              <input
+                className={styles.search_input}
+                type="search"
+                placeholder="Search blog posts"
+                onChange={handleChange}
+              />
+            </div>
           </div>
-        </div>
 
-        <ul className="row">
-          {filteredBlogPosts.map((blogpost, index) => (
-            <li className="cards_list" key={index}>
-              <div className="col col--2 col--offset-1">
-                <BlogpostCard blogpost={blogpost}></BlogpostCard>
-              </div>
-            </li>
-          ))}
-        </ul>
+          <ul className="row">
+            {filteredBlogPosts.map((blogpost, index) => (
+              <li className="cards_list" key={index}>
+                <div className="col col--2 col--offset-1">
+                  <BlogpostCard blogpost={blogpost}></BlogpostCard>
+                </div>
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
     </div>
   );

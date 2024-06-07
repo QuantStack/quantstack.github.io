@@ -7,7 +7,7 @@ import {
   QSCollaboratorsAvatarsUrls
 } from "./Team/QScollaborators";
 import FourValues from "./FourValues";
-import SubTeam from "./SubTeam";
+import { SubTeamDesktop, SubTeamMobile } from "./SubTeam";
 import { useEffect, useState } from "react";
 import LinkToContact from "../home/LinkToContact";
 
@@ -40,19 +40,19 @@ export function AboutDesktop() {
             A team of outliers, leaders in software projects adopted at the
             global scale, benefiting millions of people worldwide.
           </h4>
-          <SubTeam
+          <SubTeamDesktop
             description={"The leadership team"}
             subTeam={leadershipTeam}
             subTeamAvatarsUrls= {leadershipAvatarsUrls}
             subTeamBioComponents={leadershipBioComponents}
           />
-          <SubTeam
+          <SubTeamDesktop
             description={"The core team"}
             subTeam={coreTeam}
             subTeamAvatarsUrls = {coreAvatarsUrls}
             subTeamBioComponents={coreBioComponents}
           />
-          <SubTeam
+          <SubTeamDesktop
             description={"QuantStack collaborators"}
             subTeam={QSCollaboratorsTeam}
             subTeamAvatarsUrls = {QSCollaboratorsAvatarsUrls}
@@ -90,20 +90,21 @@ export function AboutMobile() {
           <FourValues />
           </div>
 
-          <SubTeam
+          <SubTeamMobile
             description={"The leadership team"}
             subTeam={leadershipTeam}
-            subTeamBioComponents={leadershipBioComponents}
+            subTeamAvatarsUrls={leadershipAvatarsUrls}
+          
           />
-              <SubTeam
+              <SubTeamMobile
             description={"The core team"}
             subTeam={coreTeam}
-            subTeamBioComponents={coreBioComponents}
+            subTeamAvatarsUrls={coreAvatarsUrls}
           />
-              <SubTeam
+              <SubTeamMobile
             description={"QuantStack collaborators"}
             subTeam={QSCollaboratorsTeam}
-            subTeamBioComponents={QSCollaboratorsBioComponents}
+           subTeamAvatarsUrls={QSCollaboratorsAvatarsUrls}
           />
           <div className={styles.join_the_team_container}>
             <div className={styles.join_the_team_text}>

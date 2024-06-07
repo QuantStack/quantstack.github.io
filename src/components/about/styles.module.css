@@ -30,12 +30,11 @@
 }
 
 .subteam_component {
-  margin: var(--ifm-spacing-5xl) 0;
+  margin: var(--ifm-spacing-5xl) var(--ifm-spacing-6xl);
 }
 
 @media only screen and (max-width: 996px) {
   /* mobile */
-
   .h2_custom {
     padding: var(--ifm-spacing-lg) var(--ifm-spacing-2xl);
   }
@@ -84,6 +83,7 @@
 
 @media only screen and (min-width: 996px) {
   /* Desktop */
+
   .value_header {
     font-family: var(--ifm-font-family-rubik-one);
     font-size: var(--ifm-font-size-secondary-title);
@@ -246,24 +246,4 @@
     text-align: center;
   }
 
-  .portrait_popup-content {
-    margin: auto;
-    background: rgb(255, 255, 255);
-    width: 50%;
-    padding: 5px;
-  }
-  .portrait_popup-arrow {
-    color: rgb(255, 255, 255);
-  }
-  [role="tooltip"].popup-content {
-    width: 200px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 3px;
-  }
-
-  .portrait_popup-overlay {
-    background: rgba(0, 0, 0, 0.5);
-  }
-  [data-popup="tooltip"].popup-overlay {
-    background: transparent;
-  }
 }
