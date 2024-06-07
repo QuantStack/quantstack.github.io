@@ -1,110 +1,153 @@
 {
-  "/quantstack.github.io/about-231": {
-    "__comp": "61809400",
+  "/quantstack.github.io/__docusaurus/debug-55d": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "a7456010"
+      "plugin": "plugin---quantstack-github-io-docusaurus-debugb-38-673"
+    }
+  },
+  "/quantstack.github.io/__docusaurus/debug/config-dae": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---quantstack-github-io-docusaurus-debugb-38-673"
+    }
+  },
+  "/quantstack.github.io/__docusaurus/debug/content-56c": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---quantstack-github-io-docusaurus-debugb-38-673"
     },
-    "config": "5e9f5e1a"
+    "__props": "__props---quantstack-github-io-docusaurus-debug-contente-48-7ef"
+  },
+  "/quantstack.github.io/__docusaurus/debug/globalData-058": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---quantstack-github-io-docusaurus-debugb-38-673"
+    }
+  },
+  "/quantstack.github.io/__docusaurus/debug/metadata-5d1": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---quantstack-github-io-docusaurus-debugb-38-673"
+    }
+  },
+  "/quantstack.github.io/__docusaurus/debug/registry-dd5": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---quantstack-github-io-docusaurus-debugb-38-673"
+    }
+  },
+  "/quantstack.github.io/__docusaurus/debug/routes-f0e": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---quantstack-github-io-docusaurus-debugb-38-673"
+    }
+  },
+  "/quantstack.github.io/about-231": {
+    "__comp": "__comp---site-src-pages-about-tsx-618-aa9",
+    "__context": {
+      "plugin": "plugin---quantstack-github-io-abouta-74-838"
+    },
+    "config": "config---quantstack-github-io-about-5-e-9-9b2"
   },
   "/quantstack.github.io/blog-4ed": {
-    "__comp": "3e30bf86",
+    "__comp": "__comp---site-src-pages-blog-tsx-3-e-3-316",
     "__context": {
-      "plugin": "a7456010"
+      "plugin": "plugin---quantstack-github-io-abouta-74-838"
     },
-    "config": "5e9f5e1a"
+    "config": "config---quantstack-github-io-about-5-e-9-9b2"
   },
   "/quantstack.github.io/blogs/Fanny-880": {
-    "__comp": "65d0b86c",
+    "__comp": "__comp---site-src-pages-blogs-fanny-tsx-65-d-9e1",
     "__context": {
-      "plugin": "a7456010"
+      "plugin": "plugin---quantstack-github-io-abouta-74-838"
     },
-    "config": "5e9f5e1a"
+    "config": "config---quantstack-github-io-about-5-e-9-9b2"
   },
   "/quantstack.github.io/careers-b61": {
-    "__comp": "cd1c0009",
+    "__comp": "__comp---site-src-pages-careers-tsxcd-1-1bd",
     "__context": {
-      "plugin": "a7456010"
+      "plugin": "plugin---quantstack-github-io-abouta-74-838"
     },
-    "config": "5e9f5e1a"
+    "config": "config---quantstack-github-io-about-5-e-9-9b2"
   },
   "/quantstack.github.io/contact-cc6": {
-    "__comp": "8b3a140c",
+    "__comp": "__comp---site-src-pages-contact-tsx-8-b-3-cf6",
     "__context": {
-      "plugin": "a7456010"
+      "plugin": "plugin---quantstack-github-io-abouta-74-838"
     },
-    "config": "5e9f5e1a"
+    "config": "config---quantstack-github-io-about-5-e-9-9b2"
   },
   "/quantstack.github.io/home-127": {
-    "__comp": "151add9d",
+    "__comp": "__comp---site-src-pages-home-tsx-151-1a9",
     "__context": {
-      "plugin": "a7456010"
+      "plugin": "plugin---quantstack-github-io-abouta-74-838"
     },
-    "config": "5e9f5e1a"
+    "config": "config---quantstack-github-io-about-5-e-9-9b2"
   },
   "/quantstack.github.io/projects-2db": {
-    "__comp": "a8f03678",
+    "__comp": "__comp---site-src-pages-projects-tsxa-8-f-73b",
     "__context": {
-      "plugin": "a7456010"
+      "plugin": "plugin---quantstack-github-io-abouta-74-838"
     },
-    "config": "5e9f5e1a"
+    "config": "config---quantstack-github-io-about-5-e-9-9b2"
   },
   "/quantstack.github.io/projects/condaforge-8bc": {
-    "__comp": "f18f98c8",
+    "__comp": "__comp---site-src-pages-projects-condaforge-tsxf-18-eb7",
     "__context": {
-      "plugin": "a7456010"
+      "plugin": "plugin---quantstack-github-io-abouta-74-838"
     },
-    "config": "5e9f5e1a"
+    "config": "config---quantstack-github-io-about-5-e-9-9b2"
   },
   "/quantstack.github.io/projects/jupyter-7f5": {
-    "__comp": "e45f3345",
+    "__comp": "__comp---site-src-pages-projects-jupyter-tsxe-45-660",
     "__context": {
-      "plugin": "a7456010"
+      "plugin": "plugin---quantstack-github-io-abouta-74-838"
     },
-    "config": "5e9f5e1a"
+    "config": "config---quantstack-github-io-about-5-e-9-9b2"
   },
   "/quantstack.github.io/projects/robotics-2c1": {
-    "__comp": "4e15f844",
+    "__comp": "__comp---site-src-pages-projects-robotics-tsx-4-e-1-8cf",
     "__context": {
-      "plugin": "a7456010"
+      "plugin": "plugin---quantstack-github-io-abouta-74-838"
     },
-    "config": "5e9f5e1a"
+    "config": "config---quantstack-github-io-about-5-e-9-9b2"
   },
   "/quantstack.github.io/projects/xtensorxsimd-a48": {
-    "__comp": "1771d067",
+    "__comp": "__comp---site-src-pages-projects-xtensorxsimd-tsx-177-daa",
     "__context": {
-      "plugin": "a7456010"
+      "plugin": "plugin---quantstack-github-io-abouta-74-838"
     },
-    "config": "5e9f5e1a"
+    "config": "config---quantstack-github-io-about-5-e-9-9b2"
   },
   "/quantstack.github.io/services-2d6": {
-    "__comp": "9ba2902f",
+    "__comp": "__comp---site-src-pages-services-tsx-9-ba-5a6",
     "__context": {
-      "plugin": "a7456010"
+      "plugin": "plugin---quantstack-github-io-abouta-74-838"
     },
-    "config": "5e9f5e1a"
+    "config": "config---quantstack-github-io-about-5-e-9-9b2"
   },
   "/quantstack.github.io/docs-ece": {
-    "__comp": "5e95c892",
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
-      "plugin": "aba21aa0"
+      "plugin": "plugin---quantstack-github-io-docsaba-12f"
     }
   },
   "/quantstack.github.io/docs-5d0": {
-    "__comp": "a7bd4aaa",
-    "__props": "12709bdf"
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "__props": "__props---quantstack-github-io-docs-127-38e"
   },
   "/quantstack.github.io/docs-a54": {
-    "__comp": "a94703ab"
+    "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/quantstack.github.io/docs/intro-b2a": {
-    "__comp": "17896441",
-    "content": "0e384e19"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---quantstack-github-io-docs-intro-0-e-3-a1b"
   },
   "/quantstack.github.io/-eb1": {
-    "__comp": "1df93b7f",
+    "__comp": "__comp---site-src-pages-index-tsx-1-df-d3e",
     "__context": {
-      "plugin": "a7456010"
+      "plugin": "plugin---quantstack-github-io-abouta-74-838"
     },
-    "config": "5e9f5e1a"
+    "config": "config---quantstack-github-io-about-5-e-9-9b2"
   }
 }
