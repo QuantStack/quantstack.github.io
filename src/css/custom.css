@@ -103,14 +103,11 @@
   li {
     font-size: 14px;
   }
-
-  .office-address {
-    
-  }
 }
 
 @media only screen and (min-width: 996px) {
   /*Desktop */
+  
   .main-container-with-margins {
     margin-left: 96px;
     margin-right: 96px;

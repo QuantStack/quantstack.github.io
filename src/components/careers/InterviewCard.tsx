@@ -7,10 +7,10 @@ export default function InterviewCard({ person }) {
     <Link href={person.url}>
       <div className={styles.interview_card}>
         <Picture person={person} />
-        <div className={styles.interview_card_first_name}>
+        <div className={styles.interview_name}>
           {person.firstName}
         </div>
-        <div className={styles.interview_card_position}>{person.position}</div>
+        <div className={styles.interview_position}>{person.position}</div>
       </div>
     </Link>
   );
