@@ -283,27 +283,95 @@ export default {
       },
       "darkTheme": {
         "plain": {
-          "color": "#F8F8F2",
-          "backgroundColor": "#282A36"
+          "backgroundColor": "hsl(220, 13%, 18%)",
+          "color": "hsl(220, 14%, 71%)",
+          "textShadow": "0 1px rgba(0, 0, 0, 0.3)"
         },
         "styles": [
           {
             "types": [
+              "comment",
               "prolog",
-              "constant",
-              "builtin"
+              "cdata"
             ],
             "style": {
-              "color": "rgb(189, 147, 249)"
+              "color": "hsl(220, 10%, 40%)"
             }
           },
           {
             "types": [
+              "doctype",
+              "punctuation",
+              "entity"
+            ],
+            "style": {
+              "color": "hsl(220, 14%, 71%)"
+            }
+          },
+          {
+            "types": [
+              "attr-name",
+              "class-name",
+              "maybe-class-name",
+              "boolean",
+              "constant",
+              "number",
+              "atrule"
+            ],
+            "style": {
+              "color": "hsl(29, 54%, 61%)"
+            }
+          },
+          {
+            "types": [
+              "keyword"
+            ],
+            "style": {
+              "color": "hsl(286, 60%, 67%)"
+            }
+          },
+          {
+            "types": [
+              "property",
+              "tag",
+              "symbol",
+              "deleted",
+              "important"
+            ],
+            "style": {
+              "color": "hsl(355, 65%, 65%)"
+            }
+          },
+          {
+            "types": [
+              "selector",
+              "string",
+              "char",
+              "builtin",
               "inserted",
+              "regex",
+              "attr-value"
+            ],
+            "style": {
+              "color": "hsl(95, 38%, 62%)"
+            }
+          },
+          {
+            "types": [
+              "variable",
+              "operator",
               "function"
             ],
             "style": {
-              "color": "rgb(80, 250, 123)"
+              "color": "hsl(207, 82%, 66%)"
+            }
+          },
+          {
+            "types": [
+              "url"
+            ],
+            "style": {
+              "color": "hsl(187, 47%, 55%)"
             }
           },
           {
@@ -311,61 +379,40 @@ export default {
               "deleted"
             ],
             "style": {
-              "color": "rgb(255, 85, 85)"
+              "textDecorationLine": "line-through"
             }
           },
           {
             "types": [
-              "changed"
+              "inserted"
             ],
             "style": {
-              "color": "rgb(255, 184, 108)"
+              "textDecorationLine": "underline"
             }
           },
           {
             "types": [
-              "punctuation",
-              "symbol"
+              "italic"
             ],
             "style": {
-              "color": "rgb(248, 248, 242)"
-            }
-          },
-          {
-            "types": [
-              "string",
-              "char",
-              "tag",
-              "selector"
-            ],
-            "style": {
-              "color": "rgb(255, 121, 198)"
-            }
-          },
-          {
-            "types": [
-              "keyword",
-              "variable"
-            ],
-            "style": {
-              "color": "rgb(189, 147, 249)",
               "fontStyle": "italic"
             }
           },
           {
             "types": [
-              "comment"
+              "important",
+              "bold"
             ],
             "style": {
-              "color": "rgb(98, 114, 164)"
+              "fontWeight": "bold"
             }
           },
           {
             "types": [
-              "attr-name"
+              "important"
             ],
             "style": {
-              "color": "rgb(241, 250, 140)"
+              "color": "hsl(220, 14%, 71%)"
             }
           }
         ]
