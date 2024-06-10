@@ -12,7 +12,7 @@ export default function AllProjectsMobile () {
             {projectsDetails.map((project, index) => (
               <li className="cards_list" key={index}>
                 <div className="col">
-                  <Link href={"projects/" + project.name}>
+                  <Link href={"/projects/" + project.name}>
                     <div className={styles.project_description}>
                     <ProjectMobile project={project} />
                     </div>

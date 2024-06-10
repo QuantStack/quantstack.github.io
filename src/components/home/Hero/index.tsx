@@ -28,9 +28,17 @@ export default function Hero() {
           </div>
         </div>
       </div>
-
-      <div className={styles.logos_carousel}>
-        <SimpleSlider />
+      <div className={"container" + " " + styles.logos_carousel}>
+        <div className="row">
+          <div className="col col--10 col--offset-1">
+            <div className={styles.worked_with}> We have worked with</div>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col col--10 col--offset-1">
+            <SimpleSlider />
+          </div>
+        </div>
       </div>
     </div>
   );

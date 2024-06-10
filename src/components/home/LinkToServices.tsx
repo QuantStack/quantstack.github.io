@@ -6,7 +6,7 @@ export default function LinkToServices({label}) {
     <div className="link-container">
       <Link
         className={"link-to-button" + " " + styles.link_to_services}
-        href="/services"
+        href="/services/"
       >
         {label}
       </Link>

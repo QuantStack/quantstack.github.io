@@ -1,11 +1,10 @@
 @media only screen and (max-width: 600px) {
   /*Mobile */
-
   .project_container {
     padding: var(--ifm-spacing-sm) var(--ifm-spacing-lg);
     margin-bottom: var(--ifm-spacing-xs);
-    width: 140px;
-    height: 150px;
+    width: 120px;
+    height: 130px;
     background-color: var(--ifm-color-orange-light2);
   }
 
