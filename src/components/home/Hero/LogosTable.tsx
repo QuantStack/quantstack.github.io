@@ -36,7 +36,6 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-
 export default function SimpleSlider() {
   let settings = {
     dots: true,
@@ -59,7 +58,6 @@ export default function SimpleSlider() {
     </Slider>
   );
 }
-
 
 export function LogosTable1() {
   return (
@@ -218,7 +216,7 @@ export function LogosTable3() {
             <img
               src={EcolePolytechniqueLogoUrl}
               className={styles.customer_logo}
-              style={{width: "80px"}}
+              style={{ width: "80px" }}
             />
           </div>
         </div>

@@ -3,41 +3,6 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/quantstack.github.io/__docusaurus/debug',
-    component: ComponentCreator('/quantstack.github.io/__docusaurus/debug', '55d'),
-    exact: true
-  },
-  {
-    path: '/quantstack.github.io/__docusaurus/debug/config',
-    component: ComponentCreator('/quantstack.github.io/__docusaurus/debug/config', 'dae'),
-    exact: true
-  },
-  {
-    path: '/quantstack.github.io/__docusaurus/debug/content',
-    component: ComponentCreator('/quantstack.github.io/__docusaurus/debug/content', '56c'),
-    exact: true
-  },
-  {
-    path: '/quantstack.github.io/__docusaurus/debug/globalData',
-    component: ComponentCreator('/quantstack.github.io/__docusaurus/debug/globalData', '058'),
-    exact: true
-  },
-  {
-    path: '/quantstack.github.io/__docusaurus/debug/metadata',
-    component: ComponentCreator('/quantstack.github.io/__docusaurus/debug/metadata', '5d1'),
-    exact: true
-  },
-  {
-    path: '/quantstack.github.io/__docusaurus/debug/registry',
-    component: ComponentCreator('/quantstack.github.io/__docusaurus/debug/registry', 'dd5'),
-    exact: true
-  },
-  {
-    path: '/quantstack.github.io/__docusaurus/debug/routes',
-    component: ComponentCreator('/quantstack.github.io/__docusaurus/debug/routes', 'f0e'),
-    exact: true
-  },
-  {
     path: '/quantstack.github.io/about',
     component: ComponentCreator('/quantstack.github.io/about', '231'),
     exact: true

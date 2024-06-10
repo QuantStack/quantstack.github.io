@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 import AllProjectsMobile from "./mobile/AllProjectsMobile";
 import { AllProjectsDeskTop } from "./desktop/AllProjectsDesktop";
 
-const breakpointValue: number = 600;
+const breakpointValue: number = 996;
 
 export default function Projects() {
   const [isDesktop, setDesktop] = useState(window.innerWidth > breakpointValue);
