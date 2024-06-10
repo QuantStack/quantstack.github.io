@@ -122,7 +122,7 @@ export default {
           ]
         },
         {
-          "title": "Follow us on",
+          "title": "Follow QuantStack on",
           "items": [
             {
               "label": "GitHub",

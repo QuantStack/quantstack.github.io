@@ -1,5 +1,6 @@
 import styles from "@site/src/components/projects/styles.module.css";
 import Link from "@docusaurus/Link";
+import ArrowLeft from "@site/static/img/icons/ArrowLeft.svg";
 
 export default function ProjectPopup({
   projectDetails,
@@ -16,9 +17,8 @@ export default function ProjectPopup({
   return (
     <div>
       <div className={styles.header_mobile}>
-        <Link href={"/projects"}>
-          <img
-            src={"/img/ui-elements/ArrowLeft.svg"}
+        <Link href={"/projects/"}>
+          <ArrowLeft
             width={"32px"}
             height={"32px"}
             style={{ marginTop: "16px", marginLeft: "20px" }}

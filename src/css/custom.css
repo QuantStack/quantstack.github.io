@@ -11,8 +11,7 @@
   --ifm-color-primary-p1: #f6f195;
   --ifm-color-primary-p2: #1c1c16;
   --ifm-color-primary-p3: #1e1c00;
-  /*--ifm-footer-background-color: var(--ifm-color-primary-p1);*/
-  --ifm-footer-height: 200px;
+  --ifm-footer-background-color: var(--ifm-color-primary-p1);
   --ifm-color-orange-jupyter: #f37726;
   --ifm-color-green-xtensor: #4ecb71;
   --ifm-color-grey-condaforge: #7a7865;
@@ -99,6 +98,10 @@
     line-height: 150%;
     line-height: 20px; /* 142.857% */
     letter-spacing: 0.25px;
+  }
+
+  li {
+    font-size: 14px;
   }
 
   .office-address {
@@ -238,6 +241,7 @@
   justify-content: center;
   padding: var(--ifm-spacing-xl) 0;
 }
+
 .link-to-button {
   width: 258px;
   height: 56px;

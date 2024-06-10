@@ -1,9 +1,9 @@
 import styles from "./styles.module.css";
-import Link from "@docusaurus/Link";
 import Support from "./Support";
 import SpecialProjects from "./SpecialProjects";
 import Header from "./Header";
 import Transition from "./Transition";
+import LinkToContact from "../home/LinkToContact";
 
 export default function Services() {
   return (
@@ -14,11 +14,7 @@ export default function Services() {
       <SpecialProjects />
       <div className={styles.contract}>
         Sign a support retainer for QuantStack services in our ecosystem.
-        <div className="link-box">
-          <Link className="link-to-button" href="/contact">
-            {" CONTACT US! "}
-          </Link>
-        </div>
+        <LinkToContact label={"CONTACT US!"}/>
       </div>
     </div>
   );
