@@ -162,9 +162,9 @@
     "59": {
       "js": [
         {
-          "file": "assets/js/cd1c0009.66b8e31d.js",
-          "hash": "89136d4deb949c7e",
-          "publicPath": "/quantstack.github.io/assets/js/cd1c0009.66b8e31d.js"
+          "file": "assets/js/cd1c0009.8a29bb60.js",
+          "hash": "91b52d90bd60b52b",
+          "publicPath": "/quantstack.github.io/assets/js/cd1c0009.8a29bb60.js"
         }
       ]
     },
@@ -243,9 +243,9 @@
     "354": {
       "js": [
         {
-          "file": "assets/js/runtime~main.517ee40f.js",
-          "hash": "81da6561d2810b17",
-          "publicPath": "/quantstack.github.io/assets/js/runtime~main.517ee40f.js"
+          "file": "assets/js/runtime~main.4c6d53fd.js",
+          "hash": "95e06d1bad4fd39e",
+          "publicPath": "/quantstack.github.io/assets/js/runtime~main.4c6d53fd.js"
         }
       ]
     },
@@ -333,9 +333,9 @@
     "792": {
       "js": [
         {
-          "file": "assets/js/main.3fb0ebbd.js",
-          "hash": "62f965a3236e52ea",
-          "publicPath": "/quantstack.github.io/assets/js/main.3fb0ebbd.js"
+          "file": "assets/js/main.93298e8e.js",
+          "hash": "87a62ebbee3619ce",
+          "publicPath": "/quantstack.github.io/assets/js/main.93298e8e.js"
         }
       ]
     },
@@ -351,9 +351,9 @@
     "869": {
       "css": [
         {
-          "file": "assets/css/styles.b992b25d.css",
-          "hash": "ab903ef679cd1daf",
-          "publicPath": "/quantstack.github.io/assets/css/styles.b992b25d.css"
+          "file": "assets/css/styles.9cfc422c.css",
+          "hash": "515839098c9adc72",
+          "publicPath": "/quantstack.github.io/assets/css/styles.9cfc422c.css"
         }
       ]
     },
