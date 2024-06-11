@@ -300,11 +300,6 @@
   padding: 10px;
 }
 
-.footer__title_custom {
-  color: purple;
-  margin-left: 10px;
-}
-
 .social-media-links {
   margin-left: var(--ifm-spacing-3xl);
   text-align: start;
@@ -430,11 +425,11 @@ a.menu__link:active {
 }
 
 .quantstack-astronaut-footer {
-  background: url(@site/static/img/quantstack/astronaut-footer.svg);
+  background: url(@site/static/img/quantstack/astronaut-footer-white.svg);
   content: "";
   display: flex;
-  height: 200px;
-  width: 200px;
+  height: 240px;
+  width: 240px;
   background-repeat: no-repeat;
 }
 

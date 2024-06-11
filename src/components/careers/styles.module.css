@@ -48,7 +48,7 @@
     font-weight: 400;
     padding: var(--ifm-spacing-xl)  var(--ifm-spacing-2xl);
   }
-
+g
   .interview_card {
     width: 300px;
     height: 270px;
@@ -84,7 +84,7 @@
   .WTJ_profile {
     margin-top: var(--ifm-spacing-2xl);
     background-color: var(--ifm-color-secondary-s1);
-    padding: var(--ifm-spacing-2xl) var(--ifm-spacing-2xl);
+    padding: 0 var(--ifm-spacing-2xl);
     font-family: var(--ifm-font-family-roboto);
     font-size: 16px;
     text-align: center;
@@ -159,7 +159,7 @@
   .WTJ_profile {
     margin-top: var(--ifm-spacing-6xl);
     background-color: var(--ifm-color-secondary-s1);
-    padding: var(--ifm-spacing-2xl) 0;
+    padding: 0 var(--ifm-spacing-2xl);
     font-family: var(--ifm-font-family-bebas-neue);
     font-size: var(--ifm-font-size-main-title);
     text-align: center;
