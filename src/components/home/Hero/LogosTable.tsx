@@ -1,5 +1,6 @@
 import styles from "./styles.module.css";
-import { customersLogos } from "./customersLogos";
+import useBaseUrl from "@docusaurus/useBaseUrl";
+import ThemedImage from "@theme/ThemedImage";
 import BloombergLogoUrl from "@site/static/img/logos/Bloomberg.png";
 import SGLogoUrl from "@site/static/img/logos/SG.png";
 import RapyutaLogoUrl from "@site/static/img/logos/Rapyuta.png";
@@ -68,11 +69,7 @@ export function LogosTable1() {
             <img src={BloombergLogoUrl} className={styles.customer_logo} />
           </div>
           <div className={"col col--2" + " " + styles.col_custom}>
-            <img
-              src={SGLogoUrl}
-              className={styles.customer_logo}
-              style={{ width: "240px" }}
-            />
+          <img src={SGLogoUrl} className={styles.customer_logo} />
           </div>
           <div className={"col col--2" + " " + styles.col_custom}>
             <img src={RapyutaLogoUrl} className={styles.customer_logo} />

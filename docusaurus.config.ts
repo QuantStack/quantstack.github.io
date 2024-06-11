@@ -199,9 +199,8 @@ const config: Config = {
               
                   <div class="office-address">
                   <b> QuantStack Office </b> <br/> 
-                  <br/>
                       16, avenue Curti <br/>
-                      94 100 Saint Maur des Fossés <br/>
+                      94100 Saint-Maur-des-Fossés <br/>
                       France
                   </div>
                
@@ -212,6 +211,13 @@ const config: Config = {
       ],
 
       copyright: copyright,
+    },
+    
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: true,
+        respectPrefersColorScheme: false,
+      
     },
 
     prism: {
