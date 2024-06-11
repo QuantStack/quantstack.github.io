@@ -170,13 +170,18 @@ export default {
           "title": " ",
           "items": [
             {
-              "html": "\n              \n                  <div class=\"office-address\">\n                  <b> QuantStack Office </b> <br/> \n                  <br/>\n                      16, avenue Curti <br/>\n                      94 100 Saint Maur des Fossés <br/>\n                      France\n                  </div>\n               \n                    "
+              "html": "\n              \n                  <div class=\"office-address\">\n                  <b> QuantStack Office </b> <br/> \n                      16, avenue Curti <br/>\n                      94100 Saint-Maur-des-Fossés <br/>\n                      France\n                  </div>\n               \n                    "
             }
           ]
         }
       ],
       "copyright": "Copyright © 2024 · QuantStack website · Built with Docusaurus",
       "style": "light"
+    },
+    "colorMode": {
+      "defaultMode": "light",
+      "disableSwitch": true,
+      "respectPrefersColorScheme": false
     },
     "prism": {
       "theme": {
@@ -428,11 +433,6 @@ export default {
           }
         }
       ]
-    },
-    "colorMode": {
-      "defaultMode": "light",
-      "disableSwitch": false,
-      "respectPrefersColorScheme": false
     },
     "docs": {
       "versionPersistence": "localStorage",

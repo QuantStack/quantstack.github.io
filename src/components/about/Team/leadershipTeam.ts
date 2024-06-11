@@ -11,7 +11,6 @@ import MartinAvatarUrl from "@site/static/img/avatars/Martin.png";
 import Sylvain from "@site/src/components/about/Team/Sylvain.md";
 import SylvainAvatarUrl from "@site/static/img/avatars/Sylvain.png";
 
-
 export const leadershipBioComponents = [
   Sylvain,
   Johan,
@@ -30,7 +29,6 @@ export const leadershipAvatarsUrls = [
   DavidAvatarUrl,
 ];
 
-
 export const leadershipTeam = [
   {
     completeName: "Sylvain Corlay",
@@ -44,8 +42,8 @@ export const leadershipTeam = [
     XLink: "https://twitter.com/SylvainCorlay",
     githubName: "@SylvainCorlay",
     avatarRoute: "@site/static/img/avatars/Sylvain@2x.png",
-    JupyterDistinction: "true",
-    subTeam: "LeadershipTeam"
+    distinctionTitle: ["Jupyter distinguished contributor", "ACM Software System Award"],
+    distinctionLink: ["https://jupyter.org/about#distinguished-contributors", "https://awards.acm.org/award_winners/corlay_8324973"],  subTeam: "LeadershipTeam",
   },
   {
     completeName: "Johan Mabille",
@@ -59,8 +57,10 @@ export const leadershipTeam = [
     XLink: "https://twitter.com/JohanMabille",
     githubName: "@JohanMabille",
     avatarRoute: "@site/static/img/avatars/Johan@2x.png",
-    JupyterDistinction: "true",
-    subTeam: "LeadershipTeam"
+    distinctionTitle: ["Jupyter distinguished contributor"],
+    distinctionLink:
+      ["https://jupyter.org/about#distinguished-contributors"],
+    subTeam: "LeadershipTeam",
   },
   {
     completeName: "Martin Renou",
@@ -74,8 +74,10 @@ export const leadershipTeam = [
     XLink: "https://twitter.com/martinRenou",
     githubName: "@martinRenou",
     avatarRoute: "@site/static/img/avatars/Martin@2x.png",
-    JupyterDistinction: "true",
-    subTeam: "LeadershipTeam"
+    distinctionTitle: ["Jupyter distinguished contributor"],
+    distinctionLink:
+      ["https://jupyter.org/about#distinguished-contributors"],
+    subTeam: "LeadershipTeam",
   },
   {
     completeName: "Jeremy Tuloup",
@@ -89,8 +91,10 @@ export const leadershipTeam = [
     XLink: "https://twitter.com/jtpio",
     githubName: "@jtpio",
     avatarRoute: "@site/static/img/avatars/Jeremy@2x.png",
-    JupyterDistinction: "true",
-    subTeam: "LeadershipTeam"
+    distinctionTitle: ["Jupyter distinguished contributor"],
+    distinctionLink:
+      ["https://jupyter.org/about#distinguished-contributors"],
+    subTeam: "LeadershipTeam",
   },
 
   {
@@ -105,8 +109,9 @@ export const leadershipTeam = [
     XLink: "",
     githubName: "@afshin",
     avatarRoute: "@site/static/img/avatars/Darian@2x.png",
-    JupyterDistinction: "true",
-    subTeam: "LeadershipTeam"
+    distinctionTitle: ["Jupyter distinguished contributor"],
+    distinctionLink:[ "https://jupyter.org/about#distinguished-contributors"],
+    subTeam: "LeadershipTeam",
   },
   {
     completeName: "David Brochart",
@@ -120,7 +125,8 @@ export const leadershipTeam = [
     XLink: "https://twitter.com/davidbrochart",
     githubName: "@davidbrochart",
     avatarRoute: "@site/static/img/avatars/David@2x.png",
-    JupyterDistinction: "true",
+    distinctionTitle: ["Jupyter distinguished contributor"],
+    distinctionLink: ["https://jupyter.org/about#distinguished-contributors"],
     subTeam: "LeadershipTeam",
   },
 ];
