@@ -13,7 +13,7 @@
   box-shadow: 0px 1px 10px 0 rgba(1, 0, 0, 0.17);
   padding: var(--ifm-spacing-lg) var(--ifm-spacing-md);
   text-align: center;
-  margin-bottom: var(--ifm-spacing-md);
+  margin-bottom: var(--ifm-spacing-xl);
 }
 
 .avatar_container {
@@ -79,11 +79,24 @@
     line-height: 20px; /* 142.857% */
     letter-spacing: 0.25px;
   }
+  .bio_container {
+
+    text-align: justify;
+    color: var(--ifm-color-neutral-black);
+    font-family: var(--ifm-font-family-roboto);
+    font-size: var(--ifm--font-size-normal);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 133.333% */
+    letter-spacing: 0.5px;
+    padding:var(--ifm-spacing-4xl) var(--ifm-spacing-2xl);
+  
+  }
+  
 }
 
 @media only screen and (min-width: 996px) {
   /* Desktop */
-
   .value_header {
     font-family: var(--ifm-font-family-rubik-one);
     font-size: var(--ifm-font-size-secondary-title);
@@ -126,14 +139,16 @@
     border-radius: 8px;
     box-shadow: 0px 0px 8px 1px #c8c8c7;
     background-color: var(--ifm-color-primary-p1);
+    margin-bottom: var(--ifm-spacing-xl);
   }
 
   .large_portrait_card {
-    width: 996px;
+    width: 1000px;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0px 1px 10px 0 rgba(1, 0, 0, 0.17);
     padding: var(--ifm-spacing-xl) var(--ifm-spacing-2xl);
+
   }
 
   .bio_container {
@@ -241,9 +256,4 @@
     padding: var(--ifm-spacing-3xl) var(--ifm-spacing-4xl);
     max-width: none;
   }
-
-  .h1_custom {
-    text-align: center;
-  }
-
 }

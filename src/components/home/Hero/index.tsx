@@ -8,7 +8,7 @@ export default function Hero() {
       <div className="main-container-with-margins">
         <div className={"container" + " " + styles.hero_desktop}>
           <div className={"row row--no-gutters" + " " + styles.row_custom}>
-            <div className={"col col--6" + " " + styles.col_custom}>
+            <div className={"col col--6 col--offset-1" + " " + styles.col_custom}>
               <div className="header-text">
                 <h1 className={styles.h1_custom}>
                   Open-source for discovery, science, and education
@@ -22,21 +22,23 @@ export default function Hero() {
                 </h2>
               </div>
             </div>
-            <div className={"col col--6" + " " + styles.astronaut_column}>
+            <div className={"col col--3 col--offset-1" + " " + styles.astronaut_column}>
               <Astronaut className={styles.astronaut_picture} />
             </div>
           </div>
         </div>
       </div>
-      <div className={"container" + " " + styles.logos_carousel}>
-        <div className="row">
-          <div className="col col--10 col--offset-1">
-            <div className={styles.worked_with}> We have worked with</div>
+      <div className="main-container-with-margins">
+        <div className={"container" + " " + styles.logos_carousel}>
+          <div className="row">
+            <div className="col col--10 col--offset-1">
+              <div className={styles.worked_with}> We have worked with</div>
+            </div>
           </div>
-        </div>
-        <div className="row">
-          <div className="col col--10 col--offset-1">
-            <SimpleSlider />
+          <div className="row">
+            <div className="col col--10 col--offset-1">
+              <SimpleSlider />
+            </div>
           </div>
         </div>
       </div>
