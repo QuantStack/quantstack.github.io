@@ -2,6 +2,8 @@ import styles from "./styles.module.css";
 import SmallPortraitCard from "./SmallPortraitCard";
 import Popup from "reactjs-popup";
 import LargePortraitCard from "./LargePortraitCard";
+import Link from "@docusaurus/Link";
+
 
 export function SubTeamDesktop({
   description,
@@ -28,7 +30,7 @@ export function SubTeamDesktop({
                         />
                       </div>
                     }
-                    overlayStyle={{ backgroundColor: "grey", opacity: "0.4" }}
+                    overlayStyle={{ backgroundColor: "grey", opacity: "0.4", width: "100%", height: "100%"}}
                     position={"center center"}
                   >
                     <LargePortraitCard
@@ -56,10 +58,12 @@ export function SubTeamMobile({ description, subTeamAvatarsUrls, subTeam }) {
           {subTeam.map((person, index) => (
             <li className="cards_list" key={index}>
               <div className="col">
+                <Link href={'/about/' + person.firstName}>
                 <SmallPortraitCard
                   person={person}
                   avatarUrl={subTeamAvatarsUrls[index]}
                 ></SmallPortraitCard>
+                </Link>
               </div>
             </li>
           ))}

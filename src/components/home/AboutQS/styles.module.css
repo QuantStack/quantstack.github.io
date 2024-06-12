@@ -3,6 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: var(--ifm-spacing-2xl);
 }
 
 .link_to_about_us {
@@ -61,7 +62,7 @@
 
   .about_us_container {
     margin: var(--ifm-spacing-2xl) 0;
-    padding: var(--ifm-spacing-2xl) 0 var(--ifm-spacing-xl) 0;
+    padding: var(--ifm-spacing-2xl) 0;
     background-color: var(--ifm-color-primary-p1);
   }
 

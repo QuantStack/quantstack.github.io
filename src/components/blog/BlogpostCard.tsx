@@ -4,6 +4,14 @@ import React from "react";
 import styles from "./styles.module.css";
 import Link from "@docusaurus/Link";
 
+export function BlogpostPicture({ blogpost }) {
+  return (
+    <div className={styles.blogpost_image}>
+      <img src={blogpost.image} style={{ height: "40%" }} />
+    </div>
+  );
+}
+
 export default function BlogpostCard({ blogpost }) {
   return (
     <div
@@ -12,21 +20,20 @@ export default function BlogpostCard({ blogpost }) {
     >
       <Link href={blogpost.url}>
         <div className="container">
-          <div className={"row" + " " + styles.row_custom}>
-            <div className={styles.blogpost_image_container}>
-              <div className={styles.blogpost_image}>
-                <img src={blogpost.image}></img>
-              </div>
+          <div className={"row" + " " + styles.row_custom}></div>
+          <div className={styles.blogpost_image_container}>
+            <div className={styles.blogpost_image}>
+              <img src={blogpost.image} width={blogpost.imageWidth} />
             </div>
           </div>
-          <div className="row">
-            <div className={styles.blogpost_header}>{blogpost.title}</div>
-            <div className={styles.blogpost_summary}>
-              {blogpost.summary.length < 200
-                ? blogpost.summary
-                : blogpost.summary.substring(0, 200) + "..."}
-            </div>
+          <div className={styles.blogpost_header}>{blogpost.title}</div>
+
+          <div className={styles.blogpost_summary}>
+            {blogpost.summary.length < 200
+              ? blogpost.summary
+              : blogpost.summary.substring(0, 200) + "..."}
           </div>
+
           <div
             className="row"
             style={{ marginBottom: "var(--ifm-spacing-md)" }}

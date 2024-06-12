@@ -65,22 +65,22 @@ export function LogosTable1() {
     <div className={styles.logos_table}>
       <div className={"container" + " " + styles.table_with_12_customers}>
         <div className="row row--no-gutters">
-          <div className={"col col--2" + " " + styles.col_custom}>
+          <div className={"col col--2" + " " + styles.col_logos}>
             <img src={BloombergLogoUrl} className={styles.customer_logo} />
           </div>
-          <div className={"col col--2" + " " + styles.col_custom}>
+          <div className={"col col--2" + " " + styles.col_logos}>
           <img src={SGLogoUrl} className={styles.customer_logo} />
           </div>
-          <div className={"col col--2" + " " + styles.col_custom}>
+          <div className={"col col--2" + " " + styles.col_logos}>
             <img src={RapyutaLogoUrl} className={styles.customer_logo} />
           </div>
-          <div className={"col col--2" + " " + styles.col_custom}>
+          <div className={"col col--2" + " " + styles.col_logos}>
             <img src={CFMLogoUrl} className={styles.customer_logo} />
           </div>
-          <div className={"col col--2" + " " + styles.col_custom}>
+          <div className={"col col--2" + " " + styles.col_logos}>
             <img src={EngieLogoUrl} className={styles.customer_logo} />
           </div>
-          <div className={"col col--2" + " " + styles.col_custom}>
+          <div className={"col col--2" + " " + styles.col_logos}>
             <img
               src={JRCLogoUrl}
               className={styles.customer_logo}
@@ -89,26 +89,26 @@ export function LogosTable1() {
           </div>
         </div>
         <div className="row row--no-gutters">
-          <div className={"col col--2 col" + " " + styles.col_custom}>
+          <div className={"col col--2 col" + " " + styles.col_logos}>
             <img src={ERDCLogoUrl} className={styles.customer_logo} />
           </div>
-          <div className={"col col--2" + " " + styles.col_custom}>
+          <div className={"col col--2" + " " + styles.col_logos}>
             <img src={PandaLogoUrl} className={styles.customer_logo} />
           </div>
-          <div className={"col col--2" + " " + styles.col_custom}>
+          <div className={"col col--2" + " " + styles.col_logos}>
             <img
               src={UniversiteParisCiteLogoUrl}
               className={styles.customer_logo}
             />
           </div>
 
-          <div className={"col col--2" + " " + styles.col_custom}>
+          <div className={"col col--2" + " " + styles.col_logos}>
             <img src={AirbusLogoUrl} className={styles.customer_logo} />
           </div>
-          <div className={"col col--2" + " " + styles.col_custom}>
+          <div className={"col col--2" + " " + styles.col_logos}>
             <img src={INRIALogoUrl} className={styles.customer_logo} />
           </div>
-          <div className={"col col--2" + " " + styles.col_custom}>
+          <div className={"col col--2" + " " + styles.col_logos}>
             <img src={CNAMLogoUrl} className={styles.customer_logo} />
           </div>
         </div>
@@ -122,22 +122,22 @@ export function LogosTable2() {
     <div className={styles.logos_table}>
       <div className={"container" + " " + styles.table_with_12_customers}>
         <div className="row row--no-gutters">
-          <div className={"col col--2" + " " + styles.col_custom}>
+          <div className={"col col--2" + " " + styles.col_logos}>
             <img src={NatixisLogoUrl} className={styles.customer_logo} />
           </div>
-          <div className={"col col--2" + " " + styles.col_custom}>
+          <div className={"col col--2" + " " + styles.col_logos}>
             <img src={NumfocusLogoUrl} className={styles.customer_logo} />
           </div>
-          <div className={"col col--2" + " " + styles.col_custom}>
+          <div className={"col col--2" + " " + styles.col_logos}>
             <img src={RobocorpLogoUrl} className={styles.customer_logo} />
           </div>
-          <div className={"col col--2" + " " + styles.col_custom}>
+          <div className={"col col--2" + " " + styles.col_logos}>
             <img src={CalPolyLogoUrl} className={styles.customer_logo} />
           </div>
-          <div className={"col col--2" + " " + styles.col_custom}>
+          <div className={"col col--2" + " " + styles.col_logos}>
             <img src={MaxFordhamLogoUrl} className={styles.customer_logo} />
           </div>
-          <div className={"col col--2" + " " + styles.col_custom}>
+          <div className={"col col--2" + " " + styles.col_logos}>
             <img
               src={GainTheoryUrl}
               className={styles.customer_logo}
@@ -147,26 +147,26 @@ export function LogosTable2() {
         </div>
       </div>
       <div className="row row--no-gutters">
-        <div className={"col col--2" + " " + styles.col_custom}>
+        <div className={"col col--2" + " " + styles.col_logos}>
           <img src={EnthoughtLogoUrl} className={styles.customer_logo} />
         </div>
-        <div className={"col col--2" + " " + styles.col_custom}>
+        <div className={"col col--2" + " " + styles.col_logos}>
           <img src={CressetLogoUrl} className={styles.customer_logo} />
         </div>
-        <div className={"col col--2" + " " + styles.col_custom}>
+        <div className={"col col--2" + " " + styles.col_logos}>
           <img
             src={TDKLogoUrl}
             className={styles.customer_logo}
             style={{ width: "60px" }}
           />
         </div>
-        <div className={"col col--2" + " " + styles.col_custom}>
+        <div className={"col col--2" + " " + styles.col_logos}>
           <img src={HarvardLogoUrl} className={styles.customer_logo} />
         </div>
-        <div className={"col col--2" + " " + styles.col_custom}>
+        <div className={"col col--2" + " " + styles.col_logos}>
           <img src={EMBLLogoUrl} className={styles.customer_logo} />
         </div>
-        <div className={"col col--2" + " " + styles.col_custom}>
+        <div className={"col col--2" + " " + styles.col_logos}>
           <img src={QuantCoUrl} className={styles.customer_logo} />
         </div>
       </div>
@@ -179,29 +179,29 @@ export function LogosTable3() {
     <div className={styles.logos_table}>
       <div className={"container" + " " + styles.table_with_12_customers}>
         <div className="row row--no-gutters">
-          <div className={"col col--2" + " " + styles.col_custom}>
+          <div className={"col col--2" + " " + styles.col_logos}>
             <img
               src={VoltronDataLogoUrl}
               className={styles.customer_logo}
               style={{ width: "140px" }}
             />
           </div>
-          <div className={"col col--2" + " " + styles.col_custom}>
+          <div className={"col col--2" + " " + styles.col_logos}>
             <img src={SafranLogoUrl} className={styles.customer_logo} />
           </div>
-          <div className={"col col--2" + " " + styles.col_custom}>
+          <div className={"col col--2" + " " + styles.col_logos}>
             <img src={DEShawLogoUrl} className={styles.customer_logo} />
           </div>
-          <div className={"col col--2" + " " + styles.col_custom}>
+          <div className={"col col--2" + " " + styles.col_logos}>
             <img
               src={UniversiteParisSaclayLogoUrl}
               className={styles.customer_logo}
             />
           </div>
-          <div className={"col col--2" + " " + styles.col_custom}>
+          <div className={"col col--2" + " " + styles.col_logos}>
             <img src={UnitedRoboticsLogoUrl} className={styles.customer_logo} />
           </div>
-          <div className={"col col--2" + " " + styles.col_custom}>
+          <div className={"col col--2" + " " + styles.col_logos}>
             <img
               src={CEALogoUrl}
               className={styles.customer_logo}
@@ -209,7 +209,7 @@ export function LogosTable3() {
             />
           </div>
 
-          <div className={"col col--2" + " " + styles.col_custom}>
+          <div className={"col col--2" + " " + styles.col_logos}>
             <img
               src={EcolePolytechniqueLogoUrl}
               className={styles.customer_logo}

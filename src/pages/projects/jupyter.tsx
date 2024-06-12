@@ -2,8 +2,6 @@ import JupyterDescription from "@site/src/components/projects/descriptions/Jupyt
 import ProjectPopup from "@site/src/components/projects/mobile/ProjectPopup";
 import { projectsDetails } from "@site/src/components/projects/descriptions/projectsDetails";
 
-
-
 export default function Jupyter() {
   return (
     <ProjectPopup name="jupyter" projectDetails={projectsDetails} ProjectDescription={JupyterDescription}/>

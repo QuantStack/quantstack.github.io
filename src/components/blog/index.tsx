@@ -10,7 +10,8 @@ export default function BlogsComponent() {
     return (
       blogpost.title.toLowerCase().includes(searchField.toLowerCase()) ||
       blogpost.authors.toLowerCase().includes(searchField.toLowerCase()) ||
-      blogpost.date.toLowerCase().includes(searchField.toLowerCase())
+      blogpost.date.toLowerCase().includes(searchField.toLowerCase())||
+      blogpost.summary.toLowerCase().includes(searchField.toLowerCase())
     );
   });
 

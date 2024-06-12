@@ -8,7 +8,11 @@ const breakpointValue: number = 996;
 export function WhatWeDoDesktop() {
   return (
     <div className={"container" + " " + styles.whatwedo_container}>
-       < h1 className = {styles.header}> What we do </h1>
+      <div className={"row" + " " + styles.row_custom}>
+        <div className={"col" + " " + styles.col_custom}>
+          <h1 className={styles.header}> What we do </h1>
+        </div>
+      </div>
       <div className={"row" + " " + styles.row_custom}>
         <div className={"col col--12" + " " + styles.col_custom}>
           <Topics />
@@ -35,7 +39,7 @@ export function WhatWeDoMobile() {
   );
 }
 
-export default function Home() {
+export default function WhatWeDo() {
   const [isDesktop, setDesktop] = useState(window.innerWidth > breakpointValue);
 
   const updateMedia = () => {
