@@ -16,7 +16,5 @@
 
 @media only screen and (min-width: 996px) {
   /* Desktop */
-  .link_to_services {
-    margin-top: var(--ifm-spacing-2xl);
-  }
+
 }

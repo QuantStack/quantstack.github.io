@@ -43,6 +43,141 @@ export default [
     exact: true
   },
   {
+    path: '/quantstack.github.io/about/Alexis',
+    component: ComponentCreator('/quantstack.github.io/about/Alexis', '039'),
+    exact: true
+  },
+  {
+    path: '/quantstack.github.io/about/Anastasiia',
+    component: ComponentCreator('/quantstack.github.io/about/Anastasiia', '318'),
+    exact: true
+  },
+  {
+    path: '/quantstack.github.io/about/Andreas',
+    component: ComponentCreator('/quantstack.github.io/about/Andreas', '270'),
+    exact: true
+  },
+  {
+    path: '/quantstack.github.io/about/Anutosh',
+    component: ComponentCreator('/quantstack.github.io/about/Anutosh', 'bce'),
+    exact: true
+  },
+  {
+    path: '/quantstack.github.io/about/Darian',
+    component: ComponentCreator('/quantstack.github.io/about/Darian', '2ea'),
+    exact: true
+  },
+  {
+    path: '/quantstack.github.io/about/David',
+    component: ComponentCreator('/quantstack.github.io/about/David', '433'),
+    exact: true
+  },
+  {
+    path: '/quantstack.github.io/about/Denisa',
+    component: ComponentCreator('/quantstack.github.io/about/Denisa', 'd90'),
+    exact: true
+  },
+  {
+    path: '/quantstack.github.io/about/Florence',
+    component: ComponentCreator('/quantstack.github.io/about/Florence', '5a0'),
+    exact: true
+  },
+  {
+    path: '/quantstack.github.io/about/Gabriela',
+    component: ComponentCreator('/quantstack.github.io/about/Gabriela', '801'),
+    exact: true
+  },
+  {
+    path: '/quantstack.github.io/about/Greg',
+    component: ComponentCreator('/quantstack.github.io/about/Greg', 'caa'),
+    exact: true
+  },
+  {
+    path: '/quantstack.github.io/about/Hind',
+    component: ComponentCreator('/quantstack.github.io/about/Hind', '22c'),
+    exact: true
+  },
+  {
+    path: '/quantstack.github.io/about/Ian',
+    component: ComponentCreator('/quantstack.github.io/about/Ian', '344'),
+    exact: true
+  },
+  {
+    path: '/quantstack.github.io/about/Isabel',
+    component: ComponentCreator('/quantstack.github.io/about/Isabel', '5a7'),
+    exact: true
+  },
+  {
+    path: '/quantstack.github.io/about/Jeremy',
+    component: ComponentCreator('/quantstack.github.io/about/Jeremy', 'b08'),
+    exact: true
+  },
+  {
+    path: '/quantstack.github.io/about/Joel',
+    component: ComponentCreator('/quantstack.github.io/about/Joel', '04f'),
+    exact: true
+  },
+  {
+    path: '/quantstack.github.io/about/Johan',
+    component: ComponentCreator('/quantstack.github.io/about/Johan', 'cfc'),
+    exact: true
+  },
+  {
+    path: '/quantstack.github.io/about/Julien',
+    component: ComponentCreator('/quantstack.github.io/about/Julien', 'f97'),
+    exact: true
+  },
+  {
+    path: '/quantstack.github.io/about/Kerim',
+    component: ComponentCreator('/quantstack.github.io/about/Kerim', '840'),
+    exact: true
+  },
+  {
+    path: '/quantstack.github.io/about/Martin',
+    component: ComponentCreator('/quantstack.github.io/about/Martin', 'fc0'),
+    exact: true
+  },
+  {
+    path: '/quantstack.github.io/about/Meriem',
+    component: ComponentCreator('/quantstack.github.io/about/Meriem', '56a'),
+    exact: true
+  },
+  {
+    path: '/quantstack.github.io/about/Nicolas',
+    component: ComponentCreator('/quantstack.github.io/about/Nicolas', '50c'),
+    exact: true
+  },
+  {
+    path: '/quantstack.github.io/about/Nour',
+    component: ComponentCreator('/quantstack.github.io/about/Nour', '412'),
+    exact: true
+  },
+  {
+    path: '/quantstack.github.io/about/Romain',
+    component: ComponentCreator('/quantstack.github.io/about/Romain', 'b2c'),
+    exact: true
+  },
+  {
+    path: '/quantstack.github.io/about/Serge',
+    component: ComponentCreator('/quantstack.github.io/about/Serge', '408'),
+    exact: true
+  },
+  {
+    path: '/quantstack.github.io/about/Sylvain',
+    component: ComponentCreator('/quantstack.github.io/about/Sylvain', '074'),
+    exact: true
+  },
+  {
+    path: '/quantstack.github.io/about/Thorsten',
+    component: ComponentCreator('/quantstack.github.io/about/Thorsten', 'ae4'),
+    exact: true
+  },
+  {
+    path: '/quantstack.github.io/about/Trung',
+    component: ComponentCreator('/quantstack.github.io/about/Trung', 'c1c'),
+    exact: true
+  },
+  {
     path: '/quantstack.github.io/blog',
     component: ComponentCreator('/quantstack.github.io/blog', '4ed'),
     exact: true

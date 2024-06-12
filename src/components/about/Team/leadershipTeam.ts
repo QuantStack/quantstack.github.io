@@ -42,8 +42,9 @@ export const leadershipTeam = [
     XLink: "https://twitter.com/SylvainCorlay",
     githubName: "@SylvainCorlay",
     avatarRoute: "@site/static/img/avatars/Sylvain@2x.png",
-    distinctionTitle: ["Jupyter distinguished contributor", "ACM Software System Award"],
-    distinctionLink: ["https://jupyter.org/about#distinguished-contributors", "https://awards.acm.org/award_winners/corlay_8324973"],  subTeam: "LeadershipTeam",
+    distinctionTitle: ["ACM Software System Award"],
+    distinctionLink: ["https://awards.acm.org/award_winners/corlay_8324973"],  
+    subTeam: "LeadershipTeam",
   },
   {
     completeName: "Johan Mabille",

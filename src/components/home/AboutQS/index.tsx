@@ -1,7 +1,6 @@
 import styles from "./styles.module.css";
-import Link from "@docusaurus/Link";
-import GroupPhotoUrl from "@site/static/img/group/QuantStack-2000-58.png"
-
+import GroupPhotoUrl from "@site/static/img/group/QuantStack-2000-58.png";
+import LinkToAboutUs from "../LinkToAboutUs";
 
 export default function AboutQS() {
   return (
@@ -23,14 +22,7 @@ export default function AboutQS() {
       </div>
       <div className={"row" + " " + styles.row_custom}>
         <div className={"col col--10 col--offset-1" + " " + styles.col_custom}>
-          <div className="link-container">
-            <Link
-              className={"link-to-button" + " " + styles.link_to_about_us}
-              href="/about"
-            >
-              {" LEARN MORE ABOUT US "}
-            </Link>
-          </div>
+          <LinkToAboutUs label={"LEARN MORE ABOUT US"} />
         </div>
       </div>
     </div>

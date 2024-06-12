@@ -15,6 +15,7 @@ export default function Topics() {
     <div>
       <div className={"container" + " " + styles.topics_container}>
         <ul className={"row" + " " + styles.row_custom}>
+          
           {topicsDetails.map((topics, index) => (
             <li className="cards_list" key={index}>
               <div className={"col" + " " + styles.col_custom}>
