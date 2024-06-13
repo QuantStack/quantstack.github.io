@@ -5,6 +5,13 @@ copyright:
 
 blog:
 
+  - url: https://blog.jupyter.org/jupytergis-d63b7adf9d0c
+    title: "JupyterGIS"
+    image: https://miro.medium.com/v2/resize:fit:1400/format:webp/1*IkYCf2cbk3SaxaROQ0eUsA.png
+    summary: "We are thrilled to announce that the European Space Agency (ESA) is funding our proposal “Real-time collaboration and collaborative editing for GIS workflows with Jupyter and QGIS.”"
+    date: June 12, 2024
+    authors: Sylvain Corlay, Anne Fouilloux, Monika Weissschnur
+
   - url: https://medium.com/@SylvainCorlay/commit-cdf57415b94b
     title: "Commit!"
     image: https://miro.medium.com/v2/0*3gKzwBOWprSRs35k
