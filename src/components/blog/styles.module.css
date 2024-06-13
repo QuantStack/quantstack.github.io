@@ -10,6 +10,11 @@
   padding: var(--ifm-spacing-xl);
 }
 
+.blog_time_index {
+  font-size: 10px;
+  font-family: var(--ifm-font-family-roboto);
+}
+
 .blogpost_image_container {
   display: flex;
   align-items: center;

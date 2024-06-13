@@ -1,5 +1,6 @@
 import Fanny from "@site/src/components/about/Team/Fanny.md";
 import styles from "@site/src/components/about/styles.module.css";
+import FannyAvatarUrl from "@site/static/img/avatars/Fanny.png";
 
 export default function FannyComponent() {
   return (
@@ -9,7 +10,7 @@ export default function FannyComponent() {
           <div className="col col--10 col--offset-1">
             <div className={styles.avatar_container}>
               <div className={styles.avatar}>
-                <img src="/img/avatars/Fanny@2x.jpg" />
+                <img src={FannyAvatarUrl} />
               </div>
             </div>
             <div className="spacing-2xl"></div>
