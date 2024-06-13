@@ -1,16 +1,18 @@
 import styles from "./styles.module.css";
-import { blogpostsDetails } from "./blogpostsDetails";
 import React, { useState } from "react";
 import BlogpostCard from "./BlogpostCard";
 
-export default function BlogsComponent() {
+
+export default function BlogsComponent({ blogpostsDetails }) {
+  const numberOfBlogs = blogpostsDetails.length
   const [searchField, setSearchField] = useState("");
 
   const filteredBlogPosts = blogpostsDetails.filter((blogpost) => {
+
     return (
       blogpost.title.toLowerCase().includes(searchField.toLowerCase()) ||
       blogpost.authors.toLowerCase().includes(searchField.toLowerCase()) ||
-      blogpost.date.toLowerCase().includes(searchField.toLowerCase())||
+      blogpost.date.toLowerCase().includes(searchField.toLowerCase()) ||
       blogpost.summary.toLowerCase().includes(searchField.toLowerCase())
     );
   });
@@ -45,13 +47,15 @@ export default function BlogsComponent() {
           </div>
 
           <ul className="row">
-            {filteredBlogPosts.map((blogpost, index) => (
+            {filteredBlogPosts.map((blogpost, index) =>(
+            
               <li className="cards_list" key={index}>
                 <div className="col col--2 col--offset-1">
-                  <BlogpostCard blogpost={blogpost}></BlogpostCard>
+                  <BlogpostCard blogpost={blogpost} timeIndex={numberOfBlogs-index}></BlogpostCard>
                 </div>
               </li>
-            ))}
+            )
+            )}
           </ul>
         </div>
       </div>

@@ -1,9 +1,10 @@
 import BlogpostCard from "../../blog/BlogpostCard";
-import { blogpostsDetails } from "../../blog/blogpostsDetails";
+import blogpostsDetails from "@site/src/components/blog/blogpostsDetails.json";
 import Link from "@docusaurus/Link";
 import styles from "./styles.module.css";
 
 export default function News() {
+  const numberOfBlogs = blogpostsDetails.length;
   return (
     <div className={"container" + " " + styles.news_container}>
       <div className={"row" + " " + styles.row_custom}>
@@ -14,17 +15,26 @@ export default function News() {
       <ul className={"row" + " " + styles.row_custom}>
         <li className="cards_list">
           <div className="col">
-            <BlogpostCard blogpost={blogpostsDetails[0]} />
+            <BlogpostCard
+              blogpost={blogpostsDetails[0]}
+              timeIndex={numberOfBlogs}
+            />
           </div>
         </li>
         <li className="cards_list">
           <div className="col col--2 col--offset-1">
-            <BlogpostCard blogpost={blogpostsDetails[1]} />
+            <BlogpostCard
+              blogpost={blogpostsDetails[1]}
+              timeIndex={numberOfBlogs - 1}
+            />
           </div>
         </li>
         <li className="cards_list">
           <div className="col col--2 col--offset-1">
-            <BlogpostCard blogpost={blogpostsDetails[2]} />
+            <BlogpostCard
+              blogpost={blogpostsDetails[2]}
+              timeIndex={numberOfBlogs - 2}
+            />
           </div>
         </li>
       </ul>
