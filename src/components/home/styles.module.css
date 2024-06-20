@@ -1,20 +1,41 @@
-.link_to_services {
-  background-color: var(--ifm-color-orange-jupyter);
-  margin: 0;
-  width: 258px;
-}
+
 
 @media only screen and (max-width: 996px) {
   /* Mobile */
-  .link_to_projects {
-    background-color: var(--ifm-color-orange-jupyter);
-    margin-top: var(--ifm-spacing-xl);
-    width: 358px;
+  .link_to_services {
+    background-color: var(--ifm-color-primary-p1);
+    width: 258px;
+    color: var(--ifm-color-neutral-n1);
+    text-transform: uppercase;
+    font-weight: 700;
   }
-  
+
+  .link_to_projects {
+    background-color: var(--ifm-color-primary-p1);
+    width: 358px;
+    color: var(--ifm-color-neutral-n1);
+    text-transform: uppercase;
+    font-weight: 700;
+  }
 }
 
 @media only screen and (min-width: 996px) {
   /* Desktop */
+  .link_to_services {
+    background-color: var(--ifm-color-orange-jupyter);
+    width: 258px;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  .link_to_projects {
+    background-color: var(--ifm-color-orange-jupyter);
+    margin-top: var(--ifm-spacing-xl);
+    width: 358px;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  
 
 }

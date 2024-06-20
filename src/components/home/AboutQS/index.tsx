@@ -6,7 +6,7 @@ export default function AboutQS() {
   return (
     <div className={"container" + " " + styles.about_us_container}>
       <div className={"row" + " " + styles.row_custom}>
-        <div className={"col col--10 col--offset-1" + " " + styles.col_custom}>
+        <div className={"col col--8 col--offset-2" + " " + styles.col_custom}>
           <div className={styles.text_container}>
             We are a team of expert of open-source developers, the very same
             people behind a number of technologies that you already use.
@@ -14,7 +14,7 @@ export default function AboutQS() {
         </div>
       </div>
       <div className={"row" + " " + styles.row_custom}>
-        <div className={"col col--10 col--offset-1" + " " + styles.col_custom}>
+        <div className={"col" + " " + styles.col_custom}>
           <div className={styles.picture_container}>
             <img src={GroupPhotoUrl} />
           </div>

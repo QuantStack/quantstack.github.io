@@ -42,9 +42,9 @@ blog:
 
   - url: https://medium.com/@QuantStack/quantstack-2023-in-review-94fea0a35520
     title: "QuantStack: 2023 in review" 
-    image: https://miro.medium.com/v2/resize:fit:2000/format:webp/0*rwQcR7xvAIr_7pzY 
+    image: https://miro.medium.com/v2/resize:fit:2000/format:webp/0*rwQcR7xvAIr_7pzY
     summary: "Since QuantStack was founded in 2016, we have remained committed to releasing our work under permissive open-source licenses. Here are some highlights of the 2023 achievements. Buckle up!" 
-    date: January 3rd, 2023
+    date: January 3rd, 2024
     authors: Sylvain Corlay
 
   - url: https://blog.jupyter.org/recent-keyboard-navigation-improvements-in-jupyter-4df32f97628d
@@ -188,7 +188,7 @@ blog:
     authors: Martin Renou
 
   - url: https://blog.pyodide.org/posts/canvas-renderer-matplotlib-in-pyodide/
-    title: HTML5 &lt;canvas&gt; based renderer for Matplotlib in Pyodide
+    title: HTML5 <canvas> based renderer for Matplotlib in Pyodide
     image: https://blog.pyodide.org/posts/canvas-renderer-matplotlib-in-pyodide/featured.png
     summary: In this post, we present a new backend for Matplotlib enabling the rendering of figures in the browser by leveraging the &lt;canvas&gt; element. This showcases how JavaScript and Python can interact with each other, thanks to Pyodide.
     date: April 1st, 2022
@@ -293,7 +293,7 @@ blog:
     authors: Thorsten Beier
 
   - url: https://blog.jupyter.org/jupyterlite-jupyter-%EF%B8%8F-webassembly-%EF%B8%8F-python-f6e2e41ab3fa
-    title: Jupyter ️❤️ WebAssembly ❤️ Python
+    title: Jupyter ❤️ WebAssembly ❤️ Python
     image: https://miro.medium.com/max/1024/1*CMvcTaLSAD5A-WHCtnIFwA.png
     summary: JupyterLite is a JupyterLab distribution that runs entirely in the web browser, backed by in-browser language kernels. JupyterLite is a reboot of several attempts at making a full static Jupyter…
     date: July 13th, 2021
@@ -321,7 +321,7 @@ blog:
     authors: Kevin Jahns
 
   - url: https://blog.jupyter.org/retrolab-a-jupyterlab-distribution-with-a-retro-look-and-feel-8096b8b223d0
-    title: RetroLab — A JupyterLab distribution with a retro look and feel
+    title: RetroLab - A JupyterLab distribution with a retro look and feel
     image: https://miro.medium.com/max/3840/1*n9MydI9CDW9vlav1gMlo0Q.png
     summary: RetroLab is an alternative JupyterLab distribution, built from the ground-up, providing a notebook interface with a retro look and feel. Currently at version 3.0, JupyterLab provides an advanced…
     date: May 27th, 2021
@@ -342,7 +342,7 @@ blog:
     authors: Sylvain Corlay, Johan Mabille
 
   - url: https://medium.com/@mari_meir/jupyter-%EF%B8%8F-%EF%B8%8F-cytoscape-e2e77be8e0f9
-    title: Jupyter ️❤️ Cytoscape
+    title: Jupyter ❤️ Cytoscape
     image: https://miro.medium.com/max/250/1*fib_QqwBNksN4YiJiAneQg.png
     summary: Cytoscape is an open source software platform for visualizing complex networks and integrating these with any type of attribute data. While the project was started in the life sciences community, it…
     date: May 11th, 2021
@@ -427,7 +427,7 @@ blog:
     authors: Vassil Vassilev, David Lange, Simeon Ehrig, Sylvain Corlay
 
   - url: https://david-brochart.medium.com/xtensor-%EF%B8%8F-zarr-4f5cf25c65e5
-    title: Xtensor ❤️  Zarr
+    title: Xtensor ❤️ Zarr
     image: https://miro.medium.com/max/2160/1*N1w2lJOA9n0HKw0Hlf0ruQ.png
     summary: A C++ implementation of the Zarr specification…
     date: Dec 15, 2020
