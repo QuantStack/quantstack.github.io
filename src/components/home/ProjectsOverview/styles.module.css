@@ -18,10 +18,10 @@
     color: var(--ifm-color-secondary-s2);
   }
 
-  .col_custom_text {
+  .col_project_overview_text {
     padding: var(--ifm-spacing-4xl) var(--ifm-spacing-3xl);
   }
-  .col_custom_picture {
+  .col_project_overview_picture {
     display: flex;
     align-items: center;
     justify-content: center;

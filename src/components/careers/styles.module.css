@@ -48,7 +48,7 @@
     font-weight: 400;
     padding: var(--ifm-spacing-xl)  var(--ifm-spacing-2xl);
   }
-g
+
   .interview_card {
     width: 300px;
     height: 270px;
@@ -153,10 +153,6 @@ g
     letter-spacing: 0.5px;
   }
   
-  .row_custom {
-    padding: 0;
-  }
-
   .WTJ_profile {
     margin: var(--ifm-spacing-6xl) 0 var((--ifm-spacing-2xl)) 0;
     background-color: var(--ifm-color-secondary-s1);
@@ -164,5 +160,9 @@ g
     font-family: var(--ifm-font-family-roboto);
     font-size: 28px;
     text-align: center;
+  }
+
+  .learn_more_WTJ {
+    margin-bottom: var(--ifm-spacing-2xl)
   }
 }

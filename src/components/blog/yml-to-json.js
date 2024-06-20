@@ -44,7 +44,7 @@ function defineImagesNames(data) {
     name = name.split(".").join("-");
     name = name.split("(").join("");
     name = name.split(")").join("");
-    name = name.replace('à', 'a');
+    name = name.replace("à", "a");
     name = name.substring(0, 80).split(" ").join("-") + fileExtension;
     imagePaths.push(imagesDirectory + name);
   });
@@ -106,9 +106,8 @@ function changeBlogpostsDetails(
     const imageAspectRatio = width / height;
     const containerWidth = imageContainerDimensions[0];
     const containerHeight = imageContainerDimensions[1];
-  
 
-    if (imageAspectRatio<=1.4 ) {
+    if (imageAspectRatio <= 1.4) {
       blogpost.imageRenderedWidth = containerHeight * imageAspectRatio;
       blogpost.imageRenderedHeight = containerHeight;
     } else {

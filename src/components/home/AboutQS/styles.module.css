@@ -67,8 +67,4 @@
     background-color: var(--ifm-color-primary-p1);
   }
 
-  .col_custom {
-    margin: 0 ;
-    padding: 0;
-  }
 }

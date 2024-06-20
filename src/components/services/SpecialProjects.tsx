@@ -2,6 +2,7 @@ import styles from "./styles.module.css";
 import SpecialProjectsMD from "./descriptions/SpecialProjects.md";
 import SpecialProjectsIllustrationUrl from "@site/static/img/illustrations/special_projects.png";
 import { useEffect, useState } from "react";
+
 const breakpointValue: number = 996;
 
 export function SpecialProjectsDesktop() {

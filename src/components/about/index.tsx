@@ -34,48 +34,56 @@ export default function About() {
 
 export function AboutDesktop() {
   return (
-    <div className={"container" + " " + styles.about_container}>
-      <div className="row">
-        <div className="col">
-          <h1 className={styles.h1_margin}>Our values </h1>
-        </div>
-      </div>
-      <div className="row">
-        <div className="col">
-          <FourValues />
-          <h1 className={styles.h1_custom}>Meet the QuantStack team</h1>
-          <h4>
-            A team of outliers, leaders in software projects adopted at the
-            global scale, benefiting millions of people worldwide.
-          </h4>
-          <SubTeamDesktop
-            description={"The leadership team"}
-            subTeam={leadershipTeam}
-            subTeamAvatarsUrls={leadershipAvatarsUrls}
-            subTeamBioComponents={leadershipBioComponents}
-          />
-          <SubTeamDesktop
-            description={"The core team"}
-            subTeam={coreTeam}
-            subTeamAvatarsUrls={coreAvatarsUrls}
-            subTeamBioComponents={coreBioComponents}
-          />
-          <SubTeamDesktop
-            description={"QuantStack collaborators"}
-            subTeam={QSCollaboratorsTeam}
-            subTeamAvatarsUrls={QSCollaboratorsAvatarsUrls}
-            subTeamBioComponents={QSCollaboratorsBioComponents}
-          />
-          <div className={styles.join_the_team_container}>
-            <h1 className={styles.h1_custom}>Join the team</h1>
-            <div className={styles.join_the_team_text}>
-              QuantStack is seeking talents in the open-source scientific
-              computing community. Join a team committed to open-science and
-              free software.
+    <div>
+      <div className="main-container-with-margins">
+        <div className={"container" + " " + styles.about_container}>
+          <div className="row">
+            <div className="col col--10 col--offset-1">
+              <h1 className="h1-padding-none">Our values </h1>
             </div>
-            <LinkToContact label={"JOIN THE TEAM!"} />
+          </div>
+          <div className="row">
+            <div className="col col--10 col--offset-1">
+              <FourValues />
+
+              <h1 className="h1-centered">Meet the QuantStack team</h1>
+              <h4>
+                A team of outliers, leaders in software projects adopted at the
+                global scale, benefiting millions of people worldwide.
+              </h4>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col">
+              <SubTeamDesktop
+                description={"The leadership team"}
+                subTeam={leadershipTeam}
+                subTeamAvatarsUrls={leadershipAvatarsUrls}
+                subTeamBioComponents={leadershipBioComponents}
+              />
+              <SubTeamDesktop
+                description={"The core team"}
+                subTeam={coreTeam}
+                subTeamAvatarsUrls={coreAvatarsUrls}
+                subTeamBioComponents={coreBioComponents}
+              />
+              <SubTeamDesktop
+                description={"QuantStack collaborators"}
+                subTeam={QSCollaboratorsTeam}
+                subTeamAvatarsUrls={QSCollaboratorsAvatarsUrls}
+                subTeamBioComponents={QSCollaboratorsBioComponents}
+              />
+            </div>
           </div>
         </div>
+      </div>
+      <div className={styles.join_the_team_container}>
+        <h1 className="h1-centered">Join the team</h1>
+        <div className={styles.join_the_team_text}>
+          QuantStack is seeking talents in the open-source scientific computing
+          community. Join a team committed to open-science and free software.
+        </div>
+        <LinkToContact label={"JOIN THE TEAM!"} />
       </div>
     </div>
   );
@@ -85,7 +93,7 @@ export function AboutMobile() {
   return (
     <div className={"container" + " " + styles.about_container}>
       <div className={"row" + " " + styles.row_custom}>
-        <div className={"col col--12" + " " + styles.col_custom}>
+        <div className={"col col--12" + " " + "col--padding-none"}>
           <h2 className={styles.h2_custom}>
             A team of outliers, leaders in software projects adopted at the
             global scale, benefiting millions of people worldwide.
@@ -93,7 +101,7 @@ export function AboutMobile() {
         </div>
       </div>
       <div className="row">
-        <div className={"col col--10 col--offset-1" + " " + styles.col_custom}>
+        <div className={"col col--10 col--offset-1" + " " + "col-padding-none"}>
           <div className={styles.four_values_div}>
             <FourValues />
           </div>

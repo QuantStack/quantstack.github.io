@@ -42,6 +42,7 @@ export function HomeMobile(): JSX.Element {
     <>
       <Hero />
       <LinkToServices label={"Discover our services"}/>
+      <div className="spacing-2xl"/>
       <WhatWeDo />
       <div className="spacing-2xl"/>
       <LinkToProjects label={"DISCOVER ALL OF OUR PROJECTS"}/>

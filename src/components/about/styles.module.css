@@ -55,13 +55,10 @@
   .join_the_team_text {
     background-color: var(--ifm-color-secondary-s1);
   }
-  .col_custom {
-    padding: 0;
-  }
 
   .value_header {
     font-family: var(--ifm-font-family-rubik-one);
-    font-size: var(--ifm-font-size-secondary-title);
+    font-size: 16px;
     font-style: normal;
     font-weight: 600;
     line-height: 16px;
@@ -73,11 +70,33 @@
     color: #371300;
     text-align: center;
     font-family: var(--ifm-font-family-roboto);
-    font-size: 6px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 400;
     line-height: 20px; /* 142.857% */
     letter-spacing: 0.25px;
+  }
+
+  .value_image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: var(--ifm-spacing-lg);
+  }
+
+  .value_card {
+    padding: var(--ifm-spacing-2xl) var(--ifm-spacing-lg);
+    border: none;
+    border-radius: 0;
+    border: transparent;
+  }
+
+  .value_card_white {
+    background-color: white;
+  }
+
+  .value_card_yellow {
+    background-color: var(--ifm-color-primary-p1);
   }
 
   .bio_container {
@@ -123,15 +142,7 @@
   }
 
   .about_container {
-    margin-top: var(--ifm-spacing-5xl);
-  }
-
-  .h1_custom {
-    text-align: center;
-  }
-
-  .h1_margin {
-    padding:0;
+    margin-top: var(--ifm-spacing-6xl);
   }
 
   .value_card {
@@ -150,10 +161,6 @@
     border-radius: 10px;
     box-shadow: 0px 1px 10px 0 rgba(1, 0, 0, 0.17);
     padding: var(--ifm-spacing-xl) var(--ifm-spacing-2xl);
-  }
-
-  p {
-    text-align: center;
   }
 
   .bio_container {
@@ -239,12 +246,6 @@
 
   .four_values_container {
     margin-top: var(--ifm-spacing-5xl);
-  }
-
-  .four_values_div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
 
   .join_the_team_container {

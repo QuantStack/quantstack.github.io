@@ -1,12 +1,14 @@
 import styles from "./styles.module.css";
 import { topicsDetails } from "./topics/topicsDetails";
-import { TopicsCard } from "./TopicsCard";
+import { TopicsCardDesktop } from "./TopicsCard";
+import { TopicsCardMobile } from "./TopicsCard";
 import JupyterMD from "./topics/Jupyter.md";
 import SupplyChainMD from "./topics/SupplyChain.md";
 import ComputingMD from "./topics/Computing.md";
 import { useEffect, useState } from "react";
 
 const TopicsDescriptions = [JupyterMD, SupplyChainMD, ComputingMD];
+const topicsCardColors = ["yellow", "white", "yellow", "white"];
 
 export function TopicsDesktop() {
   return (
@@ -24,7 +26,7 @@ export function TopicsDesktop() {
                   styles.col_topics
                 }
               >
-                <TopicsCard
+                <TopicsCardDesktop
                   topics={topics}
                   TopicsDescriptionMD={TopicsDescriptions[index]}
                 />
@@ -44,11 +46,11 @@ export function TopicsMobile() {
         {topicsDetails.map((topics, index) => (
           <ul className="row">
             <li className="cards_list" key={index}>
-              <div className="spacing-5xl"></div>
 
-              <TopicsCard
+              <TopicsCardMobile
                 topics={topics}
                 TopicsDescriptionMD={TopicsDescriptions[index]}
+                color = {topicsCardColors [index]}
               />
             </li>
           </ul>

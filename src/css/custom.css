@@ -27,6 +27,7 @@
   --ifm-color-secondary-s4: #002646;
   --ifm-color-secondary-s5: rgb(79, 82, 255);
   --ifm-color-secondary-s6: rgb(9, 0, 93);
+  --ifm-color-blue-contact-send-button: #1861a1ff;
   --ifm-color-secondary-button: var(--ifm-color-secondary-s1);
   --ifm-font-size-small: 14px;
   --ifm-font-size-normal: 18px;
@@ -54,16 +55,30 @@
   --ifm-spacing-8xl: 400px;
 }
 
+.col-margin-none {
+  margin: none;
+}
 .col-flex-full-centered {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+.col-padding-none {
+  padding: 0;
+}
+
 .row-flex-full-centered {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.row-padding-none {
+  padding: 0;
+}
+
+.row-margin-none {
+  margin: 0;
 }
 
 .h1-centered {
@@ -143,6 +158,7 @@ ul {
     line-height: 150%;
     line-height: 20px; /* 142.857% */
     letter-spacing: 0.25px;
+    text-align: justify;
   }
 
   li {

@@ -8,13 +8,13 @@ export default function SupplyChainProjects() {
       <div className={"row" + " " + styles.row_custom}>
         <div
           className={
-            "col col--5 col--offset-1 " + " " + styles.col_custom_picture
+            "col col--5 col--offset-1 " + " " + styles.col_project_overview_picture
           }
         >
           <img src={MambaPictureUrl} />
         </div>
-        <div className={"col col--5" + " " + styles.col_custom_text}>
-          <h1>Software supply chain </h1>
+        <div className={"col col--5" + " " + styles.col_project_overview_text}>
+          <h1 className="h1-padding-none">Software supply chain </h1>
           <h2 className={styles.h2_custom}>
             We are the main organisation supporting the mamba package manager.
           </h2>

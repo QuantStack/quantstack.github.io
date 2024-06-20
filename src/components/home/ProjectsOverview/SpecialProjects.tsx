@@ -6,8 +6,8 @@ export default function SpecialProjects() {
     return (
       <div className={"container" + " " + styles.project_desktop}>
         <div className="row">
-          <div className={"col col--5 col--offset-1" + " " + styles.col_custom_text}>
-            <h1>Special projects</h1>
+          <div className={"col col--5 col--offset-1" + " " + styles.col_project_overview_text}>
+            <h1 className="h1-padding-none">Special projects</h1>
             <h2 className={styles.h2_custom}>
               Applications built from the ground up and addressing a complete use
               case.
@@ -15,7 +15,7 @@ export default function SpecialProjects() {
             
              <SpecialProjectsMD/> 
           </div>
-          <div className={"col col--5" + " " + styles.col_custom_picture}>
+          <div className={"col col--5" + " " + styles.col_project_overview_picture}>
             <img src={SpecialProjectsPictureUrl} />
           </div>
         </div>
