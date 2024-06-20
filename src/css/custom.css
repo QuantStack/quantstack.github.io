@@ -46,13 +46,54 @@
   --ifm-spacing-lg: 24px;
   --ifm-spacing-xl: 32px;
   --ifm-spacing-2xl: 56px;
-  --ifm-spacing-7xl: 240px;
   --ifm-spacing-3xl: 64px;
   --ifm-spacing-4xl: 96px;
   --ifm-spacing-5xl: 120px;
   --ifm-spacing-6xl: 144px;
   --ifm-spacing-7xl: 240px;
   --ifm-spacing-8xl: 400px;
+}
+
+.col-flex-full-centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row-flex-full-centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.h1-centered {
+  text-align: center;
+}
+
+.h1-padding-none {
+  padding: 0;
+}
+
+.p-centered {
+  text-align: center;
+}
+
+.p-left-aligned {
+  text-align: start;
+}
+
+.p-left-aligned-padding-none {
+  text-align: start;
+  padding: 0;
+}
+
+.p-centered-padding-none {
+  text-align: center;
+  padding: 0;
+}
+
+ul {
+  padding-left: 0;
 }
 
 @media only screen and (max-width: 996px) {
@@ -62,6 +103,7 @@
     display: flex;
     justify-content: center;
   }
+
   h1 {
     color: var(--ifm-color-primary-p3);
     font-family: var(--ifm-font-family-bebas-neue);
@@ -71,6 +113,7 @@
     line-height: 150%; /* 36px */
     letter-spacing: 1.056px;
     text-align: center;
+    padding: 0;
   }
 
   h2 {
@@ -112,7 +155,6 @@
 
 @media only screen and (min-width: 996px) {
   /*Desktop */
-
   .main-container-with-margins {
     margin-left: 96px;
     margin-right: 96px;
@@ -155,12 +197,6 @@
     padding: 0;
   }
 
-  @media (min-width: 1440px) {
-    .container {
-      max-width: none;
-    }
-  }
-
   p {
     font-family: var(--ifm-font-family-roboto);
     font-size: var(--ifm-font-size-normal);
@@ -168,17 +204,24 @@
     font-style: normal;
     line-height: 150%;
     text-align: justify;
-    /*margin-bottom: var(--ifm-spacing-lg);*/
   }
-  .office-address {
-    margin-left: var(--ifm-spacing-6xl);
-    text-align: start;
-    color: var(--ifm-color-neutral-black);
+}
+
+@media (min-width: 1440px) {
+  .container {
+    max-width: none;
   }
-  .social-media-links {
-    margin-left: var(--ifm-spacing-3xl);
-    text-align: start;
-  }
+}
+
+.office-address {
+  margin-left: var(--ifm-spacing-6xl);
+  text-align: start;
+  color: var(--ifm-color-neutral-black);
+}
+
+.social-media-links {
+  margin-left: var(--ifm-spacing-3xl);
+  text-align: start;
 }
 
 .spacing-none {

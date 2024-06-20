@@ -1,4 +1,7 @@
-@media only screen and (max-width: 600px) {
+.h1_custom {
+  padding: 0;
+}
+@media only screen and (max-width: 996px) {
   /*Mobile */
   .project_container {
     padding: var(--ifm-spacing-sm) var(--ifm-spacing-lg);
@@ -45,6 +48,12 @@
     padding: 0;
     margin: 0;
   }
+
+  .ul.row.row_custom_all_projects {
+    padding-left: 0;
+  }
+
+
 
   .project_title_small_container {
     display: flex;
@@ -103,8 +112,6 @@
     height: 52px;
   }
 
-
-  
   .project_title_popup_container {
     display: flex;
     padding: 0;
@@ -116,6 +123,8 @@
 
   .project_container {
     margin-bottom: var(--ifm-spacing-lg);
+    margin-left: 0;
+    padding: 0;
   }
 
   .project_title {
@@ -128,7 +137,11 @@
     line-height: 150%;
     text-align: start;
   }
-
+  
+  .col_custom_header {
+    padding: 0;
+    text-align: center;
+  }
   .col_custom_text {
     background-color: var(--ifm-color-orange-light1);
     padding: var(--ifm-spacing-4xl) var(--ifm-spacing-3xl);
@@ -154,7 +167,7 @@
 
   .col_custom_schedule {
     /*padding: var(--ifm-spacing-7xl) var(--ifm-spacing-3xl);*/
-    padding: var(--ifm-spacing-3xl) var(--ifm-spacing-3xl);
+    padding: var(--ifm-spacing-2xl) var(--ifm-spacing-2xl);
     margin: 0;
     max-width: none;
   }
@@ -170,9 +183,10 @@
     margin-bottom: var(--ifm-spacing-6xl);
   }
 
+
   .header_container {
     margin-top: var(--ifm-spacing-6xl);
-    padding: 0 100;
+    padding: 0;
   }
 
   .schedule_text {
@@ -182,6 +196,7 @@
     font-weight: 800;
     line-height: 150%;
     text-align: center;
+    margin-bottom: var(--ifm-spacing-2xl);
   }
 
   .link_to_button_custom {
@@ -189,6 +204,7 @@
   }
 
   .schedule_a_meeting_container {
+    margin-top: var(--ifm-spacing-7xl);
     background-color: var(--ifm-color-secondary-s1);
   }
 }

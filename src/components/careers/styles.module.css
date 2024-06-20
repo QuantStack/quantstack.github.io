@@ -152,16 +152,17 @@ g
     line-height: 24px; /* 133.333% */
     letter-spacing: 0.5px;
   }
+  
   .row_custom {
     padding: 0;
   }
 
   .WTJ_profile {
-    margin-top: var(--ifm-spacing-6xl);
+    margin: var(--ifm-spacing-6xl) 0 var((--ifm-spacing-2xl)) 0;
     background-color: var(--ifm-color-secondary-s1);
-    padding: 0 var(--ifm-spacing-2xl);
-    font-family: var(--ifm-font-family-bebas-neue);
-    font-size: var(--ifm-font-size-main-title);
+    padding:  var(--ifm-spacing-2xl) var(--ifm-spacing-2xl);
+    font-family: var(--ifm-font-family-roboto);
+    font-size: 28px;
     text-align: center;
   }
 }

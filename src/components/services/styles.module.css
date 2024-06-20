@@ -30,7 +30,7 @@
     padding: var(--ifm-spacing-xl) var(--ifm-spacing-2xl);
   }
 
-  .contract {
+  .sign_a_support {
     font-family: var(--ifm-font-family-roboto);
     font-size: 14px;
     justify-content: center;
@@ -48,7 +48,7 @@
     margin-top: var(--ifm-spacing-6xl);
   }
 
-  .contract {
+  .sign_a_support {
     font-family: var(--ifm-font-family-bebas-neue);
     font-size: var(--ifm-font-size-secondary-title);
     justify-content: center;
@@ -58,6 +58,7 @@
     background-color: var(--ifm-color-secondary-s1);
     color: var(--ifm-color-secondary-s4);
     padding: var(--ifm-spacing-2xl) 0;
+    margin-top: var(--ifm-spacing-7xl);
   }
 
   .h2_custom {

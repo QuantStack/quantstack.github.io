@@ -62,25 +62,24 @@ export default function SimpleSlider() {
 
 export function LogosTable1() {
   return (
-    <div className={styles.logos_table}>
       <div className={"container" + " " + styles.table_with_12_customers}>
         <div className="row row--no-gutters">
-          <div className={"col col--2" + " " + styles.col_logos}>
+          <div className={"col col--2" + " " + "col-flex-full-centered"}>
             <img src={BloombergLogoUrl} className={styles.customer_logo} />
           </div>
-          <div className={"col col--2" + " " + styles.col_logos}>
+          <div className={"col col--2" + " " + "col-flex-full-centered"}>
           <img src={SGLogoUrl} className={styles.customer_logo} />
           </div>
-          <div className={"col col--2" + " " + styles.col_logos}>
+          <div className={"col col--2" + " " + "col-flex-full-centered"}>
             <img src={RapyutaLogoUrl} className={styles.customer_logo} />
           </div>
-          <div className={"col col--2" + " " + styles.col_logos}>
+          <div className={"col col--2" + " " + "col-flex-full-centered"}>
             <img src={CFMLogoUrl} className={styles.customer_logo} />
           </div>
-          <div className={"col col--2" + " " + styles.col_logos}>
+          <div className={"col col--2" + " " + "col-flex-full-centered"}>
             <img src={EngieLogoUrl} className={styles.customer_logo} />
           </div>
-          <div className={"col col--2" + " " + styles.col_logos}>
+          <div className={"col col--2" + " " + "col-flex-full-centered"}>
             <img
               src={JRCLogoUrl}
               className={styles.customer_logo}
@@ -89,55 +88,53 @@ export function LogosTable1() {
           </div>
         </div>
         <div className="row row--no-gutters">
-          <div className={"col col--2 col" + " " + styles.col_logos}>
+          <div className={"col col--2" + " " + "col-flex-full-centered"}>
             <img src={ERDCLogoUrl} className={styles.customer_logo} />
           </div>
-          <div className={"col col--2" + " " + styles.col_logos}>
+          <div className={"col col--2" + " " + "col-flex-full-centered"}>
             <img src={PandaLogoUrl} className={styles.customer_logo} />
           </div>
-          <div className={"col col--2" + " " + styles.col_logos}>
+          <div className={"col col--2" + " " + "col-flex-full-centered"}>
             <img
               src={UniversiteParisCiteLogoUrl}
               className={styles.customer_logo}
             />
           </div>
-
-          <div className={"col col--2" + " " + styles.col_logos}>
+          <div className={"col col--2" + " " + "col-flex-full-centered"}>
             <img src={AirbusLogoUrl} className={styles.customer_logo} />
           </div>
-          <div className={"col col--2" + " " + styles.col_logos}>
+          <div className={"col col--2" + " " + "col-flex-full-centered"}>
             <img src={INRIALogoUrl} className={styles.customer_logo} />
           </div>
-          <div className={"col col--2" + " " + styles.col_logos}>
+          <div className={"col col--2" + " " + "col-flex-full-centered"}>
             <img src={CNAMLogoUrl} className={styles.customer_logo} />
           </div>
         </div>
       </div>
-    </div>
+   
   );
 }
 
 export function LogosTable2() {
   return (
-    <div className={styles.logos_table}>
       <div className={"container" + " " + styles.table_with_12_customers}>
         <div className="row row--no-gutters">
-          <div className={"col col--2" + " " + styles.col_logos}>
+          <div className={"col col--2" + " " + "col-flex-full-centered"}>
             <img src={NatixisLogoUrl} className={styles.customer_logo} />
           </div>
-          <div className={"col col--2" + " " + styles.col_logos}>
+          <div className={"col col--2" + " " + "col-flex-full-centered"}>
             <img src={NumfocusLogoUrl} className={styles.customer_logo} />
           </div>
-          <div className={"col col--2" + " " + styles.col_logos}>
+          <div className={"col col--2" + " " + "col-flex-full-centered"}>
             <img src={RobocorpLogoUrl} className={styles.customer_logo} />
           </div>
-          <div className={"col col--2" + " " + styles.col_logos}>
+          <div className={"col col--2" + " " + "col-flex-full-centered"}>
             <img src={CalPolyLogoUrl} className={styles.customer_logo} />
           </div>
-          <div className={"col col--2" + " " + styles.col_logos}>
+          <div className={"col col--2" + " " + "col-flex-full-centered"}>
             <img src={MaxFordhamLogoUrl} className={styles.customer_logo} />
           </div>
-          <div className={"col col--2" + " " + styles.col_logos}>
+          <div className={"col col--2" + " " + "col-flex-full-centered"}>
             <img
               src={GainTheoryUrl}
               className={styles.customer_logo}
@@ -145,28 +142,28 @@ export function LogosTable2() {
             />
           </div>
         </div>
-      </div>
+  
       <div className="row row--no-gutters">
-        <div className={"col col--2" + " " + styles.col_logos}>
+        <div className={"col col--2" + " " + "col-flex-full-centered"}>
           <img src={EnthoughtLogoUrl} className={styles.customer_logo} />
         </div>
-        <div className={"col col--2" + " " + styles.col_logos}>
+        <div className={"col col--2" + " " + "col-flex-full-centered"}>
           <img src={CressetLogoUrl} className={styles.customer_logo} />
         </div>
-        <div className={"col col--2" + " " + styles.col_logos}>
+        <div className={"col col--2" + " " + "col-flex-full-centered"}>
           <img
             src={TDKLogoUrl}
             className={styles.customer_logo}
             style={{ width: "60px" }}
           />
         </div>
-        <div className={"col col--2" + " " + styles.col_logos}>
+        <div className={"col col--2" + " " + "col-flex-full-centered"}>
           <img src={HarvardLogoUrl} className={styles.customer_logo} />
         </div>
-        <div className={"col col--2" + " " + styles.col_logos}>
+        <div className={"col col--2" + " " + "col-flex-full-centered"}>
           <img src={EMBLLogoUrl} className={styles.customer_logo} />
         </div>
-        <div className={"col col--2" + " " + styles.col_logos}>
+        <div className={"col col--2" + " " + "col-flex-full-centered"}>
           <img src={QuantCoUrl} className={styles.customer_logo} />
         </div>
       </div>
@@ -176,40 +173,38 @@ export function LogosTable2() {
 
 export function LogosTable3() {
   return (
-    <div className={styles.logos_table}>
       <div className={"container" + " " + styles.table_with_12_customers}>
         <div className="row row--no-gutters">
-          <div className={"col col--2" + " " + styles.col_logos}>
+          <div className={"col col--2" + " " + "col-flex-full-centered"}>
             <img
               src={VoltronDataLogoUrl}
               className={styles.customer_logo}
               style={{ width: "140px" }}
             />
           </div>
-          <div className={"col col--2" + " " + styles.col_logos}>
+          <div className={"col col--2" + " " + "col-flex-full-centered"}>
             <img src={SafranLogoUrl} className={styles.customer_logo} />
           </div>
-          <div className={"col col--2" + " " + styles.col_logos}>
+          <div className={"col col--2" + " " + "col-flex-full-centered"}>
             <img src={DEShawLogoUrl} className={styles.customer_logo} />
           </div>
-          <div className={"col col--2" + " " + styles.col_logos}>
+          <div className={"col col--2" + " " + "col-flex-full-centered"}>
             <img
               src={UniversiteParisSaclayLogoUrl}
               className={styles.customer_logo}
             />
           </div>
-          <div className={"col col--2" + " " + styles.col_logos}>
+          <div className={"col col--2" + " " + "col-flex-full-centered"}>
             <img src={UnitedRoboticsLogoUrl} className={styles.customer_logo} />
           </div>
-          <div className={"col col--2" + " " + styles.col_logos}>
+          <div className={"col col--2" + " " + "col-flex-full-centered"}>
             <img
               src={CEALogoUrl}
               className={styles.customer_logo}
               style={{ width: "60px" }}
             />
           </div>
-
-          <div className={"col col--2" + " " + styles.col_logos}>
+          <div className={"col col--2" + " " + "col-flex-full-centered"}>
             <img
               src={EcolePolytechniqueLogoUrl}
               className={styles.customer_logo}
@@ -218,6 +213,5 @@ export function LogosTable3() {
           </div>
         </div>
       </div>
-    </div>
   );
 }
