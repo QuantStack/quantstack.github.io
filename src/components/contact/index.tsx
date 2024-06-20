@@ -3,19 +3,26 @@ import ContactForm from "./ContactForm";
 import { useEffect, useState } from "react";
 import ContactIllustration from "@site/static/img/illustrations/contact.svg";
 
-
 const breakpointValue: number = 996;
 
 export function ContactDesktop() {
   return (
     <div className={"container" + " " + styles.contact_container}>
       <div className="row">
-        <div className={"col col--6 col--offset-1" + " " + styles.col_custom_picture}>
-         
-          <ContactIllustration/>
+        <div
+          className={
+            "col col--6 col--offset-1" + " " + "col-flex-full-centered"
+          }
+          style={{ margin: "var(--ifm-spacing-2xl) 0" }}
+        >
+          <ContactIllustration />
         </div>
-        <div className={"col col--5" + " " + styles.col_custom_form}>
-        <h1 className={styles.h1_custom}> Contact us</h1>
+        <div
+          className={
+            "col col--5" + " " + "col-padding-none" + " " + "col-margin-none"
+          }
+        >
+          <h1> Contact us</h1>
           <div className={styles.form_container}>
             <ContactForm />
           </div>
@@ -28,15 +35,18 @@ export function ContactDesktop() {
 export function ContactMobile() {
   return (
     <div className={"container" + " " + styles.contact_container}>
-      <div className={"row" + " " + styles.row_custom}>
-        <div className={"col" + " " + styles.col_custom_picture}>
-        <h1 className={styles.h1_custom}> Contact us</h1>
-          <img src="/img/illustrations/contact.svg"></img>
+      <div className={"row" + " " + "row-flex-full-centered"}>
+        <div className={"col"}>
+          <h1 className="h1-centered"> Contact us</h1>
         </div>
+      </div>
+      <div className={"row" + " " + "row-flex-full-centered"}>
+        <div className={"col" + " " + "col-flex-full-centered"}>
+          <ContactIllustration height={"450px"} />
         </div>
-        <div className={"row" + " " + styles.row_custom}>
-        <div className={"col col--5" + " " + styles.col_custom_form}>
-      
+      </div>
+      <div className={"row" + " " + "row-flex-full-centered"}>
+        <div className={"col col--5"}>
           <div className={styles.form_container}>
             <ContactForm />
           </div>
@@ -46,7 +56,7 @@ export function ContactMobile() {
   );
 }
 
-export default function Contact () {
+export default function Contact() {
   const [isDesktop, setDesktop] = useState(window.innerWidth > breakpointValue);
 
   const updateMedia = () => {
