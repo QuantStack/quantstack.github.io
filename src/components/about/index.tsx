@@ -1,10 +1,14 @@
 import styles from "./styles.module.css";
-import { leadershipTeam, leadershipBioComponents, leadershipAvatarsUrls } from "./Team/leadershipTeam";
+import {
+  leadershipTeam,
+  leadershipBioComponents,
+  leadershipAvatarsUrls,
+} from "./Team/leadershipTeam";
 import { coreTeam, coreBioComponents, coreAvatarsUrls } from "./Team/coreTeam";
 import {
   QSCollaboratorsTeam,
   QSCollaboratorsBioComponents,
-  QSCollaboratorsAvatarsUrls
+  QSCollaboratorsAvatarsUrls,
 } from "./Team/QScollaborators";
 import FourValues from "./FourValues";
 import { SubTeamDesktop, SubTeamMobile } from "./SubTeam";
@@ -32,8 +36,12 @@ export function AboutDesktop() {
   return (
     <div className={"container" + " " + styles.about_container}>
       <div className="row">
-        <div className="col col--12">
-          <h1 className={styles.h1_custom}>Our values </h1>
+        <div className="col">
+          <h1 className={styles.h1_margin}>Our values </h1>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col">
           <FourValues />
           <h1 className={styles.h1_custom}>Meet the QuantStack team</h1>
           <h4>
@@ -43,19 +51,19 @@ export function AboutDesktop() {
           <SubTeamDesktop
             description={"The leadership team"}
             subTeam={leadershipTeam}
-            subTeamAvatarsUrls= {leadershipAvatarsUrls}
+            subTeamAvatarsUrls={leadershipAvatarsUrls}
             subTeamBioComponents={leadershipBioComponents}
           />
           <SubTeamDesktop
             description={"The core team"}
             subTeam={coreTeam}
-            subTeamAvatarsUrls = {coreAvatarsUrls}
+            subTeamAvatarsUrls={coreAvatarsUrls}
             subTeamBioComponents={coreBioComponents}
           />
           <SubTeamDesktop
             description={"QuantStack collaborators"}
             subTeam={QSCollaboratorsTeam}
-            subTeamAvatarsUrls = {QSCollaboratorsAvatarsUrls}
+            subTeamAvatarsUrls={QSCollaboratorsAvatarsUrls}
             subTeamBioComponents={QSCollaboratorsBioComponents}
           />
           <div className={styles.join_the_team_container}>
@@ -76,8 +84,8 @@ export function AboutDesktop() {
 export function AboutMobile() {
   return (
     <div className={"container" + " " + styles.about_container}>
-      <div className={"row" + " "+ styles.row_custom}>
-        <div className={"col col--12" +" "+ styles.col_custom}>
+      <div className={"row" + " " + styles.row_custom}>
+        <div className={"col col--12" + " " + styles.col_custom}>
           <h2 className={styles.h2_custom}>
             A team of outliers, leaders in software projects adopted at the
             global scale, benefiting millions of people worldwide.
@@ -85,26 +93,25 @@ export function AboutMobile() {
         </div>
       </div>
       <div className="row">
-        <div className={"col col--10 col--offset-1" +" "+ styles.col_custom}>
-          <div className ={styles.four_values_div}>
-          <FourValues />
+        <div className={"col col--10 col--offset-1" + " " + styles.col_custom}>
+          <div className={styles.four_values_div}>
+            <FourValues />
           </div>
 
           <SubTeamMobile
             description={"The leadership team"}
             subTeam={leadershipTeam}
             subTeamAvatarsUrls={leadershipAvatarsUrls}
-          
           />
-              <SubTeamMobile
+          <SubTeamMobile
             description={"The core team"}
             subTeam={coreTeam}
             subTeamAvatarsUrls={coreAvatarsUrls}
           />
-              <SubTeamMobile
+          <SubTeamMobile
             description={"QuantStack collaborators"}
             subTeam={QSCollaboratorsTeam}
-           subTeamAvatarsUrls={QSCollaboratorsAvatarsUrls}
+            subTeamAvatarsUrls={QSCollaboratorsAvatarsUrls}
           />
           <div className={styles.join_the_team_container}>
             <div className={styles.join_the_team_text}>

@@ -8,18 +8,18 @@ const breakpointValue: number = 996;
 export function WhatWeDoDesktop() {
   return (
     <div className={"container" + " " + styles.whatwedo_container}>
-      <div className={"row" + " " + styles.row_custom}>
-        <div className={"col" + " " + styles.col_custom}>
+      <div className={"row"}>
+        <div className={"col" + " " + "col-flex-full-centered"}>
           <h1 className={styles.header}> What we do </h1>
         </div>
       </div>
-      <div className={"row" + " " + styles.row_custom}>
-        <div className={"col col--12" + " " + styles.col_custom}>
+      <div className={"row"}>
+        <div className={"col col--12" + " " + "col-flex-full-centered"}>
           <Topics />
         </div>
       </div>
       <div className={"row" + " " + styles.link_to_services_desktop}>
-        <div className={"col col--12" + " " + styles.col_custom}>
+        <div className={"col col--12" + " " + "col-flex-full-centered"}>
           <LinkToServices label={"DISCOVER OUR SERVICES"} />
         </div>
       </div>
@@ -31,7 +31,7 @@ export function WhatWeDoMobile() {
   return (
     <div className={"container" + " " + styles.whatwedo_container}>
       <div className={"row" + " " + styles.row_custom}>
-        <div className={"col col--12" + " " + styles.col_custom}>
+        <div className={"col" + " " + "col-flex-full-centered"}>
           <Topics />
         </div>
       </div>

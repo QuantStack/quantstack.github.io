@@ -21,19 +21,22 @@
 
 @media only screen and (max-width: 996x) {
   /*Mobile*/
-
   .header {
     display: none;
   }
+
   .topics_card {
+    height: 222px;
+    width: 302px;
     padding: var(--ifm-spacing-2xl) var(--ifm-spacing-lg);
-    margin-bottom: var(--ifm-spacing-xl);
-    background-color: var(--ifm-color-primary-p1);
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 1px #c8c8c7;
   }
-  
+
   .link_to_services_desktop {
     display: none;
   }
+
 }
 
 @media only screen and (min-width: 996px) {
@@ -50,19 +53,13 @@
     border-radius: 8px;
     box-shadow: 0px 0px 8px 1px #c8c8c7;
     background-color: var(--ifm-color-orange-light2);
-  }
-
-  .col_custom {
-    display: flex;
-    justify-content: center;
-    margin-right: var(--ifm-spacing-xl)
+    margin-bottom: var(--ifm-spacing-6xl);
   }
 
   .topics_container {
-    margin: var(--ifm-spacing-2xl) 0;
+    margin-top: var(--ifm-spacing-2xl);
     display: flex;
     align-items: center;
     justify-content: center;
   }
-
 }

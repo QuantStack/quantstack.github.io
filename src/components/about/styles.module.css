@@ -79,8 +79,8 @@
     line-height: 20px; /* 142.857% */
     letter-spacing: 0.25px;
   }
-  .bio_container {
 
+  .bio_container {
     text-align: justify;
     color: var(--ifm-color-neutral-black);
     font-family: var(--ifm-font-family-roboto);
@@ -89,10 +89,8 @@
     font-weight: 400;
     line-height: 24px; /* 133.333% */
     letter-spacing: 0.5px;
-    padding:var(--ifm-spacing-4xl) var(--ifm-spacing-2xl);
-  
+    padding: var(--ifm-spacing-4xl) var(--ifm-spacing-2xl);
   }
-  
 }
 
 @media only screen and (min-width: 996px) {
@@ -132,6 +130,10 @@
     text-align: center;
   }
 
+  .h1_margin {
+    padding:0;
+  }
+
   .value_card {
     height: 516px;
     width: 264px;
@@ -148,7 +150,10 @@
     border-radius: 10px;
     box-shadow: 0px 1px 10px 0 rgba(1, 0, 0, 0.17);
     padding: var(--ifm-spacing-xl) var(--ifm-spacing-2xl);
+  }
 
+  p {
+    text-align: center;
   }
 
   .bio_container {
@@ -253,7 +258,12 @@
     line-height: 36px; /* 128.571% */
     background-color: var(--ifm-color-secondary-s1);
     color: var(--ifm-color-secondary-s4);
-    padding: var(--ifm-spacing-3xl) var(--ifm-spacing-4xl);
+    padding: var(--ifm-spacing-2xl) var(--ifm-spacing-2xl);
     max-width: none;
+  }
+
+  .join_the_team_text {
+    background-color: var(--ifm-color-secondary-s1);
+    margin-bottom: var(--ifm-spacing-2xl);
   }
 }

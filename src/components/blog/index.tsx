@@ -4,7 +4,8 @@ import BlogpostCard from "./BlogpostCard";
 
 
 export default function BlogsComponent({ blogpostsDetails }) {
-  const numberOfBlogs = blogpostsDetails.length
+  const numberOfBlogs = blogpostsDetails.length;
+  console.log('numberOfBlogs:', numberOfBlogs);
   const [searchField, setSearchField] = useState("");
 
   const filteredBlogPosts = blogpostsDetails.filter((blogpost) => {
@@ -16,6 +17,7 @@ export default function BlogsComponent({ blogpostsDetails }) {
       blogpost.summary.toLowerCase().includes(searchField.toLowerCase())
     );
   });
+  //const filteredBlogPosts = blogpostsDetails;
 
   const handleChange = (event) => {
     setSearchField(event.target.value);

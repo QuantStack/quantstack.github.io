@@ -1,23 +1,13 @@
 @media only screen and (max-width: 996px) {
   /*Mobile*/
-  .h1_custom {
-    text-align: center;
+  .hero_container {
+    margin: var(--ifm-spacing-xl) var(--ifm-spacing-xl) 0 var(--ifm-spacing-xl);
   }
 
   .h2_custom {
     color: var(--ifm-color-secondary-s2);
     text-align: center;
-  }
-
-  .p_custom {
-    text-align: center;
-  }
-
-  .row_custom {
-    flex-direction: column-reverse;
-  }
-  .logos_table {
-    display: none;
+    margin: 0;
   }
 
   .astronaut_picture {
@@ -39,11 +29,7 @@
 
 @media only screen and (min-width: 996px) {
   /* Desktop */
-  .h1_custom {
-    padding: 0;
-  }
-
-  .hero_desktop {
+  .hero_container {
     margin: var(--ifm-spacing-5xl) 0 var(--ifm-spacing-xl) 0;
   }
 
@@ -67,21 +53,10 @@
     color: var(--ifm-color-secondary-s2);
   }
 
-  .col_logos {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .row_custom {
-    background-color: var(--ifm-color-secondary-s);
-  }
-
   .astronaut_column {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: "var(--ifm-spacing-6xl) var(--ifm-spacing-4xl)";
   }
 
   .astronaut_picture {

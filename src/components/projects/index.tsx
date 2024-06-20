@@ -23,12 +23,9 @@ export default function Projects() {
     <div>
       <div className="main-container-with-margins">
         <div>
-          <div className={styles.header_container}>
-            <HeaderComponent />
-          </div>
-          <div className={styles.all_projects_container}>
-            {isDesktop ? <AllProjectsDeskTop /> : <AllProjectsMobile />}
-          </div>
+          <HeaderComponent />
+
+          {isDesktop ? <AllProjectsDeskTop /> : <AllProjectsMobile />}
         </div>
       </div>
       <div>

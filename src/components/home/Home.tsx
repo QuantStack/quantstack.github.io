@@ -1,3 +1,4 @@
+
 import Hero from "./Hero";
 import WhatWeDo from "./WhatWeDo";
 import ProjectsOverview from "./ProjectsOverview";
@@ -40,8 +41,9 @@ export function HomeMobile(): JSX.Element {
   return (
     <>
       <Hero />
-      <LinkToServices label={"DISCOVER OUR SERVICES"}/>
+      <LinkToServices label={"Discover our services"}/>
       <WhatWeDo />
+      <div className="spacing-2xl"/>
       <LinkToProjects label={"DISCOVER ALL OF OUR PROJECTS"}/>
       <AboutQS />
     </>

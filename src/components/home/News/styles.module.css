@@ -9,7 +9,7 @@
 @media only screen and (min-width: 996px) {
   /*Desktop */
   .news_container {
-    margin: var(--ifm-spacing-5xl) 0;
+    margin: var(--ifm-spacing-5xl) 0 var(--ifm-spacing-2xl) 0 ;
   }
 
   .blog_button {

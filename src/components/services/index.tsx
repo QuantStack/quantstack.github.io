@@ -12,7 +12,7 @@ export default function Services() {
       <Support />
       <Transition />
       <SpecialProjects />
-      <div className={styles.contract}>
+      <div className={styles.sign_a_support}>
         Sign a support retainer for QuantStack services in our ecosystem.
         <LinkToContact label={"CONTACT US!"}/>
       </div>
