@@ -5,8 +5,8 @@ export default function ComputingProjects() {
   return (
     <div className={"container" + " " + styles.project_desktop}>
       <div className="row">
-        <div className={"col col--5 col--offset-1" + " " + styles.col_custom_text}>
-          <h1>Scientific computing </h1>
+        <div className={"col col--5 col--offset-1" + " " + styles.col_project_text}>
+          <h1 className="h1-padding-none">Scientific computing </h1>
           <h2 className={styles.h2_custom}>
             Supporting the development of several C++ scientific computing
             packages.
@@ -31,7 +31,7 @@ export default function ComputingProjects() {
             </li>
           </p>
         </div>
-        <div className={"col col--5" + " " + styles.col_custom_picture}>
+        <div className={"col col--5" + " " + styles.col_project_picture}>
           <XTensorXSIMDPicture />
         </div>
       </div>

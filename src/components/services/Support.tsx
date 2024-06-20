@@ -2,6 +2,7 @@ import styles from "./styles.module.css";
 import SupportMD from "./descriptions/Support.md";
 import SupportIllustrationUrl from "@site/static/img/illustrations/support.png";
 import { useEffect, useState } from "react";
+
 const breakpointValue: number = 996;
 
 export function SupportDesktop() {

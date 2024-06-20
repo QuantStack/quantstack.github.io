@@ -2,7 +2,7 @@
 .send_button {
   width: 258px;
   height: 59px;
-  background: var(--ifm-color-secondary-s2);
+  background: var(--ifm-color-blue-contact-send-button);
 }
 
 .send_button_container {
@@ -39,12 +39,6 @@
     height: 220px;
     border-radius: 4px;
   }
-  
-  .row_custom {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
 }
 
 @media only screen and (min-width: 996px) {
@@ -78,19 +72,5 @@
     width: 508px;
     height: 220px;
     border-radius: 4px;
-  }
-
-  .h1_custom {
-    text-align: left;
-    padding: 0;
-  }
-
-  .col_custom_picture {
-    margin: var(--ifm-spacing-2xl) 0;
-  }
-
-  .col_custom_form {
-    padding: 0;
-    margin: 0;
   }
 }
