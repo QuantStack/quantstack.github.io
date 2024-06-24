@@ -168,6 +168,10 @@ const config: Config = {
           title: "Menu ",
           items: [
             {
+              label: "Home",
+              href: "/home/",
+            },
+            {
               label: "Projects",
               href: "/projects/",
             },
@@ -192,13 +196,12 @@ const config: Config = {
         
 
         {
-          title: " ",
+          title: "QuantStack office ",
           items: [
             {
               html: `
               
-                  <div class="office-address">
-                  <b> QuantStack Office </b> <br/> 
+               <div class="quantstack-address">
                       16, avenue Curti <br/>
                       94100 Saint-Maur-des-Fossés <br/>
                       France
