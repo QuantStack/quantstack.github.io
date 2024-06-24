@@ -145,6 +145,10 @@ export default {
           "title": "Menu ",
           "items": [
             {
+              "label": "Home",
+              "href": "/home/"
+            },
+            {
               "label": "Projects",
               "href": "/projects/"
             },
@@ -167,10 +171,10 @@ export default {
           ]
         },
         {
-          "title": " ",
+          "title": "QuantStack office ",
           "items": [
             {
-              "html": "\n              \n                  <div class=\"office-address\">\n                  <b> QuantStack Office </b> <br/> \n                      16, avenue Curti <br/>\n                      94100 Saint-Maur-des-Fossés <br/>\n                      France\n                  </div>\n               \n                    "
+              "html": "\n              \n               <div class=\"quantstack-address\">\n                      16, avenue Curti <br/>\n                      94100 Saint-Maur-des-Fossés <br/>\n                      France\n                  </div>\n               \n                    "
             }
           ]
         }
