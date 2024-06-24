@@ -2,6 +2,7 @@ import BlogpostCard from "../../blog/BlogpostCard";
 import blogpostsDetails from "@site/src/components/blog/blogpostsDetails.json";
 import Link from "@docusaurus/Link";
 import styles from "./styles.module.css";
+import LinkToBlogs from "../LinkToBlogs";
 
 export default function News() {
   const numberOfBlogs = blogpostsDetails.length;
@@ -38,14 +39,8 @@ export default function News() {
           </div>
         </li>
       </ul>
-      <div className="link-box">
-        <Link
-          className={"link-to-button" + " " + styles.blog_button}
-          href="/blog"
-        >
-          {"READ MORE BLOGS! "}
-        </Link>
-      </div>
+
+      <LinkToBlogs label={"READ MORE POSTS"} />
     </div>
   );
 }

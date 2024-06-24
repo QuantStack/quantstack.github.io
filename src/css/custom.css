@@ -5,30 +5,96 @@
 @import url("https://fonts.googleapis.com/css2?family=Dosis");
 
 :root {
-  --ifm-color-neutral-n1: #605e58;
-  --ifm-color-neutral-n2: #371300;
-  --ifm-color-neutral-black: #1c1c16;
-  --ifm-color-primary-p1: #f6f195;
-  --ifm-color-primary-p2: #1c1c16;
-  --ifm-color-primary-p3: #1e1c00;
-  --ifm-footer-background-color: var(--ifm-color-primary-p1);
   --ifm-color-orange-jupyter: #f37726;
-  --ifm-color-bleu-jupyter: #1976d2;
+  --ifm-color-blue-jupyter: #1976d2;
   --ifm-color-green-xtensor: #4ecb71;
   --ifm-color-grey-condaforge: #7a7865;
-  --ifm-color-orange-light1: #fdf9f0;
-  --ifm-color-orange-light2: #fef9ec;
-  --ifm-color-orange-contact: rgb(255, 196, 68);
-  --ifm-color-primary-button: var(--ifm-color-orange-jupyter);
+  --ifm-color-orange-light: #fef9ec;
+  --ifm-color-indigo-i1: rgb(79, 82, 255);
+
+  --ifm-color-primary-p1: #f6f195;
+  --ifm-color-primary-p1-dark-mode: #d0cb54;
+  --ifm-color-primary-p2: #1c1c16;
+  --ifm-color-primary-p2-dark-mode: white;
+  --ifm-color-primary-p3: #1e1c00;
+
   --ifm-color-secondary-s1: #a0c9ff;
   /*--ifm-color-secondary-s2: #1861a1;*/
-  --ifm-color-secondary-s2: var(--ifm-color-bleu-jupyter);
-  --ifm-color-secondary-s3: #001355;
-  --ifm-color-secondary-s4: #002646;
-  --ifm-color-secondary-s5: rgb(79, 82, 255);
-  --ifm-color-secondary-s6: rgb(9, 0, 93);
-  --ifm-color-blue-contact-send-button: #1861a1ff;
-  --ifm-color-secondary-button: var(--ifm-color-secondary-s1);
+  --ifm-color-secondary-s2: var(--ifm-color-blue-jupyter);
+  --ifm-color-secondary-s2-dark-mode: ;
+  --ifm-color-secondary-s3: #002646;
+
+  --ifm-color-neutral-n1: #605e58;
+  --ifm-color-neutral-n2: #371300;
+
+  --ifm-background-color: white;
+  --ifm-background-color-dark-mode: #1c1c16;
+
+  --ifm-background-color-value-card: #f6f195;
+  --ifm-background-color-value-dark-mode: #1c1c16;
+  --ifm-text-color-value-card: #1c1c16;
+  --ifm-text-color-value-card-dark-mode: #d0cb54;
+
+  --ifm-background-color-topics-card: #fef9ec;
+  --ifm-background-color-topics-card-dark-mode: #1c1c16;
+  --ifm-text-color-topics-card: var(--ifm-color-neutral-n2);
+  --ifm-text-color-topics-card-dark-mode: #d0cb54;
+
+  --ifm-background-color-topics-card-yellow: var(--ifm-color-primary-p1);
+  --ifm-background-color-topics-card-yellow-dark-mode: #1c1c16;
+  --ifm-text-color-topics-card-yellow: var(--ifm-color-neutral-n2);
+  --ifm-text-color-topics-card-yellow-dark-mode: var(--ifm-color-primary-p1);
+
+  --ifm-background-color-topics-card-yellow: white;
+  --ifm-background-color-topics-card-yellow-dark-mode: #4b4900;
+  --ifm-text-color-topics-card-white: var(--ifm-color-neutral-n2);
+  --ifm-text-color-topics-card-white-dark-mode: white;
+
+  --ifm-background-color-portrait-card: white;
+  --ifm-background-color-portrait-dark-mode: #1c1c16;
+  --ifm-text-color-portrait-card: #1c1c16;
+  --ifm-text-color-portrait-dark-mode: white;
+
+  --ifm-background-color-project-card: var(--ifm-color-orange-light);
+  --ifm-background-color-project-card-dark-mode: #1c1c16;
+
+  --ifm-color-text-on-primary-p1: #1c1c16;
+  --ifm-color-text-on-primary-p1-dark-mode: black;
+
+  --ifm-background-color-blue-banner: #a0c9ff;
+  --ifm-background-color-blue-banner-dark-mode: #0c37b7;
+  --ifm-text-color-blue-banner: #002646;
+  --ifm-text-color-blue-banner-dark-mode: #dde1ff;
+
+  --ifm-background-color-about-qs-banner: var(--ifm-color-primary-p1);
+  --ifm-background-color-about-qs-banner-dark-mode: var(
+    --ifm-color-primary-p1-dark-mode
+  );
+  --ifm-text-color-about-qs-banner: #1c1c16;
+  --ifm-text-color-about-qs-banner-dark-mode: #1c1c16;
+
+  /* footer */
+  --ifm-background-color-footer: var(--ifm-color-primary-p1);
+  --ifm-background-color-footer-dark-mode: var(
+    --ifm-color-primary-p1-dark-mode
+  );
+  --ifm-text-color-footer: black;
+  --ifm-text-color-footer-dark-mode: black;
+
+  /* buttons */
+  --ifm-background-color-button-home: var(--ifm-color-orange-jupyter);
+  --ifm-background-color-button-home-dark-mode: var(--ifm-color-blue-jupyter);
+  --ifm-text-color-button-home: white;
+  --ifm-text-color-button-home-dark-mode: white;
+
+  --ifm-background-color-button-blue-banner: #002646;
+  --ifm-background-color-button-blue-banner-dark-mode: #dde1ff;
+  --ifm-text-color-button-blue-banner: white;
+  --ifm-text-color-button-blue-banner-dark-mode:  #640037;
+
+
+  --ifm-color-blue-contact-send-button: var(--ifm-color-blue-jupyter);
+
   --ifm-font-size-small: 14px;
   --ifm-font-size-normal: 18px;
   --ifm-font-size-medium: 24px;
@@ -39,6 +105,7 @@
   --ifm-font-family-bebas-neue: "Bebas Neue";
   --ifm-font-family-rubik-one: "Rubik One";
   --ifm-font-family-dosis: "Dosis";
+
   --ifm-spacing-none: 0px;
   --ifm-spacing-2xs: 4px;
   --ifm-spacing-xs: 8px;
@@ -55,9 +122,74 @@
   --ifm-spacing-8xl: 400px;
 }
 
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme="dark"] {
+  --ifm-text-color: var(--ifm-text-color-dark-mode);
+  --ifm-background-color: var(--ifm-background-color-dark-mode);
+  --ifm-color-primary-p1: var(--ifm-color-primary-p1-dark-mode);
+  --ifm-background-color-footer: var(--ifm-background-color-footer-dark-mode);
+  --ifm-text-color-footer: var(--ifm-text-color-footer-dark-mode);
+  --ifm-color-primary-p2: var(--ifm-color-primary-p2-dark-mode);
+  --ifm-color-text-on-primary-p1: var(--ifm-color-text-on-primary-p1-dark-mode);
+
+  --ifm-background-color-topics-card: var(
+    --ifm-background-color-topics-card-dark-mode
+  );
+  --ifm-text-color-topics-card: var(--ifm-text-color-topics-card-dark-mode);
+  --ifm-background-color-topics-card-yellow: var(
+    --ifm-background-color-topics-card-yellow-dark-mode
+  );
+  --ifm-text-color-topics-card-yellow: var(
+    --ifm-text-color-topics-card-yellow-dark-mode
+  );
+  --ifm-background-color-topics-card-white: var(
+    --ifm-background-color-topics-card-white-dark-mode
+  );
+  --ifm-text-color-topics-card-white: var(
+    --ifm-text-color-topics-card-white-dark-mode
+  );
+
+  --ifm-background-color-value-card: var(
+    --ifm-background-color-value-card-dark-mode
+  );
+  --ifm-text-color-value-card: var(--ifm-text-color-value-card-dark-mode);
+
+  --ifm-background-color-portrait-card: var(
+    --ifm-background-color-portrait-card-dark-mode
+  );
+  --ifm-text-color-portrait-card: var(--ifm-text-color-portrait-card-dark-mode);
+
+  --ifm-background-color-project-card: var(
+    --ifm-background-color-project-card-dark-mode
+  );
+  --ifm-text-color-project-card: var(--ifm-text-color-project-card-dark-mode);
+
+  --ifm-background-color-blue-banner: var(
+    --ifm-background-color-blue-banner-dark-mode
+  );
+  --ifm-text-color-blue-banner: var(--ifm-text-color-blue-banner-dark-mode);
+
+  --ifm-background-color-about-qs-banner: var(
+    --ifm-background-color-about-qs-banner-dark-mode
+  );
+  --ifm-text-color-about-qs-banner: var(
+    --ifm-text-color-about-qs-banner-dark-mode
+  );
+
+  --ifm-background-color-button-home: var(
+    --ifm-background-color-button-home-dark-mode
+  );
+  --ifm-text-color-button-home: var(--ifm-text-color-button-home-dark-mode);
+  --ifm-background-color-button-blue-banner: var(
+    --ifm-background-color-button-blue-banner-dark-mode
+  );
+  --ifm-text-color-button-blue-banner: var(--ifm-text-color-button-blue-banner-dark-mode);
+}
+
 .col-margin-none {
   margin: none;
 }
+
 .col-flex-full-centered {
   display: flex;
   align-items: center;
@@ -73,6 +205,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .row-padding-none {
   padding: 0;
 }
@@ -80,7 +213,9 @@
 .row-margin-none {
   margin: 0;
 }
-
+.row-reverse {
+  flex-direction: column-reverse;
+}
 .h1-centered {
   text-align: center;
 }
@@ -153,7 +288,7 @@ ul {
   p {
     font-family: var(--ifm-font-family-roboto);
     font-size: 14px;
-    color: var(--ifm-color-primary-p3);
+    /* color: var(--ifm-color-primary-p3);*/
     font-style: normal;
     line-height: 150%;
     line-height: 20px; /* 142.857% */
@@ -208,6 +343,17 @@ ul {
     text-align: center;
   }
 
+  p {
+    font-family: var(--ifm-font-family-roboto);
+    font-size: var(--ifm-font-size-normal);
+    /* color: var(--ifm-color-primary-p3);*/
+    font-style: normal;
+    line-height: 150%;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.25px;
+    text-align: justify;
+  }
+
   .container {
     max-width: none;
     padding: 0;
@@ -216,10 +362,18 @@ ul {
   p {
     font-family: var(--ifm-font-family-roboto);
     font-size: var(--ifm-font-size-normal);
-    color: var(--ifm-color-primary-p3);
+    /*color: var(--ifm-color-primary-p3);*/
     font-style: normal;
     line-height: 150%;
     text-align: justify;
+  }
+
+  div {
+    color: black;
+  }
+
+  [data-theme="dark"] div {
+    color: #fff;
   }
 }
 
@@ -301,11 +455,11 @@ ul {
   height: 56px;
   font-family: var(--ifm-font-family-roboto);
   border-radius: 35px;
-  background: var(--ifm-color-secondary-s4);
-  color: white;
+  background: var(--ifm-background-color-button-blue-banner);
+  color: var(--ifm-text-color-button-blue-banner);
   font-size: 16px;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 600;
   line-height: 150%;
   letter-spacing: -0.176px;
   padding: 16px 36px;
@@ -322,13 +476,21 @@ ul {
   margin-top: var(--ifm-spacing-2xl);
 }
 
-.office-address {
-  text-align: start;
-  color: var(--ifm-color-neutral-black);
+div .quantstack-address {
+  color: var(--ifm-text-color-footer);
+}
+
+div .footer__item {
+  color: var(--ifm-text-color-footer);
+}
+
+div .footer__copyright {
+  color: var(--ifm-text-color-footer);
 }
 
 .footer {
-  background-color: var(--ifm-color-primary-p1);
+  background-color: var(--ifm-background-color-footer);
+  color: var(--ifm-text-color-footer);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -336,19 +498,23 @@ ul {
   max-width: none;
 }
 
-
 .row.footer__links {
   display: flex;
   justify-content: center;
   margin: 0;
   padding: 0;
+  color: var(--ifm-text-color);
+}
+
+div .footer__title {
+  color: var(--ifm-text-color-footer);
 }
 
 .footer__bottom {
   margin-top: var(--ifm-spacing-xl);
 }
 
-.footer__col{
+.footer__col {
   align-items: center;
   justify-content: center;
   margin: 0;
@@ -356,12 +522,8 @@ ul {
   height: 240px;
 }
 
-.footer__link-item {
-  color: black;
-}
-
-.footer__link-item {
-  align-items: center;
+div .footer__link-item {
+  color: var(--ifm-text-color-footer);
 }
 
 .footer-astronaut {
@@ -386,7 +548,7 @@ a {
   /*text-decoration: underline;
   text-decoration-thickness: var(--pydata-link-underline-thickness);
   text-underline-offset: var(--pydata-link-underline-offset);*/
-  color: var(--ifm-color-neutral-black);
+  color: var(---ifm-text-color);
 }
 
 a:hover,
@@ -425,13 +587,13 @@ so they are already assumed to be clickable anyway */
 .pagination-nav__link:active,
 a.card:active,
 a.menu__link:active {
-  background: var(--ifm-color-primary-lightest);
+  background: white;
   color: #000;
 }
 [data-theme="dark"] .pagination-nav__link:active,
 [data-theme="dark"] a.card:active,
 [data-theme="dark"] a.menu__link:active {
-  background: var(--ifm-color-primary-darkest);
+  background: black;
   color: #fff;
 }
 
@@ -446,6 +608,7 @@ a.menu__link:active {
 
 .contact {
   background-color: var(--ifm-color-primary-p1);
+  color: var(--ifm-color-text-on-primary-p1);
   border: transparent;
   border-width: 2px;
   border-radius: 4px;
@@ -479,14 +642,24 @@ a.menu__link:active {
   color: black;
 }
 
-.quantstack-icon {
-  background: url(@site/static/img/quantstack/logo-website.svg);
+/*.quantstack-icon-white {
+  background: url(@site/static/img/quantstack/logo-website-white.svg);
   content: "";
   display: flex;
   height: 40px;
   width: 40px;
   background-repeat: no-repeat;
 }
+
+
+.quantstack-icon-black {
+  background: url(@site/static/img/quantstack/logo-website-black.svg);
+  content: "";
+  display: flex;
+  height: 40px;
+  width: 40px;
+  background-repeat: no-repeat;
+}*/
 
 .quantstack-astronaut {
   background: url(@site/static/img/quantstack/astronaut.svg);
@@ -498,7 +671,7 @@ a.menu__link:active {
 }
 
 .quantstack-astronaut-footer {
-  background: url(@site/static/img/quantstack/astronaut-footer-white.svg);
+  background: url(@site/static/img/quantstack/astronaut-footer-light.svg);
   content: "";
   display: flex;
   height: 240px;
