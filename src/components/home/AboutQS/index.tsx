@@ -5,15 +5,13 @@ import LinkToAboutUs from "../LinkToAboutUs";
 export default function AboutQS() {
   return (
     <div className={"container" + " " + styles.about_us_container}>
-      <div className={"row" + " " + styles.row_custom}>
+      <div
+        className={
+          "row" + " " + "row-flex-full-centered" + " " + "row-padding-none"
+        }
+      >
         <div
-          className={
-            "col col--8 col--offset-2" +
-            " " +
-            "col-padding-none" +
-            " " +
-            "col-margin-none"
-          }
+          className={"col" + " " + "col-padding-none" + " " + "col-margin-none"}
         >
           <div className={styles.text_container}>
             We are a team of expert of open-source developers, the very same
@@ -21,26 +19,26 @@ export default function AboutQS() {
           </div>
         </div>
       </div>
-      <div className={"row" + " " + styles.row_custom}>
+      <div
+        className={
+          "row" + " " + "row-flex-full-centered" + " " + "row-padding-none"
+        }
+      >
         <div
-          className={
-            "col" + " " + " " + "col-padding-none" + " " + "col-margin-none"
-          }
+          className={"col" + " " + "col-padding-none" + " " + "col-margin-none"}
         >
           <div className={styles.picture_container}>
             <img src={GroupPhotoUrl} />
           </div>
         </div>
       </div>
-      <div className={"row" + " " + styles.row_custom}>
+      <div
+        className={
+          "row" + " " + "row-flex-full-centered" + " " + "row-padding-none"
+        }
+      >
         <div
-          className={
-            "col col--10 col--offset-1" +
-            " " +
-            "col-padding-none" +
-            " " +
-            "col-margin-none"
-          }
+          className={"col" + " " + "col-padding-none" + " " + "col-margin-none"}
         >
           <LinkToAboutUs label={"LEARN MORE ABOUT US"} />
         </div>

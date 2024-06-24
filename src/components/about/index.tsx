@@ -39,11 +39,6 @@ export function AboutDesktop() {
         <div className={"container" + " " + styles.about_container}>
           <div className="row">
             <div className="col col--10 col--offset-1">
-              <h1 className="h1-padding-none">Our values </h1>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col col--10 col--offset-1">
               <FourValues />
 
               <h1 className="h1-centered">Meet the QuantStack team</h1>
@@ -78,7 +73,19 @@ export function AboutDesktop() {
         </div>
       </div>
       <div className={styles.join_the_team_container}>
-        <h1 className="h1-centered">Join the team</h1>
+        <h1
+          className={
+            "h1-centered" +
+            " " +
+            "h1-padding-none" +
+            " " +
+            "h1-margin-none" +
+            " " +
+            styles.join_the_team_title
+          }
+        >
+          Join the team
+        </h1>
         <div className={styles.join_the_team_text}>
           QuantStack is seeking talents in the open-source scientific computing
           community. Join a team committed to open-science and free software.

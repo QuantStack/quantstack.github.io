@@ -6,7 +6,7 @@ export default function RoboticsProjects() {
     return (
       <div className={"container" + " " + styles.project_desktop}>
         <div className={"row" + " " + styles.row_custom_picture}>
-          <div className={"col col--5 col--offset-1" + " " + styles.col_project_overview_picture_}>
+          <div className={"col col--5 col--offset-1" + " " + styles.col_project_overview_picture}>
             <img src={RoboticsPictureUrl} />
           </div>
           <div className={"col col--5" + " "+ styles.col_project_overview_text}>

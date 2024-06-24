@@ -22,17 +22,29 @@
 @media only screen and (min-width: 996px) {
   /* Desktop */
   .link_to_services {
-    background-color: var(--ifm-color-orange-jupyter);
+    background-color: var(--ifm-background-color-button-home);
+    color: var(--ifm-text-color-button-home);
     width: 258px;
     text-transform: uppercase;
     font-weight: 700;
   }
 
   .link_to_projects {
-    background-color: var(--ifm-color-orange-jupyter);
+    background-color:var(--ifm-background-color-button-home);
+    color: var(--ifm-text-color-button-home);
     margin-top: var(--ifm-spacing-xl);
     width: 358px;
     text-transform: uppercase;
     font-weight: 700;
+    
+  }
+  .link_to_blogs {
+    background-color:var(--ifm-background-color-button-home);
+    color: var(--ifm-text-color-button-home);
+    margin-bottom: var(--ifm-spacing-xl);
+    width: 358px;
+    text-transform: uppercase;
+    font-weight: 700;
+    
   }
 }

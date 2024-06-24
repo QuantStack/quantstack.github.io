@@ -4,6 +4,7 @@ import WhatWeDo from "./WhatWeDo";
 import ProjectsOverview from "./ProjectsOverview";
 import AboutQS from "./AboutQS";
 import News from "./News";
+import LearnMore from "./LearnMore";
 import { useEffect, useState } from "react";
 import LinkToServices from "./LinkToServices";
 import LinkToProjects from "./LinkToProjects";
@@ -33,6 +34,7 @@ export function HomeDesktop(): JSX.Element {
       <ProjectsOverview />
       <AboutQS />
       <News />
+      <LearnMore/>
     </>
   );
 }

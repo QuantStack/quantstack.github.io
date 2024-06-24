@@ -1,17 +1,18 @@
-@media only screen and (max-width: 996px) {
-  /*Desktop */
+.illustration_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+
+@media only screen and (max-width: 996px) {
+  /*Mobile */
   .services_header_text {
     padding: var(--ifm-spacing-xl) var(--ifm-spacing-2xl);
   }
 
   .services_title {
     margin-top: var(--ifm-spacing-xl);
-  }
-  .illustration_container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
 
   .services_description {
@@ -25,7 +26,7 @@
     font-weight: bolder;
     line-height: 150%;
     letter-spacing: 1.056px;
-    color: var(--ifm-color-secondary-s5);
+    color: var(--ifm-color-indigo-i1);
     text-align: center;
     padding: var(--ifm-spacing-xl) var(--ifm-spacing-2xl);
   }
@@ -36,13 +37,14 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: var(--ifm-color-secondary-s1);
-    color: var(--ifm-color-secondary-s4);
-    padding: var(--ifm-spacing-2xl) var(--ifm-spacing-2xl) ;
+    background-color: var(--ifm-background-color-blue-banner);
+    color: var(--ifm-text-color-blue-banner);
+    padding: var(--ifm-spacing-2xl) var(--ifm-spacing-2xl);
   }
 
   .sign_a_support_text {
     margin-bottom: var(--ifm-spacing-2xl);
+    color: var(---ifm-text-color-blue-banner);
   }
 }
 
@@ -59,24 +61,26 @@
     align-items: center;
     text-align: center;
     font-weight: 800;
-    background-color: var(--ifm-color-secondary-s1);
-    color: var(--ifm-color-secondary-s4);
+   
+    color: var(--ifm-color-secondary-s3);
     padding: var(--ifm-spacing-2xl) 0;
     margin-top: var(--ifm-spacing-7xl);
+  }
+
+  div .sign_a_support_container {
+    background-color: var(--ifm-background-color-blue-banner);
   }
 
   .sign_a_support_text {
     margin-bottom: var(--ifm-spacing-2xl);
   }
 
-  .h2_custom {
-    color: var(--ifm-color-secondary-s5);
+  div .sign_a_support_text {
+    color: var(--ifm-text-color-blue-banner);
   }
 
-  .illustration_container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  .h2_custom {
+    color: var(--ifm-color-indigo-i1);
   }
 
   .transition {
@@ -85,9 +89,8 @@
     font-style: normal;
     font-weight: bolder;
     line-height: 150%;
-    color: var(--ifm-color-secondary-s5);
+    color: var(--ifm-color-indigo-i1);
     text-align: center;
     margin-top: var(--ifm-spacing-4xl);
   }
-
 }
