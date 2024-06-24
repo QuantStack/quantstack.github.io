@@ -1,70 +1,36 @@
-
 .picture_container {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: var(--ifm-spacing-2xl);
 }
-
-.link_to_about_us {
-  width: 258px;
+.about_us_container {
   margin-top: var(--ifm-spacing-2xl);
+  padding: var(--ifm-spacing-2xl) 0;
+  background-color: var(--ifm-background-color-about-qs-banner);
 }
+div .text_container {
+  color: var(--ifm-text-color-about-qs-banner);
+ }
 
 @media only screen and (max-width: 996px) {
   /* Mobile */
-
-  .row_custom {
-    flex-direction: column-reverse;
-  }
-  .link_to_about_us {
-    background-color: var(--ifm-color-primary-p1);
-    color: black;
-  }
-
-  .about_us_container {
-    margin-top: var(--ifm-spacing-2xl);
-    padding: var(--ifm-spacing-2xl) 0;
-    background-color: var(--ifm-color-secondary-s4);
-  }
-
   .text_container {
-    background-color: var(--ifm-color-secondary-s4);
     font-size: 14px;
     text-align: center;
     margin-bottom: var(--ifm-spacing-lg);
-    color: white;
+    padding: var(--ifm-spacing-2xl) var(--ifm-spacing-2xl);
+   
   }
 
 }
 
 @media only screen and (min-width: 996px) {
   /* Desktop */
-
   .text_container {
-    background-color: var(--ifm-color-primary-p1);
     font-size: 24px;
     text-align: center;
     margin-bottom: var(--ifm-spacing-lg);
+    padding: var(--ifm-spacing-5xl) var(--ifm-spacing-5xl);
   }
-  
-  .row_custom {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0;
-    
-  }
-
-  .link_to_about_us {
-    background-color: var(--ifm-color-secondary-s4);
-    color: white;
-  }
-
-  .about_us_container {
-    margin: var(--ifm-spacing-2xl) 0;
-    padding: var(--ifm-spacing-2xl) 0;
-    background-color: var(--ifm-color-primary-p1);
-  }
-
 }

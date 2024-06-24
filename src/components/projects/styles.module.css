@@ -1,6 +1,11 @@
 .h1_custom {
   padding: 0;
 }
+
+div .schedule_container {
+  background-color: var(--ifm-background-color-blue-banner);
+}
+
 @media only screen and (max-width: 996px) {
   /*Mobile */
   .project_container {
@@ -8,7 +13,7 @@
     margin-bottom: var(--ifm-spacing-xs);
     width: 100px;
     height: 100px;
-    background-color: var(--ifm-color-orange-light2);
+    background-color: var(--ifm-color-orange-light);
   }
 
   .header_text {
@@ -51,10 +56,6 @@
     justify-content: center;
   }
 
-  .project_description {
-    padding: var(--ifm-spacing-md) var(--ifm-spacing-xl);
-  }
-
   .project_picture_container {
     display: flex;
     align-items: center;
@@ -62,13 +63,12 @@
   }
 
   .schedule_container {
-    background-color: var(--ifm-color-secondary-s1);
     padding: var(--ifm-spacing-2xl) var(--ifm-spacing-3xl);
   }
 
   .schedule_text {
     font-family: var(--ifm-font-family-roboto);
-    color: var(--ifm-color-secondary-s4);
+    color: var(--ifm-color-secondary-s3);
     font-size: 14px;
     font-family: Roboto;
     font-size: 14px;
@@ -78,11 +78,6 @@
     letter-spacing: 0.1px;
     text-align: center;
     margin-bottom: var(--ifm-spacing-2xl);
-  }
-
-  .project_description_container {
-    padding: var(--ifm-spacing-md) var(--ifm-spacing-xl);
-    text-align: center;
   }
 
   .project_image_container {
@@ -121,20 +116,34 @@
     margin-bottom: var(--ifm-spacing-md);
     font-family: var(--ifm-font-family-bebas-neue);
     font-size: var(--ifm-font-size-secondary-title);
-    color: var(--ifm-color-primary-p3);
+
     font-style: normal;
     font-weight: bolder;
     line-height: 150%;
     text-align: start;
   }
 
-  .col_project_text {
-    background-color: var(--ifm-color-orange-light1);
-    padding: var(--ifm-spacing-4xl) var(--ifm-spacing-3xl);
-    border-radius: 10px;
-    box-shadow: 0px 1px 10px 0 rgba(1, 0, 0, 0.17);
+  div .project_title {
+    color: var(--ifm-text-color-project-card);
   }
 
+  .project_description {
+    padding: var(--ifm-spacing-md) var(--ifm-spacing-xl);
+    text-align: center;
+  }
+
+  .project_description p {
+    color: var(--ifm-text-color-project-card);
+  }
+
+  .col_project_text {
+    background-color: var(--ifm-background-color-project-card);
+    padding: var(--ifm-spacing-4xl) var(--ifm-spacing-3xl);
+    /*border-radius: 10px;
+    box-shadow: 0px 1px 10px 0 rgba(1, 0, 0, 0.17);*/
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 1px #d0cb54;
+  }
 
   .col_project_picture {
     border-radius: 8px;
@@ -146,10 +155,13 @@
 
   .col_project_picture_left {
     margin-right: var(--ifm-spacing-lg);
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 1px;
   }
 
   .col_project_picture_right {
     margin-left: var(--ifm-spacing-lg);
+    box-shadow: 0px 0px 8px 1px;
   }
 
   .col_schedule {
@@ -185,12 +197,15 @@
     margin-bottom: var(--ifm-spacing-2xl);
   }
 
+  div .schedule_text {
+    color: var(--ifm-text-color-blue-banner);
+  }
+  
   .link_to_button_custom {
     margin: var(--ifm-spacing-lg) 0;
   }
 
   .schedule_a_meeting_container {
     margin-top: var(--ifm-spacing-7xl);
-    background-color: var(--ifm-color-secondary-s1);
   }
 }

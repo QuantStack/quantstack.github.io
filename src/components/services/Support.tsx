@@ -1,9 +1,23 @@
 import styles from "./styles.module.css";
 import SupportMD from "./descriptions/Support.md";
-import SupportIllustrationUrl from "@site/static/img/illustrations/support.png";
 import { useEffect, useState } from "react";
+import useBaseUrl from "@docusaurus/useBaseUrl";
+import ThemedImage from "@theme/ThemedImage";
 
 const breakpointValue: number = 996;
+
+export function SupportIllustration() {
+  return (
+    <ThemedImage
+      alt="Astronaut logo of QuantStack"
+      sources={{
+        light: useBaseUrl("/img/illustrations/support-light.svg"),
+        dark: useBaseUrl("/img/illustrations/support-dark.svg"),
+      }}
+    />
+  );
+}
+
 
 export function SupportDesktop() {
   return (
@@ -12,7 +26,7 @@ export function SupportDesktop() {
         <div className="row">
           <div className="col col--4 col--offset-1">
             <div className={styles.illustration_container}>
-              <img src={SupportIllustrationUrl}  />
+             <SupportIllustration/>
             </div>
           </div>
           <div className={"col col--6"}>

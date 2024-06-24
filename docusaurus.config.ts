@@ -64,7 +64,8 @@ const config: Config = {
       title: "",
       logo: {
         alt: "QuantStack Logo",
-        src: "img/quantstack/logo-website.svg",
+        src: "img/quantstack/logo-website-light.svg",
+        srcDark: "img/quantstack/logo-website-dark.svg"
       },
 
       items: [
@@ -218,14 +219,14 @@ const config: Config = {
     
       colorMode: {
         defaultMode: 'light',
-        disableSwitch: true,
+        disableSwitch: false,
         respectPrefersColorScheme: false,
       
     },
 
     prism: {
       theme: prismThemes.github,
-      darkTheme: prismThemes.oneDark,
+      /*darkTheme: prismThemes.oneDark,*/
     },
   } satisfies Preset.ThemeConfig,
 };

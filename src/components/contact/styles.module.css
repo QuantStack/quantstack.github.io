@@ -24,7 +24,7 @@
 
   .form_label {
     font-size: 12px;
-    color: var(--ifm-color-neutral-black);
+    color: var(---ifm-text-color);
     background-color: var(--ifm-color-orange-light);
   }
 
@@ -59,7 +59,7 @@
 
   .form_label {
     font-size: 12px;
-    color: var(--ifm-color-neutral-black);
+    color: var(---ifm-text-color);
     background-color: var(--ifm-color-orange-light);
   }
   .small_input {

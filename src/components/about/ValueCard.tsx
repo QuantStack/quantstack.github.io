@@ -9,7 +9,7 @@ export function ValueCardDesktop({ value, ValuePicture, ValueComponent }) {
       </div>
       <div className={styles.value_header}>{value}</div>
       <div className={styles.value_text}>
-        <ValueComponent />
+        <ValueComponent className={styles.value_component} />
       </div>
     </div>
   );

@@ -1,9 +1,24 @@
 import styles from "./styles.module.css";
 import SpecialProjectsMD from "./descriptions/SpecialProjects.md";
-import SpecialProjectsIllustrationUrl from "@site/static/img/illustrations/special_projects.png";
 import { useEffect, useState } from "react";
+import useBaseUrl from "@docusaurus/useBaseUrl";
+import ThemedImage from "@theme/ThemedImage";
 
 const breakpointValue: number = 996;
+
+export function SpecialProjectsIllustration() {
+  return (
+    <ThemedImage
+      alt="Astronaut logo of QuantStack"
+      sources={{
+        light: useBaseUrl("/img/illustrations/special-project-light.svg"),
+        dark: useBaseUrl("/img/illustrations/special-projects-dark.svg"),
+      }}
+    />
+  );
+}
+
+
 
 export function SpecialProjectsDesktop() {
   return (
@@ -14,7 +29,7 @@ export function SpecialProjectsDesktop() {
           <SpecialProjectsMD />
         </div>
         <div className="col col--5 col--offset-1">
-          <img src={SpecialProjectsIllustrationUrl} />
+         <SpecialProjectsIllustration/>
         </div>
       </div>
     </div>
