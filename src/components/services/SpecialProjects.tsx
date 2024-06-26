@@ -9,7 +9,7 @@ const breakpointValue: number = 996;
 export function SpecialProjectsIllustration() {
   return (
     <ThemedImage
-      alt="Astronaut logo of QuantStack"
+      alt="Illustration showing a group of people working together"
       sources={{
         light: useBaseUrl("/img/illustrations/special-project-light.svg"),
         dark: useBaseUrl("/img/illustrations/special-projects-dark.svg"),

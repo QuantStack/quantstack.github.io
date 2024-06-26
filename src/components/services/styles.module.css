@@ -4,6 +4,10 @@
   justify-content: center;
 }
 
+div .transition {
+  color: var(--ifm-background-color-blue-banner);
+}
+
 
 @media only screen and (max-width: 996px) {
   /*Mobile */
@@ -89,7 +93,6 @@
     font-style: normal;
     font-weight: bolder;
     line-height: 150%;
-    color: var(--ifm-color-indigo-i1);
     text-align: center;
     margin-top: var(--ifm-spacing-4xl);
   }

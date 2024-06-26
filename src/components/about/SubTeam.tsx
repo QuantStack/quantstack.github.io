@@ -4,7 +4,6 @@ import Popup from "reactjs-popup";
 import LargePortraitCard from "./LargePortraitCard";
 import Link from "@docusaurus/Link";
 
-
 export function SubTeamDesktop({
   description,
   subTeam,
@@ -12,11 +11,14 @@ export function SubTeamDesktop({
   subTeamBioComponents,
 }) {
   return (
-    <div className="main-container-with-margins">
       <div className={styles.subteam_component}>
         <h2 style={{ textAlign: "center" }}> {description}</h2>
         <div className={"container" + " " + styles.subteam_container}>
-          <ul className={"row" + " " + styles.row_custom}>
+          <ul
+            className={
+              "row" + " " + "row-padding-none" + " " + styles.row_with_margins
+            }
+          >
             {subTeam.map((person, index) => (
               <li className="cards_list" key={index}>
                 <div className="col">
@@ -30,7 +32,12 @@ export function SubTeamDesktop({
                         />
                       </div>
                     }
-                    overlayStyle={{ backgroundColor: "grey", opacity: "0.4", width: "100%", height: "100%"}}
+                    overlayStyle={{
+                      backgroundColor: "grey",
+                      opacity: "0.4",
+                      width: "100%",
+                      height: "100%",
+                    }}
                     position={"center center"}
                   >
                     <LargePortraitCard
@@ -45,7 +52,6 @@ export function SubTeamDesktop({
           </ul>
         </div>
       </div>
-    </div>
   );
 }
 
@@ -54,15 +60,19 @@ export function SubTeamMobile({ description, subTeamAvatarsUrls, subTeam }) {
     <div className={styles.subteam_component}>
       <h2 style={{ textAlign: "center" }}> {description}</h2>
       <div className={"container" + " " + styles.subteam_container}>
-        <ul className={"row" + " " + styles.row_custom}>
+        <ul
+          className={
+            "row" + " " + "row-flex-full-centered" + " " + "row-padding-none"
+          }
+        >
           {subTeam.map((person, index) => (
             <li className="cards_list" key={index}>
               <div className="col">
-                <Link href={'/about/' + person.firstName}>
-                <SmallPortraitCard
-                  person={person}
-                  avatarUrl={subTeamAvatarsUrls[index]}
-                ></SmallPortraitCard>
+                <Link href={"/about/" + person.firstName}>
+                  <SmallPortraitCard
+                    person={person}
+                    avatarUrl={subTeamAvatarsUrls[index]}
+                  ></SmallPortraitCard>
                 </Link>
               </div>
             </li>

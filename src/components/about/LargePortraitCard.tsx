@@ -21,13 +21,17 @@ export function Distinction({ person }) {
         ))}
       </ul>
     );
-  } else return (<div></div>);
+  } else return <div></div>;
 }
 export default function LargePortraitCard({ person, avatarUrl, BioComponent }) {
   return (
     <div className={styles.large_portrait_card}>
       <div className={"container"}>
-        <div className={"row" + " " + styles.row_custom}>
+        <div
+          className={
+            "row" + " " + "row-padding-none" + " " + styles.row_with_margins
+          }
+        >
           <div className="col col--12 col--offset-1">
             <div className={styles.large_card_complete_name}>
               {person.completeName}

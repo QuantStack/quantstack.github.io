@@ -8,7 +8,7 @@ export default function AllProjectsMobile () {
     <div>
       <div className="main-container-with-margins">
         <div className="container">
-          <ul className={"row" + " " + styles.row_custom}>
+          <ul className={"row"}>
             {projectsDetails.map((project, index) => (
               <li className="cards_list" key={index}>
                 <div className="col">

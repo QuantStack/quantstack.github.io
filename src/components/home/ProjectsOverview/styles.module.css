@@ -1,9 +1,5 @@
 @media only screen and (max-width: 996px) {
   /*Mobile */
-
-  .row_custom {
-    flex-direction: column-reverse;
-  }
   .project_desktop {
     display: none;
   }

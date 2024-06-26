@@ -30,7 +30,7 @@ export function WhatWeDoDesktop() {
 export function WhatWeDoMobile() {
   return (
     <div className={"container" + " " + styles.whatwedo_container}>
-      <div className={"row" + " " + styles.row_custom}>
+      <div className={"row" + " " + "row-reverse"}>
         <div className={"col" + " " + "col-flex-full-centered" + " " + "col-padding-none"}>
           <Topics />
         </div>

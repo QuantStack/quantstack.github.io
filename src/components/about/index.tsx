@@ -37,10 +37,14 @@ export function AboutDesktop() {
     <div>
       <div className="main-container-with-margins">
         <div className={"container" + " " + styles.about_container}>
+          <div className={"row"}>
+            <div className={"col" + " " + "col-flex-full-centered"}>
+              <FourValues />
+            </div>
+          </div>
+
           <div className="row">
             <div className="col col--10 col--offset-1">
-              <FourValues />
-
               <h1 className="h1-centered">Meet the QuantStack team</h1>
               <h4>
                 A team of outliers, leaders in software projects adopted at the
@@ -99,7 +103,11 @@ export function AboutDesktop() {
 export function AboutMobile() {
   return (
     <div className={"container" + " " + styles.about_container}>
-      <div className={"row" + " " + styles.row_custom}>
+      <div
+        className={
+          "row" + " " + "row-flex-full-centered" + " " + "row-padding-none"
+        }
+      >
         <div className={"col col--12" + " " + "col--padding-none"}>
           <h2 className={styles.h2_custom}>
             A team of outliers, leaders in software projects adopted at the
