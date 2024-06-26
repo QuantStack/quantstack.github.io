@@ -21,10 +21,5 @@
     margin-bottom: var(--ifm-spacing-2xl)
   }
   
-  .row_custom {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
 
 }

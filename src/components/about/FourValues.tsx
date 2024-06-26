@@ -75,8 +75,12 @@ const cardColors = ["yellow", "white", "yellow", "white"];
 
 export function FourValuesMobile() {
   return (
-    <div className="four_values_container">
-      <ul className={"row" + " " + styles.row_custom}>
+    <div className={styles.four_values_container}>
+      <ul
+        className={
+          "row" + " " + "row-flex-full-centered" + " " + "row-padding-none"
+        }
+      >
         {valuesNames.map((value, index) => (
           <li className="cards_list" key={index}>
             <div className="col">
@@ -96,27 +100,31 @@ export function FourValuesMobile() {
 
 export function FourValuesDesktop() {
   return (
-    <div className="main-container-with-margins">
-      <div className="four_values_container">
-        <div className="row">
-          <div className="col col--10 col--offset-1">
-            <h1 className="h1-padding-none">Our values </h1>
-          </div>
+    <div className={styles.four_values_container}>
+      <div className="row">
+        <div className="col">
+          <h1 className="h1-padding-none">Our values </h1>
         </div>
-        <ul className={"row" + " " + styles.row_custom}>
-          {valuesNames.map((value, index) => (
-            <li className="cards_list" key={index}>
-              <div className="col">
+      </div>
+      <ul
+        className={
+          "row" + " " + "row-padding-none" + " " + styles.row_with_margins
+        }
+      >
+        {valuesNames.map((value, index) => (
+          <li className="cards_list" key={index}>
+            <div className="col">
+              <div className={styles.value_card_container}>
                 <ValueCardDesktop
                   value={value}
                   ValuePicture={valuesPictures[index]}
                   ValueComponent={valuesDescriptions[index]}
                 />
               </div>
-            </li>
-          ))}
-        </ul>
-      </div>
+            </div>
+          </li>
+        ))}
+      </ul>
     </div>
   );
 }

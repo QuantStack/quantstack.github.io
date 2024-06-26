@@ -16,7 +16,7 @@ const ProjectsDescriptions = [
 export function AllProjectsDeskTop() {
   return (
     <div className="container">
-      <ul className={"row" + " " + styles.row_custom_all_projects}>
+      <ul className={"row"}>
         {projectsDetails.map((project, index) => (
           <li className="cards_list" key={index}>
             <div className="col">

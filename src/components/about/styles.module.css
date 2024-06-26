@@ -40,13 +40,6 @@
     padding: var(--ifm-spacing-lg) var(--ifm-spacing-2xl);
   }
 
-  .row_custom {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0;
-  }
-
   .join_the_team_container {
     background-color: var(--ifm-color-secondary-s1);
     padding: var(--ifm-spacing-3xl) var(--ifm-spacing-xl);
@@ -69,7 +62,6 @@
   }
 
   .value_text {
-    text-align: center;
     font-family: var(--ifm-font-family-roboto);
     font-size: 12px;
     font-style: normal;
@@ -80,6 +72,7 @@
 
   .value_text p {
     color: var(--ifm-text-color-value-card);
+    text-align: center;
   }
 
   .value_image {
@@ -135,7 +128,6 @@
   }
 
   .value_text {
-    text-align: center;
     font-family: var(--ifm-font-family-roboto);
     font-size: 6px;
     font-style: normal;
@@ -146,14 +138,17 @@
 
   .value_text p {
     color: var(--ifm-text-color-value-card);
+    text-align: center;
   }
 
-  .row_custom {
-    margin-top: var(--ifm-spacing-4xl);
-    margin-bottom: var(--ifm-spacing-4xl);
-    padding: 0;
+  .row_with_margins {
+    margin-top: var(--ifm-spacing-4xl) 0;
   }
 
+  div .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
   .about_container {
     margin-top: var(--ifm-spacing-6xl);
   }
@@ -266,7 +261,7 @@
   }
 
   .four_values_container {
-    margin-top: var(--ifm-spacing-5xl);
+    margin: var(--ifm-spacing-5xl) 0;
   }
 
   .join_the_team_container {
