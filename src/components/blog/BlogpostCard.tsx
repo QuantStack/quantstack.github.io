@@ -3,7 +3,7 @@
 import React from "react";
 import styles from "./styles.module.css";
 import Link from "@docusaurus/Link";
-import useBaseUrl from '@docusaurus/useBaseUrl';
+import useBaseUrl from "@docusaurus/useBaseUrl";
 
 export default function BlogpostCard({ blogpost, timeIndex }) {
   return (
@@ -14,11 +14,26 @@ export default function BlogpostCard({ blogpost, timeIndex }) {
       <div className={styles.blog_time_index}>{timeIndex}</div>
       <Link href={blogpost.url}>
         <div className="container">
-          <div className={"row" + " " + styles.row_custom}></div>
+          <div
+            className={
+              "row" +
+              " " +
+              "row-flex-full-centered" +
+              " " +
+              "row-padding-none" +
+              " " +
+              "row-margin-none"
+            }
+          ></div>
 
           <div className={styles.blogpost_image_container}>
             <div className={styles.blogpost_image}>
-              <img src={useBaseUrl(blogpost.image)} id={blogpost.imageID} width={blogpost.imageRenderedWidth} height={blogpost.imageRenderedHeight} />
+              <img
+                src={useBaseUrl(blogpost.image)}
+                id={blogpost.imageID}
+                width={blogpost.imageRenderedWidth}
+                height={blogpost.imageRenderedHeight}
+              />
             </div>
           </div>
 
@@ -44,4 +59,3 @@ export default function BlogpostCard({ blogpost, timeIndex }) {
     </div>
   );
 }
-

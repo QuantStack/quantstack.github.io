@@ -8,12 +8,12 @@ export default function News() {
   const numberOfBlogs = blogpostsDetails.length;
   return (
     <div className={"container" + " " + styles.news_container}>
-      <div className={"row" + " " + styles.row_custom}>
+      <div className={"row" + " " + "row-flex-full-centerd"}>
         <div className="col col--10 col--offset-1">
           <h2 className={styles.h2_custom}>Recent blog contributions</h2>
         </div>
       </div>
-      <ul className={"row" + " " + styles.row_custom}>
+      <ul className={"row" + " " + "row-flex-full-centered"}>
         <li className="cards_list">
           <div className="col">
             <BlogpostCard

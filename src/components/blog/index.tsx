@@ -2,14 +2,12 @@ import styles from "./styles.module.css";
 import React, { useState } from "react";
 import BlogpostCard from "./BlogpostCard";
 
-
 export default function BlogsComponent({ blogpostsDetails }) {
   const numberOfBlogs = blogpostsDetails.length;
-  console.log('numberOfBlogs:', numberOfBlogs);
+  console.log("numberOfBlogs:", numberOfBlogs);
   const [searchField, setSearchField] = useState("");
 
   const filteredBlogPosts = blogpostsDetails.filter((blogpost) => {
-
     return (
       blogpost.title.toLowerCase().includes(searchField.toLowerCase()) ||
       blogpost.authors.toLowerCase().includes(searchField.toLowerCase()) ||
@@ -25,41 +23,38 @@ export default function BlogsComponent({ blogpostsDetails }) {
 
   return (
     <div className="main-container-with-margins">
-      <div
-        className="container"
-        style={{ marginTop: "var(--ifm-spacing-6xl)" }}
-      >
-        <div className="row">
+      <div className={"container" + " " + styles.blogposts_container}>
+        <div className={"row"}>
           <div
-            className="col col--10 col--offset-1"
+            className={"col col--8 col--offset-2"}
             style={{ marginBottom: "var(--ifm-spacing-5xl)" }}
           >
-            <h1 style={{ textAlign: "left" }}>
-              {" "}
+            <h1 className="h1-padding-none">
               Featured Posts by QuantStack Contributors
             </h1>
             <div>
               <input
                 className={styles.search_input}
                 type="search"
-                placeholder="Search blog posts"
+                placeholder="Search for blog posts"
                 onChange={handleChange}
               />
             </div>
           </div>
-
-          <ul className="row">
-            {filteredBlogPosts.map((blogpost, index) =>(
-            
-              <li className="cards_list" key={index}>
-                <div className="col col--2 col--offset-1">
-                  <BlogpostCard blogpost={blogpost} timeIndex={numberOfBlogs-index}></BlogpostCard>
-                </div>
-              </li>
-            )
-            )}
-          </ul>
         </div>
+
+        <ul className={"row" + " " + "row-flex-full-centered"}>
+          {filteredBlogPosts.map((blogpost, index) => (
+            <li className="cards_list" key={index}>
+              <div className="col">
+                <BlogpostCard
+                  blogpost={blogpost}
+                  timeIndex={numberOfBlogs - index}
+                ></BlogpostCard>
+              </div>
+            </li>
+          ))}
+        </ul>
       </div>
     </div>
   );

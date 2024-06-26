@@ -5,7 +5,7 @@ import MambaPictureUrl from "@site/static/img/projects/mamba_console.png";
 export default function SupplyChainProjects() {
   return (
     <div className={"container" + " " + styles.project_desktop}>
-      <div className={"row" + " " + styles.row_custom}>
+      <div className={"row" + " " + "row-reverse"}>
         <div
           className={
             "col col--5 col--offset-1 " + " " + styles.col_project_overview_picture
