@@ -4,7 +4,10 @@ import { useEffect, useState } from "react";
 export function ValueCardDesktop({ value, ValuePicture, ValueComponent }) {
   return (
     <div className={"card " + styles.value_card}>
-      <div className={styles.value_image}>
+      <div
+        className={"flex-full-centered"}
+        style={{ marginBottom: "var(--ifm-spacing-lg)" }}
+      >
         <ValuePicture />
       </div>
       <div className={styles.value_header}>{value}</div>
@@ -33,7 +36,10 @@ export function ValueCardMobile({
           : styles.value_card_white)
       }
     >
-      <div className={styles.value_image}>
+       <div
+        className={"flex-full-centered"}
+        style={{ marginBottom: "var(--ifm-spacing-lg)" }}
+      >
         <ValuePicture />
       </div>
       <div className={styles.value_header}>{value}</div>

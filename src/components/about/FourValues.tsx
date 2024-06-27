@@ -71,16 +71,12 @@ export function OptimismPicture() {
 }
 
 const valuesNames = ["Openness", "Science", "Optimism", "Integrity"];
-const cardColors = ["yellow", "white", "yellow", "white"];
+const cardColors = ["white", "yellow", "white", "yellow"];
 
 export function FourValuesMobile() {
   return (
     <div className={styles.four_values_container}>
-      <ul
-        className={
-          "row" + " " + "row-flex-full-centered" + " " + "row-padding-none"
-        }
-      >
+      <ul className={"row" + " " + "flex-full-centered" + " " + "padding-none"}>
         {valuesNames.map((value, index) => (
           <li className="cards_list" key={index}>
             <div className="col">
@@ -103,13 +99,11 @@ export function FourValuesDesktop() {
     <div className={styles.four_values_container}>
       <div className="row">
         <div className="col">
-          <h1 className="h1-padding-none">Our values </h1>
+          <h1 className="padding-none">Our values </h1>
         </div>
       </div>
       <ul
-        className={
-          "row" + " " + "row-padding-none" + " " + styles.row_with_margins
-        }
+        className={"row" + " " + "padding-none" + " " + styles.row_with_margins}
       >
         {valuesNames.map((value, index) => (
           <li className="cards_list" key={index}>

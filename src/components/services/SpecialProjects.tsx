@@ -41,9 +41,9 @@ export function SpecialProjectsMobile() {
     <div className={"container" + " " + styles.service_container}>
       <div className="row row--no-gutters">
         <div className="col">
-          <div className={styles.illustration_container}>
-            <img src={SpecialProjectsIllustrationUrl} width={"214px"} />
-            <div className={styles.illustration_container}></div>
+          <div className="flex-full-centered">
+            <SpecialProjectsIllustration/>
+           
           </div>
         </div>
       </div>

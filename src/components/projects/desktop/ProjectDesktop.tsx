@@ -7,14 +7,10 @@ export default function ProjectDesktop({
   if (project.reverse === "false") {
     return (
       <div className={"container" + " " + styles.project_container}>
-        <div
-          className={"row" + " " + "row-padding-none" + " " + "row-margin-none"}
-        >
+        <div className={"row" + " " + "padding-none" + " " + "margin-none"}>
           <div
             className={
-              "col col--6 col--offset-1" +
-              " " +
-              styles.col_project_text
+              "col col--6 col--offset-1" + " " + styles.col_project_text
             }
           >
             <div className={styles.project_title}>{project.title}</div>
@@ -26,7 +22,9 @@ export default function ProjectDesktop({
             className={
               "col col--4" +
               " " +
-              styles.col_project_picture +
+              "flex-full-centered" +
+              " " +
+              "padding-none" +
               " " +
               styles.col_project_picture_right
             }
@@ -45,14 +43,12 @@ export default function ProjectDesktop({
   } else if (project.reverse === "true") {
     return (
       <div className={"container" + " " + styles.project_container}>
-        <div
-          className={"row" + " " + "row-padding-none" + " " + "row-margin-none"}
-        >
+        <div className={"row" + " " + "padding-none" + " " + "margin-none"}>
           <div
             className={
               "col col--4 col--offset-1" +
               " " +
-              styles.col_project_picture +
+             "flex-full-centered" + " "+ "padding-none"+
               " " +
               styles.col_project_picture_left
             }
@@ -67,13 +63,7 @@ export default function ProjectDesktop({
             </div>
           </div>
 
-          <div
-            className={
-              "col col--6" +
-              " " +
-              styles.col_project_text 
-            }
-          >
+          <div className={"col col--6" + " " + styles.col_project_text}>
             <div className={styles.project_title}>{project.title}</div>
             <div className={styles.project_description}>
               <ProjectDescriptionMD />

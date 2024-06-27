@@ -18,15 +18,15 @@ export default function BlogpostCard({ blogpost, timeIndex }) {
             className={
               "row" +
               " " +
-              "row-flex-full-centered" +
+              "flex-full-centered" +
               " " +
-              "row-padding-none" +
+              "padding-none" +
               " " +
-              "row-margin-none"
+              "margin-none"
             }
           ></div>
 
-          <div className={styles.blogpost_image_container}>
+          <div className="flex-full-centered" style = {{height: "180px"}}>
             <div className={styles.blogpost_image}>
               <img
                 src={useBaseUrl(blogpost.image)}

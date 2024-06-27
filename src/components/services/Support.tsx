@@ -25,7 +25,7 @@ export function SupportDesktop() {
       <div className={"container" + " " + styles.service_container}>
         <div className="row">
           <div className="col col--4 col--offset-1">
-            <div className={styles.illustration_container}>
+            <div className="flex-full-centered">
              <SupportIllustration/>
             </div>
           </div>
@@ -45,8 +45,8 @@ export function SupportMobile() {
       <div className={"container" + " " + styles.service_container}>
         <div className="row">
           <div className="col">
-            <div className={styles.illustration_container}>
-              <img src={SupportIllustrationUrl} width="172px" />
+            <div className="flex-full-centered">
+             <SupportIllustration/>
             </div>
           </div>
         </div>

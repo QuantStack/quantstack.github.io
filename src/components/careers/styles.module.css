@@ -3,17 +3,17 @@
   padding: 0;
 }
 
+.interview_picture {
+  width: 100%;
+  height: auto;
+}
+
 .picture_container {
   position: relative;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.interview_picture {
-  width: 100%;
-  height: auto;
 }
 
 .play_interview {
@@ -24,12 +24,6 @@
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-}
-
-.image_WTJ_container {
-  display: center;
-  align-items: center;
-  justify-content: center;
 }
 
 div .learn_more_WTJ {
@@ -56,16 +50,16 @@ div .learn_more_WTJ {
   .interview_card {
     width: 300px;
     height: 270px;
-    background-color: #fff;
+    background-color: var(--ifm-background-color);
     border-radius: 10px;
-    box-shadow: 0px 1px 10px 0 rgba(1, 0, 0, 0.17);
+    box-shadow: 0px 0px 8px 1px #c8c8c7;
     padding: var(--ifm-spacing-sm);
     text-align: center;
     margin-bottom: var(--ifm-spacing-xl);
   }
 
   .interview_name {
-    color: var(--ifm-color-primary-p2);
+    color: var(--ifm-text-color);
     text-align: center;
     font-family: var(--ifm-font-family-roboto);
     font-size: 20px;
@@ -75,7 +69,7 @@ div .learn_more_WTJ {
   }
 
   .interview_position {
-    color: var(--ifm-color-primary-p2);
+    color: var(--ifm-text-color);
     text-align: center;
     font-family: var(--ifm-font-family-roboto);
     font-size: 12px;
@@ -104,10 +98,10 @@ div .learn_more_WTJ {
 
   .interview_card {
     width: 300px;
-    height: 310px;
-    background-color: #fff;
+    height: 340px;
+    background-color: var(--ifm-background-color);
     border-radius: 10px;
-    box-shadow: 0px 1px 10px 0 rgba(1, 0, 0, 0.17);
+    box-shadow: 0px 0px 8px 1px #c8c8c7;
     padding: var(--ifm-spacing-sm);
     text-align: center;
     margin-bottom: var(--ifm-spacing-xl);
@@ -138,7 +132,7 @@ div .learn_more_WTJ {
   }
 
   .interview_name {
-    color: var(--ifm-color-primary-p2);
+    color: var(--ifm-text-color);
     text-align: center;
     font-family: var(--ifm-font-family-roboto);
     font-size: 28px;
@@ -148,7 +142,7 @@ div .learn_more_WTJ {
   }
 
   .interview_position {
-    color: var(--ifm-color-primary-p2);
+    color: var(--ifm-text-color);
     text-align: center;
     font-family: var(--ifm-font-family-roboto);
     font-size: var(--ifm-font-size-normal);

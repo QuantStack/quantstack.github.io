@@ -13,17 +13,13 @@ const topicsCardColors = ["yellow", "white", "yellow", "white"];
 export function TopicsDesktop() {
   return (
     <div>
-      <div className={"container" + " " + styles.topics_container}>
+      <div className={"container" + " " + "flex-full-centered"}>
         <ul className="row">
           {topicsDetails.map((topics, index) => (
             <li className="cards_list" key={index}>
               <div
                 className={
-                  "col" +
-                  " " +
-                  "col-flex-full-centered" +
-                  " " +
-                  styles.col_topics
+                  "col" + " " + "flex-full-centered" + " " + styles.col_topics
                 }
               >
                 <TopicsCardDesktop
@@ -42,15 +38,17 @@ export function TopicsDesktop() {
 export function TopicsMobile() {
   return (
     <div>
-      <div className={"container" + " " + styles.topics_container}>
+      <div
+        className={"container"}
+        style={{ marginTop: "var(--ifm-spacing-2xl)" }}
+      >
         {topicsDetails.map((topics, index) => (
           <ul className="row">
             <li className="cards_list" key={index}>
-
               <TopicsCardMobile
                 topics={topics}
                 TopicsDescriptionMD={TopicsDescriptions[index]}
-                color = {topicsCardColors [index]}
+                color={topicsCardColors[index]}
               />
             </li>
           </ul>

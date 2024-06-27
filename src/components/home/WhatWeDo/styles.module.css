@@ -62,13 +62,6 @@ div .topics_header {
     padding: var(--ifm-spacing-2xl);
   }
 
-  .topics_container {
-    margin-top: var(--ifm-spacing-2xl);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
   .topics_card {
     height: 462px;
     width: 350px;
@@ -77,6 +70,5 @@ div .topics_header {
     box-shadow: 0px 0px 8px 1px #c8c8c7;
     background-color: var(--ifm-background-color-topics-card);
     margin-bottom: var(--ifm-spacing-2xl);
-
   }
 }

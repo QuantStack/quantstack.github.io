@@ -23,14 +23,14 @@ export function HeroDesktop() {
       <div className="main-container-with-margins">
         <div className={"container" + " " + styles.hero_container}>
           <div
-            className={"row row--no-gutters" + " " + "row-flex-full-centered"}
+            className={"row row--no-gutters" + " " + "flex-full-centered"}
           >
             <div className="col col--6 col--offset-1">
               <div className="header-text">
-                <h1 className="h1-padding-none">
+                <h1 className="padding-none">
                   Open-source for discovery, science, and education
                 </h1>
-                <p className="p-left-aligned-padding-none">
+                <p className="text-left-aligned-padding-none">
                   A team behind major open-source projects of the scientific
                   computing ecosystem
                 </p>
@@ -74,7 +74,7 @@ export function HeroMobile() {
         <div className={"container" + " " + styles.hero_container}>
           <div className={"row row--no-gutters"}>
             <div
-              className={"col" + " " + "col-flex-full-centered"}
+              className={"col" + " " + "flex-full-centered"}
               style={{ marginBottom: "var(--ifm-spacing-xl" }}
             >
               <Astronaut />
@@ -87,13 +87,13 @@ export function HeroMobile() {
                 style={{ marginBottom: "var(--ifm-spacing-xl" }}
               >
                 <h1
-                  className="h1-centered"
+                  className="text-centered"
                   style={{ marginBottom: "var(--ifm-spacing-xl" }}
                 >
                   Open-source for discovery, science, and education
                 </h1>
                 <p
-                  className="p-centered"
+                  className="text-centered"
                   style={{ marginBottom: "var(--ifm-spacing-xl" }}
                 >
                   A team behind major open-source projects of the scientific
