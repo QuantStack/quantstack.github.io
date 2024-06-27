@@ -3,9 +3,9 @@ import Link from "@docusaurus/Link";
 
 export default function LinkToServices({label}) {
   return (
-    <div className="link-container">
+    <div className="flex-full-centered">
       <Link
-        className={"link-to-button" + " " + styles.link_to_services}
+        className={"link-to-button" + " " + styles.link_to}
         href="/services/"
       >
         {label}

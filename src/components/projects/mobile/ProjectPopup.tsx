@@ -17,7 +17,7 @@ export default function ProjectPopup({
   return (
     <div>
       <ArrowLeftHeader route={"/projects/"}/>
-      <div className={styles.project_title_popup_container}>
+      <div className="padding-none">
         <div className={styles.project_title_popup}>{project.name}</div>
       </div>
       <div className={styles.project_image_container}>

@@ -8,7 +8,7 @@ export default function FannyComponent() {
       <div className={"container"}>
         <div className="row" style={{ marginBottom: "var(--ifm-spacing-lg)" }}>
           <div className="col col--10 col--offset-1">
-            <div className={styles.avatar_container}>
+            <div className="flex-full-centered">
               <div className={styles.avatar}>
                 <img src={FannyAvatarUrl} />
               </div>

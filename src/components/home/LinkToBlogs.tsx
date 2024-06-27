@@ -5,7 +5,7 @@ export default function LinkToBlogs({label}) {
   return (
     <div className="link-box">
     <Link
-      className={"link-to-button" + " " + styles.link_to_blogs}
+      className={"link-to-button" + " " + styles.link_to}
       href="/blog"
     >
       {label}

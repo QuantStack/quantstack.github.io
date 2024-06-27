@@ -13,7 +13,7 @@ export default function News() {
           <h2 className={styles.h2_custom}>Recent blog contributions</h2>
         </div>
       </div>
-      <ul className={"row" + " " + "row-flex-full-centered"}>
+      <ul className={"row" + " " + "flex-full-centered"}>
         <li className="cards_list">
           <div className="col">
             <BlogpostCard

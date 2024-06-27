@@ -8,7 +8,7 @@ import XPicture from "@site/static/img/socialmedias/X.svg";
 export default function SocialMediaContacts({ person }) {
   return (
     <>
-      <div className = {styles.social_media_contacts_container}>
+      <div className = "flex-full-centered">
         <Link href={person.githubLink}>{<GHPicture/>}</Link>
         <Link href={person.LinkedInLink}>
           {<LinkedInPicture/>}
