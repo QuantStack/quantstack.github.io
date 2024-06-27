@@ -68,7 +68,7 @@ export default function ContactForm() {
             </div>
           </div>
           <div>
-          <div className={styles.send_button_container}>
+          <div className={"flex-full-centered" + " "+ styles.send_button_container}>
             <input type="submit" value="SEND" className={"link-to-button" + " " + styles.send_button} />
           </div>
           </div>

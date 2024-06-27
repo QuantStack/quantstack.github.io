@@ -29,7 +29,7 @@ export default function LargePortraitCard({ person, avatarUrl, BioComponent }) {
       <div className={"container"}>
         <div
           className={
-            "row" + " " + "row-padding-none" + " " + styles.row_with_margins
+            "row" + " " + "padding-none" + " " + styles.row_with_margins
           }
         >
           <div className="col col--12 col--offset-1">
@@ -41,13 +41,9 @@ export default function LargePortraitCard({ person, avatarUrl, BioComponent }) {
         </div>
         <div className="row" style={{ marginBottom: "var(--ifm-spacing-4xl)" }}>
           <div
-            className="col col--3 col--offset-1"
-            style={{
-              display: "flex",
-              justifyContent: "center",
-            }}
+            className={"col col--3 col--offset-1" + " " + "flex-full-centered"}
           >
-            <div className={styles.avatar_container}>
+            <div className="flex-full-centered">
               <img src={avatarUrl} className={styles.avatar} />
             </div>
           </div>

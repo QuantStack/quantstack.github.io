@@ -29,7 +29,7 @@ export default function BlogsComponent({ blogpostsDetails }) {
             className={"col col--8 col--offset-2"}
             style={{ marginBottom: "var(--ifm-spacing-5xl)" }}
           >
-            <h1 className="h1-padding-none">
+            <h1 className="padding-none">
               Featured Posts by QuantStack Contributors
             </h1>
             <div>
@@ -43,7 +43,7 @@ export default function BlogsComponent({ blogpostsDetails }) {
           </div>
         </div>
 
-        <ul className={"row" + " " + "row-flex-full-centered"}>
+        <ul className={"row" + " " + "flex-full-centered"}>
           {filteredBlogPosts.map((blogpost, index) => (
             <li className="cards_list" key={index}>
               <div className="col">

@@ -38,14 +38,14 @@ export function AboutDesktop() {
       <div className="main-container-with-margins">
         <div className={"container" + " " + styles.about_container}>
           <div className={"row"}>
-            <div className={"col" + " " + "col-flex-full-centered"}>
+            <div className={"col" + " " + "flex-full-centered"}>
               <FourValues />
             </div>
           </div>
 
           <div className="row">
             <div className="col col--10 col--offset-1">
-              <h1 className="h1-centered">Meet the QuantStack team</h1>
+              <h1 className="text-centered">Meet the QuantStack team</h1>
               <h4>
                 A team of outliers, leaders in software projects adopted at the
                 global scale, benefiting millions of people worldwide.
@@ -79,9 +79,9 @@ export function AboutDesktop() {
       <div className={styles.join_the_team_container}>
         <h1
           className={
-            "h1-centered" +
+            "text-centered" +
             " " +
-            "h1-padding-none" +
+            "padding-none" +
             " " +
             "h1-margin-none" +
             " " +
@@ -105,7 +105,7 @@ export function AboutMobile() {
     <div className={"container" + " " + styles.about_container}>
       <div
         className={
-          "row" + " " + "row-flex-full-centered" + " " + "row-padding-none"
+          "row" + " " + "flex-full-centered" + " " + "padding-none"
         }
       >
         <div className={"col col--12" + " " + "col--padding-none"}>
@@ -116,7 +116,7 @@ export function AboutMobile() {
         </div>
       </div>
       <div className="row">
-        <div className={"col col--10 col--offset-1" + " " + "col-padding-none"}>
+        <div className={"col col--10 col--offset-1" + " " + "padding-none"}>
           <div className={styles.four_values_div}>
             <FourValues />
           </div>

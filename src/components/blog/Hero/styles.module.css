@@ -15,13 +15,6 @@
     width: 195px;
   }
 
-  .astronaut_column {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: var(--ifm-spacing-xl) 0;
-  }
-
   .logos_carousel {
     display: none;
   }
@@ -57,12 +50,6 @@
 
   .h2_custom {
     color: var(--ifm-color-secondary-s2);
-  }
-
-  .astronaut_column {
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
 
   .astronaut_picture {

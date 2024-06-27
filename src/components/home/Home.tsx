@@ -43,12 +43,13 @@ export function HomeMobile(): JSX.Element {
   return (
     <>
       <Hero />
-      <LinkToServices label={"Discover our services"}/>
+      <LinkToServices label={"DISCOVER OUR SERVICES"}/>
       <div className="spacing-2xl"/>
       <WhatWeDo />
       <div className="spacing-2xl"/>
       <LinkToProjects label={"DISCOVER ALL OF OUR PROJECTS"}/>
       <AboutQS />
+      <LearnMore/>
     </>
   );
 }

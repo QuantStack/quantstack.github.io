@@ -1,6 +1,7 @@
 import styles from "./styles.module.css";
 import Link from "@docusaurus/Link";
 import InterviewPicture from "./InterviewPicture";
+import PlayCircle from "@site/static/img/icons/PlayCircle.svg";
 
 export default function InterviewCard({ person }) {
   return (

@@ -20,13 +20,6 @@
   font-family: var(--ifm-font-family-roboto);
 }
 
-.blogpost_image_container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 180px;
-}
-
 .blogpost_summary {
   color: var(---ifm-text-color);
   font-family: var(--ifm-font-family-roboto);

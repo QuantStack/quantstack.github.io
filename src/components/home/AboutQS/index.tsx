@@ -7,11 +7,11 @@ export default function AboutQS() {
     <div className={"container" + " " + styles.about_us_container}>
       <div
         className={
-          "row" + " " + "row-flex-full-centered" + " " + "row-padding-none"
+          "row" + " " + "flex-full-centered" + " " + "padding-none"
         }
       >
         <div
-          className={"col" + " " + "col-padding-none" + " " + "col-margin-none"}
+          className={"col" + " " + "padding-none" + " " + "margin-none"}
         >
           <div className={styles.text_container}>
             We are a team of expert of open-source developers, the very same
@@ -21,24 +21,24 @@ export default function AboutQS() {
       </div>
       <div
         className={
-          "row" + " " + "row-flex-full-centered" + " " + "row-padding-none"
+          "row" + " " + "flex-full-centered" + " " + "padding-none"
         }
       >
         <div
-          className={"col" + " " + "col-padding-none" + " " + "col-margin-none"}
+          className={"col" + " " + "padding-none" + " " + "margin-none"}
         >
-          <div className={styles.picture_container}>
+          <div className="flex-full-centered" style={{marginBottom: "var(--ifm-spacing-2xl)"}}>
             <img src={GroupPhotoUrl} />
           </div>
         </div>
       </div>
       <div
         className={
-          "row" + " " + "row-flex-full-centered" + " " + "row-padding-none"
+          "row" + " " + "flex-full-centered" + " " + "padding-none"
         }
       >
         <div
-          className={"col" + " " + "col-padding-none" + " " + "col-margin-none"}
+          className={"col" + " " + "padding-none"}
         >
           <LinkToAboutUs label={"LEARN MORE ABOUT US"} />
         </div>

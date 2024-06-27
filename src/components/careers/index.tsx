@@ -10,7 +10,7 @@ export default function Careers() {
     <div>
       <div className="main-container-with-margins">
         <div className={"container" + " " + styles.careers_container}>
-          <div className={"row" + " " + "row-padding-none"}>
+          <div className={"row" + " " + "padding-none"}>
             <div className="col col--10 col--offset-1">
               <Header />
             </div>
@@ -32,7 +32,6 @@ export default function Careers() {
           </div>
         </div>
       </div>
-
       <VisitWTJProfile />
     </div>
   );

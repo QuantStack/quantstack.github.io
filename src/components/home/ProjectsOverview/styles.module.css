@@ -1,5 +1,9 @@
 @media only screen and (max-width: 996px) {
   /*Mobile */
+
+  .row_custom {
+    flex-direction: column-reverse;
+  }
   .project_desktop {
     display: none;
   }
@@ -13,14 +17,7 @@
   .h2_custom {
     color: var(--ifm-color-secondary-s2);
   }
-
-  .col_project_overview_text {
-    padding: var(--ifm-spacing-4xl) var(--ifm-spacing-3xl);
-  }
-  .col_project_overview_picture {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  .col_project_overview_with_padding {
     padding: var(--ifm-spacing-4xl) var(--ifm-spacing-3xl);
   }
 }

@@ -31,10 +31,24 @@
   --ifm-background-color: white;
   --ifm-background-color-dark-mode: #1c1c16;
 
-  --ifm-background-color-value-card: #f6f195;
-  --ifm-background-color-value-dark-mode: #1c1c16;
-  --ifm-text-color-value-card: #1c1c16;
-  --ifm-text-color-value-card-dark-mode: #d0cb54;
+  --ifm-text-color: #1c1c16;
+  --ifm-text-color-dark-mode:  white;
+
+  --ifm-text-color-main-title: #1c1c16;
+  --ifm-text-color-main-title-dark-mode: #FEF9EC;
+
+
+
+  --ifm-background-color-value-card-yellow:  #f6f195;
+  --ifm-background-color-value-card-yellow-dark-mode: #4b4900;
+  --ifm-text-color-value-card-yellow: #1c1c16;
+  --ifm-text-color-value-card-yellow-dark-mode: #d0cb54;
+
+  --ifm-background-color-value-card-white: white;
+  --ifm-background-color-value-card-white-dark-mode: #1c1c16;
+  --ifm-text-color-value-card-white:#1c1c16;
+  --ifm-text-color-value-card-white-dark-mode: #d0cb54;
+
 
   --ifm-background-color-topics-card: #fef9ec;
   --ifm-background-color-topics-card-dark-mode: #1c1c16;
@@ -46,15 +60,20 @@
   --ifm-text-color-topics-card-yellow: var(--ifm-color-neutral-n2);
   --ifm-text-color-topics-card-yellow-dark-mode: var(--ifm-color-primary-p1);
 
-  --ifm-background-color-topics-card-yellow: white;
-  --ifm-background-color-topics-card-yellow-dark-mode: #4b4900;
+  --ifm-background-color-topics-card-white: white;
+  --ifm-background-color-topics-card-white-dark-mode: #4b4900;
   --ifm-text-color-topics-card-white: var(--ifm-color-neutral-n2);
   --ifm-text-color-topics-card-white-dark-mode: white;
 
-  --ifm-background-color-portrait-card: white;
-  --ifm-background-color-portrait-dark-mode: #1c1c16;
-  --ifm-text-color-portrait-card: #1c1c16;
-  --ifm-text-color-portrait-dark-mode: white;
+  --ifm-background-color-small-portrait-card: white;
+  --ifm-background-color-small-portrait-card-dark-mode: #1c1c16;
+  --ifm-text-color-small-portrait-card: #1c1c16;
+  --ifm-text-color-small-portrait-card-dark-mode:  #d0cb54;
+
+  --ifm-background-color-large-portrait-card: white;
+  --ifm-background-color-large-portrait-card-dark-mode: #d0cb54;
+  --ifm-text-color-large-portrait-card:#1c1c16;
+  --ifm-text-color-large-portrait-card-dark-mode: #1c1c16;
 
   --ifm-background-color-project-card: var(--ifm-color-orange-light);
   --ifm-background-color-project-card-dark-mode: #1c1c16;
@@ -95,8 +114,11 @@
   --ifm-text-color-button-blue-banner: white;
   --ifm-text-color-button-blue-banner-dark-mode:  #640037;
 
-
   --ifm-color-blue-contact-send-button: var(--ifm-color-blue-jupyter);
+
+  --ifm-background-color-popup-overlay:grey;
+  --ifm-background-color-popup-overlay-dark-mode:#3b3b3b ;
+
 
   --ifm-font-size-small: 14px;
   --ifm-font-size-normal: 18px;
@@ -128,6 +150,7 @@
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme="dark"] {
   --ifm-text-color: var(--ifm-text-color-dark-mode);
+  --ifm-text-color-main-title: var(--ifm-text-color-main-title-dark-mode);
   --ifm-background-color: var(--ifm-background-color-dark-mode);
   --ifm-color-primary-p1: var(--ifm-color-primary-p1-dark-mode);
   --ifm-background-color-footer: var(--ifm-background-color-footer-dark-mode);
@@ -153,16 +176,32 @@
   --ifm-text-color-topics-card-white: var(
     --ifm-text-color-topics-card-white-dark-mode
   );
-
-  --ifm-background-color-value-card: var(
-    --ifm-background-color-value-card-dark-mode
+  --ifm-background-value-topics-card-white: var(
+    --ifm-background-value-topics-card-white-dark-mode
   );
-  --ifm-text-color-value-card: var(--ifm-text-color-value-card-dark-mode);
+  
 
-  --ifm-background-color-portrait-card: var(
-    --ifm-background-color-portrait-card-dark-mode
+  --ifm-background-color-value-card-yellow: var(
+    --ifm-background-color-value-card-yellow-dark-mode
   );
-  --ifm-text-color-portrait-card: var(--ifm-text-color-portrait-card-dark-mode);
+  --ifm-text-color-value-card-yellow: var(
+    --ifm-text-color-value-card-yellow-dark-mode
+  );
+
+  --ifm-background-color-value-card-white: var(
+    --ifm-background-color-value-card-white-dark-mode
+  );
+
+  --ifm-text-color-value-card-white: var(
+    --ifm-text-color-value-card-white-dark-mode
+  );
+
+
+  --ifm-background-color-small-portrait-card: var(--ifm-background-color-small-portrait-card-dark-mode);
+  --ifm-text-color-small-portrait-card: var(--ifm-text-color-small-portrait-card-dark-mode);
+
+  --ifm-background-color-large-portrait-card: var(--ifm-background-color-large-portrait-card-dark-mode);
+  --ifm-text-color-large-portrait-card: var(--ifm-text-color-large-portrait-card-dark-mode);
 
   --ifm-background-color-project-card: var(
     --ifm-background-color-project-card-dark-mode
@@ -189,61 +228,47 @@
     --ifm-background-color-button-blue-banner-dark-mode
   );
   --ifm-text-color-button-blue-banner: var(--ifm-text-color-button-blue-banner-dark-mode);
+
+  --ifm-background-color-popup-overlay: var(--ifm-background-color-popup-overlay-dark-mode);
 }
 
-.col-margin-none {
+.popup-overlay {
+  background-color: var(--ifm-background-color-popup-overlay)
+}
+
+
+.flex-full-centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.margin-none {
   margin: none;
 }
 
-.col-flex-full-centered {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.col-padding-none {
+.padding-none {
   padding: 0;
 }
 
-.row-flex-full-centered {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.row-padding-none {
-  padding: 0;
-}
-
-.row-margin-none {
-  margin: 0;
-}
 .row-reverse {
   flex-direction: column-reverse;
 }
 
-.h1-centered {
+.text-centered {
   text-align: center;
 }
 
-.h1-padding-none {
-  padding: 0;
-}
-
-.p-centered {
-  text-align: center;
-}
-
-.p-left-aligned {
+.text-left-aligned {
   text-align: start;
 }
 
-.p-left-aligned-padding-none {
+.text-left-aligned-padding-none {
   text-align: start;
   padding: 0;
 }
 
-.p-centered-padding-none {
+.text-centered-padding-none {
   text-align: center;
   padding: 0;
 }
@@ -261,7 +286,7 @@ ul {
   }
 
   h1 {
-    color: var(--ifm-color-primary-p2);
+    color: var(--ifm-text-color-main-title);
     font-family: var(--ifm-font-family-bebas-neue);
     font-size: 24px;
     font-style: normal;
@@ -320,7 +345,7 @@ ul {
   }
 
   h1 {
-    color: var(--ifm-color-primary-p2);
+    color: var(--ifm-text-color-main-title);
     font-family: var(--ifm-font-family-bebas-neue);
     font-size: var(--ifm-font-size-main-title);
     font-style: normal;
@@ -448,12 +473,6 @@ ul {
 
 .spacing-8xl {
   height: var(--ifm-spacing-8xl);
-}
-
-.link-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .link-to-button {
