@@ -8,7 +8,7 @@ export function Distinction({ person }) {
     return (
       <ul>
         {person.distinctionTitle.map((distinction, index) => (
-          <li className="cards_list" key={index}>
+          <li className="cards-list" key={index}>
             <div>
               <div>
                 <Link href={person.distinctionLink[index]}>

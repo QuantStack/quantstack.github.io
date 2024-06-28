@@ -5,15 +5,23 @@ import MambaPictureUrl from "@site/static/img/projects/mamba_console.png";
 export default function SupplyChainProjects() {
   return (
     <div className={"container" + " " + styles.project_desktop}>
-      <div className={"row" + " " + "row-reverse"}>
+      <div className={"row"}>
         <div
           className={
-            "col col--5 col--offset-1 " + " " + styles.col_project_overview_picture
+            "col col--5 col--offset-1" +
+            " " +
+            "flex-full-centered" +
+            " " +
+            styles.col_project_overview_with_padding
           }
         >
           <img src={MambaPictureUrl} />
         </div>
-        <div className={"col col--5" + " " + styles.col_project_overview_with_padding}>
+        <div
+          className={
+            "col col--5" + " " + styles.col_project_overview_with_padding
+          }
+        >
           <h1 className="padding-none">Software supply chain </h1>
           <h2 className={styles.h2_custom}>
             We are the main organisation supporting the mamba package manager.

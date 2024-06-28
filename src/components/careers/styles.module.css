@@ -28,6 +28,14 @@
 
 div .learn_more_WTJ {
   color: var(--ifm-text-color-blue-banner);
+  margin-bottom: var(--ifm-spacing-2xl);
+}
+
+.link_to_WTJ {
+  background-color: var(--ifm-background-color-button-blue-banner);
+  color: var(--ifm-text-color-button-blue-banner);
+  width: 358px;
+  font-weight: 700;
 }
 
 @media only screen and (max-width: 996px) {
@@ -82,8 +90,7 @@ div .learn_more_WTJ {
   .WTJ_profile_container {
     margin-top: var(--ifm-spacing-2xl);
     background-color: var(--ifm-background-color-blue-banner);
-
-    padding: 0 var(--ifm-spacing-2xl);
+    padding: var(--ifm-spacing-2xl) var(--ifm-spacing-2xl);
     font-family: var(--ifm-font-family-roboto);
     font-size: 16px;
     text-align: center;
@@ -171,4 +178,5 @@ div .learn_more_WTJ {
     line-height: 150%; /* 72px */
     letter-spacing: 2.112px;
   }
+
 }
