@@ -20,7 +20,6 @@
   .link_to {
     background-color: var(--ifm-background-color-button-home);
     color: var(--ifm-text-color-button-home);
-    margin-top: var(--ifm-spacing-xl);
     width: 358px;
     font-weight: 700;
   }

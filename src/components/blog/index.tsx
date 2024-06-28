@@ -45,7 +45,7 @@ export default function BlogsComponent({ blogpostsDetails }) {
 
         <ul className={"row" + " " + "flex-full-centered"}>
           {filteredBlogPosts.map((blogpost, index) => (
-            <li className="cards_list" key={index}>
+            <li className="cards-list" key={index}>
               <div className="col">
                 <BlogpostCard
                   blogpost={blogpost}

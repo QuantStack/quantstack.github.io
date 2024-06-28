@@ -41,6 +41,8 @@ export default function AboutQS() {
           className={"col" + " " + "padding-none"}
         >
           <LinkToAboutUs label={"LEARN MORE ABOUT US"} />
+          
+         <div className="spacing-2xl"/>
         </div>
       </div>
     </div>

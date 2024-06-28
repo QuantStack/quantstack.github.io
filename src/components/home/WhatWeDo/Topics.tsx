@@ -16,7 +16,7 @@ export function TopicsDesktop() {
       <div className={"container" + " " + "flex-full-centered"}>
         <ul className="row">
           {topicsDetails.map((topics, index) => (
-            <li className="cards_list" key={index}>
+            <li className="cards-list" key={index}>
               <div
                 className={
                   "col" + " " + "flex-full-centered" + " " + styles.col_topics
@@ -44,7 +44,7 @@ export function TopicsMobile() {
       >
         {topicsDetails.map((topics, index) => (
           <ul className="row">
-            <li className="cards_list" key={index}>
+            <li className="cards-list" key={index}>
               <TopicsCardMobile
                 topics={topics}
                 TopicsDescriptionMD={TopicsDescriptions[index]}

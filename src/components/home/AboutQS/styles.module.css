@@ -1,11 +1,10 @@
 .about_us_container {
   margin-top: var(--ifm-spacing-2xl);
-  padding: var(--ifm-spacing-2xl) 0;
   background-color: var(--ifm-background-color-about-qs-banner);
 }
 div .text_container {
   color: var(--ifm-text-color-about-qs-banner);
- }
+}
 
 @media only screen and (max-width: 996px) {
   /* Mobile */
