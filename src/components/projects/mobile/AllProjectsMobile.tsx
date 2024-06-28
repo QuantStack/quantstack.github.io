@@ -10,7 +10,7 @@ export default function AllProjectsMobile () {
         <div className="container">
           <ul className={"row"}>
             {projectsDetails.map((project, index) => (
-              <li className="cards_list" key={index}>
+              <li className="cards-list" key={index}>
                 <div className="col">
                   <Link href={"/projects/" + project.name}>
                     <div className={styles.project_description}>

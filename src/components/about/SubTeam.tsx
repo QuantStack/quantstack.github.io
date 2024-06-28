@@ -1,8 +1,7 @@
 import styles from "./styles.module.css";
 import SmallPortraitCard from "./SmallPortraitCard";
-import Popup from "reactjs-popup";
-import LargePortraitCard from "./LargePortraitCard";
 import Link from "@docusaurus/Link";
+import PopupPortrait from "./PortraitPopup";
 
 export function SubTeamDesktop({
   description,
@@ -20,32 +19,9 @@ export function SubTeamDesktop({
           }
         >
           {subTeam.map((person, index) => (
-            <li className="cards_list" key={index}>
+            <li className="cards-list" key={index}>
               <div className="col">
-                <Popup
-                  trigger={
-                    <div>
-                      <SmallPortraitCard
-                        person={person}
-                        avatarUrl={subTeamAvatarsUrls[index]}
-                      />
-                    </div>
-                  }
-                  overlayStyle={{
-                    backgroundColor:
-                      "var(--ifm-background-color-popup-overlay)",
-                    opacity: "0.4",
-                    width: "100%",
-                    height: "100%",
-                  }}
-                  position={"center center"}
-                >
-                  <LargePortraitCard
-                    person={person}
-                    avatarUrl={subTeamAvatarsUrls[index]}
-                    BioComponent={subTeamBioComponents[index]}
-                  ></LargePortraitCard>
-                </Popup>
+                <PopupPortrait person={person} subTeamAvatarsUrl={subTeamAvatarsUrls[index]} subTeamBioComponent={subTeamBioComponents[index]}/>
               </div>
             </li>
           ))}
@@ -64,7 +40,7 @@ export function SubTeamMobile({ description, subTeamAvatarsUrls, subTeam }) {
           className={"row" + " " + "flex-full-centered" + " " + "padding-none"}
         >
           {subTeam.map((person, index) => (
-            <li className="cards_list" key={index}>
+            <li className="cards-list" key={index}>
               <div className="col">
                 <Link href={"/about/" + person.firstName}>
                   <SmallPortraitCard

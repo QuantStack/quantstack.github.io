@@ -14,7 +14,7 @@ export default function News() {
         </div>
       </div>
       <ul className={"row" + " " + "flex-full-centered"}>
-        <li className="cards_list">
+        <li className="cards-list">
           <div className="col">
             <BlogpostCard
               blogpost={blogpostsDetails[0]}
@@ -22,7 +22,7 @@ export default function News() {
             />
           </div>
         </li>
-        <li className="cards_list">
+        <li className="cards-list">
           <div className="col col--2 col--offset-1">
             <BlogpostCard
               blogpost={blogpostsDetails[1]}
@@ -30,7 +30,7 @@ export default function News() {
             />
           </div>
         </li>
-        <li className="cards_list">
+        <li className="cards-list">
           <div className="col col--2 col--offset-1">
             <BlogpostCard
               blogpost={blogpostsDetails[2]}

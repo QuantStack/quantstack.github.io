@@ -46,7 +46,7 @@
     line-height: 16px;
     text-align: center;
     margin-bottom: var(--ifm-spacing-xl);
-    color: var(--ifm-text-color-value-card)-white;
+    color: var(--ifm-text-color-value-card-white);
   }
 
   .value_text {
@@ -72,13 +72,12 @@
 
   .value_card_white {
     background-color: var(--ifm-background-color-value-card-white);
-    color: var(--ifm-text-color-value-card-white)
+    color: var(--ifm-text-color-value-card-white);
   }
-
 
   .value_card_yellow {
     background-color: var(--ifm-background-color-value-card-yellow);
-    color: var(--ifm-text-color-value-card-yellow)
+    color: var(--ifm-text-color-value-card-yellow);
   }
 
   .bio_container {
@@ -91,7 +90,6 @@
     letter-spacing: 0.5px;
     padding: var(--ifm-spacing-4xl) var(--ifm-spacing-2xl);
   }
-
 }
 
 @media only screen and (min-width: 996px) {
@@ -120,7 +118,7 @@
   }
 
   .value_text p {
-    color: var(--ifm-text-color-value-card);
+    color: var(--ifm-text-color-value-card-yellow);
     text-align: center;
   }
 
@@ -143,7 +141,7 @@
     padding: var(--ifm-spacing-2xl) var(--ifm-spacing-lg);
     border-radius: 8px;
     box-shadow: 0px 0px 8px 1px #c8c8c7;
-    background-color: var(--ifm-background-color-value-card-white);
+    background-color: var(--ifm-background-color-value-card-yellow);
     margin-bottom: var(--ifm-spacing-xl);
   }
 

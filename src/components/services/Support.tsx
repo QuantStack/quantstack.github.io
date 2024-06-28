@@ -14,6 +14,7 @@ export function SupportIllustration() {
         light: useBaseUrl("/img/illustrations/support-light.svg"),
         dark: useBaseUrl("/img/illustrations/support-dark.svg"),
       }}
+      width={"280px"}
     />
   );
 }

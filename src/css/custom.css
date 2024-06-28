@@ -22,7 +22,7 @@
   --ifm-color-secondary-s1: #a0c9ff;
   /*--ifm-color-secondary-s2: #1861a1;*/
   --ifm-color-secondary-s2: var(--ifm-color-blue-jupyter);
-  --ifm-color-secondary-s2-dark-mode: #B8C3FF ;
+  --ifm-color-secondary-s2-dark-mode: #b8c3ff;
   --ifm-color-secondary-s3: #002646;
 
   --ifm-color-neutral-n1: #605e58;
@@ -32,23 +32,20 @@
   --ifm-background-color-dark-mode: #1c1c16;
 
   --ifm-text-color: #1c1c16;
-  --ifm-text-color-dark-mode:  white;
+  --ifm-text-color-dark-mode: white;
 
   --ifm-text-color-main-title: #1c1c16;
-  --ifm-text-color-main-title-dark-mode: #FEF9EC;
+  --ifm-text-color-main-title-dark-mode: #fef9ec;
 
-
-
-  --ifm-background-color-value-card-yellow:  #f6f195;
+  --ifm-background-color-value-card-yellow: #f6f195;
   --ifm-background-color-value-card-yellow-dark-mode: #4b4900;
   --ifm-text-color-value-card-yellow: #1c1c16;
   --ifm-text-color-value-card-yellow-dark-mode: #d0cb54;
 
   --ifm-background-color-value-card-white: white;
   --ifm-background-color-value-card-white-dark-mode: #1c1c16;
-  --ifm-text-color-value-card-white:#1c1c16;
+  --ifm-text-color-value-card-white: #1c1c16;
   --ifm-text-color-value-card-white-dark-mode: #d0cb54;
-
 
   --ifm-background-color-topics-card: #fef9ec;
   --ifm-background-color-topics-card-dark-mode: #1c1c16;
@@ -68,11 +65,11 @@
   --ifm-background-color-small-portrait-card: white;
   --ifm-background-color-small-portrait-card-dark-mode: #1c1c16;
   --ifm-text-color-small-portrait-card: #1c1c16;
-  --ifm-text-color-small-portrait-card-dark-mode:  #d0cb54;
+  --ifm-text-color-small-portrait-card-dark-mode: #d0cb54;
 
   --ifm-background-color-large-portrait-card: white;
   --ifm-background-color-large-portrait-card-dark-mode: #d0cb54;
-  --ifm-text-color-large-portrait-card:#1c1c16;
+  --ifm-text-color-large-portrait-card: #1c1c16;
   --ifm-text-color-large-portrait-card-dark-mode: #1c1c16;
 
   --ifm-background-color-project-card: var(--ifm-color-orange-light);
@@ -83,7 +80,7 @@
 
   --ifm-background-color-blue-banner: #a0c9ff;
   /*--ifm-background-color-blue-banner-dark-mode: #0c37b7;*/
-  --ifm-background-color-blue-banner-dark-mode:rgb(79, 82, 255);
+  --ifm-background-color-blue-banner-dark-mode: rgb(79, 82, 255);
   --ifm-text-color-blue-banner: #002646;
   --ifm-text-color-blue-banner-dark-mode: #dde1ff;
 
@@ -112,13 +109,12 @@
   --ifm-background-color-button-blue-banner: #002646;
   --ifm-background-color-button-blue-banner-dark-mode: #dde1ff;
   --ifm-text-color-button-blue-banner: white;
-  --ifm-text-color-button-blue-banner-dark-mode:  #640037;
+  --ifm-text-color-button-blue-banner-dark-mode: #640037;
 
   --ifm-color-blue-contact-send-button: var(--ifm-color-blue-jupyter);
 
-  --ifm-background-color-popup-overlay:grey;
-  --ifm-background-color-popup-overlay-dark-mode:#3b3b3b ;
-
+  --ifm-background-color-popup-overlay: grey;
+  --ifm-background-color-popup-overlay-dark-mode: #3b3b3b;
 
   --ifm-font-size-small: 14px;
   --ifm-font-size-normal: 18px;
@@ -179,7 +175,6 @@
   --ifm-background-value-topics-card-white: var(
     --ifm-background-value-topics-card-white-dark-mode
   );
-  
 
   --ifm-background-color-value-card-yellow: var(
     --ifm-background-color-value-card-yellow-dark-mode
@@ -196,12 +191,19 @@
     --ifm-text-color-value-card-white-dark-mode
   );
 
+  --ifm-background-color-small-portrait-card: var(
+    --ifm-background-color-small-portrait-card-dark-mode
+  );
+  --ifm-text-color-small-portrait-card: var(
+    --ifm-text-color-small-portrait-card-dark-mode
+  );
 
-  --ifm-background-color-small-portrait-card: var(--ifm-background-color-small-portrait-card-dark-mode);
-  --ifm-text-color-small-portrait-card: var(--ifm-text-color-small-portrait-card-dark-mode);
-
-  --ifm-background-color-large-portrait-card: var(--ifm-background-color-large-portrait-card-dark-mode);
-  --ifm-text-color-large-portrait-card: var(--ifm-text-color-large-portrait-card-dark-mode);
+  --ifm-background-color-large-portrait-card: var(
+    --ifm-background-color-large-portrait-card-dark-mode
+  );
+  --ifm-text-color-large-portrait-card: var(
+    --ifm-text-color-large-portrait-card-dark-mode
+  );
 
   --ifm-background-color-project-card: var(
     --ifm-background-color-project-card-dark-mode
@@ -227,15 +229,14 @@
   --ifm-background-color-button-blue-banner: var(
     --ifm-background-color-button-blue-banner-dark-mode
   );
-  --ifm-text-color-button-blue-banner: var(--ifm-text-color-button-blue-banner-dark-mode);
+  --ifm-text-color-button-blue-banner: var(
+    --ifm-text-color-button-blue-banner-dark-mode
+  );
 
-  --ifm-background-color-popup-overlay: var(--ifm-background-color-popup-overlay-dark-mode);
+  --ifm-background-color-popup-overlay: var(
+    --ifm-background-color-popup-overlay-dark-mode
+  );
 }
-
-.popup-overlay {
-  background-color: var(--ifm-background-color-popup-overlay)
-}
-
 
 .flex-full-centered {
   display: flex;
@@ -743,6 +744,7 @@ a.menu__link:active {
   background-repeat: no-repeat;
 }
 
-.cards_list {
+.cards-list {
   list-style-type: none;
+  padding: none;
 }

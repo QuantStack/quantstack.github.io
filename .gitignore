@@ -3,3 +3,4 @@ _site/
 .ipynb_checkpoints/
 node_modules/
 build/
+.docusaurus

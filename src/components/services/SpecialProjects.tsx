@@ -11,13 +11,12 @@ export function SpecialProjectsIllustration() {
     <ThemedImage
       alt="Illustration showing a group of people working together"
       sources={{
-        light: useBaseUrl("/img/illustrations/special-project-light.svg"),
+        light: useBaseUrl("/img/illustrations/special-projects-light.svg"),
         dark: useBaseUrl("/img/illustrations/special-projects-dark.svg"),
       }}
     />
   );
 }
-
 
 
 export function SpecialProjectsDesktop() {
@@ -42,7 +41,7 @@ export function SpecialProjectsMobile() {
       <div className="row row--no-gutters">
         <div className="col">
           <div className="flex-full-centered">
-            <SpecialProjectsIllustration/>
+            <SpecialProjectsIllustration />
            
           </div>
         </div>

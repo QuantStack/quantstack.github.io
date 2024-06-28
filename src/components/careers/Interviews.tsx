@@ -8,7 +8,7 @@ export default function Interviews({ details, description }) {
       <div className="container">
         <ul className="row">
           {details.map((person, index) => (
-            <li className="cards_list" key={index}>
+            <li className="cards-list" key={index}>
               <div className="col col--2">
                 <InterviewCard person={person} />
               </div>

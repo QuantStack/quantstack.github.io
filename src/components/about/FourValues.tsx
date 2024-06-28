@@ -78,7 +78,7 @@ export function FourValuesMobile() {
     <div className={styles.four_values_container}>
       <ul className={"row" + " " + "flex-full-centered" + " " + "padding-none"}>
         {valuesNames.map((value, index) => (
-          <li className="cards_list" key={index}>
+          <li className="cards-list" key={index}>
             <div className="col">
               <ValueCardMobile
                 value={value}
@@ -106,7 +106,7 @@ export function FourValuesDesktop() {
         className={"row" + " " + "padding-none" + " " + styles.row_with_margins}
       >
         {valuesNames.map((value, index) => (
-          <li className="cards_list" key={index}>
+          <li className="cards-list" key={index}>
             <div className="col">
               <div className={styles.value_card_container}>
                 <ValueCardDesktop
