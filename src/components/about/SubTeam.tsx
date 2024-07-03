@@ -15,7 +15,7 @@ export function SubTeamDesktop({
       <div className={"container" + " " + styles.subteam_container}>
         <ul
           className={
-            "row" + " " + "padding-none" + " " + styles.row_with_margins
+            "row" + " " + "padding-none" + " " + styles.row_with_margins+ " "+ "flex-full-centered"
           }
         >
           {subTeam.map((person, index) => (

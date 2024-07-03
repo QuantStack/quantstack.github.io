@@ -99,11 +99,11 @@ export function FourValuesDesktop() {
     <div className={styles.four_values_container}>
       <div className="row">
         <div className="col">
-          <h1 className="padding-none">Our values </h1>
+          <h1 className={"padding-none" + " "+ "full-flex-centered"}>Our values </h1>
         </div>
       </div>
       <ul
-        className={"row" + " " + "padding-none" + " " + styles.row_with_margins}
+        className={"row" + " " + "padding-none" + " " + styles.row_with_margins+" "+ "flex-full-centered"}
       >
         {valuesNames.map((value, index) => (
           <li className="cards-list" key={index}>

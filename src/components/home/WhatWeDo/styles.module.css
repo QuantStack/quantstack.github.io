@@ -60,7 +60,9 @@ div .topics_header {
   .whatwedo_container {
     background-color: var(--ifm-color-primary-p1);
     padding: var(--ifm-spacing-2xl);
+    margin-top: var(--ifm-spacing-5xl);
   }
+
 
   .topics_card {
     height: 462px;
