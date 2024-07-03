@@ -147,7 +147,7 @@
 
   .large_portrait_card {
     width: 1000px;
-    background-color: var(--ifm-background-color-large-portrait-card);
+    /*background-color: var(--ifm-background-color-large-portrait-card);*/
     border-radius: 10px;
     box-shadow: 0px 1px 10px 0 rgba(1, 0, 0, 0.17);
     padding: var(--ifm-spacing-xl) var(--ifm-spacing-2xl);
