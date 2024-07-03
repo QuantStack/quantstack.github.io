@@ -111,7 +111,7 @@ div .schedule_container {
   }
 
   .project_description {
-    padding: var(--ifm-spacing-md) var(--ifm-spacing-xl);
+    /*padding: var(--ifm-spacing-md) var(--ifm-spacing-xl);*/
     text-align: center;
   }
 
@@ -119,22 +119,28 @@ div .schedule_container {
     color: var(--ifm-text-color-project-card);
   }
 
-  .col_project_text {
+  .row_project {
     background-color: var(--ifm-background-color-project-card);
-    padding: var(--ifm-spacing-4xl) var(--ifm-spacing-3xl);
     border-radius: 10px;
     box-shadow: 0px 0px 8px 1px #d0cb54;
   }
 
+  .col_project_text {
+    background-color: var(--ifm-background-color-project-card);
+    padding: var(--ifm-spacing-4xl) var(--ifm-spacing-3xl);
+    border-radius: 10px;
+    /*box-shadow: 0px 0px 8px 1px #d0cb54;*/
+  }
+
   .col_project_picture_left {
     margin-right: var(--ifm-spacing-lg);
-    border-radius: 10px;
-    box-shadow: 0px 0px 8px 1px;
+    /*border-radius: 10px;*/
+    /*border: solid 2px;*/
   }
 
   .col_project_picture_right {
     margin-left: var(--ifm-spacing-lg);
-    box-shadow: 0px 0px 8px 1px;
+    border-radius: 10px;
   }
 
   .col_schedule {
