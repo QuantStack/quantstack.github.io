@@ -1,5 +1,5 @@
 import styles from "./styles.module.css";
-import SimpleSlider from "./LogosTable";
+import SimpleSlider from "./LogosTableBy8";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import ThemedImage from "@theme/ThemedImage";
 import { useEffect, useState } from "react";
@@ -13,6 +13,7 @@ export function Astronaut() {
         light: useBaseUrl("/img/quantstack/astronaut-light.svg"),
         dark: useBaseUrl("/img/quantstack/astronaut-dark.svg"),
       }}
+      width={"240px"}
     />
   );
 }
@@ -41,9 +42,8 @@ export function HeroDesktop() {
             </div>
             <div
               className={
-                "col col--3 col--offset-1" + " " + "flex-full-centered"
+                "col col--3 col--offset-1" + " " + styles.astronaut_column
               }
-              
             >
               <Astronaut />
             </div>
@@ -54,7 +54,7 @@ export function HeroDesktop() {
         <div className={"container" + " " + styles.logos_carousel}>
           <div className="row">
             <div className="col col--10 col--offset-1">
-              <div className={styles.worked_with}> We have worked with</div>
+              <div className={styles.worked_with}> We have worked with </div>
             </div>
           </div>
           <div className="row">
@@ -76,7 +76,7 @@ export function HeroMobile() {
           <div className={"row row--no-gutters"}>
             <div
               className={"col" + " " + "flex-full-centered"}
-              style={{ margin: "var(--ifm-spacing-xl) 0" }}
+              style={{ marginBottom: "var(--ifm-spacing-xl" }}
             >
               <Astronaut />
             </div>

@@ -47,9 +47,11 @@ export function SimpleSliderLight() {
   let settings = {
     dots: true,
     infinite: true,
-    speed: 1000,
+    speed: 800,
     slidesToShow: 1,
     slidesToScroll: 1,
+    arrows: false,
+    autoplay: true
   };
   return (
     <Slider {...settings}>
@@ -70,9 +72,11 @@ export function SimpleSliderDark() {
   let settings = {
     dots: true,
     infinite: true,
-    speed: 1000,
+    speed: 800,
     slidesToShow: 1,
     slidesToScroll: 1,
+    arrows: false,
+    autoplay: true
   };
   return (
     <Slider {...settings}>

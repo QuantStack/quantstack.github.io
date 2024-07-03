@@ -36,12 +36,12 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useColorMode } from "@docusaurus/theme-common";
 
-export default function SimpleSlider () {
- const { colorMode, setColorMode } = useColorMode();
+export default function SimpleSlider() {
+  const { colorMode, setColorMode } = useColorMode();
   if (colorMode === "dark") {
-    return (<SimpleSliderDark />);
+    return <SimpleSliderDark />;
   } else return <SimpleSliderLight />;
-};
+}
 
 export function SimpleSliderLight() {
   let settings = {
@@ -50,6 +50,8 @@ export function SimpleSliderLight() {
     speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
+    arrows: false,
+    autoplay: true,
   };
   return (
     <Slider {...settings}>
@@ -62,6 +64,9 @@ export function SimpleSliderLight() {
       <div>
         <LogosTable3Light />
       </div>
+      <div>
+        <LogosTable4Light />
+      </div>
     </Slider>
   );
 }
@@ -73,6 +78,8 @@ export function SimpleSliderDark() {
     speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
+    arrows: false,
+    autoplay: true,
   };
   return (
     <Slider {...settings}>
@@ -85,60 +92,47 @@ export function SimpleSliderDark() {
       <div>
         <LogosTable3Dark />
       </div>
+      <div>
+        <LogosTable4Dark />
+      </div>
     </Slider>
   );
 }
 
-
-
 export function LogosTable1Light() {
   return (
-    <div className={"container" + " " + styles.table_with_12_customers}>
+    <div className={"container" + " " + styles.table_with_8_customers}>
       <div className="row row--no-gutters">
-        <div className={"col col--2" + " " + "flex-full-centered"}>
+        <div className={"col col--3" + " " + "flex-full-centered"}>
           <img src={BloombergLogoUrl} className={styles.customer_logo_light} />
         </div>
-        <div className={"col col--2" + " " + "flex-full-centered"}>
+        <div className={"col col--3" + " " + "flex-full-centered"}>
           <img src={SGLogoUrl} className={styles.customer_logo_light} />
         </div>
-        <div className={"col col--2" + " " + "flex-full-centered"}>
+        <div className={"col col--3" + " " + "flex-full-centered"}>
           <img src={RapyutaLogoUrl} className={styles.customer_logo_light} />
         </div>
-        <div className={"col col--2" + " " + "flex-full-centered"}>
+        <div className={"col col--3" + " " + "flex-full-centered"}>
           <img src={CFMLogoUrl} className={styles.customer_logo_light} />
         </div>
-        <div className={"col col--2" + " " + "flex-full-centered"}>
+      </div>
+      <div className="row row--no-gutters">
+        <div className={"col col--3" + " " + "flex-full-centered"}>
           <img src={EngieLogoUrl} className={styles.customer_logo_light} />
         </div>
-        <div className={"col col--2" + " " + "flex-full-centered"}>
+        <div className={"col col--3" + " " + "flex-full-centered"}>
           <img
             src={JRCLogoUrl}
             className={styles.customer_logo_light}
             style={{ width: "100px" }}
           />
         </div>
-      </div>
-      <div className="row row--no-gutters">
-        <div className={"col col--2" + " " + "flex-full-centered"}>
+
+        <div className={"col col--3" + " " + "flex-full-centered"}>
           <img src={ERDCLogoUrl} className={styles.customer_logo_light} />
         </div>
-        <div className={"col col--2" + " " + "flex-full-centered"}>
+        <div className={"col col--3" + " " + "flex-full-centered"}>
           <img src={PandaLogoUrl} className={styles.customer_logo_light} />
-        </div>
-        <div className={"col col--2" + " " + "flex-full-centered"}>
-          <img
-            src={UniversiteParisCiteLogoUrl}
-            className={styles.customer_logo_light}
-          />
-        </div>
-        <div className={"col col--2" + " " + "flex-full-centered"}>
-          <img src={AirbusLogoUrl} className={styles.customer_logo_light} />
-        </div>
-        <div className={"col col--2" + " " + "flex-full-centered"}>
-          <img src={INRIALogoUrl} className={styles.customer_logo_light} />
-        </div>
-        <div className={"col col--2" + " " + "flex-full-centered"}>
-          <img src={CNAMLogoUrl} className={styles.customer_logo_light} />
         </div>
       </div>
     </div>
@@ -149,202 +143,244 @@ export function LogosTable1Dark() {
   return (
     <div className={"container" + " " + styles.table_with_12_customers}>
       <div className="row row--no-gutters">
-        <div className={"col col--2" + " " + "flex-full-centered"}>
+        <div className={"col col--3" + " " + "flex-full-centered"}>
           <img src={BloombergLogoUrl} className={styles.customer_logo_dark} />
         </div>
-        <div className={"col col--2" + " " + "flex-full-centered"}>
+        <div className={"col col--3" + " " + "flex-full-centered"}>
           <img src={SGLogoUrl} className={styles.customer_logo_dark} />
         </div>
-        <div className={"col col--2" + " " + "flex-full-centered"}>
+        <div className={"col col--3" + " " + "flex-full-centered"}>
           <img src={RapyutaLogoUrl} className={styles.customer_logo_dark} />
         </div>
-        <div className={"col col--2" + " " + "flex-full-centered"}>
+        <div className={"col col--3" + " " + "flex-full-centered"}>
           <img src={CFMLogoUrl} className={styles.customer_logo_dark} />
         </div>
-        <div className={"col col--2" + " " + "flex-full-centered"}>
+      </div>
+      <div className="row row--no-gutters">
+        <div className={"col col--3" + " " + "flex-full-centered"}>
           <img src={EngieLogoUrl} className={styles.customer_logo_dark} />
         </div>
-        <div className={"col col--2" + " " + "flex-full-centered"}>
+        <div className={"col col--3" + " " + "flex-full-centered"}>
           <img
             src={JRCLogoUrl}
             className={styles.customer_logo_dark}
             style={{ width: "100px" }}
           />
         </div>
-      </div>
-      <div className="row row--no-gutters">
-        <div className={"col col--2" + " " + "flex-full-centered"}>
+        <div className={"col col--3" + " " + "flex-full-centered"}>
           <img src={ERDCLogoUrl} className={styles.customer_logo_dark} />
         </div>
-        <div className={"col col--2" + " " + "flex-full-centered"}>
+        <div className={"col col--3" + " " + "flex-full-centered"}>
           <img src={PandaLogoUrl} className={styles.customer_logo_dark} />
-        </div>
-        <div className={"col col--2" + " " + "flex-full-centered"}>
-          <img
-            src={UniversiteParisCiteLogoUrl}
-            className={styles.customer_logo_dark}
-          />
-        </div>
-        <div className={"col col--2" + " " + "flex-full-centered"}>
-          <img src={AirbusLogoUrl} className={styles.customer_logo_dark} />
-        </div>
-        <div className={"col col--2" + " " + "flex-full-centered"}>
-          <img src={INRIALogoUrl} className={styles.customer_logo_dark} />
-        </div>
-        <div className={"col col--2" + " " + "flex-full-centered"}>
-          <img src={CNAMLogoUrl} className={styles.customer_logo_dark} />
         </div>
       </div>
     </div>
   );
 }
 
-
-
 export function LogosTable2Light() {
+  return (
+    <div className={"container" + " " + styles.table_with_8_customers}>
+      <div className="row row--no-gutters">
+        <div className={"col col--3" + " " + "flex-full-centered"}>
+          <img
+            src={UniversiteParisCiteLogoUrl}
+            className={styles.customer_logo_light}
+          />
+        </div>
+        <div className={"col col--3" + " " + "flex-full-centered"}>
+          <img src={AirbusLogoUrl} className={styles.customer_logo_light} />
+        </div>
+        <div className={"col col--3" + " " + "flex-full-centered"}>
+          <img src={INRIALogoUrl} className={styles.customer_logo_light} />
+        </div>
+        <div className={"col col--3" + " " + "flex-full-centered"}>
+          <img src={CNAMLogoUrl} className={styles.customer_logo_light} />
+        </div>
+      </div>
+      <div className="row row--no-gutters">
+        <div className={"col col--3" + " " + "flex-full-centered"}>
+          <img src={NatixisLogoUrl} className={styles.customer_logo_light} />
+        </div>
+        <div className={"col col--3" + " " + "flex-full-centered"}>
+          <img src={NumfocusLogoUrl} className={styles.customer_logo_light} />
+        </div>
+        <div className={"col col--3" + " " + "flex-full-centered"}>
+          <img src={RobocorpLogoUrl} className={styles.customer_logo_light} />
+        </div>
+        <div className={"col col--3" + " " + "flex-full-centered"}>
+          <img src={CalPolyLogoUrl} className={styles.customer_logo_light} />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export function LogosTable2Dark() {
   return (
     <div className={"container" + " " + styles.table_with_12_customers}>
       <div className="row row--no-gutters">
-        <div className={"col col--2" + " " + "flex-full-centered"}>
-          <img src={NatixisLogoUrl} className={styles.customer_logo_light} />
+        <div className={"col col--3" + " " + "flex-full-centered"}>
+          <img
+            src={UniversiteParisCiteLogoUrl}
+            className={styles.customer_logo_dark}
+          />
         </div>
-        <div className={"col col--2" + " " + "flex-full-centered"}>
-          <img src={NumfocusLogoUrl} className={styles.customer_logo_light} />
+        <div className={"col col--3" + " " + "flex-full-centered"}>
+          <img src={AirbusLogoUrl} className={styles.customer_logo_dark} />
         </div>
-        <div className={"col col--2" + " " + "flex-full-centered"}>
-          <img src={RobocorpLogoUrl} className={styles.customer_logo_light} />
+        <div className={"col col--3" + " " + "flex-full-centered"}>
+          <img src={INRIALogoUrl} className={styles.customer_logo_dark} />
         </div>
-        <div className={"col col--2" + " " + "flex-full-centered"}>
-          <img src={CalPolyLogoUrl} className={styles.customer_logo_light} />
+        <div className={"col col--3" + " " + "flex-full-centered"}>
+          <img src={CNAMLogoUrl} className={styles.customer_logo_dark} />
         </div>
-        <div className={"col col--2" + " " + "flex-full-centered"}>
+      </div>
+      <div className="row row--no-gutters">
+        <div className={"col col--3" + " " + "flex-full-centered"}>
+          <img src={NatixisLogoUrl} className={styles.customer_logo_dark} />
+        </div>
+        <div className={"col col--3" + " " + "flex-full-centered"}>
+          <img src={NumfocusLogoUrl} className={styles.customer_logo_dark} />
+        </div>
+        <div className={"col col--3" + " " + "flex-full-centered"}>
+          <img src={RobocorpLogoUrl} className={styles.customer_logo_dark} />
+        </div>
+        <div className={"col col--3" + " " + "flex-full-centered"}>
+          <img src={CalPolyLogoUrl} className={styles.customer_logo_dark} />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export function LogosTable3Light() {
+  return (
+    <div className={"container" + " " + styles.table_with_8_customers}>
+      <div className="row row--no-gutters">
+        <div className={"col col--3" + " " + "flex-full-centered"}>
           <img src={MaxFordhamLogoUrl} className={styles.customer_logo_light} />
         </div>
-        <div className={"col col--2" + " " + "flex-full-centered"}>
+        <div className={"col col--3" + " " + "flex-full-centered"}>
           <img
             src={GainTheoryUrl}
             className={styles.customer_logo_light}
             style={{ width: "60px" }}
           />
         </div>
-      </div>
 
-      <div className="row row--no-gutters">
-        <div className={"col col--2" + " " + "flex-full-centered"}>
+        <div className={"col col--3" + " " + "flex-full-centered"}>
           <img src={EnthoughtLogoUrl} className={styles.customer_logo_light} />
         </div>
-        <div className={"col col--2" + " " + "flex-full-centered"}>
+        <div className={"col col--3" + " " + "flex-full-centered"}>
           <img src={CressetLogoUrl} className={styles.customer_logo_light} />
         </div>
-        <div className={"col col--2" + " " + "flex-full-centered"}>
+      </div>
+      <div className="row row--no-gutters">
+        <div className={"col col--3" + " " + "flex-full-centered"}>
           <img
             src={TDKLogoUrl}
             className={styles.customer_logo_light}
             style={{ width: "60px" }}
           />
         </div>
-        <div className={"col col--2" + " " + "flex-full-centered"}>
+        <div className={"col col--3" + " " + "flex-full-centered"}>
           <img src={HarvardLogoUrl} className={styles.customer_logo_light} />
         </div>
-        <div className={"col col--2" + " " + "flex-full-centered"}>
+        <div className={"col col--3" + " " + "flex-full-centered"}>
           <img src={EMBLLogoUrl} className={styles.customer_logo_light} />
         </div>
-        <div className={"col col--2" + " " + "flex-full-centered"}>
+        <div className={"col col--3" + " " + "flex-full-centered"}>
           <img src={QuantCoUrl} className={styles.customer_logo_light} />
         </div>
       </div>
     </div>
   );
 }
-export function LogosTable2Dark() {
+
+export function LogosTable3Dark() {
   return (
     <div className={"container" + " " + styles.table_with_12_customers}>
       <div className="row row--no-gutters">
-        <div className={"col col--2" + " " + "flex-full-centered"}>
-          <img src={NatixisLogoUrl} className={styles.customer_logo_dark} />
-        </div>
-        <div className={"col col--2" + " " + "flex-full-centered"}>
-          <img src={NumfocusLogoUrl} className={styles.customer_logo_dark} />
-        </div>
-        <div className={"col col--2" + " " + "flex-full-centered"}>
-          <img src={RobocorpLogoUrl} className={styles.customer_logo_dark} />
-        </div>
-        <div className={"col col--2" + " " + "flex-full-centered"}>
-          <img src={CalPolyLogoUrl} className={styles.customer_logo_dark} />
-        </div>
-        <div className={"col col--2" + " " + "flex-full-centered"}>
+        <div className={"col col--3" + " " + "flex-full-centered"}>
           <img src={MaxFordhamLogoUrl} className={styles.customer_logo_dark} />
         </div>
-        <div className={"col col--2" + " " + "flex-full-centered"}>
+        <div className={"col col--3" + " " + "flex-full-centered"}>
           <img
             src={GainTheoryUrl}
             className={styles.customer_logo_dark}
             style={{ width: "60px" }}
           />
         </div>
-      </div>
 
-      <div className="row row--no-gutters">
-        <div className={"col col--2" + " " + "flex-full-centered"}>
+        <div className={"col col--3" + " " + "flex-full-centered"}>
           <img src={EnthoughtLogoUrl} className={styles.customer_logo_dark} />
         </div>
-        <div className={"col col--2" + " " + "flex-full-centered"}>
+        <div className={"col col--3" + " " + "flex-full-centered"}>
           <img src={CressetLogoUrl} className={styles.customer_logo_dark} />
         </div>
-        <div className={"col col--2" + " " + "flex-full-centered"}>
+      </div>
+      <div className="row row--no-gutters">
+        <div className={"col col--3" + " " + "flex-full-centered"}>
           <img
             src={TDKLogoUrl}
             className={styles.customer_logo_dark}
             style={{ width: "60px" }}
           />
         </div>
-        <div className={"col col--2" + " " + "flex-full-centered"}>
+        <div className={"col col--3" + " " + "flex-full-centered"}>
           <img src={HarvardLogoUrl} className={styles.customer_logo_dark} />
         </div>
-        <div className={"col col--2" + " " + "flex-full-centered"}>
+        <div className={"col col--3" + " " + "flex-full-centered"}>
           <img src={EMBLLogoUrl} className={styles.customer_logo_dark} />
         </div>
-        <div className={"col col--2" + " " + "flex-full-centered"}>
+        <div className={"col col--3" + " " + "flex-full-centered"}>
           <img src={QuantCoUrl} className={styles.customer_logo_dark} />
         </div>
       </div>
     </div>
   );
 }
-export function LogosTable3Light() {
+
+export function LogosTable4Light() {
   return (
     <div className={"container" + " " + styles.table_with_12_customers}>
       <div className="row row--no-gutters">
-        <div className={"col col--2" + " " + "flex-full-centered"}>
+        <div className={"col col--3" + " " + "flex-full-centered"}>
           <img
             src={VoltronDataLogoUrl}
             className={styles.customer_logo_light}
             style={{ width: "140px" }}
           />
         </div>
-        <div className={"col col--2" + " " + "flex-full-centered"}>
+        <div className={"col col--3" + " " + "flex-full-centered"}>
           <img src={SafranLogoUrl} className={styles.customer_logo_light} />
         </div>
-        <div className={"col col--2" + " " + "flex-full-centered"}>
+        <div className={"col col--3" + " " + "flex-full-centered"}>
           <img src={DEShawLogoUrl} className={styles.customer_logo_light} />
         </div>
-        <div className={"col col--2" + " " + "flex-full-centered"}>
+        <div className={"col col--3" + " " + "flex-full-centered"}>
           <img
             src={UniversiteParisSaclayLogoUrl}
             className={styles.customer_logo_light}
           />
         </div>
-        <div className={"col col--2" + " " + "flex-full-centered"}>
-          <img src={UnitedRoboticsLogoUrl} className={styles.customer_logo_light} />
+      </div>
+      <div className="row row--no-gutters">
+        <div className={"col col--3" + " " + "flex-full-centered"}>
+          <img
+            src={UnitedRoboticsLogoUrl}
+            className={styles.customer_logo_light}
+          />
         </div>
-        <div className={"col col--2" + " " + "flex-full-centered"}>
+        <div className={"col col--3" + " " + "flex-full-centered"}>
           <img
             src={CEALogoUrl}
             className={styles.customer_logo_light}
             style={{ width: "60px" }}
           />
         </div>
-        <div className={"col col--2" + " " + "flex-full-centered"}>
+        <div className={"col col--3" + " " + "flex-full-centered"}>
           <img
             src={EcolePolytechniqueLogoUrl}
             className={styles.customer_logo_light}
@@ -356,40 +392,45 @@ export function LogosTable3Light() {
   );
 }
 
-export function LogosTable3Dark() {
+export function LogosTable4Dark() {
   return (
     <div className={"container" + " " + styles.table_with_12_customers}>
       <div className="row row--no-gutters">
-        <div className={"col col--2" + " " + "flex-full-centered"}>
+        <div className={"col col--3" + " " + "flex-full-centered"}>
           <img
             src={VoltronDataLogoUrl}
             className={styles.customer_logo_dark}
             style={{ width: "140px" }}
           />
         </div>
-        <div className={"col col--2" + " " + "flex-full-centered"}>
+        <div className={"col col--3" + " " + "flex-full-centered"}>
           <img src={SafranLogoUrl} className={styles.customer_logo_dark} />
         </div>
-        <div className={"col col--2" + " " + "flex-full-centered"}>
+        <div className={"col col--3" + " " + "flex-full-centered"}>
           <img src={DEShawLogoUrl} className={styles.customer_logo_dark} />
         </div>
-        <div className={"col col--2" + " " + "flex-full-centered"}>
+        <div className={"col col--3" + " " + "flex-full-centered"}>
           <img
             src={UniversiteParisSaclayLogoUrl}
             className={styles.customer_logo_dark}
           />
         </div>
-        <div className={"col col--2" + " " + "flex-full-centered"}>
-          <img src={UnitedRoboticsLogoUrl} className={styles.customer_logo_dark} />
+      </div>
+      <div className="row row--no-gutters">
+        <div className={"col col--3" + " " + "flex-full-centered"}>
+          <img
+            src={UnitedRoboticsLogoUrl}
+            className={styles.customer_logo_dark}
+          />
         </div>
-        <div className={"col col--2" + " " + "flex-full-centered"}>
+        <div className={"col col--3" + " " + "flex-full-centered"}>
           <img
             src={CEALogoUrl}
             className={styles.customer_logo_dark}
             style={{ width: "60px" }}
           />
         </div>
-        <div className={"col col--2" + " " + "flex-full-centered"}>
+        <div className={"col col--3" + " " + "flex-full-centered"}>
           <img
             src={EcolePolytechniqueLogoUrl}
             className={styles.customer_logo_light}

@@ -10,11 +10,6 @@
     margin: 0;
   }
 
-  .astronaut_picture {
-    height: 195px;
-    width: 195px;
-  }
-
   .logos_carousel {
     display: none;
   }
@@ -30,16 +25,19 @@
     margin-bottom: var(--ifm-spacing-xl);
   }
 
+  .table_with_8_customers {
+    margin-bottom: var(--ifm-spacing-xl);
+  }
+
   .customer_logo_light {
     filter: grayscale(1);
     width: 100px;
   }
 
-  .customer_logo_dark{
+  .customer_logo_dark {
     filter: grayscale(100%) invert(100%);
     width: 100px;
   }
-
 
   .worked_with {
     font-size: var(--ifm-font-size-normal);
@@ -51,9 +49,5 @@
   .h2_custom {
     color: var(--ifm-color-secondary-s2);
   }
-  
-  .astronaut_picture {
-    height: 329px;
-    width: 329px;
-  }
+
 }

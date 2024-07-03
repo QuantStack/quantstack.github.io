@@ -1,5 +1,5 @@
 
-import Hero from "../blog/Hero";
+import Hero from "./Hero";
 import WhatWeDo from "./WhatWeDo";
 import ProjectsOverview from "./ProjectsOverview";
 import AboutQS from "./AboutQS";
