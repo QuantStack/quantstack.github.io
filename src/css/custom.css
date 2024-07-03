@@ -31,7 +31,6 @@
   --ifm-background-color: white;
   --ifm-background-color-dark-mode: #1c1c16;
 
-
   --ifm-text-color: #1c1c16;
   --ifm-text-color-dark-mode: white;
 
@@ -74,7 +73,10 @@
   --ifm-text-color-large-portrait-card-dark-mode: #1c1c16;
 
   --ifm-background-color-project-card: var(--ifm-color-orange-light);
-  --ifm-background-color-project-card-dark-mode: #1c1c16;
+  --ifm-background-color-project-card-dark-mode:#1e1c00;
+
+  --ifm-text-color-project-card: #1c1c16;
+  --ifm-text-color-project-card-dark-mode: white;
 
   --ifm-color-text-on-primary-p1: #1c1c16;
   --ifm-color-text-on-primary-p1-dark-mode: black;
