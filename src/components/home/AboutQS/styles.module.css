@@ -2,6 +2,7 @@
   margin-top: var(--ifm-spacing-2xl);
   background-color: var(--ifm-background-color-about-qs-banner);
 }
+
 div .text_container {
   color: var(--ifm-text-color-about-qs-banner);
 }

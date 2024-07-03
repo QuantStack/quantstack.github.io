@@ -7,7 +7,7 @@ export default function JupyterProject() {
     <div
       className={"container" + " " + styles.project_desktop}
       style={{
-        marginTop: "var(--ifm-spacing-7xl)",
+        marginTop: "var(--ifm-spacing-4xl)",
       }}
     >
       <div className={"row"}>
