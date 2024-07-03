@@ -1,7 +1,7 @@
 import styles from "./styles.module.css";
-import SmallPortraitCard from "./SmallPortraitCard";
 import Link from "@docusaurus/Link";
-import PopupPortrait from "./PortraitPopup";
+import PopupPortrait from "./SmallPortraitCardDesktop";
+import SmallPortraitCardMobile from "./SmallPortraitCardMobile";
 
 export function SubTeamDesktop({
   description,
@@ -21,7 +21,7 @@ export function SubTeamDesktop({
           {subTeam.map((person, index) => (
             <li className="cards-list" key={index}>
               <div className="col">
-                <PopupPortrait person={person} subTeamAvatarsUrl={subTeamAvatarsUrls[index]} subTeamBioComponent={subTeamBioComponents[index]}/>
+                <PopupPortrait person={person} avatarUrl={subTeamAvatarsUrls[index]} subTeamBioComponent={subTeamBioComponents[index]}/>
               </div>
             </li>
           ))}
@@ -43,10 +43,10 @@ export function SubTeamMobile({ description, subTeamAvatarsUrls, subTeam }) {
             <li className="cards-list" key={index}>
               <div className="col">
                 <Link href={"/about/" + person.firstName}>
-                  <SmallPortraitCard
+                  <SmallPortraitCardMobile
                     person={person}
                     avatarUrl={subTeamAvatarsUrls[index]}
-                  ></SmallPortraitCard>
+                  ></SmallPortraitCardMobile>
                 </Link>
               </div>
             </li>
