@@ -11,14 +11,14 @@ div .schedule_container {
   .project_container {
     padding: var(--ifm-spacing-sm) var(--ifm-spacing-lg);
     margin-bottom: var(--ifm-spacing-xs);
-    width: 100px;
+    width: 200px;
     height: 100px;
-    background-color: var(--ifm-color-orange-light);
+    background-color: var(--ifm-background-color-project-card);
   }
 
   .header_text {
     font-family: var(--ifm-font-family-roboto);
-    color: var(--ifm-color-neutral-n2);
+    color: var(--ifm-text-color-project-card);
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -56,7 +56,7 @@ div .schedule_container {
 
   .schedule_text {
     font-family: var(--ifm-font-family-roboto);
-    color: var(--ifm-color-secondary-s3);
+    color: var(--ifm-text-color-blue-banner);
     font-size: 14px;
     font-family: Roboto;
     font-size: 14px;
@@ -85,6 +85,10 @@ div .schedule_container {
     letter-spacing: 1.056px;
     height: 52px;
   }
+
+  .project_description_container {
+    padding: var(--ifm-spacing-xl) var(--ifm-spacing-3xl);
+  }
 }
 
 @media only screen and (min-width: 996px) {
@@ -93,13 +97,15 @@ div .schedule_container {
     margin-bottom: var(--ifm-spacing-lg);
     margin-left: 0;
     padding: 0;
+    /*background-color: var(--ifm-background-color-project-card);*/
+    /*border-radius: 10px;
+    box-shadow: 0px 0px 8px 1px #d0cb54;*/
   }
 
   .project_title {
     margin-bottom: var(--ifm-spacing-md);
     font-family: var(--ifm-font-family-bebas-neue);
     font-size: var(--ifm-font-size-secondary-title);
-
     font-style: normal;
     font-weight: bolder;
     line-height: 150%;
@@ -119,11 +125,12 @@ div .schedule_container {
     color: var(--ifm-text-color-project-card);
   }
 
-  .row_project {
+  /*.row_project {
     background-color: var(--ifm-background-color-project-card);
     border-radius: 10px;
     box-shadow: 0px 0px 8px 1px #d0cb54;
-  }
+    width: 1200px;
+  }*/
 
   .col_project_text {
     background-color: var(--ifm-background-color-project-card);
@@ -134,8 +141,7 @@ div .schedule_container {
 
   .col_project_picture_left {
     margin-right: var(--ifm-spacing-lg);
-    /*border-radius: 10px;*/
-    /*border: solid 2px;*/
+    border-radius: 10px;
   }
 
   .col_project_picture_right {
@@ -151,7 +157,7 @@ div .schedule_container {
 
   .header_text {
     font-family: var(--ifm-font-family-roboto);
-    color: var(--ifm-color-neutral-n1);
+    color: var(--ifm-text-color-project-card);
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -178,12 +184,17 @@ div .schedule_container {
   div .schedule_text {
     color: var(--ifm-text-color-blue-banner);
   }
-  
+
   .link_to_button_custom {
     margin: var(--ifm-spacing-lg) 0;
   }
 
   .schedule_a_meeting_container {
     margin-top: var(--ifm-spacing-7xl);
+  }
+
+  .all_projects_desktop_container {
+    margin-left: var(--ifm-spacing-6xl);
+    margin-right: var(--ifm-spacing-6xl);
   }
 }

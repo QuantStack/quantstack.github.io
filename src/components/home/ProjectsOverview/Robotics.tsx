@@ -15,7 +15,7 @@ export default function RoboticsProjects() {
             styles.col_project_overview_with_padding
           }
         >
-          <img src={RoboticsPictureUrl} />
+          <img src={RoboticsPictureUrl} width={"640px"}/>
         </div>
         <div className={"col col--5" + " " + styles.col_project_overview_with_padding}>
           <h1 className="padding-none">Robotics </h1>
