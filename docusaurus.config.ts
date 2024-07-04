@@ -202,7 +202,7 @@ const config: Config = {
             {
               html: `
               
-               <div class="quantstack-address">
+               <div class="div .quantstack-address">
                       16, avenue Curti <br/>
                       94100 Saint-Maur-des-Fossés <br/>
                       France

@@ -20,7 +20,7 @@ export default function JupyterProject() {
         <div
           className={"col col--5" + " " + "flex-full-centered"+" " +styles.col_project_overview_with_padding}
         >
-          <img src={JupyterPictureUrl} />
+          <img src={JupyterPictureUrl} width={"540px"} />
         </div>
       </div>
     </div>

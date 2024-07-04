@@ -240,7 +240,7 @@
   }
 
   .four_values_container {
-    margin: var(--ifm-spacing-5xl) 0;
+    margin-bottom: var(--ifm-spacing-5xl);
   }
 
   .join_the_team_container {

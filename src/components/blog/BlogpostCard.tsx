@@ -11,7 +11,7 @@ export default function BlogpostCard({ blogpost, timeIndex }) {
       className={"card " + styles.blogpost_card}
       style={{ marginBottom: "var(--ifm-spacing-lg)" }}
     >
-      <div className={styles.blog_time_index}>{timeIndex}</div>
+   
       <Link href={blogpost.url}>
         <div className="container">
           <div

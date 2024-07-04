@@ -1,5 +1,5 @@
 import styles from "./styles.module.css";
-import HeaderComponent from "./Header";
+import Header from "./Header";
 import ScheduleAMeeting from "./ScheduleAMeeting";
 import { useState, useEffect } from "react";
 import AllProjectsMobile from "./mobile/AllProjectsMobile";
@@ -21,9 +21,9 @@ export default function Projects() {
 
   return (
     <div>
-      <div className="main-container-with-margins">
+      <div className={"main-container-with-larger-margins"}>
         <div>
-          <HeaderComponent />
+          <Header />
 
           {isDesktop ? <AllProjectsDeskTop /> : <AllProjectsMobile />}
         </div>

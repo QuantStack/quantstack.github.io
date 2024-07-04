@@ -9,12 +9,12 @@ export function WhatWeDoDesktop() {
   return (
     <div className={"container" + " " + styles.whatwedo_container}>
       <div className={"row"}>
-        <div className={"col" + " " + "flex-full-centered"}>
+        <div className={"col" + " "+ "flex-full-centered"}>
           <h1 className={styles.header}> What we do </h1>
         </div>
       </div>
       <div className={"row"}>
-        <div className={"col col--12" + " " + "flex-full-centered"}>
+        <div className={"col" + " " + "flex-full-centered"}>
           <Topics />
         </div>
       </div>

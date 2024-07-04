@@ -18,17 +18,18 @@ export function SpecialProjectsIllustration() {
   );
 }
 
-
 export function SpecialProjectsDesktop() {
   return (
-    <div className={"container" + " " + styles.service_container}>
-      <div className="row row--no-gutters">
-        <div className="col col--4 col--offset-1">
-          <h2>Special projects</h2>
-          <SpecialProjectsMD />
-        </div>
-        <div className="col col--5 col--offset-1">
-         <SpecialProjectsIllustration/>
+    <div className="main-container-with-margins">
+      <div className={"container" + " " + styles.service_container}>
+        <div className="row">
+          <div className="col col--4 col--offset-2">
+            <h2>Special projects</h2>
+            <SpecialProjectsMD />
+          </div>
+          <div className="col col--5">
+            <SpecialProjectsIllustration />
+          </div>
         </div>
       </div>
     </div>
@@ -42,7 +43,6 @@ export function SpecialProjectsMobile() {
         <div className="col">
           <div className="flex-full-centered">
             <SpecialProjectsIllustration />
-           
           </div>
         </div>
       </div>

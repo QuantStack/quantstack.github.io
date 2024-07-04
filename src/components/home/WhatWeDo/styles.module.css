@@ -57,6 +57,10 @@ div .topics_header {
 
 @media only screen and (min-width: 996px) {
   /* Desktop */
+
+  .header {
+    color: var(--ifm-text-color-on-primary-p1)
+  }
   .whatwedo_container {
     background-color: var(--ifm-color-primary-p1);
     padding: var(--ifm-spacing-2xl);

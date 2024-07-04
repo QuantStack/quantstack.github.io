@@ -18,6 +18,8 @@
   --ifm-color-primary-p2: #1c1c16;
   --ifm-color-primary-p2-dark-mode: #d0cb54;
   --ifm-color-primary-p3: #1e1c00;
+  --ifm-text-color-on-primary-p1: #1e1c00;
+  --ifm-text-color-on-primary-p1-dark-mode: #343200;
 
   --ifm-color-secondary-s1: #a0c9ff;
   /*--ifm-color-secondary-s2: #1861a1;*/
@@ -73,7 +75,7 @@
   --ifm-text-color-large-portrait-card-dark-mode: #1c1c16;
 
   --ifm-background-color-project-card: var(--ifm-color-orange-light);
-  --ifm-background-color-project-card-dark-mode:#1e1c00;
+  --ifm-background-color-project-card-dark-mode: #1e1c00;
 
   --ifm-text-color-project-card: #1c1c16;
   --ifm-text-color-project-card-dark-mode: white;
@@ -81,9 +83,11 @@
   --ifm-color-text-on-primary-p1: #1c1c16;
   --ifm-color-text-on-primary-p1-dark-mode: black;
 
+  --ifm-text-color-services-transition: var(--ifm-color-indigo-i1);
+  --ifm-text-color-services-transition-dark-mode: #a0c9ff;
+
   --ifm-background-color-blue-banner: #a0c9ff;
-  /*--ifm-background-color-blue-banner-dark-mode: #0c37b7;*/
-  --ifm-background-color-blue-banner-dark-mode: rgb(79, 82, 255);
+  --ifm-background-color-blue-banner-dark-mode: #2c2e9d;
   --ifm-text-color-blue-banner: #002646;
   --ifm-text-color-blue-banner-dark-mode: #dde1ff;
 
@@ -105,8 +109,8 @@
   /* buttons */
   --ifm-background-color-button-home: var(--ifm-color-orange-jupyter);
   /*--ifm-background-color-button-home-dark-mode: #0c37b7;*/
-  --ifm-background-color-button-home-dark-mode: rgb(79, 82, 255);
-  --ifm-text-color-button-home: white;
+  --ifm-background-color-button-home-dark-mode: #2c2e9d;
+  --ifm-text-color-button-home: black;
   --ifm-text-color-button-home-dark-mode: white;
 
   --ifm-background-color-button-blue-banner: #002646;
@@ -179,6 +183,10 @@
     --ifm-background-value-topics-card-white-dark-mode
   );
 
+  --ifm-text-color-services-transition: var(
+    --ifm-text-color-services-transition-dark-mode
+  );
+
   --ifm-background-color-value-card-yellow: var(
     --ifm-background-color-value-card-yellow-dark-mode
   );
@@ -239,11 +247,16 @@
   --ifm-background-color-popup-overlay: var(
     --ifm-background-color-popup-overlay-dark-mode
   );
+  --ifm-text-color-on-primary-p1: var(--ifm-text-color-on-primary-p1-dark-mode);
 }
 
 .flex-full-centered {
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+
+.horizontally-centered {
   justify-content: center;
 }
 
@@ -348,6 +361,13 @@ ul {
     justify-content: center;
   }
 
+  .main-container-with-larger-margins {
+    margin-left: 288px;
+    margin-right: 288px;
+    display: flex;
+    justify-content: center;
+  }
+
   h1 {
     color: var(--ifm-text-color-main-title);
     font-family: var(--ifm-font-family-bebas-neue);
@@ -403,19 +423,36 @@ ul {
     text-align: justify;
   }
 
-  div {
+  /*div {
     color: black;
-  }
+  }*/
 
-  [data-theme="dark"] div {
+  /* [data-theme="dark"] div {
     color: #fff;
-  }
+  }*/
 }
 
 @media (min-width: 1440px) {
   .container {
     max-width: none;
   }
+}
+
+@media (min-width: 2200px) {
+  .row {
+    max-width: none;
+  }
+
+  /* .row .row-project {
+    width: 1624px;
+  }*/
+}
+
+.main-container-with-larger-margins {
+  margin-left: 288px;
+  margin-right: 288px;
+  display: flex;
+  justify-content: center;
 }
 
 .social-media-links {
@@ -505,15 +542,18 @@ ul {
   margin-top: var(--ifm-spacing-2xl);
 }
 
-div .quantstack-address {
+.footer {
+  color: red;
+}
+.quantstack-address {
   color: var(--ifm-text-color-footer);
 }
 
-div .footer__item {
+.footer__item {
   color: var(--ifm-text-color-footer);
 }
 
-div .footer__copyright {
+.footer__copyright {
   color: var(--ifm-text-color-footer);
 }
 
@@ -535,7 +575,7 @@ div .footer__copyright {
   color: var(--ifm-text-color-footer);
 }
 
-div .footer__title {
+.footer__title {
   color: var(--ifm-text-color-footer);
 }
 
@@ -551,7 +591,7 @@ div .footer__title {
   height: 240px;
 }
 
-div .footer__link-item {
+.footer__link-item {
   color: var(--ifm-text-color-footer);
 }
 

@@ -5,7 +5,7 @@ export default function Header() {
     return (
       <div className={styles.careers_header}>
         <h1 className="text-centered">Join the QuantStack team!</h1>
-        <div className={styles.group_photo_container}>
+        <div className={styles.group_photo_container + " " + "flex-full-centered"}>
           <img src={GroupPhotoJupyterConUrl} />
         </div>
       </div>

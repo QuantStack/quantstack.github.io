@@ -7,7 +7,7 @@ export default function ProjectDesktop({
   if (project.reverse === "false") {
     return (
       <div className={"container" + " " + styles.project_container}>
-        <div className={"row" + " " + "padding-none" + " " + "margin-none"+" "+ styles.row_project}>
+         <div className={"row" + " " + "horizontally-centered"}>
           <div
             className={
               "col col--6" + " " + styles.col_project_text
@@ -20,7 +20,7 @@ export default function ProjectDesktop({
           </div>
           <div
             className={
-              "col col--5" +
+              "col col--4" +
               " " +
               "flex-full-centered" +
               " " +
@@ -28,7 +28,7 @@ export default function ProjectDesktop({
               " " +
               styles.col_project_picture_right
             }
-            /*style={{ border: project.pictureBorderDesktop }}*/
+            style={{ border: project.pictureBorderDesktop }}
           >
             <div className={styles.project_picture}></div>
             <img
@@ -43,17 +43,19 @@ export default function ProjectDesktop({
   } else if (project.reverse === "true") {
     return (
       <div className={"container" + " " + styles.project_container}>
-        <div className={"row" + " " + "padding-none" + " " + "margin-none" + " "+ styles.row_project}>
+          <div className={"row" + " " + "horizontally-centered"}>
           <div
             className={
-              "col col--5" +
+              "col col--4" +
               " " +
-             "flex-full-centered" + " "+ "padding-none"+
+              "flex-full-centered" +
+              " " +
+              "padding-none" +
               " " +
               styles.col_project_picture_left
             }
-            /*style={{ border: project.pictureBorderDesktop }}*/
-            style={{border: "Opx"}}
+            style={{ border: project.pictureBorderDesktop }}
+           
           >
             <div className={styles.project_picture}>
               <img

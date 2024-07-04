@@ -15,7 +15,7 @@ export default function SupplyChainProjects() {
             styles.col_project_overview_with_padding
           }
         >
-          <img src={MambaPictureUrl} />
+          <img src={MambaPictureUrl} width={"486px"} />
         </div>
         <div
           className={
