@@ -6,7 +6,7 @@ export default function Interviews({ details, description }) {
     <div className={styles.subteam_component}>
       <h2 className={styles.h2_custom}>{description}</h2>
       <div className="container">
-        <ul className="row">
+        <ul className={"row" + " "+ "flex-full-centered"}>
           {details.map((person, index) => (
             <li className="cards-list" key={index}>
               <div className="col col--2">
