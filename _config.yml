@@ -5,6 +5,13 @@ copyright:
 
 blog:
 
+  - url: https://medium.com/@QuantStack/jupytercad-2-0-4b9c4e18d22a
+    title: "JupyterCAD 2.0"
+    image: https://miro.medium.com/v2/resize:fit:828/format:webp/0*F-C-m6ksqJ3MGU7b
+    summary: "We are thrilled to introduce JupyterCAD 2.0, the newest version of the JupyterLab-based CAD modeler."
+    date: July 5, 2024
+    authors: Trung Le, Martin Renou
+
   - url: https://blog.jupyter.org/jupytergis-d63b7adf9d0c
     title: "JupyterGIS"
     image: https://miro.medium.com/v2/resize:fit:1400/format:webp/1*IkYCf2cbk3SaxaROQ0eUsA.png
