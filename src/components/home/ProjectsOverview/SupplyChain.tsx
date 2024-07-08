@@ -15,7 +15,7 @@ export default function SupplyChainProjects() {
             styles.col_project_overview_with_padding
           }
         >
-          <img src={MambaPictureUrl} width={"486px"} />
+          <img src={MambaPictureUrl} width={"486px"} alt={"Picture showing a terminal in which mamba commands are run."} />
         </div>
         <div
           className={

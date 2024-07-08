@@ -3,6 +3,7 @@ import SupportMD from "./descriptions/Support.md";
 import { useEffect, useState } from "react";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import ThemedImage from "@theme/ThemedImage";
+/*import SupportIllustration from "/img/illustrations/support-light.svg"*/
 
 const breakpointValue: number = 996;
 
@@ -27,7 +28,7 @@ export function SupportDesktop() {
         <div className="row">
           <div className="col col--4 col--offset-1">
             <div className="flex-full-centered">
-             <SupportIllustration/>
+             <SupportIllustration />
             </div>
           </div>
           <div className={"col col--6"}>

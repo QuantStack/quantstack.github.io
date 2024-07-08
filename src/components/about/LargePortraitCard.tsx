@@ -44,7 +44,16 @@ export default function LargePortraitCard({ person, avatarUrl, BioComponent }) {
             className={"col col--3 col--offset-1" + " " + "flex-full-centered"}
           >
             <div className="flex-full-centered">
-              <img src={avatarUrl} className={styles.avatar} />
+              <img
+                src={avatarUrl}
+                className={styles.avatar}
+                alt={
+                  "Avatar of " +
+                  person.CompleteName +
+                  "working at QuantStack as a " +
+                  person.position
+                }
+              />
             </div>
           </div>
           <div className="col col--6 col--offset-1">
