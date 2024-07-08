@@ -4,10 +4,10 @@ import OpennessMD from "@site/src/components/about/Values/openness.md";
 import ScienceMD from "@site/src/components/about/Values/science.md";
 import IntegrityMD from "@site/src/components/about/Values/integrity.md";
 import OptimismMD from "@site/src/components/about/Values/optimism.md";
-//import OpennessPicture from "@site/static/img/values/openness.svg";
-//import SciencePicture from "@site/static/img/values/science.svg";
-//import OptimismPicture from "@site/static/img/values/optimism.svg";
-//import IntegrityPicture from "@site/static/img/values/integrity.svg";
+/*import OpennessPicture from "@site/static/img/values/openness-light.svg";
+import SciencePicture from "@site/static/img/values/science-light.svg";
+import OptimismPicture from "@site/static/img/values/optimism-light.svg";
+import IntegrityPicture from "@site/static/img/values/integrity-light.svg";*/
 import { ValueCardMobile } from "@site/src/components/about/ValueCard";
 import { ValueCardDesktop } from "@site/src/components/about/ValueCard";
 import { useEffect, useState } from "react";
@@ -25,7 +25,7 @@ const valuesPictures = [
 export function SciencePicture() {
   return (
     <ThemedImage
-      alt="Icon representing the science value, representing an atom."
+      alt="Icon representing the science value, displaying an atom."
       sources={{
         light: useBaseUrl("/img/values/science-light.svg"),
         dark: useBaseUrl("/img/values/science-dark.svg"),
@@ -69,6 +69,7 @@ export function OptimismPicture() {
     />
   );
 }
+  */
 
 const valuesNames = ["Openness", "Science", "Optimism", "Integrity"];
 const cardColors = ["white", "yellow", "white", "yellow"];
