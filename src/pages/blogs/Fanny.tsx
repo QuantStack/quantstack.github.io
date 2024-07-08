@@ -10,7 +10,8 @@ export default function FannyComponent() {
           <div className="col col--10 col--offset-1">
             <div className="flex-full-centered">
               <div className={styles.avatar}>
-                <img src={FannyAvatarUrl} />
+                <img src={FannyAvatarUrl} alt={"Picture of Fanny."} />
+                
               </div>
             </div>
             <div className="spacing-2xl"></div>

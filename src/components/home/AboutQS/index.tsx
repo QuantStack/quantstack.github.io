@@ -28,7 +28,7 @@ export default function AboutQS() {
           className={"col" + " " + "padding-none" + " " + "margin-none"}
         >
           <div className="flex-full-centered" style={{marginBottom: "var(--ifm-spacing-2xl)"}}>
-            <img src={GroupPhotoUrl} />
+            <img src={GroupPhotoUrl} alt={"Picture showing a group of Quantstack people in front of Saint-Maur's office, in Paris area."} />
           </div>
         </div>
       </div>

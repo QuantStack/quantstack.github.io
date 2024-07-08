@@ -16,7 +16,7 @@ export default function SpecialProjects() {
              <SpecialProjectsMD/> 
           </div>
           <div className={"col col--5" + " " + "flex-full-centered"+ " "+ styles.col_project_overview_with_padding}>
-            <img src={SpecialProjectsPictureUrl} width={"540px"} />
+            <img src={SpecialProjectsPictureUrl} width={"540px"} alt={"Picture showing examples of Jupyter CAD projects in Jupyterlab."} />
           </div>
         </div>
       </div>

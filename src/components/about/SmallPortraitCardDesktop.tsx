@@ -6,8 +6,8 @@ import LargePortraitCard from "./LargePortraitCard";
 
 const contentStyle = {
   background: "var(--ifm-background-color-large-portrait-card)",
-  borderRadius: "10px"
-}
+  borderRadius: "10px",
+};
 
 const overlayStyle = {
   backgroundColor: "var(--ifm-background-color-popup-overlay)",
@@ -50,7 +50,17 @@ export function SmallPortraitCardDesktop({ person, avatarUrl, setOffsets }) {
     >
       <div className="flex-full-centered">
         <div className={styles.avatar}>
-          <img src={avatarUrl} width={"160px"} height={"160px"} />
+          <img
+            src={avatarUrl}
+            width={"160px"}
+            height={"160px"}
+            alt={
+              "Avatar of " +
+              person.CompleteName +
+              "working at QuantStack as a " +
+              person.position
+            }
+          />
         </div>
       </div>
       <div className={styles.small_card_complete_name}>
@@ -74,11 +84,11 @@ export default function PopupPortrait({
       <Popup
         trigger={
           <div>
-          <SmallPortraitCardDesktop
-            person={person}
-            avatarUrl={avatarUrl}
-            setOffsets={setOffsets}
-          />
+            <SmallPortraitCardDesktop
+              person={person}
+              avatarUrl={avatarUrl}
+              setOffsets={setOffsets}
+            />
           </div>
         }
         contentStyle={contentStyle}

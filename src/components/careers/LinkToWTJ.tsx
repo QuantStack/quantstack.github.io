@@ -7,6 +7,7 @@ export default function LinkToWTJ({label}) {
       <Link
         className={"link-to-button" + " " + styles.link_to_WTJ}
         href="https://www.welcometothejungle.com/fr/companies/quantstack"
+        aria-label="Learn more by visiting the page dedicated to QuantStack on Welcome to the Jungle platform."
       >
         {label}
       </Link>

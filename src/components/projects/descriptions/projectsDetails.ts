@@ -16,6 +16,7 @@ export const projectsDetails = [
     pictureWidthMobile: "36px",
     pictureHeightMobile: "43px",
     pictureBorderMobile: "solid 0px",
+    pictureAltText: "Picture for Jupyter project showing its logo.",
     reverse: "false"
   },
   {
@@ -28,6 +29,7 @@ export const projectsDetails = [
     pictureWidthMobile: "36px",
     pictureHeightMobile: "43px",
     pictureBorderMobile: "solid 0px",
+    pictureAltText: "Picture for Xtensor and Xsimd showing their respective logo.",
     reverse: "true",
   },
   {
@@ -40,6 +42,7 @@ export const projectsDetails = [
     pictureWidthMobile: "36px",
     pictureHeightMobile: "43px",
     pictureBorderMobile: "solid 0px",
+    pictureAltText: "Picture for Condaforge project showing its forge logo.",
     reverse:"false"
   },
   {
@@ -52,6 +55,7 @@ export const projectsDetails = [
     pictureWidthMobile: "36px",
     pictureHeightMobile: "43px",
     pictureBorderMobile: "solid 0px",
+    pictureAltText: "Picture for robotics project showing an illustration with a robotics device.",
     reverse:"true"
   },
 ];

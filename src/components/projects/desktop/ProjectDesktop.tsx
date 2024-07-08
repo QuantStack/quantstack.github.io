@@ -35,6 +35,7 @@ export default function ProjectDesktop({
               src={project.pictureRoute}
               width={project.pictureWidthDesktop}
               height={project.pictureHeightDesktop}
+              alt={project.pictureAltText}
             />
           </div>
         </div>
@@ -62,6 +63,7 @@ export default function ProjectDesktop({
                 src={project.pictureRoute}
                 width={project.pictureWidthDesktop}
                 height={project.pictureHeightDesktop}
+                alt={project.pictureAltText}
               />
             </div>
           </div>
