@@ -3,9 +3,8 @@ import ContactForm from "./ContactForm";
 import { useEffect, useState } from "react";
 import ContactIllustration from "/img/illustrations/contact.svg"
 
-const breakpointValue: number = 996;
 
-export function ContactDesktop() {
+export function Contact() {
   return (
     <div className={"container" + " " + styles.contact_container}>
       <div className={"row"}>
@@ -32,42 +31,4 @@ export function ContactDesktop() {
     </div>
   );
 }
-
-export function ContactMobile() {
-  return (
-    <div className={"container" + " " + styles.contact_container}>
-      <div className={"row" + " " + "flex-full-centered"}>
-        <div className={"col"}>
-          <h1 className="text-centered"> Contact us</h1>
-        </div>
-      </div>
-      <div className={"row" + " " + "flex-full-centered"}>
-        <div className={"col" + " " + "flex-full-centered"} style={{ padding: "var(--ifm-spacing-2xl)"}}>
-          <ContactIllustration />
-        </div>
-      </div>
-      <div className={"row" + " " + "flex-full-centered"}>
-        <div className={"col"}>
-          <div className="flex-full-centered">
-            <ContactForm />
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
-
-export default function Contact() {
-  const [isDesktop, setDesktop] = useState(window.innerWidth > breakpointValue);
-
-  const updateMedia = () => {
-    setDesktop(window.innerWidth > breakpointValue);
-  };
-
-  useEffect(() => {
-    window.addEventListener("resize", updateMedia);
-    return () => window.removeEventListener("resize", updateMedia);
-  });
-
-  return <div>{isDesktop ? <ContactDesktop /> : <ContactMobile />}</div>;
-}
+ export default Contact;

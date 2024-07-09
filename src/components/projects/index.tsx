@@ -1,31 +1,15 @@
 import styles from "./styles.module.css";
 import Header from "./Header";
 import ScheduleAMeeting from "./ScheduleAMeeting";
-import { useState, useEffect } from "react";
-import AllProjectsMobile from "./mobile/AllProjectsMobile";
-import { AllProjectsDeskTop } from "./desktop/AllProjectsDesktop";
-
-const breakpointValue: number = 996;
+import AllProjects from "./AllProjects";
 
 export default function Projects() {
-  const [isDesktop, setDesktop] = useState(window.innerWidth > breakpointValue);
-
-  const updateMedia = () => {
-    setDesktop(window.innerWidth > breakpointValue);
-  };
-
-  useEffect(() => {
-    window.addEventListener("resize", updateMedia);
-    return () => window.removeEventListener("resize", updateMedia);
-  });
-
   return (
     <div>
-      <div className={"main-container-with-larger-margins"}>
+      <div className={"main-container-with-margins"}>
         <div>
           <Header />
-
-          {isDesktop ? <AllProjectsDeskTop /> : <AllProjectsMobile />}
+          <AllProjects />
         </div>
       </div>
       <div>

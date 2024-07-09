@@ -36,7 +36,7 @@ function calculateOffsets(elementRef) {
   return offsets;
 }
 
-export function SmallPortraitCardDesktop({ person, avatarUrl, setOffsets }) {
+export function SmallPortraitCard({ person, avatarUrl, setOffsets }) {
   const elementRef = useRef(null);
 
   return (
@@ -84,7 +84,7 @@ export default function PopupPortrait({
       <Popup
         trigger={
           <div>
-            <SmallPortraitCardDesktop
+            <SmallPortraitCard
               person={person}
               avatarUrl={avatarUrl}
               setOffsets={setOffsets}
