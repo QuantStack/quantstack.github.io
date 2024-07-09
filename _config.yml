@@ -5,6 +5,13 @@ copyright:
 
 blog:
 
+  - url: https://medium.com/@QuantStack/quantstack-open-source-internship-program-049755b6d44b
+    title: "QuantStack open-source internship program"
+    image: https://miro.medium.com/v2/resize:fit:2000/format:webp/0*3Drh_jUVUNWjdFfe
+    summary: "Today, we are announcing a new internship program that aims to empower a new cohort of open-source contributors and future maintainers to make an impact within our ecosystem." 
+    date: July 9, 2024
+    authors: Sylvain Corlay
+
   - url: https://medium.com/@QuantStack/jupytercad-2-0-4b9c4e18d22a
     title: "JupyterCAD 2.0"
     image: https://miro.medium.com/v2/resize:fit:828/format:webp/0*F-C-m6ksqJ3MGU7b
