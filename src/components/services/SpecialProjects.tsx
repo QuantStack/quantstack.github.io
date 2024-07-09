@@ -1,25 +1,9 @@
 import styles from "./styles.module.css";
 import SpecialProjectsMD from "./descriptions/SpecialProjects.md";
 import { useEffect, useState } from "react";
-import useBaseUrl from "@docusaurus/useBaseUrl";
-import ThemedImage from "@theme/ThemedImage";
-/*import SpecialProjectsIllustration from "/img/illustrations/special-projects-light.svg";*/
+import SpecialProjectsIllustration from "@site/static/img/illustrations/special_projects.svg"
 
 const breakpointValue: number = 996;
-
-export function SpecialProjectsIllustration() {
-  return (
-    <ThemedImage
-      alt={
-        "Picture showing an illustration of a group of people working together in an office."
-      }
-      sources={{
-        light: useBaseUrl("/img/illustrations/special-projects-light.svg"),
-        dark: useBaseUrl("/img/illustrations/special-projects-dark.svg"),
-      }}
-    />
-  );
-}
 
 export function SpecialProjectsDesktop() {
   return (
@@ -31,7 +15,11 @@ export function SpecialProjectsDesktop() {
             <SpecialProjectsMD />
           </div>
           <div className="col col--5">
-            <SpecialProjectsIllustration />
+            <SpecialProjectsIllustration
+              alt={
+                "Picture showing an illustration of a group of people working together in an office."
+              }
+            />
           </div>
         </div>
       </div>

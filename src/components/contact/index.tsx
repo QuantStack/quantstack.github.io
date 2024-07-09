@@ -1,20 +1,7 @@
 import styles from "./styles.module.css";
 import ContactForm from "./ContactForm";
 import { useEffect, useState } from "react";
-import useBaseUrl from "@docusaurus/useBaseUrl";
-import ThemedImage from "@theme/ThemedImage";
-
-export function ContactIllustration() {
-  return (
-    <ThemedImage
-      alt="Illustration for the contact page with a woman, a mobile phone and an enveloppe."
-      sources={{
-        light: useBaseUrl("/img/illustrations/contact-light.svg"),
-        dark: useBaseUrl("/img/illustrations/contact-dark.svg"),
-      }}
-    />
-  );
-}
+import ContactIllustration from "/img/illustrations/contact.svg"
 
 const breakpointValue: number = 996;
 
@@ -31,7 +18,7 @@ export function ContactDesktop() {
             padding: "var(--ifm-spacing-2xl)",
           }}
         >
-          <ContactIllustration />
+          <ContactIllustration alt={"Illustration for the contact page with a woman, a mobile phone and an enveloppe."} />
         </div>
         <div
           className={"col col--5" + " " + "padding-none" + " " + "margin-none"}
