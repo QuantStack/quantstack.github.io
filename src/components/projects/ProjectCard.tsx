@@ -1,21 +1,14 @@
-import styles from "../styles.module.css";
+import styles from "./styles.module.css";
 
-export default function ProjectDesktop({
-  project,
-  ProjectDescriptionMD,
-}): JSX.Element {
-  if (project.reverse === "false") {
+export default function ProjectCard({ project }): JSX.Element {
+  /*if (project.reverse === "false") {*/
     return (
       <div className={"container" + " " + styles.project_container}>
-         <div className={"row" + " " + "horizontally-centered"}>
-          <div
-            className={
-              "col col--6" + " " + styles.col_project_text
-            }
-          >
+        <div className={"row" + " " + "horizontally-centered"}>
+          <div className={"col col--6" + " " + styles.col_project_text}>
             <div className={styles.project_title}>{project.title}</div>
             <div className={styles.project_description}>
-              <ProjectDescriptionMD />
+              <project.ProjectMD />
             </div>
           </div>
           <div
@@ -28,23 +21,23 @@ export default function ProjectDesktop({
               " " +
               styles.col_project_picture_right
             }
-            style={{ border: project.pictureBorderDesktop }}
+            style={{ border: project.pictureBorder }}
           >
             <div className={styles.project_picture}></div>
             <img
               src={project.pictureRoute}
-              width={project.pictureWidthDesktop}
-              height={project.pictureHeightDesktop}
+              width={project.pictureWidth}
+              height={project.pictureHeight}
               alt={project.pictureAltText}
             />
           </div>
         </div>
       </div>
     );
-  } else if (project.reverse === "true") {
+ /* } else if (project.reverse === "true") {
     return (
       <div className={"container" + " " + styles.project_container}>
-          <div className={"row" + " " + "horizontally-centered"}>
+        <div className={"row" + " " + "horizontally-centered"}>
           <div
             className={
               "col col--4" +
@@ -55,14 +48,13 @@ export default function ProjectDesktop({
               " " +
               styles.col_project_picture_left
             }
-            style={{ border: project.pictureBorderDesktop }}
-           
+            style={{ border: project.pictureBorder }}
           >
             <div className={styles.project_picture}>
               <img
                 src={project.pictureRoute}
-                width={project.pictureWidthDesktop}
-                height={project.pictureHeightDesktop}
+                width={project.pictureWidth}
+                height={project.pictureHeight}
                 alt={project.pictureAltText}
               />
             </div>
@@ -71,11 +63,11 @@ export default function ProjectDesktop({
           <div className={"col col--6" + " " + styles.col_project_text}>
             <div className={styles.project_title}>{project.title}</div>
             <div className={styles.project_description}>
-              <ProjectDescriptionMD />
+              <project.projectMD />
             </div>
           </div>
         </div>
       </div>
     );
-  }
+  }*/
 }

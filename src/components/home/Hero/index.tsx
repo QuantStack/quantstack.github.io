@@ -1,22 +1,19 @@
 import styles from "./styles.module.css";
 import SimpleSlider from "./LogosTableBy8";
-import { useEffect, useState } from "react";
 import Astronaut from "/img/quantstack/astronaut.svg";
 
-export function HeroDesktop() {
+export function Hero() {
   return (
     <div>
       <div className="main-container-with-margins">
         <div className={"container" + " " + styles.hero_container}>
-          <div
-            className={"row row--no-gutters" + " " + "flex-full-centered"}
-          >
+          <div className={"row row--no-gutters" + " " + "flex-full-centered"}>
             <div className="col col--6 col--offset-1">
               <div className="header-text">
                 <h1 className="padding-none">
                   Open-source for discovery, science, and education
                 </h1>
-                <p className="text-left-aligned-padding-none">
+                <p className={styles.subheader}>
                   A team behind major open-source projects of the scientific
                   computing ecosystem
                 </p>
@@ -27,10 +24,16 @@ export function HeroDesktop() {
             </div>
             <div
               className={
-                "col col--3 col--offset-1" + " " + styles.astronaut_column
+                "col col--3 col--offset-1" +
+                " " +
+                styles.astronaut_column +
+                " " +
+                "flex-full-centered"
               }
             >
-              <Astronaut alt={"Astronaut mascot of QuantStack"}/>
+              <div className={styles.astronaut_container}>
+                <Astronaut alt={"Astronaut mascot of QuantStack"} />
+              </div>
             </div>
           </div>
         </div>
@@ -52,64 +55,4 @@ export function HeroDesktop() {
     </div>
   );
 }
-
-export function HeroMobile() {
-  return (
-    <div>
-      <div className="main-container-with-margins">
-        <div className={"container" + " " + styles.hero_container}>
-          <div className={"row row--no-gutters"}>
-            <div
-              className={"col" + " " + "flex-full-centered"}
-              style={{ marginBottom: "var(--ifm-spacing-xl" }}
-            >
-              <Astronaut />
-            </div>
-          </div>
-          <div className={"row row--no-gutters"}>
-            <div className="col">
-              <div
-                className="header-text"
-                style={{ marginBottom: "var(--ifm-spacing-xl" }}
-              >
-                <h1
-                  className="text-centered"
-                  style={{ marginBottom: "var(--ifm-spacing-xl" }}
-                >
-                  Open-source for discovery, science, and education
-                </h1>
-                <p
-                  className="text-centered"
-                  style={{ marginBottom: "var(--ifm-spacing-xl" }}
-                >
-                  A team behind major open-source projects of the scientific
-                  computing ecosystem
-                </p>
-                <h2 className={styles.h2_custom}>
-                  Jupyter, Conda-forge, Mamba, Voilà, Xtensor and more.
-                </h2>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
-
-const breakpointValue: number = 996;
-
-export default function Projects() {
-  const [isDesktop, setDesktop] = useState(window.innerWidth > breakpointValue);
-
-  const updateMedia = () => {
-    setDesktop(window.innerWidth > breakpointValue);
-  };
-
-  useEffect(() => {
-    window.addEventListener("resize", updateMedia);
-    return () => window.removeEventListener("resize", updateMedia);
-  });
-
-  return <div>{isDesktop ? <HeroDesktop /> : <HeroMobile />}</div>;
-}
+export default Hero;

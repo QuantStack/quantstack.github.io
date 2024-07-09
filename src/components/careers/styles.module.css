@@ -38,7 +38,7 @@ div .learn_more_WTJ {
   font-weight: 700;
 }
 
-@media only screen and (max-width: 996px) {
+@media only screen and (max-width: 400px) {
   /*Mobile */
   .careers_container {
     margin-top: var(--ifm-spacing-2xl);
@@ -97,7 +97,7 @@ div .learn_more_WTJ {
   }
 }
 
-@media only screen and (min-width: 996px) {
+@media only screen and (min-width: 400px) {
   /*Desktop */
   .careers_container {
     margin-top: var(--ifm-spacing-6xl);
