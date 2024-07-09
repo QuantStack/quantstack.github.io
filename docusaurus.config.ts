@@ -64,8 +64,7 @@ const config: Config = {
       title: "",
       logo: {
         alt: "QuantStack Logo",
-        src: "img/quantstack/logo-website-light.svg",
-        srcDark: "img/quantstack/logo-website-dark.svg"
+        src: "img/quantstack/logo-website.svg"
       },
 
       items: [
@@ -219,7 +218,7 @@ const config: Config = {
     
       colorMode: {
         defaultMode: 'light',
-        disableSwitch: false,
+        disableSwitch: true,
         respectPrefersColorScheme: false,
       
     },
