@@ -1,18 +1,18 @@
 import styles from "./styles.module.css";
 import { useEffect, useState } from "react";
 
-export function ValueCardDesktop({ value, ValuePicture, ValueComponent }) {
+export function ValueCardDesktop({ value }) {
   return (
     <div className={"card " + styles.value_card}>
       <div
         className={"flex-full-centered"}
         style={{ marginBottom: "var(--ifm-spacing-lg)" }}
       >
-        <ValuePicture />
+        <value.pictureComponent alt={value.alt} />
       </div>
       <div className={styles.value_header}>{value}</div>
       <div className={styles.value_text}>
-        <ValueComponent className={styles.value_component} />
+        <value.DescriptionMD className={styles.value_component} />
       </div>
     </div>
   );

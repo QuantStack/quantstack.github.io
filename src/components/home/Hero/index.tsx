@@ -1,23 +1,7 @@
 import styles from "./styles.module.css";
 import SimpleSlider from "./LogosTableBy8";
-import useBaseUrl from "@docusaurus/useBaseUrl";
-import ThemedImage from "@theme/ThemedImage";
 import { useEffect, useState } from "react";
-/*import Astronaut from "/img/quantstack/astronaut-light.svg";*/
-
-
-export function Astronaut() {
-  return (
-    <ThemedImage
-      alt="Astronaut mascot of QuantStack"
-      sources={{
-        light: useBaseUrl("/img/quantstack/astronaut-light.svg"),
-        dark: useBaseUrl("/img/quantstack/astronaut-dark.svg"),
-      }}
-      width={"240px"}
-    />
-  );
-}
+import Astronaut from "/img/quantstack/astronaut.svg";
 
 export function HeroDesktop() {
   return (
@@ -46,7 +30,7 @@ export function HeroDesktop() {
                 "col col--3 col--offset-1" + " " + styles.astronaut_column
               }
             >
-              <Astronaut/>
+              <Astronaut alt={"Astronaut mascot of QuantStack"}/>
             </div>
           </div>
         </div>
