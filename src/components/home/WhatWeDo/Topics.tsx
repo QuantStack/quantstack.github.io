@@ -1,16 +1,14 @@
 import styles from "./styles.module.css";
 import { topicsDetails } from "./topics/topicsDetails";
-import { TopicsCardDesktop } from "./TopicsCard";
-import { TopicsCardMobile } from "./TopicsCard";
+import { TopicsCard } from "./TopicsCard";
 import JupyterMD from "./topics/Jupyter.md";
 import SupplyChainMD from "./topics/SupplyChain.md";
 import ComputingMD from "./topics/Computing.md";
-import { useEffect, useState } from "react";
+
 
 const TopicsDescriptions = [JupyterMD, SupplyChainMD, ComputingMD];
-const topicsCardColors = ["yellow", "white", "yellow", "white"];
 
-export function TopicsDesktop() {
+export function Topics() {
   return (
     <div>
       <div className={"container" + " " + "flex-full-centered"}>
@@ -22,7 +20,7 @@ export function TopicsDesktop() {
                   "col" + " " + "flex-full-centered" + " " + styles.col_topics
                 }
               >
-                <TopicsCardDesktop
+                <TopicsCard
                   topics={topics}
                   TopicsDescriptionMD={TopicsDescriptions[index]}
                 />
@@ -35,42 +33,4 @@ export function TopicsDesktop() {
   );
 }
 
-export function TopicsMobile() {
-  return (
-    <div>
-      <div
-        className={"container"}
-        style={{ marginTop: "var(--ifm-spacing-2xl)" }}
-      >
-        {topicsDetails.map((topics, index) => (
-          <ul className="row">
-            <li className="cards-list" key={index}>
-              <TopicsCardMobile
-                topics={topics}
-                TopicsDescriptionMD={TopicsDescriptions[index]}
-                color={topicsCardColors[index]}
-              />
-            </li>
-          </ul>
-        ))}
-      </div>
-    </div>
-  );
-}
-
-const breakpointValue: number = 996;
-
-export default function Topics() {
-  const [isDesktop, setDesktop] = useState(window.innerWidth > breakpointValue);
-
-  const updateMedia = () => {
-    setDesktop(window.innerWidth > breakpointValue);
-  };
-
-  useEffect(() => {
-    window.addEventListener("resize", updateMedia);
-    return () => window.removeEventListener("resize", updateMedia);
-  });
-
-  return <div>{isDesktop ? <TopicsDesktop /> : <TopicsMobile />}</div>;
-}
+export default Topics;

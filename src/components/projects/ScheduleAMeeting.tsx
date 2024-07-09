@@ -1,7 +1,5 @@
 import styles from "./styles.module.css";
-import Link from "@docusaurus/Link";
 import LinkToContact from "../home/LinkToContact";
-
 
 export default function ScheduleAMeeting() {
   return (

@@ -1,8 +1,7 @@
 import styles from "@site/src/components/projects/styles.module.css";
-import Link from "@docusaurus/Link";
-import ArrowLeftHeader from "../../about/ArrowLeftHeader";
+import ArrowLeftHeader from "../about/ArrowLeftHeader";
 
-export default function ProjectPopup({
+export default function ProjectPage({
   projectDetails,
   name,
   ProjectDescription,

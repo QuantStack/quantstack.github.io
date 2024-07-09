@@ -10,25 +10,25 @@ import IntegrityPicture from "@site/static/img/values/integrity.svg";
 export const valuesDetails = [
   {
     name: "Science",
-    alt: "Icon representing the science value, displaying an atom",
+    alt: "Icon representing science, displaying an atom",
     DescriptionMD: ScienceMD,
     pictureComponent: SciencePicture,
   },
   {
     name: "Openness",
-    alt: "Icon representing the openness value, four people connected together.",
+    alt: "Icon representing openness, four people connected together.",
     DescriptionMD: OpennessMD,
     pictureComponent: OpennessPicture,
   },
   {
     name: "Integrity",
-    alt: "Icon representing the integrity value, with an heart inside a hand",
+    alt: "Icon representing integrity, with an heart inside a hand",
     DescriptionMD: IntegrityMD,
     pictureComponent: IntegrityPicture,
   },
   {
     name: "Optimism",
-    alt: "Icon representing the optimism value, with a smiling face ",
+    alt: "Icon representing optimism, with a smiling face ",
     DescriptionMD: OptimismMD,
     pictureComponent: OptimismPicture,
   },

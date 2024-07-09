@@ -3,9 +3,8 @@ import SpecialProjectsMD from "./descriptions/SpecialProjects.md";
 import { useEffect, useState } from "react";
 import SpecialProjectsIllustration from "@site/static/img/illustrations/special_projects.svg"
 
-const breakpointValue: number = 996;
 
-export function SpecialProjectsDesktop() {
+export function SpecialProjects() {
   return (
     <div className="main-container-with-margins">
       <div className={"container" + " " + styles.service_container}>
@@ -14,11 +13,12 @@ export function SpecialProjectsDesktop() {
             <h2>Special projects</h2>
             <SpecialProjectsMD />
           </div>
-          <div className="col col--5">
+          <div className={"col col--5" + " " + "flex-full-centered"}>
             <SpecialProjectsIllustration
               alt={
-                "Picture showing an illustration of a group of people working together in an office."
-              }
+                "Picture showing an illustration of a group of people working together in an office."}
+                width={"360px"}
+              
             />
           </div>
         </div>
@@ -27,45 +27,4 @@ export function SpecialProjectsDesktop() {
   );
 }
 
-export function SpecialProjectsMobile() {
-  return (
-    <div className={"container" + " " + styles.service_container}>
-      <div className="row row--no-gutters">
-        <div className="col">
-          <div className="flex-full-centered">
-            <SpecialProjectsIllustration />
-          </div>
-        </div>
-      </div>
-      <div className="row row--no-gutters">
-        <div className="col">
-          <h2 className={styles.services_title}>Special projects</h2>
-          <div className={styles.services_description}>
-            <SpecialProjectsMD />
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
-
-export default function SpecialProjects() {
-  const [isDesktop, setDesktop] = useState(window.innerWidth > breakpointValue);
-
-  const updateMedia = () => {
-    setDesktop(window.innerWidth > breakpointValue);
-  };
-
-  useEffect(() => {
-    window.addEventListener("resize", updateMedia);
-    return () => window.removeEventListener("resize", updateMedia);
-  });
-
-  return (
-    <div>
-      <div className={styles.all_projects_container}>
-        {isDesktop ? <SpecialProjectsDesktop /> : <SpecialProjectsMobile />}
-      </div>
-    </div>
-  );
-}
+export default SpecialProjects;

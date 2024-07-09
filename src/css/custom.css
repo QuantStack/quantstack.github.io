@@ -56,7 +56,7 @@
 
   /* buttons */
   --ifm-background-color-button-home: var(--ifm-color-orange-jupyter);
-  --ifm-text-color-button-home: black;
+  --ifm-text-color-button-home: var( --ifm-color-primary-p3);
   --ifm-background-color-button-blue-banner: var(--ifm-color-secondary-s3);
   --ifm-text-color-button-blue-banner: white;
   --ifm-color-blue-contact-send-button: var(--ifm-color-blue-jupyter);
@@ -158,12 +158,15 @@ ul {
   }
 
   h2 {
+    color: var(--ifm-text-color-main-title);
     font-family: var(--ifm-font-family-bebas-neue);
     font-size: 24px;
     font-style: normal;
-    font-weight: bolder;
-    line-height: 150%;
+    font-weight: 600;
+    line-height: 150%; /* 36px */
+    letter-spacing: 1.056px;
     text-align: center;
+    padding: 0;
   }
 
   h3 {
@@ -230,15 +233,6 @@ ul {
     font-weight: bolder;
     line-height: 150%;
     text-align: start;
-  }
-
-  h4 {
-    font-family: var(--ifm-font-family-roboto);
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 28px;
-    text-align: center;
   }
 
   p {

@@ -6,9 +6,9 @@ div .schedule_container {
   background-color: var(--ifm-background-color-blue-banner);
 }
 
-@media only screen and (max-width: 996px) {
+/*@media only screen and (max-width: 996px) {
   /*Mobile */
-  .project_container {
+  /*.project_container {
     padding: var(--ifm-spacing-sm) var(--ifm-spacing-lg);
     margin-bottom: var(--ifm-spacing-xs);
     width: 200px;
@@ -22,7 +22,7 @@ div .schedule_container {
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 20px; /* 142.857% */
+    line-height: 20px; 
     letter-spacing: 0.25px;
     text-align: center;
     padding: 0 var(--ifm-spacing-lg);
@@ -35,7 +35,7 @@ div .schedule_container {
     font-size: var(--ifm-font-size-normal);
     font-style: normal;
     font-weight: 400;
-    line-height: 24px; /* 133.333% */
+    line-height: 24px; 
     letter-spacing: 0.5px;
     width: 150px;
     text-align: center;
@@ -62,7 +62,7 @@ div .schedule_container {
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
-    line-height: 20px; /* 142.857% */
+    line-height: 20px; 
     letter-spacing: 0.1px;
     text-align: center;
     margin-bottom: var(--ifm-spacing-2xl);
@@ -81,7 +81,7 @@ div .schedule_container {
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
-    line-height: 150%; /* 36px */
+    line-height: 150%; 
     letter-spacing: 1.056px;
     height: 52px;
   }
@@ -89,9 +89,9 @@ div .schedule_container {
   .project_description_container {
     padding: var(--ifm-spacing-xl) var(--ifm-spacing-3xl);
   }
-}
+}*/
 
-@media only screen and (min-width: 996px) {
+/*@media only screen and (min-width: 996px) {
   /*Desktop */
   .project_container {
     margin-bottom: var(--ifm-spacing-lg);
@@ -197,4 +197,4 @@ div .schedule_container {
     margin-left: var(--ifm-spacing-6xl);
     margin-right: var(--ifm-spacing-6xl);
   }
-}
+/*}*/

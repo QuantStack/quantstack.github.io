@@ -4,3 +4,4 @@ _site/
 node_modules/
 build/
 .docusaurus
+static/img/light-and-dark-pictures/

@@ -4,7 +4,7 @@ import XTensorXSIMDPicture from "@site/static/img/projects/xtensor_xsimd.svg";
 
 export default function ComputingProjects() {
   return (
-    <div className={"container" + " " + styles.project_desktop}>
+    <div className={"container" + " " + styles.project_container}>
       <div className="row">
         <div
           className={"col col--5 col--offset-1" + " " + styles.col_project_overview_with_padding}

@@ -3,9 +3,8 @@ import Topics from "./Topics";
 import LinkToServices from "../LinkToServices";
 import { useEffect, useState } from "react";
 
-const breakpointValue: number = 996;
 
-export function WhatWeDoDesktop() {
+export function WhatWeDo() {
   return (
     <div className={"container" + " " + styles.whatwedo_container}>
       <div className={"row"}>
@@ -18,7 +17,7 @@ export function WhatWeDoDesktop() {
           <Topics />
         </div>
       </div>
-      <div className={"row" + " " + styles.link_to_services_desktop}>
+      <div className={"row"}>
         <div className={"col col--12" + " " + "flex-full-centered"}>
           <LinkToServices label={"DISCOVER OUR SERVICES"} />
         </div>
@@ -27,29 +26,4 @@ export function WhatWeDoDesktop() {
   );
 }
 
-export function WhatWeDoMobile() {
-  return (
-    <div className={"container" + " " + styles.whatwedo_container}>
-      <div className={"row" + " " + "row-reverse"}>
-        <div className={"col" + " " + "flex-full-centered" + " " + "padding-none"}>
-          <Topics />
-        </div>
-      </div>
-    </div>
-  );
-}
-
-export default function WhatWeDo() {
-  const [isDesktop, setDesktop] = useState(window.innerWidth > breakpointValue);
-
-  const updateMedia = () => {
-    setDesktop(window.innerWidth > breakpointValue);
-  };
-
-  useEffect(() => {
-    window.addEventListener("resize", updateMedia);
-    return () => window.removeEventListener("resize", updateMedia);
-  });
-
-  return <div>{isDesktop ? <WhatWeDoDesktop /> : <WhatWeDoMobile />}</div>;
-}
+export default WhatWeDo;
