@@ -28,7 +28,7 @@ export function About() {
 
           <div className="row">
             <div className="col col--10 col--offset-1">
-              <h1 className="text-centered">Meet the QuantStack team</h1>
+              <h1 className="text--center">Meet the QuantStack team</h1>
               <div className={styles.team_description}>
                 A team of outliers, leaders in software projects adopted at the
                 global scale, benefiting millions of people worldwide.
@@ -62,7 +62,7 @@ export function About() {
       <div className={styles.join_the_team_container}>
         <h1
           className={
-            "text-centered" +
+            "text--center" +
             " " +
             "padding-none" +
             " " +

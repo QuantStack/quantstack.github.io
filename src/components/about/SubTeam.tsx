@@ -10,7 +10,7 @@ export default function SubTeam ({
 }) {
   return (
     <div className={styles.subteam_component}>
-      <h2 className="text-centered"> {description}</h2>
+      <h2 className="text--center"> {description}</h2>
       <div className={"container" + " " + styles.subteam_container}>
         <ul
           className={

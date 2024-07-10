@@ -4,8 +4,8 @@ export default function ProjectCard({ project }): JSX.Element {
   /*if (project.reverse === "false") {*/
     return (
       <div className={"container" + " " + styles.project_container}>
-        <div className={"row" + " " + "horizontally-centered"}>
-          <div className={"col col--6" + " " + styles.col_project_text}>
+        <div className={"row row--no-gutters" + " " + "horizontally-centered"}>
+          <div className={"col col--6 col--offset-1" + " " + styles.col_project_text}>
             <div className={styles.project_title}>{project.title}</div>
             <div className={styles.project_description}>
               <project.ProjectMD />

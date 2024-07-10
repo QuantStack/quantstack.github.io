@@ -1,28 +1,15 @@
 .about_us_container {
   margin-top: var(--ifm-spacing-2xl);
-  background-color: var(--ifm-background-color-about-qs-banner);
+  background-color: var(--ifm-color-primary-p1);
 }
 
 div .text_container {
-  color: var(--ifm-text-color-about-qs-banner);
+  color: var(--ifm-color-primary-p2);
 }
 
-@media only screen and (max-width: 996px) {
-  /* Mobile */
-  .text_container {
-    font-size: 14px;
-    text-align: center;
-    margin-bottom: var(--ifm-spacing-lg);
-    padding: var(--ifm-spacing-2xl) var(--ifm-spacing-2xl);
-  }
-}
-
-@media only screen and (min-width: 996px) {
-  /* Desktop */
-  .text_container {
-    font-size: 24px;
-    text-align: center;
-    margin-bottom: var(--ifm-spacing-lg);
-    padding: var(--ifm-spacing-5xl) var(--ifm-spacing-5xl);
-  }
+.text_container {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: var(--ifm-spacing-lg);
+  padding: var(--ifm-spacing-5xl) var(--ifm-spacing-5xl);
 }

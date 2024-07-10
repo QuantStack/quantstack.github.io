@@ -6,7 +6,7 @@ export default function VisitWTJProfile() {
     <div className={styles.WTJ_profile_container}>
       <h1
         className={
-          "text-centered" +
+          "text--center" +
           " " +
           "padding-none" +
           " " +

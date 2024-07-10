@@ -4,7 +4,7 @@ import LinkToContact from "../LinkToContact";
 export default function LearnMore() {
   return (
     <div className={styles.learn_more_container}>
-      <h1 className={"text-centered"+" "+ "padding-none" + " " +"h1-margin-none"+ " "+ styles.learn_more_title}> WANT TO LEARN MORE?</h1>
+      <h1 className={"text--center"+" "+ "padding-none" + " " +"h1-margin-none"+ " "+ styles.learn_more_title}> WANT TO LEARN MORE?</h1>
 
       <div className={styles.learn_more_text}>
         Schedule a meeting and benefit from our expertise on Jupyter,
