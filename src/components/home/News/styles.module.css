@@ -3,23 +3,17 @@
   .news_container {
     display: none;
   }
-
 }
 
-@media only screen and (min-width: 996px) {
-  /*Desktop */
-  .news_container {
-    margin: var(--ifm-spacing-5xl) 0 var(--ifm-spacing-2xl) 0 ;
-  }
+.news_container {
+  margin: var(--ifm-spacing-5xl) 0 var(--ifm-spacing-2xl) 0;
+}
 
-  .blog_button {
-    background-color: var(--ifm-color-orange-jupyter);
-  }
+.blog_button {
+  background-color: var(--ifm-color-orange-jupyter);
+}
 
-  .h2_custom {
-    text-align: center;
-    margin-bottom: var(--ifm-spacing-2xl)
-  }
-  
-
+.h2_custom {
+  text-align: center;
+  margin-bottom: var(--ifm-spacing-2xl);
 }

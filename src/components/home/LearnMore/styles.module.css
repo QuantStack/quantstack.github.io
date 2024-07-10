@@ -1,45 +1,24 @@
 div .learn_more_text {
-  color: var(--ifm-text-color-blue-banner);
+  color: var(--ifm-color-secondary-s2);
 }
 
 div .learn_more_title {
-  color: var(--ifm-text-color-blue-banner);
+  color: var(--ifm-color-secondary-s2);
 }
 
 .learn_more_container {
-  background-color: var(--ifm-background-color-blue-banner);
+  background-color: var(--ifm-color-secondary-s1);
   text-align: center;
-  padding: var(--ifm-spacing-2xl)
+  padding: var(--ifm-spacing-2xl);
 }
 
-
-@media only screen and (max-width: 996px) {
-  /*Mobile */
-  .learn_more_text {
-    text-align: center;
-    font-family: var(--ifm-font-family-roboto);
-    font-size: 14x;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 36px; /* 128.571% */
-    padding: var(--ifm-spacing-lg);
-    color: var(--ifm-text-color-blue-banner);
-  }
-  
-}
-
-@media only screen and (min-width: 996px) {
-  /*Desktop */
-  .learn_more_text {
-    text-align: center;
-    font-family: var(--ifm-font-family-roboto);
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 36px; /* 128.571% */
-    padding: var(--ifm-spacing-2xl);
-    color: var(--ifm-text-color-blue-banner);
-  }
-  
-
+.learn_more_text {
+  text-align: center;
+  font-family: var(--ifm-font-family-roboto);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px; /* 128.571% */
+  padding: var(--ifm-spacing-2xl);
+  color: var(--ifm-color-secondary-s2);
 }

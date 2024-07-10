@@ -5,7 +5,7 @@ import { useRef, useState } from "react";
 import LargePortraitCard from "./LargePortraitCard";
 
 const contentStyle = {
-  background: "var(--ifm-background-color-large-portrait-card)",
+  background: "white",
   borderRadius: "10px",
 };
 
