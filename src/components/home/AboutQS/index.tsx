@@ -6,13 +6,9 @@ export default function AboutQS() {
   return (
     <div className={"container" + " " + styles.about_us_container}>
       <div
-        className={
-          "row" + " " + "flex-full-centered" + " " + "padding-none"
-        }
+        className={"row" + " " + "flex-full-centered" + " " + "padding-none"}
       >
-        <div
-          className={"col" + " " + "padding-none" + " " + "margin-none"}
-        >
+        <div className={"col" + " " + "padding-none" + " " + "margin-none"}>
           <div className={styles.text_container}>
             We are a team of expert of open-source developers, the very same
             people behind a number of technologies that you already use.
@@ -20,29 +16,29 @@ export default function AboutQS() {
         </div>
       </div>
       <div
-        className={
-          "row" + " " + "flex-full-centered" + " " + "padding-none"
-        }
+        className={"row" + " " + "flex-full-centered" + " " + "padding-none"}
       >
-        <div
-          className={"col" + " " + "padding-none" + " " + "margin-none"}
-        >
-          <div className="flex-full-centered" style={{marginBottom: "var(--ifm-spacing-2xl)"}}>
-            <img src={GroupPhotoUrl} alt={"Picture showing a group of Quantstack people in front of Saint-Maur's office, in Paris area."} />
+        <div className={"col" + " " + "padding-none" + " " + "margin-none"}>
+          <div
+            className="flex-full-centered"
+            style={{ marginBottom: "var(--ifm-spacing-2xl)" }}
+          >
+            <img
+              src={GroupPhotoUrl}
+              alt={
+                "Picture showing a group of Quantstack people in front of Saint-Maur's office, in Paris area."
+              }
+            />
           </div>
         </div>
       </div>
       <div
-        className={
-          "row" + " " + "flex-full-centered" + " " + "padding-none"
-        }
+        className={"row" + " " + "flex-full-centered" + " " + "padding-none"}
       >
-        <div
-          className={"col" + " " + "padding-none"}
-        >
+        <div className={"col" + " " + "padding-none"}>
           <LinkToAboutUs label={"LEARN MORE ABOUT US"} />
-          
-         <div className="spacing-2xl"/>
+
+          <div className="spacing-2xl" />
         </div>
       </div>
     </div>

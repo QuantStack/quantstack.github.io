@@ -6,10 +6,20 @@ export default function SupplyChainProjects() {
   return (
     <div className={"container" + " " + styles.project_container}>
       <div className={"row"}>
-        
         <div
           className={
-            "col col--5 col--offset-1" + " " + styles.col_project_overview_with_padding
+            "col col--5 col--offset-1" +
+            " " +
+            "flex-full-centered" +
+            " " +
+            styles.col_project_overview_with_padding
+          }
+        >
+          <img src={MambaPictureUrl} width={"486px"} alt={"Picture showing a terminal in which mamba commands are run."} />
+        </div>
+        <div
+          className={
+            "col col--5" + " " + styles.col_project_overview_with_padding
           }
         >
           <h1 className="padding-none">Software supply chain </h1>
@@ -18,17 +28,6 @@ export default function SupplyChainProjects() {
           </h2>
           <div className="spacing-2xl"></div>
           <SupplyChainMD />
-        </div>
-        <div
-          className={
-            "col col--5" +
-            " " +
-            "flex-full-centered" +
-            " " +
-            styles.col_project_overview_with_padding
-          }
-        >
-          <img src={MambaPictureUrl} width={"486px"} alt={"Picture showing a terminal in which mamba commands are run."} />
         </div>
       </div>
     </div>

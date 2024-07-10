@@ -27,78 +27,17 @@
 }
 
 div .learn_more_WTJ {
-  color: var(--ifm-text-color-blue-banner);
+  color: var(--ifm-color-secondary-s2);
   margin-bottom: var(--ifm-spacing-2xl);
 }
 
 .link_to_WTJ {
-  background-color: var(--ifm-background-color-button-blue-banner);
-  color: var(--ifm-text-color-button-blue-banner);
+  background-color: var(--ifm-color-secondary-s2);
+  color: white;
   width: 358px;
   font-weight: 700;
 }
 
-@media only screen and (max-width: 400px) {
-  /*Mobile */
-  .careers_container {
-    margin-top: var(--ifm-spacing-2xl);
-  }
-
-  .join_the_team_text {
-    text-align: center;
-    font-size: 12px;
-    font-family: var(--ifm-font-family-roboto);
-    color: var(--ifm-color-primary-p2);
-    text-align: center;
-    font-style: normal;
-    font-weight: 400;
-    padding: var(--ifm-spacing-xl) var(--ifm-spacing-2xl);
-  }
-
-  .interview_card {
-    width: 300px;
-    height: 270px;
-    background-color: var(--ifm-background-color);
-    border-radius: 10px;
-    box-shadow: 0px 0px 8px 1px #c8c8c7;
-    padding: var(--ifm-spacing-sm);
-    text-align: center;
-    margin-bottom: var(--ifm-spacing-xl);
-  }
-
-  .interview_name {
-    color: var(--ifm-text-color);
-    text-align: center;
-    font-family: var(--ifm-font-family-roboto);
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 36px; /* 128.571% */
-  }
-
-  .interview_position {
-    color: var(--ifm-text-color);
-    text-align: center;
-    font-family: var(--ifm-font-family-roboto);
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px; /* 133.333% */
-    letter-spacing: 0.5px;
-  }
-
-  .WTJ_profile_container {
-    margin-top: var(--ifm-spacing-2xl);
-    background-color: var(--ifm-background-color-blue-banner);
-    padding: var(--ifm-spacing-2xl) var(--ifm-spacing-2xl);
-    font-family: var(--ifm-font-family-roboto);
-    font-size: 16px;
-    text-align: center;
-  }
-}
-
-@media only screen and (min-width: 400px) {
-  /*Desktop */
   .careers_container {
     margin-top: var(--ifm-spacing-6xl);
   }
@@ -161,7 +100,7 @@ div .learn_more_WTJ {
 
   .WTJ_profile_container {
     margin: var(--ifm-spacing-6xl) 0 var((--ifm-spacing-2xl)) 0;
-    background-color: var(--ifm-background-color-blue-banner);
+    background-color: var(--ifm-color-secondary-s1);
     padding: var(--ifm-spacing-2xl) var(--ifm-spacing-2xl);
     font-family: var(--ifm-font-family-roboto);
     font-size: 28px;
@@ -178,5 +117,3 @@ div .learn_more_WTJ {
     line-height: 150%; /* 72px */
     letter-spacing: 2.112px;
   }
-
-}

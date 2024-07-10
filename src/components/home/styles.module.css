@@ -1,26 +1,6 @@
-
-
-@media only screen and (max-width: 996px) {
-  /* Mobile */
-  .link_to {
-    background-color: var(--ifm-background-color-button-home);
-    color: var(--ifm-text-color-button-home);
-    width: 358px;
-    font-weight: 700;
-  }
-
-  .link_to_contact_home {
-    background-color: var(--ifm-color-primary-p2);
-    width: 358px;
-    font-weight: 700;
-  }
-}
-@media only screen and (min-width: 996px) {
-  /* Desktop */
-  .link_to {
-    background-color: var(--ifm-background-color-button-home);
-    color: var(--ifm-text-color-button-home);
-    width: 358px;
-    font-weight: 700;
-  }
+.link_to {
+  background-color: var(--ifm-color-orange-jupyter);
+  color: var(--ifm-text-color-on-primary-p1);
+  width: 358px;
+  font-weight: 700;
 }

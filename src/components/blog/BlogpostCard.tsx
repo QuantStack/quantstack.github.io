@@ -8,10 +8,9 @@ import useBaseUrl from "@docusaurus/useBaseUrl";
 export default function BlogpostCard({ blogpost, timeIndex }) {
   return (
     <div
-      className={"card " + styles.blogpost_card}
+      className={"card" + " " + styles.blogpost_card}
       style={{ marginBottom: "var(--ifm-spacing-lg)" }}
     >
-   
       <Link href={blogpost.url}>
         <div className="container">
           <div
@@ -25,29 +24,33 @@ export default function BlogpostCard({ blogpost, timeIndex }) {
               "margin-none"
             }
           ></div>
-
-          <div className="flex-full-centered" style = {{height: "180px"}}>
-            <div className={styles.blogpost_image}>
+          <div className="card__header">
+            <div
+              className={styles.blogpost_image + " " + "flex-full-centered"}
+              style={{ height: "180px" }}
+            >
               <img
                 src={useBaseUrl(blogpost.image)}
                 id={blogpost.imageID}
                 width={blogpost.imageRenderedWidth}
                 height={blogpost.imageRenderedHeight}
-                alt={"Illustration for the blog post"}
+                alt={"Illustration for the blog post."}
               />
+            </div>
+
+            <div className={styles.blogpost_header}>{blogpost.title}</div>
+          </div>
+
+          <div className={"card__body"}>
+            <div className={styles.blogpost_summary}>
+              {blogpost.summary.length < 200
+                ? blogpost.summary
+                : blogpost.summary.substring(0, 200) + "..."}
             </div>
           </div>
 
-          <div className={styles.blogpost_header}>{blogpost.title}</div>
-
-          <div className={styles.blogpost_summary}>
-            {blogpost.summary.length < 200
-              ? blogpost.summary
-              : blogpost.summary.substring(0, 200) + "..."}
-          </div>
-
           <div
-            className="row"
+            className={"row card__footer"}
             style={{ marginBottom: "var(--ifm-spacing-md)" }}
           >
             <div className="col" style={{ padding: "0px" }}>

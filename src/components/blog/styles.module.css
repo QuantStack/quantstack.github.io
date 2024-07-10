@@ -40,7 +40,7 @@ div .blogpost_date {
   text-align: justify;
   margin-bottom: var(--ifm-spacing-sm);
   height: 140px;
-  color: var(--ifm-text-color-card);
+  color: var(--ifm-text-color);
 }
 
 .blogpost_header {
@@ -53,7 +53,7 @@ div .blogpost_date {
   letter-spacing: -0.198px;
   height: 48px;
   margin: var(--ifm-spacing-xl) 0;
-  color: var(--ifm-text-color-card);
+  color: var(--ifm-text-color);
 }
 
 .blogpost_date {
@@ -65,7 +65,7 @@ div .blogpost_date {
   line-height: 16px;
   letter-spacing: -0.132px;
   text-align: left;
-  color: var(--ifm-text-color-card);
+  color: var(--ifm-text-color);
 }
 
 .blogpost_authors {
@@ -75,7 +75,7 @@ div .blogpost_date {
   font-weight: 400;
   line-height: 16px;
   text-align: left;
-  color: var(--ifm-text-color-card);
+  color: var(--ifm-text-color);
 }
 
 .search_input {
@@ -90,13 +90,6 @@ div .blogpost_date {
     var(--ifm-spacing-lg);
 }
 
-@media only screen and (max-width: 996px) {
-  /*Mobile */
-}
-
-@media only screen and (min-width: 996px) {
-  /*Desktop */
-  .blogposts_container {
-    margin: var(--ifm-spacing-6xl) 0;
-  }
+.blogposts_container {
+  margin: var(--ifm-spacing-6xl) 0;
 }

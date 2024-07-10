@@ -1,8 +1,7 @@
-
 .send_button {
   width: 258px;
   height: 59px;
-  background: var(--ifm-color-blue-contact-send-button);
+  background: var(--ifm-color-blue-jupyter);
 }
 
 .send_button_container {
@@ -10,57 +9,27 @@
   width: 508px;
   margin-top: var(--ifm-spacing-2xl);
 }
-
-@media only screen and (max-width: 996px) {
-  /*Mobile */
-  .contact_container {
-    margin: var(--ifm-spacing-5xl) 0;
-    text-align: center;
-  }
-
-  .form_label {
-    font-size: 12px;
-    color: var(---ifm-text-color);
-    background-color: var(--ifm-color-orange-light);
-  }
-
-  .small_input {
-    width: 297px;
-    height: 56px;
-    border-radius: 4px;
-  }
-
-  .large_input {
-    width: 297px;
-    height: 220px;
-    border-radius: 4px;
-  }
+.contact_container {
+  margin: var(--ifm-spacing-5xl) 0;
 }
 
-@media only screen and (min-width: 996px) {
-  /*Desktop */
-  .contact_container {
-    margin: var(--ifm-spacing-5xl) 0;
-  }
+.contact_form {
+  margin-top: var(--ifm-spacing-xl);
+}
 
-  .contact_form {
-    margin-top: var(--ifm-spacing-xl);
-  }
+.form_label {
+  font-size: 12px;
+  color: var(--ifm-text-color);
+  background-color: var(--ifm-background-color);
+}
+.small_input {
+  width: 508px;
+  height: 56px;
+  border-radius: 4px;
+}
 
-  .form_label {
-    font-size: 12px;
-    color: var(--ifm-text-color);
-    background-color: var(--ifm-background-color);
-  }
-  .small_input {
-    width: 508px;
-    height: 56px;
-    border-radius: 4px;
-  }
-
-  .large_input {
-    width: 508px;
-    height: 220px;
-    border-radius: 4px;
-  }
+.large_input {
+  width: 508px;
+  height: 220px;
+  border-radius: 4px;
 }

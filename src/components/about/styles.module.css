@@ -1,8 +1,8 @@
 .small_portrait_card {
   width: 279px;
   height: 388px;
-  background-color: var(--ifm-background-color-small-portrait-card);
-  color: var(--ifm-text-color-small-portrait-card);
+  background-color: white;
+  color: var(--ifm-color-primary-p2);
   border-radius: 8px;
   box-shadow: 0px 0px 8px 1px #c8c8c7;
   padding: var(--ifm-spacing-lg) var(--ifm-spacing-md);
@@ -29,249 +29,171 @@
   line-height: 28px;
   text-align: center;
 }
-@media only screen and (max-width: 996px) {
-  /* mobile */
-  .h2_custom {
-    padding: var(--ifm-spacing-lg) var(--ifm-spacing-2xl);
-  }
 
-  .join_the_team_container {
-    background-color: var(--ifm-color-secondary-s1);
-    padding: var(--ifm-spacing-3xl) var(--ifm-spacing-xl);
-    margin: 0;
-  }
-
-  .join_the_team_text {
-    background-color: var(--ifm-color-secondary-s1);
-  }
-
-  .value_header {
-    font-family: var(--ifm-font-family-rubik-one);
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 16px;
-    text-align: center;
-    margin-bottom: var(--ifm-spacing-xl);
-    color: var(--ifm-text-color-value-card-white);
-  }
-
-  .value_text {
-    font-family: var(--ifm-font-family-roboto);
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 20px; /* 142.857% */
-    letter-spacing: 0.25px;
-  }
-
-  .value_text p {
-    color: var(--ifm-text-color-value-card-white);
-    text-align: center;
-  }
-
-  .value_card {
-    padding: var(--ifm-spacing-2xl) var(--ifm-spacing-lg);
-    border: none;
-    border-radius: 0;
-    border: transparent;
-  }
-
-  .value_card_white {
-    background-color: var(--ifm-background-color-value-card-white);
-    color: var(--ifm-text-color-value-card-white);
-  }
-
-  .value_card_yellow {
-    background-color: var(--ifm-background-color-value-card-yellow);
-    color: var(--ifm-text-color-value-card-yellow);
-  }
-
-  .bio_container {
-    text-align: justify;
-    font-family: var(--ifm-font-family-roboto);
-    font-size: var(--ifm--font-size-normal);
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px; /* 133.333% */
-    letter-spacing: 0.5px;
-    padding: var(--ifm-spacing-4xl) var(--ifm-spacing-2xl);
-  }
+.value_header {
+  font-family: var(--ifm-font-family-rubik-one);
+  font-size: var(--ifm-font-size-secondary-title);
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: center;
+  margin-bottom: var(--ifm-spacing-xl);
+  color: var(--ifm-text-color-on-primary-p1);
 }
 
-@media only screen and (min-width: 996px) {
-  /* Desktop */
-  .value_header {
-    font-family: var(--ifm-font-family-rubik-one);
-    font-size: var(--ifm-font-size-secondary-title);
-    font-style: normal;
-    font-weight: 600;
-    line-height: 28px;
-    text-align: center;
-    margin-bottom: var(--ifm-spacing-xl);
-  }
-
-  div .value_header {
-    color: var(--ifm-text-color-value-card-white);
-  }
-
-  .value_text {
-    font-family: var(--ifm-font-family-roboto);
-    font-size: 6px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 20px; /* 142.857% */
-    letter-spacing: 0.25px;
-  }
-
-  .value_text p {
-    color: var(--ifm-text-color-value-card-yellow);
-    text-align: center;
-  }
-
-  .row_with_margins {
-    margin-top: var(--ifm-spacing-4xl) 0;
-  }
-
-  div .row {
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  .about_container {
-    margin-top: var(--ifm-spacing-6xl);
-  }
-
-  .value_card {
-    height: 516px;
-    width: 264px;
-    padding: var(--ifm-spacing-2xl) var(--ifm-spacing-lg);
-    border-radius: 8px;
-    box-shadow: 0px 0px 8px 1px #c8c8c7;
-    background-color: var(--ifm-background-color-value-card-yellow);
-    margin-bottom: var(--ifm-spacing-xl);
-  }
-
-  .large_portrait_card {
-    width: 1000px;
-    /*background-color: var(--ifm-background-color-large-portrait-card);*/
-    border-radius: 10px;
-    box-shadow: 0px 1px 10px 0 rgba(1, 0, 0, 0.17);
-    padding: var(--ifm-spacing-xl) var(--ifm-spacing-2xl);
-  }
-
-  .bio_container {
-    font-family: var(--ifm-font-family-roboto);
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px; /* 133.333% */
-    letter-spacing: 0.5px;
-  }
-
-  .bio_container p {
-    color: var(--ifm-text-color-large-portrait-card);
-  }
-
-  .small_card_complete_name {
-    font-size: 16px;
-    font-family: var(--ifm-font-family-roboto);
-    color: var(--ifm-text-color-large-portrait-card);
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px; /* 150% */
-    letter-spacing: 0.15px;
-    margin: var(--ifm-spacing-xs) 0;
-  }
-
-  .small_card_position {
-    font-size: var(--ifm--font-size-normal);
-    font-family: var(--ifm-font-family-roboto);
-    color: var(---ifm-text-color);
-    font-style: normal;
-    font-weight: 600;
-    line-height: 24px; /* 133.333% */
-    letter-spacing: 0.5px;
-    color: var(--ifm-text-color-small-portrait-card);
-  }
-
-  .large_card_complete_name {
-    font-family: var(--ifm-font-family-roboto);
-    font-size: 32px;
-    color: var(---ifm-text-color);
-    font-style: normal;
-    font-weight: 400;
-    line-height: 40px;
-    color: var(--ifm-text-color-large-portrait-card);
-  }
-
-  div .large_card_complete_name {
-    color: var(--ifm-text-color-large-portrait-card);
-  }
-
-  .large_card_position {
-    font-size: var(--ifm--font-size-normal);
-    font-family: var(--ifm-font-family-roboto);
-    color: var(--ifm-text-color-large-portrait-card);
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px; /* 133.333% */
-    letter-spacing: 0.5px;
-  }
-
-  a {
-    color: var(--ifm-text-color-large-portrait-card);
-  }
-
-  div .large_card_position {
-    color: var(--ifm-text-color-large-portrait-card);
-  }
-
-  .social_icons {
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-
-  .githubname {
-    font-size: var(--ifm-font-size-normal);
-    font-family: var(--ifm-font-family-roboto);
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px; /* 133.333% */
-    letter-spacing: 0.5px;
-    color: var(--ifm-text-color-small-portrait-card);
-  }
-
-  .subteam_container {
-    margin-top: var(--ifm-spacing-2xl);
-  }
-
-  .four_values_container {
-    margin-bottom: var(--ifm-spacing-5xl);
-  }
-
-  .join_the_team_container {
-    font-family: var(--ifm-font-family-roboto);
-    font-size: 28px;
-    font-style: normal;
-    text-align: center;
-    font-weight: 400;
-    line-height: 36px; /* 128.571% */
-    color: var(--ifm-color-secondary-s3);
-    padding: var(--ifm-spacing-2xl) var(--ifm-spacing-2xl);
-    max-width: none;
-    background-color: var(--ifm-background-color-blue-banner);
-  }
-
-  div .join_the_team_title {
-    color: var(--ifm-text-color-blue-banner);
-  }
-
-  .join_the_team_text {
-    margin-bottom: var(--ifm-spacing-2xl);
-  }
-
-  div .join_the_team_text {
-    color: var(--ifm-text-color-blue-banner);
-  }
+.value_text p {
+  font-family: var(--ifm-font-family-roboto);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  color: var(--ifm-text-color-on-primary-p1);
 }
+
+.row_with_margins {
+  margin-top: var(--ifm-spacing-4xl) 0;
+}
+
+div .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.about_container {
+  margin-top: var(--ifm-spacing-6xl);
+}
+
+.value_card {
+  height: 540px;
+  width: 264px;
+  padding: var(--ifm-spacing-2xl) var(--ifm-spacing-lg);
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px 1px #c8c8c7;
+  background-color: var(--ifm-color-primary-p1);
+  margin-bottom: var(--ifm-spacing-xl);
+}
+
+.large_portrait_card {
+  width: 1000px;
+  /*background-color: white;*/
+  border-radius: 10px;
+  box-shadow: 0px 1px 10px 0 rgba(1, 0, 0, 0.17);
+  padding: var(--ifm-spacing-xl) var(--ifm-spacing-2xl);
+}
+
+.bio_container {
+  font-family: var(--ifm-font-family-roboto);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 133.333% */
+  letter-spacing: 0.5px;
+}
+
+.bio_container p {
+  color: var(--ifm-color-primary-p2);
+}
+
+.small_card_complete_name {
+  font-size: 16px;
+  font-family: var(--ifm-font-family-roboto);
+  color: var(--ifm-color-primary-p2);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.15px;
+  margin: var(--ifm-spacing-xs) 0;
+}
+
+.small_card_position {
+  font-size: var(--ifm--font-size-normal);
+  font-family: var(--ifm-font-family-roboto);
+  color: var(---ifm-text-color);
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 133.333% */
+  letter-spacing: 0.5px;
+  color: var(--ifm-color-primary-p2);
+}
+
+.large_card_complete_name {
+  font-family: var(--ifm-font-family-roboto);
+  font-size: 32px;
+  color: var(---ifm-text-color);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  color: var(--ifm-color-primary-p2);
+}
+
+div .large_card_complete_name {
+  color: var(--ifm-color-primary-p2);
+}
+
+.large_card_position {
+  font-size: var(--ifm--font-size-normal);
+  font-family: var(--ifm-font-family-roboto);
+  color: var(--ifm-color-primary-p2);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 133.333% */
+  letter-spacing: 0.5px;
+}
+
+a {
+  color: var(--ifm-color-primary-p2);
+}
+
+div .large_card_position {
+  color: var(--ifm-color-primary-p2);
+}
+
+.social_icons {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.githubname {
+  font-size: var(--ifm-font-size-normal);
+  font-family: var(--ifm-font-family-roboto);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 133.333% */
+  letter-spacing: 0.5px;
+  color: var(--ifm-color-primary-p2);
+}
+
+.subteam_container {
+  margin-top: var(--ifm-spacing-2xl);
+}
+
+.four_values_container {
+  margin-bottom: var(--ifm-spacing-5xl);
+}
+
+.join_the_team_container {
+  font-family: var(--ifm-font-family-roboto);
+  font-size: 28px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 400;
+  line-height: 36px; /* 128.571% */
+  color: var(--ifm-color-secondary-s2);
+  padding: var(--ifm-spacing-2xl) var(--ifm-spacing-2xl);
+  max-width: none;
+  background-color: var(--ifm-color-secondary-s1);
+}
+
+div .join_the_team_title {
+  color: var(--ifm-color-secondary-s2);
+}
+
+.join_the_team_text {
+  margin-bottom: var(--ifm-spacing-2xl);
+}
+
+div .join_the_team_text {
+  color: var(--ifm-color-secondary-s2);
+}
+/*}*/
