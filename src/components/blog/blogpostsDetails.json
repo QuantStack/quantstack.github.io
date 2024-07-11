@@ -1,5 +1,31 @@
 [
   {
+    "url": "https://medium.com/@QuantStack/quantstack-open-source-internship-program-049755b6d44b",
+    "title": "QuantStack open-source internship program",
+    "image": "/img/blogposts/QuantStack-open-source-internship-program.png",
+    "summary": "Today, we are announcing a new internship program that aims to empower a new cohort of open-source contributors and future maintainers to make an impact within our ecosystem.",
+    "date": "July 9, 2024",
+    "authors": "Sylvain Corlay",
+    "imageID": "blogpost-image-118",
+    "imageNaturalWidth": 1240,
+    "imageNaturalHeight": 405,
+    "imageRenderedWidth": 305,
+    "imageRenderedHeight": 99.61693548387098
+  },
+  {
+    "url": "https://medium.com/@QuantStack/jupytercad-2-0-4b9c4e18d22a",
+    "title": "JupyterCAD 2.0",
+    "image": "/img/blogposts/JupyterCAD-2-0.png",
+    "summary": "We are thrilled to introduce JupyterCAD 2.0, the newest version of the JupyterLab-based CAD modeler.",
+    "date": "July 5, 2024",
+    "authors": "Trung Le, Martin Renou",
+    "imageID": "blogpost-image-117",
+    "imageNaturalWidth": 828,
+    "imageNaturalHeight": 441,
+    "imageRenderedWidth": 305,
+    "imageRenderedHeight": 162.44565217391303
+  },
+  {
     "url": "https://blog.jupyter.org/jupytergis-d63b7adf9d0c",
     "title": "JupyterGIS",
     "image": "/img/blogposts/JupyterGIS.png",
@@ -41,7 +67,7 @@
   {
     "url": "https://medium.com/@PyDataParis/announcing-pydata-paris-2024-700220accc72",
     "title": "Announcing PyData Paris 2024",
-    "image": "/img/blogposts/Announcing-PyData-Paris-2024.jpg",
+    "image": "/img/blogposts/Announcing-PyData-Paris-2024.png",
     "summary": "We are thrilled to announce the upcoming PyData Paris 2024, the gathering of the open-source data science and AI/ML community in France. PyData Paris will take place at the Cité des Sciences from September 25 to September 26, 2024.",
     "date": "March 11, 2024",
     "authors": "Sylvain Corlay",
@@ -80,7 +106,7 @@
   {
     "url": "https://blog.jupyter.org/recent-keyboard-navigation-improvements-in-jupyter-4df32f97628d",
     "title": "Recent keyboard navigation improvements in Jupyter",
-    "image": "/img/blogposts/Recent-keyboard-navigation-improvements-in-Jupyter.png",
+    "image": "/img/blogposts/Recent-keyboard-navigation-improvements-in-Jupyter.gif",
     "summary": "Upcoming versions of JupyterLab (4.1.0) and Notebook (7.1.0) will include major keyboard accessibility fixes.",
     "date": "December 16th, 2023",
     "authors": "Nicolas Brichet, Gabriel Fouasnon",
@@ -210,7 +236,7 @@
   {
     "url": "https://blog.jupyter.org/improving-the-accessibility-of-jupyter-6c695db518d3",
     "title": "Improving the accessibility of Jupyter",
-    "image": "/img/blogposts/Improving-the-accessibility-of-Jupyter.gif",
+    "image": "/img/blogposts/Improving-the-accessibility-of-Jupyter.png",
     "summary": "This article presents some of the recent accessibility improvements in the Jupyter Notebook codebase.",
     "date": "February 24th, 2023",
     "authors": "Nicolas Brichet, Johan Mabille, Jeremy Tuloup, Frédéric Collonval, Sylvain Corlay",
@@ -223,7 +249,7 @@
   {
     "url": "https://blog.jupyter.org/a-jupyter-kernel-for-gnu-octave-b6d29e56341f",
     "title": "A Jupyter kernel for GNU Octave",
-    "image": "/img/blogposts/A-Jupyter-kernel-for-GNU-Octave.gif",
+    "image": "/img/blogposts/A-Jupyter-kernel-for-GNU-Octave.png",
     "summary": "We are happy to announce the xeus-octave project, a Jupyter kernel for GNU Octave. Xeus-octave was created by Giulio Girardi, recently joined by Antoine Prouvost - and has been incorporated into the Project Jupyter governance.",
     "date": "January 11th, 2023",
     "authors": "Giulio Girardi, Antoine Prouvost",
@@ -964,7 +990,7 @@
   {
     "url": "https://blog.jupyter.org/report-on-the-jupyter-community-workshop-on-dashboarding-14f8ad9f3c0",
     "title": "Field Report on the Jupyter Community Workshop on Dashboarding",
-    "image": "/img/blogposts/Field-Report-on-the-Jupyter-Community-Workshop-on-Dashboarding.gif",
+    "image": "/img/blogposts/Field-Report-on-the-Jupyter-Community-Workshop-on-Dashboarding.png",
     "summary": "From June 3rd to June 6th 2019, thirty-five developers from the Jupyter community met in Paris for a four-day workshop on dashboarding with Project Jupyter. For four days, attendees worked full time…",
     "date": "Feb 14, 2020",
     "authors": "Sylvain Corlay",
@@ -1354,7 +1380,7 @@
   {
     "url": "https://towardsdatascience.com/the-xtensor-vision-552dd978e9ad",
     "title": "The Xtensor Vision",
-    "image": "/img/blogposts/The-Xtensor-Vision.gif",
+    "image": "/img/blogposts/The-Xtensor-Vision.png",
     "summary": "Here we’re laying out a vision for the xtensor project, the n-dimensional array in the C++ language — that makes it easy to write high-performance code and bind it to the languages of data science…",
     "date": "Nov 10, 2018",
     "authors": "Wolf Vollprecht",
