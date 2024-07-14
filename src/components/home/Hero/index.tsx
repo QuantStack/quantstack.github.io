@@ -6,10 +6,10 @@ export function Hero() {
   return (
     <div>
       <div className="main-container-with-margins">
-        <div className={"container" + " " + styles.hero_container}>
+        <div className="container upper-container-with-margin-top">
           <div className={"row row--no-gutters" + " " + "flex-full-centered"}>
             <div className="col col--6 col--offset-1">
-              <div className="header-text">
+    
                 <h1 className="padding-none">
                   Open-source for discovery, science, and education
                 </h1>
@@ -21,7 +21,7 @@ export function Hero() {
                   Jupyter, Conda-forge, Mamba, Voilà, Xtensor and more.
                 </h2>
               </div>
-            </div>
+            
             <div
               className={
                 "col col--3 col--offset-1" +

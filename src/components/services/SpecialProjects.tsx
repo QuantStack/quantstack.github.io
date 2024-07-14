@@ -7,7 +7,7 @@ import SpecialProjectsIllustration from "@site/static/img/illustrations/special_
 export function SpecialProjects() {
   return (
     <div className="main-container-with-margins">
-      <div className={"container" + " " + styles.service_container}>
+      <div className="container upper-container-with-margin-top">
         <div className="row">
           <div className="col col--4 col--offset-2">
             <h2>Special projects</h2>

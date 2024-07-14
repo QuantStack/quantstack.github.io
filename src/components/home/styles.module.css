@@ -1,6 +1,48 @@
-.link_to {
-  background-color: var(--ifm-color-orange-jupyter);
-  color: var(--ifm-text-color-on-primary-p1);
-  width: 358px;
-  font-weight: 700;
+@media only screen and (max-width: 996px) {
+  /*Mobile*/
+  .link_to {
+    background-color: var(--ifm-color-primary-p1);
+    color: var(--ifm-text-color-on-primary-p1);
+    width: 358px;
+    font-weight: 700;
+  }
+
+  .link_to_services {
+    background-color: var(--ifm-color-primary-p1);
+    color: var(--ifm-text-color-on-primary-p1);
+    width: 358px;
+    font-weight: 700;
+  }
+
+
+  .link_to_about_us {
+    background-color: var(--ifm-color-primary-p1);
+    color: var(--ifm-text-color-on-primary-p1);
+    width: 358px;
+    font-weight: 700;
+  }
+}
+
+@media only screen and (min-width: 996px) {
+  .link_to {
+    background-color: var(--ifm-color-orange-jupyter);
+    color: var(--ifm-text-color-on-primary-p1);
+    width: 358px;
+    font-weight: 700;
+  }
+
+  .link_to_services {
+    background-color: var(--ifm-color-orange-jupyter);
+    color: var(--ifm-text-color-on-primary-p1);
+    width: 358px;
+    font-weight: 700;
+  }
+
+
+  .link_to_about_us {
+    background-color: var(--ifm-color-secondary-s2);
+    color: white;
+    width: 358px;
+    font-weight: 700;
+  }
 }

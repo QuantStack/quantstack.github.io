@@ -5,7 +5,7 @@ import JupyterPictureUrl from "@site/static/img/projects/jupyterlab_examples.png
 export default function JupyterProject() {
   return (
     <div
-      className={"container" + " " + styles.project_container}
+      className={"container"}
       style={{
         marginTop: "var(--ifm-spacing-4xl)",
       }}

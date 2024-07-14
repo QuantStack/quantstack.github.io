@@ -9,9 +9,6 @@
   width: 508px;
   margin-top: var(--ifm-spacing-2xl);
 }
-.contact_container {
-  margin: var(--ifm-spacing-5xl) 0;
-}
 
 .contact_form {
   margin-top: var(--ifm-spacing-xl);

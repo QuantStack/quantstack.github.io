@@ -96,8 +96,7 @@ export const coreTeam = [
     avatarRoute: "@site/static/img/avatars/Thorsten@2x.jpg",
     distinctionTitle:[],
     distinctionLink: [],
-    distinctionLink: [],
-    subTeam: "coreTeam",
+    subTeamName: "coreTeam",
   },
   {
     completeName: "Le Duc Trung",
@@ -113,8 +112,7 @@ export const coreTeam = [
     avatarRoute: "@site/static/img/avatars/Trung@2x.jpg",
     distinctionTitle:[],
     distinctionLink: [],
-    distinctionLink: [],
-    subTeam: "coreTeam",
+    subTeamName: "coreTeam",
   },
   {
     completeName: " Andreas Trawöger",
@@ -130,7 +128,7 @@ export const coreTeam = [
     avatarRoute: "@site/static/img/avatars/Andreas@2x.jpg",
     distinctionTitle:[],
     distinctionLink: [],
-    subTeam: "coreTeam",
+    subTeamName: "coreTeam",
   },
   {
     completeName: "Denisa Checiu",
@@ -146,7 +144,7 @@ export const coreTeam = [
     avatarRoute: "@site/static/img/avatars/Denisa@2x.jpg",
     distinctionTitle:[],
     distinctionLink: [],
-    subTeam: "coreTeam",
+    subTeamName: "coreTeam",
   },
   {
     completeName: "Joël Lamotte",
@@ -162,7 +160,7 @@ export const coreTeam = [
     avatarRoute: "@site/static/img/avatars/Joel@2x.jpg",
     distinctionTitle:[],
     distinctionLink: [],
-    subTeam: "coreTeam",
+    subTeamName: "coreTeam",
   },
   {
     completeName: "Florence Haudin",
@@ -178,7 +176,7 @@ export const coreTeam = [
     avatarRoute: "@site/static/img/avatars/Florence@2x.jpg",
     distinctionTitle:[],
     distinctionLink: [],
-    subTeam: "coreTeam",
+    subTeamName: "coreTeam",
   },
   {
     completeName: "Nicolas Brichet",
@@ -194,7 +192,7 @@ export const coreTeam = [
     avatarRoute: "@site/static/img/avatars/Nicolas@2x.jpg",
     distinctionTitle:[],
     distinctionLink: [],
-    subTeam: "coreTeam",
+    subTeamName: "coreTeam",
   },
   {
     completeName: "Isabel Paredes",
@@ -210,7 +208,7 @@ export const coreTeam = [
     avatarRoute: "@site/static/img/avatars/Isabel@2x.jpg",
     distinctionTitle:[],
     distinctionLink: [],
-    subTeam: "coreTeam",
+    subTeamName: "coreTeam",
   },
   {
     completeName: "Gabriela Vives",
@@ -226,7 +224,7 @@ export const coreTeam = [
     avatarRoute: "@site/static/img/avatars/Gabriela@2x.jpg",
     distinctionTitle:[],
     distinctionLink: [],
-    subTeam: "coreTeam",
+    subTeamName: "coreTeam",
   },
   {
     completeName: "Hind Montassif",
@@ -242,7 +240,7 @@ export const coreTeam = [
     avatarRoute: "@site/static/img/avatars/Hind@2x.jpg",
     distinctionTitle:[],
     distinctionLink: [],
-    subTeam: "coreTeam",
+    subTeamName: "coreTeam",
   },
   {
     completeName: "Julien Jerphanion",
@@ -258,7 +256,7 @@ export const coreTeam = [
     avatarRoute: "@site/static/img/avatars/Julien@2x.jpg",
     distinctionTitle:[],
     distinctionLink: [],
-    subTeam: "coreTeam",
+    subTeamName: "coreTeam",
   },
   {
     completeName: "Anutosh Bhat",
@@ -274,7 +272,7 @@ export const coreTeam = [
     avatarRoute: "@site/static/img/avatars/Anutosh@2x.jpg",
     distinctionTitle:[],
     distinctionLink: [],
-    subTeam: "coreTeam",
+    subTeamName: "coreTeam",
   },
   {
     completeName: "Greg Mooney",
@@ -290,7 +288,7 @@ export const coreTeam = [
     avatarRoute: "@site/static/img/avatars/Greg@2x.jpg",
     distinctionTitle:[],
     distinctionLink: [],
-    subTeam: "coreTeam",
+    subTeamName: "coreTeam",
   },
   {
     completeName: "Ian Thomas",
@@ -306,7 +304,7 @@ export const coreTeam = [
     avatarRoute: "@site/static/img/avatars/Ian@2x.jpg",
     distinctionTitle:[],
     distinctionLink: [],
-    subTeam: "coreTeam",
+    subTeamName: "coreTeam",
   },
   {
     completeName: "Nour Cheour",
@@ -322,7 +320,7 @@ export const coreTeam = [
     avatarRoute: "@site/static/img/avatars/Nour@2x.jpg",
     distinctionTitle:[],
     distinctionLink: [],
-    subTeam: "coreTeam",
+    subTeamName: "coreTeam",
   },
   {
     completeName: "Meriem Ben Ismail",
@@ -338,7 +336,7 @@ export const coreTeam = [
     avatarRoute: "@site/static/img/avatars/Meriem@2x.jpg",
     distinctionTitle:[],
     distinctionLink: [],
-    subTeam: "coreTeam",
+    subTeamName: "coreTeam",
   },
   {
     completeName: "Alexis Placet",
@@ -354,7 +352,7 @@ export const coreTeam = [
     avatarRoute: "@site/static/img/avatars/Alexis@2x.jpg",
     distinctionTitle:[],
     distinctionLink: [],
-    subTeam: "coreTeam",
+    subTeamName: "coreTeam",
   },
   {
     completeName: "Anastasiia Sliusar",
@@ -370,7 +368,7 @@ export const coreTeam = [
     avatarRoute: "@site/static/img/avatars/Anastasiia@2x.jpg",
     distinctionTitle:[],
     distinctionLink: [],
-    subTeam: "coreTeam",
+    subTeamName: "coreTeam",
   },
   {
     completeName: "Kerim Birgi",
@@ -387,7 +385,7 @@ export const coreTeam = [
     avatarRoute: "@site/static/img/avatars/Kerim@2x.jpg",
     distinctionTitle:[],
     distinctionLink: [],
-    subTeam: "coreTeam",
+    subTeamName: "coreTeam",
   },
 ];
 

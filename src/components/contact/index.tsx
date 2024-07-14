@@ -6,7 +6,7 @@ import ContactIllustration from "/img/illustrations/contact.svg"
 
 export function Contact() {
   return (
-    <div className={"container" + " " + styles.contact_container}>
+    <div className="container upper-container-with-margin-top">
       <div className={"row"}>
         <div
           className={

@@ -21,7 +21,7 @@ export const QSCollaboratorsTeam = [
     avatarRoute: "@site/static/img/avatars/Serge@2x.jpg",
     distinctionTitle: [],
     distinctionLink: [],
-    subTeam: "QSCollaboratorsTeam",
+    subTeamName: "QSCollaboratorsTeam",
   },
   {
     completeName: "Romain Menegaux",
@@ -37,7 +37,7 @@ export const QSCollaboratorsTeam = [
     avatarRoute: "@site/static/img/avatars/Romain@2x.jpg",
     distinctionTitle: [],
     distinctionLink: [],
-    subTeam: "QSCollaboratorsTeam",
+    subTeamName: "QSCollaboratorsTeam",
   },
 ];
 export default QSCollaboratorsTeam;
