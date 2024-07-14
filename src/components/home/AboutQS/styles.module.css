@@ -1,15 +1,32 @@
-.about_us_container {
-  margin-top: var(--ifm-spacing-2xl);
-  background-color: var(--ifm-color-primary-p1);
+@media only screen and (max-width: 996px) {
+  .aboutQS_container {
+    background-color: var(--ifm-color-secondary-s2);
+    color: white;
+    padding: var(--ifm-spacing-2xl) var(--ifm-spacing-2xl) 0
+      var(--ifm-spacing-2xl);
+    text-align: center;
+  }
+
+  .aboutQS_text {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: var(--ifm-spacing-xl);
+  }
+
 }
 
-div .text_container {
-  color: var(--ifm-color-primary-p2);
-}
+@media only screen and (min-width: 996px) {
+  .aboutQS_container {
+    margin-top: var(--ifm-spacing-2xl);
+    background-color: var(--ifm-color-primary-p1);
+    color: var(--ifm-color-primary-p2);
+    padding: var(--ifm-spacing-2xl) var(--ifm-spacing-5xl) 0
+      var(--ifm-spacing-5xl);
+  }
 
-.text_container {
-  font-size: 24px;
-  text-align: center;
-  margin-bottom: var(--ifm-spacing-lg);
-  padding: var(--ifm-spacing-5xl) var(--ifm-spacing-5xl);
+  .aboutQS_text {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: var(--ifm-spacing-lg);
+  }
 }

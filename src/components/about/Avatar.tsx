@@ -11,7 +11,7 @@ export default function Avatar({ person }) {
           height={"160px"}
           alt={
             "Avatar of " +
-            person.CompleteName +
+            person.completeName +
             "working at QuantStack as a " +
             person.position
           }

@@ -4,15 +4,32 @@ import Interviews from "./Interviews";
 import Header from "./Header";
 import VisitWTJProfile from "./VisitWTJProfile";
 import JoinTheTeam from "./JoinTheTeam";
+import GroupPhotoJupyterConUrl from "@site/static/img/group/group-photo.png";
 
 export default function Careers() {
   return (
     <div>
       <div className="main-container-with-margins">
-        <div className={"container" + " " + styles.careers_container}>
-          <div className={"row" + " " + "padding-none" + " "+ "flex-full-centered"}>
+        <div className="container upper-container-with-margin-top">
+          <div
+            className={
+              "row padding-none flex-full-centered"
+            }
+          >
             <div className="col">
-              <Header />
+              <h1 className="text--center">Join the QuantStack team!</h1>
+              <div
+                className={
+                  styles.group_photo_container + " " + "flex-full-centered"
+                }
+              >
+                <img
+                  src={GroupPhotoJupyterConUrl}
+                  alt={
+                    "Picture showing QuantStack people gathered at the Jupytercon in Paris in May 2023."
+                  }
+                />
+              </div>
             </div>
           </div>
           <div

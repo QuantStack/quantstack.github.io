@@ -5,10 +5,6 @@
   }
 }
 
-.hero_container {
-  margin: var(--ifm-spacing-5xl) 0 var(--ifm-spacing-xl) 0;
-}
-
 .table_with_8_customers {
   margin-bottom: var(--ifm-spacing-xl);
 }
@@ -20,7 +16,8 @@
 
 .worked_with {
   font-size: var(--ifm-font-size-normal);
-  color: var(--ifm-color_neutral-n1);
+  font-family: var(--ifm-font-family-rubik-one);
+  color: var(--ifm-color-orange-jupyter);
   text-align: center;
   margin: var(--ifm-spacing-2xl) 0;
 }

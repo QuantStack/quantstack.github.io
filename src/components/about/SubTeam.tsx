@@ -1,26 +1,31 @@
 import styles from "./styles.module.css";
-import Link from "@docusaurus/Link";
 import PopupPortrait from "./SmallPortraitCard";
 
-export default function SubTeam ({
-  description,
+export default function SubTeam({
+  subTeamName,
   subTeam,
   subTeamAvatarsUrls,
   subTeamBioComponents,
 }) {
   return (
-    <div className={styles.subteam_component}>
-      <h2 className="text--center"> {description}</h2>
-      <div className={"container" + " " + styles.subteam_container}>
+    <div className={styles.subteam_container}>
+      <h2 className={"text--center"}> {subTeamName}</h2>
+      <div className={"container"}>
         <ul
           className={
-            "row" + " " + "padding-none" + " " + styles.row_with_margins+ " "+ "flex-full-centered"
+            "row padding-none flex-full-centered" +
+            " " +
+            styles.row_with_margin_top
           }
         >
           {subTeam.map((person, index) => (
             <li className="cards-list" key={index}>
               <div className="col">
-                <PopupPortrait person={person} avatarUrl={subTeamAvatarsUrls[index]} subTeamBioComponent={subTeamBioComponents[index]}/>
+                <PopupPortrait
+                  person={person}
+                  avatarUrl={subTeamAvatarsUrls[index]}
+                  subTeamBioComponent={subTeamBioComponents[index]}
+                />
               </div>
             </li>
           ))}
@@ -29,5 +34,3 @@ export default function SubTeam ({
     </div>
   );
 }
-
-

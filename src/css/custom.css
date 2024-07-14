@@ -88,42 +88,6 @@ ul {
   padding-left: 0;
 }
 
-.main-container-with-margins {
-  margin-left: 96px;
-  margin-right: 96px;
-  display: flex;
-  justify-content: center;
-}
-
-h1 {
-  color: var(--ifm-color-primary-p2);
-  font-family: var(--ifm-font-family-bebas-neue);
-  font-size: var(--ifm-font-size-main-title);
-  font-style: normal;
-  font-weight: 800;
-  line-height: 150%;
-  letter-spacing: 2.112px;
-  text-align: start;
-  padding: 8px 36px 8px 20px;
-}
-
-h2 {
-  font-family: var(--ifm-font-family-bebas-neue);
-  font-size: var(--ifm-font-size-secondary-title);
-  font-style: normal;
-  font-weight: bolder;
-  line-height: 150%;
-  text-align: start;
-}
-
-p {
-  font-family: var(--ifm-font-family-roboto);
-  font-size: var(--ifm-font-size-normal);
-  font-style: normal;
-  letter-spacing: 0.25px;
-  text-align: justify;
-}
-
 .container {
   max-width: none;
   padding: 0;
@@ -141,11 +105,200 @@ p {
   }
 }
 
+/******  Class that are specific for smaller screens*/
 @media (max-width: 996px) {
   .main-container-with-margins {
-    margin: 0;
+    margin-left: 42px;
+    margin-right: 42px;
+  }
+
+  .upper-container-with-margin-top {
+    margin-top: var(--ifm-spacing-2xl)
+  }
+
+  h1 {
+    color: var(--ifm-text-color-main-title);
+    font-family: var(--ifm-font-family-bebas-neue);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 36px */
+    letter-spacing: 1.056px;
+    text-align: center;
+    padding: 0;
+  }
+
+  h2 {
+    font-family: var(--ifm-font-family-bebas-neue);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: 150%;
+    text-align: center;
+  }
+
+  p {
+    font-family: var(--ifm-font-family-roboto);
+    font-size: 14px;
+    font-style: normal;
+    line-height: 150%;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    text-align: center;
+  }
+
+  li {
+    font-size: 14px;
+  }
+
+  .blue-banner-container {
+    font-family: var(--ifm-font-family-roboto);
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--ifm-color-secondary-s2);
+    padding-top: var(--ifm-spacing-2xl);
+    background-color: var(--ifm-color-secondary-s1);
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    text-align: center;
+  }
+
+  .blue-banner-header {
+    text-align: center;
+    font-family: var(--ifm-font-family-bebas-neue);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 2.112px;
+    background-color: var(--ifm-color-secondary-s1);
+    color: var(--ifm-color-secondary-s2);
+  }
+  .link-to-button {
+    width: 258px;
+    height: 56px;
+    font-family: var(--ifm-font-family-roboto);
+    border-radius: 35px;
+    background: var(--ifm-color-secondary-s2);
+    color: white;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: -0.176px;
+    padding: 16px 36px;
+    border: none;
+    text-align: center;
+    margin-top: var(--ifm-spacing-lg);
+    margin-bottom: var(--ifm-spacing-lg);
+  }
+  
+  .link-box {
+    height: 59px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
+/***************************************************/
+
+/******  Class that are specific to larger screens*/
+@media (min-width: 996px) {
+  .main-container-with-margins {
+    margin-left: 96px;
+    margin-right: 96px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .upper-container-with-margin-top {
+    margin-top: var(--ifm-spacing-6xl)
+  }
+
+  h1 {
+    color: var(--ifm-color-primary-p2);
+    font-family: var(--ifm-font-family-bebas-neue);
+    font-size: var(--ifm-font-size-main-title);
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%;
+    letter-spacing: 2.112px;
+    text-align: start;
+    padding: 8px 36px 8px 20px;
+  }
+
+  h2 {
+    font-family: var(--ifm-font-family-bebas-neue);
+    font-size: var(--ifm-font-size-secondary-title);
+    font-style: normal;
+    font-weight: bolder;
+    line-height: 150%;
+    text-align: start;
+  }
+
+  p {
+    font-family: var(--ifm-font-family-roboto);
+    font-size: var(--ifm-font-size-normal);
+    font-style: normal;
+    letter-spacing: 0.25px;
+    text-align: justify;
+  }
+
+  .blue-banner-container {
+    text-align: center;
+    font-family: var(--ifm-font-family-roboto);
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    background-color: var(--ifm-color-secondary-s1);
+    color: var(--ifm-color-secondary-s2);
+    padding: var(--ifm-spacing-2xl) var(--ifm-spacing-4xl) 0 var(--ifm-spacing-4xl);
+  }
+
+  .blue-banner-header {
+    text-align: center;
+    font-family: var(--ifm-font-family-bebas-neue);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 2.112px;
+    background-color: var(--ifm-color-secondary-s1);
+    color: var(--ifm-color-secondary-s2);
+    margin-bottom:var(--ifm-spacing-2xl);
+  }
+
+  .link-to-button {
+    width: 258px;
+    height: 56px;
+    font-family: var(--ifm-font-family-roboto);
+    border-radius: 35px;
+    background: var(--ifm-color-secondary-s2);
+    color: white;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: -0.176px;
+    padding: 16px 36px;
+    border: none;
+    text-align: center;
+    margin-top: var(--ifm-spacing-2xl);
+    margin-bottom: var(--ifm-spacing-2xl);
+  }
+  
+  .link-box {
+    height: 59px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+}
+/***********************************************************/
 
 .social-media-links {
   margin-left: var(--ifm-spacing-3xl);
@@ -223,6 +376,8 @@ p {
   padding: 16px 36px;
   border: none;
   text-align: center;
+  margin-top: var(--ifm-spacing-2xl);
+  margin-bottom: var(--ifm-spacing-2xl);
 }
 
 .link-box {
@@ -231,7 +386,6 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: var(--ifm-spacing-2xl);
 }
 
 .quantstack-address {
@@ -474,6 +628,16 @@ a.menu__link:active {
   height: 36px;
   width: 37px;
   background-repeat: no-repeat;
+}
+
+.close-button { 
+  background: url(@site/static/img/icons/CloseButton.svg);
+  content: "";
+  display: flex;
+  height: 36px;
+  width: 36px;
+  background-repeat: no-repeat;
+  border: 0px solid;
 }
 
 .cards-list {

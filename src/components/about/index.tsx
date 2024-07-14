@@ -19,7 +19,7 @@ export function About() {
   return (
     <div>
       <div className="main-container-with-margins">
-        <div className={"container" + " " + styles.about_container}>
+        <div className="container upper-container-with-margin-top">
           <div className={"row"}>
             <div className={"col" + " " + "flex-full-centered"}>
               <FourValues />
@@ -38,19 +38,19 @@ export function About() {
           <div className="row">
             <div className="col">
               <SubTeam
-                description={"The leadership team"}
+                subTeamName={"The leadership team"}
                 subTeam={leadershipTeam}
                 subTeamAvatarsUrls={leadershipAvatarsUrls}
                 subTeamBioComponents={leadershipBioComponents}
               />
               <SubTeam
-                description={"The core team"}
+                subTeamName={"The core team"}
                 subTeam={coreTeam}
                 subTeamAvatarsUrls={coreAvatarsUrls}
                 subTeamBioComponents={coreBioComponents}
               />
               <SubTeam
-                description={"QuantStack collaborators"}
+                subTeamName={"QuantStack collaborators"}
                 subTeam={QSCollaboratorsTeam}
                 subTeamAvatarsUrls={QSCollaboratorsAvatarsUrls}
                 subTeamBioComponents={QSCollaboratorsBioComponents}
@@ -59,24 +59,10 @@ export function About() {
           </div>
         </div>
       </div>
-      <div className={styles.join_the_team_container}>
-        <h1
-          className={
-            "text--center" +
-            " " +
-            "padding-none" +
-            " " +
-            "h1-margin-none" +
-            " " +
-            styles.join_the_team_title
-          }
-        >
-          Join the team
-        </h1>
-        <div className={styles.join_the_team_text}>
-          QuantStack is seeking talents in the open-source scientific computing
-          community. Join a team committed to open-science and free software.
-        </div>
+      <div className="blue-banner-container">
+        <div className="blue-banner-header">Join the team</div>
+        QuantStack is seeking talents in the open-source scientific computing
+        community. Join a team committed to open-science and free software.
         <LinkToContact label={"JOIN THE TEAM!"} />
       </div>
     </div>

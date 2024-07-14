@@ -1,19 +1,10 @@
 @media only screen and (max-width: 996px) {
-  /*Desktop */
+  /*Mobile */
   .news_container {
     display: none;
   }
 }
 
 .news_container {
-  margin: var(--ifm-spacing-5xl) 0 var(--ifm-spacing-2xl) 0;
-}
-
-.blog_button {
-  background-color: var(--ifm-color-orange-jupyter);
-}
-
-.h2_custom {
-  text-align: center;
-  margin-bottom: var(--ifm-spacing-2xl);
+  margin-top: var(--ifm-spacing-2xl);
 }

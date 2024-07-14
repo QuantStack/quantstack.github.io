@@ -2,6 +2,23 @@ import styles from "./styles.module.css";
 import SocialMediaContacts from "./SocialMediaContacts";
 import DistinctionIcon from "@site/static/img/icons/Distinction.svg";
 import Link from "@docusaurus/Link";
+import React, { useState } from "react";
+
+export function Avatar({ person, avatarUrl }) {
+  return (
+      <img
+        src={avatarUrl}
+        className={styles.avatar}
+        alt={
+          "Avatar of " +
+          person.completeName +
+          "working at QuantStack as a " +
+          person.position
+        }
+      />
+   
+  );
+}
 
 export function Distinction({ person }) {
   if (person.distinctionTitle.length !== 0) {
@@ -27,11 +44,7 @@ export default function LargePortraitCard({ person, avatarUrl, BioComponent }) {
   return (
     <div className={styles.large_portrait_card}>
       <div className={"container"}>
-        <div
-          className={
-            "row" + " " + "padding-none" + " " + styles.row_with_margins
-          }
-        >
+        <div className={"row padding-none"}>
           <div className="col col--12 col--offset-1">
             <div className={styles.large_card_complete_name}>
               {person.completeName}
@@ -39,21 +52,21 @@ export default function LargePortraitCard({ person, avatarUrl, BioComponent }) {
             <div className={styles.large_card_position}>{person.position}</div>
           </div>
         </div>
-        <div className="row" style={{ marginBottom: "var(--ifm-spacing-4xl)" }}>
-          <div
-            className={"col col--3 col--offset-1" + " " + "flex-full-centered"}
-          >
+        <div className={"row" + " " + styles.row_with_margin_bottom}>
+          <div className={"col col--3 col--offset-1 flex-full-centered"}>
             <div className="flex-full-centered">
+              <div style={{marginBottom:"var(--ifm-spacing-lg)"}}>
               <img
                 src={avatarUrl}
                 className={styles.avatar}
                 alt={
                   "Avatar of " +
-                  person.CompleteName +
+                  person.completeName +
                   "working at QuantStack as a " +
                   person.position
                 }
               />
+              </div>
             </div>
           </div>
           <div className="col col--6 col--offset-1">

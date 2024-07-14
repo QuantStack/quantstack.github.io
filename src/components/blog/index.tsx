@@ -23,7 +23,7 @@ export default function BlogsComponent({ blogpostsDetails }) {
 
   return (
     <div className="main-container-with-margins">
-      <div className={"container" + " " + styles.blogposts_container}>
+      <div className="container upper-container-with-margin-top">
         <div className={"row"}>
           <div
             className={"col col--8 col--offset-2"}

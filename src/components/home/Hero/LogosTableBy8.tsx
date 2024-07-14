@@ -67,28 +67,28 @@ export function LogosTable1() {
   return (
     <div className={"container" + " " + styles.table_with_8_customers}>
       <div className="row row--no-gutters">
-        <div className={"col col--3" + " " + "flex-full-centered"}>
+        <div className={"col col--3 flex-full-centered"}>
           <img
             src={BloombergLogoUrl}
             className={styles.customer_logo}
             alt={"Logo of Bloomberg."}
           />
         </div>
-        <div className={"col col--3" + " " + "flex-full-centered"}>
+        <div className={"col col--3 flex-full-centered"}>
           <img
             src={SGLogoUrl}
             className={styles.customer_logo}
             alt={"Logo of Société Générale bank."}
           />
         </div>
-        <div className={"col col--3" + " " + "flex-full-centered"}>
+        <div className={"col col--3 flex-full-centered"}>
           <img
             src={RapyutaLogoUrl}
             className={styles.customer_logo}
             alt={"Logo of Rapyuta company."}
           />
         </div>
-        <div className={"col col--3" + " " + "flex-full-centered"}>
+        <div className="col col--3 flex-full-centered">
           <img
             src={CFMLogoUrl}
             className={styles.customer_logo}
@@ -97,14 +97,14 @@ export function LogosTable1() {
         </div>
       </div>
       <div className="row row--no-gutters">
-        <div className={"col col--3" + " " + "flex-full-centered"}>
+        <div className="col col--3 flex-full-centered">
           <img
             src={EngieLogoUrl}
             className={styles.customer_logo}
             alt={"Logo of Engie company."}
           />
         </div>
-        <div className={"col col--3" + " " + "flex-full-centered"}>
+        <div className="col col--3 flex-full-centered">
           <img
             src={JRCLogoUrl}
             className={styles.customer_logo}
@@ -113,14 +113,14 @@ export function LogosTable1() {
           />
         </div>
 
-        <div className={"col col--3" + " " + "flex-full-centered"}>
+        <div className="col col--3 flex-full-centered">
           <img
             src={ERDCLogoUrl}
             className={styles.customer_logo}
             alt={"Logo of ERDC."}
           />
         </div>
-        <div className={"col col--3" + " " + "flex-full-centered"}>
+        <div className="col col--3 flex-full-centered">
           <img
             src={PandaLogoUrl}
             className={styles.customer_logo}
@@ -136,28 +136,28 @@ export function LogosTable2() {
   return (
     <div className={"container" + " " + styles.table_with_8_customers}>
       <div className="row row--no-gutters">
-        <div className={"col col--3" + " " + "flex-full-centered"}>
+        <div className="col col--3 flex-full-centered">
           <img
             src={UniversiteParisCiteLogoUrl}
             className={styles.customer_logo}
             alt={"Logo of Paris Cité Université."}
           />
         </div>
-        <div className={"col col--3" + " " + "flex-full-centered"}>
+        <div className="col col--3 flex-full-centered">
           <img
             src={AirbusLogoUrl}
             className={styles.customer_logo}
             alt={"Logo of Airbus company."}
           />
         </div>
-        <div className={"col col--3" + " " + "flex-full-centered"}>
+        <div className="col col--3 flex-full-centered">
           <img
             src={INRIALogoUrl}
             className={styles.customer_logo}
             alt={"Logo of INRIA."}
           />
         </div>
-        <div className={"col col--3" + " " + "flex-full-centered"}>
+        <div className="col col--3 flex-full-centered">
           <img
             src={CNAMLogoUrl}
             className={styles.customer_logo}
@@ -166,28 +166,28 @@ export function LogosTable2() {
         </div>
       </div>
       <div className="row row--no-gutters">
-        <div className={"col col--3" + " " + "flex-full-centered"}>
+        <div className="col col--3 flex-full-centered">
           <img
             src={NatixisLogoUrl}
             className={styles.customer_logo}
             alt={"Logo of Natixis bank."}
           />
         </div>
-        <div className={"col col--3" + " " + "flex-full-centered"}>
+        <div className="col col--3 flex-full-centered">
           <img
             src={NumfocusLogoUrl}
             className={styles.customer_logo}
             alt={"Logo of Numfocus foundation."}
           />
         </div>
-        <div className={"col col--3" + " " + "flex-full-centered"}>
+        <div className="col col--3 flex-full-centered">
           <img
             src={RobocorpLogoUrl}
             className={styles.customer_logo}
             alt={"Logo of Robocorp company."}
           />
         </div>
-        <div className={"col col--3" + " " + "flex-full-centered"}>
+        <div className="col col--3 flex-full-centered">
           <img
             src={CalPolyLogoUrl}
             className={styles.customer_logo}
@@ -203,14 +203,14 @@ export function LogosTable3() {
   return (
     <div className={"container" + " " + styles.table_with_8_customers}>
       <div className="row row--no-gutters">
-        <div className={"col col--3" + " " + "flex-full-centered"}>
+        <div className="col col--3 flex-full-centered">
           <img
             src={MaxFordhamLogoUrl}
             className={styles.customer_logo}
             alt={"Logo of MaxFordham company."}
           />
         </div>
-        <div className={"col col--3" + " " + "flex-full-centered"}>
+        <div className="col col--3 flex-full-centered">
           <img
             src={GainTheoryUrl}
             className={styles.customer_logo}
@@ -219,14 +219,14 @@ export function LogosTable3() {
           />
         </div>
 
-        <div className={"col col--3" + " " + "flex-full-centered"}>
+        <div className="col col--3 flex-full-centered">
           <img
             src={EnthoughtLogoUrl}
             className={styles.customer_logo}
             alt={"Logo of Enthought company."}
           />
         </div>
-        <div className={"col col--3" + " " + "flex-full-centered"}>
+        <div className="col col--3 flex-full-centered">
           <img
             src={CressetLogoUrl}
             className={styles.customer_logo}
@@ -235,7 +235,7 @@ export function LogosTable3() {
         </div>
       </div>
       <div className="row row--no-gutters">
-        <div className={"col col--3" + " " + "flex-full-centered"}>
+        <div className="col col--3 flex-full-centered">
           <img
             src={TDKLogoUrl}
             className={styles.customer_logo}
@@ -243,21 +243,21 @@ export function LogosTable3() {
             style={{ width: "60px" }}
           />
         </div>
-        <div className={"col col--3" + " " + "flex-full-centered"}>
+        <div className="col col--3 flex-full-centered">
           <img
             src={HarvardLogoUrl}
             className={styles.customer_logo}
             alt={"Logo of Harvard University."}
           />
         </div>
-        <div className={"col col--3" + " " + "flex-full-centered"}>
+        <div className="col col--3 flex-full-centered">
           <img
             src={EMBLLogoUrl}
             className={styles.customer_logo}
             alt={"Logo of EMBL."}
           />
         </div>
-        <div className={"col col--3" + " " + "flex-full-centered"}>
+        <div className="col col--3 flex-full-centered">
           <img
             src={QuantCoUrl}
             className={styles.customer_logo}
@@ -271,9 +271,9 @@ export function LogosTable3() {
 
 export function LogosTable4() {
   return (
-    <div className={"container" + " " + styles.table_with_12_customers}>
+    <div className={"container" + " " + styles.table_with_8_customers}>
       <div className="row row--no-gutters">
-        <div className={"col col--3" + " " + "flex-full-centered"}>
+        <div className="col col--3 flex-full-centered">
           <img
             src={VoltronDataLogoUrl}
             className={styles.customer_logo}
@@ -281,21 +281,21 @@ export function LogosTable4() {
             style={{ width: "140px" }}
           />
         </div>
-        <div className={"col col--3" + " " + "flex-full-centered"}>
+        <div className="col col--3 flex-full-centered">
           <img
             src={SafranLogoUrl}
             className={styles.customer_logo}
             alt={"Logo of Safran company."}
           />
         </div>
-        <div className={"col col--3" + " " + "flex-full-centered"}>
+        <div className="col col--3 flex-full-centered">
           <img
             src={DEShawLogoUrl}
             className={styles.customer_logo}
             alt={"Logo of DE Shaw company."}
           />
         </div>
-        <div className={"col col--3" + " " + "flex-full-centered"}>
+        <div className="col col--3 flex-full-centered">
           <img
             src={UniversiteParisSaclayLogoUrl}
             className={styles.customer_logo}
@@ -304,14 +304,14 @@ export function LogosTable4() {
         </div>
       </div>
       <div className="row row--no-gutters">
-        <div className={"col col--3" + " " + "flex-full-centered"}>
+        <div className="col col--3 flex-full-centered">
           <img
             src={UnitedRoboticsLogoUrl}
             className={styles.customer_logo}
             alt={"Logo of United Robotics company."}
           />
         </div>
-        <div className={"col col--3" + " " + "flex-full-centered"}>
+        <div className="col col--3 flex-full-centered">
           <img
             src={CEALogoUrl}
             className={styles.customer_logo}
@@ -319,7 +319,7 @@ export function LogosTable4() {
             alt={"Logo of CEA."}
           />
         </div>
-        <div className={"col col--3" + " " + "flex-full-centered"}>
+        <div className="col col--3 flex-full-centered">
           <img
             src={EcolePolytechniqueLogoUrl}
             className={styles.customer_logo}
