@@ -1,3 +1,9 @@
+@media (max-width: 996px) {
+  .projects_overview_container {
+    display: none;
+  }
+}
+
 .project_desktop {
   margin-bottom: var(--ifm-spacing-3xl);
 }

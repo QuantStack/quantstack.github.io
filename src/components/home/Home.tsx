@@ -9,14 +9,14 @@ import LearnMore from "./LearnMore";
 
 export function Home(): JSX.Element {
   return (
-    <>
+   <>
       <Hero />
       <WhatWeDo />
       <ProjectsOverview />
       <AboutQS />
       <News />
       <LearnMore/>
-    </>
+   </>
   );
 }
 

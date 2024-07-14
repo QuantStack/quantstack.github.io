@@ -4,25 +4,18 @@ import LinkToAboutUs from "../LinkToAboutUs";
 
 export default function AboutQS() {
   return (
-    <div className={"container" + " " + styles.about_us_container}>
-      <div
-        className={"row" + " " + "flex-full-centered" + " " + "padding-none"}
-      >
-        <div className={"col" + " " + "padding-none" + " " + "margin-none"}>
-          <div className={styles.text_container}>
+    <div className={"container" + " " + styles.aboutQS_container}>
+      <div className={"row flex-full-centered padding-none"}>
+        <div className={"col padding-none margin-none"}>
+          <div className={styles.aboutQS_text}>
             We are a team of expert of open-source developers, the very same
             people behind a number of technologies that you already use.
           </div>
         </div>
       </div>
-      <div
-        className={"row" + " " + "flex-full-centered" + " " + "padding-none"}
-      >
-        <div className={"col" + " " + "padding-none" + " " + "margin-none"}>
-          <div
-            className="flex-full-centered"
-            style={{ marginBottom: "var(--ifm-spacing-2xl)" }}
-          >
+      <div className={"row flex-full-centered padding-none"}>
+        <div className={"col padding-none margin-none"}>
+          <div className="flex-full-centered">
             <img
               src={GroupPhotoUrl}
               alt={
@@ -32,13 +25,11 @@ export default function AboutQS() {
           </div>
         </div>
       </div>
-      <div
-        className={"row" + " " + "flex-full-centered" + " " + "padding-none"}
-      >
-        <div className={"col" + " " + "padding-none"}>
-          <LinkToAboutUs label={"LEARN MORE ABOUT US"} />
-
-          <div className="spacing-2xl" />
+      <div className={"row flex-full-centered padding-none"}>
+        <div className={"col padding-none"}>
+          <div className={styles.learn_more_button_container}>
+            <LinkToAboutUs label={"LEARN MORE ABOUT US"} />
+          </div>
         </div>
       </div>
     </div>

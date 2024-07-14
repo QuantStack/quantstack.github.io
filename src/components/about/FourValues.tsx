@@ -4,7 +4,7 @@ import { valuesDetails } from "./Values/valuesDetails";
 
 export default function FourValues() {
   return (
-    <div className={styles.four_values_container}>
+    <div>
       <div className="row">
         <div className="col">
           <h1 className={"padding-none" + " " + "full-flex-centered"}>
@@ -14,21 +14,13 @@ export default function FourValues() {
       </div>
       <ul
         className={
-          "row" +
-          " " +
-          "padding-none" +
-          " " +
-          styles.row_with_margins +
-          " " +
-          "flex-full-centered"
+          "row padding-none flex-full-centered" + " " + styles.row_with_margins
         }
       >
         {valuesDetails.map((value, index) => (
           <li className="cards-list" key={index}>
             <div className="col">
-              <div className={styles.value_card_container}>
-                <ValueCard value={value} />
-              </div>
+              <ValueCard value={value} />
             </div>
           </li>
         ))}

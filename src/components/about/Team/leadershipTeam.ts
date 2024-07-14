@@ -44,7 +44,7 @@ export const leadershipTeam = [
     avatarRoute: "@site/static/img/avatars/Sylvain@2x.png",
     distinctionTitle: ["ACM Software System Award"],
     distinctionLink: ["https://awards.acm.org/award_winners/corlay_8324973"],  
-    subTeam: "LeadershipTeam",
+    subTeamName: "LeadershipTeam",
   },
   {
     completeName: "Johan Mabille",
@@ -61,7 +61,7 @@ export const leadershipTeam = [
     distinctionTitle: ["Jupyter distinguished contributor"],
     distinctionLink:
       ["https://jupyter.org/about#distinguished-contributors"],
-    subTeam: "LeadershipTeam",
+    subTeamName: "LeadershipTeam",
   },
   {
     completeName: "Martin Renou",
@@ -78,7 +78,7 @@ export const leadershipTeam = [
     distinctionTitle: ["Jupyter distinguished contributor"],
     distinctionLink:
       ["https://jupyter.org/about#distinguished-contributors"],
-    subTeam: "LeadershipTeam",
+    subTeamName: "LeadershipTeam",
   },
   {
     completeName: "Jeremy Tuloup",
@@ -95,7 +95,7 @@ export const leadershipTeam = [
     distinctionTitle: ["Jupyter distinguished contributor"],
     distinctionLink:
       ["https://jupyter.org/about#distinguished-contributors"],
-    subTeam: "LeadershipTeam",
+    subTeamName: "LeadershipTeam",
   },
 
   {
@@ -112,7 +112,7 @@ export const leadershipTeam = [
     avatarRoute: "@site/static/img/avatars/Darian@2x.png",
     distinctionTitle: ["Jupyter distinguished contributor"],
     distinctionLink:[ "https://jupyter.org/about#distinguished-contributors"],
-    subTeam: "LeadershipTeam",
+    subTeamName: "LeadershipTeam",
   },
   {
     completeName: "David Brochart",
@@ -128,7 +128,7 @@ export const leadershipTeam = [
     avatarRoute: "@site/static/img/avatars/David@2x.png",
     distinctionTitle: ["Jupyter distinguished contributor"],
     distinctionLink: ["https://jupyter.org/about#distinguished-contributors"],
-    subTeam: "LeadershipTeam",
+    subTeamName: "LeadershipTeam",
   },
 ];
 export default leadershipTeam;

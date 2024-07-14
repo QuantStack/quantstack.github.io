@@ -1,30 +1,4 @@
 
-  .service_container {
-    margin-top: var(--ifm-spacing-6xl);
-  }
-
-  .sign_a_support_container {
-    font-family: var(--ifm-font-family-bebas-neue);
-    font-size: var(--ifm-font-size-secondary-title);
-    font-weight: 800;
-
-    color: var(--ifm-color-secondary-s2);
-    padding: var(--ifm-spacing-2xl) 0;
-    margin-top: var(--ifm-spacing-7xl);
-  }
-
-  div .sign_a_support_container {
-    background-color: var(--ifm-color-secondary-s1);
-  }
-
-  .sign_a_support_text {
-    margin-bottom: var(--ifm-spacing-2xl);
-  }
-
-  div .sign_a_support_text {
-    color: var(--ifm-color-secondary-s2);
-  }
-
   .h2_custom {
     color: var(--ifm-color-indigo-i1);
   }

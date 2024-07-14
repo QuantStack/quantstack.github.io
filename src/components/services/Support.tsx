@@ -5,7 +5,7 @@ import SupportIllustration from "/img/illustrations/support.svg";
 export function Support() {
   return (
     <div className="main-container-with-margins">
-      <div className={"container" + " " + styles.service_container}>
+      <div className="container upper-container-with-margin-top">
         <div className="row">
           <div className="col col--4 col--offset-1">
             <div className="flex-full-centered">

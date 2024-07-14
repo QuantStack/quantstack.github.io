@@ -56,7 +56,7 @@ export function SmallPortraitCard({ person, avatarUrl, setOffsets }) {
             height={"160px"}
             alt={
               "Avatar of " +
-              person.CompleteName +
+              person.completeName +
               "working at QuantStack as a " +
               person.position
             }
@@ -79,9 +79,16 @@ export default function PopupPortrait({
   subTeamBioComponent,
 }) {
   const [offsets, setOffsets] = useState([0, 0]);
+  let [isPopupOpen, setIsPopupOpen] = useState(false);
+
   return (
     <div>
       <Popup
+        open={isPopupOpen}
+        closeOnEscape={true}
+        closeOnDocumentClick={true}
+        onClose={()=>setIsPopupOpen(false)}
+        
         trigger={
           <div>
             <SmallPortraitCard
@@ -91,17 +98,26 @@ export default function PopupPortrait({
             />
           </div>
         }
+        onOpen={() => {
+          setIsPopupOpen(true)
+        }}
         contentStyle={contentStyle}
         overlayStyle={overlayStyle}
         position={"center center"}
         offsetX={offsets[0]}
         offsetY={offsets[1]}
       >
-        <LargePortraitCard
-          person={person}
-          avatarUrl={avatarUrl}
-          BioComponent={subTeamBioComponent}
-        ></LargePortraitCard>
+        <div>
+          <button className="close-button" style={{position: "absolute", right:"0px"}}
+          onClick={()=>{setIsPopupOpen(false)
+          
+          }}></button>
+          <LargePortraitCard
+            person={person}
+            avatarUrl={avatarUrl}
+            BioComponent={subTeamBioComponent}
+          ></LargePortraitCard>
+        </div>
       </Popup>
     </div>
   );

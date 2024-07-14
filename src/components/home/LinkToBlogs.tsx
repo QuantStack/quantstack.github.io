@@ -3,7 +3,7 @@ import Link from "@docusaurus/Link";
 
 export default function LinkToBlogs({label}) {
   return (
-    <div className="link-box">
+    <div className="flex-full-centered">
     <Link
       className={"link-to-button" + " " + styles.link_to}
       href="/blog"

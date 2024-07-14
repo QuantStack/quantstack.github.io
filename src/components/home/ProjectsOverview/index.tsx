@@ -3,10 +3,11 @@ import SupplyChainProjects from "./SupplyChain";
 import SpecialProjects from "./SpecialProjects";
 import RoboticsProjects from "./Robotics";
 import ComputingProjects from "./Computing";
+import styles from "./styles.module.css";
 
 export default function ProjectsOverview() {
   return (
-    <div>
+    <div className={styles.projects_overview_container}>
       <JupyterProject />
       <SupplyChainProjects />
       <SpecialProjects />

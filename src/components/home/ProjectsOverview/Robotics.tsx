@@ -4,7 +4,7 @@ import RoboticsPictureUrl from "@site/static/img/projects/robotics.png";
 
 export default function RoboticsProjects() {
   return (
-    <div className={"container" + " " + styles.project_container}>
+    <div className={"container"}>
       <div className={"row"}>
         <div
           className={

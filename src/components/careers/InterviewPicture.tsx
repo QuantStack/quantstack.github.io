@@ -9,7 +9,7 @@ export default function InterviewPicture({ person }) {
           src={person.pictureRoute}
           alt={
             "Picture of" +
-            person.CompleteName +
+            person.completeName +
             "working at QuantStack as a" +
             person.position
           }

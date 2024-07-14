@@ -1,24 +1,13 @@
-div .learn_more_text {
-  color: var(--ifm-color-secondary-s2);
+@media only screen and (max-width: 996px) {
+  /*Mobile*/
+  .learn_more_container {
+    display: none;
+  }
 }
 
-div .learn_more_title {
-  color: var(--ifm-color-secondary-s2);
-}
-
-.learn_more_container {
-  background-color: var(--ifm-color-secondary-s1);
-  text-align: center;
-  padding: var(--ifm-spacing-2xl);
-}
-
-.learn_more_text {
-  text-align: center;
-  font-family: var(--ifm-font-family-roboto);
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 36px; /* 128.571% */
-  padding: var(--ifm-spacing-2xl);
-  color: var(--ifm-color-secondary-s2);
-}
+@media only screen and (max-width: 996px) {
+    /*Desktop*/
+    .learn_more_container {
+     
+    }
+  }
