@@ -1,10 +1,7 @@
-import Romain from "@site/src/components/about/Team/Romain.md";
+import RomainMD from "@site/src/components/about/Team/Romain.md";
 import RomainAvatarUrl from "@site/static/img/avatars/Romain.png";
-import Serge from "@site/src/components/about/Team/Serge.md";
+import SergeMD from "@site/src/components/about/Team/Serge.md";
 import SergeAvatarUrl from "@site/static/img/avatars/Serge.png";
-
-export const QSCollaboratorsBioComponents = [Serge, Romain];
-export const QSCollaboratorsAvatarsUrls = [SergeAvatarUrl, RomainAvatarUrl];
 
 export const QSCollaboratorsTeam = [
   {
@@ -18,10 +15,11 @@ export const QSCollaboratorsTeam = [
     LinkedInLink: "",
     XLink: "",
     githubName: "@serge-sans-paille",
-    avatarRoute: "@site/static/img/avatars/Serge@2x.jpg",
+    avatarUrl: SergeAvatarUrl,
     distinctionTitle: [],
     distinctionLink: [],
     subTeamName: "QSCollaboratorsTeam",
+    BioComponent: SergeMD,
   },
   {
     completeName: "Romain Menegaux",
@@ -34,10 +32,11 @@ export const QSCollaboratorsTeam = [
     LinkedInLink: "https://www.linkedin.com/in/romain-menegaux-88a147134/",
     XLink: "https://twitter.com/RomainMenegaux",
     githubName: "@trmenegaux",
-    avatarRoute: "@site/static/img/avatars/Romain@2x.jpg",
+    avatarUrl: RomainAvatarUrl,
     distinctionTitle: [],
     distinctionLink: [],
     subTeamName: "QSCollaboratorsTeam",
+    BioComponent: RomainMD
   },
 ];
 export default QSCollaboratorsTeam;

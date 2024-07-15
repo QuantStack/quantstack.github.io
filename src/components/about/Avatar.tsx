@@ -1,22 +1,18 @@
 import styles from "./styles.module.css";
-import Link from "@docusaurus/Link";
 
 export default function Avatar({ person }) {
-  return (
+    return (
     <div className="flex-full-centered">
-      <div className={styles.avatar}>
-        <img
-          src={require(person.avatarRoute).default}
-          width={"160px"}
-          height={"160px"}
-          alt={
-            "Avatar of " +
-            person.completeName +
-            "working at QuantStack as a " +
-            person.position
-          }
-        ></img>
+      <img
+        src={person.avatarUrl}
+        className={styles.avatar}
+        alt={
+          "Avatar of " +
+          person.completeName +
+          "working at QuantStack as a " +
+          person.position
+        }
+      />
       </div>
-    </div>
-  );
-}
+    );
+  }

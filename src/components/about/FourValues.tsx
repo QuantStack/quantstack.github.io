@@ -12,11 +12,7 @@ export default function FourValues() {
           </h1>
         </div>
       </div>
-      <ul
-        className={
-          "row padding-none flex-full-centered" + " " + styles.row_with_margins
-        }
-      >
+      <ul className="row padding-none flex-full-centered row-with-margins">
         {valuesDetails.map((value, index) => (
           <li className="cards-list" key={index}>
             <div className="col">
