@@ -29,17 +29,16 @@ div .project_title {
 @media only screen and (max-width: 996px) {
   /*Mobile*/
 
-  .header_container {
+  .header_container{
+    padding-top: var(--ifm-spacing-2xl);
     background-color: var(--ifm-color-primary-p1);
   }
-  
   .header_title {
     padding-left: none;
   }
 
   .header_text {
     font-family: var(--ifm-font-family-roboto);
-  
     color: var(--ifm-color-primary-p2);
     font-size: 14px;
     font-style: normal;
@@ -55,12 +54,14 @@ div .project_title {
     background-color: var(--ifm-color-orange-light);
     padding: var(--ifm-spacing-2xl) 0 var(--ifm-spacing-md) 0;
     border-radius: 10px;
-    /*box-shadow: 0px 0px 8px 1px #d0cb54;*/
   }
 }
 
 @media only screen and (min-width: 996px) {
   /*Desktop*/
+  .header_container{
+    margin-top: var(--ifm-spacing-6xl);
+  }
   .header_title {
     padding-left: var(--ifm-spacing-4xl);
   }
@@ -71,10 +72,13 @@ div .project_title {
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
-    line-height: 28px; /* 142.857% */
-    text-align: center;
+    line-height: 28px; 
     margin-bottom: var(--ifm-spacing-6xl);
     padding: var(--ifm-spacing-lg) var(--ifm-spacing-4xl);
+  }
+
+  .header_text p {
+    text-align: center;
   }
 
   .col_project_text {

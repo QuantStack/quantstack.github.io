@@ -17,7 +17,7 @@ export default function ComputingProjects() {
 
           <ComputingMD />
         </div>
-        <div className={"col col--5" + " " + "flex-full-centered"+ " " + styles.col_project_overview_with_padding}>
+        <div className={"col col--5 flex-full-centered"+ " " + styles.col_project_overview_with_padding}>
           <XTensorXSIMDPicture width={"500px"}/>
         </div>
       </div>

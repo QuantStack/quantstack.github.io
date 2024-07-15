@@ -2,23 +2,10 @@ import styles from "./styles.module.css";
 import SocialMediaContacts from "./SocialMediaContacts";
 import DistinctionIcon from "@site/static/img/icons/Distinction.svg";
 import Link from "@docusaurus/Link";
-import React, { useState } from "react";
+import React from "react";
+import Avatar from "./Avatar";
 
-export function Avatar({ person, avatarUrl }) {
-  return (
-      <img
-        src={avatarUrl}
-        className={styles.avatar}
-        alt={
-          "Avatar of " +
-          person.completeName +
-          "working at QuantStack as a " +
-          person.position
-        }
-      />
-   
-  );
-}
+
 
 export function Distinction({ person }) {
   if (person.distinctionTitle.length !== 0) {
@@ -40,7 +27,7 @@ export function Distinction({ person }) {
     );
   } else return <div></div>;
 }
-export default function LargePortraitCard({ person, avatarUrl, BioComponent }) {
+export default function LargePortraitCard({ person }) {
   return (
     <div className={styles.large_portrait_card}>
       <div className={"container"}>
@@ -52,26 +39,17 @@ export default function LargePortraitCard({ person, avatarUrl, BioComponent }) {
             <div className={styles.large_card_position}>{person.position}</div>
           </div>
         </div>
-        <div className={"row" + " " + styles.row_with_margin_bottom}>
+        <div className="row">
           <div className={"col col--3 col--offset-1 flex-full-centered"}>
             <div className="flex-full-centered">
-              <div style={{marginBottom:"var(--ifm-spacing-lg)"}}>
-              <img
-                src={avatarUrl}
-                className={styles.avatar}
-                alt={
-                  "Avatar of " +
-                  person.completeName +
-                  "working at QuantStack as a " +
-                  person.position
-                }
-              />
+              <div style={{ marginBottom: "var(--ifm-spacing-md)" }}>
+                <Avatar person={person} />
               </div>
             </div>
           </div>
           <div className="col col--6 col--offset-1">
             <div className={styles.bio_container}>
-              <BioComponent />
+              <person.BioComponent />
             </div>
           </div>
         </div>

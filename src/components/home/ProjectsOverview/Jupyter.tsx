@@ -18,7 +18,7 @@ export default function JupyterProject() {
         </div>
 
         <div
-          className={"col col--5" + " " + "flex-full-centered"+" " +styles.col_project_overview_with_padding}
+          className={"col col--5 flex-full-centered"+" " +styles.col_project_overview_with_padding}
         >
           <img src={JupyterPictureUrl} width={"540px"} alt={"Picture showing two jupyterlab user interfaces"}/>
         </div>

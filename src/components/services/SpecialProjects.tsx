@@ -1,10 +1,7 @@
-import styles from "./styles.module.css";
 import SpecialProjectsMD from "./descriptions/SpecialProjects.md";
-import { useEffect, useState } from "react";
-import SpecialProjectsIllustration from "@site/static/img/illustrations/special_projects.svg"
+import SpecialProjectsIllustration from "@site/static/img/illustrations/special_projects.svg";
 
-
-export function SpecialProjects() {
+export default function SpecialProjects() {
   return (
     <div className="main-container-with-margins">
       <div className="container upper-container-with-margin-top">
@@ -13,12 +10,12 @@ export function SpecialProjects() {
             <h2>Special projects</h2>
             <SpecialProjectsMD />
           </div>
-          <div className={"col col--5" + " " + "flex-full-centered"}>
+          <div className={"col col--5 flex-full-centered"}>
             <SpecialProjectsIllustration
               alt={
-                "Picture showing an illustration of a group of people working together in an office."}
-                width={"360px"}
-              
+                "Picture showing an illustration of a group of people working together in an office."
+              }
+              height={"300px"}
             />
           </div>
         </div>
@@ -26,5 +23,3 @@ export function SpecialProjects() {
     </div>
   );
 }
-
-export default SpecialProjects;

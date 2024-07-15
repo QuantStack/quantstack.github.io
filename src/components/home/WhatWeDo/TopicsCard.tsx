@@ -6,7 +6,7 @@ export function TopicsCard({ topics, TopicsDescriptionMD }) {
       <div className={"card__header" + " " + styles.topics_header}>
         {topics.name}
       </div>
-      <div className={"card__body"}>
+      <div className="card__body">
         <TopicsDescriptionMD />
       </div>
     </div>
