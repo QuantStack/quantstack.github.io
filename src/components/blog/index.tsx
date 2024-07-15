@@ -4,7 +4,6 @@ import BlogpostCard from "./BlogpostCard";
 
 export default function BlogsComponent({ blogpostsDetails }) {
   const numberOfBlogs = blogpostsDetails.length;
-  console.log("numberOfBlogs:", numberOfBlogs);
   const [searchField, setSearchField] = useState("");
 
   const filteredBlogPosts = blogpostsDetails.filter((blogpost) => {
@@ -15,7 +14,6 @@ export default function BlogsComponent({ blogpostsDetails }) {
       blogpost.summary.toLowerCase().includes(searchField.toLowerCase())
     );
   });
-  //const filteredBlogPosts = blogpostsDetails;
 
   const handleChange = (event) => {
     setSearchField(event.target.value);
@@ -24,12 +22,11 @@ export default function BlogsComponent({ blogpostsDetails }) {
   return (
     <div className="main-container-with-margins">
       <div className="container upper-container-with-margin-top">
-        <div className={"row"}>
+        <div className={"row row-with-margin-bottom"}>
           <div
             className={"col col--8 col--offset-2"}
-            style={{ marginBottom: "var(--ifm-spacing-5xl)" }}
           >
-            <h1 className="padding-none">
+            <h1 className="padding-none margin-none">
               Featured Posts by QuantStack Contributors
             </h1>
             <div>

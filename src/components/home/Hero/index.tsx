@@ -7,28 +7,25 @@ export function Hero() {
     <div>
       <div className="main-container-with-margins">
         <div className="container upper-container-with-margin-top">
-          <div className={"row row--no-gutters" + " " + "flex-full-centered"}>
+          <div className={"row row--no-gutters flex-full-centered"}>
             <div className="col col--6 col--offset-1">
-    
-                <h1 className="padding-none">
-                  Open-source for discovery, science, and education
-                </h1>
-                <p className={styles.subheader}>
-                  A team behind major open-source projects of the scientific
-                  computing ecosystem
-                </p>
-                <h2 className={styles.h2_custom}>
-                  Jupyter, Conda-forge, Mamba, Voilà, Xtensor and more.
-                </h2>
-              </div>
-            
+              <h1 className="padding-none">
+                Open-source for discovery, science, and education
+              </h1>
+              <p className={styles.subheader}>
+                A team behind major open-source projects of the scientific
+                computing ecosystem
+              </p>
+              <h2 className={styles.h2_custom}>
+                Jupyter, Conda-forge, Mamba, Voilà, Xtensor and more.
+              </h2>
+            </div>
+
             <div
               className={
-                "col col--3 col--offset-1" +
+                "col col--3 col--offset-1 flex-full-centered" +
                 " " +
-                styles.astronaut_column +
-                " " +
-                "flex-full-centered"
+                styles.astronaut_column
               }
             >
               <div className={styles.astronaut_container}>

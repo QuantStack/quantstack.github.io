@@ -88,6 +88,5 @@ div .blogpost_date {
   border-radius: 8px;
   padding: var(--ifm-spacing-xs) var(--ifm-spacing-lg) var(--ifm-spacing-xs)
     var(--ifm-spacing-lg);
+  margin: var(--ifm-spacing-lg) 0;
 }
-
-

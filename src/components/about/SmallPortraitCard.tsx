@@ -3,6 +3,7 @@ import Popup from "reactjs-popup";
 import SocialMediaContacts from "./SocialMediaContacts";
 import { useRef, useState } from "react";
 import LargePortraitCard from "./LargePortraitCard";
+import Avatar from "./Avatar";
 
 const contentStyle = {
   background: "white",
@@ -36,7 +37,7 @@ function calculateOffsets(elementRef) {
   return offsets;
 }
 
-export function SmallPortraitCard({ person, avatarUrl, setOffsets }) {
+export function SmallPortraitCard({ person, setOffsets }) {
   const elementRef = useRef(null);
 
   return (
@@ -48,36 +49,18 @@ export function SmallPortraitCard({ person, avatarUrl, setOffsets }) {
         setOffsets(calculateOffsets(elementRef));
       }}
     >
-      <div className="flex-full-centered">
-        <div className={styles.avatar}>
-          <img
-            src={avatarUrl}
-            width={"160px"}
-            height={"160px"}
-            alt={
-              "Avatar of " +
-              person.completeName +
-              "working at QuantStack as a " +
-              person.position
-            }
-          />
-        </div>
-      </div>
-      <div className={styles.small_card_complete_name}>
+      <Avatar person={person} />
+      <div className={"flex-full-centered" + " " + styles.small_card_complete_name}>
         {person.completeName}
       </div>
-      <div className={styles.small_card_position}>{person.position}</div>
+      <div className={"flex-full-centered" + " " + styles.small_card_position}>{person.position}</div>
       <div style={{ marginTop: "var(--ifm-spacing-xl)" }}>
         <SocialMediaContacts person={person}></SocialMediaContacts>
       </div>
     </div>
   );
 }
-export default function PopupPortrait({
-  person,
-  avatarUrl,
-  subTeamBioComponent,
-}) {
+export default function PopupPortrait({ person }) {
   const [offsets, setOffsets] = useState([0, 0]);
   let [isPopupOpen, setIsPopupOpen] = useState(false);
 
@@ -87,19 +70,14 @@ export default function PopupPortrait({
         open={isPopupOpen}
         closeOnEscape={true}
         closeOnDocumentClick={true}
-        onClose={()=>setIsPopupOpen(false)}
-        
+        onClose={() => setIsPopupOpen(false)}
         trigger={
           <div>
-            <SmallPortraitCard
-              person={person}
-              avatarUrl={avatarUrl}
-              setOffsets={setOffsets}
-            />
+            <SmallPortraitCard person={person} setOffsets={setOffsets} />
           </div>
         }
         onOpen={() => {
-          setIsPopupOpen(true)
+          setIsPopupOpen(true);
         }}
         contentStyle={contentStyle}
         overlayStyle={overlayStyle}
@@ -108,15 +86,14 @@ export default function PopupPortrait({
         offsetY={offsets[1]}
       >
         <div>
-          <button className="close-button" style={{position: "absolute", right:"0px"}}
-          onClick={()=>{setIsPopupOpen(false)
-          
-          }}></button>
-          <LargePortraitCard
-            person={person}
-            avatarUrl={avatarUrl}
-            BioComponent={subTeamBioComponent}
-          ></LargePortraitCard>
+          <button
+            className="close-button"
+            style={{ position: "absolute", right: "0px" }}
+            onClick={() => {
+              setIsPopupOpen(false);
+            }}
+          ></button>
+          <LargePortraitCard person={person}></LargePortraitCard>
         </div>
       </Popup>
     </div>

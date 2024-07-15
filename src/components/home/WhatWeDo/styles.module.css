@@ -30,7 +30,7 @@ div .topics_header {
     padding: var(--ifm-spacing-2xl) var(--ifm-spacing-lg);
   }
 
-  .services_link_container_desktop {
+  .services_link_desktop {
     display: none;
    }
 }
@@ -41,11 +41,11 @@ div .topics_header {
     color: var(--ifm-color-orange-jupyter);
   }
 
-  .projects_link_container {
+  .projects_link{
    display: none;
   }
 
-  .services_link_container_mobile {
+  .services_link_mobile {
     display: none;
    }
 

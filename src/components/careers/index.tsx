@@ -34,11 +34,10 @@ export default function Careers() {
           </div>
           <div
             className={
-              "row" +
+              "row flex-full-centered" +
               " " +
-              styles.join_the_team_container +
-              " " +
-              "flex-full-centered"
+              styles.join_the_team_container
+        
             }
           >
             <div className="col col--10 col--offset-1">

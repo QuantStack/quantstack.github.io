@@ -73,7 +73,7 @@
 }
 
 .margin-none {
-  margin: none;
+  margin: 0;
 }
 
 .padding-none {
@@ -91,6 +91,67 @@ ul {
 .container {
   max-width: none;
   padding: 0;
+}
+
+/***footer*****/
+.address {
+  color: var(--ifm-text-color-footer);
+}
+
+.footer__item {
+  color: var(--ifm-text-color-footer);
+}
+
+.footer__copyright {
+  color: var(--ifm-text-color-footer);
+}
+
+.footer {
+  background-color: var(--ifm-background-color-footer);
+  color: var(--ifm-text-color-footer);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  max-width: none;
+  padding: var(--ifm-spacing-xl) var(--ifm-spacing-2xl);
+}
+
+.footer__col {
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  height: 240px;
+}
+
+.row.footer__links {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  color: var(--ifm-text-color-footer);
+}
+
+.footer__title {
+  color: var(--ifm-text-color-footer);
+}
+
+.footer__bottom {
+  margin-top: var(--ifm-spacing-xl);
+}
+
+.footer__link-item {
+  color: var(--ifm-text-color-footer);
+}
+
+.footer-astronaut {
+  display: flex;
+  text-align: left;
+  margin-right: var(--ifm-spacing-lg);
+  width: 200px;
+  height: 200px;
+  padding: 10px;
 }
 
 @media (min-width: 1440px) {
@@ -113,7 +174,19 @@ ul {
   }
 
   .upper-container-with-margin-top {
-    margin-top: var(--ifm-spacing-2xl)
+    margin-top: var(--ifm-spacing-2xl);
+  }
+
+  .row-with-margin-top {
+    margin-top: var(--ifm-spacing-xl);
+  }
+
+  .row-with-margin-bottom {
+    margin-bottom: var(--ifm-spacing-xl);
+  }
+
+  .row-with-margins {
+    margin: var(--ifm-spacing-xl) 0;
   }
 
   h1 {
@@ -156,7 +229,7 @@ ul {
     font-size: 16px;
     font-weight: 500;
     color: var(--ifm-color-secondary-s2);
-    padding-top: var(--ifm-spacing-2xl);
+    padding: var(--ifm-spacing-2xl) var(--ifm-spacing-lg) 0 var(--ifm-spacing-lg);
     background-color: var(--ifm-color-secondary-s1);
     line-height: 20px;
     letter-spacing: 0.1px;
@@ -174,6 +247,7 @@ ul {
     background-color: var(--ifm-color-secondary-s1);
     color: var(--ifm-color-secondary-s2);
   }
+
   .link-to-button {
     width: 258px;
     height: 56px;
@@ -192,7 +266,7 @@ ul {
     margin-top: var(--ifm-spacing-lg);
     margin-bottom: var(--ifm-spacing-lg);
   }
-  
+
   .link-box {
     height: 59px;
     width: auto;
@@ -201,7 +275,6 @@ ul {
     justify-content: center;
   }
 }
-/***************************************************/
 
 /******  Class that are specific to larger screens*/
 @media (min-width: 996px) {
@@ -213,8 +286,21 @@ ul {
   }
 
   .upper-container-with-margin-top {
-    margin-top: var(--ifm-spacing-6xl)
+    margin-top: var(--ifm-spacing-6xl);
   }
+
+  .row-with-margin-top {
+    margin-top: var(--ifm-spacing-2xl);
+  }
+
+  .row-with-margin-bottom {
+    margin-bottom: var(--ifm-spacing-2xl);
+  }
+
+  .row-with-margins {
+    margin: var(--ifm-spacing-2xl) 0;
+  }
+
 
   h1 {
     color: var(--ifm-color-primary-p2);
@@ -254,7 +340,8 @@ ul {
     line-height: 150%;
     background-color: var(--ifm-color-secondary-s1);
     color: var(--ifm-color-secondary-s2);
-    padding: var(--ifm-spacing-2xl) var(--ifm-spacing-4xl) 0 var(--ifm-spacing-4xl);
+    padding: var(--ifm-spacing-2xl) var(--ifm-spacing-4xl) 0
+      var(--ifm-spacing-4xl);
   }
 
   .blue-banner-header {
@@ -267,7 +354,7 @@ ul {
     letter-spacing: 2.112px;
     background-color: var(--ifm-color-secondary-s1);
     color: var(--ifm-color-secondary-s2);
-    margin-bottom:var(--ifm-spacing-2xl);
+    margin-bottom: var(--ifm-spacing-2xl);
   }
 
   .link-to-button {
@@ -288,7 +375,7 @@ ul {
     margin-top: var(--ifm-spacing-2xl);
     margin-bottom: var(--ifm-spacing-2xl);
   }
-  
+
   .link-box {
     height: 59px;
     width: auto;
@@ -296,7 +383,6 @@ ul {
     align-items: center;
     justify-content: center;
   }
-  
 }
 /***********************************************************/
 
@@ -386,65 +472,6 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.quantstack-address {
-  color: var(--ifm-text-color-footer);
-}
-
-.footer__item {
-  color: var(--ifm-text-color-footer);
-}
-
-.footer__copyright {
-  color: var(--ifm-text-color-footer);
-}
-
-.footer {
-  background-color: var(--ifm-background-color-footer);
-  color: var(--ifm-text-color-footer);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0;
-  max-width: none;
-}
-
-.row.footer__links {
-  display: flex;
-  justify-content: center;
-  margin: 0;
-  padding: 0;
-  color: var(--ifm-text-color-footer);
-}
-
-.footer__title {
-  color: var(--ifm-text-color-footer);
-}
-
-.footer__bottom {
-  margin-top: var(--ifm-spacing-xl);
-}
-
-.footer__col {
-  align-items: center;
-  justify-content: center;
-  margin: 0;
-  padding: 0;
-  height: 240px;
-}
-
-.footer__link-item {
-  color: var(--ifm-text-color-footer);
-}
-
-.footer-astronaut {
-  display: flex;
-  text-align: left;
-  margin-right: var(--ifm-spacing-lg);
-  width: 200px;
-  height: 200px;
-  padding: 10px;
 }
 
 .social-media-links {
@@ -554,35 +581,7 @@ a.menu__link:active {
   color: black;
 }
 
-/*.quantstack-icon-white {
-  background: url(@site/static/img/quantstack/logo-website-white.svg);
-  content: "";
-  display: flex;
-  height: 40px;
-  width: 40px;
-  background-repeat: no-repeat;
-}
-
-
-.quantstack-icon-black {
-  background: url(@site/static/img/quantstack/logo-website-black.svg);
-  content: "";
-  display: flex;
-  height: 40px;
-  width: 40px;
-  background-repeat: no-repeat;
-}*/
-
-.quantstack-astronaut {
-  background: url(@site/static/img/quantstack/astronaut.svg);
-  content: "";
-  display: flex;
-  height: 100px;
-  width: 100px;
-  background-repeat: no-repeat;
-}
-
-.quantstack-astronaut-footer {
+.astronaut-footer {
   background: url(@site/static/img/quantstack/astronaut-footer.svg);
   content: "";
   display: flex;
@@ -630,7 +629,7 @@ a.menu__link:active {
   background-repeat: no-repeat;
 }
 
-.close-button { 
+.close-button {
   background: url(@site/static/img/icons/CloseButton.svg);
   content: "";
   display: flex;

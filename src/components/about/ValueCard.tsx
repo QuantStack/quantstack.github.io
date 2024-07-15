@@ -12,7 +12,9 @@ export function ValueCard({ value }) {
 
       <div className={"card__body"}>
         <div className={styles.value_header}>{value.name}</div>
-        <value.DescriptionMD className={styles.value_value_text} />
+        <div className={styles.value_text}>
+          <value.DescriptionMD />
+        </div>
       </div>
     </div>
   );

@@ -21,9 +21,7 @@ export default function SupplyChainProjects() {
         </div>
         <div
           className={
-            "col col--5" +
-            " " +
-            "flex-full-centered" +
+            "col col--5 flex-full-centered" +
             " " +
             styles.col_project_overview_with_padding
           }

@@ -1,33 +1,15 @@
-import Darian from "@site/src/components/about/Team/Darian.md";
+import DarianMD from "@site/src/components/about/Team/Darian.md";
 import DarianAvatarUrl from "@site/static/img/avatars/Darian.png";
-import David from "@site/src/components/about/Team/David.md";
+import DavidMD from "@site/src/components/about/Team/David.md";
 import DavidAvatarUrl from "@site/static/img/avatars/David.png";
-import Jeremy from "@site/src/components/about/Team/Jeremy.md";
+import JeremyMD from "@site/src/components/about/Team/Jeremy.md";
 import JeremyAvatarUrl from "@site/static/img/avatars/Jeremy.png";
-import Johan from "@site/src/components/about/Team/Johan.md";
+import JohanMD from "@site/src/components/about/Team/Johan.md";
 import JohanAvatarUrl from "@site/static/img/avatars/Johan.png";
-import Martin from "@site/src/components/about/Team/Martin.md";
+import MartinMD from "@site/src/components/about/Team/Martin.md";
 import MartinAvatarUrl from "@site/static/img/avatars/Martin.png";
-import Sylvain from "@site/src/components/about/Team/Sylvain.md";
+import SylvainMD from "@site/src/components/about/Team/Sylvain.md";
 import SylvainAvatarUrl from "@site/static/img/avatars/Sylvain.png";
-
-export const leadershipBioComponents = [
-  Sylvain,
-  Johan,
-  Martin,
-  Jeremy,
-  Darian,
-  David,
-];
-
-export const leadershipAvatarsUrls = [
-  SylvainAvatarUrl,
-  JohanAvatarUrl,
-  MartinAvatarUrl,
-  JeremyAvatarUrl,
-  DarianAvatarUrl,
-  DavidAvatarUrl,
-];
 
 export const leadershipTeam = [
   {
@@ -41,10 +23,11 @@ export const leadershipTeam = [
     LinkedInLink: "https://www.linkedin.com/sylvaincorlay/?locale=en_US",
     XLink: "https://twitter.com/SylvainCorlay",
     githubName: "@SylvainCorlay",
-    avatarRoute: "@site/static/img/avatars/Sylvain@2x.png",
+    avatarUrl: SylvainAvatarUrl,
     distinctionTitle: ["ACM Software System Award"],
-    distinctionLink: ["https://awards.acm.org/award_winners/corlay_8324973"],  
+    distinctionLink: ["https://awards.acm.org/award_winners/corlay_8324973"],
     subTeamName: "LeadershipTeam",
+    BioComponent: SylvainMD,
   },
   {
     completeName: "Johan Mabille",
@@ -57,11 +40,11 @@ export const leadershipTeam = [
     LinkedInLink: "https://www.linkedin.com/in/johan-mabille/",
     XLink: "https://twitter.com/JohanMabille",
     githubName: "@JohanMabille",
-    avatarRoute: "@site/static/img/avatars/Johan@2x.png",
+    avatarUrl: JohanAvatarUrl,
     distinctionTitle: ["Jupyter distinguished contributor"],
-    distinctionLink:
-      ["https://jupyter.org/about#distinguished-contributors"],
+    distinctionLink: ["https://jupyter.org/about#distinguished-contributors"],
     subTeamName: "LeadershipTeam",
+    BioComponent: JohanMD,
   },
   {
     completeName: "Martin Renou",
@@ -74,11 +57,11 @@ export const leadershipTeam = [
     LinkedInLink: "https://www.linkedin.com/in/martin-renou",
     XLink: "https://twitter.com/martinRenou",
     githubName: "@martinRenou",
-    avatarRoute: "@site/static/img/avatars/Martin@2x.png",
+    avatarUrl: MartinAvatarUrl,
     distinctionTitle: ["Jupyter distinguished contributor"],
-    distinctionLink:
-      ["https://jupyter.org/about#distinguished-contributors"],
+    distinctionLink: ["https://jupyter.org/about#distinguished-contributors"],
     subTeamName: "LeadershipTeam",
+    BioComponent: MartinMD,
   },
   {
     completeName: "Jeremy Tuloup",
@@ -91,11 +74,11 @@ export const leadershipTeam = [
     LinkedInLink: "https://www.linkedin.com/in/jtuloup/",
     XLink: "https://twitter.com/jtpio",
     githubName: "@jtpio",
-    avatarRoute: "@site/static/img/avatars/Jeremy@2x.png",
+    avatarUrl: JeremyAvatarUrl,
     distinctionTitle: ["Jupyter distinguished contributor"],
-    distinctionLink:
-      ["https://jupyter.org/about#distinguished-contributors"],
+    distinctionLink: ["https://jupyter.org/about#distinguished-contributors"],
     subTeamName: "LeadershipTeam",
+    BioComponent: JeremyMD,
   },
 
   {
@@ -109,10 +92,11 @@ export const leadershipTeam = [
     LinkedInLink: "https://www.linkedin.com/in/afshindarian/",
     XLink: "",
     githubName: "@afshin",
-    avatarRoute: "@site/static/img/avatars/Darian@2x.png",
+    avatarUrl: DarianAvatarUrl,
     distinctionTitle: ["Jupyter distinguished contributor"],
-    distinctionLink:[ "https://jupyter.org/about#distinguished-contributors"],
+    distinctionLink: ["https://jupyter.org/about#distinguished-contributors"],
     subTeamName: "LeadershipTeam",
+    BioComponent: DarianMD,
   },
   {
     completeName: "David Brochart",
@@ -125,10 +109,11 @@ export const leadershipTeam = [
     LinkedInLink: "https://www.linkedin.com/in/david-brochart-4208721/",
     XLink: "https://twitter.com/davidbrochart",
     githubName: "@davidbrochart",
-    avatarRoute: "@site/static/img/avatars/David@2x.png",
+    avatarUrl: DavidAvatarUrl,
     distinctionTitle: ["Jupyter distinguished contributor"],
     distinctionLink: ["https://jupyter.org/about#distinguished-contributors"],
     subTeamName: "LeadershipTeam",
+    BioComponent: DavidMD,
   },
 ];
 export default leadershipTeam;

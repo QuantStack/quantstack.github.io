@@ -138,7 +138,7 @@ const config: Config = {
           items: [
             {
               label: " ",
-              className: "quantstack-astronaut-footer",
+              className: "astronaut-footer",
               href: "/home",
             },
           ],
@@ -201,7 +201,7 @@ const config: Config = {
             {
               html: `
               
-               <div class="div .quantstack-address">
+                  <div class="div .address">
                       16, avenue Curti <br/>
                       94100 Saint-Maur-des-Fossés <br/>
                       France

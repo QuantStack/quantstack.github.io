@@ -1,19 +1,10 @@
 import styles from "./styles.module.css";
-import {
-  leadershipTeam,
-  leadershipBioComponents,
-  leadershipAvatarsUrls,
-} from "./Team/leadershipTeam";
-import { coreTeam, coreBioComponents, coreAvatarsUrls } from "./Team/coreTeam";
-import {
-  QSCollaboratorsTeam,
-  QSCollaboratorsBioComponents,
-  QSCollaboratorsAvatarsUrls,
-} from "./Team/QScollaborators";
+import { leadershipTeam } from "./Team/leadershipTeam";
+import { coreTeam } from "./Team/coreTeam";
+import { QSCollaboratorsTeam } from "./Team/QScollaborators";
 import FourValues from "./FourValues";
 import SubTeam from "./SubTeam";
 import LinkToContact from "../home/LinkToContact";
-
 
 export function About() {
   return (
@@ -21,7 +12,7 @@ export function About() {
       <div className="main-container-with-margins">
         <div className="container upper-container-with-margin-top">
           <div className={"row"}>
-            <div className={"col" + " " + "flex-full-centered"}>
+            <div className={"col flex-full-centered"}>
               <FourValues />
             </div>
           </div>
@@ -40,20 +31,14 @@ export function About() {
               <SubTeam
                 subTeamName={"The leadership team"}
                 subTeam={leadershipTeam}
-                subTeamAvatarsUrls={leadershipAvatarsUrls}
-                subTeamBioComponents={leadershipBioComponents}
               />
               <SubTeam
                 subTeamName={"The core team"}
                 subTeam={coreTeam}
-                subTeamAvatarsUrls={coreAvatarsUrls}
-                subTeamBioComponents={coreBioComponents}
               />
               <SubTeam
                 subTeamName={"QuantStack collaborators"}
                 subTeam={QSCollaboratorsTeam}
-                subTeamAvatarsUrls={QSCollaboratorsAvatarsUrls}
-                subTeamBioComponents={QSCollaboratorsBioComponents}
               />
             </div>
           </div>
