@@ -5,8 +5,6 @@ import Link from "@docusaurus/Link";
 import React from "react";
 import Avatar from "./Avatar";
 
-
-
 export function Distinction({ person }) {
   if (person.distinctionTitle.length !== 0) {
     return (
@@ -33,10 +31,20 @@ export default function LargePortraitCard({ person }) {
       <div className={"container"}>
         <div className={"row padding-none"}>
           <div className="col col--12 col--offset-1">
-            <div className={styles.large_card_complete_name}>
+            <div
+              className={
+                styles.large_card_complete_name
+              }
+            >
               {person.completeName}
             </div>
-            <div className={styles.large_card_position}>{person.position}</div>
+            <div
+              className={
+                styles.large_card_position
+              }
+            >
+              {person.position}
+            </div>
           </div>
         </div>
         <div className="row">
