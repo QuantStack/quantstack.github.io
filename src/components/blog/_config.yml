@@ -4,6 +4,12 @@ copyright:
   type_title: All rights reserved
 
 blog:
+  - url: https://medium.com/@QuantStack/introducing-mamba-2-0-0e8d5c6d1d0c
+    title: "Introducing Mamba 2.0"
+    image: https://miro.medium.com/v2/resize:fit:828/format:webp/0*q3RzcOZXWZzyfDIG
+    summary: "We are excited to present the first release candidate of Mamba 2.0, a significant upgrade to the mamba package manager. This update brings considerable enhancements for both users and developers, following an extensive year-long development effort."
+    date: July 16, 2024
+    authors: Antoine Prouvost, Joel Lamotte, Johan Mabille, Hind Montassif
 
   - url: https://medium.com/@QuantStack/quantstack-open-source-internship-program-049755b6d44b
     title: "QuantStack open-source internship program"

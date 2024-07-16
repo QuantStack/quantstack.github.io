@@ -1,5 +1,18 @@
 [
   {
+    "url": "https://medium.com/@QuantStack/introducing-mamba-2-0-0e8d5c6d1d0c",
+    "title": "Introducing Mamba 2.0",
+    "image": "/img/blogposts/Introducing-Mamba-2-0.png",
+    "summary": "We are excited to present the first release candidate of Mamba 2.0, a significant upgrade to the mamba package manager. This update brings considerable enhancements for both users and developers, following an extensive year-long development effort.",
+    "date": "July 16, 2024",
+    "authors": "Antoine Prouvost, Joel Lamotte, Johan Mabille, Hind Montassif",
+    "imageID": "blogpost-image-119",
+    "imageNaturalWidth": 828,
+    "imageNaturalHeight": 328,
+    "imageRenderedWidth": 305,
+    "imageRenderedHeight": 120.82125603864735
+  },
+  {
     "url": "https://medium.com/@QuantStack/quantstack-open-source-internship-program-049755b6d44b",
     "title": "QuantStack open-source internship program",
     "image": "/img/blogposts/QuantStack-open-source-internship-program.png",
@@ -106,7 +119,7 @@
   {
     "url": "https://blog.jupyter.org/recent-keyboard-navigation-improvements-in-jupyter-4df32f97628d",
     "title": "Recent keyboard navigation improvements in Jupyter",
-    "image": "/img/blogposts/Recent-keyboard-navigation-improvements-in-Jupyter.gif",
+    "image": "/img/blogposts/Recent-keyboard-navigation-improvements-in-Jupyter.png",
     "summary": "Upcoming versions of JupyterLab (4.1.0) and Notebook (7.1.0) will include major keyboard accessibility fixes.",
     "date": "December 16th, 2023",
     "authors": "Nicolas Brichet, Gabriel Fouasnon",
