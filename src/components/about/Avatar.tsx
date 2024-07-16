@@ -12,6 +12,8 @@ export default function Avatar({ person }) {
           "working at QuantStack as a " +
           person.position
         }
+        width={"300px"}
+        height={"300px"}
       />
       </div>
     );
