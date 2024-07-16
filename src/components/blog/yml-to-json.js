@@ -33,6 +33,9 @@ function defineImagesNames(data) {
     } else if (blogpost.image.includes(".svg")) {
       fileExtension = ".svg";
     }
+    else {
+      fileExtension = ".png";
+    }
     let name = blogpost.title;
     name = name.split("!").join("");
     name = name.split(" - ").join("-");
