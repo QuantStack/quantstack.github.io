@@ -28,9 +28,11 @@ export function Hero() {
                 styles.astronaut_column
               }
             >
-              <div className={styles.astronaut_container}>
-                <Astronaut alt={"Astronaut mascot of QuantStack"} />
-              </div>
+              <Astronaut
+                alt={"Astronaut mascot of QuantStack"}
+                width={"300px"}
+                height={"300px"}
+              />
             </div>
           </div>
         </div>
