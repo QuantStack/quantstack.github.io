@@ -9,7 +9,7 @@ let obj = yaml.load(yamlFile);
 const blogpostsDetailsYml = obj["blog"];
 const NUMBER_OF_BLOGS = blogpostsDetailsYml.length;
 const sizeOf = require("image-size");
-const imageContainerDimensions = [305, 180];
+const imageContainerDimensions = [273, 180];
 
 function JSONToFile(data, filename) {
   fs.writeFileSync(`${filename}.json`, JSON.stringify(data, null, 2));

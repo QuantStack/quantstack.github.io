@@ -6,8 +6,9 @@
             
             - an extensible expression system enabling lazy broadcasting,
           
-            - an API following the idioms of the C++ standard library, <br />-
-            tools to manipulate array expressions and build upon xtensor.
+            - an API following the idioms of the C++ standard library,
+            
+            - tools to manipulate array expressions and build upon xtensor.
       
             The xsimd project provides a unified API for utilizing SIMD
             instructions of modern microprocessors.XSimd has seen a growing
