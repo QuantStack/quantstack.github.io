@@ -4,7 +4,7 @@ import Astronaut from "/img/quantstack/astronaut.svg";
 
 export function Hero() {
   return (
-    <div>
+    <div className={styles.hero_container}>
       <div className="main-container-with-margins">
         <div className="container upper-container-with-margin-top">
           <div className={"row row--no-gutters flex-full-centered"}>

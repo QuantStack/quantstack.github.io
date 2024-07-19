@@ -4,12 +4,13 @@ import MambaPictureUrl from "@site/static/img/projects/mamba_console.png";
 
 export default function SupplyChainProjects() {
   return (
-    <div className={"container"}>
+    <div className={"container" + " " + styles.project_light_yellow}>
       <div className={"row"}>
-        
         <div
           className={
-            "col col--5 col--offset-1" + " " + styles.col_project_overview_with_padding
+            "col col--5 col--offset-1" +
+            " " +
+            styles.col_project_overview_with_padding
           }
         >
           <h1 className="padding-none">Software supply chain </h1>
@@ -26,7 +27,11 @@ export default function SupplyChainProjects() {
             styles.col_project_overview_with_padding
           }
         >
-          <img src={MambaPictureUrl} width={"486px"} alt={"Picture showing a terminal in which mamba commands are run."} />
+          <img
+            src={MambaPictureUrl}
+            width={"486px"}
+            alt={"Picture showing a terminal in which mamba commands are run."}
+          />
         </div>
       </div>
     </div>

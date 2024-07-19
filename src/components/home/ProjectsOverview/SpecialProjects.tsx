@@ -4,7 +4,7 @@ import SpecialProjectsPictureUrl from "@site/static/img/projects/jupytercad.png"
 
 export default function SpecialProjects() {
     return (
-      <div className={"container"}>
+      <div className={"container" + " " + styles.project_yellow}>
         <div className="row">
           <div className={"col col--5 col--offset-1" + " " + styles.col_project_overview_with_padding}>
             <h1 className="padding-none">Special projects</h1>
