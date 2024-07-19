@@ -4,6 +4,9 @@
     display: none;
   }
 }
+.hero_container {
+  background-color: var(--ifm-color-primary-p0);
+}
 
 .table_with_8_customers {
   margin-bottom: var(--ifm-spacing-xl);

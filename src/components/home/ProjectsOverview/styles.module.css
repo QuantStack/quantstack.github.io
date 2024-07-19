@@ -15,3 +15,12 @@
 .col_project_overview_with_padding {
   padding: var(--ifm-spacing-4xl) var(--ifm-spacing-3xl);
 }
+
+
+.project_yellow {
+  background-color: var(--ifm-color-primary-p1);
+}
+
+.project_light_yellow {
+  background-color: var(--ifm-color-primary-p0);
+}
