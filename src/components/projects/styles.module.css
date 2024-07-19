@@ -73,7 +73,7 @@ div .project_title {
     font-style: normal;
     font-weight: 400;
     line-height: 28px; 
-    margin-bottom: var(--ifm-spacing-6xl);
+    margin-bottom: var(--ifm-spacing-3xl);
     padding: var(--ifm-spacing-lg) var(--ifm-spacing-4xl);
   }
 

@@ -162,7 +162,7 @@ ul {
 
 @media (min-width: 1880px) {
   .row {
-    max-width: none;
+    width: 1600px;
   }
 }
 
@@ -229,7 +229,8 @@ ul {
     font-size: 16px;
     font-weight: 500;
     color: var(--ifm-color-secondary-s2);
-    padding: var(--ifm-spacing-2xl) var(--ifm-spacing-lg) 0 var(--ifm-spacing-lg);
+    padding: var(--ifm-spacing-2xl) var(--ifm-spacing-lg) 0
+      var(--ifm-spacing-lg);
     background-color: var(--ifm-color-secondary-s1);
     line-height: 20px;
     letter-spacing: 0.1px;
@@ -300,7 +301,6 @@ ul {
   .row-with-margins {
     margin: var(--ifm-spacing-2xl) 0;
   }
-
 
   h1 {
     color: var(--ifm-color-primary-p2);

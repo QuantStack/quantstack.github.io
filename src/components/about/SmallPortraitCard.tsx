@@ -43,19 +43,31 @@ export function SmallPortraitCard({ person, setOffsets }) {
   return (
     <div
       ref={elementRef}
-      className={styles.small_portrait_card}
+      className={"card" + " " + styles.small_portrait_card}
       id={person.firstName}
       onClick={() => {
         setOffsets(calculateOffsets(elementRef));
       }}
     >
-      <Avatar person={person} />
-      <div className={"flex-full-centered" + " " + styles.small_card_complete_name}>
-        {person.completeName}
+      <div className="card__header">
+        <Avatar person={person} />
+        <div
+          className={
+            "flex-full-centered" + " " + styles.small_card_complete_name
+          }
+        >
+          {person.completeName}
+        </div>
       </div>
-      <div className={"flex-full-centered" + " " + styles.small_card_position}>{person.position}</div>
-      <div style={{ marginTop: "var(--ifm-spacing-xl)" }}>
-        <SocialMediaContacts person={person}></SocialMediaContacts>
+      <div className="card__body">
+        <div
+          className={"flex-full-centered" + " " + styles.small_card_position}
+        >
+          {person.position}
+        </div>
+        <div style={{ marginTop: "var(--ifm-spacing-xl)" }}>
+          <SocialMediaContacts person={person}></SocialMediaContacts>
+        </div>
       </div>
     </div>
   );
