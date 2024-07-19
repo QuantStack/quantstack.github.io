@@ -51,9 +51,9 @@ div .topics_header {
 
   .whatwedo_container {
     background-color: var(--ifm-color-primary-p1);
-    padding: var(--ifm-spacing-2xl) var(--ifm-spacing-2xl) 0
+    padding: var(--ifm-spacing-4xl) var(--ifm-spacing-2xl) 0
       var(--ifm-spacing-2xl);
-    margin-top: var(--ifm-spacing-3xl);
+    /*margin-top: var(--ifm-spacing-3xl);*/
   }
 
   .topics_card {
