@@ -15,7 +15,8 @@
 }
 
 .worked_with {
-  font-size: var(--ifm-font-size-normal);
+  font-size: 24px;
+  font-weight: 200;
   font-family: var(--ifm-font-family-rubik-one);
   color: var(--ifm-color-orange-jupyter);
   text-align: center;
