@@ -15,7 +15,6 @@ export const projectsDetails = [
     pictureRoute: jupyterLogoUrl,
     pictureWidth: "198px",
     pictureHeight: "234px",
-    pictureBorder: "solid 1px var(--ifm-color-orange-jupyter)",
     pictureAltText: "Picture for Jupyter project showing its logo.",
     ProjectMD: JupyterMD,
     reverse: "false"
@@ -26,7 +25,6 @@ export const projectsDetails = [
     pictureRoute: xtensorLogoUrl,
     pictureWidth: "257px",
     pictureHeight: "257px",
-    pictureBorder: "solid 1px  var(--ifm-color-green-xtensor)",
     pictureAltText: "Picture for Xtensor and Xsimd showing their respective logo.",
     ProjectMD: XTensorXSIMDMD,
     reverse: "true",
@@ -37,7 +35,6 @@ export const projectsDetails = [
     pictureRoute: condaforgeLogoUrl,
     pictureWidth: "196px",
     pictureHeight: "180px",
-    pictureBorder: "solid 1px var(--ifm-color-grey-condaforge)",
     pictureAltText: "Picture for Condaforge project showing its forge logo.",
     ProjectMD: CondaForgeMD,
     reverse:"false"
@@ -48,7 +45,6 @@ export const projectsDetails = [
     pictureRoute: robostackPictureUrl,
     pictureWidth: "189px",
     pictureHeight: "210px",
-    pictureBorder: "solid 1px rgb(146, 95, 218)",
     pictureAltText: "Picture for robotics project showing an illustration with a robotics device.",
     ProjectMD: RoboticsMD,
     reverse:"true"

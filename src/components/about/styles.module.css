@@ -36,22 +36,22 @@ div .row {
 }
 
 .small_card_complete_name {
-  font-size: 16px;
+  font-size: 24px;
   font-family: var(--ifm-font-family-roboto);
   color: var(--ifm-color-primary-p2);
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.15px;
   margin: var(--ifm-spacing-xs) 0;
 }
 
 .small_card_position {
-  font-size: var(--ifm--font-size-normal);
+  font-size: 16px;
   font-family: var(--ifm-font-family-roboto);
   color: var(---ifm-text-color);
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.5px;
   color: var(--ifm-color-primary-p2);
@@ -96,7 +96,7 @@ div .large_card_position {
 }
 
 .githubname {
-  font-size: var(--ifm-font-size-normal);
+  font-size: 16px;
   font-family: var(--ifm-font-family-roboto);
   font-style: normal;
   font-weight: 400;

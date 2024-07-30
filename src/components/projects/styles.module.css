@@ -4,6 +4,7 @@ div .schedule_container {
 
 .project_title {
   margin-bottom: var(--ifm-spacing-md);
+  margin-top: var(--ifm-spacing-xl);
   font-family: var(--ifm-font-family-bebas-neue);
   font-size: var(--ifm-font-size-secondary-title);
   font-style: normal;
@@ -29,10 +30,11 @@ div .project_title {
 @media only screen and (max-width: 996px) {
   /*Mobile*/
 
-  .header_container{
+  .header_container {
     padding-top: var(--ifm-spacing-2xl);
     background-color: var(--ifm-color-primary-p1);
   }
+
   .header_title {
     padding-left: none;
   }
@@ -46,20 +48,39 @@ div .project_title {
     line-height: 20px;
     letter-spacing: 0.25px;
     text-align: center;
-    margin-bottom: var(--ifm-spacing-2xl);
+    margin-bottom: var(--ifm-spacing-lg);
     padding: var(--ifm-spacing-lg) var(--ifm-spacing-2xl);
   }
 
-  .col_project_text {
-    background-color: var(--ifm-color-orange-light);
-    padding: var(--ifm-spacing-2xl) 0 var(--ifm-spacing-md) 0;
-    border-radius: 10px;
+  .col_project_text p {
+    background-color: white;
+    text-align: justify;
+  }
+
+  .project_picture_jupyter {
+    border: none;
+    margin-bottom: var(--ifm-spacing-xl);
+  }
+
+  .project_picture_xtensorxsimd {
+    border: none;
+    margin-bottom: var(--ifm-spacing-xl);
+  }
+
+  .project_picture_condaforge {
+    border: none;
+    margin-bottom: var(--ifm-spacing-xl);
+  }
+
+  .project_picture_robotics {
+    border: none;
+    margin-bottom: var(--ifm-spacing-xl);
   }
 }
 
 @media only screen and (min-width: 996px) {
   /*Desktop*/
-  .header_container{
+  .header_container {
     margin-top: var(--ifm-spacing-6xl);
   }
   .header_title {
@@ -72,7 +93,7 @@ div .project_title {
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
-    line-height: 28px; 
+    line-height: 28px;
     margin-bottom: var(--ifm-spacing-3xl);
     padding: var(--ifm-spacing-lg) var(--ifm-spacing-4xl);
   }
@@ -81,22 +102,34 @@ div .project_title {
     text-align: center;
   }
 
-  .col_project_text {
+  .project_text {
     background-color: var(--ifm-color-orange-light);
     padding: var(--ifm-spacing-4xl) var(--ifm-spacing-3xl);
     margin-bottom: var(--ifm-spacing-lg);
     border-radius: 10px;
-    /*box-shadow: 0px 0px 8px 1px #d0cb54;*/
   }
 
-  .col_project_picture_left {
-    margin: none;
-    border-radius: 10px;
+  .project_picture_jupyter {
+    border: solid 1px var(--ifm-color-orange-jupyter);
     margin-bottom: var(--ifm-spacing-lg);
+    border-radius: 10px;
   }
 
-  .col_project_picture_right {
-    border-radius: 10px;
+  .project_picture_xtensorxsimd {
+    border: solid 1px var(--ifm-color-green-xtensor);
     margin-bottom: var(--ifm-spacing-lg);
+    border-radius: 10px;
+  }
+
+  .project_picture_condaforge {
+    border: solid 1px var(--ifm-color-grey-condaforge);
+    margin-bottom: var(--ifm-spacing-lg);
+    border-radius: 10px;
+  }
+
+  .project_picture_robotics {
+    border: solid 1px rgb(146, 95, 218);
+    margin-bottom: var(--ifm-spacing-lg);
+    border-radius: 10px;
   }
 }

@@ -56,20 +56,21 @@
   color: var(--ifm-text-color);
   text-align: center;
   font-family: var(--ifm-font-family-roboto);
-  font-size: 28px;
+  font-size: 22px;
   font-style: normal;
   font-weight: 400;
-  line-height: 36px; /* 128.571% */
+  line-height: 128.571%; 
+  margin-top: var(--ifm-spacing-lg);
 }
 
 .interview_position {
   color: var(--ifm-text-color);
   text-align: center;
   font-family: var(--ifm-font-family-roboto);
-  font-size: var(--ifm-font-size-normal);
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 133.333% */
+  line-height: 133.333%;
   letter-spacing: 0.5px;
 }
 
