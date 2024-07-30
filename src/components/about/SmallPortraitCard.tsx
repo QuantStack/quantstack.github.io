@@ -4,6 +4,7 @@ import SocialMediaContacts from "./SocialMediaContacts";
 import { useRef, useState } from "react";
 import LargePortraitCard from "./LargePortraitCard";
 import Avatar from "./Avatar";
+import Link from "@docusaurus/Link";
 
 const contentStyle = {
   background: "white",
