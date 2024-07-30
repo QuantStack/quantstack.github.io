@@ -193,7 +193,7 @@ ul {
   h1 {
     color: var(--ifm-text-color-main-title);
     font-family: var(--ifm-font-family-bebas-neue);
-    font-size: 24px;
+    font-size: 32px;
     font-style: normal;
     font-weight: 600;
     line-height: 150%; /* 36px */
@@ -223,6 +223,7 @@ ul {
 
   li {
     font-size: 14px;
+    margin-left: 24px;
   }
 
   .blue-banner-container {
