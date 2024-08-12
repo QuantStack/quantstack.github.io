@@ -21,7 +21,7 @@
   font-size: 24px;
   font-weight: 200;
   font-family: var(--ifm-font-family-rubik-one);
-  color: var(--ifm-color-orange-jupyter);
+  color: var(--ifm-color-primary-p2);
   text-align: center;
   margin: var(--ifm-spacing-2xl) 0;
 }
