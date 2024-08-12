@@ -38,7 +38,7 @@ div .topics_header {
 @media only screen and (min-width: 996px) {
 
   .header {
-    color: var(--ifm-color-orange-jupyter);
+    color: var(--ifm-color-blue-jupyter);
   }
 
   .projects_link{
