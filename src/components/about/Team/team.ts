@@ -6,6 +6,10 @@ import AndreasMD from "@site/src/components/about/Team/Andreas.md";
 import AndreasAvatarUrl from "@site/static/img/avatars/Andreas.png";
 import AnutoshMD from "@site/src/components/about/Team/Anutosh.md";
 import AnutoshAvatarUrl from "@site/static/img/avatars/Anutosh.png";
+import DavidMD from "@site/src/components/about/Team/David.md";
+import DavidAvatarUrl from "@site/static/img/avatars/David.png";
+import DarianMD from "@site/src/components/about/Team/Darian.md";
+import DarianAvatarUrl from "@site/static/img/avatars/Darian.png";
 import DenisaMD from "@site/src/components/about/Team/Denisa.md";
 import DenisaAvatarUrl from "@site/static/img/avatars/Denisa.png";
 import FlorenceMD from "@site/src/components/about/Team/Florence.md";
@@ -20,22 +24,35 @@ import IanMD from "@site/src/components/about/Team/Ian.md";
 import IanAvatarUrl from "@site/static/img/avatars/Ian.png";
 import IsabelMD from "@site/src/components/about/Team/Isabel.md";
 import IsabelAvatarUrl from "@site/static/img/avatars/Isabel.png";
+import JeremyMD from "@site/src/components/about/Team/Jeremy.md";
+import JeremyAvatarUrl from "@site/static/img/avatars/Jeremy.png";
 import JoelMD from "@site/src/components/about/Team/Joel.md";
 import JoelAvatarUrl from "@site/static/img/avatars/Joel.png";
+import JohanMD from "@site/src/components/about/Team/Johan.md";
+import JohanAvatarUrl from "@site/static/img/avatars/Johan.png";
 import JulienMD from "@site/src/components/about/Team/Julien.md";
 import JulienAvatarUrl from "@site/static/img/avatars/Julien.png";
 import KerimMD from "@site/src/components/about/Team/Kerim.md";
 import KerimAvatarUrl from "@site/static/img/avatars/Kerim.png";
+import MartinMD from "@site/src/components/about/Team/Martin.md";
+import MartinAvatarUrl from "@site/static/img/avatars/Martin.png";
 import MeriemMD from "@site/src/components/about/Team/Meriem.md";
 import MeriemAvatarUrl from "@site/static/img/avatars/Meriem.png";
 import NicolasMD from "@site/src/components/about/Team/Nicolas.md";
 import NicolasAvatarUrl from "@site/static/img/avatars/Nicolas.png";
 import NourMD from "@site/src/components/about/Team/Nour.md";
 import NourAvatarUrl from "@site/static/img/avatars/Nour.png";
+import RomainMD from "@site/src/components/about/Team/Romain.md";
+import RomainAvatarUrl from "@site/static/img/avatars/Romain.png";
+import SergeMD from "@site/src/components/about/Team/Serge.md";
+import SergeAvatarUrl from "@site/static/img/avatars/Serge.png";
+import SylvainMD from "@site/src/components/about/Team/Sylvain.md";
+import SylvainAvatarUrl from "@site/static/img/avatars/Sylvain.png";
 import ThorstenMD from "@site/src/components/about/Team/Thorsten.md";
 import ThorstenAvatarUrl from "@site/static/img/avatars/Thorsten.png";
 import TrungMD from "@site/src/components/about/Team/Trung.md";
 import TrungAvatarUrl from "@site/static/img/avatars/Trung.png";
+
 
 export const coreTeam = [
   {
@@ -364,4 +381,145 @@ export const coreTeam = [
   },
 ];
 
-export default coreTeam;
+export const QSCollaboratorsTeam = [
+  {
+    completeName: "Serge Guelton",
+    firstName: "Serge",
+    position: "Scientific Software Developer",
+    onGithub: "true",
+    onLinkedIn: "true",
+    onX: "false",
+    githubLink: "https://github.com/serge-sans-paille",
+    LinkedInLink: "",
+    XLink: "",
+    githubName: "@serge-sans-paille",
+    avatarUrl: SergeAvatarUrl,
+    distinctionTitle: [],
+    distinctionLink: [],
+    subTeamName: "QSCollaboratorsTeam",
+    BioComponent: SergeMD,
+  },
+  {
+    completeName: "Romain Menegaux",
+    firstName: "Romain",
+    position: "Scientific Software Developer",
+    onGithub: "true",
+    onLinkedIn: "true",
+    onX: "true",
+    githubLink: "https://github.com/rmenegaux",
+    LinkedInLink: "https://www.linkedin.com/in/romain-menegaux-88a147134/",
+    XLink: "https://twitter.com/RomainMenegaux",
+    githubName: "@trmenegaux",
+    avatarUrl: RomainAvatarUrl,
+    distinctionTitle: [],
+    distinctionLink: [],
+    subTeamName: "QSCollaboratorsTeam",
+    BioComponent: RomainMD
+  },
+];
+
+export const leadershipTeam = [
+  {
+    completeName: "Sylvain Corlay",
+    firstName: "Sylvain",
+    position: "Chief Executive Officer",
+    onGithub: "true",
+    onLinkedIn: "true",
+    onX: "true",
+    githubLink: "https://github.com/SylvainCorlay",
+    LinkedInLink: "https://www.linkedin.com/sylvaincorlay/?locale=en_US",
+    XLink: "https://twitter.com/SylvainCorlay",
+    githubName: "@SylvainCorlay",
+    avatarUrl: SylvainAvatarUrl,
+    distinctionTitle: ["ACM Software System Award"],
+    distinctionLink: ["https://awards.acm.org/award_winners/corlay_8324973"],
+    subTeamName: "LeadershipTeam",
+    BioComponent: SylvainMD,
+  },
+  {
+    completeName: "Johan Mabille",
+    firstName: "Johan",
+    position: "Project Director",
+    onGithub: "true",
+    onLinkedIn: "true",
+    onX: "true",
+    githubLink: "https://github.com/JohanMabille",
+    LinkedInLink: "https://www.linkedin.com/in/johan-mabille/",
+    XLink: "https://twitter.com/JohanMabille",
+    githubName: "@JohanMabille",
+    avatarUrl: JohanAvatarUrl,
+    distinctionTitle: ["Jupyter distinguished contributor"],
+    distinctionLink: ["https://jupyter.org/about#distinguished-contributors"],
+    subTeamName: "LeadershipTeam",
+    BioComponent: JohanMD,
+  },
+  {
+    completeName: "Martin Renou",
+    firstName: "Martin",
+    position: "Project Director",
+    onX: "true",
+    onLinkedIn: "true",
+    onGithub: "true",
+    githubLink: "https://github.com/martinRenou",
+    LinkedInLink: "https://www.linkedin.com/in/martin-renou",
+    XLink: "https://twitter.com/martinRenou",
+    githubName: "@martinRenou",
+    avatarUrl: MartinAvatarUrl,
+    distinctionTitle: ["Jupyter distinguished contributor"],
+    distinctionLink: ["https://jupyter.org/about#distinguished-contributors"],
+    subTeamName: "LeadershipTeam",
+    BioComponent: MartinMD,
+  },
+  {
+    completeName: "Jeremy Tuloup",
+    firstName: "Jeremy",
+    position: "Technical Director",
+    onLinkedIn: "true",
+    onGithub: "true",
+    onX: "true",
+    githubLink: "https://github.com/jtpio",
+    LinkedInLink: "https://www.linkedin.com/in/jtuloup/",
+    XLink: "https://twitter.com/jtpio",
+    githubName: "@jtpio",
+    avatarUrl: JeremyAvatarUrl,
+    distinctionTitle: ["Jupyter distinguished contributor"],
+    distinctionLink: ["https://jupyter.org/about#distinguished-contributors"],
+    subTeamName: "LeadershipTeam",
+    BioComponent: JeremyMD,
+  },
+
+  {
+    completeName: "Afshin Darian",
+    firstName: "Darian",
+    position: "Technical Director",
+    onGithub: "true",
+    onLinkedIn: "true",
+    onX: "false",
+    githubLink: "https://github.com/afshin",
+    LinkedInLink: "https://www.linkedin.com/in/afshindarian/",
+    XLink: "",
+    githubName: "@afshin",
+    avatarUrl: DarianAvatarUrl,
+    distinctionTitle: ["Jupyter distinguished contributor"],
+    distinctionLink: ["https://jupyter.org/about#distinguished-contributors"],
+    subTeamName: "LeadershipTeam",
+    BioComponent: DarianMD,
+  },
+  {
+    completeName: "David Brochart",
+    firstName: "David",
+    position: "Technical Director",
+    onGithub: "true",
+    onLinkedIn: "true",
+    onX: "true",
+    githubLink: "https://github.com/jtpio",
+    LinkedInLink: "https://www.linkedin.com/in/david-brochart-4208721/",
+    XLink: "https://twitter.com/davidbrochart",
+    githubName: "@davidbrochart",
+    avatarUrl: DavidAvatarUrl,
+    distinctionTitle: ["Jupyter distinguished contributor"],
+    distinctionLink: ["https://jupyter.org/about#distinguished-contributors"],
+    subTeamName: "LeadershipTeam",
+    BioComponent: DavidMD,
+  },
+];

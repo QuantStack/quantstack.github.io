@@ -161,11 +161,12 @@ ul {
   }
 }
 
-@media (min-width: 1880px) {
+/*@media (min-width: 1880px) {
   .row {
     width: 1600px;
   }
-}
+}*/
+
 
 /******  Class that are specific for smaller screens*/
 @media (max-width: 996px) {

@@ -1,14 +1,12 @@
 import styles from "./styles.module.css";
-import { leadershipTeam } from "./Team/leadershipTeam";
-import { coreTeam } from "./Team/coreTeam";
-import { QSCollaboratorsTeam } from "./Team/QScollaborators";
+import  { coreTeam, QSCollaboratorsTeam, leadershipTeam } from "./Team/team";
 import FourValues from "./FourValues";
 import SubTeam from "./SubTeam";
 import LinkToContact from "../home/LinkToContact";
 
 export function About() {
   return (
-    <div>
+    <div >
       <div className="main-container-with-margins">
         <div className="container upper-container-with-margin-top">
           <div className={"row"}>
