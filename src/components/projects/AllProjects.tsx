@@ -8,7 +8,7 @@ export default function AllProjects() {
       <ul className="row">
         {projectsDetails.map((project, index) => {
           return(
-          <li className="cards-list" key={index}>
+          <li className="projects-list" key={index}>
             <div className="col">
               <ProjectCard project={project}/>
             </div>

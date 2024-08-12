@@ -11,7 +11,7 @@
   --ifm-color-grey-condaforge: #7a7865;
   --ifm-color-orange-light: #fef9ec;
   --ifm-color-indigo-i1: rgb(79, 82, 255);
-  --ifm-color-primary-p0: #FFFBD7;
+  --ifm-color-primary-p0: #fffbd7;
   --ifm-color-primary-p1: #f6f195;
   --ifm-color-primary-p2: #1c1c16;
   --ifm-text-color-on-primary-p1: #1e1c00;
@@ -160,13 +160,6 @@ ul {
     max-width: none;
   }
 }
-
-/*@media (min-width: 1880px) {
-  .row {
-    width: 1600px;
-  }
-}*/
-
 
 /******  Class that are specific for smaller screens*/
 @media (max-width: 996px) {
@@ -645,4 +638,10 @@ a.menu__link:active {
 .cards-list {
   list-style-type: none;
   padding: none;
+}
+
+.projects-list {
+  list-style-type: none;
+  padding: none;
+  width: 100%;
 }
