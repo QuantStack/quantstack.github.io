@@ -1,0 +1,6 @@
+@media only screen and (max-width: 996px) {
+  /*Mobile*/
+  .learn_more_container {
+    display: none;
+  }
+}

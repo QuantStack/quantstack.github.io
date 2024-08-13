@@ -1,0 +1,10 @@
+@media only screen and (max-width: 996px) {
+  /*Mobile */
+  .news_container {
+    display: none;
+  }
+}
+
+.news_container {
+  margin-top: var(--ifm-spacing-2xl);
+}

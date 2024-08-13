@@ -1,3 +1,7 @@
 _site/
 .DS_store
 .ipynb_checkpoints/
+node_modules/
+build/
+.docusaurus
+static/img/light-and-dark-pictures/

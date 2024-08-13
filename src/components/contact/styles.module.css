@@ -1,0 +1,60 @@
+.send_button {
+  width: 258px;
+  height: 59px;
+  background: var(--ifm-color-blue-jupyter);
+}
+
+
+
+.contact_form {
+  margin-top: var(--ifm-spacing-xl);
+}
+
+.form_label {
+  font-size: 12px;
+  color: var(--ifm-text-color);
+  background-color: var(--ifm-background-color);
+}
+
+
+
+@media only screen and (max-width: 996px) {
+  /*Mobile*/
+  .small_input {
+    width: 300px;
+    height: 56px;
+    border-radius: 4px;
+  }
+  
+  .large_input {
+    width: 300px;
+    height: 220px;
+    border-radius: 4px;
+  }
+  .send_button_container {
+    height: 59px;
+    width: 300px;
+    margin: var(--ifm-spacing-2xl) 0;
+  }
+  
+  }
+
+  @media only screen and (min-width: 996px) {
+    /*Desktop*/
+    .small_input {
+      width: 508px;
+      height: 56px;
+      border-radius: 4px;
+    }
+    
+    .large_input {
+      width: 508px;
+      height: 220px;
+      border-radius: 4px;
+    }
+    .send_button_container {
+      height: 59px;
+      width: 508px;
+      margin: var(--ifm-spacing-2xl) 0;
+    }
+    }

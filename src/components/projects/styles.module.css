@@ -1,0 +1,132 @@
+
+.project_title {
+  margin-bottom: var(--ifm-spacing-md);
+  margin-top: var(--ifm-spacing-xl);
+  font-family: var(--ifm-font-family-bebas-neue);
+  font-size: var(--ifm-font-size-secondary-title);
+  font-style: normal;
+  font-weight: bolder;
+  line-height: 150%;
+  text-align: start;
+}
+
+div .project_title {
+  color: var(--ifm-color-primary-p2);
+  padding-left: var(--ifm-spacing-xl);
+}
+
+.project_description {
+  padding: var(--ifm-spacing-md) var(--ifm-spacing-xl);
+  text-align: center;
+}
+
+.project_description p {
+  color: var(--ifm-color-primary-p2);
+}
+
+@media only screen and (max-width: 996px) {
+  /*Mobile*/
+
+  .header_container {
+    padding-top: var(--ifm-spacing-2xl);
+    background-color: var(--ifm-color-primary-p1);
+  }
+
+  .header_title {
+    padding-left: none;
+  }
+
+  .header_text {
+    font-family: var(--ifm-font-family-roboto);
+    color: var(--ifm-color-primary-p2);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    text-align: center;
+    margin-bottom: var(--ifm-spacing-lg);
+    padding: var(--ifm-spacing-lg) var(--ifm-spacing-2xl);
+  }
+
+  .col_project_text p {
+    background-color: white;
+    text-align: justify;
+  }
+
+  .project_picture_jupyter {
+    border: none;
+    margin-bottom: var(--ifm-spacing-xl);
+  }
+
+  .project_picture_xtensorxsimd {
+    border: none;
+    margin-bottom: var(--ifm-spacing-xl);
+  }
+
+  .project_picture_condaforge {
+    border: none;
+    margin-bottom: var(--ifm-spacing-xl);
+  }
+
+  .project_picture_robotics {
+    border: none;
+    margin-bottom: var(--ifm-spacing-xl);
+  }
+}
+
+@media only screen and (min-width: 996px) {
+  /*Desktop*/
+  .header_container {
+    margin-top: var(--ifm-spacing-6xl);
+  }
+  .header_title {
+    padding-left: var(--ifm-spacing-4xl);
+  }
+
+  .header_text {
+    font-family: var(--ifm-font-family-roboto);
+    color: var(--ifm-color-primary-p2);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: var(--ifm-spacing-3xl);
+    padding: var(--ifm-spacing-lg) var(--ifm-spacing-4xl);
+  }
+
+  .header_text p {
+    text-align: center;
+  }
+
+  .project_text {
+    background-color: var(--ifm-color-orange-light);
+    padding: var(--ifm-spacing-4xl) var(--ifm-spacing-3xl);
+    margin-bottom: var(--ifm-spacing-lg);
+    border-radius: 10px;
+  }
+
+  .project_picture_jupyter {
+    border: solid 1px var(--ifm-color-orange-jupyter);
+    margin-bottom: var(--ifm-spacing-lg);
+    border-radius: 10px;
+  }
+
+  .project_picture_xtensorxsimd {
+    border: solid 1px var(--ifm-color-green-xtensor);
+    margin-bottom: var(--ifm-spacing-lg);
+    border-radius: 10px;
+  }
+
+  .project_picture_condaforge {
+    border: solid 1px var(--ifm-color-grey-condaforge);
+    margin-bottom: var(--ifm-spacing-lg);
+    border-radius: 10px;
+  }
+
+  .project_picture_robotics {
+    border: solid 1px rgb(146, 95, 218);
+    margin-bottom: var(--ifm-spacing-lg);
+    border-radius: 10px;
+  }
+}

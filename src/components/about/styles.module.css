@@ -1,0 +1,227 @@
+.small_portrait_card {
+  width: 279px;
+  height: 400px;
+  background-color: white;
+  color: var(--ifm-color-primary-p2);
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px 1px #c8c8c7;
+  padding: var(--ifm-spacing-lg) var(--ifm-spacing-md);
+  margin-bottom: var(--ifm-spacing-xl);
+}
+
+.small_portrait_card:hover {
+  border: solid 1px grey;
+  cursor: pointer; 
+  text-decoration: #0000EE underline;
+}
+
+.value_text p {
+  font-family: var(--ifm-font-family-roboto);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  color: var(--ifm-text-color-on-primary-p1);
+  text-align: center;
+}
+
+div .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.bio_container {
+  font-family: var(--ifm-font-family-roboto);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: var(--ifm-color-primary-p2);
+}
+
+.small_card_complete_name {
+  font-size: 24px;
+  font-family: var(--ifm-font-family-roboto);
+  color: var(--ifm-color-primary-p2);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  margin: var(--ifm-spacing-xs) 0;
+}
+
+.small_card_position {
+  font-size: 16px;
+  font-family: var(--ifm-font-family-roboto);
+  color: var(---ifm-text-color);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: var(--ifm-color-primary-p2);
+  height: 2em;
+  text-align: center;
+}
+
+.large_card_complete_name {
+  font-family: var(--ifm-font-family-roboto);
+  font-size: 28px;
+  color: var(---ifm-text-color);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  color: var(--ifm-color-primary-p2);
+}
+
+.large_card_position {
+  font-size: var(--ifm--font-size-normal);
+  font-family: var(--ifm-font-family-roboto);
+  color: var(--ifm-color-primary-p2);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 133.333% */
+  letter-spacing: 0.5px;
+}
+
+a {
+  color: var(--ifm-color-primary-p2);
+}
+
+div .large_card_position {
+  color: var(--ifm-color-primary-p2);
+}
+
+.social_icons {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.githubname {
+  font-size: 16px;
+  font-family: var(--ifm-font-family-roboto);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 133.333% */
+  letter-spacing: 0.5px;
+  color: var(--ifm-color-primary-p2);
+}
+
+div .join_the_team_title {
+  color: var(--ifm-color-secondary-s2);
+}
+
+.join_the_team_text {
+  margin-bottom: var(--ifm-spacing-2xl);
+}
+
+div .join_the_team_text {
+  color: var(--ifm-color-secondary-s2);
+}
+
+.avatar {
+  filter: grayscale(1);
+  border-radius: 50%;
+  overflow: hidden;
+  height: 160px;
+  width: 160px;
+}
+
+.distinction_icon {
+  vertical-align: middle;
+  padding-right: 5px;
+}
+
+@media only screen and (max-width: 996px) {
+  /*Mobile*/
+  .value_card {
+    height: 400px;
+    width: 264px;
+    padding: var(--ifm-spacing-xl) var(--ifm-spacing-lg);
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 1px #c8c8c7;
+    background-color: var(--ifm-color-primary-p1);
+    margin-bottom: var(--ifm-spacing-xl);
+  }
+
+  .value_header {
+    font-family: var(--ifm-font-family-rubik-one);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    margin-bottom: var(--ifm-spacing-xl);
+    color: var(--ifm-text-color-on-primary-p1);
+  }
+
+  .large_portrait_card {
+    width: 100%;
+    height: 100%;
+    padding: var(--ifm-spacing-xl) var(--ifm-spacing-xl);
+  }
+
+  .subteam_container {
+    margin: var(--ifm-spacing-3xl) var(--ifm-spacing-2xl);
+  }
+
+  .team_description {
+    font-family: var(--ifm-font-family-roboto);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: center;
+  }
+
+  .large_card_complete_name {
+    text-align: center;
+  }
+
+  .large_card_position {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 996px) {
+  /*Desktop*/
+  .value_card {
+    height: 540px;
+    width: 264px;
+    padding: var(--ifm-spacing-2xl) var(--ifm-spacing-lg);
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 1px #c8c8c7;
+    background-color: var(--ifm-color-primary-p1);
+    margin-bottom: var(--ifm-spacing-xl);
+  }
+
+  .value_header {
+    font-family: var(--ifm-font-family-rubik-one);
+    font-size: var(--ifm-font-size-secondary-title);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: var(--ifm-spacing-xl);
+    color: var(--ifm-text-color-on-primary-p1);
+  }
+
+  .large_portrait_card {
+    width: 1000px;
+    padding: var(--ifm-spacing-xl) var(--ifm-spacing-2xl);
+  }
+
+  .subteam_container {
+    margin: var(--ifm-spacing-5xl) var(--ifm-spacing-6xl);
+  }
+
+  .team_description {
+    font-family: var(--ifm-font-family-roboto);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+  }
+}

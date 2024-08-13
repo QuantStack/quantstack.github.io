@@ -1,0 +1,92 @@
+.blogpost_image {
+  filter: grayscale(1);
+}
+
+.blogpost_card {
+  height: 540px;
+  width: 369px;
+  border-radius: 8px;
+  box-shadow: 4px 4px 18px -1px #dee0fc;
+  padding: var(--ifm-spacing-xl);
+  background: var(--ifm-background-color-card);
+}
+
+.blogpost_card:hover {
+  border: 1px solid #cbc7b1;
+}
+
+div .blogpost_header {
+  color: var(--ifm-text-color);
+}
+div .blogpost_summary {
+  color: var(--ifm-text-color);
+}
+
+div .blogpost_authors {
+  color: var(--ifm-text-color);
+}
+
+div .blogpost_date {
+  color: var(--ifm-text-color);
+}
+
+.blogpost_summary {
+  font-family: var(--ifm-font-family-roboto);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%; /* 21px */
+  letter-spacing: -0.154px;
+  text-align: justify;
+  margin-bottom: var(--ifm-spacing-sm);
+  height: 140px;
+  color: var(--ifm-text-color);
+}
+
+.blogpost_header {
+  color: var(---ifm-text-color);
+  font-family: var(--ifm-font-family-roboto);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 27px */
+  letter-spacing: -0.198px;
+  height: 48px;
+  margin: var(--ifm-spacing-xl) 0;
+  color: var(--ifm-text-color);
+}
+
+.blogpost_date {
+  color: var(---ifm-text-color);
+  font-family: var(--ifm-font-family-roboto);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 16px;
+  letter-spacing: -0.132px;
+  text-align: left;
+  color: var(--ifm-text-color);
+}
+
+.blogpost_authors {
+  font-family: var(--ifm-font-family-roboto);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  color: var(--ifm-text-color);
+}
+
+.search_input {
+  height: 34px;
+  width: 255px;
+  font-size: var(--ifm-font-size-small);
+  background-image: url(@site/static/img/icons/Search.svg);
+  background-repeat: no-repeat;
+  background-position: 8px;
+  border-radius: 8px;
+  padding: var(--ifm-spacing-xs) var(--ifm-spacing-lg) var(--ifm-spacing-xs)
+    var(--ifm-spacing-lg);
+  margin: var(--ifm-spacing-lg) 0;
+}

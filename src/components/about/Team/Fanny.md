@@ -1,0 +1,6 @@
+It is with great sadness that we announce the passing of our colleague and friend, Fanny Loustau Chartez, who served as the Chief Financial Officer of QuantStack since 2021. She tragically lost her life in a car accident on Thursday, April 18th.
+Working with Fanny over the past three years has been a true privilege. Her enthusiasm and zest for life brightened even the most mundane moments. In the words of one of her close friends, "having Fanny on your team was like having an army behind you." Her tireless work ethic, meticulous attention to detail, and unwavering support made her an invaluable ally. Fanny's dedication, efforts, and infectious enthusiasm have significantly contributed to the transformation of QuantStack from a small, developing company into a solid and thriving business.
+
+Fanny was a guiding voice in our journey of building this company. Our thoughts are with her family, especially her partner Matias and their three young children, who are now left without their loving mother.
+
+Fanny was more than just a colleague; she was a friend who will continue to inspire us. We extend our deepest sympathies, condolences, and heartfelt support to Fanny's family, friends, and loved ones during this incredibly difficult time.
