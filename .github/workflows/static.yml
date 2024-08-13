@@ -4,7 +4,7 @@ name: Deploy static content to Pages
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: ["new_website"]
+    branches: ["master"]
   pull_request:
     branches:
       - '*'
@@ -39,7 +39,7 @@ jobs:
 
   deploy:
     needs: build
-    if: github.ref == 'refs/heads/new_website'
+    if: github.ref == 'refs/heads/master'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
