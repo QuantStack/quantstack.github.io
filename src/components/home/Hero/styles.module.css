@@ -1,6 +1,8 @@
 .pydata_image {
-  height: 100%;
   filter: grayscale(0.8);
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .pydata_banner {
@@ -14,20 +16,23 @@
   }
 
   .pydata_header {
-    position: absolute;
-    top: 20%;
-    left: 17%;
+    text-align: center;
     color: var(--ifm-color-primary-p1);
-    font-size: 16px;
+    font-size: 1em;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
   .pydata_informations {
     text-align: center;
-    position: absolute;
-    top: 40%;
-    left: 25%;
     color: white;
-    font-size: 12px;
+    font-size: 0.75em;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
   a {
@@ -69,20 +74,23 @@
 @media only screen and (min-width: 996px) {
   /*Desktop*/
   .pydata_header {
-    position: absolute;
-    top: 18%;
-    left: 37%;
+    text-align: center;
     color: var(--ifm-color-primary-p1);
-    font-size: 32px;
+    font-size: 2em;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
   .pydata_informations {
     text-align: center;
-    position: absolute;
-    top: 40%;
-    left: 40%;
     color: white;
-    font-size: 24px;
+    font-size: 1.5em;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
   a {
