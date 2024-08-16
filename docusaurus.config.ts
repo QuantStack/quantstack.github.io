@@ -131,7 +131,7 @@ const config: Config = {
       ],
     },
 
-    footer: {
+    /*footer: {
       links: [
         {
           title: " ",
@@ -214,8 +214,7 @@ const config: Config = {
       ],
 
       copyright: copyright,
-    },
-  
+    },*/
     
       colorMode: {
         defaultMode: 'light',

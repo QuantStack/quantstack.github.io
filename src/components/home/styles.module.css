@@ -1,3 +1,10 @@
+.footer_container {
+  background-color: var(--ifm-color-primary-p1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @media only screen and (max-width: 996px) {
   /*Mobile*/
   .link_to {

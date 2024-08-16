@@ -148,10 +148,8 @@ ul {
 
 .footer-astronaut {
   display: flex;
-  text-align: left;
-  margin-right: var(--ifm-spacing-lg);
-  width: 200px;
-  height: 200px;
+  width: 35px;
+  height: 35px;
   padding: 10px;
 }
 
