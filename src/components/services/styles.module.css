@@ -1,3 +1,7 @@
 .h2_custom {
   color: var(--ifm-color-indigo-i1);
 }
+
+ul {
+  padding-left: 20px;
+}
