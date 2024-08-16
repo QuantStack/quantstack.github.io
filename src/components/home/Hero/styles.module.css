@@ -3,13 +3,44 @@
   width: 100%;
   height: auto;
   display: block;
+  opacity: calc(0.4);
 }
 
 .pydata_banner {
   position: relative;
 }
 
-@media only screen and (max-width: 996px) {
+@media only screen and (max-width: 530px) {
+  /*Small mobile screens*/
+  .logos_carousel {
+    display: none;
+  }
+
+  .pydata_header {
+    text-align: center;
+    color: var(--ifm-color-blue-jupyter);
+    font-family: var(--ifm-font-family-bebas-neue);
+    font-size: 16px;
+    font-weight: 600;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .pydata_informations {
+    text-align: center;
+    color:var(--ifm-color-primary-p2);
+    font-size: 12px;
+    font-weight: 600;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media only screen and (min-width: 530px) and (max-width: 996px) {
   /*Mobile*/
   .logos_carousel {
     display: none;
@@ -17,8 +48,10 @@
 
   .pydata_header {
     text-align: center;
-    color: var(--ifm-color-primary-p1);
-    font-size: 1em;
+    color: var(--ifm-color-blue-jupyter);
+    font-family: var(--ifm-font-family-bebas-neue);
+    font-size: var(--ifm-font-size-medium);
+    font-weight: 600;
     position: absolute;
     top: 40%;
     left: 50%;
@@ -27,16 +60,13 @@
 
   .pydata_informations {
     text-align: center;
-    color: white;
-    font-size: 0.75em;
+    color: var(--ifm-color-primary-p2);
+    font-size: var(--ifm-font-size-small);
+    font-weight: 600;
     position: absolute;
     top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
-
-  a {
-    color: var(--ifm-color-primary-p1);
   }
 }
 
@@ -75,8 +105,10 @@
   /*Desktop*/
   .pydata_header {
     text-align: center;
-    color: var(--ifm-color-primary-p1);
-    font-size: 2em;
+    color: var(--ifm-color-blue-jupyter);
+    font-family: var(--ifm-font-family-bebas-neue);
+    font-size: var(--ifm-font-size-large);
+    font-weight: 600;
     position: absolute;
     top: 40%;
     left: 50%;
@@ -85,15 +117,13 @@
 
   .pydata_informations {
     text-align: center;
-    color: white;
-    font-size: 1.5em;
+    color: var(--ifm-color-primary-p2);
+    font-size: var(--ifm-font-size-medium);
+    font-weight: 600;
     position: absolute;
     top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
 
-  a {
-    color: var(--ifm-color-primary-p1);
-  }
 }

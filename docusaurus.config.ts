@@ -215,6 +215,7 @@ const config: Config = {
 
       copyright: copyright,
     },
+  
     
       colorMode: {
         defaultMode: 'light',
