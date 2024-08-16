@@ -9,9 +9,6 @@ export default function Services() {
     <div className="upper-container-with-margin-top">
       <Header />
       <Support />
-      <div className={styles.transition}>
-        Work with the people behind the technology.
-      </div>
       <SpecialProjects />
       <div className="blue-banner-container">
         <div

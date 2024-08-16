@@ -1,31 +1,3 @@
 .h2_custom {
   color: var(--ifm-color-indigo-i1);
 }
-
-@media only screen and (max-width: 996px) {
-  /*Mobile*/
-  .transition {
-    font-family: var(--ifm-font-family-bebas-neue);
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 150%;
-    text-align: center;
-    margin-top: var(--ifm-spacing-2xl);
-    color: var(--ifm-color-indigo-i1);
-  }
-}
-
-@media only screen and (min-width: 996px) {
-  /*Desktop*/
-  .transition {
-    font-family: var(--ifm-font-family-bebas-neue);
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 150%;
-    text-align: center;
-    margin-top: var(--ifm-spacing-4xl);
-    color: var(--ifm-color-indigo-i1);
-  }
-}
