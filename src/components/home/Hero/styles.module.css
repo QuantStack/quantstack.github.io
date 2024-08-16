@@ -8,6 +8,7 @@
 
 .pydata_banner {
   position: relative;
+  background-color: var(--ifm-color-secondary-s1);
 }
 
 @media only screen and (max-width: 530px) {
