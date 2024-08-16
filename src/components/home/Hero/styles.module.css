@@ -1,9 +1,40 @@
+.pydata_image {
+  height: 100%;
+  filter: grayscale(0.8);
+}
+
+.pydata_banner {
+  position: relative;
+}
+
 @media only screen and (max-width: 996px) {
   /*Mobile*/
   .logos_carousel {
     display: none;
   }
+
+  .pydata_header {
+    position: absolute;
+    top: 20%;
+    left: 17%;
+    color: var(--ifm-color-primary-p1);
+    font-size: 16px;
+  }
+
+  .pydata_informations {
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    color: white;
+    font-size: 12px;
+  }
+
+  a {
+    color: var(--ifm-color-primary-p1);
+  }
 }
+
 .hero_container {
   background-color: var(--ifm-color-primary-p0);
   padding-bottom: var(--ifm-spacing-3xl);
@@ -33,4 +64,28 @@
 
 .sub_header {
   text-align: left;
+}
+
+@media only screen and (min-width: 996px) {
+  /*Desktop*/
+  .pydata_header {
+    position: absolute;
+    top: 18%;
+    left: 37%;
+    color: var(--ifm-color-primary-p1);
+    font-size: 32px;
+  }
+
+  .pydata_informations {
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    color: white;
+    font-size: 24px;
+  }
+
+  a {
+    color: var(--ifm-color-primary-p1);
+  }
 }
