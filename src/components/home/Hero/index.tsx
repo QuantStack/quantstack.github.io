@@ -2,23 +2,36 @@ import styles from "./styles.module.css";
 import SimpleSlider from "./LogosTableBy8";
 import Astronaut from "/img/quantstack/astronaut.svg";
 import CiteDesSciencesUrl from "@site/static/img/quantstack/geode-cropped.png";
+import LogoPyDataParisUrl from "@site/static/img/quantstack/PyData_logo.png";
+import Link from "@docusaurus/Link";
 
 export function PydataParis() {
   return (
     <div className={styles.pydata_banner}>
-      <img
-        className={styles.pydata_image}
-        src={CiteDesSciencesUrl}
-        alt={"Banner to promote Pydata Paris."}
-        width={"100%"}
-      />
-      <p className={styles.pydata_header}>Join QuantStack at PyData Paris</p>
+      <Link href={"https://pydata.org/paris2024"}>
+        <img
+          className={styles.pydata_image}
+          src={CiteDesSciencesUrl}
+          alt={"Banner to promote Pydata Paris."}
+          width={"100%"}
+        />
+      </Link>
+      <Link href={"https://pydata.org/paris2024"}>
+        <p className={styles.pydata_header}>Join QuantStack at PyData Paris</p>
+      </Link>
+      <Link href={"https://pydata.org/paris2024"}>
+        <img
+          className={styles.pydata_logo}
+          src={LogoPyDataParisUrl}
+          alt={"Logo of PyData Paris Conference."}
+          width={"10%"}
+        />
+      </Link>
       <p className={styles.pydata_informations}>
         September 25-26 2024
         <br />
         Cité des Sciences, Paris, France
         <br />
-        <a>https://pydata.org/paris2024</a>
       </p>
     </div>
   );

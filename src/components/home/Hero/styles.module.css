@@ -11,6 +11,7 @@
   background-color: var(--ifm-color-secondary-s1);
 }
 
+
 @media only screen and (max-width: 530px) {
   /*Small mobile screens*/
   .logos_carousel {
@@ -24,15 +25,22 @@
     font-size: var(--ifm-font-size-normal);
     font-weight: 600;
     position: absolute;
-    top: 15%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
     min-width: 250px;
   }
 
+  .pydata_logo {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
   .pydata_informations {
     text-align: center;
-    color:var(--ifm-color-primary-p2);
+    color:white;
     font-size: 12px;
     font-weight: 600;
     position: absolute;
@@ -60,6 +68,13 @@
     left: 50%;
     transform: translate(-50%, -50%);
     min-width: 350px;
+  }
+
+  .pydata_logo {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
   .pydata_informations {
@@ -114,19 +129,26 @@
     font-size: var(--ifm-font-size-main-title);
     font-weight: 600;
     position: absolute;
-    top: 30%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     min-width: 600px;
   }
 
+  .pydata_logo {
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
   .pydata_informations {
     text-align: center;
-    color: var(--ifm-color-primary-p2);
+    color:white;
     font-size: var(--ifm-font-size-medium);
     font-weight: 600;
     position: absolute;
-    top: 60%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
