@@ -19,14 +19,15 @@
 
   .pydata_header {
     text-align: center;
-    color: var(--ifm-color-blue-jupyter);
+    color: var(--ifm-color-primary-p2);
     font-family: var(--ifm-font-family-bebas-neue);
-    font-size: 16px;
+    font-size: var(--ifm-font-size-normal);
     font-weight: 600;
     position: absolute;
-    top: 25%;
+    top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
+    min-width: 250px;
   }
 
   .pydata_informations {
@@ -35,9 +36,10 @@
     font-size: 12px;
     font-weight: 600;
     position: absolute;
-    top: 60%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
+    min-width: 250px;
   }
 }
 
@@ -49,14 +51,15 @@
 
   .pydata_header {
     text-align: center;
-    color: var(--ifm-color-blue-jupyter);
+    color: var(--ifm-color-primary-p2);
     font-family: var(--ifm-font-family-bebas-neue);
-    font-size: var(--ifm-font-size-medium);
+    font-size: var(--ifm-font-size-secondary-title);
     font-weight: 600;
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
+    min-width: 350px;
   }
 
   .pydata_informations {
@@ -65,7 +68,7 @@
     font-size: var(--ifm-font-size-small);
     font-weight: 600;
     position: absolute;
-    top: 70%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -106,14 +109,15 @@
   /*Desktop*/
   .pydata_header {
     text-align: center;
-    color: var(--ifm-color-blue-jupyter);
+    color: var(--ifm-color-primary-p2);
     font-family: var(--ifm-font-family-bebas-neue);
-    font-size: var(--ifm-font-size-large);
+    font-size: var(--ifm-font-size-main-title);
     font-weight: 600;
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
+    min-width: 600px;
   }
 
   .pydata_informations {
@@ -122,7 +126,7 @@
     font-size: var(--ifm-font-size-medium);
     font-weight: 600;
     position: absolute;
-    top: 70%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
