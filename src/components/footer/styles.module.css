@@ -1,0 +1,31 @@
+.footer_container {
+  background-color: var(--ifm-color-primary-p1);
+  padding: var(--ifm-spacing-xl) var(--ifm-spacing-2xl) 0 var(--ifm-spacing-2xl);
+}
+
+.copyright_container {
+    text-align: center;
+}
+
+@media only screen and (max-width: 996px) {
+  /*Mobile*/
+  .astronaut_container {
+    display: none;
+  }
+  .menu_container {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 996px) {
+  /*Desktop*/
+  .astronaut-container {
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .social_media_links {
+    padding-bottom: var(--ifm-spacing-xl);
+  }
+}
