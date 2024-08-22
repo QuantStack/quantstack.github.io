@@ -8,14 +8,14 @@ export default function SocialMediaContacts({ person }) {
   return (
     <>
       <div className="flex-full-centered">
-        <Link href={person.githubLink}>{<GHPicture />}</Link>
+        {/* <Link href={person.githubLink}>{<GHPicture />}</Link>
         <Link href={person.LinkedInLink}>{<LinkedInPicture />}</Link>
-        <Link href={person.XLink}>{<XPicture />}</Link>
+        <Link href={person.XLink}>{<XPicture />}</Link> */}
       </div>
       <div className="flex-full-centered">
-        <Link href={person.githubLink} className={styles.githubname}>
+        {/* <Link href={person.githubLink} className={styles.githubname}>
           {person.githubName}
-        </Link>
+        </Link> */}
       </div>
     </>
   );

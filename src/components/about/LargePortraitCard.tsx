@@ -8,7 +8,7 @@ import Avatar from "./Avatar";
 export function Distinction({ person }) {
   if (person.distinctionTitle.length !== 0) {
     return person.distinctionTitle.map((distinction, index) => (
-      <div>
+      <div key={index}>
         <Link href={person.distinctionLink[index]}>
           <DistinctionIcon className={styles.distinction_icon} />
           {distinction}

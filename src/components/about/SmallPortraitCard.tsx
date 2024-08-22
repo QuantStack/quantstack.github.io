@@ -4,16 +4,16 @@ import SocialMediaContacts from "./SocialMediaContacts";
 import { useRef, useState } from "react";
 import LargePortraitCard from "./LargePortraitCard";
 import Avatar from "./Avatar";
-import Link from "@docusaurus/Link";
 
 const contentStyle = {
   background: "white",
   borderRadius: "10px",
+  opacity: 1.0
 };
 
 const overlayStyle = {
   backgroundColor: "var(--ifm-background-color-popup-overlay)",
-  opacity: "0.4",
+  opacity: 0.4,
   width: "100%",
   height: "100%",
 };
@@ -21,6 +21,7 @@ const overlayStyle = {
 function getCenterOfViewport() {
   let horizontalCenter = Math.floor(window.innerWidth / 2);
   let verticalCenter = Math.floor(window.innerHeight / 2);
+  console.log("Center of viewport:", [horizontalCenter, verticalCenter]);
   return [horizontalCenter, verticalCenter];
 }
 
@@ -35,6 +36,7 @@ function calculateOffsets(elementRef) {
     xViewportCenter - xCardCenter,
     yViewportCenter - yCardCenter,
   ];
+  console.log("Offsets are:", offsets);
   return offsets;
 }
 
@@ -73,23 +75,21 @@ export function SmallPortraitCard({ person, setOffsets }) {
     </div>
   );
 }
-export default function PopupPortrait({ person }) {
+export default function PopupPortrait({ person, ...props }) {
   const [offsets, setOffsets] = useState([0, 0]);
-  let [isPopupOpen, setIsPopupOpen] = useState(false);
-
+  let [isPopupOpen, setIsPopupOpen] = useState(props.isPopupOpen);
   return (
     <div>
+      <div>
+        <SmallPortraitCard person={person} setOffsets={setOffsets} />
+      </div>
       <Popup
         open={isPopupOpen}
         closeOnEscape={true}
         closeOnDocumentClick={true}
         onClose={() => setIsPopupOpen(false)}
-        trigger={
-          <div>
-            <SmallPortraitCard person={person} setOffsets={setOffsets} />
-          </div>
-        }
         onOpen={() => {
+          props.isPopupOpen = true;
           setIsPopupOpen(true);
         }}
         contentStyle={contentStyle}
