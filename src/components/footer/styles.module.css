@@ -4,14 +4,12 @@
 }
 
 .copyright_container {
-    text-align: center;
+  text-align: center;
+  padding-bottom: var(--ifm-spacing-lg);
 }
 
 @media only screen and (max-width: 996px) {
   /*Mobile*/
-  .astronaut_container {
-    display: none;
-  }
   .menu_container {
     display: none;
   }
@@ -19,12 +17,6 @@
 
 @media only screen and (min-width: 996px) {
   /*Desktop*/
-  .astronaut-container {
-    padding: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
   .social_media_links {
     padding-bottom: var(--ifm-spacing-xl);
   }
