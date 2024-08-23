@@ -1,9 +1,85 @@
-@media only screen and (max-width: 996px) {
+.pydata_image {
+  filter: grayscale(0.8);
+  width: 100%;
+  height: auto;
+  display: block;
+  opacity: calc(0.4);
+}
+
+.pydata_banner {
+  background-color: white;
+  position: relative;
+}
+
+@media only screen and (max-width: 530px) {
+  /*Small mobile screens*/
+  .logos_carousel {
+    display: none;
+  }
+
+  .pydata_header {
+    color: var(--ifm-color-primary-p2);
+    font-family: var(--ifm-font-family-bebas-neue);
+    font-size: var(--ifm-font-size-normal);
+    font-weight: 600;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    text-align: start;
+  }
+
+  .pydata_logo {
+    position: absolute;
+    top: 32%;
+    left: 5%;
+    width: 10%
+  }
+
+  .pydata_informations {
+    color: grey;
+    font-size: 12px;
+    font-weight: 600;
+    position: absolute;
+    top: 53%;
+    left: 5%;
+    text-align: start;
+  }
+}
+
+@media only screen and (min-width: 530px) and (max-width: 996px) {
   /*Mobile*/
   .logos_carousel {
     display: none;
   }
+
+  .pydata_header {
+    color: var(--ifm-color-primary-p2);
+    font-family: var(--ifm-font-family-bebas-neue);
+    font-size: var(--ifm-font-size-secondary-title);
+    font-weight: 600;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+  }
+
+  .pydata_logo {
+    position: absolute;
+    top: 28%;
+    left: 10%;
+    width: 12%
+  }
+
+  .pydata_informations {
+    color: grey;
+    font-size: var(--ifm-font-size-small);
+    font-weight: 600;
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    text-align: start;
+  }
 }
+
 .hero_container {
   background-color: var(--ifm-color-primary-p0);
   padding-bottom: var(--ifm-spacing-3xl);
@@ -33,4 +109,35 @@
 
 .sub_header {
   text-align: left;
+}
+
+@media only screen and (min-width: 996px) {
+  /*Desktop*/
+  .pydata_header {
+    color: var(--ifm-color-primary-p2);
+    font-family: var(--ifm-font-family-bebas-neue);
+    font-size: var(--ifm-font-size-main-title);
+    font-weight: 600;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    text-align: start;
+  }
+
+  .pydata_logo {
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    width: 12%
+  }
+
+  .pydata_informations {
+    color: grey;
+    font-size: var(--ifm-font-size-medium);
+    font-weight: 600;
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    text-align: start;
+  }
 }

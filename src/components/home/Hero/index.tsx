@@ -1,10 +1,49 @@
 import styles from "./styles.module.css";
 import SimpleSlider from "./LogosTableBy8";
 import Astronaut from "/img/quantstack/astronaut.svg";
+import CiteDesSciencesUrl from "@site/static/img/quantstack/geode-cropped-with-white-rectangle.png";
+import LogoPyDataParisUrl from "@site/static/img/quantstack/PyData_logo.png";
+import Link from "@docusaurus/Link";
+
+export function PydataParis() {
+  return (
+    <div className={styles.pydata_banner}>
+      <Link href={"https://pydata.org/paris2024"}>
+        <img
+          className={styles.pydata_image}
+          src={CiteDesSciencesUrl}
+          alt={"Banner to promote Pydata Paris."}
+          width={"100%"}
+        />
+      </Link>
+        <Link href={"https://pydata.org/paris2024"}>
+          <p className={styles.pydata_header}>
+            Join QuantStack at PyData Paris
+          </p>
+        </Link>
+        <Link href={"https://pydata.org/paris2024"}>
+          <div className={styles.pydata_logo_container}>
+            <img
+              className={styles.pydata_logo}
+              src={LogoPyDataParisUrl}
+              alt={"Logo of PyData Paris Conference."}
+            />
+          </div>
+        </Link>
+        <p className={styles.pydata_informations}>
+          September 25-26 2024
+          <br />
+          Cité des Sciences, Paris, France
+          <br />
+        </p>
+      </div>
+  );
+}
 
 export function Hero() {
   return (
     <div className={styles.hero_container}>
+      <PydataParis />
       <div className="main-container-with-margins">
         <div className="container upper-container-with-margin-top">
           <div className={"row row--no-gutters flex-full-centered"}>
