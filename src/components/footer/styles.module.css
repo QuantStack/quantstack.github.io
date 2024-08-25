@@ -13,11 +13,18 @@
   .menu_container {
     display: none;
   }
+
+  .social_media_desktop {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 996px) {
   /*Desktop*/
-  .social_media_links {
+  .social_media_links_quantstack {
     padding-bottom: var(--ifm-spacing-xl);
+  }
+  .social_media_mobile {
+    display: none ;
   }
 }

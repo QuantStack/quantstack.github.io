@@ -3,31 +3,34 @@ import styles from "./styles.module.css";
 import GHPicture from "@site/static/img/socialmedias/GH.svg";
 import LinkedInPicture from "@site/static/img/socialmedias/LinkedIn.svg";
 import XPicture from "@site/static/img/socialmedias/X.svg";
-import AstronautPicture from "@site/static/img/quantstack/astronaut-footer.svg";
+
+export function SocialMediasQuantStack() {
+  return (
+    <div>
+      <b>Follow us on</b> <br />
+      <div className={styles.social_media_links_quantstack}>
+        <Link href={"https://github.com/QuantStack"}>{<GHPicture />}</Link>
+        <Link href={"https://www.linkedin.com/company/quantstack/mycompany"}>
+          {<LinkedInPicture />}
+        </Link>
+        <Link href={"https://twitter.com/QuantStack"}>{<XPicture />}</Link>
+      </div>
+    </div>
+  );
+}
 
 export default function Footer() {
   return (
     <div className={"container" + " " + styles.footer_container}>
       <div className={"row"} style={{ paddingBottom: "var(--ifm-spacing-xl)" }}>
-        <div className="col col--4 flex-full-centered">
-          <div className={styles.social_media_links}>
-            <b>Follow us on</b> <br />
-            <div className="flex-full-centered">
-              <Link href={"https://github.com/QuantStack"}>
-                {<GHPicture />}
-              </Link>
-              <Link
-                href={"https://www.linkedin.com/company/quantstack/mycompany"}
-              >
-                {<LinkedInPicture />}
-              </Link>
-              <Link href={"https://twitter.com/QuantStack"}>
-                {<XPicture />}
-              </Link>
-            </div>
-          </div>
+        <div
+          className={
+            "col flex-full-centered" + " " + styles.social_media_desktop
+          }
+        >
+          <SocialMediasQuantStack />
         </div>
-        <div className={"col col--4"}>
+        <div className={"col"}>
           <div className={"container" + " " + styles.menu_container}>
             <div style={{ textAlign: "center" }}>
               <b>Menu</b> <br />
@@ -64,7 +67,11 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="col col--4 flex-full-centered">
+        <div className="col">
+        <div className={styles.social_media_mobile}>
+          <SocialMediasQuantStack/>
+        </div>
+
           <div className={styles.office_address}>
             <b>QuantStack office</b> <br />
             16, avenue Curti <br />
