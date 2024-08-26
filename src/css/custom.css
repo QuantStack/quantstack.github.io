@@ -69,6 +69,11 @@
   justify-content: center;
 }
 
+.flex-horizontally-centered {
+  display: flex;
+  justify-content: center;
+}
+
 .horizontally-centered {
   justify-content: center;
 }
@@ -95,10 +100,6 @@ ul {
 }
 
 /***footer*****/
-.address {
-  color: var(--ifm-text-color-footer);
-}
-
 .footer__item {
   color: var(--ifm-text-color-footer);
 }
@@ -148,10 +149,8 @@ ul {
 
 .footer-astronaut {
   display: flex;
-  text-align: left;
-  margin-right: var(--ifm-spacing-lg);
-  width: 200px;
-  height: 200px;
+  width: 35px;
+  height: 35px;
   padding: 10px;
 }
 
