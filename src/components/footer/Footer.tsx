@@ -8,7 +8,7 @@ export function SocialMediasQuantStack() {
   return (
     <div>
       <b>Follow us on</b> <br />
-      <div className={styles.social_media_links_quantstack}>
+      <div style={{marginBottom: "var(--ifm-spacing-lg)"}}>
         <Link href={"https://github.com/QuantStack"}>{<GHPicture />}</Link>
         <Link href={"https://www.linkedin.com/company/quantstack/mycompany"}>
           {<LinkedInPicture />}
@@ -25,18 +25,18 @@ export default function Footer() {
       <div className={"row"} style={{ paddingBottom: "var(--ifm-spacing-xl)" }}>
         <div
           className={
-            "col flex-full-centered" + " " + styles.social_media_desktop
+            "col flex-horizontally-centered" + " " + styles.col_social_media_desktop
           }
         >
           <SocialMediasQuantStack />
         </div>
-        <div className={"col"}>
+        <div className={"col flex-horizontally-centered"}>
           <div className={"container" + " " + styles.menu_container}>
             <div style={{ textAlign: "center" }}>
               <b>Menu</b> <br />
             </div>
             <div className="row">
-              <div className="col">
+              <div className="col flex-horizontally-centered">
                 <ul>
                   <li>
                     <Link href={"/home"}>Home</Link>
@@ -50,7 +50,7 @@ export default function Footer() {
                   </li>
                 </ul>
               </div>
-              <div className="col">
+              <div className="col flex-horizontally-centered">
                 <ul>
                   <li>
                     <Link href={"/services"}>Services</Link>
@@ -67,16 +67,31 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="col">
-        <div className={styles.social_media_mobile}>
-          <SocialMediasQuantStack/>
+        <div
+          className={
+            "col flex-full-centered" + " " + styles.col_address_desktop
+          }
+        >
+          <div>
+            <div>
+              <b>QuantStack office</b> <br />
+              16, avenue Curti <br />
+              94100 Saint-Maur-des-Fossés <br />
+              France
+            </div>
+          </div>
         </div>
 
-          <div className={styles.office_address}>
-            <b>QuantStack office</b> <br />
-            16, avenue Curti <br />
-            94100 Saint-Maur-des-Fossés <br />
-            France
+        <div className={"col" + " " + styles.col_social_media_and_address_mobile}>
+          <SocialMediasQuantStack />
+
+          <div>
+            <div>
+              <b>QuantStack office</b> <br />
+              16, avenue Curti <br />
+              94100 Saint-Maur-des-Fossés <br />
+              France
+            </div>
           </div>
         </div>
       </div>

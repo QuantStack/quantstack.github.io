@@ -69,6 +69,11 @@
   justify-content: center;
 }
 
+.flex-horizontally-centered {
+  display: flex;
+  justify-content: center;
+}
+
 .horizontally-centered {
   justify-content: center;
 }
@@ -95,10 +100,6 @@ ul {
 }
 
 /***footer*****/
-.address {
-  color: var(--ifm-text-color-footer);
-}
-
 .footer__item {
   color: var(--ifm-text-color-footer);
 }

@@ -14,17 +14,23 @@
     display: none;
   }
 
-  .social_media_desktop {
+  .col_social_media_desktop {
+    display: none;
+  }
+
+  .col_address_desktop {
     display: none;
   }
 }
 
 @media only screen and (min-width: 996px) {
   /*Desktop*/
-  .social_media_links_quantstack {
-    padding-bottom: var(--ifm-spacing-xl);
+
+  .col_social_media_mobile {
+    display: none;
   }
-  .social_media_mobile {
-    display: none ;
+
+  .col_social_media_and_address_mobile {
+    display: none;
   }
 }
