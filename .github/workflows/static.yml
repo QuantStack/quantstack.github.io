@@ -4,10 +4,10 @@ name: Deploy static content to Pages
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: ["master"]
+    branches: "open_the_popup_portrait_on_a_specific_page"
   pull_request:
     branches:
-      - '*'
+      - "open_the_popup_portrait_on_a_specific_page"
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 
@@ -19,6 +19,24 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+replace_string:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set environment variable for branch name
+        env:
+          BRANCH_NAME: ${{ github.ref_name }}
+          REPO_NAME: ${{github.repository_name}}
+          
+        run: echo "Branch name is $BRANCH_NAME"
+
+      - name: Replace 'BaseUrl' with branch name in file
+        run: |
+          sed -i "s/BaseUrl/${BRANCH_NAME}/g" docusaurus.config.ts
+          
   build:
     runs-on: ubuntu-latest
     steps:
@@ -38,8 +56,8 @@ jobs:
           path: ./build
 
   deploy:
-    needs: build
-    if: github.ref == 'refs/heads/master'
+    needs: build, replace_string
+    if: github.ref == 'refs/heads/open_the_popup_portrait_on_a_specific_page'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
