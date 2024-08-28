@@ -9,7 +9,7 @@ export default function AllProjects() {
         {projectsDetails.map((project, index) => {
           return(
           <li className="projects-list" key={index}>
-            <div className="col">
+            <div className="col" style={{padding:"0 0"}}>
               <ProjectCard project={project}/>
             </div>
           </li>

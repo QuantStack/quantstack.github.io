@@ -73,12 +73,18 @@ div .project_title {
     border: none;
     margin-bottom: var(--ifm-spacing-xl);
   }
+
+ li .project_ {
+    padding-left: 0;
+    margin-left: 0;
+  }
 }
 
 @media only screen and (min-width: 996px) {
   /*Desktop*/
   .header_container {
     margin-top: var(--ifm-spacing-6xl);
+    background-color: red;
   }
   .header_title {
     padding-left: var(--ifm-spacing-4xl);

@@ -92,6 +92,7 @@
 
 ul {
   padding-left: 0;
+  margin-left:0;
 }
 
 .container {
@@ -641,6 +642,7 @@ a.menu__link:active {
 
 .projects-list {
   list-style-type: none;
-  padding: none;
-  width: 100%;
+  padding-left: 0;
+  margin-left: 0;
+ /* width: 100%;*/
 }
