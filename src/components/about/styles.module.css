@@ -5,7 +5,7 @@
   color: var(--ifm-color-primary-p2);
   border-radius: 8px;
   box-shadow: 0px 0px 8px 1px #c8c8c7;
-  padding: var(--ifm-spacing-lg) var(--ifm-spacing-md);
+  padding: var(--ifm-spacing-lg) var(--ifm-spacing-xs);
   margin-bottom: var(--ifm-spacing-xl);
 }
 
@@ -14,6 +14,7 @@
   cursor: pointer; 
   text-decoration: #0000EE underline;
 }
+
 
 .value_text p {
   font-family: var(--ifm-font-family-roboto);
@@ -50,6 +51,7 @@ div .row {
   line-height: 24px;
   letter-spacing: 0.15px;
   margin: var(--ifm-spacing-xs) 0;
+  width: 100%
 }
 
 .small_card_position {
