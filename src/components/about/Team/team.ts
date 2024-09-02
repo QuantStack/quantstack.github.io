@@ -36,6 +36,8 @@ import KerimMD from "@site/src/components/about/Team/Kerim.md";
 import KerimAvatarUrl from "@site/static/img/avatars/Kerim.png";
 import MartinMD from "@site/src/components/about/Team/Martin.md";
 import MartinAvatarUrl from "@site/static/img/avatars/Martin.png";
+import MatthiasMD from "@site/src/components/about/Team/Matthias.md";
+import MatthiasAvatarUrl from "@site/static/img/avatars/Matthias.png";
 import MeriemMD from "@site/src/components/about/Team/Meriem.md";
 import MeriemAvatarUrl from "@site/static/img/avatars/Meriem.png";
 import NicolasMD from "@site/src/components/about/Team/Nicolas.md";
@@ -521,5 +523,21 @@ export const leadershipTeam = [
     distinctionLink: ["https://jupyter.org/about#distinguished-contributors"],
     subTeamName: "LeadershipTeam",
     BioComponent: DavidMD,
+  },
+  {
+    completeName: "Matthias Meschede",
+    firstName: "Matthias",
+    position: "Director Business Development",
+    onGithub: "true",
+    onLinkedIn: "true",
+    onX: false,
+    githubLink: "https://github.com/mmesch",
+    LinkedInLink: "https://www.linkedin.com/in/mmesch/",
+    githubName: "@mmesch",
+    avatarUrl: MatthiasAvatarUrl,
+    distinctionTitle: [],
+    distinctionLink: [],
+    subTeamName: "LeadershipTeam",
+    BioComponent: MatthiasMD,
   },
 ];
