@@ -22,7 +22,7 @@ export default function SupplyChainProjects() {
         >
           <h1 className="padding-none">Software supply chain </h1>
           <h2 className={styles.h2_custom}>
-            We are the main organisation supporting the mamba package manager.
+            We are the main organization supporting the mamba package manager.
           </h2>
           <div className="spacing-2xl"></div>
           <SupplyChainMD />
