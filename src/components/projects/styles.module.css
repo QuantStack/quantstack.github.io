@@ -16,7 +16,6 @@ div .project_title {
 }
 
 .project_description {
-  padding: var(--ifm-spacing-md) var(--ifm-spacing-xl);
   text-align: center;
 }
 
@@ -46,7 +45,7 @@ div .project_title {
     letter-spacing: 0.25px;
     text-align: center;
     margin-bottom: var(--ifm-spacing-lg);
-    padding: var(--ifm-spacing-lg) var(--ifm-spacing-2xl);
+    padding: var(--ifm-spacing-lg) var(--ifm-spacing-xl);
   }
 
   .col_project_text p {
@@ -84,7 +83,6 @@ div .project_title {
   /*Desktop*/
   .header_container {
     margin-top: var(--ifm-spacing-6xl);
-    background-color: red;
   }
   .header_title {
     padding-left: var(--ifm-spacing-4xl);

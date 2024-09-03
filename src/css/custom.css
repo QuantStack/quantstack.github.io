@@ -213,6 +213,7 @@ ul {
     line-height: 20px;
     letter-spacing: 0.25px;
     text-align: center;
+    padding: var(--ifm-spacing-lg)
   }
 
   li {

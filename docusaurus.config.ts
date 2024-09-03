@@ -12,12 +12,12 @@ const config: Config = {
   url: "https://quantstack.net/",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/",
+  baseUrl: "/quantstack.github.io/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "QuantStack", // Usually your GitHub org/user name.
-  projectName: "/quantstack.github.io/", // Usually your repo name.
+  organizationName: "/HaudinFlorence/", // Usually your GitHub org/user name.
+  projectName: "quantstack.github.io", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",

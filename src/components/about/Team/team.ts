@@ -6,6 +6,8 @@ import AndreasMD from "@site/src/components/about/Team/Andreas.md";
 import AndreasAvatarUrl from "@site/static/img/avatars/Andreas.png";
 import AnutoshMD from "@site/src/components/about/Team/Anutosh.md";
 import AnutoshAvatarUrl from "@site/static/img/avatars/Anutosh.png";
+import ArjunMD from "@site/src/components/about/Team/Arjun.md"
+import ArjunAvatarUrl from "@site/static/img/avatars/Arjun.png";
 import DavidMD from "@site/src/components/about/Team/David.md";
 import DavidAvatarUrl from "@site/static/img/avatars/David.png";
 import DarianMD from "@site/src/components/about/Team/Darian.md";
@@ -36,6 +38,8 @@ import KerimMD from "@site/src/components/about/Team/Kerim.md";
 import KerimAvatarUrl from "@site/static/img/avatars/Kerim.png";
 import MartinMD from "@site/src/components/about/Team/Martin.md";
 import MartinAvatarUrl from "@site/static/img/avatars/Martin.png";
+import MatthiasMD from "@site/src/components/about/Team/Matthias.md";
+import MatthiasAvatarUrl from "@site/static/img/avatars/Matthias.png";
 import MeriemMD from "@site/src/components/about/Team/Meriem.md";
 import MeriemAvatarUrl from "@site/static/img/avatars/Meriem.png";
 import NicolasMD from "@site/src/components/about/Team/Nicolas.md";
@@ -379,6 +383,24 @@ export const coreTeam = [
     subTeamName: "coreTeam",
     BioComponent: KerimMD,
   },
+  {
+    completeName: "Arjun Verma",
+    firstName: "Arjun",
+    position: " Scientific Software Development Intern",
+    onLinkednIn: "true",
+    onGithub: "true",
+    onX: "true",
+    githubLink: "https://github.com/arjxn-py",
+    LinkedInLink:
+      "https://www.linkedin.com/in/arjun-verma-758608226/",
+    XLink: "https://x.com/ArjxnPy",
+    githubName: "@arjxn-py",
+    avatarUrl: ArjunAvatarUrl,
+    distinctionTitle: [],
+    distinctionLink: [],
+    subTeamName: "coreTeam",
+    BioComponent: ArjunMD,
+  },
 ];
 
 export const QSCollaboratorsTeam = [
@@ -521,5 +543,21 @@ export const leadershipTeam = [
     distinctionLink: ["https://jupyter.org/about#distinguished-contributors"],
     subTeamName: "LeadershipTeam",
     BioComponent: DavidMD,
+  },
+  {
+    completeName: "Matthias Meschede",
+    firstName: "Matthias",
+    position: "Director Business Development",
+    onGithub: "true",
+    onLinkedIn: "true",
+    onX: false,
+    githubLink: "https://github.com/mmesch",
+    LinkedInLink: "https://www.linkedin.com/in/mmesch/",
+    githubName: "@mmesch",
+    avatarUrl: MatthiasAvatarUrl,
+    distinctionTitle: [],
+    distinctionLink: [],
+    subTeamName: "LeadershipTeam",
+    BioComponent: MatthiasMD,
   },
 ];

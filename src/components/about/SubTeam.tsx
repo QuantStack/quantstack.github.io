@@ -15,7 +15,6 @@ export default function SubTeam({
               <div className="col">
                 <PopupPortrait
                   person={person}
-                 
                 />
               </div>
             </li>
