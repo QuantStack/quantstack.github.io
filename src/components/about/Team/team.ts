@@ -6,6 +6,8 @@ import AndreasMD from "@site/src/components/about/Team/Andreas.md";
 import AndreasAvatarUrl from "@site/static/img/avatars/Andreas.png";
 import AnutoshMD from "@site/src/components/about/Team/Anutosh.md";
 import AnutoshAvatarUrl from "@site/static/img/avatars/Anutosh.png";
+import ArjunMD from "@site/src/components/about/Team/Arjun.md"
+import ArjunAvatarUrl from "@site/static/img/avatars/Arjun.png";
 import DavidMD from "@site/src/components/about/Team/David.md";
 import DavidAvatarUrl from "@site/static/img/avatars/David.png";
 import DarianMD from "@site/src/components/about/Team/Darian.md";
@@ -380,6 +382,24 @@ export const coreTeam = [
     distinctionLink: [],
     subTeamName: "coreTeam",
     BioComponent: KerimMD,
+  },
+  {
+    completeName: "Arjun Verma",
+    firstName: "Arjun",
+    position: " Scientific Software Development Intern",
+    onLinkednIn: "true",
+    onGithub: "true",
+    onX: "true",
+    githubLink: "https://github.com/arjxn-py",
+    LinkedInLink:
+      "https://www.linkedin.com/in/arjun-verma-758608226/",
+    XLink: "https://x.com/ArjxnPy",
+    githubName: "@arjxn-py",
+    avatarUrl: ArjunAvatarUrl,
+    distinctionTitle: [],
+    distinctionLink: [],
+    subTeamName: "coreTeam",
+    BioComponent: ArjunMD,
   },
 ];
 
