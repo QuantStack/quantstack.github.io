@@ -92,6 +92,7 @@
 
 ul {
   padding-left: 0;
+  margin-left:0;
 }
 
 .container {
@@ -211,7 +212,7 @@ ul {
     line-height: 150%;
     line-height: 20px;
     letter-spacing: 0.25px;
-    text-align: center;
+    padding: 0 var(--ifm-spacing-lg) 
   }
 
   li {
@@ -297,6 +298,7 @@ ul {
     margin: var(--ifm-spacing-2xl) 0;
   }
 
+  
   h1 {
     color: var(--ifm-color-primary-p2);
     font-family: var(--ifm-font-family-bebas-neue);
@@ -637,10 +639,12 @@ a.menu__link:active {
 .cards-list {
   list-style-type: none;
   padding: none;
+  margin-left: 0;
 }
 
 .projects-list {
   list-style-type: none;
   padding: none;
+  margin-left:0;
   width: 100%;
 }
