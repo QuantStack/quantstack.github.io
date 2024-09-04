@@ -92,6 +92,7 @@
 
 ul {
   padding-left: 0;
+  margin-left:0;
 }
 
 .container {
@@ -211,7 +212,7 @@ ul {
     line-height: 150%;
     line-height: 20px;
     letter-spacing: 0.25px;
-    text-align: center;
+    padding: 0 var(--ifm-spacing-2xl)
   }
 
   li {
@@ -641,6 +642,6 @@ a.menu__link:active {
 
 .projects-list {
   list-style-type: none;
-  padding: none;
-  width: 100%;
+  padding-left: 0;
+  margin-left: 0;
 }

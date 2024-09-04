@@ -16,7 +16,6 @@ div .project_title {
 }
 
 .project_description {
-  padding: var(--ifm-spacing-md) var(--ifm-spacing-xl);
   text-align: center;
 }
 
@@ -46,12 +45,13 @@ div .project_title {
     letter-spacing: 0.25px;
     text-align: center;
     margin-bottom: var(--ifm-spacing-lg);
-    padding: var(--ifm-spacing-lg) var(--ifm-spacing-2xl);
+    padding: var(--ifm-spacing-lg) var(--ifm-spacing-xl);
   }
 
-  .col_project_text p {
+  .project_text {
     background-color: white;
     text-align: justify;
+    padding: var(--ifm-spacing-lg) var(--ifm-spacing-2xl)
   }
 
   .project_picture_jupyter {
