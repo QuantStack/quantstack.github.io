@@ -45,10 +45,10 @@ div .project_title {
     letter-spacing: 0.25px;
     text-align: center;
     margin-bottom: var(--ifm-spacing-lg);
-    padding: var(--ifm-spacing-lg) var(--ifm-spacing-2xl);
+    padding: var(--ifm-spacing-lg) var(--ifm-spacing-xl);
   }
 
-  .col_project_text p {
+  .project_text {
     background-color: white;
     text-align: center;
   }
@@ -92,10 +92,6 @@ div .project_title {
     line-height: 28px;
     margin-bottom: var(--ifm-spacing-3xl);
     padding: var(--ifm-spacing-lg) var(--ifm-spacing-4xl);
-  }
-
-  .header_text p {
-    text-align: justify;
   }
 
   .project_text {
