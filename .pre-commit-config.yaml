@@ -11,5 +11,5 @@ repos:
     hooks:
       - id: codespell
         name: Spell Check with Codespell
-        args: ['--write-changes']
+        args: ['--write-changes', '--ignore-words-list=cppp,normale']
         exclude: 'package-lock\.json|\.svg$'
