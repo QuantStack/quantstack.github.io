@@ -12,5 +12,4 @@ repos:
       - id: codespell
         name: Spell Check with Codespell
         args: ['--ignore-words-list=hte,nd']
-        files: '\\.(tsx|md)$'
-        exclude: ''
+        exclude: '.svg'
