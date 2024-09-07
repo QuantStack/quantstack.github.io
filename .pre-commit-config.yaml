@@ -1,7 +1,5 @@
 ci:
-  # pre-commit.ci will open PRs updating our hooks once a month
   autoupdate_schedule: monthly
-  # skip any check that needs internet access
   autofix_prs: true
 
 repos:
@@ -11,5 +9,9 @@ repos:
     hooks:
       - id: codespell
         name: Spell Check with Codespell
-        args: ['--write-changes', '--ignore-words-list=cppp,normale']
+        args:
+          - '--write-changes'
+          - '--ignore-words-list=cppp,normale'
+          - '--dictionary=static/custom_corrections.txt'
+        # Exclude package-lock.json and all .svg files
         exclude: 'package-lock\.json|\.svg$'
