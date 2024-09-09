@@ -12,7 +12,6 @@ repos:
         args:
           - '--write-changes'
           - '--ignore-words-list=cppp,normale'
-          - '--dictionary=static/custom_corrections.txt'
           - '--builtin=en-GB_to_en-US'
         # Exclude package-lock.json and all .svg files
         exclude: 'package-lock\.json|\.svg$'

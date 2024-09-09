@@ -10,7 +10,7 @@
 }
 
 .small_portrait_card:hover {
-  border: solid 1px grey;
+  border: solid 1px gray;
   cursor: pointer; 
   text-decoration: #0000EE underline;
 }
