@@ -1,5 +1,18 @@
 [
   {
+    "url": "https://blog.jupyter.org/interactive-mapping-with-ipyopenlayers-2b8bc93bb6c4",
+    "title": "Interactive Mapping with ipyopenlayers",
+    "image": "/img/blogposts/IPyopenlayers.png",
+    "summary": " In this article, we present the main features of ipyopenlayers and demonstrate how this library can transform your geospatial data into dynamic, interactive visualizations.",
+    "date": "September 6, 2024",
+    "authors": "Nour Cheour",
+    "imageID": "blogpost-image-122",
+    "imageNaturalWidth": 1400,
+    "imageNaturalHeight": 642,
+    "imageRenderedWidth": 273,
+    "imageRenderedHeight": 125.64857142857142
+  },
+  {
     "url": "https://blog.jupyter.org/announcing-the-2023-jupyter-distinguished-contributor-award-recipients-1b2cc4ba203f",
     "title": "Announcing the 2023 cohort of Jupyter distinguished contributors",
     "image": "/img/blogposts/Announcing-the-2023-Jupyter-Distinguished-Contributors.png",
