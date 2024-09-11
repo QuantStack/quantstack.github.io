@@ -39,3 +39,29 @@ $ GIT_USER=<Your GitHub username> yarn deploy
 ```
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+
+### Pre-commit Hook Setup
+
+To ensure code quality and consistency, we use `pre-commit` hooks. Here's how to set up and run the pre-commit hook locally:
+
+1. **Install pre-commit:**
+
+   If `pre-commit` isn't already installed, you can install it using `pip`:
+
+   ```bash
+   $ pip install pre-commit
+   ```
+2. **Install the pre-commit hooks:**
+
+   Once `pre-commit` is installed, set up the hooks for the repository by running:
+
+   ```bash
+   $ pre-commit install
+   ```
+3. **Run pre-commit hooks manually:**
+
+   To run the `pre-commit` hooks on all files manually, use:
+
+   ```bash
+   $ pre-commit run --all-files
+   ```
