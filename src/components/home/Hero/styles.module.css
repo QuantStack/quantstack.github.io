@@ -36,7 +36,7 @@
   }
 
   .pydata_informations {
-    color: grey;
+    color: gray;
     font-size: 12px;
     font-weight: 600;
     position: absolute;
@@ -70,7 +70,7 @@
   }
 
   .pydata_informations {
-    color: grey;
+    color: gray;
     font-size: var(--ifm-font-size-small);
     font-weight: 600;
     position: absolute;
@@ -132,7 +132,7 @@
   }
 
   .pydata_informations {
-    color: grey;
+    color: gray;
     font-size: var(--ifm-font-size-medium);
     font-weight: 600;
     position: absolute;

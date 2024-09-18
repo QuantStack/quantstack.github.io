@@ -17,7 +17,7 @@ export function Contact() {
           <ContactIllustration
             height={"460px"}
             alt={
-              "Illustration for the contact page with a woman, a mobile phone and an enveloppe."
+              "Illustration for the contact page with a woman, a mobile phone and an envelope."
             }
           />
         </div>

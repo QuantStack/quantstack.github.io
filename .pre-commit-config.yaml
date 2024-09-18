@@ -1,0 +1,17 @@
+ci:
+  autoupdate_schedule: monthly
+  autofix_prs: true
+
+repos:
+  # Codespell hook configuration
+  - repo: https://github.com/codespell-project/codespell
+    rev: v2.3.0
+    hooks:
+      - id: codespell
+        name: Spell Check with Codespell
+        args:
+          - '--write-changes'
+          - '--ignore-words-list=cppp,normale'
+          - '--builtin=en-GB_to_en-US'
+        # Exclude package-lock.json and all .svg files
+        exclude: 'package-lock\.json|\.svg$'

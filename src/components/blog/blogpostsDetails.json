@@ -1028,7 +1028,7 @@
   },
   {
     "url": "https://blog.jupyter.org/a-visual-debugger-for-jupyter-914e61716559",
-    "title": "A Visual Debuger for Jupyter",
+    "title": "A Visual Debugger for Jupyter",
     "image": "/img/blogposts/A-Visual-Debuger-for-Jupyter.gif",
     "summary": "Most of the progress made in software projects comes from incrementalism. The ability to quickly see the outcome of an execution and iterate has been one of the main reasons for the success of…",
     "date": "Mar 25, 2020",
