@@ -34,8 +34,6 @@ import JohanMD from "@site/src/components/about/Team/Johan.md";
 import JohanAvatarUrl from "@site/static/img/avatars/Johan.png";
 import JulienMD from "@site/src/components/about/Team/Julien.md";
 import JulienAvatarUrl from "@site/static/img/avatars/Julien.png";
-import KerimMD from "@site/src/components/about/Team/Kerim.md";
-import KerimAvatarUrl from "@site/static/img/avatars/Kerim.png";
 import MartinMD from "@site/src/components/about/Team/Martin.md";
 import MartinAvatarUrl from "@site/static/img/avatars/Martin.png";
 import MatthiasMD from "@site/src/components/about/Team/Matthias.md";
@@ -44,8 +42,6 @@ import MeriemMD from "@site/src/components/about/Team/Meriem.md";
 import MeriemAvatarUrl from "@site/static/img/avatars/Meriem.png";
 import NicolasMD from "@site/src/components/about/Team/Nicolas.md";
 import NicolasAvatarUrl from "@site/static/img/avatars/Nicolas.png";
-import NourMD from "@site/src/components/about/Team/Nour.md";
-import NourAvatarUrl from "@site/static/img/avatars/Nour.png";
 import RomainMD from "@site/src/components/about/Team/Romain.md";
 import RomainAvatarUrl from "@site/static/img/avatars/Romain.png";
 import SergeMD from "@site/src/components/about/Team/Serge.md";
@@ -298,23 +294,6 @@ export const coreTeam = [
     BioComponent: IanMD,
   },
   {
-    completeName: "Nour Cheour",
-    firstName: "Nour",
-    position: " Scientific Software Development Intern",
-    onLinkednIn: "true",
-    onGithub: "true",
-    onX: "false",
-    githubLink: "https://github.com/Nour-Cheour10",
-    LinkedInLink: "https://www.linkedin.com/in/nour-cheour-606143206/",
-    XLink: "",
-    githubName: "@Nour-Cheour10",
-    avatarUrl: NourAvatarUrl,
-    distinctionTitle: [],
-    distinctionLink: [],
-    subTeamName: "coreTeam",
-    BioComponent: NourMD,
-  },
-  {
     completeName: "Meriem Ben Ismail",
     firstName: "Meriem",
     position: " Scientific Software Development Intern",
@@ -364,24 +343,6 @@ export const coreTeam = [
     distinctionLink: [],
     subTeamName: "coreTeam",
     BioComponent: AnastasiiaMD,
-  },
-  {
-    completeName: "Kerim Birgi",
-    firstName: "Kerim",
-    position: " Scientific Software Development Intern",
-    onLinkednIn: "true",
-    onGithub: "true",
-    onX: "false",
-    githubLink: "https://github.com/KGB99",
-    LinkedInLink:
-      "https://www.linkedin.com/in/kerim-gregory-birgi/?originalSubdomain=ch",
-    XLink: "",
-    githubName: "@kgb99",
-    avatarUrl: KerimAvatarUrl,
-    distinctionTitle: [],
-    distinctionLink: [],
-    subTeamName: "coreTeam",
-    BioComponent: KerimMD,
   },
   {
     completeName: "Arjun Verma",
