@@ -5,11 +5,11 @@ import ProjectCard from "./ProjectCard"
 export default function AllProjects() {
   return (
     <div className="container flex-full-centered" style={{marginBottom: "var(--ifm-spacing-3xl)"}}>
-      <ul className="row">
+      <ul className="row--no-gutters" style={{paddingLeft: "0"}}>
         {projectsDetails.map((project, index) => {
           return(
           <li className="projects-list" key={index}>
-            <div className="col">
+            <div className="col" style={{padding:"0 0"}}>
               <ProjectCard project={project}/>
             </div>
           </li>
