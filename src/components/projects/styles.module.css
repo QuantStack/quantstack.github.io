@@ -16,8 +16,7 @@ div .project_title {
 }
 
 .project_description {
-  padding: var(--ifm-spacing-md) var(--ifm-spacing-xl);
-  text-align: center;
+  padding: var(--ifm-spacing-sm) var(--ifm-spacing-xl);
 }
 
 .project_description p {
@@ -51,7 +50,7 @@ div .project_title {
 
   .col_project_text p {
     background-color: white;
-    text-align: justify;
+    text-align: center;
   }
 
   .project_picture_jupyter {
@@ -96,7 +95,7 @@ div .project_title {
   }
 
   .header_text p {
-    text-align: center;
+    text-align: justify;
   }
 
   .project_text {
