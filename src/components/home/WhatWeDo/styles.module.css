@@ -27,8 +27,14 @@ div .topics_header {
 
   .topics_card {
     width: 100%;
-    padding: var(--ifm-spacing-2xl) var(--ifm-spacing-lg);
+    padding: var(--ifm-spacing-lg) var(--ifm-spacing-lg);
+    text-align: justify;
   }
+
+  .topics_card .p {
+    padding: var(--ifm-spacing-lg) var(--ifm-spacing-lg);
+  }
+
 
   .services_link_desktop {
     display: none;
