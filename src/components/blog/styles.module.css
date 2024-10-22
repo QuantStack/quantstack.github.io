@@ -3,7 +3,7 @@
 }
 
 .blogpost_card {
-  height: 540px;
+  height: 556px;
   width: 369px;
   border-radius: 8px;
   box-shadow: 4px 4px 18px -1px #dee0fc;
@@ -39,7 +39,7 @@ div .blogpost_date {
   letter-spacing: -0.154px;
   text-align: justify;
   margin-bottom: var(--ifm-spacing-sm);
-  height: 140px;
+  height: 124px;
   color: var(--ifm-text-color);
 }
 
@@ -51,7 +51,7 @@ div .blogpost_date {
   font-weight: 600;
   line-height: 150%; /* 27px */
   letter-spacing: -0.198px;
-  height: 48px;
+  height: 64px;
   margin: var(--ifm-spacing-xl) 0;
   color: var(--ifm-text-color);
 }
