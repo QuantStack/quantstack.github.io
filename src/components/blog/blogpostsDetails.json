@@ -1,4 +1,16 @@
-[
+[  {
+  "url": "https://medium.com/@QuantStack/quantstack-steps-up-to-support-apache-arrow-with-new-dedicated-team-9ddc952f20e2",
+  "title": "QuantStack Steps Up to Support Apache Arrow with New Dedicated Team",
+  "image": "/img/blogposts/QuantStack-Steps-Up-to-Support-Apache-Arrow-with-New-Dedicated-Team.png",
+  "summary": " We are thrilled to announce that QuantStack is starting a new team dedicated to the maintenance and development of Apache Arrow.",
+  "date": "October 22, 2024",
+  "authors": "Sylvain Corlay",
+  "imageID": "blogpost-image-123",
+  "imageNaturalWidth": 1700,
+  "imageNaturalHeight": 900,
+  "imageRenderedWidth": 273,
+  "imageRenderedHeight": 144.529411765
+},
   {
     "url": "https://blog.jupyter.org/interactive-mapping-with-ipyopenlayers-2b8bc93bb6c4",
     "title": "Interactive Mapping with ipyopenlayers",
