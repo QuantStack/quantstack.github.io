@@ -6,7 +6,7 @@
             industry and academia, at the foundation of the main open-source and
             commercial data science platforms, with millions of users. 
         
-            The team comprises nine core contributors and maintainers the
+            The team comprises nine core contributors and maintainers of the
             project. We are also behind popular extensions for data
             visualization, robotics, and dashboarding. 
          
