@@ -4,6 +4,8 @@ import AnastasiiaMD from "@site/src/components/about/Team/Anastasiia.md";
 import AnastasiiaAvatarUrl from "@site/static/img/avatars/Anastasiia.png";
 import AndreasMD from "@site/src/components/about/Team/Andreas.md";
 import AndreasAvatarUrl from "@site/static/img/avatars/Andreas.png";
+import AntoineMD from "@site/src/components/about/Team/Antoine.md";
+import AntoineAvatarUrl from "@site/static/img/avatars/Antoine2.png";
 import AnutoshMD from "@site/src/components/about/Team/Anutosh.md";
 import AnutoshAvatarUrl from "@site/static/img/avatars/Anutosh.png";
 import ArjunMD from "@site/src/components/about/Team/Arjun.md"
@@ -361,6 +363,24 @@ export const coreTeam = [
     distinctionLink: [],
     subTeamName: "coreTeam",
     BioComponent: ArjunMD,
+  },
+  {
+    completeName: "Antoine Pitrou",
+    firstName: "Antoine",
+    position: " Senior Software Developer",
+    onLinkednIn: "true",
+    onGithub: "true",
+    onX: "false",
+    githubLink: "https://github.com/pitrou",
+    LinkedInLink:
+      "https://www.linkedin.com/in/pitrou/?originalSubdomain=fr",
+    XLink: "",
+    githubName: "@pitrou",
+    avatarUrl: AntoineAvatarUrl,
+    distinctionTitle: ["Python Software Foundation Fellow"],
+    distinctionLink: ["https://www.python.org/psf/fellows-roster/"],
+    subTeamName: "coreTeam",
+    BioComponent: AntoineMD,
   },
 ];
 
