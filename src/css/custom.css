@@ -94,10 +94,6 @@ ul {
   padding-left: 0;
 }
 
-ul.row {
-  padding-left: 0;
-}
-
 .container {
   max-width: none;
   padding: 0;
@@ -220,7 +216,7 @@ ul.row {
 
   li {
     font-size: 14px;
-    margin-left: 14px;
+    margin-left: 24px;
   }
 
   .blue-banner-container {
@@ -641,7 +637,6 @@ a.menu__link:active {
 .cards-list {
   list-style-type: none;
   padding: none;
-  margin-left: 0;
 }
 
 .projects-list {
