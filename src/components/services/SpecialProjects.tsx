@@ -7,7 +7,7 @@ export default function SpecialProjects() {
       <div className="main-container-with-margins">
         <div className="container upper-container-with-margin-top">
           <div className="row">
-            <div className="col col--4 col--offset-2">
+            <div className={"col col--4 col--offset-2"} style={{textAlign:"justify"}}>
               <h2>Special projects</h2>
               <SpecialProjectsMD />
             </div>

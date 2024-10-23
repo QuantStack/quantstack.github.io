@@ -24,7 +24,7 @@
   line-height: 20px;
   letter-spacing: 0.25px;
   color: var(--ifm-text-color-on-primary-p1);
-  text-align: center;
+  text-align: justify;
 }
 
 div .row {
@@ -138,9 +138,9 @@ div .join_the_team_text {
 @media only screen and (max-width: 996px) {
   /*Mobile*/
   .value_card {
-    height: 400px;
+    height: 420px;
     width: 264px;
-    padding: var(--ifm-spacing-xl) var(--ifm-spacing-lg);
+    padding: var(--ifm-spacing-lg) var(--ifm-spacing-md);
     border-radius: 8px;
     box-shadow: 0px 0px 8px 1px #c8c8c7;
     background-color: var(--ifm-color-primary-p1);
@@ -156,6 +156,11 @@ div .join_the_team_text {
     text-align: center;
     margin-bottom: var(--ifm-spacing-xl);
     color: var(--ifm-text-color-on-primary-p1);
+  }
+
+  .value_text p {
+    text-align: justify;
+    padding: 0;
   }
 
   .large_portrait_card {
@@ -189,7 +194,7 @@ div .join_the_team_text {
 @media only screen and (min-width: 996px) {
   /*Desktop*/
   .value_card {
-    height: 540px;
+    height: 460px;
     width: 264px;
     padding: var(--ifm-spacing-2xl) var(--ifm-spacing-lg);
     border-radius: 8px;
