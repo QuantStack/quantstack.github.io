@@ -18,7 +18,6 @@ div .topics_header {
     display: none;
   }
 
-
   .whatwedo_container {
     /*background-color: var(--ifm-color-primary-p1);*/
     padding: 0;
@@ -26,13 +25,14 @@ div .topics_header {
   }
 
   .topics_card {
-    width: 100%;
-    padding: var(--ifm-spacing-lg) var(--ifm-spacing-lg);
+    width: 80%;
     text-align: justify;
+    background-color: var(--ifm-color-primary-p0);
+    margin: var(--ifm-spacing-lg) auto var(--ifm-spacing-lg) auto ;
   }
 
   .topics_card .p {
-    padding: var(--ifm-spacing-lg) var(--ifm-spacing-lg);
+    padding: var(--ifm-spacing-xs) var(--ifm-spacing-xs);
   }
 
 

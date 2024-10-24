@@ -4,10 +4,6 @@
   }
 }
 
-.project_desktop {
-  margin-bottom: var(--ifm-spacing-3xl);
-}
-
 .h2_custom {
   color: var(--ifm-color-blue-jupyter);
 }
@@ -15,7 +11,6 @@
 .col_project_overview_with_padding {
   padding: var(--ifm-spacing-4xl) var(--ifm-spacing-3xl);
 }
-
 
 .project_yellow {
   background-color: var(--ifm-color-primary-p1);
