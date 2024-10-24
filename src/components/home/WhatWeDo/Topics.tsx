@@ -13,12 +13,10 @@ export function Topics() {
         <ul className="row flex-full-centered">
           {topicsDetails.map((topics, index) => (
             <li className="cards-list" key={index}>
-              <div className="col flex-full-centered">
-                <TopicsCard
-                  topics={topics}
-                  TopicsDescriptionMD={TopicsDescriptions[index]}
-                />
-              </div>
+              <TopicsCard
+                topics={topics}
+                TopicsDescriptionMD={TopicsDescriptions[index]}
+              />
             </li>
           ))}
         </ul>
