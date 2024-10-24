@@ -8,9 +8,23 @@ export default function SocialMediaContacts({ person }) {
   return (
     <>
       <div className="flex-full-centered">
-        <Link href={person.githubLink}>{<GHPicture />}</Link>
-        <Link href={person.LinkedInLink}>{<LinkedInPicture />}</Link>
-        <Link href={person.XLink}>{<XPicture />}</Link>
+        <div>
+          {person.onGithub === "true" ? (
+            <Link href={person.githubLink}>{<GHPicture />}</Link>
+          ) : (
+            null
+          )}
+        </div>
+        {person.onLinkedIn === "true" ? (
+          <Link href={person.LinkedInLink}>{<LinkedInPicture />}</Link>
+        ) : (
+          null
+        )}
+        {person.onX === "true" ? (
+          <Link href={person.XLink}>{<XPicture />}</Link>
+        ) : (
+          null
+        )}
       </div>
       <div className="flex-full-centered">
         <Link href={person.githubLink} className={styles.githubname}>
