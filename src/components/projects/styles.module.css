@@ -73,6 +73,11 @@ div .project_title {
     margin-bottom: var(--ifm-spacing-xl);
   }
 
+  .project_picture_apache_arrow {
+    border: none;
+    margin-bottom: var(--ifm-spacing-xl);
+  }
+
   .project_picture_robotics {
     border: none;
     margin-bottom: var(--ifm-spacing-xl);
@@ -124,6 +129,12 @@ div .project_title {
 
   .project_picture_condaforge {
     border: solid 1px var(--ifm-color-grey-condaforge);
+    margin-bottom: var(--ifm-spacing-lg);
+    border-radius: 10px;
+  }
+
+  .project_picture_apache_arrow {
+    border: solid 1px black;
     margin-bottom: var(--ifm-spacing-lg);
     border-radius: 10px;
   }

@@ -1,10 +1,12 @@
 import jupyterLogoUrl from "@site/static/img/projects/Jupyter.png";
 import xtensorLogoUrl from "@site/static/img/projects/xtensor.png";
 import condaforgeLogoUrl from "@site/static/img/projects/conda_forge.png";
+import apachearrowLogoUrl from "@site/static/img/projects/apache_arrow.png";
 import robostackPictureUrl from "@site/static/img/projects/robostack.png";
 import JupyterMD from "./Jupyter.md";
 import CondaForgeMD from "./CondaForge.md";
 import XTensorXSIMDMD from "./XTensorXSIMD.md";
+import ApacheArrowMD from "./ApacheArrow.md";
 import RoboticsMD from "./Robotics.md";
 
 
@@ -37,6 +39,16 @@ export const projectsDetails = [
     pictureHeight: "180px",
     pictureAltText: "Picture for Condaforge project showing its forge logo.",
     ProjectMD: CondaForgeMD,
+    reverse:"false"
+  },
+  {
+    name: "apache_arrow",
+    title: "Apache Arrow and Parquet",
+    pictureRoute: apachearrowLogoUrl,
+    pictureWidth: "176px",
+    pictureHeight: "63px",
+    pictureAltText: "Picture for Apache Arrow project showing the logo made of arrows.",
+    ProjectMD: ApacheArrowMD,
     reverse:"false"
   },
   {
