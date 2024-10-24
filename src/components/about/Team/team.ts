@@ -247,7 +247,7 @@ export const coreTeam = [
   {
     completeName: "Anutosh Bhat",
     firstName: "Anutosh",
-    position: "Scientific Software Development Intern",
+    position: "Scientific Software Developer",
     onGithub: "true",
     onLinkedIn: "true",
     onX: "false",
