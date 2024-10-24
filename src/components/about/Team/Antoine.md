@@ -1,0 +1,3 @@
+Antoine Pitrou is a senior software developer and the technical lead for the Apache Arrow project at QuantStack.
+
+Antoine is a dedicated contributor to the open source software ecosystem. He is a maintainer of the Apache Arrow project and a member of the Project Management Committee (PMC) for Arrow and Parquet at the Apache Software Foundation. He has also made significant contributions to the Python ecosystem as a core developer of CPython since 2008. Antoine has been a fellow of the Python Software Foundation (PSF) since 2010. Before joining QuantStack, he held various senior technical roles at Voltron Data, Ursa Labs, and Anaconda. Antoine has an Engineering degree from Télécom Paris.

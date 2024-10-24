@@ -1,1 +1,1 @@
-We created several popular scientific computing packages. XSimd, an unified API for SIMD operations, adopted by projects such as Apache Arrox, FireFox, Kytra, Pythran... Xtensor, a C++ n-dimensional array library with broadcasting and lazy evaluation.
+We created several popular scientific computing packages. XSimd, an unified API for SIMD operations, adopted by projects such as Apache Arrow, FireFox, Kytra, Pythran... Xtensor, a C++ n-dimensional array library with broadcasting and lazy evaluation.
