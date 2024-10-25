@@ -14,7 +14,7 @@
   {
     "url": "https://blog.jupyter.org/interactive-mapping-with-ipyopenlayers-2b8bc93bb6c4",
     "title": "Interactive Mapping with ipyopenlayers",
-    "image": "/img/blogposts/IPyopenlayers.png",
+    "image": "/img/blogposts/Interactive-Mapping-with-ipyopenlayers.png",
     "summary": " In this article, we present the main features of ipyopenlayers and demonstrate how this library can transform your geospatial data into dynamic, interactive visualizations.",
     "date": "September 6, 2024",
     "authors": "Nour Cheour",
