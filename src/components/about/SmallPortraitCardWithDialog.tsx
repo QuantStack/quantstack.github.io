@@ -1,3 +1,4 @@
+import styles from "./styles.module.css";
 import React from "react";
 import {
   BrowserRouter as Router,
@@ -9,30 +10,17 @@ import { useState } from "react";
 import LargePortraitCard from "./LargePortraitCard";
 import { SmallPortraitCard } from "./SmallPortraitCard";
 
-const modalOverlay = {
-  position: "fixed",
-  top: "0",
-  left: "0",
-  right: "0",
-  bottom: "0",
-  backgroundColor: "rgba(0, 0, 0, 0.3)",
-  zIndex: 1000
-};
-const modalContent = {
-  position: "fixed",
-  top: "50%",
-  left: "50%",
-  transform: "translate(-50%, -50%)",
-  backgroundColor: "white",
-  border: "1px solid #ccc",
-  boxShadow: "0 8px 16px rgba(0,0,0,0.2)",
-  borderRadius: "10px",
-  zIndex: "4000"
-};
-
-export default function PortraitCardsAnchorAndDialog({ person }) {
+export default function SmallPortraitCardWithDialog({ person }) {
   const history = useHistory();
   let [isDialogOpen, setIsDialogOpen] = useState(true);
+  const overlay = document.getElementsByClassName("modal_overlay");
+  const closeButton = document.getElementsByClassName("close-button");
+
+  function closeDialog() {
+    history.goBack();
+    console.log("overlay clicked")
+  }
+
   return (
     <Router>
       <div>
@@ -42,8 +30,8 @@ export default function PortraitCardsAnchorAndDialog({ person }) {
             path={"/about/" + person.firstName}
             render={() => (
               <>
-                <div style={modalOverlay}>
-                  <div style={modalContent}>
+                <div className={styles.modal_overlay} onClick={closeDialog}>
+                  <div className={styles.modal_content}>
                     <button
                       className="close-button"
                       style={{
@@ -51,10 +39,7 @@ export default function PortraitCardsAnchorAndDialog({ person }) {
                         top: "10px",
                         right: "10px",
                       }}
-                      onClick={() => {
-                        history.goBack();
-                        setIsDialogOpen(false);
-                      }}
+                      onClick={closeDialog}
                     />
                     <LargePortraitCard person={person} />
                   </div>
