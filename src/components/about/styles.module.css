@@ -1,3 +1,25 @@
+.modal_overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+}
+
+.modal_content {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  border-radius: 20px;
+  z-index: 4000;
+}
+
 .small_portrait_card {
   width: 279px;
   height: 320px;
@@ -239,7 +261,7 @@ div .join_the_team_text {
   }
 
   .large_portrait_card {
-    width: 960px;
+    width: 920px;
     padding: var(--ifm-spacing-xl) var(--ifm-spacing-2xl);
   }
 

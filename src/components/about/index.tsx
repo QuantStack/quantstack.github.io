@@ -3,8 +3,7 @@ import { coreTeam, QSCollaboratorsTeam, leadershipTeam } from "./Team/team";
 import FourValues from "./FourValues";
 import SubTeam from "./SubTeam";
 import LinkToContact from "../home/LinkToContact";
-import { BrowserRouter as Router } from "react-router-dom";
-import Appli from "./Test"; // Your main App component
+
  
 export function About() {
   return (
