@@ -4,8 +4,12 @@ import AnastasiiaMD from "@site/src/components/about/Team/Anastasiia.md";
 import AnastasiiaAvatarUrl from "@site/static/img/avatars/Anastasiia.png";
 import AndreasMD from "@site/src/components/about/Team/Andreas.md";
 import AndreasAvatarUrl from "@site/static/img/avatars/Andreas.png";
+import AntoineMD from "@site/src/components/about/Team/Antoine.md";
+import AntoineAvatarUrl from "@site/static/img/avatars/Antoine2.png";
 import AnutoshMD from "@site/src/components/about/Team/Anutosh.md";
 import AnutoshAvatarUrl from "@site/static/img/avatars/Anutosh.png";
+import ArjunMD from "@site/src/components/about/Team/Arjun.md"
+import ArjunAvatarUrl from "@site/static/img/avatars/Arjun.png";
 import DavidMD from "@site/src/components/about/Team/David.md";
 import DavidAvatarUrl from "@site/static/img/avatars/David.png";
 import DarianMD from "@site/src/components/about/Team/Darian.md";
@@ -32,16 +36,14 @@ import JohanMD from "@site/src/components/about/Team/Johan.md";
 import JohanAvatarUrl from "@site/static/img/avatars/Johan.png";
 import JulienMD from "@site/src/components/about/Team/Julien.md";
 import JulienAvatarUrl from "@site/static/img/avatars/Julien.png";
-import KerimMD from "@site/src/components/about/Team/Kerim.md";
-import KerimAvatarUrl from "@site/static/img/avatars/Kerim.png";
 import MartinMD from "@site/src/components/about/Team/Martin.md";
 import MartinAvatarUrl from "@site/static/img/avatars/Martin.png";
+import MatthiasMD from "@site/src/components/about/Team/Matthias.md";
+import MatthiasAvatarUrl from "@site/static/img/avatars/Matthias.png";
 import MeriemMD from "@site/src/components/about/Team/Meriem.md";
 import MeriemAvatarUrl from "@site/static/img/avatars/Meriem.png";
 import NicolasMD from "@site/src/components/about/Team/Nicolas.md";
 import NicolasAvatarUrl from "@site/static/img/avatars/Nicolas.png";
-import NourMD from "@site/src/components/about/Team/Nour.md";
-import NourAvatarUrl from "@site/static/img/avatars/Nour.png";
 import RomainMD from "@site/src/components/about/Team/Romain.md";
 import RomainAvatarUrl from "@site/static/img/avatars/Romain.png";
 import SergeMD from "@site/src/components/about/Team/Serge.md";
@@ -84,8 +86,8 @@ export const coreTeam = [
     XLink: "",
     githubName: "@trungleduc",
     avatarUrl: TrungAvatarUrl,
-    distinctionTitle: [],
-    distinctionLink: [],
+    distinctionTitle: ["Jupyter Distinguished Contributor"],
+    distinctionLink: ["https://jupyter.org/about#distinguished-contributors"],
     subTeamName: "coreTeam",
     BioComponent: TrungMD,
   },
@@ -162,15 +164,15 @@ export const coreTeam = [
     firstName: "Nicolas",
     position: "Scientific Software Developer",
     onGithub: "true",
-    onLinkednIn: "true",
+    onLinkedIn: "true",
     onX: "false",
     githubLink: "https://github.com/brichet",
     LinkedInLink: "https://www.linkedin.com/in/nicolas-brichet-a26369150/",
     XLink: "",
     githubName: "@brichet",
     avatarUrl: NicolasAvatarUrl,
-    distinctionTitle: [],
-    distinctionLink: [],
+    distinctionTitle: ["Jupyter Distinguished Contributor"],
+    distinctionLink: ["https://jupyter.org/about#distinguished-contributors"],
     subTeamName: "coreTeam",
     BioComponent: NicolasMD,
   },
@@ -179,7 +181,7 @@ export const coreTeam = [
     firstName: "Isabel",
     position: "Scientific Software Developer",
     onGithub: "true",
-    onLinkednIn: "true",
+    onLinkedIn: "true",
     onX: "false",
     githubLink: "https://github.com/ihuicatl",
     LinkedInLink: "https://www.linkedin.com/in/isabel-paredes/",
@@ -196,7 +198,7 @@ export const coreTeam = [
     firstName: "Gabriela",
     position: "User Experience Researcher and Designer",
     onGithub: "true",
-    onLinkednIn: "true",
+    onLinkedIn: "true",
     onX: "false",
     githubLink: "https://github.com/GabrielaVives",
     LinkedInLink: "https://www.linkedin.com/in/gabriela-vives-831ba853/",
@@ -213,7 +215,7 @@ export const coreTeam = [
     firstName: "Hind",
     position: "Scientific Software Developer",
     onGithub: "true",
-    onLinkednIn: "true",
+    onLinkedIn: "true",
     onX: "false",
     githubLink: "https://github.com/Hind-M",
     LinkedInLink: "https://www.linkedin.com/in/hindmontassif/",
@@ -230,7 +232,7 @@ export const coreTeam = [
     firstName: "Julien",
     position: "Scientific Software Developer",
     onGithub: "true",
-    onLinkednIn: "true",
+    onLinkedIn: "true",
     onX: "true",
     githubLink: "https://github.com/jjerphan",
     LinkedInLink: "https://www.linkedin.com/in/jjerphan/",
@@ -247,7 +249,7 @@ export const coreTeam = [
     firstName: "Anutosh",
     position: "Scientific Software Development Intern",
     onGithub: "true",
-    onLinkednIn: "true",
+    onLinkedIn: "true",
     onX: "false",
     githubLink: "https://github.com/anutosh491",
     LinkedInLink: "https://www.linkedin.com/in/anutosh-bhat-66ba961a8/",
@@ -264,7 +266,7 @@ export const coreTeam = [
     firstName: "Greg",
     position: "Scientific Software Developer",
     onGithub: "true",
-    onLinkednIn: "true",
+    onLinkedIn: "true",
     onX: "false",
     githubLink: "https://github.com/gjmooney",
     LinkedInLink: "https://www.linkedin.com/in/gjmooney/",
@@ -281,7 +283,7 @@ export const coreTeam = [
     firstName: "Ian",
     position: "Scientific Software Developer",
     onGithub: "true",
-    onLinkednIn: "true",
+    onLinkedIn: "true",
     onX: "false",
     githubLink: "https://github.com/ianthomas23",
     LinkedInLink: "https://www.linkedin.com/in/ian-thomas-796814240/",
@@ -294,27 +296,10 @@ export const coreTeam = [
     BioComponent: IanMD,
   },
   {
-    completeName: "Nour Cheour",
-    firstName: "Nour",
-    position: " Scientific Software Development Intern",
-    onLinkednIn: "true",
-    onGithub: "true",
-    onX: "false",
-    githubLink: "https://github.com/Nour-Cheour10",
-    LinkedInLink: "https://www.linkedin.com/in/nour-cheour-606143206/",
-    XLink: "",
-    githubName: "@Nour-Cheour10",
-    avatarUrl: NourAvatarUrl,
-    distinctionTitle: [],
-    distinctionLink: [],
-    subTeamName: "coreTeam",
-    BioComponent: NourMD,
-  },
-  {
     completeName: "Meriem Ben Ismail",
     firstName: "Meriem",
     position: " Scientific Software Development Intern",
-    onLinkednIn: "true",
+    onLinkedIn: "true",
     onGithub: "true",
     onX: "false",
     githubLink: "https://github.com/Meriem-BenIsmail",
@@ -331,7 +316,7 @@ export const coreTeam = [
     completeName: "Alexis Placet",
     firstName: "Alexis",
     position: " Scientific Software Developer",
-    onLinkednIn: "true",
+    onLinkedIn: "true",
     onGithub: "true",
     onX: "false",
     githubLink: "https://github.com/Alex-PLACET",
@@ -348,7 +333,7 @@ export const coreTeam = [
     completeName: "Anastasiia Sliusar",
     firstName: "Anastasiia",
     position: " Scientific Software Developer",
-    onLinkednIn: "true",
+    onLinkedIn: "true",
     onGithub: "true",
     onX: "false",
     githubLink: "https://github.com/AnastasiaSliusar",
@@ -362,22 +347,40 @@ export const coreTeam = [
     BioComponent: AnastasiiaMD,
   },
   {
-    completeName: "Kerim Birgi",
-    firstName: "Kerim",
+    completeName: "Arjun Verma",
+    firstName: "Arjun",
     position: " Scientific Software Development Intern",
-    onLinkednIn: "true",
+    onLinkedIn: "true",
     onGithub: "true",
-    onX: "false",
-    githubLink: "https://github.com/KGB99",
+    onX: "true",
+    githubLink: "https://github.com/arjxn-py",
     LinkedInLink:
-      "https://www.linkedin.com/in/kerim-gregory-birgi/?originalSubdomain=ch",
-    XLink: "",
-    githubName: "@kgb99",
-    avatarUrl: KerimAvatarUrl,
+      "https://www.linkedin.com/in/arjun-verma-758608226/",
+    XLink: "https://x.com/ArjxnPy",
+    githubName: "@arjxn-py",
+    avatarUrl: ArjunAvatarUrl,
     distinctionTitle: [],
     distinctionLink: [],
     subTeamName: "coreTeam",
-    BioComponent: KerimMD,
+    BioComponent: ArjunMD,
+  },
+  {
+    completeName: "Antoine Pitrou",
+    firstName: "Antoine",
+    position: " Senior Software Developer",
+    onLinkedIn: "true",
+    onGithub: "true",
+    onX: "false",
+    githubLink: "https://github.com/pitrou",
+    LinkedInLink:
+      "https://www.linkedin.com/in/pitrou/?originalSubdomain=fr",
+    XLink: "",
+    githubName: "@pitrou",
+    avatarUrl: AntoineAvatarUrl,
+    distinctionTitle: ["Python Software Foundation Fellow"],
+    distinctionLink: ["https://www.python.org/psf/fellows-roster/"],
+    subTeamName: "coreTeam",
+    BioComponent: AntoineMD,
   },
 ];
 
@@ -448,7 +451,7 @@ export const leadershipTeam = [
     XLink: "https://twitter.com/JohanMabille",
     githubName: "@JohanMabille",
     avatarUrl: JohanAvatarUrl,
-    distinctionTitle: ["Jupyter distinguished contributor"],
+    distinctionTitle: ["Jupyter Distinguished Contributor"],
     distinctionLink: ["https://jupyter.org/about#distinguished-contributors"],
     subTeamName: "LeadershipTeam",
     BioComponent: JohanMD,
@@ -465,7 +468,7 @@ export const leadershipTeam = [
     XLink: "https://twitter.com/martinRenou",
     githubName: "@martinRenou",
     avatarUrl: MartinAvatarUrl,
-    distinctionTitle: ["Jupyter distinguished contributor"],
+    distinctionTitle: ["Jupyter Distinguished Contributor"],
     distinctionLink: ["https://jupyter.org/about#distinguished-contributors"],
     subTeamName: "LeadershipTeam",
     BioComponent: MartinMD,
@@ -482,7 +485,7 @@ export const leadershipTeam = [
     XLink: "https://twitter.com/jtpio",
     githubName: "@jtpio",
     avatarUrl: JeremyAvatarUrl,
-    distinctionTitle: ["Jupyter distinguished contributor"],
+    distinctionTitle: ["Jupyter Distinguished Contributor"],
     distinctionLink: ["https://jupyter.org/about#distinguished-contributors"],
     subTeamName: "LeadershipTeam",
     BioComponent: JeremyMD,
@@ -500,7 +503,7 @@ export const leadershipTeam = [
     XLink: "",
     githubName: "@afshin",
     avatarUrl: DarianAvatarUrl,
-    distinctionTitle: ["Jupyter distinguished contributor"],
+    distinctionTitle: ["Jupyter Distinguished Contributor"],
     distinctionLink: ["https://jupyter.org/about#distinguished-contributors"],
     subTeamName: "LeadershipTeam",
     BioComponent: DarianMD,
@@ -517,9 +520,25 @@ export const leadershipTeam = [
     XLink: "https://twitter.com/davidbrochart",
     githubName: "@davidbrochart",
     avatarUrl: DavidAvatarUrl,
-    distinctionTitle: ["Jupyter distinguished contributor"],
+    distinctionTitle: ["Jupyter Distinguished Contributor"],
     distinctionLink: ["https://jupyter.org/about#distinguished-contributors"],
     subTeamName: "LeadershipTeam",
     BioComponent: DavidMD,
+  },
+  {
+    completeName: "Matthias Meschede",
+    firstName: "Matthias",
+    position: "Director Business Development",
+    onGithub: "true",
+    onLinkedIn: "true",
+    onX: false,
+    githubLink: "https://github.com/mmesch",
+    LinkedInLink: "https://www.linkedin.com/in/mmesch/",
+    githubName: "@mmesch",
+    avatarUrl: MatthiasAvatarUrl,
+    distinctionTitle: [],
+    distinctionLink: [],
+    subTeamName: "LeadershipTeam",
+    BioComponent: MatthiasMD,
   },
 ];

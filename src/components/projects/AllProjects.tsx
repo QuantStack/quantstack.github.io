@@ -1,19 +1,23 @@
 import { projectsDetails } from "./descriptions/projectsDetails";
-import ProjectCard from "./ProjectCard"
-
+import ProjectCard from "./ProjectCard";
+import styles from "./styles.module.css";
 
 export default function AllProjects() {
   return (
-    <div className="container flex-full-centered" style={{marginBottom: "var(--ifm-spacing-3xl)"}}>
-      <ul className="row">
+    <div
+      className={
+        "container flex-full-centered" + " " + styles.all_projects_container
+      }
+    >
+      <ul className="row --no-gutters">
         {projectsDetails.map((project, index) => {
-          return(
-          <li className="projects-list" key={index}>
-            <div className="col">
-              <ProjectCard project={project}/>
-            </div>
-          </li>
-          )
+          return (
+            <li className="projects-list" key={index}>
+              <div className="col" style={{ paddingLeft: "0" }}>
+                <ProjectCard project={project} />
+              </div>
+            </li>
+          );
         })}
       </ul>
     </div>

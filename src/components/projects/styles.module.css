@@ -17,7 +17,7 @@ div .project_title {
 
 .project_description {
   padding: var(--ifm-spacing-md) var(--ifm-spacing-xl);
-  text-align: center;
+  text-align: justify;
 }
 
 .project_description p {
@@ -26,6 +26,10 @@ div .project_title {
 
 @media only screen and (max-width: 996px) {
   /*Mobile*/
+  .all_projects_container {
+    margin-bottom:  var(--ifm-spacing-3xl);
+    
+  }
 
   .header_container {
     padding-top: var(--ifm-spacing-2xl);
@@ -44,12 +48,12 @@ div .project_title {
     font-weight: 400;
     line-height: 20px;
     letter-spacing: 0.25px;
-    text-align: center;
+    text-align: justify;
     margin-bottom: var(--ifm-spacing-lg);
-    padding: var(--ifm-spacing-lg) var(--ifm-spacing-2xl);
+    padding: var(--ifm-spacing-lg) var(--ifm-spacing-xl);
   }
 
-  .col_project_text p {
+  .project_text {
     background-color: white;
     text-align: justify;
   }
@@ -69,6 +73,11 @@ div .project_title {
     margin-bottom: var(--ifm-spacing-xl);
   }
 
+  .project_picture_apache_arrow {
+    border: none;
+    margin-bottom: var(--ifm-spacing-xl);
+  }
+
   .project_picture_robotics {
     border: none;
     margin-bottom: var(--ifm-spacing-xl);
@@ -77,6 +86,10 @@ div .project_title {
 
 @media only screen and (min-width: 996px) {
   /*Desktop*/
+
+  .all_projects_container {
+    margin:  0 0 var(--ifm-spacing-5xl) 0 ;
+  }
   .header_container {
     margin-top: var(--ifm-spacing-6xl);
   }
@@ -93,10 +106,6 @@ div .project_title {
     line-height: 28px;
     margin-bottom: var(--ifm-spacing-3xl);
     padding: var(--ifm-spacing-lg) var(--ifm-spacing-4xl);
-  }
-
-  .header_text p {
-    text-align: center;
   }
 
   .project_text {
@@ -120,6 +129,12 @@ div .project_title {
 
   .project_picture_condaforge {
     border: solid 1px var(--ifm-color-grey-condaforge);
+    margin-bottom: var(--ifm-spacing-lg);
+    border-radius: 10px;
+  }
+
+  .project_picture_apache_arrow {
+    border: solid 1px black;
     margin-bottom: var(--ifm-spacing-lg);
     border-radius: 10px;
   }

@@ -1,0 +1,36 @@
+.footer_container {
+  background-color: var(--ifm-color-primary-p1);
+  padding: var(--ifm-spacing-xl) var(--ifm-spacing-2xl) 0 var(--ifm-spacing-2xl);
+}
+
+.copyright_container {
+  text-align: center;
+  padding-bottom: var(--ifm-spacing-lg);
+}
+
+@media only screen and (max-width: 996px) {
+  /*Mobile*/
+  .menu_container {
+    display: none;
+  }
+
+  .col_social_media_desktop {
+    display: none;
+  }
+
+  .col_address_desktop {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 996px) {
+  /*Desktop*/
+
+  .col_social_media_mobile {
+    display: none;
+  }
+
+  .col_social_media_and_address_mobile {
+    display: none;
+  }
+}

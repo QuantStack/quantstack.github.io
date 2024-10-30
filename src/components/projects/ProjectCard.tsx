@@ -5,9 +5,9 @@ export default function ProjectCard({ project }): JSX.Element {
   const base = `${prefix}${project.name}` 
   return (
     <div className="container">
-      <div className="row row--no-gutters horizontally-centered">
+      <div className="row row--no-gutters">
         <div
-          className={"col col--6 col" + " " + styles.project_text}
+          className={"col col--6 col col--offset-1" + " " + styles.project_text}
         >
           <div className={styles.project_title}>{project.title}</div>
           <div className={styles.project_description}>

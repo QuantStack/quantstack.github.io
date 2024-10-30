@@ -11,7 +11,7 @@ export default function Support() {
               <SupportIllustration  height={"280px"} alt="Illustration for the support section, showing symbolically a person indicating the direction to take." />
             </div>
           </div>
-          <div className={"col col--6"}>
+          <div className={"col col--6"} style={{textAlign:"justify"}}>
             <h2>Professional Support</h2>
             <SupportMD />
           </div>

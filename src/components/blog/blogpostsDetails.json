@@ -1,4 +1,55 @@
-[
+[  {
+  "url": "https://medium.com/@QuantStack/quantstack-steps-up-to-support-apache-arrow-with-new-dedicated-team-9ddc952f20e2",
+  "title": "QuantStack Steps Up to Support Apache Arrow with New Dedicated Team",
+  "image": "/img/blogposts/QuantStack-Steps-Up-to-Support-Apache-Arrow-with-New-Dedicated-Team.png",
+  "summary": " We are thrilled to announce that QuantStack is starting a new team dedicated to the maintenance and development of Apache Arrow.",
+  "date": "October 22, 2024",
+  "authors": "Sylvain Corlay",
+  "imageID": "blogpost-image-123",
+  "imageNaturalWidth": 1700,
+  "imageNaturalHeight": 900,
+  "imageRenderedWidth": 273,
+  "imageRenderedHeight": 144.529411765
+},
+  {
+    "url": "https://blog.jupyter.org/interactive-mapping-with-ipyopenlayers-2b8bc93bb6c4",
+    "title": "Interactive Mapping with ipyopenlayers",
+    "image": "/img/blogposts/IPyopenlayers.png",
+    "summary": " In this article, we present the main features of ipyopenlayers and demonstrate how this library can transform your geospatial data into dynamic, interactive visualizations.",
+    "date": "September 6, 2024",
+    "authors": "Nour Cheour",
+    "imageID": "blogpost-image-122",
+    "imageNaturalWidth": 1400,
+    "imageNaturalHeight": 642,
+    "imageRenderedWidth": 273,
+    "imageRenderedHeight": 125.64857142857142
+  },
+  {
+    "url": "https://blog.jupyter.org/announcing-the-2023-jupyter-distinguished-contributor-award-recipients-1b2cc4ba203f",
+    "title": "Announcing the 2023 cohort of Jupyter distinguished contributors",
+    "image": "/img/blogposts/Announcing-the-2023-Jupyter-Distinguished-Contributors.png",
+    "summary": "We are delighted to announce the recipients of the Jupyter Distinguished Contributor (JDC) award for the 2023 cohort.",
+    "date": "September 4, 2024",
+    "authors": "Johan Mabille, on behalf of the Jupyter Distinguished Contributors",
+    "imageID": "blogpost-image-121",
+    "imageNaturalWidth": 670,
+    "imageNaturalHeight": 160,
+    "imageRenderedWidth": 273,
+    "imageRenderedHeight": 65.19402985074626
+  },
+  {
+    "url": "https://blog.jupyter.org/ipydatagrid-is-now-part-of-project-jupyter-3b3dfb877664",
+    "title": "Ipydatagrid is now part of Project Jupyter",
+    "image": "/img/blogposts/Ipydatagrid-is-now-part-of-ProjectJupyter.png",
+    "summary": "Today, we are proud to announce that the ipydatagrid open source project has been incorporated into Project Jupyter as part of the Jupyter Widgets subproject.",
+    "date": "August 22, 2024",
+    "authors": "Sylvain Corlay, on behalf of the Jupyter Widgets Council",
+    "imageID": "blogpost-image-120",
+    "imageNaturalWidth": 1490,
+    "imageNaturalHeight": 760,
+    "imageRenderedWidth": 273,
+    "imageRenderedHeight": 138.2281879194631
+  },
   {
     "url": "https://medium.com/@QuantStack/introducing-mamba-2-0-0e8d5c6d1d0c",
     "title": "Introducing Mamba 2.0",
@@ -989,7 +1040,7 @@
   },
   {
     "url": "https://blog.jupyter.org/a-visual-debugger-for-jupyter-914e61716559",
-    "title": "A Visual Debuger for Jupyter",
+    "title": "A Visual Debugger for Jupyter",
     "image": "/img/blogposts/A-Visual-Debuger-for-Jupyter.gif",
     "summary": "Most of the progress made in software projects comes from incrementalism. The ability to quickly see the outcome of an execution and iterate has been one of the main reasons for the success of…",
     "date": "Mar 25, 2020",

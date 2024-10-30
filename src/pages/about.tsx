@@ -1,17 +1,15 @@
-import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
-import Home from "../components/home/Home";
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import {About} from "../components/about";
 import BrowserOnly from "@docusaurus/BrowserOnly";
 import Footer from "../components/footer/Footer";
 
-export default function HomePage(): JSX.Element {
+export default function AboutPage(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout>
-      <main>
-      <BrowserOnly>{() => <Home />}</BrowserOnly>
+      <BrowserOnly>{() => <About />}</BrowserOnly>
       <Footer/>
-      </main>
     </Layout>
   );
 }
