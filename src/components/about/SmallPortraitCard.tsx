@@ -6,9 +6,14 @@ import LargePortraitCard from "./LargePortraitCard";
 import Avatar from "./Avatar";
 
 const contentStyle = {
+  position: "fixed",
+  top: "50%",
+  left: "50%",
+  transform: "translate(-50%, -50%)",
   background: "white",
-  borderRadius: "10px",
-  opacity: 1.0
+  borderRadius: "20px",
+  opacity: 1.0,
+  zIndex: "4000"
 };
 
 const overlayStyle = {
@@ -16,6 +21,7 @@ const overlayStyle = {
   opacity: 0.4,
   width: "100%",
   height: "100%",
+  zIndex: "1000",
 };
 
 function getCenterOfViewport() {
@@ -68,9 +74,7 @@ export function SmallPortraitCard({ person, setOffsets }) {
         >
           {person.position}
         </div>
-        <div style={{ marginTop: "var(--ifm-spacing-xl)" }}>
-          <SocialMediaContacts person={person}></SocialMediaContacts>
-        </div>
+ 
       </div>
     </div>
   );

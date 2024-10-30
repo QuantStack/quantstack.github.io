@@ -210,7 +210,8 @@ div .join_the_team_text {
   .large_portrait_card {
     width: 1000px;
     padding: var(--ifm-spacing-xl) var(--ifm-spacing-2xl);
-    background-color: orange;
+    border-radius: 10px;
+
   }
 
   .subteam_container {

@@ -4,7 +4,10 @@ import Link from "@docusaurus/Link";
 import { useLocation } from "@docusaurus/router";
 
 export default function SubTeam({ subTeamName, subTeam }) {
-  const firstName = useLocation().pathname.split("/about/")[1];
+  let firstName = useLocation().pathname.split("/about/")[1];
+  console.log('First name before transformation:', firstName);
+
+
   return (
     <div className={styles.subteam_container}>
       <h2 className={"text--center"}> {subTeamName}</h2>
@@ -15,11 +18,11 @@ export default function SubTeam({ subTeamName, subTeam }) {
               !void 0 && (
                 <li className="cards-list" key={index}>
                   <div className="col">
-                    <Link href={`/about/${person.firstName.toLowerCase()}`}>
+                    <Link href={`/about/${person.firstName}`}>
                       <PopupPortrait
                         person={person}
                         isPopupOpen={
-                          firstName === person.firstName.toLowerCase()
+                          firstName === person.firstName
                         }
                       />
                     </Link>
