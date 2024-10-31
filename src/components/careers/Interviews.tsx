@@ -8,7 +8,7 @@ export default function Interviews({ details, description }) {
       <div className="container">
         <ul className={"row" + " "+ "flex-full-centered"}>
           {details.map((person, index) => (
-            <li className="cards-list" key={index}>
+            <li className="cards-list" key={person.firstName}>
               <div className="col col--2">
                 <InterviewCard person={person} />
               </div>
