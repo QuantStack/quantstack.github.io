@@ -1,5 +1,7 @@
 import styles from "./styles.module.css";
-import SmallPortraitCardWithDialog from "./SmallPortraitCardWithDialog";
+import Example from "./PortraitDialog";
+import { SmallPortraitCardWithDialog } from "./SmallPortraitCardWithDialog";
+
 
 export default function SubTeam({ subTeamName, subTeam }) {
   return (
@@ -8,7 +10,7 @@ export default function SubTeam({ subTeamName, subTeam }) {
       <div className={"container"}>
         <ul className="row padding-none flex-full-centered row-with-margin-top">
           {subTeam.map((person, index) => (
-            <li className="cards-list" key={index}>
+            <li className="cards-list" key={person.firstName}>
               <div className="col">
                 <SmallPortraitCardWithDialog person={person} />
               </div>
