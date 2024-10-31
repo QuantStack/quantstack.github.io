@@ -1,17 +1,15 @@
 import styles from "./styles.module.css";
-import { useHistory } from "react-router";
+import { useHistory } from "@docusaurus/router";
 import Avatar from "./Avatar";
-import { useState } from "react";
-import Link from "@docusaurus/Link";
 
 export function SmallPortraitCard({ person }) {
-  let [isDialogOpen, setIsDialogOpen] = useState(false);
-
   const history = useHistory();
 
-  const openDialog = () => {
+  function openDialog () {
+    history.push("/about/");
+    console.log('history:', history.location)
     history.push("/about/" + person.firstName);
-    setIsDialogOpen(true);
+    console.log('history:', history.location)
   };
 
   return (
