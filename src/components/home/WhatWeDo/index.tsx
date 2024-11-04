@@ -13,6 +13,8 @@ export function WhatWeDo() {
       </div>
       <div className={"row flex-full-centered"}>
         <h1 className={styles.header}> What we do </h1>
+      </div>
+      <div className={"row flex-full-centered"}>
         <Topics />
       </div>
       <div className="row flex-full-centered">
