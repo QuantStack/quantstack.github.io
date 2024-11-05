@@ -46,6 +46,8 @@ import NicolasMD from "@site/src/components/about/Team/Nicolas.md";
 import NicolasAvatarUrl from "@site/static/img/avatars/Nicolas.png";
 import RomainMD from "@site/src/components/about/Team/Romain.md";
 import RomainAvatarUrl from "@site/static/img/avatars/Romain.png";
+import SandrineMD from "@site/src/components/about/Team/Sandrine.md";
+import SandrineAvatarUrl from "@site/static/img/avatars/Sandrine.png";
 import SergeMD from "@site/src/components/about/Team/Serge.md";
 import SergeAvatarUrl from "@site/static/img/avatars/Serge.png";
 import SylvainMD from "@site/src/components/about/Team/Sylvain.md";
@@ -381,6 +383,24 @@ export const coreTeam = [
     distinctionLink: ["https://www.python.org/psf/fellows-roster/"],
     subTeamName: "coreTeam",
     BioComponent: AntoineMD,
+  },  
+  {
+    completeName: "Sandrine Pataut",
+    firstName: "Sandrine",
+    position: " Scientific Software Developer",
+    onLinkedIn: "true",
+    onGithub: "true",
+    onX: "true",
+    githubLink: "https://github.com/SandrineP",
+    LinkedInLink:
+      "https://www.linkedin.com/in/sandrinepataut/",
+    XLink: "https://x.com/SPataut",
+    githubName: "@SandrineP",
+    avatarUrl: SandrineAvatarUrl,
+    distinctionTitle: [],
+    distinctionLink: [],
+    subTeamName: "coreTeam",
+    BioComponent: SandrineMD,
   },
 ];
 
