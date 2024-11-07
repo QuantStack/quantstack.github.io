@@ -684,3 +684,7 @@ ul.row {
   flex-wrap: wrap;
   margin: 0 0;
 }
+
+.items-list {
+  list-style-type: none;
+}

@@ -6,17 +6,28 @@ import React from "react";
 import Avatar from "./Avatar";
 
 export function Distinction({ person }) {
-  if (person.distinctionTitle.length !== 0) {
-    return person.distinctionTitle.map((distinction, index) => (
-      <div key={index}>
-        <Link href={person.distinctionLink[index]}>
-          <DistinctionIcon className={styles.distinction_icon} />
-          {distinction}
-        </Link>
-      </div>
-    ));
-  } else return <div></div>;
+  const HasPersonDisctinction = person.distinctionTitle.length !== 0;
+
+  return (
+    <div>
+      {HasPersonDisctinction ? (
+        <ul style={{paddingLeft: "0px"}}>
+          {person.distinctionTitle.map((distinction, index) => (
+            <li className="items-list" key={person.firstName}>
+              <div>
+                <Link href={person.distinctionLink[index]}>
+                  <DistinctionIcon className={styles.distinction_icon} />
+                  {distinction}
+                </Link>
+              </div>
+            </li>
+          ))}
+        </ul>
+      ) : null}
+    </div>
+  );
 }
+
 export default function LargePortraitCard({ person }) {
   return (
     <div className={styles.large_portrait_card}>
