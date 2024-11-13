@@ -44,6 +44,8 @@ import MeriemMD from "@site/src/components/about/Team/Meriem.md";
 import MeriemAvatarUrl from "@site/static/img/avatars/Meriem.png";
 import NicolasMD from "@site/src/components/about/Team/Nicolas.md";
 import NicolasAvatarUrl from "@site/static/img/avatars/Nicolas.png";
+import RaulMD from "@site/src/components/about/Team/Raul.md";
+import RaulAvatarUrl from "@site/static/img/avatars/Raul.png";
 import RomainMD from "@site/src/components/about/Team/Romain.md";
 import RomainAvatarUrl from "@site/static/img/avatars/Romain.png";
 import SandrineMD from "@site/src/components/about/Team/Sandrine.md";
@@ -401,6 +403,24 @@ export const coreTeam = [
     distinctionLink: [],
     subTeamName: "coreTeam",
     BioComponent: SandrineMD,
+  },
+  {
+    completeName: "Raúl Cumplido",
+    firstName: "Raúl",
+    position: " Scientific Software Developer",
+    onLinkedIn: "true",
+    onGithub: "true",
+    onX: "true",
+    githubLink: "https://github.com/raulcd",
+    LinkedInLink:
+      "https://www.linkedin.com/in/raulcumplido/",
+    XLink: "https://x.com/raulcumplido",
+    githubName: "@raulcd",
+    avatarUrl: RaulAvatarUrl,
+    distinctionTitle: [],
+    distinctionLink: [],
+    subTeamName: "coreTeam",
+    BioComponent: RaulMD,
   },
 ];
 
