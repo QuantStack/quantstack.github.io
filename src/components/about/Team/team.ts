@@ -555,7 +555,7 @@ export const leadershipTeam = [
     onGithub: "true",
     onLinkedIn: "true",
     onX: "true",
-    githubLink: "https://github.com/jtpio",
+    githubLink: "https://github.com/davidbrochart",
     LinkedInLink: "https://www.linkedin.com/in/david-brochart-4208721/",
     XLink: "https://twitter.com/davidbrochart",
     githubName: "@davidbrochart",
