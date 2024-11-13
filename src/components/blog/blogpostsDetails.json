@@ -1,5 +1,18 @@
 [
   {
+  "url": "https://blog.jupyter.org/jupyterlite-terminal-edb3f80dc1c0",
+  "title": "Jupyterlite Terminal",
+  "image": "/img/blogposts/Jupyterlite-Terminal.gif",
+  "summary": "QuantStack are delighted to announce that we have been working on a new Terminal for JupyterLite.",
+  "date": "November 13, 2024",
+  "authors": "Ian Thomas",
+  "imageID": "blogpost-image-124",
+  "imageNaturalWidth": 2000,
+  "imageNaturalHeight": 1200,
+  "imageRenderedWidth": 273,
+  "imageRenderedHeight": 163.8
+},
+  {
     "url": "https://blog.jupyter.org/automate-your-releases-with-the-jupyter-releaser-701e7b9841e6",
     "title": "Automate your releases with the Jupyter Releaser 🚀",
     "image": "/img/blogposts/Automate-releases-jupyter-releaser.png",
