@@ -1,0 +1,3 @@
+Raúl Cumplido is a Scientific Software Developer at QuantStack. He holds a Telecommunications Engineering Degree from the Universitat Politècnica de Catalunya (UPC) and a Master's Degree on Project Management and Design.
+
+Raúl is a maintainer of the Apache Arrow project, a member of the Project Management Committee (PMC), and the Release Manager for the project. He has contributed to several other Open Source projects and initiated the official Spanish translation for the Python documentation. He has also organized multiple conferences, such as EuroPython and PyCon ES, and served as the Python Barcelona meetup organizer. Before joining QuantStack, he worked as a Senior Software Engineer for Voltron Data, YouGov, Crunch.io and Telefonica.
