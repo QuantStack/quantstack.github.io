@@ -4,10 +4,11 @@ import Avatar from "./Avatar";
 
 export function SmallPortraitCard({ person }) {
   const history = useHistory();
-  history.push("/about/");
 
   function openDialog () {
+    history.push("/about/");
     history.push("/about/" + person.firstName);
+
   };
 
   return (
