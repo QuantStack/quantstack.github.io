@@ -1,21 +1,18 @@
 import styles from "./styles.module.css";
-import PopupPortrait from "./SmallPortraitCard";
+import Example from "./PortraitDialog";
+import { SmallPortraitCardWithDialog } from "./SmallPortraitCardWithDialog";
 
-export default function SubTeam({
-  subTeamName,
-  subTeam
-}) {
+
+export default function SubTeam({ subTeamName, subTeam }) {
   return (
     <div className={styles.subteam_container}>
       <h2 className={"text--center"}> {subTeamName}</h2>
       <div className={"container"}>
         <ul className="row padding-none flex-full-centered row-with-margin-top">
           {subTeam.map((person, index) => (
-            <li className="cards-list" key={index}>
+            <li className="cards-list" key={person.firstName}>
               <div className="col">
-                <PopupPortrait
-                  person={person}
-                />
+                <SmallPortraitCardWithDialog person={person} />
               </div>
             </li>
           ))}

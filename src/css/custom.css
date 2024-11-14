@@ -655,3 +655,7 @@ ul.row {
   margin-left: 0;
   width: 100%;
 }
+
+.items-list {
+  list-style-type: none;
+}
