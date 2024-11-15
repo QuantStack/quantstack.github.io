@@ -169,6 +169,10 @@ div .join_the_team_text {
     padding: var(--ifm-spacing-xl) var(--ifm-spacing-xl);
   }
 
+  .large_portrait_card p {
+    text-align: justify;
+  }
+
   .subteam_container {
     margin: var(--ifm-spacing-3xl) var(--ifm-spacing-2xl);
   }
