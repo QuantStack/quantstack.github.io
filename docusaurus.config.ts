@@ -6,6 +6,7 @@ let copyright = `Copyright © ${new Date().getFullYear()} · QuantStack website 
 
 const config: Config = {
   title: "QuantStack",
+  favicon: "img/quantstack/favicon.ico",
   tagline: "",
 
   // Set the production url of your site here
