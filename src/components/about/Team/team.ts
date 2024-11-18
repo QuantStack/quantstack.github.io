@@ -302,7 +302,7 @@ export const coreTeam = [
   {
     completeName: "Meriem Ben Ismail",
     firstName: "Meriem",
-    position: " Scientific Software Development Intern",
+    position: " Scientific Software Developer",
     onLinkedIn: "true",
     onGithub: "true",
     onX: "false",
