@@ -607,7 +607,7 @@ a.menu__link:active {
 }
 
 .linkedin-icon:before {
-  background: url(../../static/img/socialmedias/LinkedIn.svg);
+  background: url(@site/static/img/socialmedias/LinkedIn.svg);
   content: "";
   display: flex;
   height: 36px;
@@ -621,6 +621,32 @@ a.menu__link:active {
 
 .x-icon:before {
   background: url(../../static/img/socialmedias/X.svg);
+  content: "";
+  display: flex;
+  height: 36px;
+  width: 37px;
+  background-repeat: no-repeat;
+}
+
+.bluesky-icon:hover {
+  opacity: 0.6;
+}
+
+.bluesky-icon:before {
+  background: url(@site/static/img/socialmedias/Bluesky.svg);
+  content: "";
+  display: flex;
+  height: 36px;
+  width: 37px;
+  background-repeat: no-repeat;
+}
+
+.mastodon-icon:hover {
+  opacity: 0.6;
+}
+
+.mastodon-icon:before {
+  background: url(@site/static/img/socialmedias/Mastodon.svg);
   content: "";
   display: flex;
   height: 36px;
