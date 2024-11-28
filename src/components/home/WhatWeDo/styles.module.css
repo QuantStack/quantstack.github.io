@@ -66,7 +66,7 @@ div .topics_header {
     padding: var(--ifm-spacing-2xl) var(--ifm-spacing-lg);
     border-radius: 8px;
     box-shadow: 0px 0px 8px 1px #c8c8c7;
-    background-color: var(--ifm-color-orange-light);
+    background-color: var(--ifm-color-primary-p0);
     margin: 0 var(--ifm-spacing-lg) var(--ifm-spacing-xl) var(--ifm-spacing-lg);
   }
 }
