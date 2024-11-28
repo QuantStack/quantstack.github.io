@@ -366,7 +366,7 @@ export const coreTeam = [
     distinctionLink: ["https://www.python.org/psf/fellows-roster/"],
     subTeamName: "coreTeam",
     BioComponent: AntoineMD,
-  },  
+  },
   {
     completeName: "Sandrine Pataut",
     firstName: "Sandrine",
@@ -478,7 +478,7 @@ export const leadershipTeam = [
     GitHubLink: "https://github.com/martinRenou",
     LinkedInLink: "https://www.linkedin.com/in/martin-renou",
     XLink: "https://twitter.com/martinRenou",
-    BlueskyLink:"",
+    BlueskyLink:"https://bsky.app/profile/martinrenou.bsky.social",
     MastodonLink:"",
     GitHubName: "@martinRenou",
     avatarUrl: MartinAvatarUrl,
