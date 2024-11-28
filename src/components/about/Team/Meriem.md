@@ -1,7 +1,7 @@
-Meriem Ben Ismail is a Software Engineering Intern at QuantStack.
+Meriem Ben Ismail is a Scientific Software Engineer at QuantStack.
 
-She is currently a final-year undergraduate student pursing a software engineering degree at the national institute of applied sciences and technology in Tunisia. Her deep interests lie in Software Development, DevOps, and Machine Learning.
+She graduated from the National Institute of Applied Sciences and Technology in Tunisia (INSAT) with a software engineering diploma in 2024.
 
-Before joining Quantstack, Meriem gained extensive experience in Web Development, employing a range of frameworks and practices including DevOps.
+At QuantStack, she has contributed to the Jupyter ecosystem, particularly in collaborative tools, alongside various other projects.
 
-Additionally, she contributed to projects in Machine Learning and Computer Vision.
+Her interests lie in Software Development, DevOps, and creating efficient tools for developers and scientists.

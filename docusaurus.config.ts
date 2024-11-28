@@ -129,6 +129,22 @@ const config: Config = {
           target: "_blank",
           className: "x-icon",
         },
+
+        {
+          to: "https://bsky.app/profile/quantstack.bsky.social",
+          title: "Bluesky",
+          position: "right",
+          target: "_blank",
+          className: "bluesky-icon",
+        },
+
+        {
+          to: "https://mastodon.social/@QuantStack",
+          title: "Mastodon",
+          position: "right",
+          target: "_blank",
+          className: "mastodon-icon",
+        },
       ],
     },
 
