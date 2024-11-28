@@ -543,7 +543,7 @@ export const leadershipTeam = [
     GitHubLink: "https://github.com/mmesch",
     LinkedInLink: "https://www.linkedin.com/in/mmesch/",
     BlueskyLink:"",
-    MastodonLink:"",
+    MastodonLink:"https://fosstodon.org/@mattodon",
     GitHubName: "@mmesch",
     avatarUrl: MatthiasAvatarUrl,
     distinctionTitle: [],
