@@ -61,6 +61,8 @@
   --ifm-spacing-6xl: 144px;
   --ifm-spacing-7xl: 240px;
   --ifm-spacing-8xl: 400px;
+
+  --ifm-navbar-item-padding-horizontal: 2px
 }
 
 .flex-full-centered {
@@ -551,6 +553,7 @@ a.menu__link:active {
   border-width: 2px;
   border-radius: 4px;
   font-weight: bolder;
+  margin: var(--ifm-navbar-item-padding-vertical) 20px;
 }
 
 .contact:hover {
