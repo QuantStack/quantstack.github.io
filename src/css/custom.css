@@ -62,7 +62,7 @@
   --ifm-spacing-7xl: 240px;
   --ifm-spacing-8xl: 400px;
 
-  --ifm-navbar-item-padding-horizontal: 2px
+  --ifm-navbar-item-padding-horizontal: 2px;
 }
 
 .flex-full-centered {
@@ -683,4 +683,10 @@ ul.row {
   padding: none;
   margin-left: 0;
   width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 0;
 }
