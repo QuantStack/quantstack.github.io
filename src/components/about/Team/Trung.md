@@ -1,8 +1,6 @@
-Le Duc Trung is a Scientific Software Developer at
-QuantStack. He holds a PhD on computational mechanics from Université Pierre-et-Marie-Curie (France).
-Before joining QuantStack, Trung worked as a research engineer at Mines ParisTech, CADLM and Safran Group.
+Le Duc Trung is a Technical Director at QuantStack.
+He holds a PhD in computational mechanics from Université Pierre-et-Marie-Curie (France).
 
-During his time at Safran, Trung was maintainer of <a href="https://gitlab.com/cosapp/cosapp">CoSApp</a>, a modeling framework relying on the Python scientific stack. He also authored <a href="https://gitlab.com/cosapp/cosapp_lab">CoSApp Lab</a>, a toolbox for creating and deploying CoSApp-powered dashboard.
+At QuantStack, Trung works on several projects within the Jupyter ecosystem, from the main projects like JupyterLab, Voilà, and ipywidgets to various JupyterLab extensions and widgets.
 
-As a personal project, Trung co-founded <a href="https://cast2cloud.com">Cast2cloud</a>, a web interface for the finite element
-solver Cast3M.
+Before joining QuantStack, Trung worked as a research engineer at Mines ParisTech, CADLM, and Safran Group.
