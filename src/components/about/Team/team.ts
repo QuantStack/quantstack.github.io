@@ -541,7 +541,7 @@ export const leadershipTeam = [
     position: "Technical Director",
     GitHubLink: "https://github.com/trungleduc",
     LinkedInLink: "https://www.linkedin.com/in/ductrung-le/",
-    XLink: "",
+    XLink: "@trung_leduc",
     BlueskyLink:"",
     MastodonLink:"",
     GitHubName: "@trungleduc",
