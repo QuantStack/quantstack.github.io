@@ -121,15 +121,6 @@ const config: Config = {
           target: "_blank",
           className: "linkedin-icon",
         },
-
-        {
-          to: "https://twitter.com/QuantStack",
-          title: "X",
-          position: "right",
-          target: "_blank",
-          className: "x-icon",
-        },
-
         {
           to: "https://bsky.app/profile/quantstack.bsky.social",
           title: "Bluesky",
