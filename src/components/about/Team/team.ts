@@ -358,7 +358,7 @@ export const coreTeam = [
     GitHubLink: "https://github.com/SandrineP",
     LinkedInLink:
       "https://www.linkedin.com/in/sandrinepataut/",
-    XLink: "https://x.com/SPataut",
+    XLink: "",
     BlueskyLink:"",
     MastodonLink:"",
     GitHubName: "@SandrineP",
