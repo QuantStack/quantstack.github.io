@@ -2,7 +2,6 @@ import Link from "@docusaurus/Link";
 import styles from "./styles.module.css";
 import GHPicture from "@site/static/img/socialmedias/GH.svg";
 import LinkedInPicture from "@site/static/img/socialmedias/LinkedIn.svg";
-import XPicture from "@site/static/img/socialmedias/X.svg";
 import BlueskyPicture from "@site/static/img/socialmedias/Bluesky.svg";
 import MastodonPicture from "@site/static/img/socialmedias/Mastodon.svg"
 
@@ -15,7 +14,6 @@ export function SocialMediasQuantStack() {
         <Link href={"https://www.linkedin.com/company/quantstack/mycompany"}>
           {<LinkedInPicture />}
         </Link>
-        <Link href={"https://twitter.com/QuantStack"}>{<XPicture />}</Link>
         <Link href={"https://bsky.app/profile/quantstack.bsky.social"}>{<BlueskyPicture />}</Link>
         <Link href={"https://mastodon.social/@QuantStack "}>{<MastodonPicture />}</Link>
       </div>
