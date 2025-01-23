@@ -340,9 +340,9 @@ export const coreTeam = [
     position: " Senior Software Developer",
     GitHubLink: "https://github.com/pitrou",
     LinkedInLink:
-      "https://www.linkedin.com/in/pitrou/?originalSubdomain=fr",
+      "https://www.linkedin.com/in/pitrou/",
     XLink: "",
-    BlueskyLink:"",
+    BlueskyLink: "https://bsky.app/profile/pitrou.bsky.social",
     MastodonLink:"",
     GitHubName: "@pitrou",
     avatarUrl: AntoineAvatarUrl,
