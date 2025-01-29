@@ -618,19 +618,6 @@ a.menu__link:active {
   background-repeat: no-repeat;
 }
 
-.x-icon:hover {
-  opacity: 0.6;
-}
-
-.x-icon:before {
-  background: url(../../static/img/socialmedias/X.svg);
-  content: "";
-  display: flex;
-  height: 36px;
-  width: 37px;
-  background-repeat: no-repeat;
-}
-
 .bluesky-icon:hover {
   opacity: 0.6;
 }
