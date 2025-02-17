@@ -308,8 +308,8 @@ export const coreTeam = [
     GitHubLink: "https://github.com/arjxn-py",
     LinkedInLink:
       "https://www.linkedin.com/in/arjun-verma-758608226/",
-    BlueskyLink:"",
-    MastodonLink:"",
+    BlueskyLink:"https://bsky.app/profile/arjxn-py.bsky.social",
+    MastodonLink:"https://mastodon.social/@arjxnpy",
     GitHubName: "@arjxn-py",
     avatarUrl: ArjunAvatarUrl,
     distinctionTitle: [],
