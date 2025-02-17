@@ -1,5 +1,18 @@
 [
   {
+    "url": "https://blog.jupyter.org/announcing-jupytercad-3-0-d8f4b7b0a719",
+    "title": "Announcing JupyterCAD 3.0",
+    "image": "/img/blogposts/Announcing-JupyterCAD-3.0.png",
+    "summary": "We are thrilled to introduce JupyterCAD 3.0, the newest version of the collaborative CAD modeler designed for JupyterLab.",
+    "date": "February 17, 2025",
+    "authors": "Arjun Verma, Trung Le, Martin Renou",
+    "imageID": "blogpost-image-126",
+    "imageNaturalWidth": 2940,
+    "imageNaturalHeight": 1462,
+    "imageRenderedWidth": 273,
+    "imageRenderedHeight": 136.25
+  },
+  {
     "url": "https://johan-mabille.medium.com/sparrow-1f23817f6696",
     "title": "Sparrow",
     "image": "/img/blogposts/sparrow.png",
