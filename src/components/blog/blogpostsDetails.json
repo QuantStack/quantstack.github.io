@@ -1,5 +1,18 @@
 [
   {
+    "url": "https://medium.com/@PyDataParis/pydata-paris-2025-50ff2bf2dc39",
+    "title": "PyData Paris 2025 Keynotes",
+    "image": "/img/blogposts/PyData-Paris-2025-Keynotes.png",
+    "summary": "We are thrilled to announce the keynote speakers for the upcoming PyData Paris 2025, the leading gathering of the open-source data science and AI/ML community in France.",
+    "date": "February 19, 2025",
+    "authors": "Sandrine Pataut",
+    "imageID": "blogpost-image-127",
+    "imageNaturalWidth": 372,
+    "imageNaturalHeight": 353,
+    "imageRenderedWidth": 171.27,
+    "imageRenderedHeight": 180
+  },
+  {
     "url": "https://blog.jupyter.org/announcing-jupytercad-3-0-d8f4b7b0a719",
     "title": "Announcing JupyterCAD 3.0",
     "image": "/img/blogposts/Announcing-JupyterCAD-3.0.png",
