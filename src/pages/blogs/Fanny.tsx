@@ -25,6 +25,9 @@ export default function FannyComponent() {
                   <b>In memoriam: Fanny Loustau-Chartez - 1983 - 2024</b>
                 </p>
                 <Fanny />
+                <p>
+                  May 16, 2024
+                </p>
               </div>
             </div>
           </div>
