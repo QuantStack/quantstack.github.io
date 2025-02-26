@@ -1,5 +1,18 @@
 [
   {
+    "url": "https://blog.jupyter.org/real-time-collaboration-and-collaborative-editing-for-gis-workflows-with-jupyter-and-qgis-d25dbe2832a6",
+    "title": "Real-time collaboration and collaborative editing for GIS workflows with Jupyter and QGIS",
+    "image": "/img/blogposts/Collaborative-GIS.png",
+    "summary": "We are thrilled to announce the keynote speakers for the upcoming PyData Paris 2025, the leading gathering of the open-source data science and AI/ML community in France.",
+    "date": "February 26, 2025",
+    "authors": "Meriem Ben Ismail, Nicolas Brichet, David Brochart, Matt Fisher, Anne Fouilloux, Greg Mooney, Martin Renou, Arjun Verma",
+    "imageID": "blogpost-image-128",
+    "imageNaturalWidth": 3840,
+    "imageNaturalHeight": 2041,
+    "imageRenderedWidth": 273,
+    "imageRenderedHeight": 145.10
+  },
+  {
     "url": "https://medium.com/@PyDataParis/pydata-paris-2025-50ff2bf2dc39",
     "title": "PyData Paris 2025 Keynotes",
     "image": "/img/blogposts/PyData-Paris-2025-Keynotes.png",
