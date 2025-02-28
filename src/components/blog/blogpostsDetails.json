@@ -1,5 +1,18 @@
 [
   {
+    "url": "https://blog.jupyter.org/r-in-the-browser-announcing-our-webassembly-distribution-9450e9539ed5",
+    "title": "R in the Browser: Announcing Our WebAssembly Distribution",
+    "image": "/img/blogposts/Xeus-R-Lite.png",
+    "summary": "R is now available in emscripten-forge, enabling the Xeus-R kernel in JupyterLite.",
+    "date": "February 28, 2025",
+    "authors": "Isabel Paredes",
+    "imageID": "blogpost-image-129",
+    "imageNaturalWidth": 1920,
+    "imageNaturalHeight": 840,
+    "imageRenderedWidth": 273,
+    "imageRenderedHeight": 119.43
+  },
+  {
     "url": "https://blog.jupyter.org/real-time-collaboration-and-collaborative-editing-for-gis-workflows-with-jupyter-and-qgis-d25dbe2832a6",
     "title": "Real-time collaboration and collaborative editing for GIS workflows with Jupyter and QGIS",
     "image": "/img/blogposts/Collaborative-GIS.png",
