@@ -549,20 +549,14 @@ a.menu__link:active {
 .contact {
   background-color: var(--ifm-color-primary-p1);
   color: var(--ifm-color-text-on-primary-p1);
-  border: transparent;
-  border-width: 2px;
   border-radius: 4px;
   font-weight: bolder;
+  font-style: normal;
   margin: var(--ifm-navbar-item-padding-vertical) 20px;
 }
 
 .contact:hover {
   background-color: white;
-  border: solid;
-  border-width: 2px;
-  border-radius: 4px;
-  border-color: var(--ifm-color-primary-p80);
-  font-style: normal;
 }
 
 .custom_navbar_item {
