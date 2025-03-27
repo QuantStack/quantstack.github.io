@@ -1469,7 +1469,7 @@
     "imageRenderedHeight": 107.20937500000001
   },
   {
-    "url": "https://towardsdatascience.com/interactive-spreadsheets-in-jupyter-32ab6ec0f4ff",
+    "url": "https://medium.com/data-science/interactive-spreadsheets-in-jupyter-32ab6ec0f4ff",
     "title": "Interactive spreadsheets in Jupyter",
     "image": "/img/blogposts/Interactive-spreadsheets-in-Jupyter.png",
     "summary": "ipysheet is a new interactive widgets library that aims at implementing the core features of a good spreadsheet application and more…",
@@ -1521,7 +1521,7 @@
     "imageRenderedHeight": 57.67605633802817
   },
   {
-    "url": "https://towardsdatascience.com/video-streaming-in-the-jupyter-notebook-635bc5809e85",
+    "url": "https://medium.com/data-science/video-streaming-in-the-jupyter-notebook-635bc5809e85",
     "title": "Video Streaming in the Jupyter Notebook",
     "image": "/img/blogposts/Video-Streaming-in-the-Jupyter-Notebook.gif",
     "summary": "ipywidgets plays an essential part in the Jupyter ecosystem; it brings interactivity between user and data. Widgets are eventful Python objects that often have a visual representation in the Jupyter…",
