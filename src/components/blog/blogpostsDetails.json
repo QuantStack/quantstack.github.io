@@ -1,6 +1,19 @@
 [
   {
     "url": "https://blog.jupyter.org/r-in-the-browser-announcing-our-webassembly-distribution-9450e9539ed5",
+    "title": "Making Qt collaborative using CRDTs",
+    "image": "/img/blogposts/Collaborative-Qt.png",
+    "summary": "A journal on creating a collaborative application with Qt",
+    "date": "March 31, 2025",
+    "authors": "David Brochart",
+    "imageID": "blogpost-image-129",
+    "imageNaturalWidth": 976,
+    "imageNaturalHeight": 288,
+    "imageRenderedWidth": 273,
+    "imageRenderedHeight": 80.56
+  },
+  {
+    "url": "https://blog.jupyter.org/r-in-the-browser-announcing-our-webassembly-distribution-9450e9539ed5",
     "title": "R in the Browser: Announcing Our WebAssembly Distribution",
     "image": "/img/blogposts/Xeus-R-Lite.png",
     "summary": "R is now available in emscripten-forge, enabling the Xeus-R kernel in JupyterLite.",
