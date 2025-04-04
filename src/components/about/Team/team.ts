@@ -6,6 +6,8 @@ import AndreasMD from "@site/src/components/about/Team/Andreas.md";
 import AndreasAvatarUrl from "@site/static/img/avatars/Andreas.png";
 import AntoineMD from "@site/src/components/about/Team/Antoine.md";
 import AntoineAvatarUrl from "@site/static/img/avatars/Antoine2.png";
+import AntoinePrvMD from "@site/src/components/about/Team/AntoinePrv.md";
+import AntoinePrvAvatarUrl from "@site/static/img/avatars/AntoinePrv.png";
 import AnutoshMD from "@site/src/components/about/Team/Anutosh.md";
 import AnutoshAvatarUrl from "@site/static/img/avatars/Anutosh.png";
 import ArjunMD from "@site/src/components/about/Team/Arjun.md"
@@ -364,6 +366,21 @@ export const coreTeam = [
     distinctionLink: [],
     subTeamName: "coreTeam",
     BioComponent: RaulMD,
+  },
+  {
+    completeName: "Antoine Prouvost",
+    firstName: "Antoine",
+    position: " Scientific Software Developer",
+    GitHubLink: "https://github.com/AntoinePrv",
+    LinkedInLink: "https://www.linkedin.com/in/antoine-prouvost-0667b6a4/",
+    BlueskyLink:"https://bsky.app/profile/antoineprv.bsky.social",
+    MastodonLink:"",
+    GitHubName: "@AntoinePrv",
+    avatarUrl: AntoinePrvAvatarUrl,
+    distinctionTitle: [],
+    distinctionLink: [],
+    subTeamName: "coreTeam",
+    BioComponent: AntoinePrvMD,
   },
 ];
 
