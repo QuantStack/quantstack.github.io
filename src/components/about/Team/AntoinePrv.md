@@ -1,4 +1,4 @@
-Antoine is a Scientific Software Engineer at Quantstack where he led devlopement efforts on the
+Antoine is a Scientific Software Engineer at Quantstack where he led devlopment efforts on the
 [Mamba](https://mamba.readthedocs.io/) package manager, as well as on the
 [Xeus-Octave](https://xeus-octave.readthedocs.io) Jupyter kernel and
 [Xtensor](https://xtensor.readthedocs.io/).
