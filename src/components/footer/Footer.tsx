@@ -76,7 +76,7 @@ export default function Footer() {
         >
           <div>
             <div>
-              <b>QuantStack office</b> <br />
+              <b>QuantStack</b> <br />
               16, avenue Curti <br />
               94100 Saint-Maur-des-Fossés <br />
               France
@@ -89,7 +89,7 @@ export default function Footer() {
 
           <div>
             <div>
-              <b>QuantStack office</b> <br />
+              <b>QuantStack</b> <br />
               16, avenue Curti <br />
               94100 Saint-Maur-des-Fossés <br />
               France
