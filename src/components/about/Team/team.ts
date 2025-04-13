@@ -60,6 +60,8 @@ import ThorstenMD from "@site/src/components/about/Team/Thorsten.md";
 import ThorstenAvatarUrl from "@site/static/img/avatars/Thorsten.png";
 import TrungMD from "@site/src/components/about/Team/Trung.md";
 import TrungAvatarUrl from "@site/static/img/avatars/Trung.png";
+import YahiaMD from "@site/src/components/about/Team/Yahia.md";
+import YahiaAvatarUrl from "@site/static/img/avatars/Yahia.png";
 
 
 export const coreTeam = [
@@ -381,6 +383,20 @@ export const coreTeam = [
     distinctionLink: [],
     subTeamName: "coreTeam",
     BioComponent: AntoinePrvMD,
+  },
+  {
+    completeName: "Yahia Heni",
+    firstName: "Yahia",
+    position: " Scientific Software Development Intern",
+    GitHubLink: "https://github.com/Yahiewi",
+    LinkedInLink:
+      "https://www.linkedin.com/in/yahia-heni/",
+    GitHubName: "@Yahiewi",
+    avatarUrl: YahiaAvatarUrl,
+    distinctionTitle: [],
+    distinctionLink: [],
+    subTeamName: "coreTeam",
+    BioComponent: YahiaMD,
   },
 ];
 
