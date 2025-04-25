@@ -1,4 +1,4 @@
-Matthias serves as Director of Business Development at QuantStack,
+Matthias serves as Chief Operating Officer at QuantStack,
 overseeing project initiation, requirement gathering, solution design,
 sales, and operations.
 
