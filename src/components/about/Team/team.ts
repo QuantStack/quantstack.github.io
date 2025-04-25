@@ -528,7 +528,7 @@ export const leadershipTeam = [
   {
     completeName: "Matthias Meschede",
     firstName: "Matthias",
-    position: "Director Business Development",
+    position: "Chief Operating Officer",
     GitHubLink: "https://github.com/mmesch",
     LinkedInLink: "https://www.linkedin.com/in/mmesch/",
     BlueskyLink:"",
