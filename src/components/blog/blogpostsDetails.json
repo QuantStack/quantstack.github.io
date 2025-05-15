@@ -1,5 +1,18 @@
 [
   {
+    "url": "https://blog.jupyter.org/congratulations-distinguished-contributors-2504029fc5a9",
+    "title": "Congratulations, Distinguished Contributors!",
+    "image": "/img/blogposts/Congratulations-Distinguished-Contributors-2025.png",
+    "summary": "We are proud to announce the recipients of the Jupyter Distinguished Contributor (JDC) award for the 2024 cohort of contributors.",
+    "date": "May 15, 2025",
+    "authors": "Johan Mabille",
+    "imageID": "blogpost-image-130",
+    "imageNaturalWidth": 1232,
+    "imageNaturalHeight": 822,
+    "imageRenderedWidth": 269.78,
+    "imageRenderedHeight": 180
+  },
+  {
     "url": "https://david-brochart.medium.com/making-qt-collaborative-using-crdts-94c470703253",
     "title": "Making Qt collaborative using CRDTs",
     "image": "/img/blogposts/Collaborative-Qt.png",
