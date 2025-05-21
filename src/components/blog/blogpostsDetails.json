@@ -1,5 +1,18 @@
 [
   {
+    "url": "https://blog.jupyter.org/jupyterlab-4-4-and-notebook-7-4-are-available-aca2782d4f3d",
+    "title": "JupyterLab 4.4 and Notebook 7.4 are available!",
+    "image": "https://miro.medium.com/v2/resize:fit:4800/format:webp/0*xR1yXwkrzFar51Rh.png",
+    "summary": "JupyterLab 4.4 has been released! This new minor release of JupyterLab includes 28 new features and enhancements, 76 bug fixes, 63 maintenance tasks and 34 documentation improvements.",
+    "date": "May 21, 2025",
+    "authors": "Jeremy Tuloup",
+    "imageID": "blogpost-image-131",
+    "imageNaturalWidth": 740,
+    "imageNaturalHeight": 357,
+    "imageRenderedWidth": 269.78,
+    "imageRenderedHeight": 131.70
+  },
+  {
     "url": "https://blog.jupyter.org/congratulations-distinguished-contributors-2504029fc5a9",
     "title": "Congratulations, Distinguished Contributors!",
     "image": "/img/blogposts/Congratulations-Distinguished-Contributors-2025.png",
@@ -9,7 +22,7 @@
     "imageID": "blogpost-image-130",
     "imageNaturalWidth": 1232,
     "imageNaturalHeight": 822,
-    "imageRenderedWidth": 269.78,
+    "imageRenderedWidth": 273,
     "imageRenderedHeight": 180
   },
   {
