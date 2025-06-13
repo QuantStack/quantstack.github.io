@@ -1,8 +1,21 @@
 [
   {
+    "url": "https://blog.jupyter.org/jupyterlite-0-6-0-is-released-b4bc69bfc8f4",
+    "title": "JupyterLite 0.6.0 is released! 🎉",
+    "image": "img/blogposts/JupyterLite-06.png",
+    "summary": "The new 0.6.0 release includes a number of new features, bug fixes, and enhancements. This release also brings significant improvements to the user experience and new customization options for JupyterLite deployments.",
+    "date": "June 12, 2025",
+    "authors": "Jeremy Tuloup",
+    "imageID": "blogpost-image-132",
+    "imageNaturalWidth": 1744,
+    "imageNaturalHeight": 544,
+    "imageRenderedWidth": 273,
+    "imageRenderedHeight": 85.16
+  },
+  {
     "url": "https://blog.jupyter.org/jupyterlab-4-4-and-notebook-7-4-are-available-aca2782d4f3d",
     "title": "JupyterLab 4.4 and Notebook 7.4 are available!",
-    "image": "https://miro.medium.com/v2/resize:fit:4800/format:webp/0*xR1yXwkrzFar51Rh.png",
+    "image": "img/blogposts/JupyterLab-44.png",
     "summary": "JupyterLab 4.4 has been released! This new minor release of JupyterLab includes 28 new features and enhancements, 76 bug fixes, 63 maintenance tasks and 34 documentation improvements.",
     "date": "May 21, 2025",
     "authors": "Jeremy Tuloup",
