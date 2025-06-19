@@ -9,6 +9,8 @@
   },
   "scripts": {
     "docusaurus": "docusaurus",
+    "prestart": "node scripts/resize-images.js",
+    "prebuild": "node scripts/resize-images.js",
     "start": "docusaurus start",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
@@ -33,7 +35,7 @@
     "clsx": "^2.0.0",
     "curl": "^0.1.4",
     "fs": "^0.0.1-security",
-    "image-size": "^1.1.1",
+    "image-size": "^1.2.1",
     "jimp": "^0.22.12",
     "js-yaml": "^4.1.0",
     "nodejs": "^0.0.0",
@@ -48,6 +50,7 @@
     "react-slick": "^0.30.2",
     "reactjs-popup": "^2.0.6",
     "request": "^2.88.2",
+    "sharp": "^0.34.2",
     "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
