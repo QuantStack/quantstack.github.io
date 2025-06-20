@@ -64,6 +64,8 @@ import TrungMD from "@site/src/components/about/Team/Trung.md";
 import TrungAvatarUrl from "@site/static/img/avatars/Trung.png";
 import YahiaMD from "@site/src/components/about/Team/Yahia.md";
 import YahiaAvatarUrl from "@site/static/img/avatars/Yahia.png";
+import OusemaMD from "@site/src/components/about/Team/Ousema.md";
+import OusemaAvatarUrl from "@site/static/img/avatars/Ousema.png";
 
 
 export const coreTeam = [
@@ -399,6 +401,20 @@ export const coreTeam = [
     distinctionLink: [],
     subTeamName: "coreTeam",
     BioComponent: YahiaMD,
+  },
+  {
+    completeName: "Ousema Bouaneni",
+    firstName: "Ousema",
+    position: " Scientific Software Development Intern",
+    GitHubLink: "https://github.com/ousema-bouaneni",
+    LinkedInLink:
+      "https://www.linkedin.com/in/ousema-bouaneni/",
+    GitHubName: "@ousema-bouaneni",
+    avatarUrl: OusemaAvatarUrl,
+    distinctionTitle: [],
+    distinctionLink: [],
+    subTeamName: "coreTeam",
+    BioComponent: OusemaMD,
   },
 ];
 

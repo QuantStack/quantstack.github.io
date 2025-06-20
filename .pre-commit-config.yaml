@@ -11,7 +11,7 @@ repos:
         name: Spell Check with Codespell
         args:
           - '--write-changes'
-          - '--ignore-words-list=cppp,normale'
+          - '--ignore-words-list=cppp,normale,honours,modelling'
           - '--builtin=en-GB_to_en-US'
         # Exclude package-lock.json and all .svg files
         exclude: 'package-lock\.json|\.svg$'
