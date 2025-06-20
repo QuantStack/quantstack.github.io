@@ -20,7 +20,7 @@ const config: Config = {
   organizationName: "/HaudinFlorence/", // Usually your GitHub org/user name.
   projectName: "quantstack.github.io", // Usually your repo name.
 
-  onBrokenLinks: "throw",
+  onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
   staticDirectories: ["static"],
 
@@ -52,6 +52,7 @@ const config: Config = {
         },
         theme: {
           customCss: "./src/css/custom.css",
+
         },
       } satisfies Preset.Options,
     ],
@@ -61,6 +62,17 @@ const config: Config = {
     // Replace with your project's social card
     //image: 'img/docusaurus-social-card.jpg',
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    headTags: [
+      {
+        tagName: 'link',
+        attributes: {
+          rel: 'alternate',
+          type: 'application/rss+xml',
+          title: 'RSS Feed',
+          href: '/rss.xml',
+        },
+      },
+    ],
     navbar: {
       title: "",
       logo: {
@@ -105,7 +117,6 @@ const config: Config = {
           position: "right",
           className: "contact",
         },
-
         {
           to: "https://github.com/QuantStack",
           title: "GitHub",
@@ -135,6 +146,14 @@ const config: Config = {
           position: "right",
           target: "_blank",
           className: "mastodon-icon",
+        },
+
+        {
+          to: "rss.xml",
+          title: "RSS",
+          position: "right",
+          target: "_blank",
+          className: "rss-circle-icon",
         },
       ],
     },
