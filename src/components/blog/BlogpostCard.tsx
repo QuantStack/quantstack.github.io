@@ -32,8 +32,6 @@ export default function BlogpostCard({ blogpost, timeIndex }) {
               <img
                 src={useBaseUrl(blogpost.image)}
                 id={blogpost.imageID}
-                width={blogpost.imageRenderedWidth}
-                height={blogpost.imageRenderedHeight}
                 alt={"Illustration for the blog post."}
               />
             </div>
