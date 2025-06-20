@@ -1,5 +1,18 @@
 [
   {
+    "url": "https://blog.jupyter.org/c-in-jupyter-interpreting-c-in-the-web-c9d93542f20b",
+    "title": "C++ in Jupyter — Interpreting C++ in the Web",
+    "image": "img/blogposts/CPP-in-JupyterLite.png",
+    "summary": "Scientists and engineers utilize programming languages not only to build software systems but also to drive interactive exploratory workflows. They leverage developer tools to explore and reason through problems effectively.",
+    "date": "June 19, 2025",
+    "authors": "Anutosh Bhat, Vassil Vassilev",
+    "imageID": "blogpost-image-133",
+    "imageNaturalWidth": 1400,
+    "imageNaturalHeight": 1120,
+    "imageRenderedWidth": 225,
+    "imageRenderedHeight": 180
+  },
+  {
     "url": "https://blog.jupyter.org/jupyterlite-0-6-0-is-released-b4bc69bfc8f4",
     "title": "JupyterLite 0.6.0 is released! 🎉",
     "image": "img/blogposts/JupyterLite-06.png",
