@@ -38,6 +38,8 @@ import JohanMD from "@site/src/components/about/Team/Johan.md";
 import JohanAvatarUrl from "@site/static/img/avatars/Johan.png";
 import JulienMD from "@site/src/components/about/Team/Julien.md";
 import JulienAvatarUrl from "@site/static/img/avatars/Julien.png";
+import MarionMD from "@site/src/components/about/Team/Marion.md";
+import MarionAvatarUrl from "@site/static/img/avatars/Marion.png";
 import MartinMD from "@site/src/components/about/Team/Martin.md";
 import MartinAvatarUrl from "@site/static/img/avatars/Martin.png";
 import MatthiasMD from "@site/src/components/about/Team/Matthias.md";
@@ -555,4 +557,20 @@ export const leadershipTeam = [
     subTeamName: "LeadershipTeam",
     BioComponent: TrungMD,
   },
+  {
+    completeName: "Marion Chaffaut",
+    firstName: "Marion",
+    position: "Chief Financial Officer",
+    GitHubLink: "https://github.com/MarionChaff",
+    LinkedInLink: "https://www.linkedin.com/in/marion-chaffaut/",
+    BlueskyLink:"",
+    MastodonLink:"",
+    GitHubName: "@MarionChaff",
+    avatarUrl: MarionAvatarUrl,
+    distinctionTitle: [],
+    distinctionLink: [],
+    subTeamName: "LeadershipTeam",
+    BioComponent: MarionMD,
+  },
+
 ];
