@@ -48,6 +48,7 @@
     "react-slick": "^0.30.2",
     "reactjs-popup": "^2.0.6",
     "request": "^2.88.2",
+    "rss": "^1.2.2",
     "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
