@@ -12,12 +12,10 @@
     text-align: center;
     margin-bottom: var(--ifm-spacing-xl);
   }
-
 }
 
 @media only screen and (min-width: 996px) {
   .aboutQS_container {
-    margin-top: var(--ifm-spacing-2xl);
     background-color: var(--ifm-color-primary-p1);
     color: var(--ifm-color-primary-p2);
     padding: var(--ifm-spacing-2xl) var(--ifm-spacing-5xl) 0
