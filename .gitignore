@@ -5,3 +5,4 @@ node_modules/
 build/
 .docusaurus
 static/img/light-and-dark-pictures/
+statit/img/blogposts/resized-images
