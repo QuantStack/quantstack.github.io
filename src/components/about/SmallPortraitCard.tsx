@@ -2,14 +2,15 @@ import styles from "./styles.module.css";
 import { useHistory } from "@docusaurus/router";
 import Avatar from "./Avatar";
 
-export function SmallPortraitCard({ person }) {
+export function SmallPortraitCard({ person}) {
   const history = useHistory();
 
-  function openDialog () {
-    history.push("/about/");
-    history.push("/about/" + person.firstName);
-
-  };
+  function openDialog() {
+    history.push({
+      pathname: `/about/${person.completeName.replace(/\s+/g, '')}`,
+      state: { fromAbout: true },
+    });
+  }
 
   return (
     <div onClick={openDialog}>
