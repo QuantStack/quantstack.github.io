@@ -2,13 +2,17 @@ import styles from "./styles.module.css";
 import { useHistory } from "@docusaurus/router";
 import Avatar from "./Avatar";
 
-export function SmallPortraitCard({ person}) {
+export function SmallPortraitCard({ person }) {
   const history = useHistory();
 
   function openDialog() {
+    const completeName = person.completeName.replace(/\s+/g, '');
+    const completeNameWithoutAccents = completeName
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, '');
     history.push({
-      pathname: `/about/${person.completeName.replace(/\s+/g, '')}`,
-      state: { fromAbout: true },
+      pathname: `/about/${completeNameWithoutAccents}`,
+      state: { fromAbout: true, scrollY: window.scrollY, },
     });
   }
 
