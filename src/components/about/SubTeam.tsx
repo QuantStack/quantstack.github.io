@@ -1,7 +1,5 @@
 import styles from "./styles.module.css";
-import Example from "./PortraitDialog";
-import { SmallPortraitCardWithDialog } from "./SmallPortraitCardWithDialog";
-
+import { SmallPortraitCard } from "./SmallPortraitCard";
 
 export default function SubTeam({ subTeamName, subTeam }) {
   return (
@@ -12,7 +10,7 @@ export default function SubTeam({ subTeamName, subTeam }) {
           {subTeam.map((person, index) => (
             <li className="cards-list" key={person.firstName}>
               <div className="col">
-                <SmallPortraitCardWithDialog person={person} />
+                <SmallPortraitCard person={person} />
               </div>
             </li>
           ))}

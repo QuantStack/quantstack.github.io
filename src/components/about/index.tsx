@@ -1,8 +1,18 @@
 import styles from "./styles.module.css";
-import { coreTeam, QSCollaboratorsTeam, leadershipTeam } from "./Team/team";
+import { teams } from "./Team/team";
 import FourValues from "./FourValues";
 import SubTeam from "./SubTeam";
 import LinkToContact from "../home/LinkToContact";
+
+export function getTeamByPersonName(name: string) {
+  for (const [teamName, members] of Object.entries(teams)) {
+    const person = members.find((person) => person.completeName.replace(/\s+/g, '') === name);
+    if (person) {
+      return members;
+    }
+  }
+  return null;
+}
 
  
 export function About() {
@@ -31,12 +41,12 @@ export function About() {
             <div className="col">
               <SubTeam
                 subTeamName={"The leadership team"}
-                subTeam={leadershipTeam}
+                subTeam={teams.leadershipTeam}
               />
-              <SubTeam subTeamName={"The core team"} subTeam={coreTeam} />
+              <SubTeam subTeamName={"The core team"} subTeam={teams.coreTeam} />
               <SubTeam
                 subTeamName={"QuantStack collaborators"}
-                subTeam={QSCollaboratorsTeam}
+                subTeam={teams.QSCollaboratorsTeam}
               />
             </div>
           </div>
