@@ -69,7 +69,6 @@ import TrungAvatarUrl from "@site/static/img/avatars/Trung.png";
 import YahiaMD from "@site/src/components/about/Team/Yahia.md";
 import YahiaAvatarUrl from "@site/static/img/avatars/Yahia.png";
 
-
 export const teams = {
   coreTeam: [
     {
@@ -329,22 +328,6 @@ export const teams = {
       BioComponent: ArjunMD,
     },
     {
-      completeName: "Antoine Pitrou",
-      firstName: "AntoinePi",
-      position: " Senior Software Developer",
-      GitHubLink: "https://github.com/pitrou",
-      LinkedInLink:
-        "https://www.linkedin.com/in/pitrou/",
-      BlueskyLink: "https://bsky.app/profile/pitrou.bsky.social",
-      MastodonLink: "",
-      GitHubName: "@pitrou",
-      avatarUrl: AntoineAvatarUrl,
-      distinctionTitle: ["Python Software Foundation Fellow"],
-      distinctionLink: ["https://www.python.org/psf/fellows-roster/"],
-      subTeamName: "coreTeam",
-      BioComponent: AntoineMD,
-    },
-    {
       completeName: "Sandrine Pataut",
       firstName: "Sandrine",
       position: " Scientific Software Developer",
@@ -378,7 +361,7 @@ export const teams = {
     },
     {
       completeName: "Antoine Prouvost",
-      firstName: "AntoinePrv",
+      firstName: "Antoine",
       position: " Scientific Software Developer",
       GitHubLink: "https://github.com/AntoinePrv",
       LinkedInLink: "https://www.linkedin.com/in/antoine-prouvost-0667b6a4/",
@@ -419,8 +402,38 @@ export const teams = {
       subTeamName: "coreTeam",
       BioComponent: OusemaMD,
     },
+    {
+      completeName: "Guy Mushiata Kibulu",
+      firstName: "Guy",
+      position: "Scientific Software Development Intern",
+      GitHubLink: "https://github.com/Gauss-Taylor-Euler",
+      LinkedInLink:
+        "https://www.linkedin.com/in/guy-mushiata-kibulu-189646336/",
+      GitHubName: "@Gauss-Taylor-Euler",
+      avatarUrl: GuyAvatarUrl,
+      distinctionTitle: [],
+      distinctionLink: [],
+      subTeamName: "coreTeam",
+      BioComponent: GuyMD,
+    }
   ],
+
   QSCollaboratorsTeam: [
+    {
+      completeName: "Johan Mabille",
+      firstName: "Johan",
+      position: "Technical Director",
+      GitHubLink: "https://github.com/JohanMabille",
+      LinkedInLink: "https://www.linkedin.com/in/johan-mabille/",
+      BlueskyLink: "",
+      MastodonLink: "",
+      GitHubName: "@JohanMabille",
+      avatarUrl: JohanAvatarUrl,
+      distinctionTitle: ["Jupyter Distinguished Contributor"],
+      distinctionLink: ["https://jupyter.org/about#distinguished-contributors"],
+      subTeamName: "QSCollaboratorsTeam",
+      BioComponent: JohanMD,
+    },
     {
       completeName: "Serge Guelton",
       firstName: "Serge",
@@ -451,6 +464,37 @@ export const teams = {
       subTeamName: "QSCollaboratorsTeam",
       BioComponent: RomainMD
     },
+    {
+      completeName: "Antoine Pitrou",
+      firstName: "Antoine",
+      position: "Senior Software Developer",
+      GitHubLink: "https://github.com/pitrou",
+      LinkedInLink:
+        "https://www.linkedin.com/in/pitrou/",
+      BlueskyLink: "https://bsky.app/profile/pitrou.bsky.social",
+      MastodonLink: "",
+      GitHubName: "@pitrou",
+      avatarUrl: AntoineAvatarUrl,
+      distinctionTitle: ["Python Software Foundation Fellow"],
+      distinctionLink: ["https://www.python.org/psf/fellows-roster/"],
+      subTeamName: "QSCollaboratorsTeam",
+      BioComponent: AntoineMD,
+    },
+    {
+      completeName: "Marion Chaffaut",
+      firstName: "Marion",
+      position: "Chief Financial Officer",
+      GitHubLink: "https://github.com/MarionChaff",
+      LinkedInLink: "https://www.linkedin.com/in/marion-chaffaut/",
+      BlueskyLink: "",
+      MastodonLink: "",
+      GitHubName: "@MarionChaff",
+      avatarUrl: MarionAvatarUrl,
+      distinctionTitle: [],
+      distinctionLink: [],
+      subTeamName: "QSCollaboratorsTeam",
+      BioComponent: MarionMD,
+    },
   ],
 
   leadershipTeam: [
@@ -470,24 +514,9 @@ export const teams = {
       BioComponent: SylvainMD,
     },
     {
-      completeName: "Johan Mabille",
-      firstName: "Johan",
-      position: "Project Director",
-      GitHubLink: "https://github.com/JohanMabille",
-      LinkedInLink: "https://www.linkedin.com/in/johan-mabille/",
-      BlueskyLink: "",
-      MastodonLink: "",
-      GitHubName: "@JohanMabille",
-      avatarUrl: JohanAvatarUrl,
-      distinctionTitle: ["Jupyter Distinguished Contributor"],
-      distinctionLink: ["https://jupyter.org/about#distinguished-contributors"],
-      subTeamName: "LeadershipTeam",
-      BioComponent: JohanMD,
-    },
-    {
       completeName: "Martin Renou",
       firstName: "Martin",
-      position: "Project Director",
+      position: "Technical Director",
       GitHubLink: "https://github.com/martinRenou",
       LinkedInLink: "https://www.linkedin.com/in/martin-renou",
       BlueskyLink: "https://bsky.app/profile/martinrenou.bsky.social",
@@ -514,7 +543,6 @@ export const teams = {
       subTeamName: "LeadershipTeam",
       BioComponent: JeremyMD,
     },
-
     {
       completeName: "Afshin Darian",
       firstName: "Darian",
@@ -574,21 +602,6 @@ export const teams = {
       distinctionLink: ["https://jupyter.org/about#distinguished-contributors"],
       subTeamName: "LeadershipTeam",
       BioComponent: TrungMD,
-    },
-    {
-      completeName: "Marion Chaffaut",
-      firstName: "Marion",
-      position: "Chief Financial Officer",
-      GitHubLink: "https://github.com/MarionChaff",
-      LinkedInLink: "https://www.linkedin.com/in/marion-chaffaut/",
-      BlueskyLink: "",
-      MastodonLink: "",
-      GitHubName: "@MarionChaff",
-      avatarUrl: MarionAvatarUrl,
-      distinctionTitle: [],
-      distinctionLink: [],
-      subTeamName: "LeadershipTeam",
-      BioComponent: MarionMD,
     },
   ]
 }
