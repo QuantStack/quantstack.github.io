@@ -1,5 +1,5 @@
 import BlogpostCard from "../../blog/BlogpostCard";
-import blogpostsDetails from "@site/src/components/blog/blogpostsDetails.json";
+import { blogpostsDetails } from "../../blog/blogpostsDetails";
 import styles from "./styles.module.css";
 import LinkToBlogs from "../LinkToBlogs";
 
