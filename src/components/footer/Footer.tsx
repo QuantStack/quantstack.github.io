@@ -65,6 +65,16 @@ export default function Footer() {
                   </li>
                 </ul>
               </div>
+            <div className="col flex-horizontally-centered">
+                <ul>
+                  <li>
+                    <Link href={"/fundable"}>Fundable projects</Link>
+                  </li>
+                  <li>
+                    <Link href={"/contact"}>Contact us</Link>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>

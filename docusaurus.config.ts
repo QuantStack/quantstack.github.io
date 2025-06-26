@@ -99,6 +99,13 @@ const config: Config = {
           label: "Blog",
           position: "left",
         },
+              {
+          to: "/fundable/",
+          className: "custom_navbar_item",
+          label: "Fundable projects",
+          position: "right",
+          className:"fundable_projects"
+        },
         {
           to: "/contact/",
           label: "CONTACT US",

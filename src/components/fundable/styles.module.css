@@ -1,0 +1,106 @@
+.fundable_project_card {
+  border: solid 0.5px;
+  width: 1020px;
+  height: 300px;
+  /*margin: var(--ifm-spacing-xl) 0;*/
+  padding: 30px 60px ;
+}
+
+.category_header {
+    font-family: var(--ifm-font-family-rubik-one);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    margin-bottom: var(--ifm-spacing-xl);
+    color: var(--ifm-color-secondary-s3);
+    padding: 20px 0;
+    text-align: left;
+}
+
+.project_title {
+   color: var(--ifm-text-color-main-title);
+    font-family: var(--ifm-font-family-bebas-neue);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    /*line-height: 150%; /* 72px */
+    letter-spacing: 2.112px;
+    text-align: left;
+    padding: 0;
+}
+
+.project_catch_up_phrase {
+  font-family: var(--ifm-font-family-roboto);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.15px;
+  color: var(--ifm-color-secondary-s3);
+}
+
+.modal_overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+}
+
+.modal_content {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  border-radius: 20px;
+  z-index: 4000;
+}
+.large_project_card {
+  width: 1000px;
+  height: 600px;
+  padding: 40px;
+  border-radius: 8px;
+}
+.large_project_card_section_title {
+  font-family: var(--ifm-font-family-roboto);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.15px;
+  }
+
+  .large_project_card_text p {
+  font-family: var(--ifm-font-family-roboto);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.15px;
+  color: var(--ifm-text-color-on-primary-p1);
+  text-align: justify;
+}
+.large_project_card_text_container {
+  background-color: lightgray;
+}
+
+@media only screen and (max-width: 996px) {
+  /*Mobile*/
+  .category_header {
+    font-size: 20px;
+}
+}
+
+@media only screen and (min-width: 996px) {
+  /*Desktop*/
+   .category_header {
+  /*font-size: var(--ifm-font-size-secondary-title);*/
+  font-size: 28px;
+}
+}
