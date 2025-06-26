@@ -66,7 +66,8 @@ import YahiaMD from "@site/src/components/about/Team/Yahia.md";
 import YahiaAvatarUrl from "@site/static/img/avatars/Yahia.png";
 import OusemaMD from "@site/src/components/about/Team/Ousema.md";
 import OusemaAvatarUrl from "@site/static/img/avatars/Ousema.png";
-
+import GuyMD from "@site/src/components/about/Team/Guy.md";
+import GuyAvatarUrl from "@site/static/img/avatars/Guy.png";
 
 export const coreTeam = [
   {
@@ -400,6 +401,20 @@ export const coreTeam = [
     subTeamName: "coreTeam",
     BioComponent: OusemaMD,
   },
+  {
+    completeName: "Guy Mushiata Kibulu",
+    firstName: "Guy",
+    position: "Scientific Software Development Intern",
+    GitHubLink: "https://github.com/Gauss-Taylor-Euler",
+    LinkedInLink:
+      "https://www.linkedin.com/in/guy-mushiata-kibulu-189646336/",
+    GitHubName: "@Gauss-Taylor-Euler",
+    avatarUrl: GuyAvatarUrl,
+    distinctionTitle: [],
+    distinctionLink: [],
+    subTeamName: "coreTeam",
+    BioComponent: GuyMD,
+  }
 ];
 
 export const QSCollaboratorsTeam = [
