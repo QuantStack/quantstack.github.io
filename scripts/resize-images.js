@@ -26,7 +26,7 @@ function calculateImageSize(fullSizePath) {
         }
         else {
             targetHeight = containerHeight;
-            targetWidth = Math.round(targetHeight / width * height);
+            targetWidth = Math.round(targetHeight * width / height);
         }
         return [targetWidth, targetHeight];
     }

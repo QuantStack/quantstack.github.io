@@ -2,28 +2,20 @@
   {
     "url": "https://david-brochart.medium.com/create-your-own-layers-in-jupytergis-cbb995a89b16",
     "title": "Create your own layers in JupyterGIS",
-    "image": "img/blogposts/Create-layers-JupyterGIS.png",
+    "image": "img/blogposts/resized-images/Create-layers-JupyterGIS.png",
     "summary": "JupyterGIS-tiler is a JupyterGIS extension that lets you use a notebook to process your (Xarray) data and make it available as raster tiles, so that it can be visualized in JupyterGIS.",
     "date": "June 25, 2025",
     "authors": "David Brochart",
-    "imageID": "blogpost-image-134",
-    "imageNaturalWidth": 1400,
-    "imageNaturalHeight": 681,
-    "imageRenderedWidth": 273,
-    "imageRenderedHeight": 132.8
+    "imageID": "blogpost-image-136"
   },
   {
     "url": "https://blog.jupyter.org/c-in-jupyter-interpreting-c-in-the-web-c9d93542f20b",
     "title": "C++ in Jupyter — Interpreting C++ in the Web",
-    "image": "img/blogposts/CPP-in-JupyterLite.png",
+    "image": "img/blogposts/resized-images/CPP-in-JupyterLite.png",
     "summary": "Scientists and engineers utilize programming languages not only to build software systems but also to drive interactive exploratory workflows. They leverage developer tools to explore and reason through problems effectively.",
     "date": "June 19, 2025",
     "authors": "Anutosh Bhat, Vassil Vassilev",
-    "imageID": "blogpost-image-133",
-    "imageNaturalWidth": 1400,
-    "imageNaturalHeight": 1120,
-    "imageRenderedWidth": 225,
-    "imageRenderedHeight": 180
+    "imageID": "blogpost-image-135"
   },
   {
     "url": "https://blog.jupyter.org/jupyterlite-0-6-0-is-released-b4bc69bfc8f4",
