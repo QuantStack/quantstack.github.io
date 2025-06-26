@@ -23,8 +23,8 @@
   },
   "dependencies": {
     "@coreui/react": "^5.0.0",
-    "@docusaurus/core": "^3.4.0",
-    "@docusaurus/preset-classic": "^3.4.0",
+    "@docusaurus/core": "^3.8.1",
+    "@docusaurus/preset-classic": "^3.8.1",
     "@formspree/core": "^3.0.1",
     "@formspree/react": "^2.5.1",
     "@fortawesome/free-brands-svg-icons": "^6.5.1",
@@ -54,9 +54,9 @@
     "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "^3.4.0",
-    "@docusaurus/tsconfig": "3.4.0",
-    "@docusaurus/types": "3.4.0",
+    "@docusaurus/module-type-aliases": "^3.8.1",
+    "@docusaurus/tsconfig": "3.8.1",
+    "@docusaurus/types": "3.8.1",
     "@types/node": "^20.12.12",
     "typescript": "~5.2.2"
   },
