@@ -1,8 +1,9 @@
 import styles from "./styles.module.css";
 import React, { useState } from "react";
 import BlogpostCard from "./BlogpostCard";
+import { blogpostsDetails } from "./blogpostsDetails";
 
-export default function BlogsComponent({ blogpostsDetails }) {
+export default function BlogsComponent() {
   const numberOfBlogs = blogpostsDetails.length;
   const [searchField, setSearchField] = useState("");
 
