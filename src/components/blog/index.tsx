@@ -1,8 +1,10 @@
 import styles from "./styles.module.css";
 import React, { useState } from "react";
 import BlogpostCard from "./BlogpostCard";
+import { blogpostsDetails } from "./blogpostsDetails";
+import RSSOrange from "/img/icons/RSSOrange.svg";
 
-export default function BlogsComponent({ blogpostsDetails }) {
+export default function BlogsComponent() {
   const numberOfBlogs = blogpostsDetails.length;
   const [searchField, setSearchField] = useState("");
 
@@ -26,9 +28,16 @@ export default function BlogsComponent({ blogpostsDetails }) {
           <div
             className={"col col--8 col--offset-2"}
           >
-            <h1 className="padding-none margin-none">
-              Featured Posts by QuantStack Contributors
-            </h1>
+            <div className="flex-full-centered">
+              <h1 className="padding-none margin-none">
+                Featured Posts by QuantStack Contributors
+              </h1>
+            <div style={{padding:"0 10px"}}>
+              <a href={"/rss.xml"}>
+                <RSSOrange width={"42px"} height={"42px"} />
+              </a>
+              </div>
+            </div>
             <div>
               <input
                 className={styles.search_input}

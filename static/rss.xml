@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[Recent blog posts featured by QuantStack team]]></title>
+        <description><![CDATA[RSS feed for QuantStack website blog page]]></description>
+        <link>https://quantstack.net</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Tue, 01 Jul 2025 16:14:17 GMT</lastBuildDate>
+        <atom:link href="https://quantstack.net/rss.xml" rel="self" type="application/rss+xml"/>
+        <language><![CDATA[en]]></language>
+        <item>
+            <title><![CDATA[Create your own layers in JupyterGIS]]></title>
+            <description><![CDATA[JupyterGIS-tiler is a JupyterGIS extension that lets you use a notebook to process your (Xarray) data and make it available as raster tiles, so that it can be visualized in JupyterGIS.]]></description>
+            <link>https://david-brochart.medium.com/create-your-own-layers-in-jupytergis-cbb995a89b16</link>
+            <guid isPermaLink="true">https://david-brochart.medium.com/create-your-own-layers-in-jupytergis-cbb995a89b16</guid>
+            <dc:creator><![CDATA[David Brochart]]></dc:creator>
+            <pubDate>Tue, 24 Jun 2025 22:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.netimg/blogposts/resized-images/Create-layers-JupyterGIS.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[C++ in Jupyter — Interpreting C++ in the Web]]></title>
+            <description><![CDATA[Scientists and engineers utilize programming languages not only to build software systems but also to drive interactive exploratory workflows. They leverage developer tools to explore and reason through problems effectively.]]></description>
+            <link>https://blog.jupyter.org/c-in-jupyter-interpreting-c-in-the-web-c9d93542f20b</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/c-in-jupyter-interpreting-c-in-the-web-c9d93542f20b</guid>
+            <dc:creator><![CDATA[Anutosh Bhat, Vassil Vassilev]]></dc:creator>
+            <pubDate>Wed, 18 Jun 2025 22:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.netimg/blogposts/resized-images/CPP-in-JupyterLite.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[JupyterLite 0.6.0 is released! 🎉]]></title>
+            <description><![CDATA[The new 0.6.0 release includes a number of new features, bug fixes, and enhancements. This release also brings significant improvements to the user experience and new customization options for JupyterLite deployments.]]></description>
+            <link>https://blog.jupyter.org/jupyterlite-0-6-0-is-released-b4bc69bfc8f4</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/jupyterlite-0-6-0-is-released-b4bc69bfc8f4</guid>
+            <dc:creator><![CDATA[Jeremy Tuloup]]></dc:creator>
+            <pubDate>Wed, 11 Jun 2025 22:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.netimg/blogposts/resized-images/JupyterLite-06.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[JupyterLab 4.4 and Notebook 7.4 are available!]]></title>
+            <description><![CDATA[JupyterLab 4.4 has been released! This new minor release of JupyterLab includes 28 new features and enhancements, 76 bug fixes, 63 maintenance tasks and 34 documentation improvements.]]></description>
+            <link>https://blog.jupyter.org/jupyterlab-4-4-and-notebook-7-4-are-available-aca2782d4f3d</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/jupyterlab-4-4-and-notebook-7-4-are-available-aca2782d4f3d</guid>
+            <dc:creator><![CDATA[Jeremy Tuloup]]></dc:creator>
+            <pubDate>Tue, 20 May 2025 22:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.netimg/blogposts/resized-images/JupyterLab-44.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Congratulations, Distinguished Contributors!]]></title>
+            <description><![CDATA[We are proud to announce the recipients of the Jupyter Distinguished Contributor (JDC) award for the 2024 cohort of contributors.]]></description>
+            <link>https://blog.jupyter.org/congratulations-distinguished-contributors-2504029fc5a9</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/congratulations-distinguished-contributors-2504029fc5a9</guid>
+            <dc:creator><![CDATA[Johan Mabille]]></dc:creator>
+            <pubDate>Wed, 14 May 2025 22:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Congratulations-Distinguished-Contributors-2025.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Making Qt collaborative using CRDTs]]></title>
+            <description><![CDATA[A journal on creating a collaborative application with Qt]]></description>
+            <link>https://david-brochart.medium.com/making-qt-collaborative-using-crdts-94c470703253</link>
+            <guid isPermaLink="true">https://david-brochart.medium.com/making-qt-collaborative-using-crdts-94c470703253</guid>
+            <dc:creator><![CDATA[David Brochart]]></dc:creator>
+            <pubDate>Sun, 30 Mar 2025 22:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Collaborative-Qt.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[R in the Browser: Announcing Our WebAssembly Distribution]]></title>
+            <description><![CDATA[R is now available in emscripten-forge, enabling the Xeus-R kernel in JupyterLite.]]></description>
+            <link>https://blog.jupyter.org/r-in-the-browser-announcing-our-webassembly-distribution-9450e9539ed5</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/r-in-the-browser-announcing-our-webassembly-distribution-9450e9539ed5</guid>
+            <dc:creator><![CDATA[Isabel Paredes]]></dc:creator>
+            <pubDate>Thu, 27 Feb 2025 23:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Xeus-R-Lite.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Real-time collaboration and collaborative editing for GIS workflows with Jupyter and QGIS]]></title>
+            <description><![CDATA[We are excited to announce JupyterGIS, a web-based, collaborative, and extensible interface for GIS, leveraging the JupyterLab application framework and integrating seamlessly with the Jupyter notebook interface.]]></description>
+            <link>https://blog.jupyter.org/real-time-collaboration-and-collaborative-editing-for-gis-workflows-with-jupyter-and-qgis-d25dbe2832a6</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/real-time-collaboration-and-collaborative-editing-for-gis-workflows-with-jupyter-and-qgis-d25dbe2832a6</guid>
+            <dc:creator><![CDATA[Meriem Ben Ismail, Nicolas Brichet, David Brochart, Matt Fisher, Anne Fouilloux, Greg Mooney, Martin Renou, Arjun Verma]]></dc:creator>
+            <pubDate>Tue, 25 Feb 2025 23:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Collaborative-GIS.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[PyData Paris 2025 Keynotes]]></title>
+            <description><![CDATA[We are thrilled to announce the keynote speakers for the upcoming PyData Paris 2025, the leading gathering of the open-source data science and AI/ML community in France.]]></description>
+            <link>https://medium.com/@PyDataParis/pydata-paris-2025-50ff2bf2dc39</link>
+            <guid isPermaLink="true">https://medium.com/@PyDataParis/pydata-paris-2025-50ff2bf2dc39</guid>
+            <dc:creator><![CDATA[Sandrine Pataut]]></dc:creator>
+            <pubDate>Tue, 18 Feb 2025 23:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/PyData-Paris-2025-Keynotes.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Announcing JupyterCAD 3.0]]></title>
+            <description><![CDATA[We are thrilled to introduce JupyterCAD 3.0, the newest version of the collaborative CAD modeler designed for JupyterLab.]]></description>
+            <link>https://blog.jupyter.org/announcing-jupytercad-3-0-d8f4b7b0a719</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/announcing-jupytercad-3-0-d8f4b7b0a719</guid>
+            <dc:creator><![CDATA[Arjun Verma, Trung Le, Martin Renou]]></dc:creator>
+            <pubDate>Sun, 16 Feb 2025 23:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Announcing-JupyterCAD-3.0.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Sparrow]]></title>
+            <description><![CDATA[We are thrilled to introduce Sparrow, a new library designed to simplify the integration of Apache Arrow’s columnar format into C++ applications.]]></description>
+            <link>https://johan-mabille.medium.com/sparrow-1f23817f6696</link>
+            <guid isPermaLink="true">https://johan-mabille.medium.com/sparrow-1f23817f6696</guid>
+            <dc:creator><![CDATA[Johan Mabille, Alexis Placet, Thorsten Beier, Joël Lamotte]]></dc:creator>
+            <pubDate>Thu, 30 Jan 2025 23:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/sparrow.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[JupyterLite Terminal]]></title>
+            <description><![CDATA[QuantStack are delighted to announce that we have been working on a new Terminal for JupyterLite.]]></description>
+            <link>https://blog.jupyter.org/jupyterlite-terminal-edb3f80dc1c0</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/jupyterlite-terminal-edb3f80dc1c0</guid>
+            <dc:creator><![CDATA[Ian Thomas]]></dc:creator>
+            <pubDate>Tue, 12 Nov 2024 23:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Jupyterlite-Terminal.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Automate your releases with the Jupyter Releaser 🚀]]></title>
+            <description><![CDATA[Jupyter Releaser is an automation tool developed by the Jupyter team to streamline and standardize the release process across Jupyter projects.]]></description>
+            <link>https://blog.jupyter.org/automate-your-releases-with-the-jupyter-releaser-701e7b9841e6</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/automate-your-releases-with-the-jupyter-releaser-701e7b9841e6</guid>
+            <dc:creator><![CDATA[Jeremy Tuloup]]></dc:creator>
+            <pubDate>Sun, 27 Oct 2024 23:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Automate-releases-jupyter-releaser.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[QuantStack Steps Up to Support Apache Arrow with New Dedicated Team]]></title>
+            <description><![CDATA[ We are thrilled to announce that QuantStack is starting a new team dedicated to the maintenance and development of Apache Arrow.]]></description>
+            <link>https://medium.com/@QuantStack/quantstack-steps-up-to-support-apache-arrow-with-new-dedicated-team-9ddc952f20e2</link>
+            <guid isPermaLink="true">https://medium.com/@QuantStack/quantstack-steps-up-to-support-apache-arrow-with-new-dedicated-team-9ddc952f20e2</guid>
+            <dc:creator><![CDATA[Sylvain Corlay]]></dc:creator>
+            <pubDate>Mon, 21 Oct 2024 22:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/QuantStack-Steps-Up-to-Support-Apache-Arrow-with-New-Dedicated-Team.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Interactive Mapping with ipyopenlayers]]></title>
+            <description><![CDATA[ In this article, we present the main features of ipyopenlayers and demonstrate how this library can transform your geospatial data into dynamic, interactive visualizations.]]></description>
+            <link>https://blog.jupyter.org/interactive-mapping-with-ipyopenlayers-2b8bc93bb6c4</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/interactive-mapping-with-ipyopenlayers-2b8bc93bb6c4</guid>
+            <dc:creator><![CDATA[Nour Cheour]]></dc:creator>
+            <pubDate>Thu, 05 Sep 2024 22:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Interactive-Mapping-with-ipyopenlayers.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Announcing the 2023 cohort of Jupyter distinguished contributors]]></title>
+            <description><![CDATA[We are delighted to announce the recipients of the Jupyter Distinguished Contributor (JDC) award for the 2023 cohort.]]></description>
+            <link>https://blog.jupyter.org/announcing-the-2023-jupyter-distinguished-contributor-award-recipients-1b2cc4ba203f</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/announcing-the-2023-jupyter-distinguished-contributor-award-recipients-1b2cc4ba203f</guid>
+            <dc:creator><![CDATA[Johan Mabille, on behalf of the Jupyter Distinguished Contributors]]></dc:creator>
+            <pubDate>Tue, 03 Sep 2024 22:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Announcing-the-2023-Jupyter-Distinguished-Contributors.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Ipydatagrid is now part of Project Jupyter]]></title>
+            <description><![CDATA[Today, we are proud to announce that the ipydatagrid open source project has been incorporated into Project Jupyter as part of the Jupyter Widgets subproject.]]></description>
+            <link>https://blog.jupyter.org/ipydatagrid-is-now-part-of-project-jupyter-3b3dfb877664</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/ipydatagrid-is-now-part-of-project-jupyter-3b3dfb877664</guid>
+            <dc:creator><![CDATA[Sylvain Corlay, on behalf of the Jupyter Widgets Council]]></dc:creator>
+            <pubDate>Wed, 21 Aug 2024 22:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Ipydatagrid-is-now-part-of-ProjectJupyter.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Introducing Mamba 2.0]]></title>
+            <description><![CDATA[We are excited to present the first release candidate of Mamba 2.0, a significant upgrade to the mamba package manager. This update brings considerable enhancements for both users and developers, following an extensive year-long development effort.]]></description>
+            <link>https://medium.com/@QuantStack/introducing-mamba-2-0-0e8d5c6d1d0c</link>
+            <guid isPermaLink="true">https://medium.com/@QuantStack/introducing-mamba-2-0-0e8d5c6d1d0c</guid>
+            <dc:creator><![CDATA[Antoine Prouvost, Joël Lamotte, Johan Mabille, Hind Montassif]]></dc:creator>
+            <pubDate>Mon, 15 Jul 2024 22:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Introducing-Mamba-2-0.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[QuantStack open-source internship program]]></title>
+            <description><![CDATA[Today, we are announcing a new internship program that aims to empower a new cohort of open-source contributors and future maintainers to make an impact within our ecosystem.]]></description>
+            <link>https://medium.com/@QuantStack/quantstack-open-source-internship-program-049755b6d44b</link>
+            <guid isPermaLink="true">https://medium.com/@QuantStack/quantstack-open-source-internship-program-049755b6d44b</guid>
+            <dc:creator><![CDATA[Sylvain Corlay]]></dc:creator>
+            <pubDate>Mon, 08 Jul 2024 22:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/QuantStack-open-source-internship-program.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[JupyterCAD 2.0]]></title>
+            <description><![CDATA[We are thrilled to introduce JupyterCAD 2.0, the newest version of the JupyterLab-based CAD modeler.]]></description>
+            <link>https://medium.com/@QuantStack/jupytercad-2-0-4b9c4e18d22a</link>
+            <guid isPermaLink="true">https://medium.com/@QuantStack/jupytercad-2-0-4b9c4e18d22a</guid>
+            <dc:creator><![CDATA[Trung Le, Martin Renou]]></dc:creator>
+            <pubDate>Thu, 04 Jul 2024 22:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/JupyterCAD-2-0.png" length="0" type="image/png"/>
+        </item>
+    </channel>
+</rss>

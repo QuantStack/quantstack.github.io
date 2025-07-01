@@ -1,0 +1,1235 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[All blog posts featured by QuantStack team]]></title>
+        <description><![CDATA[RSS feed for QuantStack website blog page]]></description>
+        <link>https://quantstack.net</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Tue, 01 Jul 2025 16:14:17 GMT</lastBuildDate>
+        <atom:link href="https://quantstack.net/rss_all.xml" rel="self" type="application/rss+xml"/>
+        <language><![CDATA[en]]></language>
+        <item>
+            <title><![CDATA[Create your own layers in JupyterGIS]]></title>
+            <description><![CDATA[JupyterGIS-tiler is a JupyterGIS extension that lets you use a notebook to process your (Xarray) data and make it available as raster tiles, so that it can be visualized in JupyterGIS.]]></description>
+            <link>https://david-brochart.medium.com/create-your-own-layers-in-jupytergis-cbb995a89b16</link>
+            <guid isPermaLink="true">https://david-brochart.medium.com/create-your-own-layers-in-jupytergis-cbb995a89b16</guid>
+            <dc:creator><![CDATA[David Brochart]]></dc:creator>
+            <pubDate>Tue, 24 Jun 2025 22:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.netimg/blogposts/resized-images/Create-layers-JupyterGIS.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[C++ in Jupyter — Interpreting C++ in the Web]]></title>
+            <description><![CDATA[Scientists and engineers utilize programming languages not only to build software systems but also to drive interactive exploratory workflows. They leverage developer tools to explore and reason through problems effectively.]]></description>
+            <link>https://blog.jupyter.org/c-in-jupyter-interpreting-c-in-the-web-c9d93542f20b</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/c-in-jupyter-interpreting-c-in-the-web-c9d93542f20b</guid>
+            <dc:creator><![CDATA[Anutosh Bhat, Vassil Vassilev]]></dc:creator>
+            <pubDate>Wed, 18 Jun 2025 22:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.netimg/blogposts/resized-images/CPP-in-JupyterLite.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[JupyterLite 0.6.0 is released! 🎉]]></title>
+            <description><![CDATA[The new 0.6.0 release includes a number of new features, bug fixes, and enhancements. This release also brings significant improvements to the user experience and new customization options for JupyterLite deployments.]]></description>
+            <link>https://blog.jupyter.org/jupyterlite-0-6-0-is-released-b4bc69bfc8f4</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/jupyterlite-0-6-0-is-released-b4bc69bfc8f4</guid>
+            <dc:creator><![CDATA[Jeremy Tuloup]]></dc:creator>
+            <pubDate>Wed, 11 Jun 2025 22:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.netimg/blogposts/resized-images/JupyterLite-06.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[JupyterLab 4.4 and Notebook 7.4 are available!]]></title>
+            <description><![CDATA[JupyterLab 4.4 has been released! This new minor release of JupyterLab includes 28 new features and enhancements, 76 bug fixes, 63 maintenance tasks and 34 documentation improvements.]]></description>
+            <link>https://blog.jupyter.org/jupyterlab-4-4-and-notebook-7-4-are-available-aca2782d4f3d</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/jupyterlab-4-4-and-notebook-7-4-are-available-aca2782d4f3d</guid>
+            <dc:creator><![CDATA[Jeremy Tuloup]]></dc:creator>
+            <pubDate>Tue, 20 May 2025 22:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.netimg/blogposts/resized-images/JupyterLab-44.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Congratulations, Distinguished Contributors!]]></title>
+            <description><![CDATA[We are proud to announce the recipients of the Jupyter Distinguished Contributor (JDC) award for the 2024 cohort of contributors.]]></description>
+            <link>https://blog.jupyter.org/congratulations-distinguished-contributors-2504029fc5a9</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/congratulations-distinguished-contributors-2504029fc5a9</guid>
+            <dc:creator><![CDATA[Johan Mabille]]></dc:creator>
+            <pubDate>Wed, 14 May 2025 22:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Congratulations-Distinguished-Contributors-2025.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Making Qt collaborative using CRDTs]]></title>
+            <description><![CDATA[A journal on creating a collaborative application with Qt]]></description>
+            <link>https://david-brochart.medium.com/making-qt-collaborative-using-crdts-94c470703253</link>
+            <guid isPermaLink="true">https://david-brochart.medium.com/making-qt-collaborative-using-crdts-94c470703253</guid>
+            <dc:creator><![CDATA[David Brochart]]></dc:creator>
+            <pubDate>Sun, 30 Mar 2025 22:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Collaborative-Qt.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[R in the Browser: Announcing Our WebAssembly Distribution]]></title>
+            <description><![CDATA[R is now available in emscripten-forge, enabling the Xeus-R kernel in JupyterLite.]]></description>
+            <link>https://blog.jupyter.org/r-in-the-browser-announcing-our-webassembly-distribution-9450e9539ed5</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/r-in-the-browser-announcing-our-webassembly-distribution-9450e9539ed5</guid>
+            <dc:creator><![CDATA[Isabel Paredes]]></dc:creator>
+            <pubDate>Thu, 27 Feb 2025 23:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Xeus-R-Lite.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Real-time collaboration and collaborative editing for GIS workflows with Jupyter and QGIS]]></title>
+            <description><![CDATA[We are excited to announce JupyterGIS, a web-based, collaborative, and extensible interface for GIS, leveraging the JupyterLab application framework and integrating seamlessly with the Jupyter notebook interface.]]></description>
+            <link>https://blog.jupyter.org/real-time-collaboration-and-collaborative-editing-for-gis-workflows-with-jupyter-and-qgis-d25dbe2832a6</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/real-time-collaboration-and-collaborative-editing-for-gis-workflows-with-jupyter-and-qgis-d25dbe2832a6</guid>
+            <dc:creator><![CDATA[Meriem Ben Ismail, Nicolas Brichet, David Brochart, Matt Fisher, Anne Fouilloux, Greg Mooney, Martin Renou, Arjun Verma]]></dc:creator>
+            <pubDate>Tue, 25 Feb 2025 23:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Collaborative-GIS.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[PyData Paris 2025 Keynotes]]></title>
+            <description><![CDATA[We are thrilled to announce the keynote speakers for the upcoming PyData Paris 2025, the leading gathering of the open-source data science and AI/ML community in France.]]></description>
+            <link>https://medium.com/@PyDataParis/pydata-paris-2025-50ff2bf2dc39</link>
+            <guid isPermaLink="true">https://medium.com/@PyDataParis/pydata-paris-2025-50ff2bf2dc39</guid>
+            <dc:creator><![CDATA[Sandrine Pataut]]></dc:creator>
+            <pubDate>Tue, 18 Feb 2025 23:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/PyData-Paris-2025-Keynotes.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Announcing JupyterCAD 3.0]]></title>
+            <description><![CDATA[We are thrilled to introduce JupyterCAD 3.0, the newest version of the collaborative CAD modeler designed for JupyterLab.]]></description>
+            <link>https://blog.jupyter.org/announcing-jupytercad-3-0-d8f4b7b0a719</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/announcing-jupytercad-3-0-d8f4b7b0a719</guid>
+            <dc:creator><![CDATA[Arjun Verma, Trung Le, Martin Renou]]></dc:creator>
+            <pubDate>Sun, 16 Feb 2025 23:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Announcing-JupyterCAD-3.0.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Sparrow]]></title>
+            <description><![CDATA[We are thrilled to introduce Sparrow, a new library designed to simplify the integration of Apache Arrow’s columnar format into C++ applications.]]></description>
+            <link>https://johan-mabille.medium.com/sparrow-1f23817f6696</link>
+            <guid isPermaLink="true">https://johan-mabille.medium.com/sparrow-1f23817f6696</guid>
+            <dc:creator><![CDATA[Johan Mabille, Alexis Placet, Thorsten Beier, Joël Lamotte]]></dc:creator>
+            <pubDate>Thu, 30 Jan 2025 23:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/sparrow.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[JupyterLite Terminal]]></title>
+            <description><![CDATA[QuantStack are delighted to announce that we have been working on a new Terminal for JupyterLite.]]></description>
+            <link>https://blog.jupyter.org/jupyterlite-terminal-edb3f80dc1c0</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/jupyterlite-terminal-edb3f80dc1c0</guid>
+            <dc:creator><![CDATA[Ian Thomas]]></dc:creator>
+            <pubDate>Tue, 12 Nov 2024 23:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Jupyterlite-Terminal.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Automate your releases with the Jupyter Releaser 🚀]]></title>
+            <description><![CDATA[Jupyter Releaser is an automation tool developed by the Jupyter team to streamline and standardize the release process across Jupyter projects.]]></description>
+            <link>https://blog.jupyter.org/automate-your-releases-with-the-jupyter-releaser-701e7b9841e6</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/automate-your-releases-with-the-jupyter-releaser-701e7b9841e6</guid>
+            <dc:creator><![CDATA[Jeremy Tuloup]]></dc:creator>
+            <pubDate>Sun, 27 Oct 2024 23:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Automate-releases-jupyter-releaser.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[QuantStack Steps Up to Support Apache Arrow with New Dedicated Team]]></title>
+            <description><![CDATA[ We are thrilled to announce that QuantStack is starting a new team dedicated to the maintenance and development of Apache Arrow.]]></description>
+            <link>https://medium.com/@QuantStack/quantstack-steps-up-to-support-apache-arrow-with-new-dedicated-team-9ddc952f20e2</link>
+            <guid isPermaLink="true">https://medium.com/@QuantStack/quantstack-steps-up-to-support-apache-arrow-with-new-dedicated-team-9ddc952f20e2</guid>
+            <dc:creator><![CDATA[Sylvain Corlay]]></dc:creator>
+            <pubDate>Mon, 21 Oct 2024 22:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/QuantStack-Steps-Up-to-Support-Apache-Arrow-with-New-Dedicated-Team.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Interactive Mapping with ipyopenlayers]]></title>
+            <description><![CDATA[ In this article, we present the main features of ipyopenlayers and demonstrate how this library can transform your geospatial data into dynamic, interactive visualizations.]]></description>
+            <link>https://blog.jupyter.org/interactive-mapping-with-ipyopenlayers-2b8bc93bb6c4</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/interactive-mapping-with-ipyopenlayers-2b8bc93bb6c4</guid>
+            <dc:creator><![CDATA[Nour Cheour]]></dc:creator>
+            <pubDate>Thu, 05 Sep 2024 22:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Interactive-Mapping-with-ipyopenlayers.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Announcing the 2023 cohort of Jupyter distinguished contributors]]></title>
+            <description><![CDATA[We are delighted to announce the recipients of the Jupyter Distinguished Contributor (JDC) award for the 2023 cohort.]]></description>
+            <link>https://blog.jupyter.org/announcing-the-2023-jupyter-distinguished-contributor-award-recipients-1b2cc4ba203f</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/announcing-the-2023-jupyter-distinguished-contributor-award-recipients-1b2cc4ba203f</guid>
+            <dc:creator><![CDATA[Johan Mabille, on behalf of the Jupyter Distinguished Contributors]]></dc:creator>
+            <pubDate>Tue, 03 Sep 2024 22:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Announcing-the-2023-Jupyter-Distinguished-Contributors.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Ipydatagrid is now part of Project Jupyter]]></title>
+            <description><![CDATA[Today, we are proud to announce that the ipydatagrid open source project has been incorporated into Project Jupyter as part of the Jupyter Widgets subproject.]]></description>
+            <link>https://blog.jupyter.org/ipydatagrid-is-now-part-of-project-jupyter-3b3dfb877664</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/ipydatagrid-is-now-part-of-project-jupyter-3b3dfb877664</guid>
+            <dc:creator><![CDATA[Sylvain Corlay, on behalf of the Jupyter Widgets Council]]></dc:creator>
+            <pubDate>Wed, 21 Aug 2024 22:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Ipydatagrid-is-now-part-of-ProjectJupyter.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Introducing Mamba 2.0]]></title>
+            <description><![CDATA[We are excited to present the first release candidate of Mamba 2.0, a significant upgrade to the mamba package manager. This update brings considerable enhancements for both users and developers, following an extensive year-long development effort.]]></description>
+            <link>https://medium.com/@QuantStack/introducing-mamba-2-0-0e8d5c6d1d0c</link>
+            <guid isPermaLink="true">https://medium.com/@QuantStack/introducing-mamba-2-0-0e8d5c6d1d0c</guid>
+            <dc:creator><![CDATA[Antoine Prouvost, Joël Lamotte, Johan Mabille, Hind Montassif]]></dc:creator>
+            <pubDate>Mon, 15 Jul 2024 22:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Introducing-Mamba-2-0.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[QuantStack open-source internship program]]></title>
+            <description><![CDATA[Today, we are announcing a new internship program that aims to empower a new cohort of open-source contributors and future maintainers to make an impact within our ecosystem.]]></description>
+            <link>https://medium.com/@QuantStack/quantstack-open-source-internship-program-049755b6d44b</link>
+            <guid isPermaLink="true">https://medium.com/@QuantStack/quantstack-open-source-internship-program-049755b6d44b</guid>
+            <dc:creator><![CDATA[Sylvain Corlay]]></dc:creator>
+            <pubDate>Mon, 08 Jul 2024 22:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/QuantStack-open-source-internship-program.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[JupyterCAD 2.0]]></title>
+            <description><![CDATA[We are thrilled to introduce JupyterCAD 2.0, the newest version of the JupyterLab-based CAD modeler.]]></description>
+            <link>https://medium.com/@QuantStack/jupytercad-2-0-4b9c4e18d22a</link>
+            <guid isPermaLink="true">https://medium.com/@QuantStack/jupytercad-2-0-4b9c4e18d22a</guid>
+            <dc:creator><![CDATA[Trung Le, Martin Renou]]></dc:creator>
+            <pubDate>Thu, 04 Jul 2024 22:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/JupyterCAD-2-0.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[JupyterGIS]]></title>
+            <description><![CDATA[We are thrilled to announce that the European Space Agency (ESA) is funding our proposal “Real-time collaboration and collaborative editing for GIS workflows with Jupyter and QGIS.”]]></description>
+            <link>https://blog.jupyter.org/jupytergis-d63b7adf9d0c</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/jupytergis-d63b7adf9d0c</guid>
+            <dc:creator><![CDATA[Sylvain Corlay, Anne Fouilloux, Monika Weissschnur]]></dc:creator>
+            <pubDate>Tue, 11 Jun 2024 22:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/JupyterGIS.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Commit!]]></title>
+            <description><![CDATA[Open-source projects are not just about the latest exciting updates and features, but also the principles and people that drive these projects to success. In this blog post, I reflect on the dynamics…]]></description>
+            <link>https://medium.com/@SylvainCorlay/commit-cdf57415b94b</link>
+            <guid isPermaLink="true">https://medium.com/@SylvainCorlay/commit-cdf57415b94b</guid>
+            <dc:creator><![CDATA[Sylvain Corlay]]></dc:creator>
+            <pubDate>Tue, 28 May 2024 22:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Commit.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[In memoriam: Fanny Loustau Chartez]]></title>
+            <description><![CDATA[It is with great sadness that we announce the passing of our colleague and friend, Fanny Loustau Chartez, who served as the Chief Financial Officer of QuantStack since 2021.]]></description>
+            <link>/blogs/Fanny</link>
+            <guid isPermaLink="true">/blogs/Fanny</guid>
+            <dc:creator><![CDATA[Sylvain Corlay]]></dc:creator>
+            <pubDate>Wed, 15 May 2024 22:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/In-memoriam-Fanny-Loustau-Chartez.jpg" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Announcing PyData Paris 2024]]></title>
+            <description><![CDATA[We are thrilled to announce the upcoming PyData Paris 2024, the gathering of the open-source data science and AI/ML community in France. PyData Paris will take place at the Cité des Sciences from September 25 to September 26, 2024.]]></description>
+            <link>https://medium.com/@PyDataParis/announcing-pydata-paris-2024-700220accc72</link>
+            <guid isPermaLink="true">https://medium.com/@PyDataParis/announcing-pydata-paris-2024-700220accc72</guid>
+            <dc:creator><![CDATA[Sylvain Corlay]]></dc:creator>
+            <pubDate>Sun, 10 Mar 2024 23:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Announcing-PyData-Paris-2024.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Meet Xeus-R: a future-proof Jupyter kernel for R]]></title>
+            <description><![CDATA[Today, we, a collaborative team led by Romain François and supported by QuantStack, are thrilled to announce the initial release of Xeus-R, a future-proof Jupyter kernel for R.]]></description>
+            <link>https://blog.jupyter.org/meet-xeus-r-a-future-proof-jupyter-kernel-for-r-1adc5fdd09ab</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/meet-xeus-r-a-future-proof-jupyter-kernel-for-r-1adc5fdd09ab</guid>
+            <dc:creator><![CDATA[Romain François]]></dc:creator>
+            <pubDate>Invalid Date</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Meet-Xeus-R-a-future-proof-Jupyter-kernel-for-R.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[QuantStack: 2023 in review]]></title>
+            <description><![CDATA[Since QuantStack was founded in 2016, we have remained committed to releasing our work under permissive open-source licenses. Here are some highlights of the 2023 achievements. Buckle up!]]></description>
+            <link>https://medium.com/@QuantStack/quantstack-2023-in-review-94fea0a35520</link>
+            <guid isPermaLink="true">https://medium.com/@QuantStack/quantstack-2023-in-review-94fea0a35520</guid>
+            <dc:creator><![CDATA[Sylvain Corlay]]></dc:creator>
+            <pubDate>Invalid Date</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/QuantStack-2023-in-review.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Recent keyboard navigation improvements in Jupyter]]></title>
+            <description><![CDATA[Upcoming versions of JupyterLab (4.1.0) and Notebook (7.1.0) will include major keyboard accessibility fixes.]]></description>
+            <link>https://blog.jupyter.org/recent-keyboard-navigation-improvements-in-jupyter-4df32f97628d</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/recent-keyboard-navigation-improvements-in-jupyter-4df32f97628d</guid>
+            <dc:creator><![CDATA[Nicolas Brichet, Gabriel Fouasnon]]></dc:creator>
+            <pubDate>Invalid Date</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Recent-keyboard-navigation-improvements-in-Jupyter.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[And Voici!]]></title>
+            <description><![CDATA[Voici (meaning “here is” in French) is a novel project reshaping Jupyter-based interactive dashboards by combining Voilà and JupyterLite features. It facilitates the creation of dynamic, in-browser environments for data visualization and exploration.]]></description>
+            <link>https://blog.jupyter.org/and-voici-e02367197ba2</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/and-voici-e02367197ba2</guid>
+            <dc:creator><![CDATA[Trung Duc Le, Martin Renou]]></dc:creator>
+            <pubDate>Invalid Date</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/And-Voici.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Plug your application into the Jupyter world]]></title>
+            <description><![CDATA[Kernels are a simple but powerful abstraction in the Jupyter architecture. They encapsulate language interpreters and make them accessible through a standardized interface. This is the key to…]]></description>
+            <link>https://blog.jupyter.org/plug-your-application-into-the-jupyter-world-805e48918801</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/plug-your-application-into-the-jupyter-world-805e48918801</guid>
+            <dc:creator><![CDATA[David Brochart]]></dc:creator>
+            <pubDate>Invalid Date</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Plug-your-application-into-the-Jupyter-world.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Voilà 0.5 - Homecoming]]></title>
+            <description><![CDATA[Following the launch of Jupyter Notebook 7, it is now Voilà’s turn to join the JupyterLab family. In Version 0.5.0, the front-end of Voilà has been rebuilt from scratch using JupyterLab 4.0 components, just like in the case of Notebook 7.]]></description>
+            <link>https://blog.jupyter.org/voil%C3%A0-0-5-0-homecoming-66f2465aa86f</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/voil%C3%A0-0-5-0-homecoming-66f2465aa86f</guid>
+            <dc:creator><![CDATA[Jeremy Tuloup, Martin Renou, Trung Duc Le]]></dc:creator>
+            <pubDate>Invalid Date</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Voila-0-5-Homecoming.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Announcing Jupyter Notebook 7]]></title>
+            <description><![CDATA[Jupyter Notebook 7 is the most significant release of the Jupyter Notebook in years. Some highlights of this release include real-time collaboration, interactive debugging, table of contents, theming and dark mode, internationalization, improved accessibility, compact view on mobile devices.]]></description>
+            <link>https://blog.jupyter.org/announcing-jupyter-notebook-7-8d6d66126dcf</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/announcing-jupyter-notebook-7-8d6d66126dcf</guid>
+            <dc:creator><![CDATA[Jeremy Tuloup]]></dc:creator>
+            <pubDate>Invalid Date</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Announcing-Jupyter-Notebook-7.jpg" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[🎉 JupyterCon 2023 recordings now live on YouTube! 🎉]]></title>
+            <description><![CDATA[Get ready to relive the magic of JupyterCon 2023, because the long-awaited moment is finally here! The JupyterCon YouTube channel has just dropped a treasure trove of content — all the talk and keynote recordings from the most epic conference of the year.]]></description>
+            <link>https://blog.jupyter.org/jupytercon-2023-recordings-now-live-on-youtube-17564b75a2a</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/jupytercon-2023-recordings-now-live-on-youtube-17564b75a2a</guid>
+            <dc:creator><![CDATA[Gayle Ollington, Sylvain Corlay]]></dc:creator>
+            <pubDate>Invalid Date</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/JupyterCon-2023-recordings-now-live-on-YouTube.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[A theme editor for JupyterLab]]></title>
+            <description><![CDATA[To lower the bar for customizing JupyterLab we created a new tool providing a simple interface for tuning the JupyterLab appearance interactively.]]></description>
+            <link>https://blog.jupyter.org/a-theme-editor-for-jupyterlab-8f08ab62894d</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/a-theme-editor-for-jupyterlab-8f08ab62894d</guid>
+            <dc:creator><![CDATA[Florence Haudin]]></dc:creator>
+            <pubDate>Invalid Date</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/A-theme-editor-for-JupyterLab.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Collaborative CAD in JupyterLab]]></title>
+            <description><![CDATA[Introducing JupyterCAD, a tool that integrates Computer-Aided Design (CAD) capabilities into JupyterLab.]]></description>
+            <link>https://blog.jupyter.org/collaborative-cad-in-jupyterlab-8eb9e8f81f0</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/collaborative-cad-in-jupyterlab-8eb9e8f81f0</guid>
+            <dc:creator><![CDATA[Duc Trung Le, Martin Renou]]></dc:creator>
+            <pubDate>Invalid Date</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Collaborative-CAD-in-JupyterLab.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Congratulations, Distinguished Contributors!]]></title>
+            <description><![CDATA[We are proud to announce the recipients of the Jupyter Distinguished Contributor (JDC) award for the 2022 cohort of contributors.]]></description>
+            <link>https://blog.jupyter.org/congratulations-distinguished-contributors-7a7b215b8bd0</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/congratulations-distinguished-contributors-7a7b215b8bd0</guid>
+            <dc:creator><![CDATA[Johan Mabille]]></dc:creator>
+            <pubDate>Invalid Date</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Congratulations-Distinguished-Contributors.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Embed interactive itkwidgets 3D renderings into JupyterLite deployments]]></title>
+            <description><![CDATA[A tutorial that demonstrates a zero-server, interactive 3D rendering notebook and walks through the quick and easy configuration that can be customized to your needs.]]></description>
+            <link>https://blog.jupyter.org/embed-interactive-itkwidgets-3d-renderings-into-jupyterlite-deployments-10eb9ea30980</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/embed-interactive-itkwidgets-3d-renderings-into-jupyterlite-deployments-10eb9ea30980</guid>
+            <dc:creator><![CDATA[Matt McCormick, Brianna Major, Jeremy Tuloup, Wei Ouyang, Stephen Aylward]]></dc:creator>
+            <pubDate>Invalid Date</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Embed-interactive-itkwidgets-3D-renderings-into-JupyterLite-deployments.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Improving the accessibility of Jupyter]]></title>
+            <description><![CDATA[This article presents some of the recent accessibility improvements in the Jupyter Notebook codebase.]]></description>
+            <link>https://blog.jupyter.org/improving-the-accessibility-of-jupyter-6c695db518d3</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/improving-the-accessibility-of-jupyter-6c695db518d3</guid>
+            <dc:creator><![CDATA[Nicolas Brichet, Johan Mabille, Jeremy Tuloup, Frédéric Collonval, Sylvain Corlay]]></dc:creator>
+            <pubDate>Invalid Date</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Improving-the-accessibility-of-Jupyter.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[A Jupyter kernel for GNU Octave]]></title>
+            <description><![CDATA[We are happy to announce the xeus-octave project, a Jupyter kernel for GNU Octave. Xeus-octave was created by Giulio Girardi, recently joined by Antoine Prouvost - and has been incorporated into the Project Jupyter governance.]]></description>
+            <link>https://blog.jupyter.org/a-jupyter-kernel-for-gnu-octave-b6d29e56341f</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/a-jupyter-kernel-for-gnu-octave-b6d29e56341f</guid>
+            <dc:creator><![CDATA[Giulio Girardi, Antoine Prouvost]]></dc:creator>
+            <pubDate>Invalid Date</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/A-Jupyter-kernel-for-GNU-Octave.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[QuantStack: 2022 in review]]></title>
+            <description><![CDATA[2022 was an amazing year of innovation for the open-source developers at QuantStack. Developments range from major improvements to the Jupyter project to the packaging ecosystem and high-performance computing.]]></description>
+            <link>https://medium.com/@QuantStack/quantstack-2022-in-review-7d4704b1db42</link>
+            <guid isPermaLink="true">https://medium.com/@QuantStack/quantstack-2022-in-review-7d4704b1db42</guid>
+            <dc:creator><![CDATA[Sylvain Corlay]]></dc:creator>
+            <pubDate>Invalid Date</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/QuantStack-2022-in-review.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Managing conflicts with Mamba]]></title>
+            <description><![CDATA[A key aspect of package management is finding a set of compatible versions of the required packages. Indeed, even in the case when few packages are explicitly required, second-order dependencies may…]]></description>
+            <link>https://medium.com/@AntoineProuvost/managing-conflicts-with-mamba-6a5fa10ed6a</link>
+            <guid isPermaLink="true">https://medium.com/@AntoineProuvost/managing-conflicts-with-mamba-6a5fa10ed6a</guid>
+            <dc:creator><![CDATA[Antoine Prouvost]]></dc:creator>
+            <pubDate>Invalid Date</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Managing-conflicts-with-Mamba.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[JupyterCon is back in 2023]]></title>
+            <description><![CDATA[JupyterCon 2023 will be held May 10–12 (Thursday to Friday) in the city of light, Paris, France at the largest science museum in Europe, the Cité des Sciences et de l’Industrie.]]></description>
+            <link>https://blog.jupyter.org/jupytercon-is-back-in-2023-90e5c25eeec9</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/jupytercon-is-back-in-2023-90e5c25eeec9</guid>
+            <dc:creator><![CDATA[Gayle Ollington]]></dc:creator>
+            <pubDate>Invalid Date</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/JupyterCon-is-back-in-2023.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Accelerating JupyterLab]]></title>
+            <description><![CDATA[The next major release of JupyterLab will be significantly faster than previous versions. This was achieved both through systematic tracking of performance bugs and through significant upgrades to the Jupyter communication protocol and rendering mechanism for documents.]]></description>
+            <link>https://blog.jupyter.org/accelerating-jupyterlab-68942bb8d602</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/accelerating-jupyterlab-68942bb8d602</guid>
+            <dc:creator><![CDATA[Frédéric Collonval, Johan Mabille, David Brochart, Afshin Darian]]></dc:creator>
+            <pubDate>Invalid Date</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Accelerating-JupyterLab.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Upgrading nbgrader]]></title>
+            <description><![CDATA[Project Jupyter provides a broad collection of open-source tools for interactive computing that has become ubiquitous in data science and scientific computing, and is very popular in educational…]]></description>
+            <link>https://blog.jupyter.org/upgrading-nbgrader-99c56ae56c47</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/upgrading-nbgrader-99c56ae56c47</guid>
+            <dc:creator><![CDATA[Nicolas Brichet]]></dc:creator>
+            <pubDate>Invalid Date</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Upgrading-nbgrader.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Visual programming in JupyterLab with Blockly]]></title>
+            <description><![CDATA[When moving from block-based programming to a more classical language like Python, students often have to switch to a completely new environment. In order to provide a smooth ramp of complexity for learners, we designed a JupyterLab extension for Blockly so that Jupyter can be used from the very first steps of their learning journey.]]></description>
+            <link>https://blog.jupyter.org/visual-programming-in-jupyterlab-with-blockly-7731ec3e113c</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/visual-programming-in-jupyterlab-with-blockly-7731ec3e113c</guid>
+            <dc:creator><![CDATA[Denisa Checiu, Carlos Herrero]]></dc:creator>
+            <pubDate>Invalid Date</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Visual-programming-in-JupyterLab-with-Blockly.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Mamba meets JupyterLite]]></title>
+            <description><![CDATA[JupyterLite is a Jupyter distribution that runs entirely in the web browser without any server components. To achieve this, all language kernels must also run in the browser. A significant benefit of…]]></description>
+            <link>https://blog.jupyter.org/mamba-meets-jupyterlite-88ef49ac4dc8</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/mamba-meets-jupyterlite-88ef49ac4dc8</guid>
+            <dc:creator><![CDATA[Thorsten Beier, Martin Renou]]></dc:creator>
+            <pubDate>Invalid Date</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Mamba-meets-JupyterLite.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Inspector JupyterLab]]></title>
+            <description><![CDATA[JupyterLab provides multiple ways to improve your coding workflow: code highlighting, code completion, theming, debugger with rich variable rendering and more.]]></description>
+            <link>https://blog.jupyter.org/inspector-jupyterlab-404cce3e1df6</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/inspector-jupyterlab-404cce3e1df6</guid>
+            <dc:creator><![CDATA[Martin Renou]]></dc:creator>
+            <pubDate>Invalid Date</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Inspector-JupyterLab.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[HTML5 <canvas> based renderer for Matplotlib in Pyodide]]></title>
+            <description><![CDATA[In this post, we present a new backend for Matplotlib enabling the rendering of figures in the browser by leveraging the &lt;canvas&gt; element. This showcases how JavaScript and Python can interact with each other, thanks to Pyodide.]]></description>
+            <link>https://blog.pyodide.org/posts/canvas-renderer-matplotlib-in-pyodide/</link>
+            <guid isPermaLink="true">https://blog.pyodide.org/posts/canvas-renderer-matplotlib-in-pyodide/</guid>
+            <dc:creator><![CDATA[Madhur Tandon]]></dc:creator>
+            <pubDate>Invalid Date</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/HTML5-&lt;canvas&gt;-based-renderer-for-Matplotlib-in-Pyodide.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[The future of mamba]]></title>
+            <description><![CDATA[The recent adoption of libmamba by the conda project was a great validation of our work. Several other game-changing innovations are in the works by the mamba team. Stay tuned!]]></description>
+            <link>https://wolfv.medium.com/the-future-of-mamba-fdf6d628b3df</link>
+            <guid isPermaLink="true">https://wolfv.medium.com/the-future-of-mamba-fdf6d628b3df</guid>
+            <dc:creator><![CDATA[Wolf Vollprecht]]></dc:creator>
+            <pubDate>Invalid Date</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/The-future-of-mamba.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Congratulations, Distinguished Contributors!]]></title>
+            <description><![CDATA[We are proud to announce the recipients of the Jupyter Distinguished Contributor (JDC) award for the 2021 cohort of contributors.]]></description>
+            <link>https://blog.jupyter.org/congratulations-distinguished-contributors-bc349fa60d68</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/congratulations-distinguished-contributors-bc349fa60d68</guid>
+            <dc:creator><![CDATA[Johan Mabille]]></dc:creator>
+            <pubDate>Invalid Date</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Congratulations-Distinguished-Contributors.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Jupyter Everywhere]]></title>
+            <description><![CDATA[Easily embed a console, a notebook, or a fully-fledged IDE on any web page.]]></description>
+            <link>https://blog.jupyter.org/jupyter-everywhere-f8151c2cc6e8</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/jupyter-everywhere-f8151c2cc6e8</guid>
+            <dc:creator><![CDATA[Martin Renou, Jeremy Tuloup]]></dc:creator>
+            <pubDate>Invalid Date</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Jupyter-Everywhere.jpg" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[ROS2 support for Zethus]]></title>
+            <description><![CDATA[Zethus is an Open Source library for Robot visualization in the browser. Initially developed by Rapyuta Robotics, it provides a web-based…]]></description>
+            <link>https://medium.com/@kmathewos92/ros2-support-for-zethus-e6ecfcdb1c4c</link>
+            <guid isPermaLink="true">https://medium.com/@kmathewos92/ros2-support-for-zethus-e6ecfcdb1c4c</guid>
+            <dc:creator><![CDATA[Kedus Mathewos]]></dc:creator>
+            <pubDate>Invalid Date</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/ROS2-support-for-Zethus.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[QuantStack: 2021 in review]]></title>
+            <description><![CDATA[This was a crazy year of innovation for the open-source team at QuantStack. From JupyterLab to the packaging ecosystem and high-performance computing, we made some major strides in all areas, while almost doubling the size of the team.]]></description>
+            <link>https://medium.com/@QuantStack/quantstack-2021-in-review-fe5eac2e0f6d</link>
+            <guid isPermaLink="true">https://medium.com/@QuantStack/quantstack-2021-in-review-fe5eac2e0f6d</guid>
+            <dc:creator><![CDATA[Sylvain Corlay]]></dc:creator>
+            <pubDate>Invalid Date</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/QuantStack-2021-in-review.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Jupyter Games]]></title>
+            <description><![CDATA[Making their own tiny video games can be a great way for kids to learn programming in a playful matter. While Jupyter is widely used as a scientific and educational tool, Jupyter is seldom used as a…]]></description>
+            <link>https://blog.jupyter.org/jupyter-games-cda20dc15a21</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/jupyter-games-cda20dc15a21</guid>
+            <dc:creator><![CDATA[Thorsten Beier]]></dc:creator>
+            <pubDate>Invalid Date</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Jupyter-Games.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Need for speed: Voilà edition]]></title>
+            <description><![CDATA[Voilà turns Jupyter notebooks into standalone applications without requiring any modification to the content. You want to share your content with non-technical readers? Just call Voilà with the…]]></description>
+            <link>https://blog.jupyter.org/need-for-speed-voil%C3%A0-edition-a9e1300ab3b2</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/need-for-speed-voil%C3%A0-edition-a9e1300ab3b2</guid>
+            <dc:creator><![CDATA[Duc Trung Le]]></dc:creator>
+            <pubDate>Invalid Date</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Need-for-speed-Voila-edition.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Towards a more secure conda ecosystem]]></title>
+            <description><![CDATA[Supply chain security is crucial to the overall security of package managers, which are a major attack vector of information systems. Today, we are pleased to announce that mamba has gained the…]]></description>
+            <link>https://adelsalle.medium.com/towards-a-more-secure-conda-ecosystem-5ce65a27d7d5</link>
+            <guid isPermaLink="true">https://adelsalle.medium.com/towards-a-more-secure-conda-ecosystem-5ce65a27d7d5</guid>
+            <dc:creator><![CDATA[Adrien Delsalle]]></dc:creator>
+            <pubDate>Invalid Date</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Towards-a-more-secure-conda-ecosystem.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Toward a faster and thinner xsimd]]></title>
+            <description><![CDATA[xsimd, the SIMD library by QuantStack, got more and more adoption in recent years. While it helped improve the library, adoption also brought new requirements. Among them was the abitility to...]]></description>
+            <link>https://johan-mabille.medium.com/toward-a-faster-and-thinner-xsimd-9e4eef41bc17</link>
+            <guid isPermaLink="true">https://johan-mabille.medium.com/toward-a-faster-and-thinner-xsimd-9e4eef41bc17</guid>
+            <dc:creator><![CDATA[Serge Guelton, Johan Mabille]]></dc:creator>
+            <pubDate>Invalid Date</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Toward-a-faster-and-thinner-xsimd.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Xeus-Lite]]></title>
+            <description><![CDATA[JupyterLite is a JupyterLab distribution that runs entirely in the web browser, backed by in-browser language kernels. Xeus is C++ library for writing Jupyter kernels. In this blogpost we show how…]]></description>
+            <link>https://blog.jupyter.org/xeus-lite-379e96bb199d</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/xeus-lite-379e96bb199d</guid>
+            <dc:creator><![CDATA[Thorsten Beier]]></dc:creator>
+            <pubDate>Invalid Date</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Xeus-Lite.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[The mamba project and the CZI grant]]></title>
+            <description><![CDATA[For those who don't know yet: mamba is a fast, cross-platform & non-language-specific package manager widely used in the scientific space. Mamba works with conda -packages and works great in tandem…]]></description>
+            <link>https://wolfv.medium.com/the-mamba-project-and-the-czi-grant-ec88fb27c25</link>
+            <guid isPermaLink="true">https://wolfv.medium.com/the-mamba-project-and-the-czi-grant-ec88fb27c25</guid>
+            <dc:creator><![CDATA[Wolf Vollprecht]]></dc:creator>
+            <pubDate>Invalid Date</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/The-mamba-project-and-the-CZI-grant.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Looking at notebooks from a new perspective]]></title>
+            <description><![CDATA[Jupyter notebooks are a great tool for practitioners of scientific computing from the research phase of their work to the communication of their results. The interleaving of code and rich text makes…]]></description>
+            <link>https://blog.jupyter.org/looking-at-notebooks-from-a-new-perspective-bfd06797f188</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/looking-at-notebooks-from-a-new-perspective-bfd06797f188</guid>
+            <dc:creator><![CDATA[Mariana Meireles]]></dc:creator>
+            <pubDate>Invalid Date</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Looking-at-notebooks-from-a-new-perspective.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Xeus 2.0]]></title>
+            <description><![CDATA[We have just released Xeus 2.0. This is a major release of the library. While it includes backward-incompatible changes, they are very limited and upgrading your kernels should be relatively easy…]]></description>
+            <link>https://blog.jupyter.org/xeus-2-0-cb460d4daed4</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/xeus-2-0-cb460d4daed4</guid>
+            <dc:creator><![CDATA[Johan Mabille, Sylvain Corlay]]></dc:creator>
+            <pubDate>Invalid Date</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Xeus-2-0.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[From Jupyter to the Moon]]></title>
+            <description><![CDATA[A key principle in Jupyter’s design is language agnosticism, and one of the main extension points of the Jupyter ecosystem is the kernel, the part of the architecture responsible for executing the…]]></description>
+            <link>https://blog.jupyter.org/from-jupyter-to-the-moon-2e432df402c8</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/from-jupyter-to-the-moon-2e432df402c8</guid>
+            <dc:creator><![CDATA[Thorsten Beier]]></dc:creator>
+            <pubDate>Invalid Date</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/From-Jupyter-to-the-Moon.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Jupyter ❤️ WebAssembly ❤️ Python]]></title>
+            <description><![CDATA[JupyterLite is a JupyterLab distribution that runs entirely in the web browser, backed by in-browser language kernels. JupyterLite is a reboot of several attempts at making a full static Jupyter…]]></description>
+            <link>https://blog.jupyter.org/jupyterlite-jupyter-%EF%B8%8F-webassembly-%EF%B8%8F-python-f6e2e41ab3fa</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/jupyterlite-jupyter-%EF%B8%8F-webassembly-%EF%B8%8F-python-f6e2e41ab3fa</guid>
+            <dc:creator><![CDATA[Jeremy Tuloup]]></dc:creator>
+            <pubDate>Invalid Date</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Jupyter-WebAssembly-Python.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Mamba 0.15.0]]></title>
+            <description><![CDATA[We’ve just dropped one of the biggest releases of mamba (the fast conda package manager)— along with some nice improvements in libsolv! This is a quick update on some new and improved features in…]]></description>
+            <link>https://wolfv.medium.com/mamba-0-15-0-475d1dca0418</link>
+            <guid isPermaLink="true">https://wolfv.medium.com/mamba-0-15-0-475d1dca0418</guid>
+            <dc:creator><![CDATA[Wolf Vollprecht, Adrien Delsalle]]></dc:creator>
+            <pubDate>Invalid Date</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Mamba-0-15-0.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Le calcul haute performance au service de l'innovation (in French)]]></title>
+            <description><![CDATA[Led by Professor Marc Massot (Center for Applied Mathematics), the HPC@Maths initiative aims at developing a strong expertise in high-performance computing at École Polytechnique. This project is supported by the X Foundation, and by QuantStack.]]></description>
+            <link>https://www.polytechnique.edu/fondation/content/le-calcul-haute-performance-au-service-de-l%E2%80%99innovation</link>
+            <guid isPermaLink="true">https://www.polytechnique.edu/fondation/content/le-calcul-haute-performance-au-service-de-l%E2%80%99innovation</guid>
+            <dc:creator><![CDATA[Fondation École Polytechnique]]></dc:creator>
+            <pubDate>Invalid Date</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Le-calcul-haute-performance-au-service-de-l&apos;innovation-in-French.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[How we made Jupyter notebooks collaborative with Yjs]]></title>
+            <description><![CDATA[Collaborative editing — à la Google Docs — is a feature that you still rarely find in applications. One of the few good things that came out of this pandemic is that more people seem to care about…]]></description>
+            <link>https://blog.jupyter.org/how-we-made-jupyter-notebooks-collaborative-with-yjs-b8dff6a9d8af</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/how-we-made-jupyter-notebooks-collaborative-with-yjs-b8dff6a9d8af</guid>
+            <dc:creator><![CDATA[Kevin Jahns]]></dc:creator>
+            <pubDate>Invalid Date</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/How-we-made-Jupyter-notebooks-collaborative-with-Yjs.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[RetroLab - A JupyterLab distribution with a retro look and feel]]></title>
+            <description><![CDATA[RetroLab is an alternative JupyterLab distribution, built from the ground-up, providing a notebook interface with a retro look and feel. Currently at version 3.0, JupyterLab provides an advanced…]]></description>
+            <link>https://blog.jupyter.org/retrolab-a-jupyterlab-distribution-with-a-retro-look-and-feel-8096b8b223d0</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/retrolab-a-jupyterlab-distribution-with-a-retro-look-and-feel-8096b8b223d0</guid>
+            <dc:creator><![CDATA[Jeremy Tuloup]]></dc:creator>
+            <pubDate>Invalid Date</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/RetroLab-A-JupyterLab-distribution-with-a-retro-look-and-feel.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Rhumba, the fast R distribution is available on Windows]]></title>
+            <description><![CDATA[A few months ago, Mariana Meireles created Rhumba, a fast R package manager and distribution leveraging the conda-forge initiative and the mamba library. Today, we’re happy to announce a new major…]]></description>
+            <link>https://adelsalle.medium.com/rhumba-the-fast-r-distribution-is-available-on-windows-fa975b2aefa2</link>
+            <guid isPermaLink="true">https://adelsalle.medium.com/rhumba-the-fast-r-distribution-is-available-on-windows-fa975b2aefa2</guid>
+            <dc:creator><![CDATA[Adrien Delsalle]]></dc:creator>
+            <pubDate>Invalid Date</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Rhumba-the-fast-R-distribution-is-available-on-Windows.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Enabling the JupyterLab Debugger with ipykernel]]></title>
+            <description><![CDATA[JupyterLab 3.0 includes a visual debugger that allows to interactively set breakpoints, step into functions, and inspect variables with any Jupyter kernel that implements the Jupyter debugger…]]></description>
+            <link>https://blog.jupyter.org/enabling-the-jupyterlab-debugger-with-ipykernel-8d7248f522b0</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/enabling-the-jupyterlab-debugger-with-ipykernel-8d7248f522b0</guid>
+            <dc:creator><![CDATA[Sylvain Corlay, Johan Mabille]]></dc:creator>
+            <pubDate>Invalid Date</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Enabling-the-JupyterLab-Debugger-with-ipykernel.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Jupyter ❤️ Cytoscape]]></title>
+            <description><![CDATA[Cytoscape is an open source software platform for visualizing complex networks and integrating these with any type of attribute data. While the project was started in the life sciences community, it…]]></description>
+            <link>https://medium.com/@mari_meir/jupyter-%EF%B8%8F-%EF%B8%8F-cytoscape-e2e77be8e0f9</link>
+            <guid isPermaLink="true">https://medium.com/@mari_meir/jupyter-%EF%B8%8F-%EF%B8%8F-cytoscape-e2e77be8e0f9</guid>
+            <dc:creator><![CDATA[Mariana Meireles]]></dc:creator>
+            <pubDate>Invalid Date</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Jupyter-Cytoscape.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[zarray: a dynamic expression system based on xtensor]]></title>
+            <description><![CDATA[In this article we demonstrate how we pushed xtensor one step further, implementing a dynamic expression system on top of it. xtensor is a comprehensive C++framework for multi-dimensional array…]]></description>
+            <link>https://johan-mabille.medium.com/zarray-a-dynamic-expression-system-based-on-xtensor-ded69f37ff5e</link>
+            <guid isPermaLink="true">https://johan-mabille.medium.com/zarray-a-dynamic-expression-system-based-on-xtensor-ded69f37ff5e</guid>
+            <dc:creator><![CDATA[Johan Mabille]]></dc:creator>
+            <pubDate>Invalid Date</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/zarray-a-dynamic-expression-system-based-on-xtensor.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[nbterm: Jupyter Notebooks in the terminal]]></title>
+            <description><![CDATA[Jupyter notebooks are mostly known for their web-based user interface, such as JupyterLab or the Classic Notebook. They offer a great user experience, allow for rich output rendering, provide…]]></description>
+            <link>https://blog.jupyter.org/nbterm-jupyter-notebooks-in-the-terminal-6a2b55d08b70</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/nbterm-jupyter-notebooks-in-the-terminal-6a2b55d08b70</guid>
+            <dc:creator><![CDATA[David Brochart]]></dc:creator>
+            <pubDate>Invalid Date</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/nbterm-Jupyter-Notebooks-in-the-terminal.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Abracadabra! Bringing the Magics to Xeus-Python]]></title>
+            <description><![CDATA[Last year, we set ourselves to implement a visual debugger for JupyterLab. This endeavor required major developments in the JupyterLab…]]></description>
+            <link>https://blog.jupyter.org/abracadabra-bringing-the-magics-to-xeus-python-9d17bcfacb4</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/abracadabra-bringing-the-magics-to-xeus-python-9d17bcfacb4</guid>
+            <dc:creator><![CDATA[Martin Renou]]></dc:creator>
+            <pubDate>Invalid Date</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Abracadabra-Bringing-the-Magics-to-Xeus-Python.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Cross-platform Conda Packages for ROS]]></title>
+            <description><![CDATA[2020 has been a busy year for the RoboStack project. We collaboratively published ros-noetic on four platforms (Windows, macOS, Linux x64 and ARM64) and revamped how ROS packages can be released on…]]></description>
+            <link>https://medium.com/robostack/cross-platform-conda-packages-for-ros-fa1974fd1de3</link>
+            <guid isPermaLink="true">https://medium.com/robostack/cross-platform-conda-packages-for-ros-fa1974fd1de3</guid>
+            <dc:creator><![CDATA[Wolf Vollprecht, Tobias Fischer]]></dc:creator>
+            <pubDate>Invalid Date</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Cross-platform-Conda-Packages-for-ROS.jpg" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Genomic Data representation in Jupyter]]></title>
+            <description><![CDATA[If there is one thing that recent events tell us, it is that genomics is a large source of data, and that its manipulation and understanding allow for the quick development of new drugs and…]]></description>
+            <link>https://blog.jupyter.org/genomic-data-representation-in-jupyter-c57a5bb518d6</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/genomic-data-representation-in-jupyter-c57a5bb518d6</guid>
+            <dc:creator><![CDATA[Jean-David Harrouet]]></dc:creator>
+            <pubDate>Invalid Date</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Genomic-Data-representation-in-Jupyter.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[An SQL Solution for Jupyter]]></title>
+            <description><![CDATA[A few months ago we released xeus-sqlite, a Jupyter kernel that allows users to make SQLite queries directly from the notebook. With the needs of the Jupyter data science community in mind we decided…]]></description>
+            <link>https://blog.jupyter.org/an-sql-solution-for-jupyter-ef4a00a0d925?postPublishedType=initial</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/an-sql-solution-for-jupyter-ef4a00a0d925?postPublishedType=initial</guid>
+            <dc:creator><![CDATA[Mariana Meireles]]></dc:creator>
+            <pubDate>Invalid Date</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/An-SQL-Solution-for-Jupyter.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[A Curiously Recurring Widget Library]]></title>
+            <description><![CDATA[Diving into the implementation of xwidgets…]]></description>
+            <link>https://blog.jupyter.org/a-curiously-recurring-widget-library-261a65bd56fe</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/a-curiously-recurring-widget-library-261a65bd56fe</guid>
+            <dc:creator><![CDATA[Sylvain Corlay]]></dc:creator>
+            <pubDate>Invalid Date</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/A-Curiously-Recurring-Widget-Library.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Robotic Process Automation with JupyterLab]]></title>
+            <description><![CDATA[Robotic Process Automation (RPA) differs from classical automation tools in that the actions to automate can be developed by observing a user perform a task in a graphical user interface, across…]]></description>
+            <link>https://blog.jupyter.org/robotic-process-automation-with-jupyterlab-713b5630e457</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/robotic-process-automation-with-jupyterlab-713b5630e457</guid>
+            <dc:creator><![CDATA[Martin Renou, Johan Mabille]]></dc:creator>
+            <pubDate>Invalid Date</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Robotic-Process-Automation-with-JupyterLab.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Dashboarding with JupyterLab 3.0]]></title>
+            <description><![CDATA[Project Jupyter offers a complete suite of open-source tools for the scientific computing community, reaching from the exploratory phase of a project to the presentation of the results. In this last…]]></description>
+            <link>https://blog.jupyter.org/dashboarding-with-jupyterlab-3-789fcb1a5857</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/dashboarding-with-jupyterlab-3-789fcb1a5857</guid>
+            <dc:creator><![CDATA[Carlos Herrero, Jeremy Tuloup]]></dc:creator>
+            <pubDate>Invalid Date</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Dashboarding-with-JupyterLab-3-0.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[JupyterLab 3.0 is Released!]]></title>
+            <description><![CDATA[The 3.0 release of JupyterLab brings many new features to users and substantial improvements to the extension distribution system.]]></description>
+            <link>https://blog.jupyter.org/jupyterlab-3-0-is-out-4f58385e25bb</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/jupyterlab-3-0-is-out-4f58385e25bb</guid>
+            <dc:creator><![CDATA[Jeremy Tuloup]]></dc:creator>
+            <pubDate>Invalid Date</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/JupyterLab-3-0-is-Released.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Interactive C++ for Data Science]]></title>
+            <description><![CDATA[This post will discuss some applications of Cling developed to support data science researchers. In particular, interactively probing data and interfaces makes complex libraries and complex data more accessible users.]]></description>
+            <link>https://blog.llvm.org/posts/2020-12-21-interactive-cpp-for-data-science/</link>
+            <guid isPermaLink="true">https://blog.llvm.org/posts/2020-12-21-interactive-cpp-for-data-science/</guid>
+            <dc:creator><![CDATA[Vassil Vassilev, David Lange, Simeon Ehrig, Sylvain Corlay]]></dc:creator>
+            <pubDate>Tue, 22 Dec 2020 23:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Interactive-C++-for-Data-Science.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Xtensor ❤️ Zarr]]></title>
+            <description><![CDATA[A C++ implementation of the Zarr specification…]]></description>
+            <link>https://david-brochart.medium.com/xtensor-%EF%B8%8F-zarr-4f5cf25c65e5</link>
+            <guid isPermaLink="true">https://david-brochart.medium.com/xtensor-%EF%B8%8F-zarr-4f5cf25c65e5</guid>
+            <dc:creator><![CDATA[David Brochart]]></dc:creator>
+            <pubDate>Mon, 14 Dec 2020 23:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Xtensor-Zarr.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[A C++ API for Vega-Lite]]></title>
+            <description><![CDATA[In this post, we present the first public release of XVega, a C++ library for producing Vega-Lite charts. Data science workflows differ from traditional software development in that engineers make…]]></description>
+            <link>https://blog.jupyter.org/a-c-backend-for-vega-lite-bd2524b247c2</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/a-c-backend-for-vega-lite-bd2524b247c2</guid>
+            <dc:creator><![CDATA[Madhur Tandon]]></dc:creator>
+            <pubDate>Tue, 01 Dec 2020 23:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/A-C++-API-for-Vega-Lite.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Ipygany, Jupyter into the Third Dimension]]></title>
+            <description><![CDATA[From Paraview to Mayavi, there are multiple solutions for data analysis on 3D meshes on the desktop. Most of these tools provide high-level APIs that can be driven with a scripting language like…]]></description>
+            <link>https://blog.jupyter.org/ipygany-jupyter-into-the-third-dimension-29a97597fc33</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/ipygany-jupyter-into-the-third-dimension-29a97597fc33</guid>
+            <dc:creator><![CDATA[Martin Renou]]></dc:creator>
+            <pubDate>Tue, 13 Oct 2020 22:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Ipygany-Jupyter-into-the-Third-Dimension.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Rhumba, a Faster R Distribution]]></title>
+            <description><![CDATA[CRAN is the official package manager for the R ecosystem. Unfortunately, simple operations such as creating new environments or installing packages with it can be very time-consuming due to the fact…]]></description>
+            <link>https://medium.com/@mari_meir/rhumba-a-faster-r-distribution-d619fb93043a</link>
+            <guid isPermaLink="true">https://medium.com/@mari_meir/rhumba-a-faster-r-distribution-d619fb93043a</guid>
+            <dc:creator><![CDATA[Mariana Meireles]]></dc:creator>
+            <pubDate>Mon, 12 Oct 2020 22:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Rhumba-a-Faster-R-Distribution.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[The Templating System of Nbconvert 6]]></title>
+            <description><![CDATA[One of the main changes in nbconvert 6 is the refactor of the template system, which should be easier to extend and build upon. In this article, we dive into the template system, and provide a…]]></description>
+            <link>https://blog.jupyter.org/the-templating-system-of-nbconvert-6-47ea781eacd2</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/the-templating-system-of-nbconvert-6-47ea781eacd2</guid>
+            <dc:creator><![CDATA[Sylvain Corlay]]></dc:creator>
+            <pubDate>Fri, 25 Sep 2020 22:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/The-Templating-System-of-Nbconvert-6.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Memestra!]]></title>
+            <description><![CDATA[Modern IDE features such as interactive debugging, linting, code formatting, and refactoring tools are now available in JupyterLab, thanks to the JupyterLab-LSP extension and the recent release of…]]></description>
+            <link>https://medium.com/@mari_meir/memestra-a21c0c1f362</link>
+            <guid isPermaLink="true">https://medium.com/@mari_meir/memestra-a21c0c1f362</guid>
+            <dc:creator><![CDATA[Mariana Meireles]]></dc:creator>
+            <pubDate>Sun, 20 Sep 2020 22:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Memestra.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Real-time Rendering of Water Caustics]]></title>
+            <description><![CDATA[In this article, I present an attempt for generalizing caustics computation in real-time using WebGL and ThreeJS. The fact that it is an attempt is important, finding a solution that works well in…]]></description>
+            <link>https://medium.com/@martinRenou/real-time-rendering-of-water-caustics-59cda1d74aa</link>
+            <guid isPermaLink="true">https://medium.com/@martinRenou/real-time-rendering-of-water-caustics-59cda1d74aa</guid>
+            <dc:creator><![CDATA[Martin Renou]]></dc:creator>
+            <pubDate>Wed, 26 Aug 2020 22:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Real-time-Rendering-of-Water-Caustics.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[JupyterLab, the Cloud Robotics Command Station]]></title>
+            <description><![CDATA[Building the next generation of robotics cloud computing using ROS and JupyterLab]]></description>
+            <link>https://blog.jupyter.org/jupyterlab-ros-3dc9dab7f421</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/jupyterlab-ros-3dc9dab7f421</guid>
+            <dc:creator><![CDATA[Carlos Herrero, Wolf Vollprecht]]></dc:creator>
+            <pubDate>Mon, 10 Aug 2020 22:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/JupyterLab-the-Cloud-Robotics-Command-Station.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[SlicerJupyter, a 3-D Slicer Kernel for Interactive Publications]]></title>
+            <description><![CDATA[Use Jupyter and 3D Slicer kernel to implement biomedical data processing workflows in a notebook.]]></description>
+            <link>https://blog.jupyter.org/slicerjupyter-a-3d-slicer-kernel-for-interactive-publications-6f2ad829f635</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/slicerjupyter-a-3d-slicer-kernel-for-interactive-publications-6f2ad829f635</guid>
+            <dc:creator><![CDATA[Sylvain Corlay, Jean-Christophe Fillion-Robin, Mike Grauer, Andras Lasso, Matt MacCormick, Isaiah Norton, Steve Pieper, Martin Renou, Mike Sarahan]]></dc:creator>
+            <pubDate>Tue, 07 Jul 2020 22:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/SlicerJupyter-a-3-D-Slicer-Kernel-for-Interactive-Publications.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Open Software Packaging for Science]]></title>
+            <description><![CDATA[Modern scientific applications typically depend on a very large number of libraries written in various programming languages, ranging from Fortran to TypeScript, C, C++, Python, etc. So, we need to…]]></description>
+            <link>https://medium.com/@QuantStack/open-software-packaging-for-science-61cecee7fc23</link>
+            <guid isPermaLink="true">https://medium.com/@QuantStack/open-software-packaging-for-science-61cecee7fc23</guid>
+            <dc:creator><![CDATA[Wolf Vollprecht, Mario Buikhuizen, Marianne Corvellec, Johan Mabille, David Brochart]]></dc:creator>
+            <pubDate>Thu, 18 Jun 2020 22:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Open-Software-Packaging-for-Science.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[A Jupyter Kernel for SQLite]]></title>
+            <description><![CDATA[While it is well known in the Python scientific computing community, Jupyter is in fact a language-agnostic development environment. High-quality language kernels exist for the main languages of data…]]></description>
+            <link>https://blog.jupyter.org/a-jupyter-kernel-for-sqlite-9549c5dcf551</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/a-jupyter-kernel-for-sqlite-9549c5dcf551</guid>
+            <dc:creator><![CDATA[Mariana Meireles]]></dc:creator>
+            <pubDate>Wed, 10 Jun 2020 22:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/A-Jupyter-Kernel-for-SQLite.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[PLASMA, a Learning Platform Powered by Jupyter]]></title>
+            <description><![CDATA[Jupyter has been a great choice for education for many years. The Jupyter Notebook has become one of the most popular tools to conduct workshops, tutorials, and teach online classes. Recently we have…]]></description>
+            <link>https://blog.jupyter.org/plasma-a-learning-platform-powered-by-jupyter-1b850fcd8624</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/plasma-a-learning-platform-powered-by-jupyter-1b850fcd8624</guid>
+            <dc:creator><![CDATA[Jeremy Tuloup]]></dc:creator>
+            <pubDate>Sun, 10 May 2020 22:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/PLASMA-a-Learning-Platform-Powered-by-Jupyter.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Interactive Graph Visualization in Jupyter with IPycytoscape]]></title>
+            <description><![CDATA[The Jupyter widgets ecosystem offers a broad variety of data visualization tools for exploratory analysis in the notebook. However, we…]]></description>
+            <link>https://blog.jupyter.org/interactive-graph-visualization-in-jupyter-with-ipycytoscape-a8828a54ab63</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/interactive-graph-visualization-in-jupyter-with-ipycytoscape-a8828a54ab63</guid>
+            <dc:creator><![CDATA[Mariana Meireles]]></dc:creator>
+            <pubDate>Wed, 29 Apr 2020 22:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Interactive-Graph-Visualization-in-Jupyter-with-IPycytoscape.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[A Visual Debugger for Jupyter]]></title>
+            <description><![CDATA[Most of the progress made in software projects comes from incrementalism. The ability to quickly see the outcome of an execution and iterate has been one of the main reasons for the success of…]]></description>
+            <link>https://blog.jupyter.org/a-visual-debugger-for-jupyter-914e61716559</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/a-visual-debugger-for-jupyter-914e61716559</guid>
+            <dc:creator><![CDATA[Jeremy Tuloup, Borys Palka, Johan Mabille, Martin Renou, Afshin Darian, Sylvain Corlay]]></dc:creator>
+            <pubDate>Tue, 24 Mar 2020 23:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/A-Visual-Debuger-for-Jupyter.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Field Report on the Jupyter Community Workshop on Dashboarding]]></title>
+            <description><![CDATA[From June 3rd to June 6th 2019, thirty-five developers from the Jupyter community met in Paris for a four-day workshop on dashboarding with Project Jupyter. For four days, attendees worked full time…]]></description>
+            <link>https://blog.jupyter.org/report-on-the-jupyter-community-workshop-on-dashboarding-14f8ad9f3c0</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/report-on-the-jupyter-community-workshop-on-dashboarding-14f8ad9f3c0</guid>
+            <dc:creator><![CDATA[Sylvain Corlay]]></dc:creator>
+            <pubDate>Thu, 13 Feb 2020 23:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Field-Report-on-the-Jupyter-Community-Workshop-on-Dashboarding.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Introducing Scikit-Geometry]]></title>
+            <description><![CDATA[As a robotics researcher (but also in many other fields) computations on geometric primitives are used very frequently— but it’s harder than anticipated to find the right abstractions in a nice…]]></description>
+            <link>https://medium.com/@wolfv/introducing-scikit-geometry-ae1dccaad5fd</link>
+            <guid isPermaLink="true">https://medium.com/@wolfv/introducing-scikit-geometry-ae1dccaad5fd</guid>
+            <dc:creator><![CDATA[Wolf Vollprecht]]></dc:creator>
+            <pubDate>Thu, 23 Jan 2020 23:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Introducing-Scikit-Geometry.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[How we Wrote Xtensor (Episode 8) - Iterators]]></title>
+            <description><![CDATA[In the previous article, we implemented the broadcasting rules so that we can compute the shape of arbitrary complex trees that involve arrays with different but compatible shapes. This is the first…]]></description>
+            <link>https://medium.com/@johan.mabille/how-we-wrote-xtensor-8-n-iterators-7df77e3223f7</link>
+            <guid isPermaLink="true">https://medium.com/@johan.mabille/how-we-wrote-xtensor-8-n-iterators-7df77e3223f7</guid>
+            <dc:creator><![CDATA[Johan Mabille]]></dc:creator>
+            <pubDate>Mon, 06 Jan 2020 23:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/How-we-Wrote-Xtensor-Episode-8-Iterators.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[2019 in Review]]></title>
+            <description><![CDATA[This year has seen major changes in xeus and xeus-python, driven by the requirements for developing a visual debugger. We have implemented a prototype that supports the Debug Adapter Protocol from…]]></description>
+            <link>https://medium.com/@wolfv/2019-in-review-d7d03fb0d17d</link>
+            <guid isPermaLink="true">https://medium.com/@wolfv/2019-in-review-d7d03fb0d17d</guid>
+            <dc:creator><![CDATA[Wolf Vollprecht]]></dc:creator>
+            <pubDate>Wed, 01 Jan 2020 23:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/2019-in-Review.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Robot Development with Jupyter]]></title>
+            <description><![CDATA[Jupyter and Voilà are two popular packages in the data science ecosystem. But the Jupyter plugins jupyter-ros and jupyter-amphion make them more interesting than ever for robotics applications. This…]]></description>
+            <link>https://medium.com/@wolfv/robot-development-with-jupyter-ddae16d4e688</link>
+            <guid isPermaLink="true">https://medium.com/@wolfv/robot-development-with-jupyter-ddae16d4e688</guid>
+            <dc:creator><![CDATA[Wolf Vollprecht]]></dc:creator>
+            <pubDate>Mon, 30 Dec 2019 23:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Robot-Development-with-Jupyter.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[How we Wrote Xtensor (Episode 7) - Broadcasting]]></title>
+            <description><![CDATA[In the previous article, we implemented operator and mathematical function overloads so that we can build arbitrary complex expression trees and access their elements. Before we can assign an…]]></description>
+            <link>https://medium.com/@johan.mabille/how-we-wrote-xtensor-7-n-broadcasting-cf37a974d029</link>
+            <guid isPermaLink="true">https://medium.com/@johan.mabille/how-we-wrote-xtensor-7-n-broadcasting-cf37a974d029</guid>
+            <dc:creator><![CDATA[Johan Mabille]]></dc:creator>
+            <pubDate>Sat, 23 Nov 2019 23:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/How-we-Wrote-Xtensor-Episode-7-Broadcasting.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Configure your Dashboards with the Voilà Gridstack Template]]></title>
+            <description><![CDATA[Voilà is a new dashboarding solution from Jupyter ecosystem. It provides an easy-to-use tool to convert your Jupyter notebooks into standalone web applications. If you have not used it before, you…]]></description>
+            <link>https://blog.jupyter.org/voila-gridstack-template-8a431c2b353e</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/voila-gridstack-template-8a431c2b353e</guid>
+            <dc:creator><![CDATA[Bartosz Telenczuk]]></dc:creator>
+            <pubDate>Sun, 10 Nov 2019 23:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Configure-your-Dashboards-with-the-Voila-Gridstack-Template.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[A Slideshow template for Voilà]]></title>
+            <description><![CDATA[Last June, QuantStack announced the first release of Voilà, a solution to turn Jupyter notebooks into standalone web applications. Voilà enforces security (preventing arbitrary code execution) while…]]></description>
+            <link>https://blog.jupyter.org/a-slideshow-template-for-voil%C3%A0-apps-435f67d10b4f</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/a-slideshow-template-for-voil%C3%A0-apps-435f67d10b4f</guid>
+            <dc:creator><![CDATA[Marianne Corvellec]]></dc:creator>
+            <pubDate>Mon, 28 Oct 2019 23:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/A-Slideshow-template-for-Voila.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[ROS on Conda-forge]]></title>
+            <description><![CDATA[ROS is a fantastic and very large suite of software tools for Robotics. It’s used in many applications and with great success, ranging from the hobbyist market to industrial use cases. Most people…]]></description>
+            <link>https://medium.com/@wolfv/ros-on-conda-forge-dca6827ac4b6</link>
+            <guid isPermaLink="true">https://medium.com/@wolfv/ros-on-conda-forge-dca6827ac4b6</guid>
+            <dc:creator><![CDATA[Wolf Vollprecht]]></dc:creator>
+            <pubDate>Sun, 27 Oct 2019 23:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/ROS-on-Conda-forge.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[IPycanvas, a Python Canvas for Jupyter]]></title>
+            <description><![CDATA[As you may already know, the Jupyter Notebook and JupyterLab are Browser-based applications. Browsers are incredibly powerful, they allow you to swap rich and interactive graphical interfaces…]]></description>
+            <link>https://blog.jupyter.org/ipycanvas-a-python-canvas-for-jupyter-bbb51e4777f7</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/ipycanvas-a-python-canvas-for-jupyter-bbb51e4777f7</guid>
+            <dc:creator><![CDATA[Martin Renou]]></dc:creator>
+            <pubDate>Thu, 24 Oct 2019 22:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/IPycanvas-a-Python-Canvas-for-Jupyter.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Field Report on the Kernel Community Workshop]]></title>
+            <description><![CDATA[From May 27th to May 29th, thirty developers from the Jupyter community met in Paris for a three-days workshop on the Jupyter kernel…]]></description>
+            <link>https://blog.jupyter.org/field-report-on-the-kernel-community-workshop-a4ad73a1a718</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/field-report-on-the-kernel-community-workshop-a4ad73a1a718</guid>
+            <dc:creator><![CDATA[Sylvain Corlay]]></dc:creator>
+            <pubDate>Sun, 06 Oct 2019 22:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Field-Report-on-the-Kernel-Community-Workshop.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[How we Wrote Xtensor (Episode 6) - Operator Overloading]]></title>
+            <description><![CDATA[In the previous article, we introduced expression templates and developed the skeleton of the xfunction class, meant to represent a node of the abstract syntax tree of a tensor expression. We left…]]></description>
+            <link>https://medium.com/@johan.mabille/how-we-wrote-xtensor-6-n-operator-overloading-984c2e5b4171</link>
+            <guid isPermaLink="true">https://medium.com/@johan.mabille/how-we-wrote-xtensor-6-n-operator-overloading-984c2e5b4171</guid>
+            <dc:creator><![CDATA[Johan Mabille]]></dc:creator>
+            <pubDate>Tue, 24 Sep 2019 22:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/How-we-Wrote-Xtensor-Episode-6-Operator-Overloading.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Interactive GIS in Jupyter with IPyleaflet]]></title>
+            <description><![CDATA[As Jupyter grew in popularity, a broad ecosystem of visualization packages based on Jupyter widgets has been developed, bringing even more interactivity to the Jupyter world. In this article, we dive…]]></description>
+            <link>https://blog.jupyter.org/interactive-gis-in-jupyter-with-ipyleaflet-52f9657fa7a</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/interactive-gis-in-jupyter-with-ipyleaflet-52f9657fa7a</guid>
+            <dc:creator><![CDATA[Sylvain Corlay, Martin Renou]]></dc:creator>
+            <pubDate>Tue, 24 Sep 2019 22:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Interactive-GIS-in-Jupyter-with-IPyleaflet.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[How we Wrote Xtensor (Episode 5) - Expression Templates]]></title>
+            <description><![CDATA[In the previous articles, we started to implement an N-D container, xarray, which has value semantics and provides all the methods required to access its data. The next step is to give it computation…]]></description>
+            <link>https://medium.com/@johan.mabille/how-we-wrote-xtensor-5-n-expression-templates-d07332e73d1d</link>
+            <guid isPermaLink="true">https://medium.com/@johan.mabille/how-we-wrote-xtensor-5-n-expression-templates-d07332e73d1d</guid>
+            <dc:creator><![CDATA[Johan Mabille]]></dc:creator>
+            <pubDate>Wed, 04 Sep 2019 22:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/How-we-Wrote-Xtensor-Episode-5-Expression-Templates.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Building a Calculator Jupyter Kernel]]></title>
+            <description><![CDATA[In order to provide a language-agnostic scientific development environment, the Jupyter project is built upon a well-specified protocol to communicate with the Kernel, the part of the infrastructure…]]></description>
+            <link>https://blog.jupyter.org/building-a-calculator-jupyter-kernel-4aed5764a295</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/building-a-calculator-jupyter-kernel-4aed5764a295</guid>
+            <dc:creator><![CDATA[Vasavan Thiru, Thibault Lacharme]]></dc:creator>
+            <pubDate>Mon, 15 Jul 2019 22:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Building-a-Calculator-Jupyter-Kernel.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[How we Wrote Xtensor (Episode 4) - Value Semantics]]></title>
+            <description><![CDATA[xtensor is a comprehensive framework for N-D arrays processing, including an extensible expression system, lazy evaluation, and many other…]]></description>
+            <link>https://medium.com/@johan.mabille/how-we-wrote-xtensor-4-n-value-semantics-6baa6856d313</link>
+            <guid isPermaLink="true">https://medium.com/@johan.mabille/how-we-wrote-xtensor-4-n-value-semantics-6baa6856d313</guid>
+            <dc:creator><![CDATA[Johan Mabille]]></dc:creator>
+            <pubDate>Mon, 15 Jul 2019 22:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/How-we-Wrote-Xtensor-Episode-4-Value-Semantics.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Introducing Templates for Jupyter Widget Layouts]]></title>
+            <description><![CDATA[Notebooks come alive with Jupyter widgets, which allow users to produce interactive GUIs inline in the Jupyter notebook or JupyterLab. You can either use them to add a few interactive controls and…]]></description>
+            <link>https://blog.jupyter.org/introducing-templates-for-jupyter-widget-layouts-f72bcb35a662</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/introducing-templates-for-jupyter-widget-layouts-f72bcb35a662</guid>
+            <dc:creator><![CDATA[Bartosz Telenczuk]]></dc:creator>
+            <pubDate>Wed, 03 Jul 2019 22:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Introducing-Templates-for-Jupyter-Widget-Layouts.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[How we Wrote Xtensor (Episode 3) - The Constructors]]></title>
+            <description><![CDATA[In the previous article, we detailed the implementation of a generic access operator for our N-D container. Two more things to implement before the xarray class can be used in practice are…]]></description>
+            <link>https://medium.com/@johan.mabille/how-we-wrote-xtensor-3-n-the-constructors-65a177260638</link>
+            <guid isPermaLink="true">https://medium.com/@johan.mabille/how-we-wrote-xtensor-3-n-the-constructors-65a177260638</guid>
+            <dc:creator><![CDATA[Johan Mabille]]></dc:creator>
+            <pubDate>Sun, 23 Jun 2019 22:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/How-we-Wrote-Xtensor-Episode-3-The-Constructors.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[How we Wrote Xtensor (Episode 2) - Access Operators]]></title>
+            <description><![CDATA[In the previous article, we started to design an N-dimensional container. We detailed the implementation of methods related to shape, strides, and memory layout. Let us now get to the access…]]></description>
+            <link>https://medium.com/@johan.mabille/how-we-wrote-xtensor-2-n-access-operators-57e8e3852263</link>
+            <guid isPermaLink="true">https://medium.com/@johan.mabille/how-we-wrote-xtensor-2-n-access-operators-57e8e3852263</guid>
+            <dc:creator><![CDATA[Johan Mabille]]></dc:creator>
+            <pubDate>Wed, 19 Jun 2019 22:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/How-we-Wrote-Xtensor-Episode-2-Access-Operators.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[How we Wrote Xtensor (Episode 1) - N-Dimensional Containers]]></title>
+            <description><![CDATA[xtensor is a C++ library meant for numerical analysis with multi-dimensional array expressions. It exposes an API similar to that of NumPy…]]></description>
+            <link>https://medium.com/@johan.mabille/how-we-wrote-xtensor-1-n-n-dimensional-containers-f79f9f4966a7</link>
+            <guid isPermaLink="true">https://medium.com/@johan.mabille/how-we-wrote-xtensor-1-n-n-dimensional-containers-f79f9f4966a7</guid>
+            <dc:creator><![CDATA[Johan Mabille]]></dc:creator>
+            <pubDate>Sun, 16 Jun 2019 22:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/How-we-Wrote-Xtensor-Episode-1-N-Dimensional-Containers.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[And Voilà!]]></title>
+            <description><![CDATA[The goal of Project Jupyter is to improve the workflows of researchers, educators, scientists, and other practitioners of scientific computing, from the exploratory phase of their work to the…]]></description>
+            <link>https://blog.jupyter.org/and-voil%C3%A0-f6a2c08a4a93</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/and-voil%C3%A0-f6a2c08a4a93</guid>
+            <dc:creator><![CDATA[Sylvain Corlay, Maarten Breddels]]></dc:creator>
+            <pubDate>Mon, 10 Jun 2019 22:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/And-Voila.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Mamba Development News]]></title>
+            <description><![CDATA[Mamba is a drop-in replacement for conda, the awesome cross-platform package manager. In our opinion, conda has one tiny problem: it’s too slow when many packages are installed, or when installing…]]></description>
+            <link>https://medium.com/@wolfv/mamba-development-news-29e32aaa8d6c</link>
+            <guid isPermaLink="true">https://medium.com/@wolfv/mamba-development-news-29e32aaa8d6c</guid>
+            <dc:creator><![CDATA[Wolf Vollprecht]]></dc:creator>
+            <pubDate>Sun, 09 Jun 2019 22:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Mamba-Development-News.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Building an Open-Source Continuous Benchmark System]]></title>
+            <description><![CDATA[Concourse is a continuous integration software, and we use it for two purposes: multi-project continuous integration, and continuous benchmarking. It’s easy to setup on a low cost server, using…]]></description>
+            <link>https://medium.com/@wolfv/building-an-open-source-continuous-benchmark-system-717839093962</link>
+            <guid isPermaLink="true">https://medium.com/@wolfv/building-an-open-source-continuous-benchmark-system-717839093962</guid>
+            <dc:creator><![CDATA[Wolf Vollprecht]]></dc:creator>
+            <pubDate>Tue, 28 May 2019 22:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Building-an-Open-Source-Continuous-Benchmark-System.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[ROS @ Jupyter]]></title>
+            <description><![CDATA[Historically, the ROS (Robot Operating System) community has relied on Qt for building complex user interfaces. Nowadays, the Jupyter notebook and the ipywidgets framework offer a compelling…]]></description>
+            <link>https://blog.jupyter.org/ros-jupyter-b7e82b5e1202</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/ros-jupyter-b7e82b5e1202</guid>
+            <dc:creator><![CDATA[Wolf Vollprecht]]></dc:creator>
+            <pubDate>Sat, 06 Apr 2019 22:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/ROS-@-Jupyter.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Making Conda Fast Again]]></title>
+            <description><![CDATA[You might have seen the announcement on Twitter: at QuantStack we’ve been working on making a prototype of a conda-compatible package manager called mamba. Conda is a great tool to distribute data…]]></description>
+            <link>https://medium.com/@wolfv/making-conda-fast-again-4da4debfb3b7</link>
+            <guid isPermaLink="true">https://medium.com/@wolfv/making-conda-fast-again-4da4debfb3b7</guid>
+            <dc:creator><![CDATA[Wolf Vollprecht]]></dc:creator>
+            <pubDate>Wed, 27 Mar 2019 23:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Making-Conda-Fast-Again.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Interactive spreadsheets in Jupyter]]></title>
+            <description><![CDATA[ipysheet is a new interactive widgets library that aims at implementing the core features of a good spreadsheet application and more…]]></description>
+            <link>https://medium.com/data-science/interactive-spreadsheets-in-jupyter-32ab6ec0f4ff</link>
+            <guid isPermaLink="true">https://medium.com/data-science/interactive-spreadsheets-in-jupyter-32ab6ec0f4ff</guid>
+            <dc:creator><![CDATA[Martin Renou]]></dc:creator>
+            <pubDate>Thu, 07 Mar 2019 23:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Interactive-spreadsheets-in-Jupyter.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[A New Python Kernel for Jupyter]]></title>
+            <description><![CDATA[Project Jupyter aims at providing a consistent set of tools for interactive computing workflows across multiple programming languages. Jupyter projects are popular at all stages of a research project…]]></description>
+            <link>https://blog.jupyter.org/a-new-python-kernel-for-jupyter-fcdf211e30a8</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/a-new-python-kernel-for-jupyter-fcdf211e30a8</guid>
+            <dc:creator><![CDATA[Martin Renou]]></dc:creator>
+            <pubDate>Tue, 08 Jan 2019 23:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/A-New-Python-Kernel-for-Jupyter.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Xframe: Towards a C++ Dataframe]]></title>
+            <description><![CDATA[For a very long time, the C++ programming language lacked a high-level toolset for scientific computing. Data structures such as N-dimensional arrays, data frames, are the bread and butter of the R…]]></description>
+            <link>https://medium.com/@johan.mabille/xframe-towards-a-c-dataframe-26e1ccde211b</link>
+            <guid isPermaLink="true">https://medium.com/@johan.mabille/xframe-towards-a-c-dataframe-26e1ccde211b</guid>
+            <dc:creator><![CDATA[Johan Mabille]]></dc:creator>
+            <pubDate>Thu, 03 Jan 2019 23:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Xframe-Towards-a-C++-Dataframe.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Designing Language Bindings with Xtensor]]></title>
+            <description><![CDATA[xtensor and its satellite projects make it easy to implement a feature once in C++ and expose it to the main languages of data science, such as Python, Julia and R with little extra work. Although…]]></description>
+            <link>https://medium.com/@johan.mabille/designing-language-bindings-with-xtensor-f32aa0f20db</link>
+            <guid isPermaLink="true">https://medium.com/@johan.mabille/designing-language-bindings-with-xtensor-f32aa0f20db</guid>
+            <dc:creator><![CDATA[Johan Mabille]]></dc:creator>
+            <pubDate>Thu, 29 Nov 2018 23:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Designing-Language-Bindings-with-Xtensor.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Video Streaming in the Jupyter Notebook]]></title>
+            <description><![CDATA[ipywidgets plays an essential part in the Jupyter ecosystem; it brings interactivity between user and data. Widgets are eventful Python objects that often have a visual representation in the Jupyter…]]></description>
+            <link>https://medium.com/data-science/video-streaming-in-the-jupyter-notebook-635bc5809e85</link>
+            <guid isPermaLink="true">https://medium.com/data-science/video-streaming-in-the-jupyter-notebook-635bc5809e85</guid>
+            <dc:creator><![CDATA[Martin Renou]]></dc:creator>
+            <pubDate>Sun, 18 Nov 2018 23:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Video-Streaming-in-the-Jupyter-Notebook.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[The Xtensor Vision]]></title>
+            <description><![CDATA[Here we’re laying out a vision for the xtensor project, the n-dimensional array in the C++ language — that makes it easy to write high-performance code and bind it to the languages of data science…]]></description>
+            <link>https://towardsdatascience.com/the-xtensor-vision-552dd978e9ad</link>
+            <guid isPermaLink="true">https://towardsdatascience.com/the-xtensor-vision-552dd978e9ad</guid>
+            <dc:creator><![CDATA[Wolf Vollprecht]]></dc:creator>
+            <pubDate>Fri, 09 Nov 2018 23:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/The-Xtensor-Vision.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Bye bye Boost.SIMD, Welcome XSimd]]></title>
+            <description><![CDATA[Boost.simd provides a C++ abstraction of vector type, allowing for efficient vectorization of array computations. It has been (optionally) used as part of the expression template engine of Pythran for a long time, a great collaboration that led to several patches in boost.simd, and great performance for Pythran.]]></description>
+            <link>https://serge-sans-paille.github.io/pythran-stories/bye-bye-boostsimd-welcome-xsimd.html</link>
+            <guid isPermaLink="true">https://serge-sans-paille.github.io/pythran-stories/bye-bye-boostsimd-welcome-xsimd.html</guid>
+            <dc:creator><![CDATA[Serge Guelton]]></dc:creator>
+            <pubDate>Wed, 30 Oct 2019 23:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Bye-bye-Boost-SIMD-Welcome-XSimd.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Xtensor, C++, and the Julia Challenge]]></title>
+            <description><![CDATA[Last month, Simon Danisch launched the Julia Language Challenge, a programming challenge from a member of the Julia community to other programming languages. with high performances. This can be…]]></description>
+            <link>https://medium.com/@QuantStack/xtensor-c-and-the-julia-challenge-643d4b119761</link>
+            <guid isPermaLink="true">https://medium.com/@QuantStack/xtensor-c-and-the-julia-challenge-643d4b119761</guid>
+            <dc:creator><![CDATA[Sylvain Corlay, Johan Mabille, Wolf Vollprecht]]></dc:creator>
+            <pubDate>Tue, 23 Oct 2018 22:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Xtensor-C++-and-the-Julia-Challenge.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[The Julia Challenge in C++]]></title>
+            <description><![CDATA[Recently, some folks of the Julia community were boasting about the expressiveness of the Julia programming language, compared to older languages. That’s how they started the Julia Challenge. The…]]></description>
+            <link>https://medium.com/@wolfv/the-julia-challenge-in-c-21272d36c002</link>
+            <guid isPermaLink="true">https://medium.com/@wolfv/the-julia-challenge-in-c-21272d36c002</guid>
+            <dc:creator><![CDATA[Wolf Vollprecht]]></dc:creator>
+            <pubDate>Thu, 11 Oct 2018 22:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/The-Julia-Challenge-in-C++.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Interpreter C++ for GIS with Jupyter]]></title>
+            <description><![CDATA[The recent release of the Jupyter kernel for C++, based on the Cling interpreter enabled a number of new workflows for the users of the C++ programming language. More than a limited set of base…]]></description>
+            <link>https://blog.jupyter.org/interpreted-c-for-gis-with-jupyter-ae191bc6fb8e</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/interpreted-c-for-gis-with-jupyter-ae191bc6fb8e</guid>
+            <dc:creator><![CDATA[Martin Renou]]></dc:creator>
+            <pubDate>Mon, 23 Apr 2018 22:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Interpreter-C++-for-GIS-with-Jupyter.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Authoring Custom Jupyter Widgets]]></title>
+            <description><![CDATA[Jupyter interactive widgets enhance the notebook experience by allowing users to create graphical user interfaces. They enable richer interaction with the data and computing resources. While the base…]]></description>
+            <link>https://blog.jupyter.org/authoring-custom-jupyter-widgets-2884a462e724</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/authoring-custom-jupyter-widgets-2884a462e724</guid>
+            <dc:creator><![CDATA[Olivier Borderies, Olivier Coudray, Pierre Marion]]></dc:creator>
+            <pubDate>Sun, 04 Mar 2018 23:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Authoring-Custom-Jupyter-Widgets.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Jupyter Receives the ACM Software System Award]]></title>
+            <description><![CDATA[It is our pleasure to announce that Project Jupyter has been awarded the 2017 ACM Software System Award, a significant honor for the project. We are humbled to join an illustrious list of projects…]]></description>
+            <link>https://blog.jupyter.org/jupyter-receives-the-acm-software-system-award-d433b0dfe3a2</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/jupyter-receives-the-acm-software-system-award-d433b0dfe3a2</guid>
+            <dc:creator><![CDATA[Project Jupyter]]></dc:creator>
+            <pubDate>Thu, 01 Mar 2018 23:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Jupyter-Receives-the-ACM-Software-System-Award.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[A Diagram Editor for JupyterLab]]></title>
+            <description><![CDATA[The new JupyterLab interface is much more than a replacement for the classic notebook. It aims to bring together all the pieces required for a complete scientific workflow. The extension-based…]]></description>
+            <link>https://blog.jupyter.org/a-diagram-editor-for-jupyterlab-a254121ff919</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/a-diagram-editor-for-jupyterlab-a254121ff919</guid>
+            <dc:creator><![CDATA[Wolf Vollprecht]]></dc:creator>
+            <pubDate>Sun, 25 Feb 2018 23:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/A-Diagram-Editor-for-JupyterLab.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Fast Reductions in Xtensor with Xsimd]]></title>
+            <description><![CDATA[xtensor has a wealth of mathematical functions available already: we support a lot of the NumPy API right there in C++. One of the areas where we were a bit slower than NumPy in the past were…]]></description>
+            <link>https://medium.com/@wolfv/fast-reductions-in-xtensor-with-simd-212a8543960a</link>
+            <guid isPermaLink="true">https://medium.com/@wolfv/fast-reductions-in-xtensor-with-simd-212a8543960a</guid>
+            <dc:creator><![CDATA[Wolf Vollprecht]]></dc:creator>
+            <pubDate>Mon, 19 Feb 2018 23:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Fast-Reductions-in-Xtensor-with-Xsimd.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Faster Xtensor]]></title>
+            <description><![CDATA[Knowing the size of the memory that is to be allocated at compile time can improve the runtime performance a lot — the compiler can already reserve the required space on the stack (instead of having…]]></description>
+            <link>https://medium.com/@wolfv/faster-xtensor-87fcbe7f5293</link>
+            <guid isPermaLink="true">https://medium.com/@wolfv/faster-xtensor-87fcbe7f5293</guid>
+            <dc:creator><![CDATA[Wolf Vollprecht]]></dc:creator>
+            <pubDate>Sat, 17 Feb 2018 23:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Faster-Xtensor.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Interactive Workflows for C++ with Jupyter]]></title>
+            <description><![CDATA[Scientists, educators and engineers not only use programming languages to build software systems, but also in interactive workflows, using the tools available to explore a problem and reason about…]]></description>
+            <link>https://blog.jupyter.org/interactive-workflows-for-c-with-jupyter-fe9b54227d92</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/interactive-workflows-for-c-with-jupyter-fe9b54227d92</guid>
+            <dc:creator><![CDATA[Sylvain Corlay, Loic Gouarin, Johan Mabille, Wolf Vollprecht]]></dc:creator>
+            <pubDate>Tue, 28 Nov 2017 23:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Interactive-Workflows-for-C++-with-Jupyter.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Scientific Computing in a Polyglot World with Xtensor]]></title>
+            <description><![CDATA[The One Language to Rule Them All probably does not exist yet. In the world of interactive scientific computing, countless articles and blog posts argue on the merits of R, Python, Julia and other…]]></description>
+            <link>https://medium.com/@SylvainCorlay/scientific-computing-in-a-polyglot-world-with-xtensor-d81ff3865d6</link>
+            <guid isPermaLink="true">https://medium.com/@SylvainCorlay/scientific-computing-in-a-polyglot-world-with-xtensor-d81ff3865d6</guid>
+            <dc:creator><![CDATA[Sylvain Corlay]]></dc:creator>
+            <pubDate>Thu, 04 May 2017 22:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Scientific-Computing-in-a-Polyglot-World-with-Xtensor.png" length="0" type="image/png"/>
+        </item>
+    </channel>
+</rss>

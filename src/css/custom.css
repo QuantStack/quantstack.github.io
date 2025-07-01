@@ -586,6 +586,19 @@ a.menu__link:active {
   background-repeat: no-repeat;
 }
 
+.rss-circle-icon:hover {
+  opacity: 0.6;
+}
+
+.rss-circle-icon:before {
+  background: url(@site/static/img/socialmedias/RSS.svg);
+  content: "";
+  display: flex;
+  height: 36px;
+  width: 36px;
+  background-repeat: no-repeat;
+}
+
 .github-icon:hover {
   opacity: 0.6;
 }
