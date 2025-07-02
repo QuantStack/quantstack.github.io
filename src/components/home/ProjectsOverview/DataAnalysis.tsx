@@ -11,8 +11,7 @@ export default function DataAnalysisProjects() {
         >
           <h1 className="padding-none">Data Analysis </h1>
           <h2 className={styles.h2_custom}>
-            Supporting the development of Apache Ecosystem
-            packages.
+            Supporting the development of key data analysis technologies.
           </h2>
           <DataAnalysisMD />
         </div>
