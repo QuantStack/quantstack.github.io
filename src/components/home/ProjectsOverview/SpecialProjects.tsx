@@ -1,6 +1,6 @@
 import styles from "./styles.module.css";
 import SpecialProjectsMD from "@site/src/components/home/ProjectsOverview/descriptions/SpecialProjects.md";
-import SpecialProjectsPictureUrl from "@site/static/img/projects/jupytercad.png";
+import SpecialProjectsPictureUrl from "@site/static/img/projects/special_projects.png";
 
 export default function SpecialProjects() {
     return (
@@ -16,7 +16,7 @@ export default function SpecialProjects() {
              <SpecialProjectsMD/> 
           </div>
           <div className={"col col--5 flex-full-centered"+ " "+ styles.col_project_overview_with_padding}>
-            <img src={SpecialProjectsPictureUrl} width={"540px"} alt={"Picture showing examples of Jupyter CAD projects in Jupyterlab."} />
+            <img src={SpecialProjectsPictureUrl} height={"595px"} alt={"Picture showing examples of Jupyter CAD projects in Jupyterlab."} />
           </div>
         </div>
       </div>
