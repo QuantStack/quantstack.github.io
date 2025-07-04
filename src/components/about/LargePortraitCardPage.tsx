@@ -5,7 +5,7 @@ import { useEffect } from 'react';
 import { Route } from 'react-router-dom';
 import { About } from '@site/src/components/about'
 import LargePortraitCard from '@site/src/components/about/LargePortraitCard';
-import { getTeamByPersonName } from '@site/src/components/about';
+import { getTeamByPageName } from '@site/src/components/about';
 import styles from "@site/src/components/about/styles.module.css";
 
 export default function LargePortraitCardPage() {
@@ -46,11 +46,11 @@ export default function LargePortraitCardPage() {
     <Layout>
       <About />
       <Route
-        path="/about/:completeName"
-        render={({ history, match }) => {
-          const { completeName } = match.params; /* extract the dynamic part from the url i.e. the completeName*/
-          const teamMembers = getTeamByPersonName(completeName);
-          const person = teamMembers.find((person) => person.completeName.replace(/\s+/g, '').normalize("NFD").replace(/[\u0300-\u036f]/g, '') === completeName);
+        path="/about/:pageName"
+        render={({ match }) => {
+          const { pageName } = match.params; /* extract the dynamic part from the url i.e. the pageName*/
+          const teamMembers = getTeamByPageName(pageName);
+          const person = teamMembers.find((person) => person.pageName== pageName);
           if (!person) return null;
 
           return (

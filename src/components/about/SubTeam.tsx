@@ -8,7 +8,7 @@ export default function SubTeam({ subTeamName, subTeam }) {
       <div className={"container"}>
         <ul className="row padding-none flex-full-centered row-with-margin-top">
           {subTeam.map((person, index) => (
-            <li className="cards-list" key={person.firstName}>
+            <li className="cards-list" key={person.pageName}>
               <div className="col">
                 <SmallPortraitCard person={person} />
               </div>

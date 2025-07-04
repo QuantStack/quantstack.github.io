@@ -73,7 +73,7 @@ export const teams = {
   coreTeam: [
     {
       completeName: "Thorsten Beier",
-      firstName: "Thorsten",
+      pageName: "ThorstenBeier",
       position: "Scientific Software Developer",
       GitHubLink: "https://github.com/DerThorsten",
       LinkedInLink: "https://www.linkedin.com/in/thorsten-beier-95b121189/",
@@ -88,7 +88,7 @@ export const teams = {
     },
     {
       completeName: " Andreas Trawöger",
-      firstName: "Andreas",
+      pageName: "AndreasTrawoger",
       position: "DevOps Engineer",
       GitHubLink: "https://github.com/atrawog",
       LinkedInLink: "",
@@ -103,7 +103,7 @@ export const teams = {
     },
     {
       completeName: "Denisa Checiu",
-      firstName: "Denisa",
+      pageName: "DenisaCheciu",
       position: "Scientific Software Developer",
       GitHubLink: "https://github.com/DenisaCG",
       LinkedInLink: "https://www.linkedin.com/in/denisa-checiu-georgiana/",
@@ -118,7 +118,7 @@ export const teams = {
     },
     {
       completeName: "Joël Lamotte",
-      firstName: "Joel",
+      pageName: "JoelLamotte",
       position: "Scientific Software Developer",
       GitHubLink: "https://github.com/Klaim",
       LinkedInLink: "https://www.linkedin.com/in/a-jo%C3%ABl-lamotte-a5b09b85/",
@@ -133,7 +133,7 @@ export const teams = {
     },
     {
       completeName: "Florence Haudin",
-      firstName: "Florence",
+      pageName: "FlorenceHaudin",
       position: "Scientific Software Developer",
       GitHubLink: "https://github.com/HaudinFlorence",
       LinkedInLink: "https://www.linkedin.com/in/florence-haudin-fr/",
@@ -148,7 +148,7 @@ export const teams = {
     },
     {
       completeName: "Nicolas Brichet",
-      firstName: "Nicolas",
+      pageName: "NicolasBrichet",
       position: "Scientific Software Developer",
       GitHubLink: "https://github.com/brichet",
       LinkedInLink: "https://www.linkedin.com/in/nicolas-brichet-a26369150/",
@@ -163,7 +163,7 @@ export const teams = {
     },
     {
       completeName: "Isabel Paredes",
-      firstName: "Isabel",
+      pageName: "IsabelParedes",
       position: "Scientific Software Developer",
       GitHubLink: "https://github.com/ihuicatl",
       LinkedInLink: "https://www.linkedin.com/in/isabel-paredes/",
@@ -178,7 +178,7 @@ export const teams = {
     },
     {
       completeName: "Gabriela Vives",
-      firstName: "Gabriela",
+      pageName: "GabrielaVives",
       position: "User Experience Researcher and Designer",
       GitHubLink: "https://github.com/GabrielaVives",
       LinkedInLink: "https://www.linkedin.com/in/gabriela-vives-831ba853/",
@@ -193,7 +193,7 @@ export const teams = {
     },
     {
       completeName: "Hind Montassif",
-      firstName: "Hind",
+      pageName: "HindMontassif",
       position: "Scientific Software Developer",
       GitHubLink: "https://github.com/Hind-M",
       LinkedInLink: "https://www.linkedin.com/in/hindmontassif/",
@@ -208,7 +208,7 @@ export const teams = {
     },
     {
       completeName: "Julien Jerphanion",
-      firstName: "Julien",
+      pageName: "JulienJerphanion",
       position: "Scientific Software Developer",
       GitHubLink: "https://github.com/jjerphan",
       LinkedInLink: "https://www.linkedin.com/in/jjerphan/",
@@ -223,7 +223,7 @@ export const teams = {
     },
     {
       completeName: "Anutosh Bhat",
-      firstName: "Anutosh",
+      pageName: "AnutoshBhat",
       position: "Scientific Software Developer",
       GitHubLink: "https://github.com/anutosh491",
       LinkedInLink: "https://www.linkedin.com/in/anutosh-bhat-66ba961a8/",
@@ -238,7 +238,7 @@ export const teams = {
     },
     {
       completeName: "Greg Mooney",
-      firstName: "Greg",
+      pageName: "GregMooney",
       position: "Scientific Software Developer",
       GitHubLink: "https://github.com/gjmooney",
       LinkedInLink: "https://www.linkedin.com/in/gjmooney/",
@@ -253,7 +253,7 @@ export const teams = {
     },
     {
       completeName: "Ian Thomas",
-      firstName: "Ian",
+      pageName: "IanThomas",
       position: "Scientific Software Developer",
       GitHubLink: "https://github.com/ianthomas23",
       LinkedInLink: "https://www.linkedin.com/in/ian-thomas-796814240/",
@@ -268,7 +268,7 @@ export const teams = {
     },
     {
       completeName: "Meriem Ben Ismail",
-      firstName: "Meriem",
+      pageName: "MeriemBenIsmail",
       position: " Scientific Software Developer",
       GitHubLink: "https://github.com/Meriem-BenIsmail",
       LinkedInLink: "https://www.linkedin.com/in/meriem-ben-ismail-163042230/",
@@ -283,7 +283,7 @@ export const teams = {
     },
     {
       completeName: "Alexis Placet",
-      firstName: "Alexis",
+      pageName: "AlexisPlacet",
       position: " Scientific Software Developer",
       GitHubLink: "https://github.com/Alex-PLACET",
       LinkedInLink: "https://www.linkedin.com/in/alexisplacet/",
@@ -298,7 +298,7 @@ export const teams = {
     },
     {
       completeName: "Anastasiia Sliusar",
-      firstName: "Anastasiia",
+      pageName: "AnastasiiaSliusar",
       position: " Scientific Software Developer",
       GitHubLink: "https://github.com/AnastasiaSliusar",
       LinkedInLink: "https://www.linkedin.com/in/anastasiiasliusar-bellis/",
@@ -313,7 +313,7 @@ export const teams = {
     },
     {
       completeName: "Arjun Verma",
-      firstName: "Arjun",
+      pageName: "ArjunVerma",
       position: " Scientific Software Development Intern",
       GitHubLink: "https://github.com/arjxn-py",
       LinkedInLink:
@@ -329,7 +329,7 @@ export const teams = {
     },
     {
       completeName: "Sandrine Pataut",
-      firstName: "Sandrine",
+      pageName: "SandrinePataut",
       position: " Scientific Software Developer",
       GitHubLink: "https://github.com/SandrineP",
       LinkedInLink:
@@ -345,7 +345,7 @@ export const teams = {
     },
     {
       completeName: "Raúl Cumplido",
-      firstName: "Raúl",
+      pageName: "RaulCumplido",
       position: " Scientific Software Developer",
       GitHubLink: "https://github.com/raulcd",
       LinkedInLink:
@@ -361,7 +361,7 @@ export const teams = {
     },
     {
       completeName: "Antoine Prouvost",
-      firstName: "Antoine",
+      pageName: "AntoineProuvost",
       position: " Scientific Software Developer",
       GitHubLink: "https://github.com/AntoinePrv",
       LinkedInLink: "https://www.linkedin.com/in/antoine-prouvost-0667b6a4/",
@@ -376,7 +376,7 @@ export const teams = {
     },
     {
       completeName: "Yahia Heni",
-      firstName: "Yahia",
+      pageName: "YahiaHeni",
       position: " Scientific Software Development Intern",
       GitHubLink: "https://github.com/Yahiewi",
       LinkedInLink:
@@ -390,7 +390,7 @@ export const teams = {
     },
     {
       completeName: "Ousema Bouaneni",
-      firstName: "Ousema",
+      pageName: "OusemaBouaneni",
       position: " Scientific Software Development Intern",
       GitHubLink: "https://github.com/ousema-bouaneni",
       LinkedInLink:
@@ -404,7 +404,7 @@ export const teams = {
     },
     {
       completeName: "Guy Mushiata Kibulu",
-      firstName: "Guy",
+      pageName: "GuyMushiataKibulu",
       position: "Scientific Software Development Intern",
       GitHubLink: "https://github.com/Gauss-Taylor-Euler",
       LinkedInLink:
@@ -421,7 +421,7 @@ export const teams = {
   QSCollaboratorsTeam: [
     {
       completeName: "Johan Mabille",
-      firstName: "Johan",
+      pageName: "JohanMabille",
       position: "Technical Director",
       GitHubLink: "https://github.com/JohanMabille",
       LinkedInLink: "https://www.linkedin.com/in/johan-mabille/",
@@ -436,7 +436,7 @@ export const teams = {
     },
     {
       completeName: "Serge Guelton",
-      firstName: "Serge",
+      pageName: "SergeGuelton",
       position: "Scientific Software Developer",
       GitHubLink: "https://github.com/serge-sans-paille",
       LinkedInLink: "",
@@ -451,7 +451,7 @@ export const teams = {
     },
     {
       completeName: "Romain Menegaux",
-      firstName: "Romain",
+      pageName: "RomainMenegaux",
       position: "Scientific Software Developer",
       GitHubLink: "https://github.com/rmenegaux",
       LinkedInLink: "https://www.linkedin.com/in/romain-menegaux-88a147134/",
@@ -466,7 +466,7 @@ export const teams = {
     },
     {
       completeName: "Antoine Pitrou",
-      firstName: "Antoine",
+      pageName: "AntoinePitrou",
       position: "Senior Software Developer",
       GitHubLink: "https://github.com/pitrou",
       LinkedInLink:
@@ -482,7 +482,7 @@ export const teams = {
     },
     {
       completeName: "Marion Chaffaut",
-      firstName: "Marion",
+      pageName: "MarionChaffaut",
       position: "Chief Financial Officer",
       GitHubLink: "https://github.com/MarionChaff",
       LinkedInLink: "https://www.linkedin.com/in/marion-chaffaut/",
@@ -500,7 +500,7 @@ export const teams = {
   leadershipTeam: [
     {
       completeName: "Sylvain Corlay",
-      firstName: "Sylvain",
+      pageName: "SylvainCorlay",
       position: "Chief Executive Officer",
       GitHubLink: "https://github.com/SylvainCorlay",
       LinkedInLink: "https://www.linkedin.com/sylvaincorlay/?locale=en_US",
@@ -515,7 +515,7 @@ export const teams = {
     },
     {
       completeName: "Martin Renou",
-      firstName: "Martin",
+      pageName: "MartinRenou",
       position: "Technical Director",
       GitHubLink: "https://github.com/martinRenou",
       LinkedInLink: "https://www.linkedin.com/in/martin-renou",
@@ -530,7 +530,7 @@ export const teams = {
     },
     {
       completeName: "Jeremy Tuloup",
-      firstName: "Jeremy",
+      pageName: "JeremyTuloup",
       position: "Technical Director",
       GitHubLink: "https://github.com/jtpio",
       LinkedInLink: "https://www.linkedin.com/in/jtuloup/",
@@ -545,7 +545,7 @@ export const teams = {
     },
     {
       completeName: "Afshin Darian",
-      firstName: "Darian",
+      pageName: "AfshinDarian",
       position: "Technical Director",
       GitHubLink: "https://github.com/afshin",
       LinkedInLink: "https://www.linkedin.com/in/afshindarian/",
@@ -560,7 +560,7 @@ export const teams = {
     },
     {
       completeName: "David Brochart",
-      firstName: "David",
+      pageName: "DavidBrochart",
       position: "Technical Director",
       GitHubLink: "https://github.com/davidbrochart",
       LinkedInLink: "https://www.linkedin.com/in/david-brochart-4208721/",
@@ -575,7 +575,7 @@ export const teams = {
     },
     {
       completeName: "Matthias Meschede",
-      firstName: "Matthias",
+      pageName: "MatthiasMeschede",
       position: "Chief Operating Officer",
       GitHubLink: "https://github.com/mmesch",
       LinkedInLink: "https://www.linkedin.com/in/mmesch/",
@@ -590,7 +590,7 @@ export const teams = {
     },
     {
       completeName: "Le Duc Trung",
-      firstName: "Trung",
+      pageName: "LeDucTrung",
       position: "Technical Director",
       GitHubLink: "https://github.com/trungleduc",
       LinkedInLink: "https://www.linkedin.com/in/ductrung-le/",

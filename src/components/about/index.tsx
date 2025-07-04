@@ -4,9 +4,9 @@ import FourValues from "./FourValues";
 import SubTeam from "./SubTeam";
 import LinkToContact from "../home/LinkToContact";
 
-export function getTeamByPersonName(name: string) {
+export function getTeamByPageName(name: string) {
   for (const [teamName, members] of Object.entries(teams)) {
-    const person = members.find((person) => person.completeName.replace(/\s+/g, '').replace(/\s+/g, '').normalize("NFD").replace(/[\u0300-\u036f]/g, '') === name);
+    const person = members.find((person) => person.pageName === name);
     if (person) {
       return members;
     }

@@ -13,7 +13,7 @@ export function Distinction({ person }) {
       {HasPersonDistinction ? (
         <ul style={{paddingLeft: "0px"}}>
           {person.distinctionTitle.map((distinction, index) => (
-            <li className="items-list" key={person.firstName}>
+            <li className="items-list" key={person.pageName}>
               <div>
                 <Link href={person.distinctionLink[index]}>
                   <DistinctionIcon className={styles.distinction_icon} />
