@@ -6,11 +6,11 @@ import React from "react";
 import Avatar from "./Avatar";
 
 export function Distinction({ person }) {
-  const HasPersonDisctinction = person.distinctionTitle.length !== 0;
+  const HasPersonDistinction = person.distinctionTitle.length !== 0;
 
   return (
     <div>
-      {HasPersonDisctinction ? (
+      {HasPersonDistinction ? (
         <ul style={{paddingLeft: "0px"}}>
           {person.distinctionTitle.map((distinction, index) => (
             <li className="items-list" key={person.firstName}>
