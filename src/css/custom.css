@@ -18,6 +18,8 @@
 
   --ifm-color-secondary-s1: #a0c9ff;
   --ifm-color-secondary-s2: #002646;
+  --ifm-color-secondary-s3: #00497F;
+ 
 
   --ifm-color-neutral-n1: #605e58;
   --ifm-color-neutral-n2: #371300;
@@ -559,6 +561,19 @@ a.menu__link:active {
   background-color: white;
 }
 
+.fundable_projects {
+  background-color: var(--ifm-color-secondary-s1);
+  color: black;
+  border-radius: 4px;
+  font-style: normal;
+  margin: var(--ifm-navbar-item-padding-vertical) 20px;
+}
+
+.fundable_projects:hover {
+  background-color: var(--ifm-color-primary-p0);
+}
+
+
 .custom_navbar_item {
   font-family: var(--ifm-font-family-roboto);
   width: 117px;
@@ -687,4 +702,10 @@ ul.row {
 
 .items-list {
   list-style-type: none;
+}
+.custom-progress-bar::-webkit-progress-value {
+  background-color: var(--ifm-color-primary-p1);
+}
+.custom-progress-bar::-webkit-progress-bar {
+  background-color: #eee;
 }
