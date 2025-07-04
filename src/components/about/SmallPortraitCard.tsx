@@ -1,54 +1,24 @@
 import styles from "./styles.module.css";
-import Popup from "reactjs-popup";
-import SocialMediaContacts from "./SocialMediaContacts";
-import { useRef, useState } from "react";
-import LargePortraitCard from "./LargePortraitCard";
+import { useHistory } from "react-router";
 import Avatar from "./Avatar";
+import { useState } from "react";
 
-const contentStyle = {
-  background: "white",
-  borderRadius: "10px",
-};
 
-const overlayStyle = {
-  backgroundColor: "var(--ifm-background-color-popup-overlay)",
-  opacity: "0.4",
-  width: "100%",
-  height: "100%",
-};
+export function SmallPortraitCard ({ person}) {
+  let [isDialogOpen, setIsDialogOpen] = useState(false);
 
-function getCenterOfViewport() {
-  let horizontalCenter = Math.floor(window.innerWidth / 2);
-  let verticalCenter = Math.floor(window.innerHeight / 2);
-  return [horizontalCenter, verticalCenter];
-}
+  const history = useHistory();
 
-function calculateOffsets(elementRef) {
-  const rect = elementRef.current.getBoundingClientRect();
-  const [xViewportCenter, yViewportCenter] = getCenterOfViewport();
-  const [xCardCenter, yCardCenter] = [
-    rect.left + rect.width / 2,
-    rect.top + rect.height / 2,
-  ];
-  const offsets = [
-    xViewportCenter - xCardCenter,
-    yViewportCenter - yCardCenter,
-  ];
-  return offsets;
-}
-
-export function SmallPortraitCard({ person, setOffsets }) {
-  const elementRef = useRef(null);
+  const openDialog = () => {
+    history.push("/about/" + person.firstName);
+    setIsDialogOpen(true);
+    /* dialog = name
+    /* use a props*/
+  };
 
   return (
-    <div
-      ref={elementRef}
-      className={"card" + " " + styles.small_portrait_card}
-      id={person.firstName}
-      onClick={() => {
-        setOffsets(calculateOffsets(elementRef));
-      }}
-    >
+    <div onClick={openDialog}>
+       <div className={"card" + " " + styles.small_portrait_card}>
       <div className="card__header">
         <Avatar person={person} />
         <div
@@ -65,49 +35,8 @@ export function SmallPortraitCard({ person, setOffsets }) {
         >
           {person.position}
         </div>
-        <div style={{ marginTop: "var(--ifm-spacing-xl)" }}>
-          <SocialMediaContacts person={person}></SocialMediaContacts>
-        </div>
       </div>
     </div>
-  );
-}
-export default function PopupPortrait({ person }) {
-  const [offsets, setOffsets] = useState([0, 0]);
-  let [isPopupOpen, setIsPopupOpen] = useState(false);
-
-  return (
-    <div>
-      <Popup
-        open={isPopupOpen}
-        closeOnEscape={true}
-        closeOnDocumentClick={true}
-        onClose={() => setIsPopupOpen(false)}
-        trigger={
-          <div>
-            <SmallPortraitCard person={person} setOffsets={setOffsets} />
-          </div>
-        }
-        onOpen={() => {
-          setIsPopupOpen(true);
-        }}
-        contentStyle={contentStyle}
-        overlayStyle={overlayStyle}
-        position={"center center"}
-        offsetX={offsets[0]}
-        offsetY={offsets[1]}
-      >
-        <div>
-          <button
-            className="close-button"
-            style={{ position: "absolute", right: "0px" }}
-            onClick={() => {
-              setIsPopupOpen(false);
-            }}
-          ></button>
-          <LargePortraitCard person={person}></LargePortraitCard>
-        </div>
-      </Popup>
     </div>
   );
 }

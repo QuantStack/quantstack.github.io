@@ -1,6 +1,7 @@
+
 .small_portrait_card {
   width: 279px;
-  height: 400px;
+  height: 320px;
   background-color: white;
   color: var(--ifm-color-primary-p2);
   border-radius: 8px;
@@ -11,10 +12,9 @@
 
 .small_portrait_card:hover {
   border: solid 1px gray;
-  cursor: pointer; 
-  text-decoration: #0000EE underline;
+  cursor: pointer;
+  text-decoration: #0000ee underline;
 }
-
 
 .value_text p {
   font-family: var(--ifm-font-family-roboto);
@@ -51,7 +51,7 @@ div .row {
   line-height: 24px;
   letter-spacing: 0.15px;
   margin: var(--ifm-spacing-xs) 0;
-  width: 100%
+  width: 100%;
 }
 
 .small_card_position {
@@ -135,6 +135,39 @@ div .join_the_team_text {
   padding-right: 5px;
 }
 
+.card {
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: box-shadow 0.2s;
+}
+
+.small_portrait_card:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensure it's above other content */
+}
+
+.popup {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
 @media only screen and (max-width: 996px) {
   /*Mobile*/
   .value_card {
@@ -167,6 +200,19 @@ div .join_the_team_text {
     width: 100%;
     height: 100%;
     padding: var(--ifm-spacing-xl) var(--ifm-spacing-xl);
+    
+  }
+  .modal_with_large_portrait_card {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: var(--ifm-color-primary-p0);
+    border: 1px solid #ccc;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border-radius: 10px;
   }
 
   .large_portrait_card p {

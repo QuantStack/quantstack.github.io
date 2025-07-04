@@ -1,12 +1,14 @@
 import styles from "./styles.module.css";
-import  { coreTeam, QSCollaboratorsTeam, leadershipTeam } from "./Team/team";
+import { coreTeam, QSCollaboratorsTeam, leadershipTeam } from "./Team/team";
 import FourValues from "./FourValues";
 import SubTeam from "./SubTeam";
 import LinkToContact from "../home/LinkToContact";
-
+import { BrowserRouter as Router } from "react-router-dom";
+import Appli from "./Test"; // Your main App component
+ 
 export function About() {
   return (
-    <div >
+    <div>
       <div className="main-container-with-margins">
         <div className="container upper-container-with-margin-top">
           <div className={"row"}>
@@ -14,6 +16,7 @@ export function About() {
               <FourValues />
             </div>
           </div>
+         
 
           <div className="row">
             <div className="col col--10 col--offset-1">
@@ -24,16 +27,14 @@ export function About() {
               </div>
             </div>
           </div>
+ 
           <div className="row">
             <div className="col">
               <SubTeam
                 subTeamName={"The leadership team"}
                 subTeam={leadershipTeam}
               />
-              <SubTeam
-                subTeamName={"The core team"}
-                subTeam={coreTeam}
-              />
+              <SubTeam subTeamName={"The core team"} subTeam={coreTeam} />
               <SubTeam
                 subTeamName={"QuantStack collaborators"}
                 subTeam={QSCollaboratorsTeam}
