@@ -552,12 +552,25 @@ a.menu__link:active {
   border-radius: 4px;
   font-weight: bolder;
   font-style: normal;
-  margin: var(--ifm-navbar-item-padding-vertical) 20px;
+  margin: var(--ifm-navbar-item-padding-vertical) 8px;
 }
 
 .contact:hover {
   background-color: white;
 }
+
+.fundable_projects {
+  background-color: var(--ifm-color-secondary-s1);
+  color: black;
+  border-radius: 4px;
+  font-style: normal;
+  margin: var(--ifm-navbar-item-padding-vertical) 8px;
+}
+
+.fundable_projects:hover {
+  background-color: var(--ifm-color-primary-p0);
+}
+
 
 .custom_navbar_item {
   font-family: var(--ifm-font-family-roboto);
