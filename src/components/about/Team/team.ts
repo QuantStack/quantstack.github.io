@@ -314,7 +314,7 @@ export const teams = {
     {
       completeName: "Arjun Verma",
       pageName: "ArjunVerma",
-      position: " Scientific Software Development Intern",
+      position: " Scientific Software Developer",
       GitHubLink: "https://github.com/arjxn-py",
       LinkedInLink:
         "https://www.linkedin.com/in/arjun-verma-758608226/",
