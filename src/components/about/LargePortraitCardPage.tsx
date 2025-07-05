@@ -54,9 +54,9 @@ export default function LargePortraitCardPage() {
           if (!person) return null;
 
           return (
-            <div className={styles.modal_overlay} onClick={handleOverlayClick}>
+            <div className={styles.project_dialog_overlay} onClick={handleOverlayClick}>
               <div
-                className={styles.modal_content}
+                className={styles.project_dialog_content}
                 onClick={(e) => e.stopPropagation()}
               >
                 <button

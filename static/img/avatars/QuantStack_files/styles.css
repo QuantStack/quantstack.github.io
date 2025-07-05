@@ -5785,7 +5785,7 @@ div .join_the_team_text_src-components-about-styles-module {
   margin: var(--ifm-spacing-xl) 0;
 }
 
-.category_header_src-components-fundable-styles-module {
+.project_category_header_src-components-fundable-styles-module {
     font-family: var(--ifm-font-family-rubik-one);
     font-style: normal;
     font-weight: 400;
@@ -5819,14 +5819,14 @@ div .join_the_team_text_src-components-about-styles-module {
 
 @media only screen and (max-width: 996px) {
   /*Mobile*/
-  .category_header_src-components-fundable-styles-module {
+  .project_category_header_src-components-fundable-styles-module {
     font-size: 20px;
 }
 }
 
 @media only screen and (min-width: 996px) {
   /*Desktop*/
-   .category_header_src-components-fundable-styles-module {
+   .project_category_header_src-components-fundable-styles-module {
   /*font-size: var(--ifm-font-size-secondary-title);*/
   font-size: 28px;
 }

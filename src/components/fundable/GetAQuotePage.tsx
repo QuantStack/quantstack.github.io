@@ -44,9 +44,9 @@ export default function GetAQuotePage() {
                     if (!project) return null;
 
                     return (
-                        <div className={styles.modal_overlay} >
+                        <div className={styles.project_dialog_overlay} >
                             <div
-                                className={styles.modal_content}
+                                className={styles.project_dialog_content}
                                 onClick={(e) => e.stopPropagation()}
                             >
                                 <button
