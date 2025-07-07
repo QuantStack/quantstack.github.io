@@ -11,7 +11,7 @@ export function Distinction({ person }) {
   return (
     <div>
       {HasPersonDistinction ? (
-        <ul style={{paddingLeft: "0px"}}>
+        <ul style={{ paddingLeft: "0px" }}>
           {person.distinctionTitle.map((distinction, index) => (
             <li className="items-list" key={person.pageName}>
               <div>
@@ -48,7 +48,7 @@ export default function LargePortraitCard({ person }) {
               </div>
             </div>
           </div>
-          <div className="col col--6 col--offset-1">
+          <div className="col col--7 col--offset-1">
             <div className={styles.bio_container}>
               <person.BioComponent />
             </div>
