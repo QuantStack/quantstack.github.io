@@ -53,14 +53,15 @@ div .row {
   margin-right: 0;
 }
 
-.bio_container {
+.bio_container p {
   font-family: var(--ifm-font-family-roboto);
-  font-size: 14px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.5px;
-  color: var(--ifm-color-primary-p2);
+  color: var(--ifm-color-primary-p2); 
+  text-align: justify;
 }
 
 .small_card_complete_name {
@@ -261,7 +262,7 @@ div .join_the_team_text {
   }
 
   .large_portrait_card {
-    width: 920px;
+    width: 976px;
     padding: var(--ifm-spacing-xl) var(--ifm-spacing-2xl);
   }
 
