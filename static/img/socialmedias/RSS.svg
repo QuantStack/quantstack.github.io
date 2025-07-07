@@ -4,38 +4,16 @@
 <svg
    version="1.1"
    id="Capa_1"
-   viewBox="0 0 36.000001 36.000001"
+   viewBox="0 0 32.000001 32.000001"
    xml:space="preserve"
-   sodipodi:docname="RSS.svg"
-   inkscape:version="1.4.2 (2aeb623e1d, 2025-05-12)"
-   width="36"
-   height="36"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   width="32"
+   height="32"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"><defs
-   id="defs3" /><sodipodi:namedview
-   id="namedview3"
-   pagecolor="#ffffff"
-   bordercolor="#000000"
-   borderopacity="0.25"
-   inkscape:showpageshadow="2"
-   inkscape:pageopacity="0.0"
-   inkscape:pagecheckerboard="0"
-   inkscape:deskcolor="#d1d1d1"
-   showgrid="false"
-   inkscape:zoom="3.7901756"
-   inkscape:cx="30.605442"
-   inkscape:cy="-35.354562"
-   inkscape:window-width="1648"
-   inkscape:window-height="961"
-   inkscape:window-x="0"
-   inkscape:window-y="0"
-   inkscape:window-maximized="1"
-   inkscape:current-layer="g2" />
+   id="defs3" />
 <g
    id="g3"
-   transform="translate(-209.86549,-209.86549)">
+   transform="translate(-211.86549,-211.86549)">
 	<rect
    x="0"
    y="0"
@@ -49,28 +27,28 @@
 		
 		
 	<g
-   id="Linkedin"
-   transform="translate(208.88599,209.86549)"><circle
-     id="Ellipse 2"
-     cx="18.9795"
-     cy="18"
-     r="17.5"
-     fill="#ffffff"
-     stroke="#000000" /></g><g
-   id="g4"
-   transform="translate(-23.746109,121.63073)"><path
-     style="fill:#000000;stroke-width:0.059049"
-     d="m 255.64713,102.17779 c -3.64704,-3.647048 -8.49964,-5.655598 -13.66383,-5.655598 v 3.799698 c 4.14926,0 8.04768,1.61327 10.97709,4.54269 2.92937,2.92942 4.54271,6.82784 4.54271,10.97709 h 3.79968 c -5e-5,-5.16419 -2.00861,-10.01683 -5.65565,-13.66388 z"
-     id="path1"
-     sodipodi:nodetypes="scccccs" /><path
-     style="fill:#000000;stroke-width:0.059049"
-     d="m 241.94393,102.95211 v 3.79968 c 5.01213,0 9.08987,4.07768 9.08987,9.08994 h 3.79969 c 0,-7.10737 -5.78219,-12.88962 -12.88956,-12.88962 z"
-     id="path2"
-     sodipodi:nodetypes="ccccc" /><circle
-     style="fill:#000000;stroke-width:0.059049"
-     cx="244.64188"
-     cy="113.22588"
-     r="2.7214503"
-     id="circle2" /></g></g>
+   id="g1"
+   transform="matrix(0.88888889,0,0,0.88888889,25.318388,25.318388)"><g
+     id="Linkedin"
+     transform="translate(208.88599,209.86549)"><circle
+       id="Ellipse 2"
+       cx="18.9795"
+       cy="18"
+       r="17.5"
+       fill="#ffffff"
+       stroke="#000000" /></g><g
+     id="g4"
+     transform="translate(-23.746109,121.63073)"><path
+       style="fill:#000000;stroke-width:0.059049"
+       d="m 255.64713,102.17779 c -3.64704,-3.647048 -8.49964,-5.655598 -13.66383,-5.655598 v 3.799698 c 4.14926,0 8.04768,1.61327 10.97709,4.54269 2.92937,2.92942 4.54271,6.82784 4.54271,10.97709 h 3.79968 c -5e-5,-5.16419 -2.00861,-10.01683 -5.65565,-13.66388 z"
+       id="path1" /><path
+       style="fill:#000000;stroke-width:0.059049"
+       d="m 241.94393,102.95211 v 3.79968 c 5.01213,0 9.08987,4.07768 9.08987,9.08994 h 3.79969 c 0,-7.10737 -5.78219,-12.88962 -12.88956,-12.88962 z"
+       id="path2" /><circle
+       style="fill:#000000;stroke-width:0.059049"
+       cx="244.64188"
+       cy="113.22588"
+       r="2.7214503"
+       id="circle2" /></g></g></g>
 </g>
 </svg>
