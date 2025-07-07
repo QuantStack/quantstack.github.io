@@ -24,7 +24,7 @@ export function MainAreaFundableProjects() {
           projectCategory={fundableProjectsDetails.jupyterEcosystem}
         />
       </section>
-      <section id="project-management">
+      <section id="package-management">
         <ProjectCategory
           projectCategoryName={"Package Management"}
           projectCategory={fundableProjectsDetails.packageManagement}

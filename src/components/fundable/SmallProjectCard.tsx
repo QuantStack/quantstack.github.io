@@ -30,11 +30,6 @@ export function SmallProjectCard({ project }) {
               >
                 {project.title}
               </div>
-              <div
-                className={styles.project_catch_up_phrase}
-              >
-                {project.catchUpPhrase}
-              </div>
               <div className={styles.project_information_container}>
                 <div className="flex-full-centered">
                   <BlueCaretIcon />
@@ -46,9 +41,6 @@ export function SmallProjectCard({ project }) {
                       : project.shortDescription.substring(0, 250) + "..."}
                   </div>
                 </div>
-              </div>
-              <div>
-                <LinkToMoreInformation label={"Read more"} pageName={project.pageName} />
               </div>
               <div className={styles.project_information_container}>
                 <div className="flex-full-centered">
@@ -78,37 +70,34 @@ export function SmallProjectCard({ project }) {
               <div className={styles.small_project_card_indicative_price_text}>
                 Indicative price
               </div>
+              <div className={styles.small_project_card_funded_at_text}>
+                Funded at {project.currentFundingPercentage} %
+              </div>
               <div>
-                <div className={styles.small_project_card_financed_at_text}>
-                  Financed at {project.currentFundingPercentage} %
+                <ProgressBar value={project.currentFundingPercentage} color={'var(--ifm-color-secondary-s1'} />
+              </div>
+              <div className={styles.shareable_container}>
+                <div><FundersIcon width="35px" height="26px" /></div>
+                <div className={styles.shareable_text}>{project.maxNbOfFunders === 1
+                  ? 'Not shareable between funders'
+                  : `Shareable between ${project.maxNbOfFunders} funders`
+                }
                 </div>
-                <div>
-                  <ProgressBar value={project.currentFundingPercentage} color={'var(--ifm-color-secondary-s1'} />
-                </div>
-                <div className={styles.shareable_container}>
-                  <div><FundersIcon width="35px" height="26px" /></div>
-                  <div className={styles.shareable_text}>{project.maxNbOfFunders === 1
-                    ? 'Not shareable between funders'
-                    : `Shareable between ${project.maxNbOfFunders} funders`
-                  }
-                  </div>
-                </div>
-                <div className={styles.shareable_container}>
-                  <div><DollarIcon width="35px" height="26px" /></div>
-                  <div className={styles.shareable_text}>
-                    {project.currentNbOfFunders === 0
-                      ? 'The project is not supported yet'
-                      : `Supported by ${project.currentNbOfFunders} 
+              </div>
+              <div className={styles.shareable_container}>
+                <div><DollarIcon width="35px" height="26px" /></div>
+                <div className={styles.shareable_text}>
+                  {project.currentNbOfFunders === 0
+                    ? 'This project does not have any backers yet'
+                    : `Backed by ${project.currentNbOfFunders} 
                    ${project.currentNbOfFunders === 1 ? 'funder' : 'funders'}
                     `}
-                  </div>
-
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div >
+    </div>
   )
 }

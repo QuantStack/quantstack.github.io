@@ -11,17 +11,17 @@ import FundableProjects from ".";
 function GetAQuoteComponent({ project }) {
     return (
         <div className={styles.get_a_quote_dialog}>
-            <div className={"row" + " " + "flex-horizontally-centered"}>
+            <div className={"row"}>
                 <div className={"col col--6" + " " + styles.get_a_quote_text_col_desktop}>
                     <LargeProjectCardContent project={project} />
                 </div>
                 <div className={"col col--5 col--offset-1" + " " + styles.get_a_quote_form_col_desktop}>
                     <h1 className={"padding-none"}> Get a quote</h1>
-                    <div className="flex-horizontally-centered"><GetAQuoteForm /></div>
+                    <div ><GetAQuoteForm /></div>
                 </div>
                 <div className={"col col--12" + " " + styles.get_a_quote_form_col_mobile}>
                     <h1 className={"padding-none text--center"}> Get a quote</h1>
-                    <div className="flex-horizontally-centered"><GetAQuoteForm /></div>
+                    <div><GetAQuoteForm /></div>
                 </div>
             </div>
         </div >

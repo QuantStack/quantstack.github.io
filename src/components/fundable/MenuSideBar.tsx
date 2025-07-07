@@ -4,7 +4,7 @@ import styles from "./styles.module.css";
 
 const sections = [
   { id: 'jupyter-ecosystem', label: 'Jupyter Ecosystem' },
-  { id: 'project-management', label: 'Project Management' },
+  { id: 'package-management', label: 'Package Management' },
 ];
 
 export default function MenuSideBar() {
