@@ -3,6 +3,7 @@ import SupplyChainProjects from "./SupplyChain";
 import SpecialProjects from "./SpecialProjects";
 import RoboticsProjects from "./Robotics";
 import ComputingProjects from "./Computing";
+import DataAnalysisProjects from "./DataAnalysis";
 import styles from "./styles.module.css";
 
 export default function ProjectsOverview() {
@@ -13,6 +14,7 @@ export default function ProjectsOverview() {
       <SpecialProjects />
       <RoboticsProjects />
       <ComputingProjects />
+      <DataAnalysisProjects />
     </div>
   );
 }
