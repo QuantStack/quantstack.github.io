@@ -18,6 +18,8 @@
 
   --ifm-color-secondary-s1: #a0c9ff;
   --ifm-color-secondary-s2: #002646;
+  --ifm-color-secondary-s3: #00497F;
+
 
   --ifm-color-neutral-n1: #605e58;
   --ifm-color-neutral-n2: #371300;
@@ -185,6 +187,7 @@ ul {
   .row-with-margins {
     margin: var(--ifm-spacing-xl) 0;
   }
+
   .col {
     padding: 0;
   }
@@ -195,7 +198,8 @@ ul {
     font-size: 32px;
     font-style: normal;
     font-weight: 600;
-    line-height: 150%; /* 36px */
+    line-height: 150%;
+    /* 36px */
     letter-spacing: 1.056px;
     text-align: center;
     padding: 0;
@@ -230,8 +234,7 @@ ul {
     font-size: 16px;
     font-weight: 500;
     color: var(--ifm-color-secondary-s2);
-    padding: var(--ifm-spacing-2xl) var(--ifm-spacing-lg) 0
-      var(--ifm-spacing-lg);
+    padding: var(--ifm-spacing-2xl) var(--ifm-spacing-lg) 0 var(--ifm-spacing-lg);
     background-color: var(--ifm-color-secondary-s1);
     line-height: 20px;
     letter-spacing: 0.1px;
@@ -341,8 +344,7 @@ ul {
     line-height: 150%;
     background-color: var(--ifm-color-secondary-s1);
     color: var(--ifm-color-secondary-s2);
-    padding: var(--ifm-spacing-2xl) var(--ifm-spacing-4xl) 0
-      var(--ifm-spacing-4xl);
+    padding: var(--ifm-spacing-2xl) var(--ifm-spacing-4xl) 0 var(--ifm-spacing-4xl);
   }
 
   .blue-banner-header {
@@ -385,6 +387,7 @@ ul {
     justify-content: center;
   }
 }
+
 /***********************************************************/
 
 .social-media-links {
@@ -494,14 +497,20 @@ a {
 a:hover,
 /* We need to (re)override some of the infima rules to have proper states on
 navbar links, table of contents, and docs sidebar links, respectively */
-a.navbar__link:hover,  /* Top bar navigation links */
-a.table-of-contents__link:hover, /*Right sidebar links (table of contents) */
-a[class^="sidebarItemLink"]:hover /* The docs sidebar links do not have its own class */ {
+a.navbar__link:hover,
+/* Top bar navigation links */
+a.table-of-contents__link:hover,
+/*Right sidebar links (table of contents) */
+a[class^="sidebarItemLink"]:hover
+
+/* The docs sidebar links do not have its own class */
+  {
   /*text-decoration: underline;
   text-decoration-thickness: var(--pydata-link-hover-decoration-thickness);
   text-decoration-skip-ink: none;
   text-decoration-skip: none;*/
 }
+
 a:active,
 a.navbar__link:active,
 a.table-of-contents__link:active,
@@ -511,13 +520,15 @@ a[class^="sidebarItemLink"]:active {
 
 /* In some cases, we override the underlines because there are other elements that
 already report the state (e.g. borders, background colors, etc) */
-a[class^="sidebarItemLink"][aria-current="page"], /* No underline if this is the current page */
+a[class^="sidebarItemLink"][aria-current="page"],
+/* No underline if this is the current page */
 a.navbar__link,
 .navbar-sidebar__item,
 .menu a,
 .navbar__items--right a,
 .pagination-nav__link,
-a.card, /* These cards are used in index-like documentation pages */
+a.card,
+/* These cards are used in index-like documentation pages */
 a.card:hover {
   text-decoration: none;
 }
@@ -530,6 +541,7 @@ a.menu__link:active {
   background: white;
   color: #000;
 }
+
 [data-theme="dark"] .pagination-nav__link:active,
 [data-theme="dark"] a.card:active,
 [data-theme="dark"] a.menu__link:active {
@@ -549,10 +561,11 @@ a.menu__link:active {
 .contact {
   background-color: var(--ifm-color-primary-p1);
   color: var(--ifm-color-text-on-primary-p1);
+  font-size: 14px;
   border-radius: 4px;
   font-weight: bolder;
   font-style: normal;
-  margin: var(--ifm-navbar-item-padding-vertical) 8px;
+  margin: var(--ifm-navbar-item-padding-vertical) 2px;
 }
 
 .contact:hover {
@@ -561,10 +574,12 @@ a.menu__link:active {
 
 .fundable_projects {
   background-color: var(--ifm-color-secondary-s1);
+  font-size: 14px;
   color: black;
   border-radius: 4px;
+  font-weight: bolder;
   font-style: normal;
-  margin: var(--ifm-navbar-item-padding-vertical) 8px;
+  margin: var(--ifm-navbar-item-padding-vertical) 2px;
 }
 
 .fundable_projects:hover {
@@ -607,8 +622,8 @@ a.menu__link:active {
   background: url(@site/static/img/socialmedias/RSS.svg);
   content: "";
   display: flex;
-  height: 36px;
-  width: 36px;
+  height: 32px;
+  width: 32px;
   background-repeat: no-repeat;
 }
 
@@ -620,8 +635,8 @@ a.menu__link:active {
   background: url(@site/static/img/socialmedias/GH.svg);
   content: "";
   display: flex;
-  height: 36px;
-  width: 37px;
+  height: 32px;
+  width: 32px;
   background-repeat: no-repeat;
 }
 
@@ -633,8 +648,8 @@ a.menu__link:active {
   background: url(@site/static/img/socialmedias/LinkedIn.svg);
   content: "";
   display: flex;
-  height: 36px;
-  width: 37px;
+  height: 32px;
+  width: 32px;
   background-repeat: no-repeat;
 }
 
@@ -646,8 +661,8 @@ a.menu__link:active {
   background: url(@site/static/img/socialmedias/Bluesky.svg);
   content: "";
   display: flex;
-  height: 36px;
-  width: 37px;
+  height: 32px;
+  width: 32px;
   background-repeat: no-repeat;
 }
 
@@ -659,8 +674,8 @@ a.menu__link:active {
   background: url(@site/static/img/socialmedias/Mastodon.svg);
   content: "";
   display: flex;
-  height: 36px;
-  width: 37px;
+  height: 32px;
+  width: 32px;
   background-repeat: no-repeat;
 }
 
@@ -700,4 +715,12 @@ ul.row {
 
 .items-list {
   list-style-type: none;
+}
+
+.custom-progress-bar::-webkit-progress-value {
+  background-color: var(--ifm-color-primary-p1);
+}
+
+.custom-progress-bar::-webkit-progress-bar {
+  background-color: #eee;
 }

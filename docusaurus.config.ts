@@ -88,7 +88,7 @@ const config: Config = {
       title: "",
       logo: {
         alt: "QuantStack Logo",
-        src: "img/quantstack/logo-website.svg",
+        src: "img/quantstack/logo-website-smaller.svg",
       },
 
       items: [
