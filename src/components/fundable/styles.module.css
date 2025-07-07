@@ -82,37 +82,15 @@
   text-align: justify;
 }
 
-
-.large_project_card_section_title {
-  font-weight: 600;
-}
-
 .large_project_card_description_container {
-  background-color: #F1F1F1
+  text-align: justify;
+  padding: var(--ifm-spacing-md);
 }
 
 .large_project_card_description p {
   font-family: var(--ifm-font-family-roboto);
   /*background-color: #F1F1F1;*/
   font-size: 16px;
-}
-
-.large_project_card_option {
-  background-color: #F1F1F1;
-  font-size: 16px;
-  height: 32px;
-}
-
-.large_project_card_contact_text {
-  font-family: var(--ifm-font-family-roboto);
-  font-size: var(--ifm-font-size-small);
-  font-style: normal;
-  font-weight: 600;
-  line-height: 20px;
-  /* 142.857% */
-  letter-spacing: 0.1px;
-  text-align: center;
-  padding: var(--ifm-spacing-xl) 0 var(--ifm-spacing-md) 0
 }
 
 .link_to_get_a_quote {
@@ -170,8 +148,11 @@
   background: var(--ifm-color-blue-jupyter);
 }
 
+
+
 .get_a_quote_form {
   margin-top: var(--ifm-spacing-xl);
+  justify-content: center;
 }
 
 .get_a_quote_form_label {
@@ -227,7 +208,7 @@
   padding: 10px;
   height: 56px;
   text-align: center;
-  margin: var(--ifm-spacing-xl) 0 var(--ifm-spacing-2xs) 0;
+  margin: var(--ifm-spacing-md) 0 var(--ifm-spacing-2xs) 0;
 }
 
 .small_project_card_indicative_price_text {
@@ -242,7 +223,7 @@
   text-transform: uppercase;
 }
 
-.small_project_card_financed_at_text {
+.small_project_card_funded_at_text {
   font-family: var(--ifm-font-family-roboto);
   font-size: var(--ifm-font-size-small);
   font-style: normal;
@@ -318,6 +299,7 @@
     margin-bottom: var(--ifm-spacing-lg);
     border: 1px solid #ccc;
     cursor: pointer;
+
   }
 
   .small_project_card_text_col {
@@ -328,16 +310,13 @@
     padding: var(--ifm-spacing-sm);
   }
 
-  .project_title {
-    margin-top: var(--ifm-spacing-sm);
-  }
-
   .large_project_card {
     width: 90vw;
     padding: var(--ifm-spacing-xl);
-    overflow-y: auto;
     border-radius: 8px;
     padding: var(--ifm-spacing-xl) var(--ifm-spacing-xl);
+    overflow-y: auto;
+    max-height: 95vh;
   }
 
   .small_input {
@@ -352,10 +331,15 @@
     border-radius: 4px;
   }
 
+  .send_button_containder {
+    width: 300px;
+  }
+
   .get_a_quote_dialog {
     width: 90vw;
     padding: 40px;
     overflow-y: auto;
+    max-height: 95vh;
   }
 
   .get_a_quote_text_col_desktop {
@@ -379,6 +363,7 @@
     margin-bottom: var(--ifm-spacing-xl);
     border: 1px solid #ccc;
     cursor: pointer;
+    padding: var(--ifm-spacing-md)
   }
 
   .small_project_card_text_col {
@@ -389,23 +374,20 @@
     padding: var(--ifm-spacing-md);
   }
 
-  .project_title {
-    margin-top: var(--ifm-spacing-md);
-  }
-
   .large_project_card {
     width: 80vw;
     padding: 40px;
-    overflow-y: auto;
     border-radius: 8px;
     padding: var(--ifm-spacing-xl) var(--ifm-spacing-xl);
+    overflow-y: auto;
+    max-height: 95vh;
   }
 
   .main_area_desktop {
     display: none
   }
 
-    .small_input {
+  .small_input {
     width: 400px;
     height: 56px;
     border-radius: 4px;
@@ -421,10 +403,11 @@
     display: none
   }
 
-    .get_a_quote_dialog {
+  .get_a_quote_dialog {
     width: 80vw;
     padding: 40px;
     overflow-y: auto;
+    max-height: 95vh;
   }
 
   .get_a_quote_text_col_desktop {
@@ -450,15 +433,21 @@
     cursor: pointer;
   }
 
-  .project_title {
-    margin-top: var(--ifm-spacing-lg);
+
+  .small_project_card_text_col {
+    padding: var(--ifm-spacing-lg);
+  }
+
+  .small_project_card_price_col {
+    padding: var(--ifm-spacing-lg);
   }
 
   .large_project_card {
-    width: 1000px;
+    width: 800px;
     padding: 40px;
-    overflow-y: auto;
     border-radius: 8px;
+    overflow-y: auto;
+    max-height: 95vh;
   }
 
   .main_area_mobile {
@@ -479,18 +468,22 @@
 
   .send_button_container {
     height: 59px;
-    width: 508px;
-    margin: var(--ifm-spacing-xl) 0;
+    width: 400px;
   }
 
   .get_a_quote_dialog {
     width: 90vw;
     padding: 40px;
     overflow-y: auto;
+    max-height: 95vh;
   }
 
   .get_a_quote_form_col_mobile {
     display: none;
     padding: var(--ifm-spacing-md)
+  }
+
+  .get_a_quote_form_col_desktop {
+    justify-content: center;
   }
 }
