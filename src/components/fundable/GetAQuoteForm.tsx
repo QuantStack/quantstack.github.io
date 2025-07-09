@@ -10,7 +10,7 @@ export default function GetAQuoteForm() {
       >
         <div className="form-group">
           <div>
-            <label className={styles.get_a_quote_form_label}>Project name</label>
+            <label className={styles.form_label}>Project name</label>
           </div>
           <div className={styles.input_container}>
             <input
@@ -21,7 +21,7 @@ export default function GetAQuoteForm() {
             />
           </div>
           <div>
-            <label className={styles.get_a_quote_form_label}>Your name</label>
+            <label className={styles.form_label}>Your name</label>
           </div>
           <div className={styles.input_container}>
             <input
@@ -34,7 +34,7 @@ export default function GetAQuoteForm() {
         </div>
         <div className="form-group">
           <div>
-            <label className={styles.get_a_quote_form_label}>Your company</label>
+            <label className={styles.form_label}>Your company</label>
           </div>
           <div className={styles.input_container}>
             <input className={styles.small_input} name="company" id="company" />
@@ -42,7 +42,7 @@ export default function GetAQuoteForm() {
         </div>
         <div className="form-group">
           <div>
-            <label className={styles.get_a_quote_form_label}>Your email</label>
+            <label className={styles.form_label}>Your email</label>
           </div>
           <div className={styles.input_container}>
             <input
@@ -55,7 +55,7 @@ export default function GetAQuoteForm() {
         </div>
         <div className="form-group">
           <div>
-            <label className={styles.get_a_quote_form_label}>Your phone number</label>
+            <label className={styles.form_label}>Your phone number</label>
           </div>
           <div className={styles.input_container}>
             <input
@@ -68,7 +68,7 @@ export default function GetAQuoteForm() {
         </div>
         <div className="form-group">
           <div>
-            <label className={styles.get_a_quote_form_label}>Your message to us</label>
+            <label className={styles.form_label}>Your message to us</label>
           </div>
           <div>
             <textarea

@@ -155,7 +155,7 @@
   justify-content: center;
 }
 
-.get_a_quote_form_label {
+.form_label {
   font-size: 12px;
   color: var(--ifm-text-color);
   background-color: var(--ifm-background-color);
@@ -278,6 +278,22 @@
   justify-content: center;
 }
 
+.submit_proposition_button {
+  background-color: var(--ifm-color-secondary-s1);
+  color: black;
+  width: 150px;
+  height: 32px;
+  margin: var(--ifm-spacing-md);
+  font-family: var(--ifm-font-family-roboto);
+  border-radius: 8px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  border: none;
+  justify-content: center;
+  align-items: center;
+}
+
 @media only screen and (max-width: 500px) {
 
   /*Mobile*/
@@ -331,9 +347,20 @@
     border-radius: 4px;
   }
 
-  .send_button_containder {
+    .empty_card_small_input {
+    width: 80vw;
+    height: 20px
+  }
+
+  .empty_card_large_input {
+    width: 80vw;
+    height: 100px;
+  }
+
+  .send_button_container {
     width: 300px;
   }
+
 
   .get_a_quote_dialog {
     width: 90vw;
@@ -363,7 +390,6 @@
     margin-bottom: var(--ifm-spacing-xl);
     border: 1px solid #ccc;
     cursor: pointer;
-    padding: var(--ifm-spacing-md)
   }
 
   .small_project_card_text_col {
@@ -397,6 +423,16 @@
     width: 400px;
     height: 160px;
     border-radius: 4px;
+  }
+
+    .empty_card_small_input {
+    width: 70vw;
+    height: 20px
+  }
+
+  .empty_card_large_input {
+    width: 70vw;
+    height: 200px;
   }
 
   .menu_sidebar {
@@ -464,6 +500,16 @@
     width: 400px;
     height: 160px;
     border-radius: 4px;
+  }
+
+  .empty_card_small_input {
+    width: 30vw;
+    height: 20px
+  }
+
+  .empty_card_large_input {
+    width: 30vw;
+    height: 100px;
   }
 
   .send_button_container {
