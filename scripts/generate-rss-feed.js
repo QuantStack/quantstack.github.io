@@ -8,7 +8,7 @@ if (!fs.existsSync(outputDir)) {
     fs.mkdirSync(outputDir, { recursive: true });
 }
 
-const generateFeedFromBlogDetails = (feed, blogpostsDetails, nbOfBlogPosts) => {
+const generateRSSFeedFromBlogDetails = (feed, blogpostsDetails, nbOfBlogPosts) => {
     let posts = [];
     for (let i = 0; i < nbOfBlogPosts; i++) {
         const post = blogpostsDetails[i];
@@ -40,7 +40,7 @@ const generateFeedFromBlogDetails = (feed, blogpostsDetails, nbOfBlogPosts) => {
     return feed;
 }
 
-const feedLast20 = new RSS({
+const RSSfeedLast20 = new RSS({
     title: 'Recent blog posts featured by QuantStack team',
     description: 'RSS feed for QuantStack website blog page',
     feed_url: 'https://quantstack.net/rss.xml',
@@ -48,10 +48,10 @@ const feedLast20 = new RSS({
     language: 'en',
 });
 
-const updatedFeedLast20 = generateFeedFromBlogDetails(feedLast20, blogpostsDetails, 20);
+const updatedFeedLast20 = generateRSSFeedFromBlogDetails(RSSfeedLast20, blogpostsDetails, 20);
 fs.writeFileSync(path.join(outputDir, 'rss.xml'), updatedFeedLast20.xml({ indent: true }));
 
-const feedAll = new RSS({
+const RSSfeedAll = new RSS({
     title: 'All blog posts featured by QuantStack team',
     description: 'RSS feed for QuantStack website blog page',
     feed_url: 'https://quantstack.net/rss_all.xml',
@@ -59,5 +59,5 @@ const feedAll = new RSS({
     language: 'en',
 });
 
-const updatedFeedAll = generateFeedFromBlogDetails(feedAll, blogpostsDetails, blogpostsDetails.length)
+const updatedFeedAll = generateFeedFromBlogDetails(RSSfeedAll, blogpostsDetails, blogpostsDetails.length)
 fs.writeFileSync(path.join(outputDir, 'rss_all.xml'), updatedFeedAll.xml({ indent: true }));
