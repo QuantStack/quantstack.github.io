@@ -9,8 +9,8 @@
   },
   "scripts": {
     "docusaurus": "docusaurus",
-    "prestart": "node scripts/resize-images.js && node scripts/generate-rss-feed.js",
-    "prebuild": "node scripts/resize-images.js && node scripts/generate-rss-feed.js",
+    "prestart": "node scripts/resize-images.js && node scripts/generate-rss-feed.js && node scripts/generate-atom-feed.js ",
+    "prebuild": "node scripts/resize-images.js && node scripts/generate-rss-feed.js && node scripts/generate-atom-feed.js",
     "start": "docusaurus start",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
@@ -36,6 +36,7 @@
     "canvas": "^2.11.2",
     "clsx": "^2.0.0",
     "curl": "^0.1.4",
+    "feed": "^5.1.0",
     "fs": "^0.0.1-security",
     "image-size": "^1.2.1",
     "jimp": "^0.22.12",
@@ -80,5 +81,6 @@
   },
   "engines": {
     "node": "18.x"
-  }
+  },
+  "type": "module"
 }
