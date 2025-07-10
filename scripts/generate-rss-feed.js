@@ -1,14 +1,17 @@
-const fs = require('fs');
-const RSS = require('rss');
-const { blogpostsDetails } = require('../src/components/blog/blogpostsDetails.js');
-const path = require('path');
+import fs from 'fs';
+import RSS from 'rss';
+import { blogpostsDetails } from '../src/components/blog/blogpostsDetails.js';
+import path from 'path';
+import { fileURLToPath } from 'url';
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const outputDir = path.join(__dirname, '../static');
 if (!fs.existsSync(outputDir)) {
     fs.mkdirSync(outputDir, { recursive: true });
 }
 
-const generateRSSFeedFromBlogDetails = (feed, blogpostsDetails, nbOfBlogPosts) => {
+const generateFeedFromBlogDetails = (feed, blogpostsDetails, nbOfBlogPosts) => {
     let posts = [];
     for (let i = 0; i < nbOfBlogPosts; i++) {
         const post = blogpostsDetails[i];
@@ -40,7 +43,7 @@ const generateRSSFeedFromBlogDetails = (feed, blogpostsDetails, nbOfBlogPosts) =
     return feed;
 }
 
-const RSSfeedLast20 = new RSS({
+const feedLast20 = new RSS({
     title: 'Recent blog posts featured by QuantStack team',
     description: 'RSS feed for QuantStack website blog page',
     feed_url: 'https://quantstack.net/rss.xml',
@@ -48,10 +51,10 @@ const RSSfeedLast20 = new RSS({
     language: 'en',
 });
 
-const updatedFeedLast20 = generateRSSFeedFromBlogDetails(RSSfeedLast20, blogpostsDetails, 20);
+const updatedFeedLast20 = generateFeedFromBlogDetails(feedLast20, blogpostsDetails, 20);
 fs.writeFileSync(path.join(outputDir, 'rss.xml'), updatedFeedLast20.xml({ indent: true }));
 
-const RSSfeedAll = new RSS({
+const feedAll = new RSS({
     title: 'All blog posts featured by QuantStack team',
     description: 'RSS feed for QuantStack website blog page',
     feed_url: 'https://quantstack.net/rss_all.xml',
@@ -59,5 +62,5 @@ const RSSfeedAll = new RSS({
     language: 'en',
 });
 
-const updatedFeedAll = generateFeedFromBlogDetails(RSSfeedAll, blogpostsDetails, blogpostsDetails.length)
+const updatedFeedAll = generateFeedFromBlogDetails(feedAll, blogpostsDetails, blogpostsDetails.length)
 fs.writeFileSync(path.join(outputDir, 'rss_all.xml'), updatedFeedAll.xml({ indent: true }));

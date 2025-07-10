@@ -1,4 +1,4 @@
-const blogpostsDetails = [
+export const blogpostsDetails = [
     {
         url: "https://david-brochart.medium.com/create-your-own-layers-in-jupytergis-cbb995a89b16",
         title: "Create your own layers in JupyterGIS",
@@ -1224,5 +1224,3 @@ const blogpostsDetails = [
         imageID: "blogpost-image-1"
     }
 ];
-
-export default blogpostsDetails;

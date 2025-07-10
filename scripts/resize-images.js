@@ -1,11 +1,14 @@
-const sharp = require('sharp');
-const fs = require('fs');
-const path = require('path');
-const sizeOf = require('image-size');
-const fullSizeDir = path.join(__dirname, '../static', 'img', 'blogposts', 'full-size-images');
-const reducedSizeDir = path.join(__dirname, '../static', 'img', 'blogposts', 'resized-images');
+import sharp from 'sharp';
+import fs from 'fs';
+import path from 'path';
+import sizeOf from 'image-size';
+import { fileURLToPath } from 'url';
 const containerHeight = 180;
 const containerWidth = 273;
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const fullSizeDir = path.join(__dirname, '../static', 'img', 'blogposts', 'full-size-images');
+const reducedSizeDir = path.join(__dirname, '../static', 'img', 'blogposts', 'resized-images');
 
 if (!fs.existsSync(reducedSizeDir)) {
     fs.mkdirSync(reducedSizeDir, { recursive: true });
