@@ -348,12 +348,12 @@
   }
 
     .empty_card_small_input {
-    width: 80vw;
+    width: 70vw;
     height: 20px
   }
 
   .empty_card_large_input {
-    width: 80vw;
+    width: 70vw;
     height: 100px;
   }
 
@@ -426,12 +426,12 @@
   }
 
     .empty_card_small_input {
-    width: 70vw;
+    width: 60vw;
     height: 20px
   }
 
   .empty_card_large_input {
-    width: 70vw;
+    width: 60vw;
     height: 200px;
   }
 
@@ -503,13 +503,13 @@
   }
 
   .empty_card_small_input {
-    width: 30vw;
+    width: 20vw;
     height: 20px
   }
 
   .empty_card_large_input {
     width: 30vw;
-    height: 100px;
+    height: 136.9px;
   }
 
   .send_button_container {

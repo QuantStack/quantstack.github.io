@@ -31,11 +31,9 @@ export function MainAreaFundableProjects() {
           projectCategory={fundableProjectsDetails.packageManagement}
         />
       </section>
-      <section id="propose-and-fund-a-project">
-        <h2 className={styles.project_category_header} style={{ margin: "0px" }}>Propose and fund a project</h2>
-        <p style={{ marginTop: "var(--ifm-spacing-lg)" }}>You have a project on the open-source data stack that you would like to fund. Please contact us with this form!</p>
-        <SmallProjectCardWithInputs />
-      </section>
+
+      <SmallProjectCardWithInputs />
+
     </div>
   )
 }
