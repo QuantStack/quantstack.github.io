@@ -4,7 +4,7 @@
         <description><![CDATA[RSS feed for QuantStack website blog page]]></description>
         <link>https://quantstack.net</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 29 Jul 2025 20:49:24 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 29 Jul 2025 21:14:51 GMT</lastBuildDate>
         <atom:link href="https://quantstack.net/rss_all.xml" rel="self" type="application/rss+xml"/>
         <language><![CDATA[en]]></language>
         <item>
@@ -13,7 +13,7 @@
             <link>https://david-brochart.medium.com/create-your-own-layers-in-jupytergis-cbb995a89b16</link>
             <guid isPermaLink="true">https://david-brochart.medium.com/create-your-own-layers-in-jupytergis-cbb995a89b16</guid>
             <dc:creator><![CDATA[David Brochart]]></dc:creator>
-            <pubDate>Tue, 24 Jun 2025 22:00:00 GMT</pubDate>
+            <pubDate>Wed, 25 Jun 2025 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.netimg/blogposts/resized-images/Create-layers-JupyterGIS.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -22,7 +22,7 @@
             <link>https://blog.jupyter.org/c-in-jupyter-interpreting-c-in-the-web-c9d93542f20b</link>
             <guid isPermaLink="true">https://blog.jupyter.org/c-in-jupyter-interpreting-c-in-the-web-c9d93542f20b</guid>
             <dc:creator><![CDATA[Anutosh Bhat, Vassil Vassilev]]></dc:creator>
-            <pubDate>Wed, 18 Jun 2025 22:00:00 GMT</pubDate>
+            <pubDate>Thu, 19 Jun 2025 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.netimg/blogposts/resized-images/CPP-in-JupyterLite.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -31,7 +31,7 @@
             <link>https://blog.jupyter.org/jupyterlite-0-6-0-is-released-b4bc69bfc8f4</link>
             <guid isPermaLink="true">https://blog.jupyter.org/jupyterlite-0-6-0-is-released-b4bc69bfc8f4</guid>
             <dc:creator><![CDATA[Jeremy Tuloup]]></dc:creator>
-            <pubDate>Wed, 11 Jun 2025 22:00:00 GMT</pubDate>
+            <pubDate>Thu, 12 Jun 2025 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.netimg/blogposts/resized-images/JupyterLite-06.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -40,7 +40,7 @@
             <link>https://blog.jupyter.org/jupyterlab-4-4-and-notebook-7-4-are-available-aca2782d4f3d</link>
             <guid isPermaLink="true">https://blog.jupyter.org/jupyterlab-4-4-and-notebook-7-4-are-available-aca2782d4f3d</guid>
             <dc:creator><![CDATA[Jeremy Tuloup]]></dc:creator>
-            <pubDate>Tue, 20 May 2025 22:00:00 GMT</pubDate>
+            <pubDate>Wed, 21 May 2025 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.netimg/blogposts/resized-images/JupyterLab-44.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -49,7 +49,7 @@
             <link>https://blog.jupyter.org/congratulations-distinguished-contributors-2504029fc5a9</link>
             <guid isPermaLink="true">https://blog.jupyter.org/congratulations-distinguished-contributors-2504029fc5a9</guid>
             <dc:creator><![CDATA[Johan Mabille]]></dc:creator>
-            <pubDate>Wed, 14 May 2025 22:00:00 GMT</pubDate>
+            <pubDate>Thu, 15 May 2025 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Congratulations-Distinguished-Contributors-2025.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -58,7 +58,7 @@
             <link>https://david-brochart.medium.com/making-qt-collaborative-using-crdts-94c470703253</link>
             <guid isPermaLink="true">https://david-brochart.medium.com/making-qt-collaborative-using-crdts-94c470703253</guid>
             <dc:creator><![CDATA[David Brochart]]></dc:creator>
-            <pubDate>Sun, 30 Mar 2025 22:00:00 GMT</pubDate>
+            <pubDate>Mon, 31 Mar 2025 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Collaborative-Qt.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -67,7 +67,7 @@
             <link>https://blog.jupyter.org/r-in-the-browser-announcing-our-webassembly-distribution-9450e9539ed5</link>
             <guid isPermaLink="true">https://blog.jupyter.org/r-in-the-browser-announcing-our-webassembly-distribution-9450e9539ed5</guid>
             <dc:creator><![CDATA[Isabel Paredes]]></dc:creator>
-            <pubDate>Thu, 27 Feb 2025 23:00:00 GMT</pubDate>
+            <pubDate>Fri, 28 Feb 2025 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Xeus-R-Lite.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -76,7 +76,7 @@
             <link>https://blog.jupyter.org/real-time-collaboration-and-collaborative-editing-for-gis-workflows-with-jupyter-and-qgis-d25dbe2832a6</link>
             <guid isPermaLink="true">https://blog.jupyter.org/real-time-collaboration-and-collaborative-editing-for-gis-workflows-with-jupyter-and-qgis-d25dbe2832a6</guid>
             <dc:creator><![CDATA[Meriem Ben Ismail, Nicolas Brichet, David Brochart, Matt Fisher, Anne Fouilloux, Greg Mooney, Martin Renou, Arjun Verma]]></dc:creator>
-            <pubDate>Tue, 25 Feb 2025 23:00:00 GMT</pubDate>
+            <pubDate>Wed, 26 Feb 2025 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Collaborative-GIS.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -85,7 +85,7 @@
             <link>https://medium.com/@PyDataParis/pydata-paris-2025-50ff2bf2dc39</link>
             <guid isPermaLink="true">https://medium.com/@PyDataParis/pydata-paris-2025-50ff2bf2dc39</guid>
             <dc:creator><![CDATA[Sandrine Pataut]]></dc:creator>
-            <pubDate>Tue, 18 Feb 2025 23:00:00 GMT</pubDate>
+            <pubDate>Wed, 19 Feb 2025 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/PyData-Paris-2025-Keynotes.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -94,7 +94,7 @@
             <link>https://blog.jupyter.org/announcing-jupytercad-3-0-d8f4b7b0a719</link>
             <guid isPermaLink="true">https://blog.jupyter.org/announcing-jupytercad-3-0-d8f4b7b0a719</guid>
             <dc:creator><![CDATA[Arjun Verma, Trung Le, Martin Renou]]></dc:creator>
-            <pubDate>Sun, 16 Feb 2025 23:00:00 GMT</pubDate>
+            <pubDate>Mon, 17 Feb 2025 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Announcing-JupyterCAD-3.0.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -103,7 +103,7 @@
             <link>https://johan-mabille.medium.com/sparrow-1f23817f6696</link>
             <guid isPermaLink="true">https://johan-mabille.medium.com/sparrow-1f23817f6696</guid>
             <dc:creator><![CDATA[Johan Mabille, Alexis Placet, Thorsten Beier, Joël Lamotte]]></dc:creator>
-            <pubDate>Thu, 30 Jan 2025 23:00:00 GMT</pubDate>
+            <pubDate>Fri, 31 Jan 2025 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/sparrow.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -112,7 +112,7 @@
             <link>https://blog.jupyter.org/jupyterlite-terminal-edb3f80dc1c0</link>
             <guid isPermaLink="true">https://blog.jupyter.org/jupyterlite-terminal-edb3f80dc1c0</guid>
             <dc:creator><![CDATA[Ian Thomas]]></dc:creator>
-            <pubDate>Tue, 12 Nov 2024 23:00:00 GMT</pubDate>
+            <pubDate>Wed, 13 Nov 2024 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Jupyterlite-Terminal.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -121,7 +121,7 @@
             <link>https://blog.jupyter.org/automate-your-releases-with-the-jupyter-releaser-701e7b9841e6</link>
             <guid isPermaLink="true">https://blog.jupyter.org/automate-your-releases-with-the-jupyter-releaser-701e7b9841e6</guid>
             <dc:creator><![CDATA[Jeremy Tuloup]]></dc:creator>
-            <pubDate>Sun, 27 Oct 2024 23:00:00 GMT</pubDate>
+            <pubDate>Mon, 28 Oct 2024 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Automate-releases-jupyter-releaser.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -130,7 +130,7 @@
             <link>https://medium.com/@QuantStack/quantstack-steps-up-to-support-apache-arrow-with-new-dedicated-team-9ddc952f20e2</link>
             <guid isPermaLink="true">https://medium.com/@QuantStack/quantstack-steps-up-to-support-apache-arrow-with-new-dedicated-team-9ddc952f20e2</guid>
             <dc:creator><![CDATA[Sylvain Corlay]]></dc:creator>
-            <pubDate>Mon, 21 Oct 2024 22:00:00 GMT</pubDate>
+            <pubDate>Tue, 22 Oct 2024 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/QuantStack-Steps-Up-to-Support-Apache-Arrow-with-New-Dedicated-Team.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -139,7 +139,7 @@
             <link>https://blog.jupyter.org/interactive-mapping-with-ipyopenlayers-2b8bc93bb6c4</link>
             <guid isPermaLink="true">https://blog.jupyter.org/interactive-mapping-with-ipyopenlayers-2b8bc93bb6c4</guid>
             <dc:creator><![CDATA[Nour Cheour]]></dc:creator>
-            <pubDate>Thu, 05 Sep 2024 22:00:00 GMT</pubDate>
+            <pubDate>Fri, 06 Sep 2024 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Interactive-Mapping-with-ipyopenlayers.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -148,7 +148,7 @@
             <link>https://blog.jupyter.org/announcing-the-2023-jupyter-distinguished-contributor-award-recipients-1b2cc4ba203f</link>
             <guid isPermaLink="true">https://blog.jupyter.org/announcing-the-2023-jupyter-distinguished-contributor-award-recipients-1b2cc4ba203f</guid>
             <dc:creator><![CDATA[Johan Mabille, on behalf of the Jupyter Distinguished Contributors]]></dc:creator>
-            <pubDate>Tue, 03 Sep 2024 22:00:00 GMT</pubDate>
+            <pubDate>Wed, 04 Sep 2024 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Announcing-the-2023-Jupyter-Distinguished-Contributors.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -157,7 +157,7 @@
             <link>https://blog.jupyter.org/ipydatagrid-is-now-part-of-project-jupyter-3b3dfb877664</link>
             <guid isPermaLink="true">https://blog.jupyter.org/ipydatagrid-is-now-part-of-project-jupyter-3b3dfb877664</guid>
             <dc:creator><![CDATA[Sylvain Corlay, on behalf of the Jupyter Widgets Council]]></dc:creator>
-            <pubDate>Wed, 21 Aug 2024 22:00:00 GMT</pubDate>
+            <pubDate>Thu, 22 Aug 2024 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Ipydatagrid-is-now-part-of-ProjectJupyter.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -166,7 +166,7 @@
             <link>https://medium.com/@QuantStack/introducing-mamba-2-0-0e8d5c6d1d0c</link>
             <guid isPermaLink="true">https://medium.com/@QuantStack/introducing-mamba-2-0-0e8d5c6d1d0c</guid>
             <dc:creator><![CDATA[Antoine Prouvost, Joël Lamotte, Johan Mabille, Hind Montassif]]></dc:creator>
-            <pubDate>Mon, 15 Jul 2024 22:00:00 GMT</pubDate>
+            <pubDate>Tue, 16 Jul 2024 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Introducing-Mamba-2-0.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -175,7 +175,7 @@
             <link>https://medium.com/@QuantStack/quantstack-open-source-internship-program-049755b6d44b</link>
             <guid isPermaLink="true">https://medium.com/@QuantStack/quantstack-open-source-internship-program-049755b6d44b</guid>
             <dc:creator><![CDATA[Sylvain Corlay]]></dc:creator>
-            <pubDate>Mon, 08 Jul 2024 22:00:00 GMT</pubDate>
+            <pubDate>Tue, 09 Jul 2024 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/QuantStack-open-source-internship-program.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -184,7 +184,7 @@
             <link>https://medium.com/@QuantStack/jupytercad-2-0-4b9c4e18d22a</link>
             <guid isPermaLink="true">https://medium.com/@QuantStack/jupytercad-2-0-4b9c4e18d22a</guid>
             <dc:creator><![CDATA[Trung Le, Martin Renou]]></dc:creator>
-            <pubDate>Thu, 04 Jul 2024 22:00:00 GMT</pubDate>
+            <pubDate>Fri, 05 Jul 2024 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/JupyterCAD-2-0.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -193,7 +193,7 @@
             <link>https://blog.jupyter.org/jupytergis-d63b7adf9d0c</link>
             <guid isPermaLink="true">https://blog.jupyter.org/jupytergis-d63b7adf9d0c</guid>
             <dc:creator><![CDATA[Sylvain Corlay, Anne Fouilloux, Monika Weissschnur]]></dc:creator>
-            <pubDate>Tue, 11 Jun 2024 22:00:00 GMT</pubDate>
+            <pubDate>Wed, 12 Jun 2024 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/JupyterGIS.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -202,7 +202,7 @@
             <link>https://medium.com/@SylvainCorlay/commit-cdf57415b94b</link>
             <guid isPermaLink="true">https://medium.com/@SylvainCorlay/commit-cdf57415b94b</guid>
             <dc:creator><![CDATA[Sylvain Corlay]]></dc:creator>
-            <pubDate>Tue, 28 May 2024 22:00:00 GMT</pubDate>
+            <pubDate>Wed, 29 May 2024 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Commit.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -211,7 +211,7 @@
             <link>/blogs/Fanny</link>
             <guid isPermaLink="true">/blogs/Fanny</guid>
             <dc:creator><![CDATA[Sylvain Corlay]]></dc:creator>
-            <pubDate>Wed, 15 May 2024 22:00:00 GMT</pubDate>
+            <pubDate>Thu, 16 May 2024 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/In-memoriam-Fanny-Loustau-Chartez.jpg" length="0" type="image/png"/>
         </item>
         <item>
@@ -220,7 +220,7 @@
             <link>https://medium.com/@PyDataParis/announcing-pydata-paris-2024-700220accc72</link>
             <guid isPermaLink="true">https://medium.com/@PyDataParis/announcing-pydata-paris-2024-700220accc72</guid>
             <dc:creator><![CDATA[Sylvain Corlay]]></dc:creator>
-            <pubDate>Sun, 10 Mar 2024 23:00:00 GMT</pubDate>
+            <pubDate>Mon, 11 Mar 2024 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Announcing-PyData-Paris-2024.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -229,7 +229,7 @@
             <link>https://blog.jupyter.org/meet-xeus-r-a-future-proof-jupyter-kernel-for-r-1adc5fdd09ab</link>
             <guid isPermaLink="true">https://blog.jupyter.org/meet-xeus-r-a-future-proof-jupyter-kernel-for-r-1adc5fdd09ab</guid>
             <dc:creator><![CDATA[Romain François]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Mon, 22 Jan 2024 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Meet-Xeus-R-a-future-proof-Jupyter-kernel-for-R.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -238,7 +238,7 @@
             <link>https://medium.com/@QuantStack/quantstack-2023-in-review-94fea0a35520</link>
             <guid isPermaLink="true">https://medium.com/@QuantStack/quantstack-2023-in-review-94fea0a35520</guid>
             <dc:creator><![CDATA[Sylvain Corlay]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Wed, 03 Jan 2024 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/QuantStack-2023-in-review.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -247,7 +247,7 @@
             <link>https://blog.jupyter.org/recent-keyboard-navigation-improvements-in-jupyter-4df32f97628d</link>
             <guid isPermaLink="true">https://blog.jupyter.org/recent-keyboard-navigation-improvements-in-jupyter-4df32f97628d</guid>
             <dc:creator><![CDATA[Nicolas Brichet, Gabriel Fouasnon]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Sat, 16 Dec 2023 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Recent-keyboard-navigation-improvements-in-Jupyter.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -256,7 +256,7 @@
             <link>https://blog.jupyter.org/and-voici-e02367197ba2</link>
             <guid isPermaLink="true">https://blog.jupyter.org/and-voici-e02367197ba2</guid>
             <dc:creator><![CDATA[Trung Duc Le, Martin Renou]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Wed, 06 Dec 2023 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/And-Voici.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -265,7 +265,7 @@
             <link>https://blog.jupyter.org/plug-your-application-into-the-jupyter-world-805e48918801</link>
             <guid isPermaLink="true">https://blog.jupyter.org/plug-your-application-into-the-jupyter-world-805e48918801</guid>
             <dc:creator><![CDATA[David Brochart]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Mon, 23 Oct 2023 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Plug-your-application-into-the-Jupyter-world.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -274,7 +274,7 @@
             <link>https://blog.jupyter.org/voil%C3%A0-0-5-0-homecoming-66f2465aa86f</link>
             <guid isPermaLink="true">https://blog.jupyter.org/voil%C3%A0-0-5-0-homecoming-66f2465aa86f</guid>
             <dc:creator><![CDATA[Jeremy Tuloup, Martin Renou, Trung Duc Le]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Mon, 25 Sep 2023 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Voila-0-5-Homecoming.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -283,7 +283,7 @@
             <link>https://blog.jupyter.org/announcing-jupyter-notebook-7-8d6d66126dcf</link>
             <guid isPermaLink="true">https://blog.jupyter.org/announcing-jupyter-notebook-7-8d6d66126dcf</guid>
             <dc:creator><![CDATA[Jeremy Tuloup]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Wed, 26 Jul 2023 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Announcing-Jupyter-Notebook-7.jpg" length="0" type="image/png"/>
         </item>
         <item>
@@ -292,7 +292,7 @@
             <link>https://blog.jupyter.org/jupytercon-2023-recordings-now-live-on-youtube-17564b75a2a</link>
             <guid isPermaLink="true">https://blog.jupyter.org/jupytercon-2023-recordings-now-live-on-youtube-17564b75a2a</guid>
             <dc:creator><![CDATA[Gayle Ollington, Sylvain Corlay]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Sat, 22 Jul 2023 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/JupyterCon-2023-recordings-now-live-on-YouTube.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -301,7 +301,7 @@
             <link>https://blog.jupyter.org/a-theme-editor-for-jupyterlab-8f08ab62894d</link>
             <guid isPermaLink="true">https://blog.jupyter.org/a-theme-editor-for-jupyterlab-8f08ab62894d</guid>
             <dc:creator><![CDATA[Florence Haudin]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Mon, 19 Jun 2023 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/A-theme-editor-for-JupyterLab.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -310,7 +310,7 @@
             <link>https://blog.jupyter.org/collaborative-cad-in-jupyterlab-8eb9e8f81f0</link>
             <guid isPermaLink="true">https://blog.jupyter.org/collaborative-cad-in-jupyterlab-8eb9e8f81f0</guid>
             <dc:creator><![CDATA[Duc Trung Le, Martin Renou]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Fri, 02 Jun 2023 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Collaborative-CAD-in-JupyterLab.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -319,7 +319,7 @@
             <link>https://blog.jupyter.org/congratulations-distinguished-contributors-7a7b215b8bd0</link>
             <guid isPermaLink="true">https://blog.jupyter.org/congratulations-distinguished-contributors-7a7b215b8bd0</guid>
             <dc:creator><![CDATA[Johan Mabille]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Fri, 02 Jun 2023 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Congratulations-Distinguished-Contributors.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -328,7 +328,7 @@
             <link>https://blog.jupyter.org/embed-interactive-itkwidgets-3d-renderings-into-jupyterlite-deployments-10eb9ea30980</link>
             <guid isPermaLink="true">https://blog.jupyter.org/embed-interactive-itkwidgets-3d-renderings-into-jupyterlite-deployments-10eb9ea30980</guid>
             <dc:creator><![CDATA[Matt McCormick, Brianna Major, Jeremy Tuloup, Wei Ouyang, Stephen Aylward]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Wed, 15 Mar 2023 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Embed-interactive-itkwidgets-3D-renderings-into-JupyterLite-deployments.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -337,7 +337,7 @@
             <link>https://blog.jupyter.org/improving-the-accessibility-of-jupyter-6c695db518d3</link>
             <guid isPermaLink="true">https://blog.jupyter.org/improving-the-accessibility-of-jupyter-6c695db518d3</guid>
             <dc:creator><![CDATA[Nicolas Brichet, Johan Mabille, Jeremy Tuloup, Frédéric Collonval, Sylvain Corlay]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Fri, 24 Feb 2023 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Improving-the-accessibility-of-Jupyter.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -346,7 +346,7 @@
             <link>https://blog.jupyter.org/a-jupyter-kernel-for-gnu-octave-b6d29e56341f</link>
             <guid isPermaLink="true">https://blog.jupyter.org/a-jupyter-kernel-for-gnu-octave-b6d29e56341f</guid>
             <dc:creator><![CDATA[Giulio Girardi, Antoine Prouvost]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Wed, 11 Jan 2023 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/A-Jupyter-kernel-for-GNU-Octave.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -355,7 +355,7 @@
             <link>https://medium.com/@QuantStack/quantstack-2022-in-review-7d4704b1db42</link>
             <guid isPermaLink="true">https://medium.com/@QuantStack/quantstack-2022-in-review-7d4704b1db42</guid>
             <dc:creator><![CDATA[Sylvain Corlay]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Mon, 26 Dec 2022 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/QuantStack-2022-in-review.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -364,7 +364,7 @@
             <link>https://medium.com/@AntoineProuvost/managing-conflicts-with-mamba-6a5fa10ed6a</link>
             <guid isPermaLink="true">https://medium.com/@AntoineProuvost/managing-conflicts-with-mamba-6a5fa10ed6a</guid>
             <dc:creator><![CDATA[Antoine Prouvost]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Tue, 29 Nov 2022 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Managing-conflicts-with-Mamba.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -373,7 +373,7 @@
             <link>https://blog.jupyter.org/jupytercon-is-back-in-2023-90e5c25eeec9</link>
             <guid isPermaLink="true">https://blog.jupyter.org/jupytercon-is-back-in-2023-90e5c25eeec9</guid>
             <dc:creator><![CDATA[Gayle Ollington]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Mon, 17 Oct 2022 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/JupyterCon-is-back-in-2023.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -382,7 +382,7 @@
             <link>https://blog.jupyter.org/accelerating-jupyterlab-68942bb8d602</link>
             <guid isPermaLink="true">https://blog.jupyter.org/accelerating-jupyterlab-68942bb8d602</guid>
             <dc:creator><![CDATA[Frédéric Collonval, Johan Mabille, David Brochart, Afshin Darian]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Thu, 15 Sep 2022 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Accelerating-JupyterLab.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -391,7 +391,7 @@
             <link>https://blog.jupyter.org/upgrading-nbgrader-99c56ae56c47</link>
             <guid isPermaLink="true">https://blog.jupyter.org/upgrading-nbgrader-99c56ae56c47</guid>
             <dc:creator><![CDATA[Nicolas Brichet]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Thu, 15 Sep 2022 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Upgrading-nbgrader.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -400,7 +400,7 @@
             <link>https://blog.jupyter.org/visual-programming-in-jupyterlab-with-blockly-7731ec3e113c</link>
             <guid isPermaLink="true">https://blog.jupyter.org/visual-programming-in-jupyterlab-with-blockly-7731ec3e113c</guid>
             <dc:creator><![CDATA[Denisa Checiu, Carlos Herrero]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Fri, 29 Jul 2022 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Visual-programming-in-JupyterLab-with-Blockly.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -409,7 +409,7 @@
             <link>https://blog.jupyter.org/mamba-meets-jupyterlite-88ef49ac4dc8</link>
             <guid isPermaLink="true">https://blog.jupyter.org/mamba-meets-jupyterlite-88ef49ac4dc8</guid>
             <dc:creator><![CDATA[Thorsten Beier, Martin Renou]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Thu, 14 Jul 2022 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Mamba-meets-JupyterLite.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -418,7 +418,7 @@
             <link>https://blog.jupyter.org/inspector-jupyterlab-404cce3e1df6</link>
             <guid isPermaLink="true">https://blog.jupyter.org/inspector-jupyterlab-404cce3e1df6</guid>
             <dc:creator><![CDATA[Martin Renou]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Mon, 11 Apr 2022 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Inspector-JupyterLab.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -427,7 +427,7 @@
             <link>https://blog.pyodide.org/posts/canvas-renderer-matplotlib-in-pyodide/</link>
             <guid isPermaLink="true">https://blog.pyodide.org/posts/canvas-renderer-matplotlib-in-pyodide/</guid>
             <dc:creator><![CDATA[Madhur Tandon]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Fri, 01 Apr 2022 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/HTML5-&lt;canvas&gt;-based-renderer-for-Matplotlib-in-Pyodide.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -436,7 +436,7 @@
             <link>https://wolfv.medium.com/the-future-of-mamba-fdf6d628b3df</link>
             <guid isPermaLink="true">https://wolfv.medium.com/the-future-of-mamba-fdf6d628b3df</guid>
             <dc:creator><![CDATA[Wolf Vollprecht]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Tue, 01 Mar 2022 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/The-future-of-mamba.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -445,7 +445,7 @@
             <link>https://blog.jupyter.org/congratulations-distinguished-contributors-bc349fa60d68</link>
             <guid isPermaLink="true">https://blog.jupyter.org/congratulations-distinguished-contributors-bc349fa60d68</guid>
             <dc:creator><![CDATA[Johan Mabille]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Wed, 16 Mar 2022 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Congratulations-Distinguished-Contributors.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -454,7 +454,7 @@
             <link>https://blog.jupyter.org/jupyter-everywhere-f8151c2cc6e8</link>
             <guid isPermaLink="true">https://blog.jupyter.org/jupyter-everywhere-f8151c2cc6e8</guid>
             <dc:creator><![CDATA[Martin Renou, Jeremy Tuloup]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Tue, 15 Mar 2022 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Jupyter-Everywhere.jpg" length="0" type="image/png"/>
         </item>
         <item>
@@ -463,7 +463,7 @@
             <link>https://medium.com/@kmathewos92/ros2-support-for-zethus-e6ecfcdb1c4c</link>
             <guid isPermaLink="true">https://medium.com/@kmathewos92/ros2-support-for-zethus-e6ecfcdb1c4c</guid>
             <dc:creator><![CDATA[Kedus Mathewos]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Thu, 17 Feb 2022 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/ROS2-support-for-Zethus.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -472,7 +472,7 @@
             <link>https://medium.com/@QuantStack/quantstack-2021-in-review-fe5eac2e0f6d</link>
             <guid isPermaLink="true">https://medium.com/@QuantStack/quantstack-2021-in-review-fe5eac2e0f6d</guid>
             <dc:creator><![CDATA[Sylvain Corlay]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Sat, 18 Dec 2021 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/QuantStack-2021-in-review.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -481,7 +481,7 @@
             <link>https://blog.jupyter.org/jupyter-games-cda20dc15a21</link>
             <guid isPermaLink="true">https://blog.jupyter.org/jupyter-games-cda20dc15a21</guid>
             <dc:creator><![CDATA[Thorsten Beier]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Tue, 14 Dec 2021 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Jupyter-Games.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -490,7 +490,7 @@
             <link>https://blog.jupyter.org/need-for-speed-voil%C3%A0-edition-a9e1300ab3b2</link>
             <guid isPermaLink="true">https://blog.jupyter.org/need-for-speed-voil%C3%A0-edition-a9e1300ab3b2</guid>
             <dc:creator><![CDATA[Duc Trung Le]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Fri, 10 Dec 2021 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Need-for-speed-Voila-edition.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -499,7 +499,7 @@
             <link>https://adelsalle.medium.com/towards-a-more-secure-conda-ecosystem-5ce65a27d7d5</link>
             <guid isPermaLink="true">https://adelsalle.medium.com/towards-a-more-secure-conda-ecosystem-5ce65a27d7d5</guid>
             <dc:creator><![CDATA[Adrien Delsalle]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Tue, 16 Nov 2021 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Towards-a-more-secure-conda-ecosystem.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -508,7 +508,7 @@
             <link>https://johan-mabille.medium.com/toward-a-faster-and-thinner-xsimd-9e4eef41bc17</link>
             <guid isPermaLink="true">https://johan-mabille.medium.com/toward-a-faster-and-thinner-xsimd-9e4eef41bc17</guid>
             <dc:creator><![CDATA[Serge Guelton, Johan Mabille]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Fri, 29 Oct 2021 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Toward-a-faster-and-thinner-xsimd.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -517,7 +517,7 @@
             <link>https://blog.jupyter.org/xeus-lite-379e96bb199d</link>
             <guid isPermaLink="true">https://blog.jupyter.org/xeus-lite-379e96bb199d</guid>
             <dc:creator><![CDATA[Thorsten Beier]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Mon, 25 Oct 2021 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Xeus-Lite.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -526,7 +526,7 @@
             <link>https://wolfv.medium.com/the-mamba-project-and-the-czi-grant-ec88fb27c25</link>
             <guid isPermaLink="true">https://wolfv.medium.com/the-mamba-project-and-the-czi-grant-ec88fb27c25</guid>
             <dc:creator><![CDATA[Wolf Vollprecht]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Tue, 19 Oct 2021 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/The-mamba-project-and-the-CZI-grant.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -535,7 +535,7 @@
             <link>https://blog.jupyter.org/looking-at-notebooks-from-a-new-perspective-bfd06797f188</link>
             <guid isPermaLink="true">https://blog.jupyter.org/looking-at-notebooks-from-a-new-perspective-bfd06797f188</guid>
             <dc:creator><![CDATA[Mariana Meireles]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Tue, 05 Oct 2021 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Looking-at-notebooks-from-a-new-perspective.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -544,7 +544,7 @@
             <link>https://blog.jupyter.org/xeus-2-0-cb460d4daed4</link>
             <guid isPermaLink="true">https://blog.jupyter.org/xeus-2-0-cb460d4daed4</guid>
             <dc:creator><![CDATA[Johan Mabille, Sylvain Corlay]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Tue, 28 Sep 2021 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Xeus-2-0.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -553,7 +553,7 @@
             <link>https://blog.jupyter.org/from-jupyter-to-the-moon-2e432df402c8</link>
             <guid isPermaLink="true">https://blog.jupyter.org/from-jupyter-to-the-moon-2e432df402c8</guid>
             <dc:creator><![CDATA[Thorsten Beier]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Fri, 24 Sep 2021 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/From-Jupyter-to-the-Moon.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -562,7 +562,7 @@
             <link>https://blog.jupyter.org/jupyterlite-jupyter-%EF%B8%8F-webassembly-%EF%B8%8F-python-f6e2e41ab3fa</link>
             <guid isPermaLink="true">https://blog.jupyter.org/jupyterlite-jupyter-%EF%B8%8F-webassembly-%EF%B8%8F-python-f6e2e41ab3fa</guid>
             <dc:creator><![CDATA[Jeremy Tuloup]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Tue, 13 Jul 2021 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Jupyter-WebAssembly-Python.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -571,7 +571,7 @@
             <link>https://wolfv.medium.com/mamba-0-15-0-475d1dca0418</link>
             <guid isPermaLink="true">https://wolfv.medium.com/mamba-0-15-0-475d1dca0418</guid>
             <dc:creator><![CDATA[Wolf Vollprecht, Adrien Delsalle]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Fri, 09 Jul 2021 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Mamba-0-15-0.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -580,7 +580,7 @@
             <link>https://www.polytechnique.edu/fondation/content/le-calcul-haute-performance-au-service-de-l%E2%80%99innovation</link>
             <guid isPermaLink="true">https://www.polytechnique.edu/fondation/content/le-calcul-haute-performance-au-service-de-l%E2%80%99innovation</guid>
             <dc:creator><![CDATA[Fondation École Polytechnique]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Fri, 18 Jun 2021 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Le-calcul-haute-performance-au-service-de-l&apos;innovation-in-French.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -589,7 +589,7 @@
             <link>https://blog.jupyter.org/how-we-made-jupyter-notebooks-collaborative-with-yjs-b8dff6a9d8af</link>
             <guid isPermaLink="true">https://blog.jupyter.org/how-we-made-jupyter-notebooks-collaborative-with-yjs-b8dff6a9d8af</guid>
             <dc:creator><![CDATA[Kevin Jahns]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Sat, 12 Jun 2021 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/How-we-made-Jupyter-notebooks-collaborative-with-Yjs.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -598,7 +598,7 @@
             <link>https://blog.jupyter.org/retrolab-a-jupyterlab-distribution-with-a-retro-look-and-feel-8096b8b223d0</link>
             <guid isPermaLink="true">https://blog.jupyter.org/retrolab-a-jupyterlab-distribution-with-a-retro-look-and-feel-8096b8b223d0</guid>
             <dc:creator><![CDATA[Jeremy Tuloup]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Sun, 27 Jun 2021 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/RetroLab-A-JupyterLab-distribution-with-a-retro-look-and-feel.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -607,7 +607,7 @@
             <link>https://adelsalle.medium.com/rhumba-the-fast-r-distribution-is-available-on-windows-fa975b2aefa2</link>
             <guid isPermaLink="true">https://adelsalle.medium.com/rhumba-the-fast-r-distribution-is-available-on-windows-fa975b2aefa2</guid>
             <dc:creator><![CDATA[Adrien Delsalle]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Tue, 18 May 2021 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Rhumba-the-fast-R-distribution-is-available-on-Windows.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -616,7 +616,7 @@
             <link>https://blog.jupyter.org/enabling-the-jupyterlab-debugger-with-ipykernel-8d7248f522b0</link>
             <guid isPermaLink="true">https://blog.jupyter.org/enabling-the-jupyterlab-debugger-with-ipykernel-8d7248f522b0</guid>
             <dc:creator><![CDATA[Sylvain Corlay, Johan Mabille]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Thu, 13 May 2021 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Enabling-the-JupyterLab-Debugger-with-ipykernel.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -625,7 +625,7 @@
             <link>https://medium.com/@mari_meir/jupyter-%EF%B8%8F-%EF%B8%8F-cytoscape-e2e77be8e0f9</link>
             <guid isPermaLink="true">https://medium.com/@mari_meir/jupyter-%EF%B8%8F-%EF%B8%8F-cytoscape-e2e77be8e0f9</guid>
             <dc:creator><![CDATA[Mariana Meireles]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Tue, 11 May 2021 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Jupyter-Cytoscape.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -634,7 +634,7 @@
             <link>https://johan-mabille.medium.com/zarray-a-dynamic-expression-system-based-on-xtensor-ded69f37ff5e</link>
             <guid isPermaLink="true">https://johan-mabille.medium.com/zarray-a-dynamic-expression-system-based-on-xtensor-ded69f37ff5e</guid>
             <dc:creator><![CDATA[Johan Mabille]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Thu, 29 Apr 2021 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/zarray-a-dynamic-expression-system-based-on-xtensor.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -643,7 +643,7 @@
             <link>https://blog.jupyter.org/nbterm-jupyter-notebooks-in-the-terminal-6a2b55d08b70</link>
             <guid isPermaLink="true">https://blog.jupyter.org/nbterm-jupyter-notebooks-in-the-terminal-6a2b55d08b70</guid>
             <dc:creator><![CDATA[David Brochart]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Mon, 26 Apr 2021 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/nbterm-Jupyter-Notebooks-in-the-terminal.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -652,7 +652,7 @@
             <link>https://blog.jupyter.org/abracadabra-bringing-the-magics-to-xeus-python-9d17bcfacb4</link>
             <guid isPermaLink="true">https://blog.jupyter.org/abracadabra-bringing-the-magics-to-xeus-python-9d17bcfacb4</guid>
             <dc:creator><![CDATA[Martin Renou]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Thu, 18 Feb 2021 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Abracadabra-Bringing-the-Magics-to-Xeus-Python.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -661,7 +661,7 @@
             <link>https://medium.com/robostack/cross-platform-conda-packages-for-ros-fa1974fd1de3</link>
             <guid isPermaLink="true">https://medium.com/robostack/cross-platform-conda-packages-for-ros-fa1974fd1de3</guid>
             <dc:creator><![CDATA[Wolf Vollprecht, Tobias Fischer]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Tue, 16 Feb 2021 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Cross-platform-Conda-Packages-for-ROS.jpg" length="0" type="image/png"/>
         </item>
         <item>
@@ -670,7 +670,7 @@
             <link>https://blog.jupyter.org/genomic-data-representation-in-jupyter-c57a5bb518d6</link>
             <guid isPermaLink="true">https://blog.jupyter.org/genomic-data-representation-in-jupyter-c57a5bb518d6</guid>
             <dc:creator><![CDATA[Jean-David Harrouet]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Mon, 08 Feb 2021 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Genomic-Data-representation-in-Jupyter.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -679,7 +679,7 @@
             <link>https://blog.jupyter.org/an-sql-solution-for-jupyter-ef4a00a0d925?postPublishedType=initial</link>
             <guid isPermaLink="true">https://blog.jupyter.org/an-sql-solution-for-jupyter-ef4a00a0d925?postPublishedType=initial</guid>
             <dc:creator><![CDATA[Mariana Meireles]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Wed, 03 Feb 2021 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/An-SQL-Solution-for-Jupyter.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -688,7 +688,7 @@
             <link>https://blog.jupyter.org/a-curiously-recurring-widget-library-261a65bd56fe</link>
             <guid isPermaLink="true">https://blog.jupyter.org/a-curiously-recurring-widget-library-261a65bd56fe</guid>
             <dc:creator><![CDATA[Sylvain Corlay]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Wed, 27 Jan 2021 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/A-Curiously-Recurring-Widget-Library.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -697,7 +697,7 @@
             <link>https://blog.jupyter.org/robotic-process-automation-with-jupyterlab-713b5630e457</link>
             <guid isPermaLink="true">https://blog.jupyter.org/robotic-process-automation-with-jupyterlab-713b5630e457</guid>
             <dc:creator><![CDATA[Martin Renou, Johan Mabille]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Mon, 18 Jan 2021 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Robotic-Process-Automation-with-JupyterLab.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -706,7 +706,7 @@
             <link>https://blog.jupyter.org/dashboarding-with-jupyterlab-3-789fcb1a5857</link>
             <guid isPermaLink="true">https://blog.jupyter.org/dashboarding-with-jupyterlab-3-789fcb1a5857</guid>
             <dc:creator><![CDATA[Carlos Herrero, Jeremy Tuloup]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Fri, 08 Jan 2021 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Dashboarding-with-JupyterLab-3-0.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -715,7 +715,7 @@
             <link>https://blog.jupyter.org/jupyterlab-3-0-is-out-4f58385e25bb</link>
             <guid isPermaLink="true">https://blog.jupyter.org/jupyterlab-3-0-is-out-4f58385e25bb</guid>
             <dc:creator><![CDATA[Jeremy Tuloup]]></dc:creator>
-            <pubDate>Invalid Date</pubDate>
+            <pubDate>Tue, 05 Jan 2021 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/JupyterLab-3-0-is-Released.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -724,7 +724,7 @@
             <link>https://blog.llvm.org/posts/2020-12-21-interactive-cpp-for-data-science/</link>
             <guid isPermaLink="true">https://blog.llvm.org/posts/2020-12-21-interactive-cpp-for-data-science/</guid>
             <dc:creator><![CDATA[Vassil Vassilev, David Lange, Simeon Ehrig, Sylvain Corlay]]></dc:creator>
-            <pubDate>Tue, 22 Dec 2020 23:00:00 GMT</pubDate>
+            <pubDate>Wed, 23 Dec 2020 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Interactive-C++-for-Data-Science.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -733,7 +733,7 @@
             <link>https://david-brochart.medium.com/xtensor-%EF%B8%8F-zarr-4f5cf25c65e5</link>
             <guid isPermaLink="true">https://david-brochart.medium.com/xtensor-%EF%B8%8F-zarr-4f5cf25c65e5</guid>
             <dc:creator><![CDATA[David Brochart]]></dc:creator>
-            <pubDate>Mon, 14 Dec 2020 23:00:00 GMT</pubDate>
+            <pubDate>Tue, 15 Dec 2020 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Xtensor-Zarr.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -742,7 +742,7 @@
             <link>https://blog.jupyter.org/a-c-backend-for-vega-lite-bd2524b247c2</link>
             <guid isPermaLink="true">https://blog.jupyter.org/a-c-backend-for-vega-lite-bd2524b247c2</guid>
             <dc:creator><![CDATA[Madhur Tandon]]></dc:creator>
-            <pubDate>Tue, 01 Dec 2020 23:00:00 GMT</pubDate>
+            <pubDate>Wed, 02 Dec 2020 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/A-C++-API-for-Vega-Lite.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -751,7 +751,7 @@
             <link>https://blog.jupyter.org/ipygany-jupyter-into-the-third-dimension-29a97597fc33</link>
             <guid isPermaLink="true">https://blog.jupyter.org/ipygany-jupyter-into-the-third-dimension-29a97597fc33</guid>
             <dc:creator><![CDATA[Martin Renou]]></dc:creator>
-            <pubDate>Tue, 13 Oct 2020 22:00:00 GMT</pubDate>
+            <pubDate>Wed, 14 Oct 2020 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Ipygany-Jupyter-into-the-Third-Dimension.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -760,7 +760,7 @@
             <link>https://medium.com/@mari_meir/rhumba-a-faster-r-distribution-d619fb93043a</link>
             <guid isPermaLink="true">https://medium.com/@mari_meir/rhumba-a-faster-r-distribution-d619fb93043a</guid>
             <dc:creator><![CDATA[Mariana Meireles]]></dc:creator>
-            <pubDate>Mon, 12 Oct 2020 22:00:00 GMT</pubDate>
+            <pubDate>Tue, 13 Oct 2020 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Rhumba-a-Faster-R-Distribution.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -769,7 +769,7 @@
             <link>https://blog.jupyter.org/the-templating-system-of-nbconvert-6-47ea781eacd2</link>
             <guid isPermaLink="true">https://blog.jupyter.org/the-templating-system-of-nbconvert-6-47ea781eacd2</guid>
             <dc:creator><![CDATA[Sylvain Corlay]]></dc:creator>
-            <pubDate>Fri, 25 Sep 2020 22:00:00 GMT</pubDate>
+            <pubDate>Sat, 26 Sep 2020 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/The-Templating-System-of-Nbconvert-6.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -778,7 +778,7 @@
             <link>https://medium.com/@mari_meir/memestra-a21c0c1f362</link>
             <guid isPermaLink="true">https://medium.com/@mari_meir/memestra-a21c0c1f362</guid>
             <dc:creator><![CDATA[Mariana Meireles]]></dc:creator>
-            <pubDate>Sun, 20 Sep 2020 22:00:00 GMT</pubDate>
+            <pubDate>Mon, 21 Sep 2020 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Memestra.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -787,7 +787,7 @@
             <link>https://medium.com/@martinRenou/real-time-rendering-of-water-caustics-59cda1d74aa</link>
             <guid isPermaLink="true">https://medium.com/@martinRenou/real-time-rendering-of-water-caustics-59cda1d74aa</guid>
             <dc:creator><![CDATA[Martin Renou]]></dc:creator>
-            <pubDate>Wed, 26 Aug 2020 22:00:00 GMT</pubDate>
+            <pubDate>Thu, 27 Aug 2020 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Real-time-Rendering-of-Water-Caustics.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -796,7 +796,7 @@
             <link>https://blog.jupyter.org/jupyterlab-ros-3dc9dab7f421</link>
             <guid isPermaLink="true">https://blog.jupyter.org/jupyterlab-ros-3dc9dab7f421</guid>
             <dc:creator><![CDATA[Carlos Herrero, Wolf Vollprecht]]></dc:creator>
-            <pubDate>Mon, 10 Aug 2020 22:00:00 GMT</pubDate>
+            <pubDate>Tue, 11 Aug 2020 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/JupyterLab-the-Cloud-Robotics-Command-Station.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -805,7 +805,7 @@
             <link>https://blog.jupyter.org/slicerjupyter-a-3d-slicer-kernel-for-interactive-publications-6f2ad829f635</link>
             <guid isPermaLink="true">https://blog.jupyter.org/slicerjupyter-a-3d-slicer-kernel-for-interactive-publications-6f2ad829f635</guid>
             <dc:creator><![CDATA[Sylvain Corlay, Jean-Christophe Fillion-Robin, Mike Grauer, Andras Lasso, Matt MacCormick, Isaiah Norton, Steve Pieper, Martin Renou, Mike Sarahan]]></dc:creator>
-            <pubDate>Tue, 07 Jul 2020 22:00:00 GMT</pubDate>
+            <pubDate>Wed, 08 Jul 2020 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/SlicerJupyter-a-3-D-Slicer-Kernel-for-Interactive-Publications.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -814,7 +814,7 @@
             <link>https://medium.com/@QuantStack/open-software-packaging-for-science-61cecee7fc23</link>
             <guid isPermaLink="true">https://medium.com/@QuantStack/open-software-packaging-for-science-61cecee7fc23</guid>
             <dc:creator><![CDATA[Wolf Vollprecht, Mario Buikhuizen, Marianne Corvellec, Johan Mabille, David Brochart]]></dc:creator>
-            <pubDate>Thu, 18 Jun 2020 22:00:00 GMT</pubDate>
+            <pubDate>Sun, 19 Jul 2020 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Open-Software-Packaging-for-Science.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -823,7 +823,7 @@
             <link>https://blog.jupyter.org/a-jupyter-kernel-for-sqlite-9549c5dcf551</link>
             <guid isPermaLink="true">https://blog.jupyter.org/a-jupyter-kernel-for-sqlite-9549c5dcf551</guid>
             <dc:creator><![CDATA[Mariana Meireles]]></dc:creator>
-            <pubDate>Wed, 10 Jun 2020 22:00:00 GMT</pubDate>
+            <pubDate>Thu, 11 Jun 2020 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/A-Jupyter-Kernel-for-SQLite.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -832,7 +832,7 @@
             <link>https://blog.jupyter.org/plasma-a-learning-platform-powered-by-jupyter-1b850fcd8624</link>
             <guid isPermaLink="true">https://blog.jupyter.org/plasma-a-learning-platform-powered-by-jupyter-1b850fcd8624</guid>
             <dc:creator><![CDATA[Jeremy Tuloup]]></dc:creator>
-            <pubDate>Sun, 10 May 2020 22:00:00 GMT</pubDate>
+            <pubDate>Mon, 11 May 2020 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/PLASMA-a-Learning-Platform-Powered-by-Jupyter.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -841,7 +841,7 @@
             <link>https://blog.jupyter.org/interactive-graph-visualization-in-jupyter-with-ipycytoscape-a8828a54ab63</link>
             <guid isPermaLink="true">https://blog.jupyter.org/interactive-graph-visualization-in-jupyter-with-ipycytoscape-a8828a54ab63</guid>
             <dc:creator><![CDATA[Mariana Meireles]]></dc:creator>
-            <pubDate>Wed, 29 Apr 2020 22:00:00 GMT</pubDate>
+            <pubDate>Thu, 30 Apr 2020 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Interactive-Graph-Visualization-in-Jupyter-with-IPycytoscape.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -850,7 +850,7 @@
             <link>https://blog.jupyter.org/a-visual-debugger-for-jupyter-914e61716559</link>
             <guid isPermaLink="true">https://blog.jupyter.org/a-visual-debugger-for-jupyter-914e61716559</guid>
             <dc:creator><![CDATA[Jeremy Tuloup, Borys Palka, Johan Mabille, Martin Renou, Afshin Darian, Sylvain Corlay]]></dc:creator>
-            <pubDate>Tue, 24 Mar 2020 23:00:00 GMT</pubDate>
+            <pubDate>Wed, 25 Mar 2020 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/A-Visual-Debuger-for-Jupyter.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -859,7 +859,7 @@
             <link>https://blog.jupyter.org/report-on-the-jupyter-community-workshop-on-dashboarding-14f8ad9f3c0</link>
             <guid isPermaLink="true">https://blog.jupyter.org/report-on-the-jupyter-community-workshop-on-dashboarding-14f8ad9f3c0</guid>
             <dc:creator><![CDATA[Sylvain Corlay]]></dc:creator>
-            <pubDate>Thu, 13 Feb 2020 23:00:00 GMT</pubDate>
+            <pubDate>Fri, 14 Feb 2020 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Field-Report-on-the-Jupyter-Community-Workshop-on-Dashboarding.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -868,7 +868,7 @@
             <link>https://medium.com/@wolfv/introducing-scikit-geometry-ae1dccaad5fd</link>
             <guid isPermaLink="true">https://medium.com/@wolfv/introducing-scikit-geometry-ae1dccaad5fd</guid>
             <dc:creator><![CDATA[Wolf Vollprecht]]></dc:creator>
-            <pubDate>Thu, 23 Jan 2020 23:00:00 GMT</pubDate>
+            <pubDate>Fri, 24 Jan 2020 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Introducing-Scikit-Geometry.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -877,7 +877,7 @@
             <link>https://medium.com/@johan.mabille/how-we-wrote-xtensor-8-n-iterators-7df77e3223f7</link>
             <guid isPermaLink="true">https://medium.com/@johan.mabille/how-we-wrote-xtensor-8-n-iterators-7df77e3223f7</guid>
             <dc:creator><![CDATA[Johan Mabille]]></dc:creator>
-            <pubDate>Mon, 06 Jan 2020 23:00:00 GMT</pubDate>
+            <pubDate>Tue, 07 Jan 2020 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/How-we-Wrote-Xtensor-Episode-8-Iterators.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -886,7 +886,7 @@
             <link>https://medium.com/@wolfv/2019-in-review-d7d03fb0d17d</link>
             <guid isPermaLink="true">https://medium.com/@wolfv/2019-in-review-d7d03fb0d17d</guid>
             <dc:creator><![CDATA[Wolf Vollprecht]]></dc:creator>
-            <pubDate>Wed, 01 Jan 2020 23:00:00 GMT</pubDate>
+            <pubDate>Thu, 02 Jan 2020 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/2019-in-Review.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -895,7 +895,7 @@
             <link>https://medium.com/@wolfv/robot-development-with-jupyter-ddae16d4e688</link>
             <guid isPermaLink="true">https://medium.com/@wolfv/robot-development-with-jupyter-ddae16d4e688</guid>
             <dc:creator><![CDATA[Wolf Vollprecht]]></dc:creator>
-            <pubDate>Mon, 30 Dec 2019 23:00:00 GMT</pubDate>
+            <pubDate>Tue, 31 Dec 2019 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Robot-Development-with-Jupyter.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -904,7 +904,7 @@
             <link>https://medium.com/@johan.mabille/how-we-wrote-xtensor-7-n-broadcasting-cf37a974d029</link>
             <guid isPermaLink="true">https://medium.com/@johan.mabille/how-we-wrote-xtensor-7-n-broadcasting-cf37a974d029</guid>
             <dc:creator><![CDATA[Johan Mabille]]></dc:creator>
-            <pubDate>Sat, 23 Nov 2019 23:00:00 GMT</pubDate>
+            <pubDate>Sun, 24 Nov 2019 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/How-we-Wrote-Xtensor-Episode-7-Broadcasting.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -913,7 +913,7 @@
             <link>https://blog.jupyter.org/voila-gridstack-template-8a431c2b353e</link>
             <guid isPermaLink="true">https://blog.jupyter.org/voila-gridstack-template-8a431c2b353e</guid>
             <dc:creator><![CDATA[Bartosz Telenczuk]]></dc:creator>
-            <pubDate>Sun, 10 Nov 2019 23:00:00 GMT</pubDate>
+            <pubDate>Mon, 11 Nov 2019 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Configure-your-Dashboards-with-the-Voila-Gridstack-Template.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -922,7 +922,7 @@
             <link>https://blog.jupyter.org/a-slideshow-template-for-voil%C3%A0-apps-435f67d10b4f</link>
             <guid isPermaLink="true">https://blog.jupyter.org/a-slideshow-template-for-voil%C3%A0-apps-435f67d10b4f</guid>
             <dc:creator><![CDATA[Marianne Corvellec]]></dc:creator>
-            <pubDate>Mon, 28 Oct 2019 23:00:00 GMT</pubDate>
+            <pubDate>Tue, 29 Oct 2019 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/A-Slideshow-template-for-Voila.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -931,7 +931,7 @@
             <link>https://medium.com/@wolfv/ros-on-conda-forge-dca6827ac4b6</link>
             <guid isPermaLink="true">https://medium.com/@wolfv/ros-on-conda-forge-dca6827ac4b6</guid>
             <dc:creator><![CDATA[Wolf Vollprecht]]></dc:creator>
-            <pubDate>Sun, 27 Oct 2019 23:00:00 GMT</pubDate>
+            <pubDate>Mon, 28 Oct 2019 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/ROS-on-Conda-forge.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -940,16 +940,16 @@
             <link>https://blog.jupyter.org/ipycanvas-a-python-canvas-for-jupyter-bbb51e4777f7</link>
             <guid isPermaLink="true">https://blog.jupyter.org/ipycanvas-a-python-canvas-for-jupyter-bbb51e4777f7</guid>
             <dc:creator><![CDATA[Martin Renou]]></dc:creator>
-            <pubDate>Thu, 24 Oct 2019 22:00:00 GMT</pubDate>
+            <pubDate>Fri, 25 Oct 2019 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/IPycanvas-a-Python-Canvas-for-Jupyter.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[Field Report on the Kernel Community Workshop]]></title>
-            <description><![CDATA[From May 27th to May 29th, thirty developers from the Jupyter community met in Paris for a three-days workshop on the Jupyter kernel…]]></description>
+            <description><![CDATA[From May 27th to May 29, thirty developers from the Jupyter community met in Paris for a three-days workshop on the Jupyter kernel…]]></description>
             <link>https://blog.jupyter.org/field-report-on-the-kernel-community-workshop-a4ad73a1a718</link>
             <guid isPermaLink="true">https://blog.jupyter.org/field-report-on-the-kernel-community-workshop-a4ad73a1a718</guid>
             <dc:creator><![CDATA[Sylvain Corlay]]></dc:creator>
-            <pubDate>Sun, 06 Oct 2019 22:00:00 GMT</pubDate>
+            <pubDate>Mon, 07 Oct 2019 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Field-Report-on-the-Kernel-Community-Workshop.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -958,7 +958,7 @@
             <link>https://medium.com/@johan.mabille/how-we-wrote-xtensor-6-n-operator-overloading-984c2e5b4171</link>
             <guid isPermaLink="true">https://medium.com/@johan.mabille/how-we-wrote-xtensor-6-n-operator-overloading-984c2e5b4171</guid>
             <dc:creator><![CDATA[Johan Mabille]]></dc:creator>
-            <pubDate>Tue, 24 Sep 2019 22:00:00 GMT</pubDate>
+            <pubDate>Wed, 25 Sep 2019 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/How-we-Wrote-Xtensor-Episode-6-Operator-Overloading.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -967,7 +967,7 @@
             <link>https://blog.jupyter.org/interactive-gis-in-jupyter-with-ipyleaflet-52f9657fa7a</link>
             <guid isPermaLink="true">https://blog.jupyter.org/interactive-gis-in-jupyter-with-ipyleaflet-52f9657fa7a</guid>
             <dc:creator><![CDATA[Sylvain Corlay, Martin Renou]]></dc:creator>
-            <pubDate>Tue, 24 Sep 2019 22:00:00 GMT</pubDate>
+            <pubDate>Wed, 25 Sep 2019 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Interactive-GIS-in-Jupyter-with-IPyleaflet.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -976,7 +976,7 @@
             <link>https://medium.com/@johan.mabille/how-we-wrote-xtensor-5-n-expression-templates-d07332e73d1d</link>
             <guid isPermaLink="true">https://medium.com/@johan.mabille/how-we-wrote-xtensor-5-n-expression-templates-d07332e73d1d</guid>
             <dc:creator><![CDATA[Johan Mabille]]></dc:creator>
-            <pubDate>Wed, 04 Sep 2019 22:00:00 GMT</pubDate>
+            <pubDate>Thu, 05 Sep 2019 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/How-we-Wrote-Xtensor-Episode-5-Expression-Templates.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -985,7 +985,7 @@
             <link>https://blog.jupyter.org/building-a-calculator-jupyter-kernel-4aed5764a295</link>
             <guid isPermaLink="true">https://blog.jupyter.org/building-a-calculator-jupyter-kernel-4aed5764a295</guid>
             <dc:creator><![CDATA[Vasavan Thiru, Thibault Lacharme]]></dc:creator>
-            <pubDate>Mon, 15 Jul 2019 22:00:00 GMT</pubDate>
+            <pubDate>Tue, 16 Jul 2019 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Building-a-Calculator-Jupyter-Kernel.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -994,7 +994,7 @@
             <link>https://medium.com/@johan.mabille/how-we-wrote-xtensor-4-n-value-semantics-6baa6856d313</link>
             <guid isPermaLink="true">https://medium.com/@johan.mabille/how-we-wrote-xtensor-4-n-value-semantics-6baa6856d313</guid>
             <dc:creator><![CDATA[Johan Mabille]]></dc:creator>
-            <pubDate>Mon, 15 Jul 2019 22:00:00 GMT</pubDate>
+            <pubDate>Tue, 16 Jul 2019 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/How-we-Wrote-Xtensor-Episode-4-Value-Semantics.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1003,7 +1003,7 @@
             <link>https://blog.jupyter.org/introducing-templates-for-jupyter-widget-layouts-f72bcb35a662</link>
             <guid isPermaLink="true">https://blog.jupyter.org/introducing-templates-for-jupyter-widget-layouts-f72bcb35a662</guid>
             <dc:creator><![CDATA[Bartosz Telenczuk]]></dc:creator>
-            <pubDate>Wed, 03 Jul 2019 22:00:00 GMT</pubDate>
+            <pubDate>Thu, 04 Jul 2019 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Introducing-Templates-for-Jupyter-Widget-Layouts.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1012,7 +1012,7 @@
             <link>https://medium.com/@johan.mabille/how-we-wrote-xtensor-3-n-the-constructors-65a177260638</link>
             <guid isPermaLink="true">https://medium.com/@johan.mabille/how-we-wrote-xtensor-3-n-the-constructors-65a177260638</guid>
             <dc:creator><![CDATA[Johan Mabille]]></dc:creator>
-            <pubDate>Sun, 23 Jun 2019 22:00:00 GMT</pubDate>
+            <pubDate>Mon, 24 Jun 2019 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/How-we-Wrote-Xtensor-Episode-3-The-Constructors.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1021,7 +1021,7 @@
             <link>https://medium.com/@johan.mabille/how-we-wrote-xtensor-2-n-access-operators-57e8e3852263</link>
             <guid isPermaLink="true">https://medium.com/@johan.mabille/how-we-wrote-xtensor-2-n-access-operators-57e8e3852263</guid>
             <dc:creator><![CDATA[Johan Mabille]]></dc:creator>
-            <pubDate>Wed, 19 Jun 2019 22:00:00 GMT</pubDate>
+            <pubDate>Thu, 20 Jun 2019 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/How-we-Wrote-Xtensor-Episode-2-Access-Operators.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1030,7 +1030,7 @@
             <link>https://medium.com/@johan.mabille/how-we-wrote-xtensor-1-n-n-dimensional-containers-f79f9f4966a7</link>
             <guid isPermaLink="true">https://medium.com/@johan.mabille/how-we-wrote-xtensor-1-n-n-dimensional-containers-f79f9f4966a7</guid>
             <dc:creator><![CDATA[Johan Mabille]]></dc:creator>
-            <pubDate>Sun, 16 Jun 2019 22:00:00 GMT</pubDate>
+            <pubDate>Mon, 17 Jun 2019 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/How-we-Wrote-Xtensor-Episode-1-N-Dimensional-Containers.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1039,7 +1039,7 @@
             <link>https://blog.jupyter.org/and-voil%C3%A0-f6a2c08a4a93</link>
             <guid isPermaLink="true">https://blog.jupyter.org/and-voil%C3%A0-f6a2c08a4a93</guid>
             <dc:creator><![CDATA[Sylvain Corlay, Maarten Breddels]]></dc:creator>
-            <pubDate>Mon, 10 Jun 2019 22:00:00 GMT</pubDate>
+            <pubDate>Tue, 11 Jun 2019 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/And-Voila.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1048,7 +1048,7 @@
             <link>https://medium.com/@wolfv/mamba-development-news-29e32aaa8d6c</link>
             <guid isPermaLink="true">https://medium.com/@wolfv/mamba-development-news-29e32aaa8d6c</guid>
             <dc:creator><![CDATA[Wolf Vollprecht]]></dc:creator>
-            <pubDate>Sun, 09 Jun 2019 22:00:00 GMT</pubDate>
+            <pubDate>Mon, 10 Jun 2019 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Mamba-Development-News.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1057,7 +1057,7 @@
             <link>https://medium.com/@wolfv/building-an-open-source-continuous-benchmark-system-717839093962</link>
             <guid isPermaLink="true">https://medium.com/@wolfv/building-an-open-source-continuous-benchmark-system-717839093962</guid>
             <dc:creator><![CDATA[Wolf Vollprecht]]></dc:creator>
-            <pubDate>Tue, 28 May 2019 22:00:00 GMT</pubDate>
+            <pubDate>Wed, 29 May 2019 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Building-an-Open-Source-Continuous-Benchmark-System.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1066,7 +1066,7 @@
             <link>https://blog.jupyter.org/ros-jupyter-b7e82b5e1202</link>
             <guid isPermaLink="true">https://blog.jupyter.org/ros-jupyter-b7e82b5e1202</guid>
             <dc:creator><![CDATA[Wolf Vollprecht]]></dc:creator>
-            <pubDate>Sat, 06 Apr 2019 22:00:00 GMT</pubDate>
+            <pubDate>Sun, 07 Apr 2019 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/ROS-@-Jupyter.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1075,7 +1075,7 @@
             <link>https://medium.com/@wolfv/making-conda-fast-again-4da4debfb3b7</link>
             <guid isPermaLink="true">https://medium.com/@wolfv/making-conda-fast-again-4da4debfb3b7</guid>
             <dc:creator><![CDATA[Wolf Vollprecht]]></dc:creator>
-            <pubDate>Wed, 27 Mar 2019 23:00:00 GMT</pubDate>
+            <pubDate>Thu, 28 Mar 2019 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Making-Conda-Fast-Again.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1084,7 +1084,7 @@
             <link>https://medium.com/data-science/interactive-spreadsheets-in-jupyter-32ab6ec0f4ff</link>
             <guid isPermaLink="true">https://medium.com/data-science/interactive-spreadsheets-in-jupyter-32ab6ec0f4ff</guid>
             <dc:creator><![CDATA[Martin Renou]]></dc:creator>
-            <pubDate>Thu, 07 Mar 2019 23:00:00 GMT</pubDate>
+            <pubDate>Fri, 08 Mar 2019 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Interactive-spreadsheets-in-Jupyter.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1093,7 +1093,7 @@
             <link>https://blog.jupyter.org/a-new-python-kernel-for-jupyter-fcdf211e30a8</link>
             <guid isPermaLink="true">https://blog.jupyter.org/a-new-python-kernel-for-jupyter-fcdf211e30a8</guid>
             <dc:creator><![CDATA[Martin Renou]]></dc:creator>
-            <pubDate>Tue, 08 Jan 2019 23:00:00 GMT</pubDate>
+            <pubDate>Wed, 09 Jan 2019 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/A-New-Python-Kernel-for-Jupyter.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1102,7 +1102,7 @@
             <link>https://medium.com/@johan.mabille/xframe-towards-a-c-dataframe-26e1ccde211b</link>
             <guid isPermaLink="true">https://medium.com/@johan.mabille/xframe-towards-a-c-dataframe-26e1ccde211b</guid>
             <dc:creator><![CDATA[Johan Mabille]]></dc:creator>
-            <pubDate>Thu, 03 Jan 2019 23:00:00 GMT</pubDate>
+            <pubDate>Fri, 04 Jan 2019 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Xframe-Towards-a-C++-Dataframe.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1111,7 +1111,7 @@
             <link>https://medium.com/@johan.mabille/designing-language-bindings-with-xtensor-f32aa0f20db</link>
             <guid isPermaLink="true">https://medium.com/@johan.mabille/designing-language-bindings-with-xtensor-f32aa0f20db</guid>
             <dc:creator><![CDATA[Johan Mabille]]></dc:creator>
-            <pubDate>Thu, 29 Nov 2018 23:00:00 GMT</pubDate>
+            <pubDate>Fri, 30 Nov 2018 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Designing-Language-Bindings-with-Xtensor.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1120,7 +1120,7 @@
             <link>https://medium.com/data-science/video-streaming-in-the-jupyter-notebook-635bc5809e85</link>
             <guid isPermaLink="true">https://medium.com/data-science/video-streaming-in-the-jupyter-notebook-635bc5809e85</guid>
             <dc:creator><![CDATA[Martin Renou]]></dc:creator>
-            <pubDate>Sun, 18 Nov 2018 23:00:00 GMT</pubDate>
+            <pubDate>Mon, 19 Nov 2018 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Video-Streaming-in-the-Jupyter-Notebook.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1129,7 +1129,7 @@
             <link>https://towardsdatascience.com/the-xtensor-vision-552dd978e9ad</link>
             <guid isPermaLink="true">https://towardsdatascience.com/the-xtensor-vision-552dd978e9ad</guid>
             <dc:creator><![CDATA[Wolf Vollprecht]]></dc:creator>
-            <pubDate>Fri, 09 Nov 2018 23:00:00 GMT</pubDate>
+            <pubDate>Sat, 10 Nov 2018 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/The-Xtensor-Vision.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1138,16 +1138,16 @@
             <link>https://serge-sans-paille.github.io/pythran-stories/bye-bye-boostsimd-welcome-xsimd.html</link>
             <guid isPermaLink="true">https://serge-sans-paille.github.io/pythran-stories/bye-bye-boostsimd-welcome-xsimd.html</guid>
             <dc:creator><![CDATA[Serge Guelton]]></dc:creator>
-            <pubDate>Wed, 30 Oct 2019 23:00:00 GMT</pubDate>
+            <pubDate>Thu, 31 Oct 2019 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Bye-bye-Boost-SIMD-Welcome-XSimd.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[Xtensor, C++, and the Julia Challenge]]></title>
-            <description><![CDATA[Last month, Simon Danisch launched the Julia Language Challenge, a programming challenge from a member of the Julia community to other programming languages. with high performances. This can be…]]></description>
+            <description><![CDATA[Last mon, Simon Danisch launched the Julia Language Challenge, a programming challenge from a member of the Julia community to other programming languages. with high performances. This can be…]]></description>
             <link>https://medium.com/@QuantStack/xtensor-c-and-the-julia-challenge-643d4b119761</link>
             <guid isPermaLink="true">https://medium.com/@QuantStack/xtensor-c-and-the-julia-challenge-643d4b119761</guid>
             <dc:creator><![CDATA[Sylvain Corlay, Johan Mabille, Wolf Vollprecht]]></dc:creator>
-            <pubDate>Tue, 23 Oct 2018 22:00:00 GMT</pubDate>
+            <pubDate>Wed, 24 Oct 2018 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Xtensor-C++-and-the-Julia-Challenge.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1156,7 +1156,7 @@
             <link>https://medium.com/@wolfv/the-julia-challenge-in-c-21272d36c002</link>
             <guid isPermaLink="true">https://medium.com/@wolfv/the-julia-challenge-in-c-21272d36c002</guid>
             <dc:creator><![CDATA[Wolf Vollprecht]]></dc:creator>
-            <pubDate>Thu, 11 Oct 2018 22:00:00 GMT</pubDate>
+            <pubDate>Fri, 12 Oct 2018 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/The-Julia-Challenge-in-C++.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1165,7 +1165,7 @@
             <link>https://blog.jupyter.org/interpreted-c-for-gis-with-jupyter-ae191bc6fb8e</link>
             <guid isPermaLink="true">https://blog.jupyter.org/interpreted-c-for-gis-with-jupyter-ae191bc6fb8e</guid>
             <dc:creator><![CDATA[Martin Renou]]></dc:creator>
-            <pubDate>Mon, 23 Apr 2018 22:00:00 GMT</pubDate>
+            <pubDate>Tue, 24 Apr 2018 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Interpreter-C++-for-GIS-with-Jupyter.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1174,16 +1174,16 @@
             <link>https://blog.jupyter.org/authoring-custom-jupyter-widgets-2884a462e724</link>
             <guid isPermaLink="true">https://blog.jupyter.org/authoring-custom-jupyter-widgets-2884a462e724</guid>
             <dc:creator><![CDATA[Olivier Borderies, Olivier Coudray, Pierre Marion]]></dc:creator>
-            <pubDate>Sun, 04 Mar 2018 23:00:00 GMT</pubDate>
+            <pubDate>Mon, 05 Mar 2018 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Authoring-Custom-Jupyter-Widgets.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[Jupyter Receives the ACM Software System Award]]></title>
-            <description><![CDATA[It is our pleasure to announce that Project Jupyter has been awarded the 2017 ACM Software System Award, a significant honor for the project. We are humbled to join an illustrious list of projects…]]></description>
+            <description><![CDATA[It is our pleasure to announce that Project Jupyter has been awarded the 2017 ACM Software System Awa, a significant honor for the project. We are humbled to join an illustrious list of projects…]]></description>
             <link>https://blog.jupyter.org/jupyter-receives-the-acm-software-system-award-d433b0dfe3a2</link>
             <guid isPermaLink="true">https://blog.jupyter.org/jupyter-receives-the-acm-software-system-award-d433b0dfe3a2</guid>
             <dc:creator><![CDATA[Project Jupyter]]></dc:creator>
-            <pubDate>Thu, 01 Mar 2018 23:00:00 GMT</pubDate>
+            <pubDate>Fri, 02 Mar 2018 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Jupyter-Receives-the-ACM-Software-System-Award.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1192,7 +1192,7 @@
             <link>https://blog.jupyter.org/a-diagram-editor-for-jupyterlab-a254121ff919</link>
             <guid isPermaLink="true">https://blog.jupyter.org/a-diagram-editor-for-jupyterlab-a254121ff919</guid>
             <dc:creator><![CDATA[Wolf Vollprecht]]></dc:creator>
-            <pubDate>Sun, 25 Feb 2018 23:00:00 GMT</pubDate>
+            <pubDate>Mon, 26 Feb 2018 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/A-Diagram-Editor-for-JupyterLab.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1201,7 +1201,7 @@
             <link>https://medium.com/@wolfv/fast-reductions-in-xtensor-with-simd-212a8543960a</link>
             <guid isPermaLink="true">https://medium.com/@wolfv/fast-reductions-in-xtensor-with-simd-212a8543960a</guid>
             <dc:creator><![CDATA[Wolf Vollprecht]]></dc:creator>
-            <pubDate>Mon, 19 Feb 2018 23:00:00 GMT</pubDate>
+            <pubDate>Tue, 20 Feb 2018 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Fast-Reductions-in-Xtensor-with-Xsimd.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1210,7 +1210,7 @@
             <link>https://medium.com/@wolfv/faster-xtensor-87fcbe7f5293</link>
             <guid isPermaLink="true">https://medium.com/@wolfv/faster-xtensor-87fcbe7f5293</guid>
             <dc:creator><![CDATA[Wolf Vollprecht]]></dc:creator>
-            <pubDate>Sat, 17 Feb 2018 23:00:00 GMT</pubDate>
+            <pubDate>Sun, 18 Feb 2018 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Faster-Xtensor.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1219,7 +1219,7 @@
             <link>https://blog.jupyter.org/interactive-workflows-for-c-with-jupyter-fe9b54227d92</link>
             <guid isPermaLink="true">https://blog.jupyter.org/interactive-workflows-for-c-with-jupyter-fe9b54227d92</guid>
             <dc:creator><![CDATA[Sylvain Corlay, Loic Gouarin, Johan Mabille, Wolf Vollprecht]]></dc:creator>
-            <pubDate>Tue, 28 Nov 2017 23:00:00 GMT</pubDate>
+            <pubDate>Wed, 29 Nov 2017 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Interactive-Workflows-for-C++-with-Jupyter.png" length="0" type="image/png"/>
         </item>
         <item>
@@ -1228,7 +1228,7 @@
             <link>https://medium.com/@SylvainCorlay/scientific-computing-in-a-polyglot-world-with-xtensor-d81ff3865d6</link>
             <guid isPermaLink="true">https://medium.com/@SylvainCorlay/scientific-computing-in-a-polyglot-world-with-xtensor-d81ff3865d6</guid>
             <dc:creator><![CDATA[Sylvain Corlay]]></dc:creator>
-            <pubDate>Thu, 04 May 2017 22:00:00 GMT</pubDate>
+            <pubDate>Fri, 05 May 2017 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Scientific-Computing-in-a-Polyglot-World-with-Xtensor.png" length="0" type="image/png"/>
         </item>
     </channel>
