@@ -1,0 +1,1312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id/>
+    <title>All blog posts featured by QuantStack team</title>
+    <updated>2025-07-29T21:03:57.905Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <subtitle>Atom feed for QuantStack website blog page</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Create your own layers in JupyterGIS]]></title>
+        <id/>
+        <link/>
+        <updated>2025-06-25T00:00:00.000Z</updated>
+        <author>
+            <name>David Brochart</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[C++ in Jupyter — Interpreting C++ in the Web]]></title>
+        <id/>
+        <link/>
+        <updated>2025-06-19T00:00:00.000Z</updated>
+        <author>
+            <name>Anutosh Bhat</name>
+            <name> Vassil Vassilev</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JupyterLite 0.6.0 is released! 🎉]]></title>
+        <id/>
+        <link/>
+        <updated>2025-06-12T00:00:00.000Z</updated>
+        <author>
+            <name>Jeremy Tuloup</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JupyterLab 4.4 and Notebook 7.4 are available!]]></title>
+        <id/>
+        <link/>
+        <updated>2025-05-21T00:00:00.000Z</updated>
+        <author>
+            <name>Jeremy Tuloup</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Congratulations, Distinguished Contributors!]]></title>
+        <id/>
+        <link/>
+        <updated>2025-05-15T00:00:00.000Z</updated>
+        <author>
+            <name>Johan Mabille</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Making Qt collaborative using CRDTs]]></title>
+        <id/>
+        <link/>
+        <updated>2025-03-31T00:00:00.000Z</updated>
+        <author>
+            <name>David Brochart</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[R in the Browser: Announcing Our WebAssembly Distribution]]></title>
+        <id/>
+        <link/>
+        <updated>2025-02-28T00:00:00.000Z</updated>
+        <author>
+            <name>Isabel Paredes</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Real-time collaboration and collaborative editing for GIS workflows with Jupyter and QGIS]]></title>
+        <id/>
+        <link/>
+        <updated>2025-02-26T00:00:00.000Z</updated>
+        <author>
+            <name>Meriem Ben Ismail</name>
+            <name> Nicolas Brichet</name>
+            <name> David Brochart</name>
+            <name> Matt Fisher</name>
+            <name> Anne Fouilloux</name>
+            <name> Greg Mooney</name>
+            <name> Martin Renou</name>
+            <name> Arjun Verma</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PyData Paris 2025 Keynotes]]></title>
+        <id/>
+        <link/>
+        <updated>2025-02-19T00:00:00.000Z</updated>
+        <author>
+            <name>Sandrine Pataut</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Announcing JupyterCAD 3.0]]></title>
+        <id/>
+        <link/>
+        <updated>2025-02-17T00:00:00.000Z</updated>
+        <author>
+            <name>Arjun Verma</name>
+            <name> Trung Le</name>
+            <name> Martin Renou</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sparrow]]></title>
+        <id/>
+        <link/>
+        <updated>2025-01-31T00:00:00.000Z</updated>
+        <author>
+            <name>Johan Mabille</name>
+            <name> Alexis Placet</name>
+            <name> Thorsten Beier</name>
+            <name> Joël Lamotte</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JupyterLite Terminal]]></title>
+        <id/>
+        <link/>
+        <updated>2024-11-13T00:00:00.000Z</updated>
+        <author>
+            <name>Ian Thomas</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Automate your releases with the Jupyter Releaser 🚀]]></title>
+        <id/>
+        <link/>
+        <updated>2024-10-28T00:00:00.000Z</updated>
+        <author>
+            <name>Jeremy Tuloup</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[QuantStack Steps Up to Support Apache Arrow with New Dedicated Team]]></title>
+        <id/>
+        <link/>
+        <updated>2024-10-22T00:00:00.000Z</updated>
+        <author>
+            <name>Sylvain Corlay</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Interactive Mapping with ipyopenlayers]]></title>
+        <id/>
+        <link/>
+        <updated>2024-09-06T00:00:00.000Z</updated>
+        <author>
+            <name>Nour Cheour</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Announcing the 2023 cohort of Jupyter distinguished contributors]]></title>
+        <id/>
+        <link/>
+        <updated>2024-09-04T00:00:00.000Z</updated>
+        <author>
+            <name>Johan Mabille</name>
+            <name> on behalf of the Jupyter Distinguished Contributors</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ipydatagrid is now part of Project Jupyter]]></title>
+        <id/>
+        <link/>
+        <updated>2024-08-22T00:00:00.000Z</updated>
+        <author>
+            <name>Sylvain Corlay</name>
+            <name> on behalf of the Jupyter Widgets Council</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing Mamba 2.0]]></title>
+        <id/>
+        <link/>
+        <updated>2024-07-16T00:00:00.000Z</updated>
+        <author>
+            <name>Antoine Prouvost</name>
+            <name> Joël Lamotte</name>
+            <name> Johan Mabille</name>
+            <name> Hind Montassif</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[QuantStack open-source internship program]]></title>
+        <id/>
+        <link/>
+        <updated>2024-07-09T00:00:00.000Z</updated>
+        <author>
+            <name>Sylvain Corlay</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JupyterCAD 2.0]]></title>
+        <id/>
+        <link/>
+        <updated>2024-07-05T00:00:00.000Z</updated>
+        <author>
+            <name>Trung Le</name>
+            <name> Martin Renou</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JupyterGIS]]></title>
+        <id/>
+        <link/>
+        <updated>2024-06-12T00:00:00.000Z</updated>
+        <author>
+            <name>Sylvain Corlay</name>
+            <name> Anne Fouilloux</name>
+            <name> Monika Weissschnur</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Commit!]]></title>
+        <id/>
+        <link/>
+        <updated>2024-05-29T00:00:00.000Z</updated>
+        <author>
+            <name>Sylvain Corlay</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[In memoriam: Fanny Loustau Chartez]]></title>
+        <id/>
+        <link/>
+        <updated>2024-05-16T00:00:00.000Z</updated>
+        <author>
+            <name>Sylvain Corlay</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Announcing PyData Paris 2024]]></title>
+        <id/>
+        <link/>
+        <updated>2024-03-11T00:00:00.000Z</updated>
+        <author>
+            <name>Sylvain Corlay</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Meet Xeus-R: a future-proof Jupyter kernel for R]]></title>
+        <id/>
+        <link/>
+        <updated>2024-01-22T00:00:00.000Z</updated>
+        <author>
+            <name>Romain François</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[QuantStack: 2023 in review]]></title>
+        <id/>
+        <link/>
+        <updated>2024-01-03T00:00:00.000Z</updated>
+        <author>
+            <name>Sylvain Corlay</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Recent keyboard navigation improvements in Jupyter]]></title>
+        <id/>
+        <link/>
+        <updated>2023-12-16T00:00:00.000Z</updated>
+        <author>
+            <name>Nicolas Brichet</name>
+            <name> Gabriel Fouasnon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[And Voici!]]></title>
+        <id/>
+        <link/>
+        <updated>2023-12-06T00:00:00.000Z</updated>
+        <author>
+            <name>Trung Duc Le</name>
+            <name> Martin Renou</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Plug your application into the Jupyter world]]></title>
+        <id/>
+        <link/>
+        <updated>2023-10-23T00:00:00.000Z</updated>
+        <author>
+            <name>David Brochart</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Voilà 0.5 - Homecoming]]></title>
+        <id/>
+        <link/>
+        <updated>2023-09-25T00:00:00.000Z</updated>
+        <author>
+            <name>Jeremy Tuloup</name>
+            <name> Martin Renou</name>
+            <name> Trung Duc Le</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Announcing Jupyter Notebook 7]]></title>
+        <id/>
+        <link/>
+        <updated>2023-07-26T00:00:00.000Z</updated>
+        <author>
+            <name>Jeremy Tuloup</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🎉 JupyterCon 2023 recordings now live on YouTube! 🎉]]></title>
+        <id/>
+        <link/>
+        <updated>2023-07-22T00:00:00.000Z</updated>
+        <author>
+            <name>Gayle Ollington</name>
+            <name> Sylvain Corlay</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A theme editor for JupyterLab]]></title>
+        <id/>
+        <link/>
+        <updated>2023-06-19T00:00:00.000Z</updated>
+        <author>
+            <name>Florence Haudin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Collaborative CAD in JupyterLab]]></title>
+        <id/>
+        <link/>
+        <updated>2023-06-02T00:00:00.000Z</updated>
+        <author>
+            <name>Duc Trung Le</name>
+            <name> Martin Renou</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Congratulations, Distinguished Contributors!]]></title>
+        <id/>
+        <link/>
+        <updated>2023-06-02T00:00:00.000Z</updated>
+        <author>
+            <name>Johan Mabille</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Embed interactive itkwidgets 3D renderings into JupyterLite deployments]]></title>
+        <id/>
+        <link/>
+        <updated>2023-03-15T00:00:00.000Z</updated>
+        <author>
+            <name>Matt McCormick</name>
+            <name> Brianna Major</name>
+            <name> Jeremy Tuloup</name>
+            <name> Wei Ouyang</name>
+            <name> Stephen Aylward</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Improving the accessibility of Jupyter]]></title>
+        <id/>
+        <link/>
+        <updated>2023-02-24T00:00:00.000Z</updated>
+        <author>
+            <name>Nicolas Brichet</name>
+            <name> Johan Mabille</name>
+            <name> Jeremy Tuloup</name>
+            <name> Frédéric Collonval</name>
+            <name> Sylvain Corlay</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Jupyter kernel for GNU Octave]]></title>
+        <id/>
+        <link/>
+        <updated>2023-01-11T00:00:00.000Z</updated>
+        <author>
+            <name>Giulio Girardi</name>
+            <name> Antoine Prouvost</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[QuantStack: 2022 in review]]></title>
+        <id/>
+        <link/>
+        <updated>2022-12-26T00:00:00.000Z</updated>
+        <author>
+            <name>Sylvain Corlay</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Managing conflicts with Mamba]]></title>
+        <id/>
+        <link/>
+        <updated>2022-11-29T00:00:00.000Z</updated>
+        <author>
+            <name>Antoine Prouvost</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JupyterCon is back in 2023]]></title>
+        <id/>
+        <link/>
+        <updated>2022-10-17T00:00:00.000Z</updated>
+        <author>
+            <name>Gayle Ollington</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Accelerating JupyterLab]]></title>
+        <id/>
+        <link/>
+        <updated>2022-09-15T00:00:00.000Z</updated>
+        <author>
+            <name>Frédéric Collonval</name>
+            <name> Johan Mabille</name>
+            <name> David Brochart</name>
+            <name> Afshin Darian</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Upgrading nbgrader]]></title>
+        <id/>
+        <link/>
+        <updated>2022-09-15T00:00:00.000Z</updated>
+        <author>
+            <name>Nicolas Brichet</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Visual programming in JupyterLab with Blockly]]></title>
+        <id/>
+        <link/>
+        <updated>2022-07-29T00:00:00.000Z</updated>
+        <author>
+            <name>Denisa Checiu</name>
+            <name> Carlos Herrero</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mamba meets JupyterLite]]></title>
+        <id/>
+        <link/>
+        <updated>2022-07-14T00:00:00.000Z</updated>
+        <author>
+            <name>Thorsten Beier</name>
+            <name> Martin Renou</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Inspector JupyterLab]]></title>
+        <id/>
+        <link/>
+        <updated>2022-04-11T00:00:00.000Z</updated>
+        <author>
+            <name>Martin Renou</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[HTML5 <canvas> based renderer for Matplotlib in Pyodide]]></title>
+        <id/>
+        <link/>
+        <updated>2022-04-01T00:00:00.000Z</updated>
+        <author>
+            <name>Madhur Tandon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The future of mamba]]></title>
+        <id/>
+        <link/>
+        <updated>2022-03-01T00:00:00.000Z</updated>
+        <author>
+            <name>Wolf Vollprecht</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Congratulations, Distinguished Contributors!]]></title>
+        <id/>
+        <link/>
+        <updated>2022-03-16T00:00:00.000Z</updated>
+        <author>
+            <name>Johan Mabille</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Jupyter Everywhere]]></title>
+        <id/>
+        <link/>
+        <updated>2022-03-15T00:00:00.000Z</updated>
+        <author>
+            <name>Martin Renou</name>
+            <name> Jeremy Tuloup</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ROS2 support for Zethus]]></title>
+        <id/>
+        <link/>
+        <updated>2022-02-17T00:00:00.000Z</updated>
+        <author>
+            <name>Kedus Mathewos</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[QuantStack: 2021 in review]]></title>
+        <id/>
+        <link/>
+        <updated>2021-12-18T00:00:00.000Z</updated>
+        <author>
+            <name>Sylvain Corlay</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Jupyter Games]]></title>
+        <id/>
+        <link/>
+        <updated>2021-12-14T00:00:00.000Z</updated>
+        <author>
+            <name>Thorsten Beier</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Need for speed: Voilà edition]]></title>
+        <id/>
+        <link/>
+        <updated>2021-12-10T00:00:00.000Z</updated>
+        <author>
+            <name>Duc Trung Le</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Towards a more secure conda ecosystem]]></title>
+        <id/>
+        <link/>
+        <updated>2021-11-16T00:00:00.000Z</updated>
+        <author>
+            <name>Adrien Delsalle</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Toward a faster and thinner xsimd]]></title>
+        <id/>
+        <link/>
+        <updated>2021-10-29T00:00:00.000Z</updated>
+        <author>
+            <name>Serge Guelton</name>
+            <name> Johan Mabille</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Xeus-Lite]]></title>
+        <id/>
+        <link/>
+        <updated>2021-10-25T00:00:00.000Z</updated>
+        <author>
+            <name>Thorsten Beier</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The mamba project and the CZI grant]]></title>
+        <id/>
+        <link/>
+        <updated>2021-10-19T00:00:00.000Z</updated>
+        <author>
+            <name>Wolf Vollprecht</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Looking at notebooks from a new perspective]]></title>
+        <id/>
+        <link/>
+        <updated>2021-10-05T00:00:00.000Z</updated>
+        <author>
+            <name>Mariana Meireles</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Xeus 2.0]]></title>
+        <id/>
+        <link/>
+        <updated>2021-09-28T00:00:00.000Z</updated>
+        <author>
+            <name>Johan Mabille</name>
+            <name> Sylvain Corlay</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[From Jupyter to the Moon]]></title>
+        <id/>
+        <link/>
+        <updated>2021-09-24T00:00:00.000Z</updated>
+        <author>
+            <name>Thorsten Beier</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Jupyter ❤️ WebAssembly ❤️ Python]]></title>
+        <id/>
+        <link/>
+        <updated>2021-07-13T00:00:00.000Z</updated>
+        <author>
+            <name>Jeremy Tuloup</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mamba 0.15.0]]></title>
+        <id/>
+        <link/>
+        <updated>2021-07-09T00:00:00.000Z</updated>
+        <author>
+            <name>Wolf Vollprecht</name>
+            <name> Adrien Delsalle</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Le calcul haute performance au service de l'innovation (in French)]]></title>
+        <id/>
+        <link/>
+        <updated>2021-06-18T00:00:00.000Z</updated>
+        <author>
+            <name>Fondation École Polytechnique</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How we made Jupyter notebooks collaborative with Yjs]]></title>
+        <id/>
+        <link/>
+        <updated>2021-06-12T00:00:00.000Z</updated>
+        <author>
+            <name>Kevin Jahns</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[RetroLab - A JupyterLab distribution with a retro look and feel]]></title>
+        <id/>
+        <link/>
+        <updated>2021-06-27T00:00:00.000Z</updated>
+        <author>
+            <name>Jeremy Tuloup</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rhumba, the fast R distribution is available on Windows]]></title>
+        <id/>
+        <link/>
+        <updated>2021-05-18T00:00:00.000Z</updated>
+        <author>
+            <name>Adrien Delsalle</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Enabling the JupyterLab Debugger with ipykernel]]></title>
+        <id/>
+        <link/>
+        <updated>2021-05-13T00:00:00.000Z</updated>
+        <author>
+            <name>Sylvain Corlay</name>
+            <name> Johan Mabille</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Jupyter ❤️ Cytoscape]]></title>
+        <id/>
+        <link/>
+        <updated>2021-05-11T00:00:00.000Z</updated>
+        <author>
+            <name>Mariana Meireles</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[zarray: a dynamic expression system based on xtensor]]></title>
+        <id/>
+        <link/>
+        <updated>2021-04-29T00:00:00.000Z</updated>
+        <author>
+            <name>Johan Mabille</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[nbterm: Jupyter Notebooks in the terminal]]></title>
+        <id/>
+        <link/>
+        <updated>2021-04-26T00:00:00.000Z</updated>
+        <author>
+            <name>David Brochart</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Abracadabra! Bringing the Magics to Xeus-Python]]></title>
+        <id/>
+        <link/>
+        <updated>2021-02-18T00:00:00.000Z</updated>
+        <author>
+            <name>Martin Renou</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cross-platform Conda Packages for ROS]]></title>
+        <id/>
+        <link/>
+        <updated>2021-02-16T00:00:00.000Z</updated>
+        <author>
+            <name>Wolf Vollprecht</name>
+            <name> Tobias Fischer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Genomic Data representation in Jupyter]]></title>
+        <id/>
+        <link/>
+        <updated>2021-02-08T00:00:00.000Z</updated>
+        <author>
+            <name>Jean-David Harrouet</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[An SQL Solution for Jupyter]]></title>
+        <id/>
+        <link/>
+        <updated>2021-02-03T00:00:00.000Z</updated>
+        <author>
+            <name>Mariana Meireles</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Curiously Recurring Widget Library]]></title>
+        <id/>
+        <link/>
+        <updated>2021-01-27T00:00:00.000Z</updated>
+        <author>
+            <name>Sylvain Corlay</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Robotic Process Automation with JupyterLab]]></title>
+        <id/>
+        <link/>
+        <updated>2021-01-18T00:00:00.000Z</updated>
+        <author>
+            <name>Martin Renou</name>
+            <name> Johan Mabille</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dashboarding with JupyterLab 3.0]]></title>
+        <id/>
+        <link/>
+        <updated>2021-01-08T00:00:00.000Z</updated>
+        <author>
+            <name>Carlos Herrero</name>
+            <name> Jeremy Tuloup</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JupyterLab 3.0 is Released!]]></title>
+        <id/>
+        <link/>
+        <updated>2021-01-05T00:00:00.000Z</updated>
+        <author>
+            <name>Jeremy Tuloup</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Interactive C++ for Data Science]]></title>
+        <id/>
+        <link/>
+        <updated>2020-12-23T00:00:00.000Z</updated>
+        <author>
+            <name>Vassil Vassilev</name>
+            <name> David Lange</name>
+            <name> Simeon Ehrig</name>
+            <name> Sylvain Corlay</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Xtensor ❤️ Zarr]]></title>
+        <id/>
+        <link/>
+        <updated>2020-12-15T00:00:00.000Z</updated>
+        <author>
+            <name>David Brochart</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A C++ API for Vega-Lite]]></title>
+        <id/>
+        <link/>
+        <updated>2020-12-02T00:00:00.000Z</updated>
+        <author>
+            <name>Madhur Tandon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ipygany, Jupyter into the Third Dimension]]></title>
+        <id/>
+        <link/>
+        <updated>2020-10-14T00:00:00.000Z</updated>
+        <author>
+            <name>Martin Renou</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rhumba, a Faster R Distribution]]></title>
+        <id/>
+        <link/>
+        <updated>2020-10-13T00:00:00.000Z</updated>
+        <author>
+            <name>Mariana Meireles</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Templating System of Nbconvert 6]]></title>
+        <id/>
+        <link/>
+        <updated>2020-09-26T00:00:00.000Z</updated>
+        <author>
+            <name>Sylvain Corlay</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Memestra!]]></title>
+        <id/>
+        <link/>
+        <updated>2020-09-21T00:00:00.000Z</updated>
+        <author>
+            <name>Mariana Meireles</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Real-time Rendering of Water Caustics]]></title>
+        <id/>
+        <link/>
+        <updated>2020-08-27T00:00:00.000Z</updated>
+        <author>
+            <name>Martin Renou</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JupyterLab, the Cloud Robotics Command Station]]></title>
+        <id/>
+        <link/>
+        <updated>2020-08-11T00:00:00.000Z</updated>
+        <author>
+            <name>Carlos Herrero</name>
+            <name> Wolf Vollprecht</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SlicerJupyter, a 3-D Slicer Kernel for Interactive Publications]]></title>
+        <id/>
+        <link/>
+        <updated>2020-07-08T00:00:00.000Z</updated>
+        <author>
+            <name>Sylvain Corlay</name>
+            <name> Jean-Christophe Fillion-Robin</name>
+            <name> Mike Grauer</name>
+            <name> Andras Lasso</name>
+            <name> Matt MacCormick</name>
+            <name> Isaiah Norton</name>
+            <name> Steve Pieper</name>
+            <name> Martin Renou</name>
+            <name> Mike Sarahan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Open Software Packaging for Science]]></title>
+        <id/>
+        <link/>
+        <updated>2020-07-19T00:00:00.000Z</updated>
+        <author>
+            <name>Wolf Vollprecht</name>
+            <name> Mario Buikhuizen</name>
+            <name> Marianne Corvellec</name>
+            <name> Johan Mabille</name>
+            <name> David Brochart</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Jupyter Kernel for SQLite]]></title>
+        <id/>
+        <link/>
+        <updated>2020-06-11T00:00:00.000Z</updated>
+        <author>
+            <name>Mariana Meireles</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PLASMA, a Learning Platform Powered by Jupyter]]></title>
+        <id/>
+        <link/>
+        <updated>2020-05-11T00:00:00.000Z</updated>
+        <author>
+            <name>Jeremy Tuloup</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Interactive Graph Visualization in Jupyter with IPycytoscape]]></title>
+        <id/>
+        <link/>
+        <updated>2020-04-30T00:00:00.000Z</updated>
+        <author>
+            <name>Mariana Meireles</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Visual Debugger for Jupyter]]></title>
+        <id/>
+        <link/>
+        <updated>2020-03-25T00:00:00.000Z</updated>
+        <author>
+            <name>Jeremy Tuloup</name>
+            <name> Borys Palka</name>
+            <name> Johan Mabille</name>
+            <name> Martin Renou</name>
+            <name> Afshin Darian</name>
+            <name> Sylvain Corlay</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Field Report on the Jupyter Community Workshop on Dashboarding]]></title>
+        <id/>
+        <link/>
+        <updated>2020-02-14T00:00:00.000Z</updated>
+        <author>
+            <name>Sylvain Corlay</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing Scikit-Geometry]]></title>
+        <id/>
+        <link/>
+        <updated>2020-01-24T00:00:00.000Z</updated>
+        <author>
+            <name>Wolf Vollprecht</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How we Wrote Xtensor (Episode 8) - Iterators]]></title>
+        <id/>
+        <link/>
+        <updated>2020-01-07T00:00:00.000Z</updated>
+        <author>
+            <name>Johan Mabille</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2019 in Review]]></title>
+        <id/>
+        <link/>
+        <updated>2020-01-02T00:00:00.000Z</updated>
+        <author>
+            <name>Wolf Vollprecht</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Robot Development with Jupyter]]></title>
+        <id/>
+        <link/>
+        <updated>2019-12-31T00:00:00.000Z</updated>
+        <author>
+            <name>Wolf Vollprecht</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How we Wrote Xtensor (Episode 7) - Broadcasting]]></title>
+        <id/>
+        <link/>
+        <updated>2019-11-24T00:00:00.000Z</updated>
+        <author>
+            <name>Johan Mabille</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Configure your Dashboards with the Voilà Gridstack Template]]></title>
+        <id/>
+        <link/>
+        <updated>2019-11-11T00:00:00.000Z</updated>
+        <author>
+            <name>Bartosz Telenczuk</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Slideshow template for Voilà]]></title>
+        <id/>
+        <link/>
+        <updated>2019-10-29T00:00:00.000Z</updated>
+        <author>
+            <name>Marianne Corvellec</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ROS on Conda-forge]]></title>
+        <id/>
+        <link/>
+        <updated>2019-10-28T00:00:00.000Z</updated>
+        <author>
+            <name>Wolf Vollprecht</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[IPycanvas, a Python Canvas for Jupyter]]></title>
+        <id/>
+        <link/>
+        <updated>2019-10-25T00:00:00.000Z</updated>
+        <author>
+            <name>Martin Renou</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Field Report on the Kernel Community Workshop]]></title>
+        <id/>
+        <link/>
+        <updated>2019-10-07T00:00:00.000Z</updated>
+        <author>
+            <name>Sylvain Corlay</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How we Wrote Xtensor (Episode 6) - Operator Overloading]]></title>
+        <id/>
+        <link/>
+        <updated>2019-09-25T00:00:00.000Z</updated>
+        <author>
+            <name>Johan Mabille</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Interactive GIS in Jupyter with IPyleaflet]]></title>
+        <id/>
+        <link/>
+        <updated>2019-09-25T00:00:00.000Z</updated>
+        <author>
+            <name>Sylvain Corlay</name>
+            <name> Martin Renou</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How we Wrote Xtensor (Episode 5) - Expression Templates]]></title>
+        <id/>
+        <link/>
+        <updated>2019-09-05T00:00:00.000Z</updated>
+        <author>
+            <name>Johan Mabille</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building a Calculator Jupyter Kernel]]></title>
+        <id/>
+        <link/>
+        <updated>2019-07-16T00:00:00.000Z</updated>
+        <author>
+            <name>Vasavan Thiru</name>
+            <name> Thibault Lacharme</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How we Wrote Xtensor (Episode 4) - Value Semantics]]></title>
+        <id/>
+        <link/>
+        <updated>2019-07-16T00:00:00.000Z</updated>
+        <author>
+            <name>Johan Mabille</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing Templates for Jupyter Widget Layouts]]></title>
+        <id/>
+        <link/>
+        <updated>2019-07-04T00:00:00.000Z</updated>
+        <author>
+            <name>Bartosz Telenczuk</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How we Wrote Xtensor (Episode 3) - The Constructors]]></title>
+        <id/>
+        <link/>
+        <updated>2019-06-24T00:00:00.000Z</updated>
+        <author>
+            <name>Johan Mabille</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How we Wrote Xtensor (Episode 2) - Access Operators]]></title>
+        <id/>
+        <link/>
+        <updated>2019-06-20T00:00:00.000Z</updated>
+        <author>
+            <name>Johan Mabille</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How we Wrote Xtensor (Episode 1) - N-Dimensional Containers]]></title>
+        <id/>
+        <link/>
+        <updated>2019-06-17T00:00:00.000Z</updated>
+        <author>
+            <name>Johan Mabille</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[And Voilà!]]></title>
+        <id/>
+        <link/>
+        <updated>2019-06-11T00:00:00.000Z</updated>
+        <author>
+            <name>Sylvain Corlay</name>
+            <name> Maarten Breddels</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mamba Development News]]></title>
+        <id/>
+        <link/>
+        <updated>2019-06-10T00:00:00.000Z</updated>
+        <author>
+            <name>Wolf Vollprecht</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building an Open-Source Continuous Benchmark System]]></title>
+        <id/>
+        <link/>
+        <updated>2019-05-29T00:00:00.000Z</updated>
+        <author>
+            <name>Wolf Vollprecht</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ROS @ Jupyter]]></title>
+        <id/>
+        <link/>
+        <updated>2019-04-07T00:00:00.000Z</updated>
+        <author>
+            <name>Wolf Vollprecht</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Making Conda Fast Again]]></title>
+        <id/>
+        <link/>
+        <updated>2019-03-28T00:00:00.000Z</updated>
+        <author>
+            <name>Wolf Vollprecht</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Interactive spreadsheets in Jupyter]]></title>
+        <id/>
+        <link/>
+        <updated>2019-03-08T00:00:00.000Z</updated>
+        <author>
+            <name>Martin Renou</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A New Python Kernel for Jupyter]]></title>
+        <id/>
+        <link/>
+        <updated>2019-01-09T00:00:00.000Z</updated>
+        <author>
+            <name>Martin Renou</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Xframe: Towards a C++ Dataframe]]></title>
+        <id/>
+        <link/>
+        <updated>2019-01-04T00:00:00.000Z</updated>
+        <author>
+            <name>Johan Mabille</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Designing Language Bindings with Xtensor]]></title>
+        <id/>
+        <link/>
+        <updated>2018-11-30T00:00:00.000Z</updated>
+        <author>
+            <name>Johan Mabille</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Video Streaming in the Jupyter Notebook]]></title>
+        <id/>
+        <link/>
+        <updated>2018-11-19T00:00:00.000Z</updated>
+        <author>
+            <name>Martin Renou</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Xtensor Vision]]></title>
+        <id/>
+        <link/>
+        <updated>2018-11-10T00:00:00.000Z</updated>
+        <author>
+            <name>Wolf Vollprecht</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bye bye Boost.SIMD, Welcome XSimd]]></title>
+        <id/>
+        <link/>
+        <updated>2019-10-31T00:00:00.000Z</updated>
+        <author>
+            <name>Serge Guelton</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Xtensor, C++, and the Julia Challenge]]></title>
+        <id/>
+        <link/>
+        <updated>2018-10-24T00:00:00.000Z</updated>
+        <author>
+            <name>Sylvain Corlay</name>
+            <name> Johan Mabille</name>
+            <name> Wolf Vollprecht</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Julia Challenge in C++]]></title>
+        <id/>
+        <link/>
+        <updated>2018-10-12T00:00:00.000Z</updated>
+        <author>
+            <name>Wolf Vollprecht</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Interpreter C++ for GIS with Jupyter]]></title>
+        <id/>
+        <link/>
+        <updated>2018-04-24T00:00:00.000Z</updated>
+        <author>
+            <name>Martin Renou</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Authoring Custom Jupyter Widgets]]></title>
+        <id/>
+        <link/>
+        <updated>2018-03-05T00:00:00.000Z</updated>
+        <author>
+            <name>Olivier Borderies</name>
+            <name> Olivier Coudray</name>
+            <name> Pierre Marion</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Jupyter Receives the ACM Software System Award]]></title>
+        <id/>
+        <link/>
+        <updated>2018-03-02T00:00:00.000Z</updated>
+        <author>
+            <name>Project Jupyter</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Diagram Editor for JupyterLab]]></title>
+        <id/>
+        <link/>
+        <updated>2018-02-26T00:00:00.000Z</updated>
+        <author>
+            <name>Wolf Vollprecht</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fast Reductions in Xtensor with Xsimd]]></title>
+        <id/>
+        <link/>
+        <updated>2018-02-20T00:00:00.000Z</updated>
+        <author>
+            <name>Wolf Vollprecht</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Faster Xtensor]]></title>
+        <id/>
+        <link/>
+        <updated>2018-02-18T00:00:00.000Z</updated>
+        <author>
+            <name>Wolf Vollprecht</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Interactive Workflows for C++ with Jupyter]]></title>
+        <id/>
+        <link/>
+        <updated>2017-11-29T00:00:00.000Z</updated>
+        <author>
+            <name>Sylvain Corlay</name>
+            <name> Loic Gouarin</name>
+            <name> Johan Mabille</name>
+            <name> Wolf Vollprecht</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Scientific Computing in a Polyglot World with Xtensor]]></title>
+        <id/>
+        <link/>
+        <updated>2017-05-05T00:00:00.000Z</updated>
+        <author>
+            <name>Sylvain Corlay</name>
+        </author>
+    </entry>
+</feed>

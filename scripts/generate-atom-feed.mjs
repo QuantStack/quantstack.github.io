@@ -58,7 +58,7 @@ const updatedFeedLast20 = generateAtomFeedFromBlogDetails(AtomFeedLast20, blogpo
 const xml = updatedFeedLast20.atom1(); // Atom format
 fs.writeFileSync(path.join(outputDir, 'atom.xml'), xml);
 
-/*const AtomFeedAll = new Feed({
+const AtomFeedAll = new Feed({
     title: 'All blog posts featured by QuantStack team',
     description: 'Atom feed for QuantStack website blog page',
     feed_url: 'https://quantstack.net/atom_all.xml',
@@ -66,5 +66,6 @@ fs.writeFileSync(path.join(outputDir, 'atom.xml'), xml);
     language: 'en',
 });
 
+
 const updatedFeedAll = generateAtomFeedFromBlogDetails(AtomFeedAll, blogpostsDetails, blogpostsDetails.length)
-fs.writeFileSync(path.join(outputDir, 'atom_all.xml'), updatedFeedAll.atom1({ indent: true }));*/
+fs.writeFileSync(path.join(outputDir, 'atom_all.xml'), updatedFeedAll.atom1({ indent: true }));
