@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   version="1.1"
+   id="Capa_1"
+   viewBox="0 0 455.731 455.731"
+   xml:space="preserve"
+   sodipodi:docname="Atom_orange_with_text.svg"
+   inkscape:version="1.4.2 (2aeb623e1d, 2025-05-12)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+   id="namedview1"
+   pagecolor="#ffffff"
+   bordercolor="#000000"
+   borderopacity="0.25"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   inkscape:zoom="0.52780664"
+   inkscape:cx="240.61842"
+   inkscape:cy="246.30232"
+   inkscape:window-width="1648"
+   inkscape:window-height="961"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Capa_1" /><defs
+   id="defs3" />
+<g
+   id="g3">
+	<rect
+   x="0"
+   y="0"
+   style="fill:#F78422;"
+   width="455.731"
+   height="455.731"
+   id="rect1" />
+	<g
+   id="g2"
+   transform="translate(127.92465,-123.882)">
+		
+		
+		<g
+   id="g1"
+   transform="matrix(0.7,0,0,0.7,13.415436,119.5146)"><path
+     style="fill:#ffffff"
+     d="M 296.208,159.16 C 234.445,97.397 152.266,63.382 64.81,63.382 v 64.348 c 70.268,0 136.288,27.321 185.898,76.931 49.609,49.61 76.931,115.63 76.931,185.898 h 64.348 C 391.986,303.103 357.971,220.923 296.208,159.16 Z"
+     id="path1"
+     sodipodi:nodetypes="scccccs" /><path
+     style="fill:#ffffff"
+     d="m 64.143,172.273 v 64.348 c 84.881,0 153.938,69.056 153.938,153.939 h 64.348 c 0,-120.364 -97.922,-218.287 -218.286,-218.287 z"
+     id="path2"
+     sodipodi:nodetypes="ccccc" /><circle
+     style="fill:#ffffff"
+     cx="109.833"
+     cy="346.26001"
+     r="46.088001"
+     id="circle2" /></g>
+	</g>
+</g>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:93.3333px;font-family:System-ui;-inkscape-font-specification:'System-ui Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;stroke-width:4"
+   x="169.96643"
+   y="413.58426"
+   id="text1"><tspan
+     sodipodi:role="line"
+     id="tspan1"
+     x="169.96643"
+     y="413.58426">ATOM</tspan></text></svg>

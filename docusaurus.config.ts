@@ -169,7 +169,7 @@ const config: Config = {
           title: "Atom",
           position: "right",
           target: "_blank",
-          className: "rss-circle-icon",
+          className: "atom-circle-icon",
         },
       ],
     },

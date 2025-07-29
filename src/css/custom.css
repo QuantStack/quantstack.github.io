@@ -591,7 +591,21 @@ a.menu__link:active {
 }
 
 .rss-circle-icon:before {
-  background: url(@site/static/img/socialmedias/RSS.svg);
+  background: url(@site/static/img/socialmedias/RSS_with_text.svg);
+  content: "";
+  display: flex;
+  height: 36px;
+  width: 36px;
+  background-repeat: no-repeat;
+}
+
+
+.atom-circle-icon:hover {
+  opacity: 0.6;
+}
+
+.atom-circle-icon:before {
+  background: url(@site/static/img/socialmedias/Atom_with_text.svg);
   content: "";
   display: flex;
   height: 36px;
