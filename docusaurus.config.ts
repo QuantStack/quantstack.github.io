@@ -72,6 +72,15 @@ const config: Config = {
           href: '/rss.xml',
         },
       },
+      {
+        tagName: 'link',
+        attributes: {
+          rel: 'alternate',
+          type: 'application/atom+xml',
+          title: 'Atom Feed',
+          href: '/atom.xml',
+        },
+      },
     ],
     navbar: {
       title: "",
@@ -151,6 +160,13 @@ const config: Config = {
         {
           to: "rss.xml",
           title: "RSS",
+          position: "right",
+          target: "_blank",
+          className: "rss-circle-icon",
+        },
+        {
+          to: "atom.xml",
+          title: "Atom",
           position: "right",
           target: "_blank",
           className: "rss-circle-icon",
