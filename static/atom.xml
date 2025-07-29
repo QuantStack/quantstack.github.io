@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://quantstack.net/</id>
+    <title>Recent blog posts featured by QuantStack team</title>
+    <updated>2025-07-29T13:01:23.478Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <author>
+        <name>QuantStack Team</name>
+        <uri>https://quantstack.net</uri>
+    </author>
+    <link rel="alternate" href="https://quantstack.net/"/>
+    <link rel="self" href="https://quantstack.net/atom.xml"/>
+    <subtitle>Atom feed for QuantStack website blog page</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Create your own layers in JupyterGIS]]></title>
+        <id/>
+        <link/>
+        <updated>2025-06-24T22:00:00.000Z</updated>
+        <author>
+            <name>David Brochart</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[C++ in Jupyter — Interpreting C++ in the Web]]></title>
+        <id/>
+        <link/>
+        <updated>2025-06-18T22:00:00.000Z</updated>
+        <author>
+            <name>Anutosh Bhat</name>
+            <name> Vassil Vassilev</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JupyterLite 0.6.0 is released! 🎉]]></title>
+        <id/>
+        <link/>
+        <updated>2025-06-11T22:00:00.000Z</updated>
+        <author>
+            <name>Jeremy Tuloup</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JupyterLab 4.4 and Notebook 7.4 are available!]]></title>
+        <id/>
+        <link/>
+        <updated>2025-05-20T22:00:00.000Z</updated>
+        <author>
+            <name>Jeremy Tuloup</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Congratulations, Distinguished Contributors!]]></title>
+        <id/>
+        <link/>
+        <updated>2025-05-14T22:00:00.000Z</updated>
+        <author>
+            <name>Johan Mabille</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Making Qt collaborative using CRDTs]]></title>
+        <id/>
+        <link/>
+        <updated>2025-03-30T22:00:00.000Z</updated>
+        <author>
+            <name>David Brochart</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[R in the Browser: Announcing Our WebAssembly Distribution]]></title>
+        <id/>
+        <link/>
+        <updated>2025-02-27T23:00:00.000Z</updated>
+        <author>
+            <name>Isabel Paredes</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Real-time collaboration and collaborative editing for GIS workflows with Jupyter and QGIS]]></title>
+        <id/>
+        <link/>
+        <updated>2025-02-25T23:00:00.000Z</updated>
+        <author>
+            <name>Meriem Ben Ismail</name>
+            <name> Nicolas Brichet</name>
+            <name> David Brochart</name>
+            <name> Matt Fisher</name>
+            <name> Anne Fouilloux</name>
+            <name> Greg Mooney</name>
+            <name> Martin Renou</name>
+            <name> Arjun Verma</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PyData Paris 2025 Keynotes]]></title>
+        <id/>
+        <link/>
+        <updated>2025-02-18T23:00:00.000Z</updated>
+        <author>
+            <name>Sandrine Pataut</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Announcing JupyterCAD 3.0]]></title>
+        <id/>
+        <link/>
+        <updated>2025-02-16T23:00:00.000Z</updated>
+        <author>
+            <name>Arjun Verma</name>
+            <name> Trung Le</name>
+            <name> Martin Renou</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sparrow]]></title>
+        <id/>
+        <link/>
+        <updated>2025-01-30T23:00:00.000Z</updated>
+        <author>
+            <name>Johan Mabille</name>
+            <name> Alexis Placet</name>
+            <name> Thorsten Beier</name>
+            <name> Joël Lamotte</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JupyterLite Terminal]]></title>
+        <id/>
+        <link/>
+        <updated>2024-11-12T23:00:00.000Z</updated>
+        <author>
+            <name>Ian Thomas</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Automate your releases with the Jupyter Releaser 🚀]]></title>
+        <id/>
+        <link/>
+        <updated>2024-10-27T23:00:00.000Z</updated>
+        <author>
+            <name>Jeremy Tuloup</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[QuantStack Steps Up to Support Apache Arrow with New Dedicated Team]]></title>
+        <id/>
+        <link/>
+        <updated>2024-10-21T22:00:00.000Z</updated>
+        <author>
+            <name>Sylvain Corlay</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Interactive Mapping with ipyopenlayers]]></title>
+        <id/>
+        <link/>
+        <updated>2024-09-05T22:00:00.000Z</updated>
+        <author>
+            <name>Nour Cheour</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Announcing the 2023 cohort of Jupyter distinguished contributors]]></title>
+        <id/>
+        <link/>
+        <updated>2024-09-03T22:00:00.000Z</updated>
+        <author>
+            <name>Johan Mabille</name>
+            <name> on behalf of the Jupyter Distinguished Contributors</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ipydatagrid is now part of Project Jupyter]]></title>
+        <id/>
+        <link/>
+        <updated>2024-08-21T22:00:00.000Z</updated>
+        <author>
+            <name>Sylvain Corlay</name>
+            <name> on behalf of the Jupyter Widgets Council</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing Mamba 2.0]]></title>
+        <id/>
+        <link/>
+        <updated>2024-07-15T22:00:00.000Z</updated>
+        <author>
+            <name>Antoine Prouvost</name>
+            <name> Joël Lamotte</name>
+            <name> Johan Mabille</name>
+            <name> Hind Montassif</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[QuantStack open-source internship program]]></title>
+        <id/>
+        <link/>
+        <updated>2024-07-08T22:00:00.000Z</updated>
+        <author>
+            <name>Sylvain Corlay</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JupyterCAD 2.0]]></title>
+        <id/>
+        <link/>
+        <updated>2024-07-04T22:00:00.000Z</updated>
+        <author>
+            <name>Trung Le</name>
+            <name> Martin Renou</name>
+        </author>
+    </entry>
+</feed>

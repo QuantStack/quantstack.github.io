@@ -9,8 +9,8 @@
   },
   "scripts": {
     "docusaurus": "docusaurus",
-    "prestart": "node scripts/resize-images.js && node scripts/generate-rss-feed.js",
-    "prebuild": "node scripts/resize-images.js && node scripts/generate-rss-feed.js",
+    "prestart": "node scripts/resize-images.mjs && node scripts/generate-rss-feed.mjs && node scripts/generate-atom-feed.mjs",
+    "prebuild": "node scripts/resize-images.mjs && node scripts/generate-rss-feed.mjs && node scripts/generate-atom-feed.mjs",
     "start": "docusaurus start",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
