@@ -14,26 +14,28 @@ if (!fs.existsSync(outputDir)) {
 const generateAtomFeedFromBlogDetails = (feed, blogpostsDetails, nbOfBlogPosts) => {
     let posts = [];
     for (let i = 0; i < nbOfBlogPosts; i++) {
-        const post = blogpostsDetails[i];
+        const blogpost = blogpostsDetails[i];
         posts.push({
-            title: post.title,
-            link: post.url,
-            description: post.summary,
-            date: new Date(post.date),
-            authors: post.authors.split(','),
+            title: blogpost.title,
+            link: blogpost.url,
+            summary: blogpost.summary,
+            date: new Date(blogpost.date),
+            authors: blogpost.authors.split(','),
         })
     };
 
     posts.forEach((post) => {
         feed.addItem({
+            
             title: post.title,
-            id: post.url,
-            link: post.url,
-            description: post.summary,
+            id: post.link,
+            link: post.link,
             date: new Date(post.date),
             author: [{ name: post.authors }],
+            content: post.summary
+
         });
-        
+
     })
     return feed;
 }
@@ -55,7 +57,7 @@ const AtomFeedLast20 = new Feed({
 
 
 const updatedFeedLast20 = generateAtomFeedFromBlogDetails(AtomFeedLast20, blogpostsDetails, 20);
-const xml = updatedFeedLast20.atom1(); // Atom format
+const xml = updatedFeedLast20.atom1();
 fs.writeFileSync(path.join(outputDir, 'atom.xml'), xml);
 
 const AtomFeedAll = new Feed({
