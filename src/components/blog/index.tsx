@@ -2,7 +2,7 @@ import styles from "./styles.module.css";
 import React, { useState } from "react";
 import BlogpostCard from "./BlogpostCard";
 import { blogpostsDetails } from "./blogpostsDetails";
-import RSSOrange from "/img/icons/RSSOrange.svg";
+import AtomOrange from "/img/icons/RSSOrange.svg";
 
 export default function BlogsComponent() {
   const numberOfBlogs = blogpostsDetails.length;
@@ -33,8 +33,8 @@ export default function BlogsComponent() {
                 Featured Posts by QuantStack Contributors
               </h1>
             <div style={{padding:"0 10px"}}>
-              <a href={"/rss.xml"}>
-                <RSSOrange width={"42px"} height={"42px"} />
+              <a href={"/atom.xml"}>
+                <AtomOrange width={"42px"} height={"42px"} />
               </a>
               </div>
             </div>

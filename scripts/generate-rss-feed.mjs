@@ -1,7 +1,10 @@
-const fs = require('fs');
-const RSS = require('rss');
-const { blogpostsDetails } = require('../src/components/blog/blogpostsDetails.js');
-const path = require('path');
+import fs from 'fs';
+import RSS from 'rss';
+import { blogpostsDetails } from '../src/components/blog/blogpostsDetails.js';
+import path from 'path';
+import { fileURLToPath } from 'url';
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const outputDir = path.join(__dirname, '../static');
 if (!fs.existsSync(outputDir)) {

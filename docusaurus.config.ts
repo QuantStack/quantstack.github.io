@@ -63,13 +63,14 @@ const config: Config = {
     //image: 'img/docusaurus-social-card.jpg',
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     headTags: [
+
       {
         tagName: 'link',
         attributes: {
           rel: 'alternate',
-          type: 'application/rss+xml',
-          title: 'RSS Feed',
-          href: '/rss.xml',
+          type: 'application/atom+xml',
+          title: 'Atom Feed',
+          href: '/atom.xml',
         },
       },
     ],
@@ -147,10 +148,9 @@ const config: Config = {
           target: "_blank",
           className: "mastodon-icon",
         },
-
         {
-          to: "rss.xml",
-          title: "RSS",
+          to: "atom.xml",
+          title: "Atom",
           position: "right",
           target: "_blank",
           className: "rss-circle-icon",

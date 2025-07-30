@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://quantstack.net/</id>
+    <title>Recent blog posts featured by QuantStack team</title>
+    <updated>2025-07-30T12:52:24.744Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <author>
+        <name>QuantStack Team</name>
+        <uri>https://quantstack.net</uri>
+    </author>
+    <link rel="alternate" href="https://quantstack.net/"/>
+    <link rel="self" href="https://quantstack.net/atom.xml"/>
+    <subtitle>Atom feed for QuantStack website blog page</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Create your own layers in JupyterGIS]]></title>
+        <id>https://david-brochart.medium.com/create-your-own-layers-in-jupytergis-cbb995a89b16</id>
+        <link href="https://david-brochart.medium.com/create-your-own-layers-in-jupytergis-cbb995a89b16"/>
+        <updated>2025-06-25T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[JupyterGIS-tiler is a JupyterGIS extension that lets you use a notebook to process your (Xarray) data and make it available as raster tiles, so that it can be visualized in JupyterGIS.]]></content>
+        <author>
+            <name>David Brochart</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[C++ in Jupyter — Interpreting C++ in the Web]]></title>
+        <id>https://blog.jupyter.org/c-in-jupyter-interpreting-c-in-the-web-c9d93542f20b</id>
+        <link href="https://blog.jupyter.org/c-in-jupyter-interpreting-c-in-the-web-c9d93542f20b"/>
+        <updated>2025-06-19T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[Scientists and engineers utilize programming languages not only to build software systems but also to drive interactive exploratory workflows. They leverage developer tools to explore and reason through problems effectively.]]></content>
+        <author>
+            <name>Anutosh Bhat</name>
+            <name> Vassil Vassilev</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JupyterLite 0.6.0 is released! 🎉]]></title>
+        <id>https://blog.jupyter.org/jupyterlite-0-6-0-is-released-b4bc69bfc8f4</id>
+        <link href="https://blog.jupyter.org/jupyterlite-0-6-0-is-released-b4bc69bfc8f4"/>
+        <updated>2025-06-12T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[The new 0.6.0 release includes a number of new features, bug fixes, and enhancements. This release also brings significant improvements to the user experience and new customization options for JupyterLite deployments.]]></content>
+        <author>
+            <name>Jeremy Tuloup</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JupyterLab 4.4 and Notebook 7.4 are available!]]></title>
+        <id>https://blog.jupyter.org/jupyterlab-4-4-and-notebook-7-4-are-available-aca2782d4f3d</id>
+        <link href="https://blog.jupyter.org/jupyterlab-4-4-and-notebook-7-4-are-available-aca2782d4f3d"/>
+        <updated>2025-05-21T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[JupyterLab 4.4 has been released! This new minor release of JupyterLab includes 28 new features and enhancements, 76 bug fixes, 63 maintenance tasks and 34 documentation improvements.]]></content>
+        <author>
+            <name>Jeremy Tuloup</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Congratulations, Distinguished Contributors!]]></title>
+        <id>https://blog.jupyter.org/congratulations-distinguished-contributors-2504029fc5a9</id>
+        <link href="https://blog.jupyter.org/congratulations-distinguished-contributors-2504029fc5a9"/>
+        <updated>2025-05-15T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[We are proud to announce the recipients of the Jupyter Distinguished Contributor (JDC) award for the 2024 cohort of contributors.]]></content>
+        <author>
+            <name>Johan Mabille</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Making Qt collaborative using CRDTs]]></title>
+        <id>https://david-brochart.medium.com/making-qt-collaborative-using-crdts-94c470703253</id>
+        <link href="https://david-brochart.medium.com/making-qt-collaborative-using-crdts-94c470703253"/>
+        <updated>2025-03-31T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[A journal on creating a collaborative application with Qt]]></content>
+        <author>
+            <name>David Brochart</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[R in the Browser: Announcing Our WebAssembly Distribution]]></title>
+        <id>https://blog.jupyter.org/r-in-the-browser-announcing-our-webassembly-distribution-9450e9539ed5</id>
+        <link href="https://blog.jupyter.org/r-in-the-browser-announcing-our-webassembly-distribution-9450e9539ed5"/>
+        <updated>2025-02-28T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[R is now available in emscripten-forge, enabling the Xeus-R kernel in JupyterLite.]]></content>
+        <author>
+            <name>Isabel Paredes</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Real-time collaboration and collaborative editing for GIS workflows with Jupyter and QGIS]]></title>
+        <id>https://blog.jupyter.org/real-time-collaboration-and-collaborative-editing-for-gis-workflows-with-jupyter-and-qgis-d25dbe2832a6</id>
+        <link href="https://blog.jupyter.org/real-time-collaboration-and-collaborative-editing-for-gis-workflows-with-jupyter-and-qgis-d25dbe2832a6"/>
+        <updated>2025-02-26T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[We are excited to announce JupyterGIS, a web-based, collaborative, and extensible interface for GIS, leveraging the JupyterLab application framework and integrating seamlessly with the Jupyter notebook interface.]]></content>
+        <author>
+            <name>Meriem Ben Ismail</name>
+            <name> Nicolas Brichet</name>
+            <name> David Brochart</name>
+            <name> Matt Fisher</name>
+            <name> Anne Fouilloux</name>
+            <name> Greg Mooney</name>
+            <name> Martin Renou</name>
+            <name> Arjun Verma</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PyData Paris 2025 Keynotes]]></title>
+        <id>https://medium.com/@PyDataParis/pydata-paris-2025-50ff2bf2dc39</id>
+        <link href="https://medium.com/@PyDataParis/pydata-paris-2025-50ff2bf2dc39"/>
+        <updated>2025-02-19T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[We are thrilled to announce the keynote speakers for the upcoming PyData Paris 2025, the leading gathering of the open-source data science and AI/ML community in France.]]></content>
+        <author>
+            <name>Sandrine Pataut</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Announcing JupyterCAD 3.0]]></title>
+        <id>https://blog.jupyter.org/announcing-jupytercad-3-0-d8f4b7b0a719</id>
+        <link href="https://blog.jupyter.org/announcing-jupytercad-3-0-d8f4b7b0a719"/>
+        <updated>2025-02-17T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[We are thrilled to introduce JupyterCAD 3.0, the newest version of the collaborative CAD modeler designed for JupyterLab.]]></content>
+        <author>
+            <name>Arjun Verma</name>
+            <name> Trung Le</name>
+            <name> Martin Renou</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sparrow]]></title>
+        <id>https://johan-mabille.medium.com/sparrow-1f23817f6696</id>
+        <link href="https://johan-mabille.medium.com/sparrow-1f23817f6696"/>
+        <updated>2025-01-31T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[We are thrilled to introduce Sparrow, a new library designed to simplify the integration of Apache Arrow’s columnar format into C++ applications.]]></content>
+        <author>
+            <name>Johan Mabille</name>
+            <name> Alexis Placet</name>
+            <name> Thorsten Beier</name>
+            <name> Joël Lamotte</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JupyterLite Terminal]]></title>
+        <id>https://blog.jupyter.org/jupyterlite-terminal-edb3f80dc1c0</id>
+        <link href="https://blog.jupyter.org/jupyterlite-terminal-edb3f80dc1c0"/>
+        <updated>2024-11-13T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[QuantStack are delighted to announce that we have been working on a new Terminal for JupyterLite.]]></content>
+        <author>
+            <name>Ian Thomas</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Automate your releases with the Jupyter Releaser 🚀]]></title>
+        <id>https://blog.jupyter.org/automate-your-releases-with-the-jupyter-releaser-701e7b9841e6</id>
+        <link href="https://blog.jupyter.org/automate-your-releases-with-the-jupyter-releaser-701e7b9841e6"/>
+        <updated>2024-10-28T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[Jupyter Releaser is an automation tool developed by the Jupyter team to streamline and standardize the release process across Jupyter projects.]]></content>
+        <author>
+            <name>Jeremy Tuloup</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[QuantStack Steps Up to Support Apache Arrow with New Dedicated Team]]></title>
+        <id>https://medium.com/@QuantStack/quantstack-steps-up-to-support-apache-arrow-with-new-dedicated-team-9ddc952f20e2</id>
+        <link href="https://medium.com/@QuantStack/quantstack-steps-up-to-support-apache-arrow-with-new-dedicated-team-9ddc952f20e2"/>
+        <updated>2024-10-22T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[ We are thrilled to announce that QuantStack is starting a new team dedicated to the maintenance and development of Apache Arrow.]]></content>
+        <author>
+            <name>Sylvain Corlay</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Interactive Mapping with ipyopenlayers]]></title>
+        <id>https://blog.jupyter.org/interactive-mapping-with-ipyopenlayers-2b8bc93bb6c4</id>
+        <link href="https://blog.jupyter.org/interactive-mapping-with-ipyopenlayers-2b8bc93bb6c4"/>
+        <updated>2024-09-06T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[ In this article, we present the main features of ipyopenlayers and demonstrate how this library can transform your geospatial data into dynamic, interactive visualizations.]]></content>
+        <author>
+            <name>Nour Cheour</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Announcing the 2023 cohort of Jupyter distinguished contributors]]></title>
+        <id>https://blog.jupyter.org/announcing-the-2023-jupyter-distinguished-contributor-award-recipients-1b2cc4ba203f</id>
+        <link href="https://blog.jupyter.org/announcing-the-2023-jupyter-distinguished-contributor-award-recipients-1b2cc4ba203f"/>
+        <updated>2024-09-04T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[We are delighted to announce the recipients of the Jupyter Distinguished Contributor (JDC) award for the 2023 cohort.]]></content>
+        <author>
+            <name>Johan Mabille</name>
+            <name> on behalf of the Jupyter Distinguished Contributors</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ipydatagrid is now part of Project Jupyter]]></title>
+        <id>https://blog.jupyter.org/ipydatagrid-is-now-part-of-project-jupyter-3b3dfb877664</id>
+        <link href="https://blog.jupyter.org/ipydatagrid-is-now-part-of-project-jupyter-3b3dfb877664"/>
+        <updated>2024-08-22T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[Today, we are proud to announce that the ipydatagrid open source project has been incorporated into Project Jupyter as part of the Jupyter Widgets subproject.]]></content>
+        <author>
+            <name>Sylvain Corlay</name>
+            <name> on behalf of the Jupyter Widgets Council</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing Mamba 2.0]]></title>
+        <id>https://medium.com/@QuantStack/introducing-mamba-2-0-0e8d5c6d1d0c</id>
+        <link href="https://medium.com/@QuantStack/introducing-mamba-2-0-0e8d5c6d1d0c"/>
+        <updated>2024-07-16T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[We are excited to present the first release candidate of Mamba 2.0, a significant upgrade to the mamba package manager. This update brings considerable enhancements for both users and developers, following an extensive year-long development effort.]]></content>
+        <author>
+            <name>Antoine Prouvost</name>
+            <name> Joël Lamotte</name>
+            <name> Johan Mabille</name>
+            <name> Hind Montassif</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[QuantStack open-source internship program]]></title>
+        <id>https://medium.com/@QuantStack/quantstack-open-source-internship-program-049755b6d44b</id>
+        <link href="https://medium.com/@QuantStack/quantstack-open-source-internship-program-049755b6d44b"/>
+        <updated>2024-07-09T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[Today, we are announcing a new internship program that aims to empower a new cohort of open-source contributors and future maintainers to make an impact within our ecosystem.]]></content>
+        <author>
+            <name>Sylvain Corlay</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JupyterCAD 2.0]]></title>
+        <id>https://medium.com/@QuantStack/jupytercad-2-0-4b9c4e18d22a</id>
+        <link href="https://medium.com/@QuantStack/jupytercad-2-0-4b9c4e18d22a"/>
+        <updated>2024-07-05T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[We are thrilled to introduce JupyterCAD 2.0, the newest version of the JupyterLab-based CAD modeler.]]></content>
+        <author>
+            <name>Trung Le</name>
+            <name> Martin Renou</name>
+        </author>
+    </entry>
+</feed>
