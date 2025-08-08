@@ -21,18 +21,21 @@ const generateAtomFeedFromBlogDetails = (feed, blogpostsDetails, nbOfBlogPosts) 
             summary: blogpost.summary,
             date: new Date(blogpost.date),
             authors: blogpost.authors.split(','),
+            image: blogpost.image
         })
     };
 
     posts.forEach((post) => {
+        const imageHtml = `<img src="${post.image}" alt="Image for ${post.title}" style="max-width:100%; height:auto;" />`;
+        const summaryHtml = `<p>${post.summary}</p>`;
         feed.addItem({
-            
             title: post.title,
             id: post.link,
             link: post.link,
             date: new Date(post.date),
             author: [{ name: post.authors }],
-            content: post.summary
+            content: `${imageHtml}${summaryHtml}`
+
 
         });
 
