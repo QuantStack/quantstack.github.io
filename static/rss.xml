@@ -187,5 +187,53 @@
             <pubDate>Fri, 06 Sep 2024 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Interactive-Mapping-with-ipyopenlayers.png" length="0" type="image/png"/>
         </item>
+<<<<<<< HEAD
+=======
+        <item>
+            <title><![CDATA[Announcing the 2023 cohort of Jupyter distinguished contributors]]></title>
+            <description><![CDATA[We are delighted to announce the recipients of the Jupyter Distinguished Contributor (JDC) award for the 2023 cohort.]]></description>
+            <link>https://blog.jupyter.org/announcing-the-2023-jupyter-distinguished-contributor-award-recipients-1b2cc4ba203f</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/announcing-the-2023-jupyter-distinguished-contributor-award-recipients-1b2cc4ba203f</guid>
+            <dc:creator><![CDATA[Johan Mabille, on behalf of the Jupyter Distinguished Contributors]]></dc:creator>
+            <pubDate>Wed, 04 Sep 2024 00:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Announcing-the-2023-Jupyter-Distinguished-Contributors.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Ipydatagrid is now part of Project Jupyter]]></title>
+            <description><![CDATA[Today, we are proud to announce that the ipydatagrid open source project has been incorporated into Project Jupyter as part of the Jupyter Widgets subproject.]]></description>
+            <link>https://blog.jupyter.org/ipydatagrid-is-now-part-of-project-jupyter-3b3dfb877664</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/ipydatagrid-is-now-part-of-project-jupyter-3b3dfb877664</guid>
+            <dc:creator><![CDATA[Sylvain Corlay, on behalf of the Jupyter Widgets Council]]></dc:creator>
+            <pubDate>Thu, 22 Aug 2024 00:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Ipydatagrid-is-now-part-of-ProjectJupyter.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Introducing Mamba 2.0]]></title>
+            <description><![CDATA[We are excited to present the first release candidate of Mamba 2.0, a significant upgrade to the mamba package manager. This update brings considerable enhancements for both users and developers, following an extensive year-long development effort.]]></description>
+            <link>https://medium.com/@QuantStack/introducing-mamba-2-0-0e8d5c6d1d0c</link>
+            <guid isPermaLink="true">https://medium.com/@QuantStack/introducing-mamba-2-0-0e8d5c6d1d0c</guid>
+            <dc:creator><![CDATA[Antoine Prouvost, Joël Lamotte, Johan Mabille, Hind Montassif]]></dc:creator>
+            <pubDate>Tue, 16 Jul 2024 00:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Introducing-Mamba-2-0.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[QuantStack open-source internship program]]></title>
+            <description><![CDATA[Today, we are announcing a new internship program that aims to empower a new cohort of open-source contributors and future maintainers to make an impact within our ecosystem.]]></description>
+            <link>https://medium.com/@QuantStack/quantstack-open-source-internship-program-049755b6d44b</link>
+            <guid isPermaLink="true">https://medium.com/@QuantStack/quantstack-open-source-internship-program-049755b6d44b</guid>
+            <dc:creator><![CDATA[Sylvain Corlay]]></dc:creator>
+            <pubDate>Tue, 09 Jul 2024 00:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/QuantStack-open-source-internship-program.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[JupyterCAD 2.0]]></title>
+            <description><![CDATA[We are thrilled to introduce JupyterCAD 2.0, the newest version of the JupyterLab-based CAD modeler.]]></description>
+            <link>https://medium.com/@QuantStack/jupytercad-2-0-4b9c4e18d22a</link>
+            <guid isPermaLink="true">https://medium.com/@QuantStack/jupytercad-2-0-4b9c4e18d22a</guid>
+            <dc:creator><![CDATA[Trung Le, Martin Renou]]></dc:creator>
+            <pubDate>Fri, 05 Jul 2024 00:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/JupyterCAD-2-0.png" length="0" type="image/png"/>
+        </item>
+>>>>>>> 746efb7 (Remove SmallProjectCardWithInputs and replace it by a short dedicated section with a button linking to the contact form.)
     </channel>
 </rss>

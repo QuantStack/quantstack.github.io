@@ -123,6 +123,12 @@ const config: Config = {
           position: "left",
         },
         {
+          to: "/fundable/",
+          label: "Fundable projects",
+          position: "right",
+          className:"fundable_projects"
+        },
+        {
           to: "/contact/",
           label: "Contact us",
           position: "right",
