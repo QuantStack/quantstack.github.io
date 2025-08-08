@@ -2,7 +2,7 @@ import styles from "./styles.module.css";
 import { fundableProjectsDetails } from "./projectsDetails";
 import ProjectCategory from "./ProjectCategory";
 import MenuSidebar from "./MenuSideBar";
-import { SmallProjectCardWithInputs } from "./SmallProjectCardWithInputs";
+import LinkToContact from "../home/LinkToContact";
 
 export function getCategoryFromProjectPageName(pageName: string) {
   for (const [categoryName, projectsByCategory] of Object.entries(fundableProjectsDetails)) {
@@ -32,9 +32,9 @@ export function MainAreaFundableProjects() {
         />
       </section>
       <section id="propose-and-fund-a-project">
-        <h2 className={styles.project_category_header} style={{ margin: "0px" }}>Propose and fund a project</h2>
-        <p style={{ marginTop: "var(--ifm-spacing-lg)" }}>You have a project on the open-source data stack that you would like to fund. Please contact us with this form!</p>
-        <SmallProjectCardWithInputs />
+        <h2 className={styles.project_category_header} style={{ margin: "0px" }}>Can't find a project?</h2>
+        <p style={{ marginTop: "var(--ifm-spacing-lg)" }}>If you have a project in mind that you think would be relevant to our expertise, please contact us to discuss it.</p>
+        <LinkToContact label={"CONTACT US!"} />
       </section>
     </div>
   )
