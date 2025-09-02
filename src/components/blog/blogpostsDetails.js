@@ -3,6 +3,15 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.blogpostsDetails = void 0;
 exports.blogpostsDetails = [
     {
+        "url": "https://medium.com/@QuantStack/a-year-in-review-quantstacks-contributions-to-apache-arrow-7eba38acbcf2",
+        "title": "A Year in Review: QuantStack’s Contributions to Apache Arrow",
+        "image": "img/blogposts/resized-images/Arrow-a-Year-in-Review.png",
+        "summary": "Since November 2024, QuantStack has been involved in the maintenance and development of Apache Arrow. We have a team of several engineers working…",
+        "date": "2025-09-02",
+        "authors": "Antoine Pitrou, Raúl Cumplido",
+        "imageID": "blogpost-image-137"
+    },
+    {
         url: "https://david-brochart.medium.com/create-your-own-layers-in-jupytergis-cbb995a89b16",
         title: "Create your own layers in JupyterGIS",
         image: "img/blogposts/resized-images/Create-layers-JupyterGIS.png",
