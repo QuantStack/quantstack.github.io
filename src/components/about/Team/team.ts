@@ -50,6 +50,8 @@ import MeriemMD from "@site/src/components/about/Team/Meriem.md";
 import MeriemAvatarUrl from "@site/static/img/avatars/Meriem.png";
 import NicolasMD from "@site/src/components/about/Team/Nicolas.md";
 import NicolasAvatarUrl from "@site/static/img/avatars/Nicolas.png";
+import OlivierMD from "@site/src/components/about/Team/Olivier.md";
+import OlivierAvatarUrl from "@site/static/img/avatars/Olivier.png";
 import OusemaMD from "@site/src/components/about/Team/Ousema.md";
 import OusemaAvatarUrl from "@site/static/img/avatars/Ousema.png";
 import RaulMD from "@site/src/components/about/Team/Raul.md";
@@ -415,6 +417,18 @@ export const teams = {
       distinctionLink: [],
       subTeamName: "coreTeam",
       BioComponent: GuyMD,
+    },
+    {
+      completeName: "Olivier Giorgis",
+      pageName: "OlivierGiorgis",
+      position: " Scientific Software Development Intern",
+      GitHubLink: "https://github.com/djangoliv",
+      GitHubName: "@djangoliv",
+      avatarUrl: OlivierAvatarUrl,
+      distinctionTitle: [],
+      distinctionLink: [],
+      subTeamName: "coreTeam",
+      BioComponent: OlivierMD,
     }
   ],
 
