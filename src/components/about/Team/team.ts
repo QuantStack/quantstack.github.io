@@ -421,7 +421,7 @@ export const teams = {
     {
       completeName: "Olivier Giorgis",
       pageName: "OlivierGiorgis",
-      position: " Scientific Software Development Intern",
+      position: "Scientific software developer",
       GitHubLink: "https://github.com/djangoliv",
       GitHubName: "@djangoliv",
       avatarUrl: OlivierAvatarUrl,
