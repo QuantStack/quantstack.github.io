@@ -3,6 +3,15 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.blogpostsDetails = void 0;
 exports.blogpostsDetails = [
     {
+        "url": "https://www.open-source-ward.com/from-linux-parties-to-global-impact-an-interview-with-sylvain-corlay-founder-of-quantstack/",
+        "title": "From Linux Parties to Global Impact: An Interview with Sylvain Corlay, Founder of QuantStack",
+        "image": "img/blogposts/resized-images/An-Interview-with-Sylvain-Corlay.png",
+        "summary": "In today’s article, we had the chance to speak with Sylvain Corlay, long-time contributor of the Jupyter project, used by millions of people worldwide, and CEO-founder of QuantStack, an open-source development company employing around thirty people.",
+        "date": "2025-09-18",
+        "authors": "Sylvain Corlay, Arthur Vervaet",
+        "imageID": "blogpost-image-138"
+    },
+    {
         "url": "https://medium.com/@QuantStack/a-year-in-review-quantstacks-contributions-to-apache-arrow-7eba38acbcf2",
         "title": "A Year in Review: QuantStack’s Contributions to Apache Arrow",
         "image": "img/blogposts/resized-images/Arrow-a-Year-in-Review.png",
