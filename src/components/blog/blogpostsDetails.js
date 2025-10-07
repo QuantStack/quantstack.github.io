@@ -3,6 +3,15 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.blogpostsDetails = void 0;
 exports.blogpostsDetails = [
     {
+        "url": "https://medium.com/@QuantStack/sovereign-tech-agency-invests-in-apache-arrows-future-with-quantstack-d2f84c21c2cc",
+        "title": "Sovereign Tech Agency Invests in Apache Arrow’s Future with QuantStack",
+        "image": "img/blogposts/resized-images/STF-Arrow.png",
+        "summary": "We are thrilled to announce that the Sovereign Tech Fund is providing critical funding to sustain and improve Apache Arrow, an essential open-source project in the modern data ecosystem.",
+        "date": "2025-10-07",
+        "authors": "Antoine Pitrou, Raúl Cumplido",
+        "imageID": "blogpost-image-139"
+    },
+    {
         "url": "https://www.open-source-ward.com/from-linux-parties-to-global-impact-an-interview-with-sylvain-corlay-founder-of-quantstack/",
         "title": "From Linux Parties to Global Impact: An Interview with Sylvain Corlay, Founder of QuantStack",
         "image": "img/blogposts/resized-images/An-Interview-with-Sylvain-Corlay.png",
