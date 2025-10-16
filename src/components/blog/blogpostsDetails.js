@@ -3,6 +3,15 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.blogpostsDetails = void 0;
 exports.blogpostsDetails = [
     {
+        "url": "https://blog.jupyter.org/gnu-octave-meets-jupyterlite-compute-anywhere-anytime-8b033afbbcdc",
+        "title": "GNU Octave Meets JupyterLite: Compute Anywhere, Anytime!",
+        "image": "img/blogposts/resized-images/Octave-Lite.png",
+        "summary": "We are thrilled to announce the newest member of our JupyterLite kernel ecosystem: Xeus-Octave. Xeus-Octave allows you to run GNU Octave code directly on your browser.",
+        "date": "2025-10-16",
+        "authors": "Isabel Paredes",
+        "imageID": "blogpost-image-141"
+    },
+    {
         "url": "https://eo4society.esa.int/2025/10/16/jupytergis-breaks-through-to-the-next-level/",
         "title": "JupyterGIS breaks through to the next level",
         "image": "img/blogposts/resized-images/JupyterGIS-Next-Level.png",
