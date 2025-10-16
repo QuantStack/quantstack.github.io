@@ -3,6 +3,15 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.blogpostsDetails = void 0;
 exports.blogpostsDetails = [
     {
+        "url": "https://eo4society.esa.int/2025/10/16/jupytergis-breaks-through-to-the-next-level/",
+        "title": "JupyterGIS breaks through to the next level",
+        "image": "img/blogposts/resized-images/JupyterGIS-Next-Level.png",
+        "summary": "Launched in June 2024, JupyterGIS was introduced as a collaborative, web-based GIS environment built on the JupyterLab framework. Its objective is to bring QGIS-inspired workflows into the browser…",
+        "date": "2025-10-16",
+        "authors": "Martin Renou, Arjun Verma, Gregory Mooney",
+        "imageID": "blogpost-image-140"
+    },
+    {
         "url": "https://medium.com/@QuantStack/sovereign-tech-agency-invests-in-apache-arrows-future-with-quantstack-d2f84c21c2cc",
         "title": "Sovereign Tech Agency Invests in Apache Arrow’s Future with QuantStack",
         "image": "img/blogposts/resized-images/STF-Arrow.png",
@@ -744,7 +753,7 @@ exports.blogpostsDetails = [
         url: "https://blog.llvm.org/posts/2020-12-21-interactive-cpp-for-data-science/",
         title: "Interactive C++ for Data Science",
         image: "/img/blogposts/resized-images/Interactive-C++-for-Data-Science.png",
-        summary: "This post will discuss some applications of Cling developed to support data science researchers. In particular, interactively probing data and interfaces makes complex libraries and complex data more accessible users.",
+        summary: "This post will discuss some applications of Cling developed to support data science researchers. In particular, interactively probing data and interfaces makes complex libraries and complex data…",
         date: "2020-12-23",
         authors: "Vassil Vassilev, David Lange, Simeon Ehrig, Sylvain Corlay",
         imageID: "blogpost-image-57"
