@@ -372,7 +372,7 @@ export const teams = {
     {
       completeName: "Yahia Heni",
       pageName: "YahiaHeni",
-      position: " Scientific Software Development Intern",
+      position: "Scientific Software Developer",
       GitHubLink: "https://github.com/Yahiewi",
       LinkedInLink: "https://www.linkedin.com/in/yahia-heni/",
       GitHubName: "@Yahiewi",
