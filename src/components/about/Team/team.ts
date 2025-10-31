@@ -10,7 +10,7 @@ import AntoinePrvMD from "@site/src/components/about/Team/AntoinePrv.md";
 import AntoinePrvAvatarUrl from "@site/static/img/avatars/AntoinePrv.png";
 import AnutoshMD from "@site/src/components/about/Team/Anutosh.md";
 import AnutoshAvatarUrl from "@site/static/img/avatars/Anutosh.png";
-import ArjunMD from "@site/src/components/about/Team/Arjun.md"
+import ArjunMD from "@site/src/components/about/Team/Arjun.md";
 import ArjunAvatarUrl from "@site/static/img/avatars/Arjun.png";
 import DavidMD from "@site/src/components/about/Team/David.md";
 import DavidAvatarUrl from "@site/static/img/avatars/David.png";
@@ -24,8 +24,6 @@ import GabrielaMD from "@site/src/components/about/Team/Gabriela.md";
 import GabrielaAvatarUrl from "@site/static/img/avatars/Gabriela.png";
 import GregMD from "@site/src/components/about/Team/Greg.md";
 import GregAvatarUrl from "@site/static/img/avatars/Greg.png";
-import GuyMD from "@site/src/components/about/Team/Guy.md";
-import GuyAvatarUrl from "@site/static/img/avatars/Guy.png";
 import HindMD from "@site/src/components/about/Team/Hind.md";
 import HindAvatarUrl from "@site/static/img/avatars/Hind.png";
 import IanMD from "@site/src/components/about/Team/Ian.md";
@@ -52,8 +50,6 @@ import NicolasMD from "@site/src/components/about/Team/Nicolas.md";
 import NicolasAvatarUrl from "@site/static/img/avatars/Nicolas.png";
 import OlivierMD from "@site/src/components/about/Team/Olivier.md";
 import OlivierAvatarUrl from "@site/static/img/avatars/Olivier.png";
-import OusemaMD from "@site/src/components/about/Team/Ousema.md";
-import OusemaAvatarUrl from "@site/static/img/avatars/Ousema.png";
 import RaulMD from "@site/src/components/about/Team/Raul.md";
 import RaulAvatarUrl from "@site/static/img/avatars/Raul.png";
 import RomainMD from "@site/src/components/about/Team/Romain.md";
@@ -318,8 +314,7 @@ export const teams = {
       pageName: "ArjunVerma",
       position: " Scientific Software Developer",
       GitHubLink: "https://github.com/arjxn-py",
-      LinkedInLink:
-        "https://www.linkedin.com/in/arjun-verma-758608226/",
+      LinkedInLink: "https://www.linkedin.com/in/arjun-verma-758608226/",
       BlueskyLink: "https://bsky.app/profile/arjxn-py.bsky.social",
       MastodonLink: "https://mastodon.social/@arjxnpy",
       GitHubName: "@arjxn-py",
@@ -334,8 +329,7 @@ export const teams = {
       pageName: "SandrinePataut",
       position: " Scientific Software Developer",
       GitHubLink: "https://github.com/SandrineP",
-      LinkedInLink:
-        "https://www.linkedin.com/in/sandrinepataut/",
+      LinkedInLink: "https://www.linkedin.com/in/sandrinepataut/",
       BlueskyLink: "",
       MastodonLink: "",
       GitHubName: "@SandrineP",
@@ -350,8 +344,7 @@ export const teams = {
       pageName: "RaulCumplido",
       position: " Scientific Software Developer",
       GitHubLink: "https://github.com/raulcd",
-      LinkedInLink:
-        "https://www.linkedin.com/in/raulcumplido/",
+      LinkedInLink: "https://www.linkedin.com/in/raulcumplido/",
       BlueskyLink: "",
       MastodonLink: "",
       GitHubName: "@raulcd",
@@ -379,44 +372,15 @@ export const teams = {
     {
       completeName: "Yahia Heni",
       pageName: "YahiaHeni",
-      position: " Scientific Software Development Intern",
+      position: "Scientific Software Developer",
       GitHubLink: "https://github.com/Yahiewi",
-      LinkedInLink:
-        "https://www.linkedin.com/in/yahia-heni/",
+      LinkedInLink: "https://www.linkedin.com/in/yahia-heni/",
       GitHubName: "@Yahiewi",
       avatarUrl: YahiaAvatarUrl,
       distinctionTitle: [],
       distinctionLink: [],
       subTeamName: "coreTeam",
       BioComponent: YahiaMD,
-    },
-    {
-      completeName: "Ousema Bouaneni",
-      pageName: "OusemaBouaneni",
-      position: " Scientific Software Development Intern",
-      GitHubLink: "https://github.com/ousema-bouaneni",
-      LinkedInLink:
-        "https://www.linkedin.com/in/ousema-bouaneni/",
-      GitHubName: "@ousema-bouaneni",
-      avatarUrl: OusemaAvatarUrl,
-      distinctionTitle: [],
-      distinctionLink: [],
-      subTeamName: "coreTeam",
-      BioComponent: OusemaMD,
-    },
-    {
-      completeName: "Guy Mushiata Kibulu",
-      pageName: "GuyMushiataKibulu",
-      position: "Scientific Software Development Intern",
-      GitHubLink: "https://github.com/Gauss-Taylor-Euler",
-      LinkedInLink:
-        "https://www.linkedin.com/in/guy-mushiata-kibulu-189646336/",
-      GitHubName: "@Gauss-Taylor-Euler",
-      avatarUrl: GuyAvatarUrl,
-      distinctionTitle: [],
-      distinctionLink: [],
-      subTeamName: "coreTeam",
-      BioComponent: GuyMD,
     },
     {
       completeName: "Olivier Giorgis",
@@ -429,7 +393,7 @@ export const teams = {
       distinctionLink: [],
       subTeamName: "coreTeam",
       BioComponent: OlivierMD,
-    }
+    },
   ],
 
   QSCollaboratorsTeam: [
@@ -476,15 +440,14 @@ export const teams = {
       distinctionTitle: [],
       distinctionLink: [],
       subTeamName: "QSCollaboratorsTeam",
-      BioComponent: RomainMD
+      BioComponent: RomainMD,
     },
     {
       completeName: "Antoine Pitrou",
       pageName: "AntoinePitrou",
       position: "Senior Software Developer",
       GitHubLink: "https://github.com/pitrou",
-      LinkedInLink:
-        "https://www.linkedin.com/in/pitrou/",
+      LinkedInLink: "https://www.linkedin.com/in/pitrou/",
       BlueskyLink: "https://bsky.app/profile/pitrou.bsky.social",
       MastodonLink: "",
       GitHubName: "@pitrou",
@@ -617,5 +580,5 @@ export const teams = {
       subTeamName: "LeadershipTeam",
       BioComponent: TrungMD,
     },
-  ]
-}
+  ],
+};

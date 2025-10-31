@@ -1,5 +1,5 @@
-Yahia is a Scientific Software Development Intern at Quantstack.
+Yahia is a Scientific Software Developer at Quantstack.
 
-He will soon graduate with an engineering degree from IMT Atlantique where he already made some contributions to a few open-source projects.
+He graduated with an engineering degree from IMT Atlantique where he developed a passion for contributing to open-source projects.
 
-He is currently contributing to the development of JupyterLite extensions for robotics applications.
+He first joined QuantStack as an intern where he worked on the Jupyter Robotics ecosystem by developing new features and improving the user experience of various Jupyter extensions such as JupyterLab-URDF, JupyterCAD, JupyterCAD-URDF and JupyterCAD-FreeCAD.
