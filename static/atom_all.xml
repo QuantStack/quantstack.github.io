@@ -2,9 +2,59 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id/>
     <title>All blog posts featured by QuantStack team</title>
-    <updated>2025-08-08T15:22:26.229Z</updated>
+    <updated>2025-11-02T12:40:26.420Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <subtitle>Atom feed for QuantStack website blog page</subtitle>
+    <entry>
+        <title type="html"><![CDATA[GNU Octave Meets JupyterLite: Compute Anywhere, Anytime!]]></title>
+        <id>https://blog.jupyter.org/gnu-octave-meets-jupyterlite-compute-anywhere-anytime-8b033afbbcdc</id>
+        <link href="https://blog.jupyter.org/gnu-octave-meets-jupyterlite-compute-anywhere-anytime-8b033afbbcdc"/>
+        <updated>2025-10-16T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<img src="img/blogposts/resized-images/Octave-Lite.png" alt="Image for GNU Octave Meets JupyterLite: Compute Anywhere, Anytime!" style="max-width:100%; height:auto;" /><p>We are thrilled to announce the newest member of our JupyterLite kernel ecosystem: Xeus-Octave. Xeus-Octave allows you to run GNU Octave code directly on your browser.</p>]]></content>
+        <author>
+            <name>Isabel Paredes</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JupyterGIS breaks through to the next level]]></title>
+        <id>https://eo4society.esa.int/2025/10/16/jupytergis-breaks-through-to-the-next-level/</id>
+        <link href="https://eo4society.esa.int/2025/10/16/jupytergis-breaks-through-to-the-next-level/"/>
+        <updated>2025-10-16T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<img src="img/blogposts/resized-images/JupyterGIS-Next-Level.png" alt="Image for JupyterGIS breaks through to the next level" style="max-width:100%; height:auto;" /><p>Launched in June 2024, JupyterGIS was introduced as a collaborative, web-based GIS environment built on the JupyterLab framework. Its objective is to bring QGIS-inspired workflows into the browser…</p>]]></content>
+        <author>
+            <name>Martin Renou, Arjun Verma, Gregory Mooney</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sovereign Tech Agency Invests in Apache Arrow’s Future with QuantStack]]></title>
+        <id>https://medium.com/@QuantStack/sovereign-tech-agency-invests-in-apache-arrows-future-with-quantstack-d2f84c21c2cc</id>
+        <link href="https://medium.com/@QuantStack/sovereign-tech-agency-invests-in-apache-arrows-future-with-quantstack-d2f84c21c2cc"/>
+        <updated>2025-10-07T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<img src="img/blogposts/resized-images/STF-Arrow.png" alt="Image for Sovereign Tech Agency Invests in Apache Arrow’s Future with QuantStack" style="max-width:100%; height:auto;" /><p>We are thrilled to announce that the Sovereign Tech Fund is providing critical funding to sustain and improve Apache Arrow, an essential open-source project in the modern data ecosystem.</p>]]></content>
+        <author>
+            <name>Antoine Pitrou, Raúl Cumplido</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[From Linux Parties to Global Impact: An Interview with Sylvain Corlay, Founder of QuantStack]]></title>
+        <id>https://www.open-source-ward.com/from-linux-parties-to-global-impact-an-interview-with-sylvain-corlay-founder-of-quantstack/</id>
+        <link href="https://www.open-source-ward.com/from-linux-parties-to-global-impact-an-interview-with-sylvain-corlay-founder-of-quantstack/"/>
+        <updated>2025-09-18T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<img src="img/blogposts/resized-images/An-Interview-with-Sylvain-Corlay.png" alt="Image for From Linux Parties to Global Impact: An Interview with Sylvain Corlay, Founder of QuantStack" style="max-width:100%; height:auto;" /><p>In today’s article, we had the chance to speak with Sylvain Corlay, long-time contributor of the Jupyter project, used by millions of people worldwide, and CEO-founder of QuantStack, an open-source development company employing around thirty people.</p>]]></content>
+        <author>
+            <name>Sylvain Corlay, Arthur Vervaet</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Year in Review: QuantStack’s Contributions to Apache Arrow]]></title>
+        <id>https://medium.com/@QuantStack/a-year-in-review-quantstacks-contributions-to-apache-arrow-7eba38acbcf2</id>
+        <link href="https://medium.com/@QuantStack/a-year-in-review-quantstacks-contributions-to-apache-arrow-7eba38acbcf2"/>
+        <updated>2025-09-02T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<img src="img/blogposts/resized-images/Arrow-a-Year-in-Review.png" alt="Image for A Year in Review: QuantStack’s Contributions to Apache Arrow" style="max-width:100%; height:auto;" /><p>Since November 2024, QuantStack has been involved in the maintenance and development of Apache Arrow. We have a team of several engineers working…</p>]]></content>
+        <author>
+            <name>Antoine Pitrou, Raúl Cumplido</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Create your own layers in JupyterGIS]]></title>
         <id>https://david-brochart.medium.com/create-your-own-layers-in-jupytergis-cbb995a89b16</id>
@@ -22,7 +72,7 @@
         <updated>2025-06-19T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<img src="img/blogposts/resized-images/CPP-in-JupyterLite.png" alt="Image for C++ in Jupyter — Interpreting C++ in the Web" style="max-width:100%; height:auto;" /><p>Scientists and engineers utilize programming languages not only to build software systems but also to drive interactive exploratory workflows. They leverage developer tools to explore and reason through problems effectively.</p>]]></content>
         <author>
-            <name> Vassil Vassilev</name>
+            <name>Anutosh Bhat, Vassil Vassilev</name>
         </author>
     </entry>
     <entry>
@@ -82,7 +132,7 @@
         <updated>2025-02-26T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/Collaborative-GIS.png" alt="Image for Real-time collaboration and collaborative editing for GIS workflows with Jupyter and QGIS" style="max-width:100%; height:auto;" /><p>We are excited to announce JupyterGIS, a web-based, collaborative, and extensible interface for GIS, leveraging the JupyterLab application framework and integrating seamlessly with the Jupyter notebook interface.</p>]]></content>
         <author>
-            <name> Arjun Verma</name>
+            <name>Meriem Ben Ismail, Nicolas Brichet, David Brochart, Matt Fisher, Anne Fouilloux, Greg Mooney, Martin Renou, Arjun Verma</name>
         </author>
     </entry>
     <entry>
@@ -102,7 +152,7 @@
         <updated>2025-02-17T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/Announcing-JupyterCAD-3.0.png" alt="Image for Announcing JupyterCAD 3.0" style="max-width:100%; height:auto;" /><p>We are thrilled to introduce JupyterCAD 3.0, the newest version of the collaborative CAD modeler designed for JupyterLab.</p>]]></content>
         <author>
-            <name> Martin Renou</name>
+            <name>Arjun Verma, Trung Le, Martin Renou</name>
         </author>
     </entry>
     <entry>
@@ -112,7 +162,7 @@
         <updated>2025-01-31T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/sparrow.png" alt="Image for Sparrow" style="max-width:100%; height:auto;" /><p>We are thrilled to introduce Sparrow, a new library designed to simplify the integration of Apache Arrow’s columnar format into C++ applications.</p>]]></content>
         <author>
-            <name> Joël Lamotte</name>
+            <name>Johan Mabille, Alexis Placet, Thorsten Beier, Joël Lamotte</name>
         </author>
     </entry>
     <entry>
@@ -162,7 +212,7 @@
         <updated>2024-09-04T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/Announcing-the-2023-Jupyter-Distinguished-Contributors.png" alt="Image for Announcing the 2023 cohort of Jupyter distinguished contributors" style="max-width:100%; height:auto;" /><p>We are delighted to announce the recipients of the Jupyter Distinguished Contributor (JDC) award for the 2023 cohort.</p>]]></content>
         <author>
-            <name> on behalf of the Jupyter Distinguished Contributors</name>
+            <name>Johan Mabille, on behalf of the Jupyter Distinguished Contributors</name>
         </author>
     </entry>
     <entry>
@@ -172,7 +222,7 @@
         <updated>2024-08-22T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/Ipydatagrid-is-now-part-of-ProjectJupyter.png" alt="Image for Ipydatagrid is now part of Project Jupyter" style="max-width:100%; height:auto;" /><p>Today, we are proud to announce that the ipydatagrid open source project has been incorporated into Project Jupyter as part of the Jupyter Widgets subproject.</p>]]></content>
         <author>
-            <name> on behalf of the Jupyter Widgets Council</name>
+            <name>Sylvain Corlay, on behalf of the Jupyter Widgets Council</name>
         </author>
     </entry>
     <entry>
@@ -182,7 +232,7 @@
         <updated>2024-07-16T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/Introducing-Mamba-2-0.png" alt="Image for Introducing Mamba 2.0" style="max-width:100%; height:auto;" /><p>We are excited to present the first release candidate of Mamba 2.0, a significant upgrade to the mamba package manager. This update brings considerable enhancements for both users and developers, following an extensive year-long development effort.</p>]]></content>
         <author>
-            <name> Hind Montassif</name>
+            <name>Antoine Prouvost, Joël Lamotte, Johan Mabille, Hind Montassif</name>
         </author>
     </entry>
     <entry>
@@ -202,7 +252,7 @@
         <updated>2024-07-05T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/JupyterCAD-2-0.png" alt="Image for JupyterCAD 2.0" style="max-width:100%; height:auto;" /><p>We are thrilled to introduce JupyterCAD 2.0, the newest version of the JupyterLab-based CAD modeler.</p>]]></content>
         <author>
-            <name> Martin Renou</name>
+            <name>Trung Le, Martin Renou</name>
         </author>
     </entry>
     <entry>
@@ -212,7 +262,7 @@
         <updated>2024-06-12T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/JupyterGIS.png" alt="Image for JupyterGIS" style="max-width:100%; height:auto;" /><p>We are thrilled to announce that the European Space Agency (ESA) is funding our proposal “Real-time collaboration and collaborative editing for GIS workflows with Jupyter and QGIS.”</p>]]></content>
         <author>
-            <name> Monika Weissschnur</name>
+            <name>Sylvain Corlay, Anne Fouilloux, Monika Weissschnur</name>
         </author>
     </entry>
     <entry>
@@ -272,7 +322,7 @@
         <updated>2023-12-16T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/Recent-keyboard-navigation-improvements-in-Jupyter.png" alt="Image for Recent keyboard navigation improvements in Jupyter" style="max-width:100%; height:auto;" /><p>Upcoming versions of JupyterLab (4.1.0) and Notebook (7.1.0) will include major keyboard accessibility fixes.</p>]]></content>
         <author>
-            <name> Gabriel Fouasnon</name>
+            <name>Nicolas Brichet, Gabriel Fouasnon</name>
         </author>
     </entry>
     <entry>
@@ -282,7 +332,7 @@
         <updated>2023-12-06T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/And-Voici.png" alt="Image for And Voici!" style="max-width:100%; height:auto;" /><p>Voici (meaning “here is” in French) is a novel project reshaping Jupyter-based interactive dashboards by combining Voilà and JupyterLite features. It facilitates the creation of dynamic, in-browser environments for data visualization and exploration.</p>]]></content>
         <author>
-            <name> Martin Renou</name>
+            <name>Trung Duc Le, Martin Renou</name>
         </author>
     </entry>
     <entry>
@@ -302,7 +352,7 @@
         <updated>2023-09-25T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/Voila-0-5-Homecoming.png" alt="Image for Voilà 0.5 - Homecoming" style="max-width:100%; height:auto;" /><p>Following the launch of Jupyter Notebook 7, it is now Voilà’s turn to join the JupyterLab family. In Version 0.5.0, the front-end of Voilà has been rebuilt from scratch using JupyterLab 4.0 components, just like in the case of Notebook 7.</p>]]></content>
         <author>
-            <name> Trung Duc Le</name>
+            <name>Jeremy Tuloup, Martin Renou, Trung Duc Le</name>
         </author>
     </entry>
     <entry>
@@ -322,7 +372,7 @@
         <updated>2023-07-22T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/JupyterCon-2023-recordings-now-live-on-YouTube.png" alt="Image for 🎉 JupyterCon 2023 recordings now live on YouTube! 🎉" style="max-width:100%; height:auto;" /><p>Get ready to relive the magic of JupyterCon 2023, because the long-awaited moment is finally here! The JupyterCon YouTube channel has just dropped a treasure trove of content — all the talk and keynote recordings from the most epic conference of the year.</p>]]></content>
         <author>
-            <name> Sylvain Corlay</name>
+            <name>Gayle Ollington, Sylvain Corlay</name>
         </author>
     </entry>
     <entry>
@@ -342,7 +392,7 @@
         <updated>2023-06-02T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/Collaborative-CAD-in-JupyterLab.png" alt="Image for Collaborative CAD in JupyterLab" style="max-width:100%; height:auto;" /><p>Introducing JupyterCAD, a tool that integrates Computer-Aided Design (CAD) capabilities into JupyterLab.</p>]]></content>
         <author>
-            <name> Martin Renou</name>
+            <name>Duc Trung Le, Martin Renou</name>
         </author>
     </entry>
     <entry>
@@ -362,7 +412,7 @@
         <updated>2023-03-15T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/Embed-interactive-itkwidgets-3D-renderings-into-JupyterLite-deployments.png" alt="Image for Embed interactive itkwidgets 3D renderings into JupyterLite deployments" style="max-width:100%; height:auto;" /><p>A tutorial that demonstrates a zero-server, interactive 3D rendering notebook and walks through the quick and easy configuration that can be customized to your needs.</p>]]></content>
         <author>
-            <name> Stephen Aylward</name>
+            <name>Matt McCormick, Brianna Major, Jeremy Tuloup, Wei Ouyang, Stephen Aylward</name>
         </author>
     </entry>
     <entry>
@@ -372,7 +422,7 @@
         <updated>2023-02-24T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/Improving-the-accessibility-of-Jupyter.png" alt="Image for Improving the accessibility of Jupyter" style="max-width:100%; height:auto;" /><p>This article presents some of the recent accessibility improvements in the Jupyter Notebook codebase.</p>]]></content>
         <author>
-            <name> Sylvain Corlay</name>
+            <name>Nicolas Brichet, Johan Mabille, Jeremy Tuloup, Frédéric Collonval, Sylvain Corlay</name>
         </author>
     </entry>
     <entry>
@@ -382,7 +432,7 @@
         <updated>2023-01-11T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/A-Jupyter-kernel-for-GNU-Octave.png" alt="Image for A Jupyter kernel for GNU Octave" style="max-width:100%; height:auto;" /><p>We are happy to announce the xeus-octave project, a Jupyter kernel for GNU Octave. Xeus-octave was created by Giulio Girardi, recently joined by Antoine Prouvost - and has been incorporated into the Project Jupyter governance.</p>]]></content>
         <author>
-            <name> Antoine Prouvost</name>
+            <name>Giulio Girardi, Antoine Prouvost</name>
         </author>
     </entry>
     <entry>
@@ -422,7 +472,7 @@
         <updated>2022-09-15T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/Accelerating-JupyterLab.png" alt="Image for Accelerating JupyterLab" style="max-width:100%; height:auto;" /><p>The next major release of JupyterLab will be significantly faster than previous versions. This was achieved both through systematic tracking of performance bugs and through significant upgrades to the Jupyter communication protocol and rendering mechanism for documents.</p>]]></content>
         <author>
-            <name> Afshin Darian</name>
+            <name>Frédéric Collonval, Johan Mabille, David Brochart, Afshin Darian</name>
         </author>
     </entry>
     <entry>
@@ -442,7 +492,7 @@
         <updated>2022-07-29T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/Visual-programming-in-JupyterLab-with-Blockly.png" alt="Image for Visual programming in JupyterLab with Blockly" style="max-width:100%; height:auto;" /><p>When moving from block-based programming to a more classical language like Python, students often have to switch to a completely new environment. In order to provide a smooth ramp of complexity for learners, we designed a JupyterLab extension for Blockly so that Jupyter can be used from the very first steps of their learning journey.</p>]]></content>
         <author>
-            <name> Carlos Herrero</name>
+            <name>Denisa Checiu, Carlos Herrero</name>
         </author>
     </entry>
     <entry>
@@ -452,7 +502,7 @@
         <updated>2022-07-14T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/Mamba-meets-JupyterLite.png" alt="Image for Mamba meets JupyterLite" style="max-width:100%; height:auto;" /><p>JupyterLite is a Jupyter distribution that runs entirely in the web browser without any server components. To achieve this, all language kernels must also run in the browser. A significant benefit of…</p>]]></content>
         <author>
-            <name> Martin Renou</name>
+            <name>Thorsten Beier, Martin Renou</name>
         </author>
     </entry>
     <entry>
@@ -502,7 +552,7 @@
         <updated>2022-03-15T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/Jupyter-Everywhere.jpg" alt="Image for Jupyter Everywhere" style="max-width:100%; height:auto;" /><p>Easily embed a console, a notebook, or a fully-fledged IDE on any web page.</p>]]></content>
         <author>
-            <name> Jeremy Tuloup</name>
+            <name>Martin Renou, Jeremy Tuloup</name>
         </author>
     </entry>
     <entry>
@@ -562,7 +612,7 @@
         <updated>2021-10-29T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/Toward-a-faster-and-thinner-xsimd.png" alt="Image for Toward a faster and thinner xsimd" style="max-width:100%; height:auto;" /><p>xsimd, the SIMD library by QuantStack, got more and more adoption in recent years. While it helped improve the library, adoption also brought new requirements. Among them was the abitility to...</p>]]></content>
         <author>
-            <name> Johan Mabille</name>
+            <name>Serge Guelton, Johan Mabille</name>
         </author>
     </entry>
     <entry>
@@ -602,7 +652,7 @@
         <updated>2021-09-28T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/Xeus-2-0.png" alt="Image for Xeus 2.0" style="max-width:100%; height:auto;" /><p>We have just released Xeus 2.0. This is a major release of the library. While it includes backward-incompatible changes, they are very limited and upgrading your kernels should be relatively easy…</p>]]></content>
         <author>
-            <name> Sylvain Corlay</name>
+            <name>Johan Mabille, Sylvain Corlay</name>
         </author>
     </entry>
     <entry>
@@ -632,7 +682,7 @@
         <updated>2021-07-09T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/Mamba-0-15-0.png" alt="Image for Mamba 0.15.0" style="max-width:100%; height:auto;" /><p>We’ve just dropped one of the biggest releases of mamba (the fast conda package manager)— along with some nice improvements in libsolv! This is a quick update on some new and improved features in…</p>]]></content>
         <author>
-            <name> Adrien Delsalle</name>
+            <name>Wolf Vollprecht, Adrien Delsalle</name>
         </author>
     </entry>
     <entry>
@@ -682,7 +732,7 @@
         <updated>2021-05-13T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/Enabling-the-JupyterLab-Debugger-with-ipykernel.png" alt="Image for Enabling the JupyterLab Debugger with ipykernel" style="max-width:100%; height:auto;" /><p>JupyterLab 3.0 includes a visual debugger that allows to interactively set breakpoints, step into functions, and inspect variables with any Jupyter kernel that implements the Jupyter debugger…</p>]]></content>
         <author>
-            <name> Johan Mabille</name>
+            <name>Sylvain Corlay, Johan Mabille</name>
         </author>
     </entry>
     <entry>
@@ -732,7 +782,7 @@
         <updated>2021-02-16T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/Cross-platform-Conda-Packages-for-ROS.jpg" alt="Image for Cross-platform Conda Packages for ROS" style="max-width:100%; height:auto;" /><p>2020 has been a busy year for the RoboStack project. We collaboratively published ros-noetic on four platforms (Windows, macOS, Linux x64 and ARM64) and revamped how ROS packages can be released on…</p>]]></content>
         <author>
-            <name> Tobias Fischer</name>
+            <name>Wolf Vollprecht, Tobias Fischer</name>
         </author>
     </entry>
     <entry>
@@ -772,7 +822,7 @@
         <updated>2021-01-18T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/Robotic-Process-Automation-with-JupyterLab.png" alt="Image for Robotic Process Automation with JupyterLab" style="max-width:100%; height:auto;" /><p>Robotic Process Automation (RPA) differs from classical automation tools in that the actions to automate can be developed by observing a user perform a task in a graphical user interface, across…</p>]]></content>
         <author>
-            <name> Johan Mabille</name>
+            <name>Martin Renou, Johan Mabille</name>
         </author>
     </entry>
     <entry>
@@ -782,7 +832,7 @@
         <updated>2021-01-08T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/Dashboarding-with-JupyterLab-3-0.png" alt="Image for Dashboarding with JupyterLab 3.0" style="max-width:100%; height:auto;" /><p>Project Jupyter offers a complete suite of open-source tools for the scientific computing community, reaching from the exploratory phase of a project to the presentation of the results. In this last…</p>]]></content>
         <author>
-            <name> Jeremy Tuloup</name>
+            <name>Carlos Herrero, Jeremy Tuloup</name>
         </author>
     </entry>
     <entry>
@@ -800,9 +850,9 @@
         <id>https://blog.llvm.org/posts/2020-12-21-interactive-cpp-for-data-science/</id>
         <link href="https://blog.llvm.org/posts/2020-12-21-interactive-cpp-for-data-science/"/>
         <updated>2020-12-23T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/Interactive-C++-for-Data-Science.png" alt="Image for Interactive C++ for Data Science" style="max-width:100%; height:auto;" /><p>This post will discuss some applications of Cling developed to support data science researchers. In particular, interactively probing data and interfaces makes complex libraries and complex data more accessible users.</p>]]></content>
+        <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/Interactive-C++-for-Data-Science.png" alt="Image for Interactive C++ for Data Science" style="max-width:100%; height:auto;" /><p>This post will discuss some applications of Cling developed to support data science researchers. In particular, interactively probing data and interfaces makes complex libraries and complex data…</p>]]></content>
         <author>
-            <name> Sylvain Corlay</name>
+            <name>Vassil Vassilev, David Lange, Simeon Ehrig, Sylvain Corlay</name>
         </author>
     </entry>
     <entry>
@@ -882,7 +932,7 @@
         <updated>2020-08-11T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/JupyterLab-the-Cloud-Robotics-Command-Station.png" alt="Image for JupyterLab, the Cloud Robotics Command Station" style="max-width:100%; height:auto;" /><p>Building the next generation of robotics cloud computing using ROS and JupyterLab</p>]]></content>
         <author>
-            <name> Wolf Vollprecht</name>
+            <name>Carlos Herrero, Wolf Vollprecht</name>
         </author>
     </entry>
     <entry>
@@ -892,7 +942,7 @@
         <updated>2020-07-08T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/SlicerJupyter-a-3-D-Slicer-Kernel-for-Interactive-Publications.png" alt="Image for SlicerJupyter, a 3-D Slicer Kernel for Interactive Publications" style="max-width:100%; height:auto;" /><p>Use Jupyter and 3D Slicer kernel to implement biomedical data processing workflows in a notebook.</p>]]></content>
         <author>
-            <name> Mike Sarahan</name>
+            <name>Sylvain Corlay, Jean-Christophe Fillion-Robin, Mike Grauer, Andras Lasso, Matt MacCormick, Isaiah Norton, Steve Pieper, Martin Renou, Mike Sarahan</name>
         </author>
     </entry>
     <entry>
@@ -902,7 +952,7 @@
         <updated>2020-07-19T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/Open-Software-Packaging-for-Science.png" alt="Image for Open Software Packaging for Science" style="max-width:100%; height:auto;" /><p>Modern scientific applications typically depend on a very large number of libraries written in various programming languages, ranging from Fortran to TypeScript, C, C++, Python, etc. So, we need to…</p>]]></content>
         <author>
-            <name> David Brochart</name>
+            <name>Wolf Vollprecht, Mario Buikhuizen, Marianne Corvellec, Johan Mabille, David Brochart</name>
         </author>
     </entry>
     <entry>
@@ -942,7 +992,7 @@
         <updated>2020-03-25T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/A-Visual-Debuger-for-Jupyter.png" alt="Image for A Visual Debugger for Jupyter" style="max-width:100%; height:auto;" /><p>Most of the progress made in software projects comes from incrementalism. The ability to quickly see the outcome of an execution and iterate has been one of the main reasons for the success of…</p>]]></content>
         <author>
-            <name> Sylvain Corlay</name>
+            <name>Jeremy Tuloup, Borys Palka, Johan Mabille, Martin Renou, Afshin Darian, Sylvain Corlay</name>
         </author>
     </entry>
     <entry>
@@ -1072,7 +1122,7 @@
         <updated>2019-09-25T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/Interactive-GIS-in-Jupyter-with-IPyleaflet.png" alt="Image for Interactive GIS in Jupyter with IPyleaflet" style="max-width:100%; height:auto;" /><p>As Jupyter grew in popularity, a broad ecosystem of visualization packages based on Jupyter widgets has been developed, bringing even more interactivity to the Jupyter world. In this article, we dive…</p>]]></content>
         <author>
-            <name> Martin Renou</name>
+            <name>Sylvain Corlay, Martin Renou</name>
         </author>
     </entry>
     <entry>
@@ -1092,7 +1142,7 @@
         <updated>2019-07-16T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/Building-a-Calculator-Jupyter-Kernel.png" alt="Image for Building a Calculator Jupyter Kernel" style="max-width:100%; height:auto;" /><p>In order to provide a language-agnostic scientific development environment, the Jupyter project is built upon a well-specified protocol to communicate with the Kernel, the part of the infrastructure…</p>]]></content>
         <author>
-            <name> Thibault Lacharme</name>
+            <name>Vasavan Thiru, Thibault Lacharme</name>
         </author>
     </entry>
     <entry>
@@ -1152,7 +1202,7 @@
         <updated>2019-06-11T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/And-Voila.png" alt="Image for And Voilà!" style="max-width:100%; height:auto;" /><p>The goal of Project Jupyter is to improve the workflows of researchers, educators, scientists, and other practitioners of scientific computing, from the exploratory phase of their work to the…</p>]]></content>
         <author>
-            <name> Maarten Breddels</name>
+            <name>Sylvain Corlay, Maarten Breddels</name>
         </author>
     </entry>
     <entry>
@@ -1272,7 +1322,7 @@
         <updated>2018-10-24T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/Xtensor-C++-and-the-Julia-Challenge.png" alt="Image for Xtensor, C++, and the Julia Challenge" style="max-width:100%; height:auto;" /><p>Last mon, Simon Danisch launched the Julia Language Challenge, a programming challenge from a member of the Julia community to other programming languages. with high performances. This can be…</p>]]></content>
         <author>
-            <name> Wolf Vollprecht</name>
+            <name>Sylvain Corlay, Johan Mabille, Wolf Vollprecht</name>
         </author>
     </entry>
     <entry>
@@ -1302,7 +1352,7 @@
         <updated>2018-03-05T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/Authoring-Custom-Jupyter-Widgets.png" alt="Image for Authoring Custom Jupyter Widgets" style="max-width:100%; height:auto;" /><p>Jupyter interactive widgets enhance the notebook experience by allowing users to create graphical user interfaces. They enable richer interaction with the data and computing resources. While the base…</p>]]></content>
         <author>
-            <name> Pierre Marion</name>
+            <name>Olivier Borderies, Olivier Coudray, Pierre Marion</name>
         </author>
     </entry>
     <entry>
@@ -1352,7 +1402,7 @@
         <updated>2017-11-29T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/Interactive-Workflows-for-C++-with-Jupyter.png" alt="Image for Interactive Workflows for C++ with Jupyter" style="max-width:100%; height:auto;" /><p>Scientists, educators and engineers not only use programming languages to build software systems, but also in interactive workflows, using the tools available to explore a problem and reason about…</p>]]></content>
         <author>
-            <name> Wolf Vollprecht</name>
+            <name>Sylvain Corlay, Loic Gouarin, Johan Mabille, Wolf Vollprecht</name>
         </author>
     </entry>
     <entry>

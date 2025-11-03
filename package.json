@@ -36,6 +36,7 @@
     "canvas": "^2.11.2",
     "clsx": "^2.0.0",
     "curl": "^0.1.4",
+    "docusaurus-plugin-plausible": "^0.0.5",
     "fs": "^0.0.1-security",
     "image-size": "^1.2.1",
     "jimp": "^0.22.12",
@@ -54,7 +55,7 @@
     "react-slick": "^0.30.2",
     "request": "^2.88.2",
     "rss": "^1.2.2",
-    "sharp": "^0.34.2",
+    "sharp": "^0.34.4",
     "slick-carousel": "^1.8.1"
   },
   "devDependencies": {

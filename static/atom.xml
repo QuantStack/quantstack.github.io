@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://quantstack.net/</id>
     <title>Recent blog posts featured by QuantStack team</title>
-    <updated>2025-08-08T15:22:26.220Z</updated>
+    <updated>2025-11-02T12:40:26.413Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>QuantStack Team</name>
@@ -11,6 +11,56 @@
     <link rel="alternate" href="https://quantstack.net/"/>
     <link rel="self" href="https://quantstack.net/atom.xml"/>
     <subtitle>Atom feed for QuantStack website blog page</subtitle>
+    <entry>
+        <title type="html"><![CDATA[GNU Octave Meets JupyterLite: Compute Anywhere, Anytime!]]></title>
+        <id>https://blog.jupyter.org/gnu-octave-meets-jupyterlite-compute-anywhere-anytime-8b033afbbcdc</id>
+        <link href="https://blog.jupyter.org/gnu-octave-meets-jupyterlite-compute-anywhere-anytime-8b033afbbcdc"/>
+        <updated>2025-10-16T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<img src="img/blogposts/resized-images/Octave-Lite.png" alt="Image for GNU Octave Meets JupyterLite: Compute Anywhere, Anytime!" style="max-width:100%; height:auto;" /><p>We are thrilled to announce the newest member of our JupyterLite kernel ecosystem: Xeus-Octave. Xeus-Octave allows you to run GNU Octave code directly on your browser.</p>]]></content>
+        <author>
+            <name>Isabel Paredes</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JupyterGIS breaks through to the next level]]></title>
+        <id>https://eo4society.esa.int/2025/10/16/jupytergis-breaks-through-to-the-next-level/</id>
+        <link href="https://eo4society.esa.int/2025/10/16/jupytergis-breaks-through-to-the-next-level/"/>
+        <updated>2025-10-16T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<img src="img/blogposts/resized-images/JupyterGIS-Next-Level.png" alt="Image for JupyterGIS breaks through to the next level" style="max-width:100%; height:auto;" /><p>Launched in June 2024, JupyterGIS was introduced as a collaborative, web-based GIS environment built on the JupyterLab framework. Its objective is to bring QGIS-inspired workflows into the browser…</p>]]></content>
+        <author>
+            <name>Martin Renou, Arjun Verma, Gregory Mooney</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sovereign Tech Agency Invests in Apache Arrow’s Future with QuantStack]]></title>
+        <id>https://medium.com/@QuantStack/sovereign-tech-agency-invests-in-apache-arrows-future-with-quantstack-d2f84c21c2cc</id>
+        <link href="https://medium.com/@QuantStack/sovereign-tech-agency-invests-in-apache-arrows-future-with-quantstack-d2f84c21c2cc"/>
+        <updated>2025-10-07T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<img src="img/blogposts/resized-images/STF-Arrow.png" alt="Image for Sovereign Tech Agency Invests in Apache Arrow’s Future with QuantStack" style="max-width:100%; height:auto;" /><p>We are thrilled to announce that the Sovereign Tech Fund is providing critical funding to sustain and improve Apache Arrow, an essential open-source project in the modern data ecosystem.</p>]]></content>
+        <author>
+            <name>Antoine Pitrou, Raúl Cumplido</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[From Linux Parties to Global Impact: An Interview with Sylvain Corlay, Founder of QuantStack]]></title>
+        <id>https://www.open-source-ward.com/from-linux-parties-to-global-impact-an-interview-with-sylvain-corlay-founder-of-quantstack/</id>
+        <link href="https://www.open-source-ward.com/from-linux-parties-to-global-impact-an-interview-with-sylvain-corlay-founder-of-quantstack/"/>
+        <updated>2025-09-18T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<img src="img/blogposts/resized-images/An-Interview-with-Sylvain-Corlay.png" alt="Image for From Linux Parties to Global Impact: An Interview with Sylvain Corlay, Founder of QuantStack" style="max-width:100%; height:auto;" /><p>In today’s article, we had the chance to speak with Sylvain Corlay, long-time contributor of the Jupyter project, used by millions of people worldwide, and CEO-founder of QuantStack, an open-source development company employing around thirty people.</p>]]></content>
+        <author>
+            <name>Sylvain Corlay, Arthur Vervaet</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Year in Review: QuantStack’s Contributions to Apache Arrow]]></title>
+        <id>https://medium.com/@QuantStack/a-year-in-review-quantstacks-contributions-to-apache-arrow-7eba38acbcf2</id>
+        <link href="https://medium.com/@QuantStack/a-year-in-review-quantstacks-contributions-to-apache-arrow-7eba38acbcf2"/>
+        <updated>2025-09-02T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<img src="img/blogposts/resized-images/Arrow-a-Year-in-Review.png" alt="Image for A Year in Review: QuantStack’s Contributions to Apache Arrow" style="max-width:100%; height:auto;" /><p>Since November 2024, QuantStack has been involved in the maintenance and development of Apache Arrow. We have a team of several engineers working…</p>]]></content>
+        <author>
+            <name>Antoine Pitrou, Raúl Cumplido</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Create your own layers in JupyterGIS]]></title>
         <id>https://david-brochart.medium.com/create-your-own-layers-in-jupytergis-cbb995a89b16</id>
@@ -28,7 +78,7 @@
         <updated>2025-06-19T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<img src="img/blogposts/resized-images/CPP-in-JupyterLite.png" alt="Image for C++ in Jupyter — Interpreting C++ in the Web" style="max-width:100%; height:auto;" /><p>Scientists and engineers utilize programming languages not only to build software systems but also to drive interactive exploratory workflows. They leverage developer tools to explore and reason through problems effectively.</p>]]></content>
         <author>
-            <name> Vassil Vassilev</name>
+            <name>Anutosh Bhat, Vassil Vassilev</name>
         </author>
     </entry>
     <entry>
@@ -88,7 +138,7 @@
         <updated>2025-02-26T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/Collaborative-GIS.png" alt="Image for Real-time collaboration and collaborative editing for GIS workflows with Jupyter and QGIS" style="max-width:100%; height:auto;" /><p>We are excited to announce JupyterGIS, a web-based, collaborative, and extensible interface for GIS, leveraging the JupyterLab application framework and integrating seamlessly with the Jupyter notebook interface.</p>]]></content>
         <author>
-            <name> Arjun Verma</name>
+            <name>Meriem Ben Ismail, Nicolas Brichet, David Brochart, Matt Fisher, Anne Fouilloux, Greg Mooney, Martin Renou, Arjun Verma</name>
         </author>
     </entry>
     <entry>
@@ -108,7 +158,7 @@
         <updated>2025-02-17T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/Announcing-JupyterCAD-3.0.png" alt="Image for Announcing JupyterCAD 3.0" style="max-width:100%; height:auto;" /><p>We are thrilled to introduce JupyterCAD 3.0, the newest version of the collaborative CAD modeler designed for JupyterLab.</p>]]></content>
         <author>
-            <name> Martin Renou</name>
+            <name>Arjun Verma, Trung Le, Martin Renou</name>
         </author>
     </entry>
     <entry>
@@ -118,7 +168,7 @@
         <updated>2025-01-31T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/sparrow.png" alt="Image for Sparrow" style="max-width:100%; height:auto;" /><p>We are thrilled to introduce Sparrow, a new library designed to simplify the integration of Apache Arrow’s columnar format into C++ applications.</p>]]></content>
         <author>
-            <name> Joël Lamotte</name>
+            <name>Johan Mabille, Alexis Placet, Thorsten Beier, Joël Lamotte</name>
         </author>
     </entry>
     <entry>
@@ -159,56 +209,6 @@
         <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/Interactive-Mapping-with-ipyopenlayers.png" alt="Image for Interactive Mapping with ipyopenlayers" style="max-width:100%; height:auto;" /><p> In this article, we present the main features of ipyopenlayers and demonstrate how this library can transform your geospatial data into dynamic, interactive visualizations.</p>]]></content>
         <author>
             <name>Nour Cheour</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Announcing the 2023 cohort of Jupyter distinguished contributors]]></title>
-        <id>https://blog.jupyter.org/announcing-the-2023-jupyter-distinguished-contributor-award-recipients-1b2cc4ba203f</id>
-        <link href="https://blog.jupyter.org/announcing-the-2023-jupyter-distinguished-contributor-award-recipients-1b2cc4ba203f"/>
-        <updated>2024-09-04T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/Announcing-the-2023-Jupyter-Distinguished-Contributors.png" alt="Image for Announcing the 2023 cohort of Jupyter distinguished contributors" style="max-width:100%; height:auto;" /><p>We are delighted to announce the recipients of the Jupyter Distinguished Contributor (JDC) award for the 2023 cohort.</p>]]></content>
-        <author>
-            <name> on behalf of the Jupyter Distinguished Contributors</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ipydatagrid is now part of Project Jupyter]]></title>
-        <id>https://blog.jupyter.org/ipydatagrid-is-now-part-of-project-jupyter-3b3dfb877664</id>
-        <link href="https://blog.jupyter.org/ipydatagrid-is-now-part-of-project-jupyter-3b3dfb877664"/>
-        <updated>2024-08-22T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/Ipydatagrid-is-now-part-of-ProjectJupyter.png" alt="Image for Ipydatagrid is now part of Project Jupyter" style="max-width:100%; height:auto;" /><p>Today, we are proud to announce that the ipydatagrid open source project has been incorporated into Project Jupyter as part of the Jupyter Widgets subproject.</p>]]></content>
-        <author>
-            <name> on behalf of the Jupyter Widgets Council</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Introducing Mamba 2.0]]></title>
-        <id>https://medium.com/@QuantStack/introducing-mamba-2-0-0e8d5c6d1d0c</id>
-        <link href="https://medium.com/@QuantStack/introducing-mamba-2-0-0e8d5c6d1d0c"/>
-        <updated>2024-07-16T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/Introducing-Mamba-2-0.png" alt="Image for Introducing Mamba 2.0" style="max-width:100%; height:auto;" /><p>We are excited to present the first release candidate of Mamba 2.0, a significant upgrade to the mamba package manager. This update brings considerable enhancements for both users and developers, following an extensive year-long development effort.</p>]]></content>
-        <author>
-            <name> Hind Montassif</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[QuantStack open-source internship program]]></title>
-        <id>https://medium.com/@QuantStack/quantstack-open-source-internship-program-049755b6d44b</id>
-        <link href="https://medium.com/@QuantStack/quantstack-open-source-internship-program-049755b6d44b"/>
-        <updated>2024-07-09T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/QuantStack-open-source-internship-program.png" alt="Image for QuantStack open-source internship program" style="max-width:100%; height:auto;" /><p>Today, we are announcing a new internship program that aims to empower a new cohort of open-source contributors and future maintainers to make an impact within our ecosystem.</p>]]></content>
-        <author>
-            <name>Sylvain Corlay</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JupyterCAD 2.0]]></title>
-        <id>https://medium.com/@QuantStack/jupytercad-2-0-4b9c4e18d22a</id>
-        <link href="https://medium.com/@QuantStack/jupytercad-2-0-4b9c4e18d22a"/>
-        <updated>2024-07-05T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/JupyterCAD-2-0.png" alt="Image for JupyterCAD 2.0" style="max-width:100%; height:auto;" /><p>We are thrilled to introduce JupyterCAD 2.0, the newest version of the JupyterLab-based CAD modeler.</p>]]></content>
-        <author>
-            <name> Martin Renou</name>
         </author>
     </entry>
 </feed>
