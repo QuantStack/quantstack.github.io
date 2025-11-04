@@ -4,9 +4,54 @@
         <description><![CDATA[RSS feed for QuantStack website blog page]]></description>
         <link>https://quantstack.net</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 30 Jul 2025 12:48:07 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 02 Nov 2025 12:40:26 GMT</lastBuildDate>
         <atom:link href="https://quantstack.net/rss_all.xml" rel="self" type="application/rss+xml"/>
         <language><![CDATA[en]]></language>
+        <item>
+            <title><![CDATA[GNU Octave Meets JupyterLite: Compute Anywhere, Anytime!]]></title>
+            <description><![CDATA[We are thrilled to announce the newest member of our JupyterLite kernel ecosystem: Xeus-Octave. Xeus-Octave allows you to run GNU Octave code directly on your browser.]]></description>
+            <link>https://blog.jupyter.org/gnu-octave-meets-jupyterlite-compute-anywhere-anytime-8b033afbbcdc</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/gnu-octave-meets-jupyterlite-compute-anywhere-anytime-8b033afbbcdc</guid>
+            <dc:creator><![CDATA[Isabel Paredes]]></dc:creator>
+            <pubDate>Thu, 16 Oct 2025 00:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.netimg/blogposts/resized-images/Octave-Lite.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[JupyterGIS breaks through to the next level]]></title>
+            <description><![CDATA[Launched in June 2024, JupyterGIS was introduced as a collaborative, web-based GIS environment built on the JupyterLab framework. Its objective is to bring QGIS-inspired workflows into the browser…]]></description>
+            <link>https://eo4society.esa.int/2025/10/16/jupytergis-breaks-through-to-the-next-level/</link>
+            <guid isPermaLink="true">https://eo4society.esa.int/2025/10/16/jupytergis-breaks-through-to-the-next-level/</guid>
+            <dc:creator><![CDATA[Martin Renou, Arjun Verma, Gregory Mooney]]></dc:creator>
+            <pubDate>Thu, 16 Oct 2025 00:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.netimg/blogposts/resized-images/JupyterGIS-Next-Level.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Sovereign Tech Agency Invests in Apache Arrow’s Future with QuantStack]]></title>
+            <description><![CDATA[We are thrilled to announce that the Sovereign Tech Fund is providing critical funding to sustain and improve Apache Arrow, an essential open-source project in the modern data ecosystem.]]></description>
+            <link>https://medium.com/@QuantStack/sovereign-tech-agency-invests-in-apache-arrows-future-with-quantstack-d2f84c21c2cc</link>
+            <guid isPermaLink="true">https://medium.com/@QuantStack/sovereign-tech-agency-invests-in-apache-arrows-future-with-quantstack-d2f84c21c2cc</guid>
+            <dc:creator><![CDATA[Antoine Pitrou, Raúl Cumplido]]></dc:creator>
+            <pubDate>Tue, 07 Oct 2025 00:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.netimg/blogposts/resized-images/STF-Arrow.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[From Linux Parties to Global Impact: An Interview with Sylvain Corlay, Founder of QuantStack]]></title>
+            <description><![CDATA[In today’s article, we had the chance to speak with Sylvain Corlay, long-time contributor of the Jupyter project, used by millions of people worldwide, and CEO-founder of QuantStack, an open-source development company employing around thirty people.]]></description>
+            <link>https://www.open-source-ward.com/from-linux-parties-to-global-impact-an-interview-with-sylvain-corlay-founder-of-quantstack/</link>
+            <guid isPermaLink="true">https://www.open-source-ward.com/from-linux-parties-to-global-impact-an-interview-with-sylvain-corlay-founder-of-quantstack/</guid>
+            <dc:creator><![CDATA[Sylvain Corlay, Arthur Vervaet]]></dc:creator>
+            <pubDate>Thu, 18 Sep 2025 00:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.netimg/blogposts/resized-images/An-Interview-with-Sylvain-Corlay.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[A Year in Review: QuantStack’s Contributions to Apache Arrow]]></title>
+            <description><![CDATA[Since November 2024, QuantStack has been involved in the maintenance and development of Apache Arrow. We have a team of several engineers working…]]></description>
+            <link>https://medium.com/@QuantStack/a-year-in-review-quantstacks-contributions-to-apache-arrow-7eba38acbcf2</link>
+            <guid isPermaLink="true">https://medium.com/@QuantStack/a-year-in-review-quantstacks-contributions-to-apache-arrow-7eba38acbcf2</guid>
+            <dc:creator><![CDATA[Antoine Pitrou, Raúl Cumplido]]></dc:creator>
+            <pubDate>Tue, 02 Sep 2025 00:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.netimg/blogposts/resized-images/Arrow-a-Year-in-Review.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Create your own layers in JupyterGIS]]></title>
             <description><![CDATA[JupyterGIS-tiler is a JupyterGIS extension that lets you use a notebook to process your (Xarray) data and make it available as raster tiles, so that it can be visualized in JupyterGIS.]]></description>
@@ -720,7 +765,7 @@
         </item>
         <item>
             <title><![CDATA[Interactive C++ for Data Science]]></title>
-            <description><![CDATA[This post will discuss some applications of Cling developed to support data science researchers. In particular, interactively probing data and interfaces makes complex libraries and complex data more accessible users.]]></description>
+            <description><![CDATA[This post will discuss some applications of Cling developed to support data science researchers. In particular, interactively probing data and interfaces makes complex libraries and complex data…]]></description>
             <link>https://blog.llvm.org/posts/2020-12-21-interactive-cpp-for-data-science/</link>
             <guid isPermaLink="true">https://blog.llvm.org/posts/2020-12-21-interactive-cpp-for-data-science/</guid>
             <dc:creator><![CDATA[Vassil Vassilev, David Lange, Simeon Ehrig, Sylvain Corlay]]></dc:creator>
