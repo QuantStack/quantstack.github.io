@@ -62,7 +62,7 @@ const config: Config = {
     [
       'docusaurus-plugin-plausible',
       {
-        domain: 'your-website.com',
+        domain: 'quantstack.net',
       },
     ]
   ],
