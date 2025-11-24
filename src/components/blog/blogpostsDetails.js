@@ -3,6 +3,15 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.blogpostsDetails = void 0;
 exports.blogpostsDetails = [
     {
+        "url": "https://blog.jupyter.org/jupyterlab-4-5-and-notebook-7-5-are-available-1bcd1fa19a47",
+        "title": "JupyterLab 4.5 and Notebook 7.5 are available!",
+        "image": "img/blogposts/resized-images/JupyterLab-45.png",
+        "summary": "JupyterLab 4.5 has been released! This new minor release of JupyterLab includes 51 new features and enhancements, 81 bug fixes, 44 maintenance tasks and 38 documentation improvements.",
+        "date": "2025-11-24",
+        "authors": "Jeremy Tuloup",
+        "imageID": "blogpost-image-142"
+    },
+    {
         "url": "https://blog.jupyter.org/gnu-octave-meets-jupyterlite-compute-anywhere-anytime-8b033afbbcdc",
         "title": "GNU Octave Meets JupyterLite: Compute Anywhere, Anytime!",
         "image": "img/blogposts/resized-images/Octave-Lite.png",
