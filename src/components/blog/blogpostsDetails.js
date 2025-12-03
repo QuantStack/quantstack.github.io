@@ -4,7 +4,7 @@ exports.blogpostsDetails = void 0;
 exports.blogpostsDetails = [
     {
         "url": "https://thenewstack.io/teaching-a-billion-people-to-code-how-jupyterlite-is-scaling-the-impossible/",
-        "title": "Teaching a Billion People to Code: How JupyterLite Is Scaling the Impossible: An Interview with Sylvain Corlay, Founder of QuantStack",
+        "title": "Teaching a Billion People to Code: How JupyterLite Is Scaling the Impossible",
         "image": "img/blogposts/resized-images/Teaching-a-Billion-People.png",
         "summary": "QuantStack, an “almost accidental startup,” is building a serverless distro of JupyterLab for Jupyter’s global adoption.",
         "date": "2025-12-01",
