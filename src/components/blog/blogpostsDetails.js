@@ -3,6 +3,15 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.blogpostsDetails = void 0;
 exports.blogpostsDetails = [
     {
+        "url": "https://thenewstack.io/teaching-a-billion-people-to-code-how-jupyterlite-is-scaling-the-impossible/",
+        "title": "Teaching a Billion People to Code: How JupyterLite Is Scaling the Impossible: An Interview with Sylvain Corlay, Founder of QuantStack",
+        "image": "img/blogposts/resized-images/Teaching-a-Billion-People.png",
+        "summary": "QuantStack, an “almost accidental startup,” is building a serverless distro of JupyterLab for Jupyter’s global adoption.",
+        "date": "2025-12-01",
+        "authors": "Michelle Gienow",
+        "imageID": "blogpost-image-143"
+    },
+    {
         "url": "https://blog.jupyter.org/jupyterlab-4-5-and-notebook-7-5-are-available-1bcd1fa19a47",
         "title": "JupyterLab 4.5 and Notebook 7.5 are available!",
         "image": "img/blogposts/resized-images/JupyterLab-45.png",
