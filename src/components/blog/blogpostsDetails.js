@@ -3,67 +3,76 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.blogpostsDetails = void 0;
 exports.blogpostsDetails = [
     {
-        "url": "https://thenewstack.io/teaching-a-billion-people-to-code-how-jupyterlite-is-scaling-the-impossible/",
-        "title": "Teaching a Billion People to Code: How JupyterLite Is Scaling the Impossible",
-        "image": "img/blogposts/resized-images/Teaching-a-Billion-People.png",
-        "summary": "QuantStack, an “almost accidental startup,” is building a serverless distro of JupyterLab for Jupyter’s global adoption.",
-        "date": "2025-12-01",
-        "authors": "Michelle Gienow",
-        "imageID": "blogpost-image-143"
+        url: "https://blog.jupyter.org/jupyterlite-0-7-is-released-67db4d1609ad",
+        title: "JupyterLite 0.7 is released! 🎉",
+        image: "img/blogposts/resized-images/JupyterLite-07.png",
+        summary: "The new 0.7 release includes a number of new features, bug fixes, and enhancements. This release also brings significant improvements to the user experience and new customization options for JupyterLite deployments.",
+        date: "2025-12-04",
+        authors: "Jeremy Tuloup",
+        imageID: "blogpost-image-144"
     },
     {
-        "url": "https://blog.jupyter.org/jupyterlab-4-5-and-notebook-7-5-are-available-1bcd1fa19a47",
-        "title": "JupyterLab 4.5 and Notebook 7.5 are available!",
-        "image": "img/blogposts/resized-images/JupyterLab-45.png",
-        "summary": "JupyterLab 4.5 has been released! This new minor release of JupyterLab includes 51 new features and enhancements, 81 bug fixes, 44 maintenance tasks and 38 documentation improvements.",
-        "date": "2025-11-24",
-        "authors": "Jeremy Tuloup",
-        "imageID": "blogpost-image-142"
+        url: "https://thenewstack.io/teaching-a-billion-people-to-code-how-jupyterlite-is-scaling-the-impossible/",
+        title: "Teaching a Billion People to Code: How JupyterLite Is Scaling the Impossible",
+        image: "img/blogposts/resized-images/Teaching-a-Billion-People.png",
+        summary: "QuantStack, an “almost accidental startup,” is building a serverless distro of JupyterLab for Jupyter’s global adoption.",
+        date: "2025-12-01",
+        authors: "Michelle Gienow",
+        imageID: "blogpost-image-143"
     },
     {
-        "url": "https://blog.jupyter.org/gnu-octave-meets-jupyterlite-compute-anywhere-anytime-8b033afbbcdc",
-        "title": "GNU Octave Meets JupyterLite: Compute Anywhere, Anytime!",
-        "image": "img/blogposts/resized-images/Octave-Lite.png",
-        "summary": "We are thrilled to announce the newest member of our JupyterLite kernel ecosystem: Xeus-Octave. Xeus-Octave allows you to run GNU Octave code directly on your browser.",
-        "date": "2025-10-16",
-        "authors": "Isabel Paredes",
-        "imageID": "blogpost-image-141"
+        url: "https://blog.jupyter.org/jupyterlab-4-5-and-notebook-7-5-are-available-1bcd1fa19a47",
+        title: "JupyterLab 4.5 and Notebook 7.5 are available!",
+        image: "img/blogposts/resized-images/JupyterLab-45.png",
+        summary: "JupyterLab 4.5 has been released! This new minor release of JupyterLab includes 51 new features and enhancements, 81 bug fixes, 44 maintenance tasks and 38 documentation improvements.",
+        date: "2025-11-24",
+        authors: "Jeremy Tuloup",
+        imageID: "blogpost-image-142"
     },
     {
-        "url": "https://eo4society.esa.int/2025/10/16/jupytergis-breaks-through-to-the-next-level/",
-        "title": "JupyterGIS breaks through to the next level",
-        "image": "img/blogposts/resized-images/JupyterGIS-Next-Level.png",
-        "summary": "Launched in June 2024, JupyterGIS was introduced as a collaborative, web-based GIS environment built on the JupyterLab framework. Its objective is to bring QGIS-inspired workflows into the browser…",
-        "date": "2025-10-16",
-        "authors": "Martin Renou, Arjun Verma, Gregory Mooney",
-        "imageID": "blogpost-image-140"
+        url: "https://blog.jupyter.org/gnu-octave-meets-jupyterlite-compute-anywhere-anytime-8b033afbbcdc",
+        title: "GNU Octave Meets JupyterLite: Compute Anywhere, Anytime!",
+        image: "img/blogposts/resized-images/Octave-Lite.png",
+        summary: "We are thrilled to announce the newest member of our JupyterLite kernel ecosystem: Xeus-Octave. Xeus-Octave allows you to run GNU Octave code directly on your browser.",
+        date: "2025-10-16",
+        authors: "Isabel Paredes",
+        imageID: "blogpost-image-141"
     },
     {
-        "url": "https://medium.com/@QuantStack/sovereign-tech-agency-invests-in-apache-arrows-future-with-quantstack-d2f84c21c2cc",
-        "title": "Sovereign Tech Agency Invests in Apache Arrow’s Future with QuantStack",
-        "image": "img/blogposts/resized-images/STF-Arrow.png",
-        "summary": "We are thrilled to announce that the Sovereign Tech Fund is providing critical funding to sustain and improve Apache Arrow, an essential open-source project in the modern data ecosystem.",
-        "date": "2025-10-07",
-        "authors": "Antoine Pitrou, Raúl Cumplido",
-        "imageID": "blogpost-image-139"
+        url: "https://eo4society.esa.int/2025/10/16/jupytergis-breaks-through-to-the-next-level/",
+        title: "JupyterGIS breaks through to the next level",
+        image: "img/blogposts/resized-images/JupyterGIS-Next-Level.png",
+        summary: "Launched in June 2024, JupyterGIS was introduced as a collaborative, web-based GIS environment built on the JupyterLab framework. Its objective is to bring QGIS-inspired workflows into the browser…",
+        date: "2025-10-16",
+        authors: "Martin Renou, Arjun Verma, Gregory Mooney",
+        imageID: "blogpost-image-140"
     },
     {
-        "url": "https://www.open-source-ward.com/from-linux-parties-to-global-impact-an-interview-with-sylvain-corlay-founder-of-quantstack/",
-        "title": "From Linux Parties to Global Impact: An Interview with Sylvain Corlay, Founder of QuantStack",
-        "image": "img/blogposts/resized-images/An-Interview-with-Sylvain-Corlay.png",
-        "summary": "In today’s article, we had the chance to speak with Sylvain Corlay, long-time contributor of the Jupyter project, used by millions of people worldwide, and CEO-founder of QuantStack, an open-source development company employing around thirty people.",
-        "date": "2025-09-18",
-        "authors": "Sylvain Corlay, Arthur Vervaet",
-        "imageID": "blogpost-image-138"
+        url: "https://medium.com/@QuantStack/sovereign-tech-agency-invests-in-apache-arrows-future-with-quantstack-d2f84c21c2cc",
+        title: "Sovereign Tech Agency Invests in Apache Arrow’s Future with QuantStack",
+        image: "img/blogposts/resized-images/STF-Arrow.png",
+        summary: "We are thrilled to announce that the Sovereign Tech Fund is providing critical funding to sustain and improve Apache Arrow, an essential open-source project in the modern data ecosystem.",
+        date: "2025-10-07",
+        authors: "Antoine Pitrou, Raúl Cumplido",
+        imageID: "blogpost-image-139"
     },
     {
-        "url": "https://medium.com/@QuantStack/a-year-in-review-quantstacks-contributions-to-apache-arrow-7eba38acbcf2",
-        "title": "A Year in Review: QuantStack’s Contributions to Apache Arrow",
-        "image": "img/blogposts/resized-images/Arrow-a-Year-in-Review.png",
-        "summary": "Since November 2024, QuantStack has been involved in the maintenance and development of Apache Arrow. We have a team of several engineers working…",
-        "date": "2025-09-02",
-        "authors": "Antoine Pitrou, Raúl Cumplido",
-        "imageID": "blogpost-image-137"
+        url: "https://www.open-source-ward.com/from-linux-parties-to-global-impact-an-interview-with-sylvain-corlay-founder-of-quantstack/",
+        title: "From Linux Parties to Global Impact: An Interview with Sylvain Corlay, Founder of QuantStack",
+        image: "img/blogposts/resized-images/An-Interview-with-Sylvain-Corlay.png",
+        summary: "In today’s article, we had the chance to speak with Sylvain Corlay, long-time contributor of the Jupyter project, used by millions of people worldwide, and CEO-founder of QuantStack, an open-source development company employing around thirty people.",
+        date: "2025-09-18",
+        authors: "Sylvain Corlay, Arthur Vervaet",
+        imageID: "blogpost-image-138"
+    },
+    {
+        url: "https://medium.com/@QuantStack/a-year-in-review-quantstacks-contributions-to-apache-arrow-7eba38acbcf2",
+        title: "A Year in Review: QuantStack’s Contributions to Apache Arrow",
+        image: "img/blogposts/resized-images/Arrow-a-Year-in-Review.png",
+        summary: "Since November 2024, QuantStack has been involved in the maintenance and development of Apache Arrow. We have a team of several engineers working…",
+        date: "2025-09-02",
+        authors: "Antoine Pitrou, Raúl Cumplido",
+        imageID: "blogpost-image-137"
     },
     {
         url: "https://david-brochart.medium.com/create-your-own-layers-in-jupytergis-cbb995a89b16",
