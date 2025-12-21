@@ -44,7 +44,7 @@ exports.blogpostsDetails = [
         image: "img/blogposts/resized-images/JupyterGIS-Next-Level.png",
         summary: "Launched in June 2024, JupyterGIS was introduced as a collaborative, web-based GIS environment built on the JupyterLab framework. Its objective is to bring QGIS-inspired workflows into the browser…",
         date: "2025-10-16",
-        authors: "Martin Renou, Arjun Verma, Gregory Mooney",
+        authors: "Martin Renou, Arjun Verma, Gregory Mooney, Sylvain Corlay",
         imageID: "blogpost-image-140"
     },
     {
