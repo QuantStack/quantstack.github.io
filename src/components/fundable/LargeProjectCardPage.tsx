@@ -1,19 +1,19 @@
-import React from 'react';
-import Layout from '@theme/Layout';
-import { useHistory, useLocation } from '@docusaurus/router';
-import { useEffect } from 'react';
+import { useHistory, useLocation } from "@docusaurus/router";
+import { useEffect } from "react";
+import styles from "./styles.module.css";
+import LargeProjectCard from "./LargeProjectCard";
+import { getCategoryFromProjectPageName } from ".";
+import FundableProjects from ".";
+import Layout from "@theme/Layout";
 import { Route } from 'react-router-dom';
-import { About } from '@site/src/components/about'
-import LargePortraitCard from '@site/src/components/about/LargePortraitCard';
-import { getTeamByPageName } from '@site/src/components/about';
-import styles from "@site/src/components/about/styles.module.css";
 
-export default function LargePortraitCardPage() {
+
+export default function LargeProjectCardPage() {
   const location = useLocation();
   const history = useHistory();
 
   useEffect(() => {
-    if (location.state?.fromAbout) {
+    if (location.state?.fromFundable) {
       window.scrollTo({ top: location.state.scrollY ?? 0, behavior: 'auto' });
     }
   }, []);
@@ -25,13 +25,13 @@ export default function LargePortraitCardPage() {
         window.scrollTo({ top: scrollY, behavior: 'auto' });
       }
     }, 0);
-      history.replace('/about');
+    history.replace('/fundable');
   };
 
   const handleClose = () => {
     const scrollY = location.state?.scrollY;
-    if (location.state?.fromAbout) {
-      history.replace('/about');
+    if (location.state?.fromFundable) {
+      history.replace('/fundable');
 
       setTimeout(() => {
         if (scrollY !== undefined) {
@@ -44,14 +44,14 @@ export default function LargePortraitCardPage() {
   }
   return (
     <Layout>
-      <About />
+      <FundableProjects />
       <Route
-        path="/about/:pageName"
+        path="/fundable/:pageName"
         render={({ match }) => {
           const { pageName } = match.params; /* extract the dynamic part from the url i.e. the pageName*/
-          const teamMembers = getTeamByPageName(pageName);
-          const person = teamMembers.find((person) => person.pageName== pageName);
-          if (!person) return null;
+          const projectsByCategory = getCategoryFromProjectPageName(pageName);
+          const project = projectsByCategory.find((project) => project.pageName === pageName);
+          if (!project) return null;
 
           return (
             <div className={styles.project_dialog_overlay} onClick={handleOverlayClick}>
@@ -68,7 +68,7 @@ export default function LargePortraitCardPage() {
                   }}
                   onClick={handleClose}
                 />
-                <LargePortraitCard person={person} />
+                <LargeProjectCard project={project} />
               </div>
             </div>
           );
@@ -77,4 +77,3 @@ export default function LargePortraitCardPage() {
     </Layout>
   )
 }
-

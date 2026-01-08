@@ -88,7 +88,7 @@ const config: Config = {
       title: "",
       logo: {
         alt: "QuantStack Logo",
-        src: "img/quantstack/logo-website.svg",
+        src: "img/quantstack/logo-website-smaller.svg",
       },
 
       items: [
@@ -123,8 +123,14 @@ const config: Config = {
           position: "left",
         },
         {
+          to: "/fundable/",
+          label: "Fundable projects",
+          position: "right",
+          className:"fundable_projects"
+        },
+        {
           to: "/contact/",
-          label: "CONTACT US",
+          label: "Contact us",
           position: "right",
           className: "contact",
         },
