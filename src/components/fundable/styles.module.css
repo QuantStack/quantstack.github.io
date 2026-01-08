@@ -145,7 +145,7 @@
 .send_button {
   width: 258px;
   height: 59px;
-  background: var(--ifm-color-blue-jupyter);
+  background-color: var(--ifm-color-orange-jupyter);
 }
 
 

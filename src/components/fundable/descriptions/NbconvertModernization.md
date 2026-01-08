@@ -5,14 +5,4 @@ Nbconvert heavily relies on Jinja2 templates for conversion to different formats
 
 We will utilize a JavaScript implementation of Jinja2 covering the required features of Jinja to produce a frontend version of nbconvert that does not require Python but still provides a good coverage of the nbconvert features, including the use of custom templates.
 
-#### Option A
-This is option A.
-
-#### Option B
-This is option B.
-
-#### Custom option
-This is custom option.
-
-
 ##### Are you interested in this project? Either entirely or partially, contact us for more information on how to help us fund it

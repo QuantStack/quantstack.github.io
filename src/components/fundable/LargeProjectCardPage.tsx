@@ -1,12 +1,12 @@
-import { useHistory, useLocation } from "@docusaurus/router";
-import { useEffect } from "react";
-import styles from "./styles.module.css";
-import LargeProjectCard from "./LargeProjectCard";
-import { getCategoryFromProjectPageName } from ".";
-import FundableProjects from ".";
-import Layout from "@theme/Layout";
+import React from 'react';
+import Layout from '@theme/Layout';
+import { useHistory, useLocation } from '@docusaurus/router';
+import { useEffect } from 'react';
 import { Route } from 'react-router-dom';
-
+import { getCategoryFromProjectPageName } from ".";
+import styles from "@site/src/components/about/styles.module.css";
+import FundableProjects from '.';
+import LargeProjectCard from './LargeProjectCard';
 
 export default function LargeProjectCardPage() {
   const location = useLocation();
@@ -51,6 +51,7 @@ export default function LargeProjectCardPage() {
           const { pageName } = match.params; /* extract the dynamic part from the url i.e. the pageName*/
           const projectsByCategory = getCategoryFromProjectPageName(pageName);
           const project = projectsByCategory.find((project) => project.pageName === pageName);
+          console.log('project:', project)
           if (!project) return null;
 
           return (
@@ -68,7 +69,7 @@ export default function LargeProjectCardPage() {
                   }}
                   onClick={handleClose}
                 />
-                <LargeProjectCard project={project} />
+                <LargeProjectCard project={project}/>
               </div>
             </div>
           );
@@ -77,3 +78,4 @@ export default function LargeProjectCardPage() {
     </Layout>
   )
 }
+

@@ -15,8 +15,8 @@ function GetAQuoteComponent({ project }) {
                 <div className={"col col--6" + " " + styles.get_a_quote_text_col_desktop}>
                     <LargeProjectCardContent project={project} />
                 </div>
-                <div className={"col col--5 col--offset-1" + " " + styles.get_a_quote_form_col_desktop}>
-                    <h1 className={"padding-none"}> Get a quote</h1>
+                <div className={"col col--6 " + " " + styles.get_a_quote_form_col_desktop}>
+                    <h1 className={"padding-none text--center"}> Get a quote</h1>
                     <div ><GetAQuoteForm /></div>
                 </div>
                 <div className={"col col--12" + " " + styles.get_a_quote_form_col_mobile}>

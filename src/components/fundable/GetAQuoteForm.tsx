@@ -80,7 +80,7 @@ export default function GetAQuoteForm() {
           </div>
         </div>
         <div className={"flex-full-centered" + " " + styles.send_button_container}>
-          <input type="submit" value="SEND" className={"link-to-button" + " " + styles.send_button} />
+          <input type="submit" value="SEND MESSAGE" className={"link-to-button" + " " + styles.send_button} />
         </div>
       </form>
     </div>

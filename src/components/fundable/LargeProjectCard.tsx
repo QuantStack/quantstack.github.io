@@ -1,6 +1,5 @@
 import styles from "./styles.module.css";
 import React from "react";
-import IconContainer from "./IconContainer";
 import LinkToGetAQuote from "./LinkToGetAQuote";
 import { useHistory, useLocation } from "@docusaurus/router";
 
@@ -43,7 +42,7 @@ export default function LargeProjectCard({ project }) {
             <LargeProjectCardContent project={project} />
             <div className="row">
                 <div className="col col--12">
-                    <div><LinkToGetAQuote label={"GET A QUOTE"} pageName={project.pageName} /></div>
+                   <div><LinkToGetAQuote label={"GET A QUOTE"} pageName={project.pageName} /></div>
                 </div>
             </div>
         </div>
