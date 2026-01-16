@@ -33,7 +33,7 @@
     "@mui/material": "^6.1.5",
     "@mui/styles": "^6.1.5",
     "autoprefixer": "^10.4.19",
-    "canvas": "^2.11.2",
+    "canvas": "^3.2.1",
     "clsx": "^2.0.0",
     "curl": "^0.1.4",
     "docusaurus-plugin-plausible": "^0.0.5",
