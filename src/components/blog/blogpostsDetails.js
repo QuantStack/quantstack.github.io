@@ -3,6 +3,15 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.blogpostsDetails = void 0;
 exports.blogpostsDetails = [
     {
+        url: "https://medium.com/@QuantStack/introducing-notebook-link-the-future-of-notebook-sharing-5de900a97b4a",
+        title: "Introducing notebook.link: The Future of Notebook Sharing",
+        image: "img/blogposts/resized-images/Introducing-Notebook-Link.png",
+        summary: "We are excited to unveil notebook.link, a groundbreaking platform that simplifies sharing and running notebooks like never before.",
+        date: "2026-01-22",
+        authors: "QuantStack",
+        imageID: "blogpost-image-145"
+    },
+    {
         url: "https://blog.jupyter.org/jupyterlite-0-7-is-released-67db4d1609ad",
         title: "JupyterLite 0.7 is released! 🎉",
         image: "img/blogposts/resized-images/JupyterLite-07.png",
