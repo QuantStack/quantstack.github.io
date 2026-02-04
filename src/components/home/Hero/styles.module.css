@@ -11,7 +11,72 @@
   padding-bottom: var(--ifm-spacing-3xl);
 }
 
+.banner_container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-image: url('/img/banner/notebook-link-banner.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 464px;
+  padding-bottom: 110px;
+}
+
+.banner_image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.banner_text_overlay {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: white;
+  /* or whatever contrasts with your SVG */
+  font-size: 2rem;
+  font-family: var(--ifm-font-family-kode-mono);
+}
+
+.banner_text_overlay_title {
+  font-size: 48px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 100%;
+}
+
+.banner_text_overlay_subtitle {
+  font-size: 32px;
+  font-style: normal;
+}
+
+.notebook_link {
+  color: #FCF12B;
+  font-weight: 700;
+  font-style: bold;
+  line-height: 100%;
+  font-family: var(--ifm-font-family-inter);
+}
+
+.link_to_notebook_link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg,
+      #5242FF,
+      #2A2A2A);
+  color: white;
+  width: 358px;
+  font-weight: 700;
+  font-family: var(--ifm-font-family-roboto);
+  font-weight: 600;
+  font-size: 24px;
+}
+
 @media only screen and (max-width: 996px) {
+
   /*Mobile*/
   .logos_carousel {
     display: none;
@@ -19,6 +84,7 @@
 }
 
 @media only screen and (min-width: 996px) {
+
   /*Desktop*/
   .table_with_8_customers {
     margin-bottom: var(--ifm-spacing-xl);
