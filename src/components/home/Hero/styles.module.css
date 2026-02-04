@@ -60,7 +60,7 @@
   font-family: var(--ifm-font-family-inter);
 }
 
-.link_to_notebook_link {
+:global(.link-to-button).link_to_notebook_link {
   display: flex;
   align-items: center;
   justify-content: center;
