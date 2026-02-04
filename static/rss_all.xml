@@ -4,9 +4,54 @@
         <description><![CDATA[RSS feed for QuantStack website blog page]]></description>
         <link>https://quantstack.net</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 02 Nov 2025 12:40:26 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 04 Feb 2026 13:08:35 GMT</lastBuildDate>
         <atom:link href="https://quantstack.net/rss_all.xml" rel="self" type="application/rss+xml"/>
         <language><![CDATA[en]]></language>
+        <item>
+            <title><![CDATA[Instantly view Parquet files in JupyterLab with Arbalister]]></title>
+            <description><![CDATA[Arbalister is a JupyterLab extension that enables seamless viewing of many tabular file formats, including Parquet, CSV, Avro, ORC, and SQLite.]]></description>
+            <link>https://blog.jupyter.org/instantly-view-parquet-files-in-jupyterlab-with-arbalister-4799c28bbce7</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/instantly-view-parquet-files-in-jupyterlab-with-arbalister-4799c28bbce7</guid>
+            <dc:creator><![CDATA[Antoine Prouvost]]></dc:creator>
+            <pubDate>Thu, 29 Jan 2026 00:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.netimg/blogposts/resized-images/Arbalister.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Introducing notebook.link: The Future of Notebook Sharing]]></title>
+            <description><![CDATA[We are excited to unveil notebook.link, a groundbreaking platform that simplifies sharing and running notebooks like never before.]]></description>
+            <link>https://medium.com/@QuantStack/introducing-notebook-link-the-future-of-notebook-sharing-5de900a97b4a</link>
+            <guid isPermaLink="true">https://medium.com/@QuantStack/introducing-notebook-link-the-future-of-notebook-sharing-5de900a97b4a</guid>
+            <dc:creator><![CDATA[QuantStack]]></dc:creator>
+            <pubDate>Thu, 22 Jan 2026 00:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.netimg/blogposts/resized-images/Introducing-Notebook-Link.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[JupyterLite 0.7 is released! 🎉]]></title>
+            <description><![CDATA[The new 0.7 release includes a number of new features, bug fixes, and enhancements. This release also brings significant improvements to the user experience and new customization options for JupyterLite deployments.]]></description>
+            <link>https://blog.jupyter.org/jupyterlite-0-7-is-released-67db4d1609ad</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/jupyterlite-0-7-is-released-67db4d1609ad</guid>
+            <dc:creator><![CDATA[Jeremy Tuloup]]></dc:creator>
+            <pubDate>Thu, 04 Dec 2025 00:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.netimg/blogposts/resized-images/JupyterLite-07.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Teaching a Billion People to Code: How JupyterLite Is Scaling the Impossible]]></title>
+            <description><![CDATA[QuantStack, an “almost accidental startup,” is building a serverless distro of JupyterLab for Jupyter’s global adoption.]]></description>
+            <link>https://thenewstack.io/teaching-a-billion-people-to-code-how-jupyterlite-is-scaling-the-impossible/</link>
+            <guid isPermaLink="true">https://thenewstack.io/teaching-a-billion-people-to-code-how-jupyterlite-is-scaling-the-impossible/</guid>
+            <dc:creator><![CDATA[Michelle Gienow]]></dc:creator>
+            <pubDate>Mon, 01 Dec 2025 00:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.netimg/blogposts/resized-images/Teaching-a-Billion-People.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[JupyterLab 4.5 and Notebook 7.5 are available!]]></title>
+            <description><![CDATA[JupyterLab 4.5 has been released! This new minor release of JupyterLab includes 51 new features and enhancements, 81 bug fixes, 44 maintenance tasks and 38 documentation improvements.]]></description>
+            <link>https://blog.jupyter.org/jupyterlab-4-5-and-notebook-7-5-are-available-1bcd1fa19a47</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/jupyterlab-4-5-and-notebook-7-5-are-available-1bcd1fa19a47</guid>
+            <dc:creator><![CDATA[Jeremy Tuloup]]></dc:creator>
+            <pubDate>Mon, 24 Nov 2025 00:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.netimg/blogposts/resized-images/JupyterLab-45.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[GNU Octave Meets JupyterLite: Compute Anywhere, Anytime!]]></title>
             <description><![CDATA[We are thrilled to announce the newest member of our JupyterLite kernel ecosystem: Xeus-Octave. Xeus-Octave allows you to run GNU Octave code directly on your browser.]]></description>
@@ -21,7 +66,7 @@
             <description><![CDATA[Launched in June 2024, JupyterGIS was introduced as a collaborative, web-based GIS environment built on the JupyterLab framework. Its objective is to bring QGIS-inspired workflows into the browser…]]></description>
             <link>https://eo4society.esa.int/2025/10/16/jupytergis-breaks-through-to-the-next-level/</link>
             <guid isPermaLink="true">https://eo4society.esa.int/2025/10/16/jupytergis-breaks-through-to-the-next-level/</guid>
-            <dc:creator><![CDATA[Martin Renou, Arjun Verma, Gregory Mooney]]></dc:creator>
+            <dc:creator><![CDATA[Martin Renou, Arjun Verma, Gregory Mooney, Sylvain Corlay]]></dc:creator>
             <pubDate>Thu, 16 Oct 2025 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.netimg/blogposts/resized-images/JupyterGIS-Next-Level.png" length="0" type="image/png"/>
         </item>

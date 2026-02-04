@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://quantstack.net/</id>
     <title>Recent blog posts featured by QuantStack team</title>
-    <updated>2025-11-02T12:40:26.413Z</updated>
+    <updated>2026-02-04T13:08:35.577Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>QuantStack Team</name>
@@ -11,6 +11,56 @@
     <link rel="alternate" href="https://quantstack.net/"/>
     <link rel="self" href="https://quantstack.net/atom.xml"/>
     <subtitle>Atom feed for QuantStack website blog page</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Instantly view Parquet files in JupyterLab with Arbalister]]></title>
+        <id>https://blog.jupyter.org/instantly-view-parquet-files-in-jupyterlab-with-arbalister-4799c28bbce7</id>
+        <link href="https://blog.jupyter.org/instantly-view-parquet-files-in-jupyterlab-with-arbalister-4799c28bbce7"/>
+        <updated>2026-01-29T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<img src="img/blogposts/resized-images/Arbalister.png" alt="Image for Instantly view Parquet files in JupyterLab with Arbalister" style="max-width:100%; height:auto;" /><p>Arbalister is a JupyterLab extension that enables seamless viewing of many tabular file formats, including Parquet, CSV, Avro, ORC, and SQLite.</p>]]></content>
+        <author>
+            <name>Antoine Prouvost</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing notebook.link: The Future of Notebook Sharing]]></title>
+        <id>https://medium.com/@QuantStack/introducing-notebook-link-the-future-of-notebook-sharing-5de900a97b4a</id>
+        <link href="https://medium.com/@QuantStack/introducing-notebook-link-the-future-of-notebook-sharing-5de900a97b4a"/>
+        <updated>2026-01-22T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<img src="img/blogposts/resized-images/Introducing-Notebook-Link.png" alt="Image for Introducing notebook.link: The Future of Notebook Sharing" style="max-width:100%; height:auto;" /><p>We are excited to unveil notebook.link, a groundbreaking platform that simplifies sharing and running notebooks like never before.</p>]]></content>
+        <author>
+            <name>QuantStack</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JupyterLite 0.7 is released! 🎉]]></title>
+        <id>https://blog.jupyter.org/jupyterlite-0-7-is-released-67db4d1609ad</id>
+        <link href="https://blog.jupyter.org/jupyterlite-0-7-is-released-67db4d1609ad"/>
+        <updated>2025-12-04T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<img src="img/blogposts/resized-images/JupyterLite-07.png" alt="Image for JupyterLite 0.7 is released! 🎉" style="max-width:100%; height:auto;" /><p>The new 0.7 release includes a number of new features, bug fixes, and enhancements. This release also brings significant improvements to the user experience and new customization options for JupyterLite deployments.</p>]]></content>
+        <author>
+            <name>Jeremy Tuloup</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Teaching a Billion People to Code: How JupyterLite Is Scaling the Impossible]]></title>
+        <id>https://thenewstack.io/teaching-a-billion-people-to-code-how-jupyterlite-is-scaling-the-impossible/</id>
+        <link href="https://thenewstack.io/teaching-a-billion-people-to-code-how-jupyterlite-is-scaling-the-impossible/"/>
+        <updated>2025-12-01T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<img src="img/blogposts/resized-images/Teaching-a-Billion-People.png" alt="Image for Teaching a Billion People to Code: How JupyterLite Is Scaling the Impossible" style="max-width:100%; height:auto;" /><p>QuantStack, an “almost accidental startup,” is building a serverless distro of JupyterLab for Jupyter’s global adoption.</p>]]></content>
+        <author>
+            <name>Michelle Gienow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JupyterLab 4.5 and Notebook 7.5 are available!]]></title>
+        <id>https://blog.jupyter.org/jupyterlab-4-5-and-notebook-7-5-are-available-1bcd1fa19a47</id>
+        <link href="https://blog.jupyter.org/jupyterlab-4-5-and-notebook-7-5-are-available-1bcd1fa19a47"/>
+        <updated>2025-11-24T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<img src="img/blogposts/resized-images/JupyterLab-45.png" alt="Image for JupyterLab 4.5 and Notebook 7.5 are available!" style="max-width:100%; height:auto;" /><p>JupyterLab 4.5 has been released! This new minor release of JupyterLab includes 51 new features and enhancements, 81 bug fixes, 44 maintenance tasks and 38 documentation improvements.</p>]]></content>
+        <author>
+            <name>Jeremy Tuloup</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GNU Octave Meets JupyterLite: Compute Anywhere, Anytime!]]></title>
         <id>https://blog.jupyter.org/gnu-octave-meets-jupyterlite-compute-anywhere-anytime-8b033afbbcdc</id>
@@ -28,7 +78,7 @@
         <updated>2025-10-16T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<img src="img/blogposts/resized-images/JupyterGIS-Next-Level.png" alt="Image for JupyterGIS breaks through to the next level" style="max-width:100%; height:auto;" /><p>Launched in June 2024, JupyterGIS was introduced as a collaborative, web-based GIS environment built on the JupyterLab framework. Its objective is to bring QGIS-inspired workflows into the browser…</p>]]></content>
         <author>
-            <name>Martin Renou, Arjun Verma, Gregory Mooney</name>
+            <name>Martin Renou, Arjun Verma, Gregory Mooney, Sylvain Corlay</name>
         </author>
     </entry>
     <entry>
@@ -159,56 +209,6 @@
         <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/Announcing-JupyterCAD-3.0.png" alt="Image for Announcing JupyterCAD 3.0" style="max-width:100%; height:auto;" /><p>We are thrilled to introduce JupyterCAD 3.0, the newest version of the collaborative CAD modeler designed for JupyterLab.</p>]]></content>
         <author>
             <name>Arjun Verma, Trung Le, Martin Renou</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sparrow]]></title>
-        <id>https://johan-mabille.medium.com/sparrow-1f23817f6696</id>
-        <link href="https://johan-mabille.medium.com/sparrow-1f23817f6696"/>
-        <updated>2025-01-31T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/sparrow.png" alt="Image for Sparrow" style="max-width:100%; height:auto;" /><p>We are thrilled to introduce Sparrow, a new library designed to simplify the integration of Apache Arrow’s columnar format into C++ applications.</p>]]></content>
-        <author>
-            <name>Johan Mabille, Alexis Placet, Thorsten Beier, Joël Lamotte</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JupyterLite Terminal]]></title>
-        <id>https://blog.jupyter.org/jupyterlite-terminal-edb3f80dc1c0</id>
-        <link href="https://blog.jupyter.org/jupyterlite-terminal-edb3f80dc1c0"/>
-        <updated>2024-11-13T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/Jupyterlite-Terminal.png" alt="Image for JupyterLite Terminal" style="max-width:100%; height:auto;" /><p>QuantStack are delighted to announce that we have been working on a new Terminal for JupyterLite.</p>]]></content>
-        <author>
-            <name>Ian Thomas</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Automate your releases with the Jupyter Releaser 🚀]]></title>
-        <id>https://blog.jupyter.org/automate-your-releases-with-the-jupyter-releaser-701e7b9841e6</id>
-        <link href="https://blog.jupyter.org/automate-your-releases-with-the-jupyter-releaser-701e7b9841e6"/>
-        <updated>2024-10-28T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/Automate-releases-jupyter-releaser.png" alt="Image for Automate your releases with the Jupyter Releaser 🚀" style="max-width:100%; height:auto;" /><p>Jupyter Releaser is an automation tool developed by the Jupyter team to streamline and standardize the release process across Jupyter projects.</p>]]></content>
-        <author>
-            <name>Jeremy Tuloup</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[QuantStack Steps Up to Support Apache Arrow with New Dedicated Team]]></title>
-        <id>https://medium.com/@QuantStack/quantstack-steps-up-to-support-apache-arrow-with-new-dedicated-team-9ddc952f20e2</id>
-        <link href="https://medium.com/@QuantStack/quantstack-steps-up-to-support-apache-arrow-with-new-dedicated-team-9ddc952f20e2"/>
-        <updated>2024-10-22T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/QuantStack-Steps-Up-to-Support-Apache-Arrow-with-New-Dedicated-Team.png" alt="Image for QuantStack Steps Up to Support Apache Arrow with New Dedicated Team" style="max-width:100%; height:auto;" /><p> We are thrilled to announce that QuantStack is starting a new team dedicated to the maintenance and development of Apache Arrow.</p>]]></content>
-        <author>
-            <name>Sylvain Corlay</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Interactive Mapping with ipyopenlayers]]></title>
-        <id>https://blog.jupyter.org/interactive-mapping-with-ipyopenlayers-2b8bc93bb6c4</id>
-        <link href="https://blog.jupyter.org/interactive-mapping-with-ipyopenlayers-2b8bc93bb6c4"/>
-        <updated>2024-09-06T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/Interactive-Mapping-with-ipyopenlayers.png" alt="Image for Interactive Mapping with ipyopenlayers" style="max-width:100%; height:auto;" /><p> In this article, we present the main features of ipyopenlayers and demonstrate how this library can transform your geospatial data into dynamic, interactive visualizations.</p>]]></content>
-        <author>
-            <name>Nour Cheour</name>
         </author>
     </entry>
 </feed>
