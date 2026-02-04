@@ -3,6 +3,15 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.blogpostsDetails = void 0;
 exports.blogpostsDetails = [
     {
+        url: "https://blog.jupyter.org/instantly-view-parquet-files-in-jupyterlab-with-arbalister-4799c28bbce7",
+        title: "Instantly view Parquet files in JupyterLab with Arbalister",
+        image: "img/blogposts/resized-images/Arbalister.png",
+        summary: "Arbalister is a JupyterLab extension that enables seamless viewing of many tabular file formats, including Parquet, CSV, Avro, ORC, and SQLite.",
+        date: "2026-01-29",
+        authors: "Antoine Prouvost",
+        imageID: "blogpost-image-146"
+    },
+    {
         url: "https://medium.com/@QuantStack/introducing-notebook-link-the-future-of-notebook-sharing-5de900a97b4a",
         title: "Introducing notebook.link: The Future of Notebook Sharing",
         image: "img/blogposts/resized-images/Introducing-Notebook-Link.png",
