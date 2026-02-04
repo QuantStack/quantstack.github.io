@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://quantstack.net/</id>
     <title>Recent blog posts featured by QuantStack team</title>
-    <updated>2026-02-04T10:49:04.161Z</updated>
+    <updated>2026-02-04T13:08:35.577Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>QuantStack Team</name>
@@ -11,6 +11,26 @@
     <link rel="alternate" href="https://quantstack.net/"/>
     <link rel="self" href="https://quantstack.net/atom.xml"/>
     <subtitle>Atom feed for QuantStack website blog page</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Instantly view Parquet files in JupyterLab with Arbalister]]></title>
+        <id>https://blog.jupyter.org/instantly-view-parquet-files-in-jupyterlab-with-arbalister-4799c28bbce7</id>
+        <link href="https://blog.jupyter.org/instantly-view-parquet-files-in-jupyterlab-with-arbalister-4799c28bbce7"/>
+        <updated>2026-01-29T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<img src="img/blogposts/resized-images/Arbalister.png" alt="Image for Instantly view Parquet files in JupyterLab with Arbalister" style="max-width:100%; height:auto;" /><p>Arbalister is a JupyterLab extension that enables seamless viewing of many tabular file formats, including Parquet, CSV, Avro, ORC, and SQLite.</p>]]></content>
+        <author>
+            <name>Antoine Prouvost</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing notebook.link: The Future of Notebook Sharing]]></title>
+        <id>https://medium.com/@QuantStack/introducing-notebook-link-the-future-of-notebook-sharing-5de900a97b4a</id>
+        <link href="https://medium.com/@QuantStack/introducing-notebook-link-the-future-of-notebook-sharing-5de900a97b4a"/>
+        <updated>2026-01-22T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<img src="img/blogposts/resized-images/Introducing-Notebook-Link.png" alt="Image for Introducing notebook.link: The Future of Notebook Sharing" style="max-width:100%; height:auto;" /><p>We are excited to unveil notebook.link, a groundbreaking platform that simplifies sharing and running notebooks like never before.</p>]]></content>
+        <author>
+            <name>QuantStack</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[JupyterLite 0.7 is released! 🎉]]></title>
         <id>https://blog.jupyter.org/jupyterlite-0-7-is-released-67db4d1609ad</id>
@@ -189,26 +209,6 @@
         <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/Announcing-JupyterCAD-3.0.png" alt="Image for Announcing JupyterCAD 3.0" style="max-width:100%; height:auto;" /><p>We are thrilled to introduce JupyterCAD 3.0, the newest version of the collaborative CAD modeler designed for JupyterLab.</p>]]></content>
         <author>
             <name>Arjun Verma, Trung Le, Martin Renou</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sparrow]]></title>
-        <id>https://johan-mabille.medium.com/sparrow-1f23817f6696</id>
-        <link href="https://johan-mabille.medium.com/sparrow-1f23817f6696"/>
-        <updated>2025-01-31T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/sparrow.png" alt="Image for Sparrow" style="max-width:100%; height:auto;" /><p>We are thrilled to introduce Sparrow, a new library designed to simplify the integration of Apache Arrow’s columnar format into C++ applications.</p>]]></content>
-        <author>
-            <name>Johan Mabille, Alexis Placet, Thorsten Beier, Joël Lamotte</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JupyterLite Terminal]]></title>
-        <id>https://blog.jupyter.org/jupyterlite-terminal-edb3f80dc1c0</id>
-        <link href="https://blog.jupyter.org/jupyterlite-terminal-edb3f80dc1c0"/>
-        <updated>2024-11-13T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/Jupyterlite-Terminal.png" alt="Image for JupyterLite Terminal" style="max-width:100%; height:auto;" /><p>QuantStack are delighted to announce that we have been working on a new Terminal for JupyterLite.</p>]]></content>
-        <author>
-            <name>Ian Thomas</name>
         </author>
     </entry>
 </feed>

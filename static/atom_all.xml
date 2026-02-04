@@ -2,9 +2,29 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id/>
     <title>All blog posts featured by QuantStack team</title>
-    <updated>2026-02-04T10:49:04.167Z</updated>
+    <updated>2026-02-04T13:08:35.584Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <subtitle>Atom feed for QuantStack website blog page</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Instantly view Parquet files in JupyterLab with Arbalister]]></title>
+        <id>https://blog.jupyter.org/instantly-view-parquet-files-in-jupyterlab-with-arbalister-4799c28bbce7</id>
+        <link href="https://blog.jupyter.org/instantly-view-parquet-files-in-jupyterlab-with-arbalister-4799c28bbce7"/>
+        <updated>2026-01-29T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<img src="img/blogposts/resized-images/Arbalister.png" alt="Image for Instantly view Parquet files in JupyterLab with Arbalister" style="max-width:100%; height:auto;" /><p>Arbalister is a JupyterLab extension that enables seamless viewing of many tabular file formats, including Parquet, CSV, Avro, ORC, and SQLite.</p>]]></content>
+        <author>
+            <name>Antoine Prouvost</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing notebook.link: The Future of Notebook Sharing]]></title>
+        <id>https://medium.com/@QuantStack/introducing-notebook-link-the-future-of-notebook-sharing-5de900a97b4a</id>
+        <link href="https://medium.com/@QuantStack/introducing-notebook-link-the-future-of-notebook-sharing-5de900a97b4a"/>
+        <updated>2026-01-22T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<img src="img/blogposts/resized-images/Introducing-Notebook-Link.png" alt="Image for Introducing notebook.link: The Future of Notebook Sharing" style="max-width:100%; height:auto;" /><p>We are excited to unveil notebook.link, a groundbreaking platform that simplifies sharing and running notebooks like never before.</p>]]></content>
+        <author>
+            <name>QuantStack</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[JupyterLite 0.7 is released! 🎉]]></title>
         <id>https://blog.jupyter.org/jupyterlite-0-7-is-released-67db4d1609ad</id>
