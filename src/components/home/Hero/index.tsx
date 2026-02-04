@@ -1,12 +1,17 @@
 import styles from "./styles.module.css";
 import SimpleSlider from "./LogosTableBy8";
 import Astronaut from "/img/quantstack/astronaut.svg";
+import Banner from "./Banner";
+
 
 export function Hero() {
   return (
     <div className={styles.hero_container}>
+      <Banner/>
+      <div className={styles.banner_image}>
+      </div>
       <div className="main-container-with-margins">
-        <div className="container upper-container-with-margin-top">
+        <div>
           <div className={"row row--no-gutters flex-full-centered"}>
             <div className="col col--6 col--offset-1">
               <h1 className="padding-none">
