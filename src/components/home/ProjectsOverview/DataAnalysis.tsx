@@ -15,9 +15,8 @@ export default function DataAnalysisProjects() {
           </h2>
           <DataAnalysisMD />
         </div>
-        <div className={"col col--5"+ " " + styles.col_project_overview_with_padding}>
-  
-           <ApacheArrowPicture width={"500px"}/>
+        <div className={"col col--5"+ " " + "flex-full-centered" + " " + styles.col_project_overview_with_padding}>
+          <ApacheArrowPicture width={"500px"}/>
         </div>
       </div>
     </div>
