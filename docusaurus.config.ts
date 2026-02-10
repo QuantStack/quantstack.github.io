@@ -85,7 +85,7 @@ const config: Config = {
       { tagName: 'meta', 
         attributes: { 
           property: 'og:title', 
-          content: 'QuantStack', 
+          content: 'Open-source for discovery, science, and education', 
         }, 
       }, 
       { tagName: 'meta', 
@@ -97,7 +97,7 @@ const config: Config = {
       { tagName: 'meta', 
         attributes: { 
           property: 'og:description', 
-          content: 'QuantStack is a team of developers involved in major open-source projects of the scientific computing ecosystem.', 
+          content: ': A team behind major open-source projects of the scientific computing ecosystem such as Jupyter, Conda-Forge, Mamba, XTensor/SIMD, Apache Arrow/Parquet and more.', 
         }, 
       },
     ],
