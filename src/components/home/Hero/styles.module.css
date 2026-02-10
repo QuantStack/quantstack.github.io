@@ -11,6 +11,11 @@
   padding-bottom: var(--ifm-spacing-3xl);
 }
 
+.row_max_width {
+  max-width: 1500px;
+  display: flex;
+}
+
 .banner_container_small {
   position: relative;
   width: 100%;

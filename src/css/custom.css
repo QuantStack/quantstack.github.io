@@ -108,6 +108,12 @@ ul {
   padding: 0;
 }
 
+.row-max-width {
+  max-width: 1500px;
+  display: flex;
+}
+
+
 /***footer*****/
 .footer__item {
   color: var(--ifm-text-color-footer);

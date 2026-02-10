@@ -4,10 +4,10 @@ import XTensorXSIMDPicture from "@site/static/img/projects/xtensor_xsimd.svg";
 
 export default function ComputingProjects() {
   return (
-    <div className={"container"}>
-      <div className="row">
+    <div className={styles.container_projects}>
+      <div className={styles.row_projects}>
         <div
-          className={"col col--5 col--offset-1" + " " + styles.col_project_overview_with_padding}
+          className={"col col--6" + " " + styles.col_project_overview_with_padding}
         >
           <h1 className="padding-none">Scientific computing </h1>
           <h2 className={styles.h2_custom}>
@@ -17,7 +17,7 @@ export default function ComputingProjects() {
 
           <ComputingMD />
         </div>
-        <div className={"col col--5 flex-full-centered"+ " " + styles.col_project_overview_with_padding}>
+        <div className={"col col--6 flex-full-centered"+ " " + styles.col_project_overview_with_padding}>
           <XTensorXSIMDPicture width={"500px"}/>
         </div>
       </div>

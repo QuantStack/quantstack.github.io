@@ -66,7 +66,7 @@ export default function SimpleSlider() {
 export function LogosTable1() {
   return (
     <div className={"container" + " " + styles.table_with_8_customers}>
-      <div className="row row--no-gutters">
+      <div className="row-max-width row--no-gutters">
         <div className={"col col--3 flex-full-centered"}>
           <img
             src={BloombergLogoUrl}
