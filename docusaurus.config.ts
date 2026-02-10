@@ -67,12 +67,7 @@ const config: Config = {
     ]
   ],
 
-
-  themeConfig: {
-    // Replace with your project's social card
-    //image: 'img/docusaurus-social-card.jpg',
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    headTags: [
+  headTags: [
       {
         tagName: 'link',
         attributes: {
@@ -101,6 +96,11 @@ const config: Config = {
         }, 
       },
     ],
+
+  themeConfig: {
+    // Replace with your project's social card
+    //image: 'img/docusaurus-social-card.jpg',
+    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     navbar: {
       title: "",
       logo: {
