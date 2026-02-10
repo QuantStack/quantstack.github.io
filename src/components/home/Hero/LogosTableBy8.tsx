@@ -30,6 +30,9 @@ import UniversiteParisSaclayLogoUrl from "@site/static/img/logos/UniversiteParis
 import UnitedRoboticsLogoUrl from "@site/static/img/logos/UnitedRobotics.png";
 import CEALogoUrl from "@site/static/img/logos/CEA.png";
 import EcolePolytechniqueLogoUrl from "@site/static/img/logos/EcolePolytechnique.png";
+import ESALogoUrl from "@site/static/img/logos/ESA.png";
+import CNESLogoUrl from "@site/static/img/logos/CNES.png";
+
 import Slider from "react-slick";
 // Import css files
 import "slick-carousel/slick/slick.css";
@@ -46,20 +49,23 @@ export default function SimpleSlider() {
     autoplay: true,
   };
   return (
-      <Slider {...settings} style={{maxWidth:"1500px", justifyContent: "center"}}>
-        <div>
-          <LogosTable1 />
-        </div>
-        <div>
-          <LogosTable2 />
-        </div>
-        <div>
-          <LogosTable3 />
-        </div>
-        <div>
-          <LogosTable4 />
-        </div>
-      </Slider>
+    <Slider {...settings}>
+      <div>
+        <LogosTable1 />
+      </div>
+      <div>
+        <LogosTable2 />
+      </div>
+      <div>
+        <LogosTable3 />
+      </div>
+      <div>
+        <LogosTable4 />
+      </div>
+      <div>
+        <LogosTable5 />
+      </div>
+    </Slider>
   );
 }
 
@@ -324,6 +330,31 @@ export function LogosTable4() {
             src={EcolePolytechniqueLogoUrl}
             className={styles.customer_logo}
             alt={"Logo of Ecole Polytechnique."}
+            style={{ width: "80px" }}
+          />
+        </div>
+        <div className="col col--3 flex-full-centered">
+          <img
+            src={ESALogoUrl}
+            className={styles.customer_logo}
+            alt={"Logo of ESA."}
+            style={{ width: "80px" }}
+          />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export function LogosTable5() {
+  return (
+    <div className={"container" + " " + styles.table_with_8_customers}>
+      <div className="row row--no-gutters">
+        <div className="col col--3 flex-full-centered">
+          <img
+            src={CNESLogoUrl}
+            className={styles.customer_logo}
+            alt={"Logo of CNES."}
             style={{ width: "80px" }}
           />
         </div>
