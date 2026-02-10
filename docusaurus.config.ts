@@ -86,20 +86,18 @@ const config: Config = {
       { tagName: 'meta', 
         attributes: { 
           property: 'og:image', 
-          content: 'img/quantstack/astronaut.svg', 
+          content: '/img/quantstack/astronaut.svg', 
         }, 
       },
       { tagName: 'meta', 
         attributes: { 
           property: 'og:description', 
-          content: ': A team behind major open-source projects of the scientific computing ecosystem such as Jupyter, Conda-Forge, Mamba, XTensor/SIMD, Apache Arrow/Parquet and more.', 
+          content: 'A team behind major open-source projects of the scientific computing ecosystem such as Jupyter, Conda-Forge, Mamba, XTensor/SIMD, Apache Arrow/Parquet and more.', 
         }, 
       },
     ],
 
   themeConfig: {
-    // Replace with your project's social card
-    //image: 'img/docusaurus-social-card.jpg',
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     navbar: {
       title: "",
