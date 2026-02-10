@@ -67,13 +67,7 @@ const config: Config = {
     ]
   ],
 
-
-  themeConfig: {
-    // Replace with your project's social card
-    //image: 'img/docusaurus-social-card.jpg',
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    headTags: [
-
+  headTags: [
       {
         tagName: 'link',
         attributes: {
@@ -83,7 +77,28 @@ const config: Config = {
           href: '/atom.xml',
         },
       },
+      { tagName: 'meta', 
+        attributes: { 
+          property: 'og:title', 
+          content: 'Open-source for discovery, science, and education', 
+        }, 
+      }, 
+      { tagName: 'meta', 
+        attributes: { 
+          property: 'og:image', 
+          content: '/img/quantstack/astronaut.svg', 
+        }, 
+      },
+      { tagName: 'meta', 
+        attributes: { 
+          property: 'og:description', 
+          content: 'A team behind major open-source projects of the scientific computing ecosystem such as Jupyter, Conda-Forge, Mamba, XTensor/SIMD, Apache Arrow/Parquet and more.', 
+        }, 
+      },
     ],
+
+  themeConfig: {
+    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     navbar: {
       title: "",
       logo: {
@@ -126,7 +141,7 @@ const config: Config = {
           to: "/fundable/",
           label: "Fundable projects",
           position: "right",
-          className:"fundable_projects"
+          className: "fundable_projects"
         },
         {
           to: "/contact/",
