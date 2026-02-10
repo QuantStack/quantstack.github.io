@@ -4,11 +4,11 @@ import RoboticsPictureUrl from "@site/static/img/projects/robotics.png";
 
 export default function RoboticsProjects() {
   return (
-    <div className={"container" + " "+ styles.project_light_yellow}>
-      <div className={"row"}>
+    <div className={styles.container_projects + " "+ styles.project_light_yellow}>
+      <div className={styles.row_projects}>
         <div
           className={
-            "col col--5 col--offset-1" + " " + styles.col_project_overview_with_padding
+            "col col--6" + " " + styles.col_project_overview_with_padding
           }
         >
           <h1 className="padding-none">Robotics </h1>
@@ -19,7 +19,7 @@ export default function RoboticsProjects() {
         </div>
         <div
           className={
-            "col col--5" +
+            "col col--6" +
             " " +
             "flex-full-centered" +
             " " +

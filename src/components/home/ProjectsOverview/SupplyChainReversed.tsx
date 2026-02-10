@@ -4,11 +4,11 @@ import MambaPictureUrl from "@site/static/img/projects/mamba_console.png";
 
 export default function SupplyChainProjects() {
   return (
-    <div className="container">
-      <div className={"row"}>
+    <div className={styles.container_projects}>
+      <div className={styles.row_projects}>
         <div
           className={
-            "col col--5 col--offset-1 flex-full-centered" +
+            "col col--6 flex-full-centered" +
             " " +
             styles.col_project_overview_with_padding
           }
@@ -17,7 +17,7 @@ export default function SupplyChainProjects() {
         </div>
         <div
           className={
-            "col col--5" + " " + styles.col_project_overview_with_padding
+            "col col--6" + " " + styles.col_project_overview_with_padding
           }
         >
           <h1 className="padding-none">Software supply chain </h1>

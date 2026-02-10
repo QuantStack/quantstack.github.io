@@ -4,10 +4,10 @@ import ApacheArrowPicture from "@site/static/img/projects/apache_arrow.svg";
 
 export default function DataAnalysisProjects() {
   return (
-    <div className={"container" + " "+ styles.project_light_yellow} style={{paddingBottom : "0px"}}>
-      <div className="row">
+    <div className={styles.container_projects + " "+ styles.project_light_yellow} style={{paddingBottom : "0px"}}>
+     <div className={styles.row_projects}>
         <div
-          className={"col col--5 col--offset-1" + " " + styles.col_project_overview_with_padding}
+          className={"col col--6" + " " + styles.col_project_overview_with_padding}
         >
           <h1 className="padding-none">Data Analysis </h1>
           <h2 className={styles.h2_custom}>
@@ -15,7 +15,7 @@ export default function DataAnalysisProjects() {
           </h2>
           <DataAnalysisMD />
         </div>
-        <div className={"col col--5"+ " " + "flex-full-centered" + " " + styles.col_project_overview_with_padding}>
+        <div className={"col col--6"+ " " + "flex-full-centered" + " " + styles.col_project_overview_with_padding}>
           <ApacheArrowPicture width={"500px"}/>
         </div>
       </div>
