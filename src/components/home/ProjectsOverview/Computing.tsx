@@ -5,7 +5,7 @@ import XTensorXSIMDPicture from "@site/static/img/projects/xtensor_xsimd.svg";
 export default function ComputingProjects() {
   return (
     <div className={styles.container_projects}>
-      <div className={styles.row_projects}>
+      <div className="row-max-width">
         <div
           className={"col col--6" + " " + styles.col_project_overview_with_padding}
         >

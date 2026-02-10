@@ -5,7 +5,7 @@ import RoboticsPictureUrl from "@site/static/img/projects/robotics.png";
 export default function RoboticsProjects() {
   return (
     <div className={styles.container_projects}>
-      <div className={styles.row_projects}>
+      <div className="row-max-width">
         <div
           className={
             "col col--6 flex-full-centered" +

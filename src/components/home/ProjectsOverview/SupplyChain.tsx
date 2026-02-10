@@ -5,7 +5,7 @@ import MambaPictureUrl from "@site/static/img/projects/mamba_console.png";
 export default function SupplyChainProjects() {
   return (
     <div className={styles.container_projects + " " + styles.project_light_yellow}>
-      <div className={styles.row_projects}>
+      <div className="row-max-width">
         <div
           className={
             "col col--6" +

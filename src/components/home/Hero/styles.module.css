@@ -192,7 +192,6 @@
 }
 
 @media only screen and (min-width: 1511px) {
-
   /* Desktop : large screen*/
   .table_with_8_customers {
     margin-bottom: var(--ifm-spacing-xl);
