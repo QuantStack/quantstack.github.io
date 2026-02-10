@@ -73,7 +73,6 @@ const config: Config = {
     //image: 'img/docusaurus-social-card.jpg',
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     headTags: [
-
       {
         tagName: 'link',
         attributes: {
@@ -82,6 +81,24 @@ const config: Config = {
           title: 'Atom Feed',
           href: '/atom.xml',
         },
+      },
+      { tagName: 'meta', 
+        attributes: { 
+          property: 'og:title', 
+          content: 'QuantStack', 
+        }, 
+      }, 
+      { tagName: 'meta', 
+        attributes: { 
+          property: 'og:image', 
+          content: 'img/quantstack/astronaut.svg', 
+        }, 
+      },
+      { tagName: 'meta', 
+        attributes: { 
+          property: 'og:description', 
+          content: 'QuantStack is a team of developers involved in major open-source projects of the scientific computing ecosystem.', 
+        }, 
       },
     ],
     navbar: {
@@ -126,7 +143,7 @@ const config: Config = {
           to: "/fundable/",
           label: "Fundable projects",
           position: "right",
-          className:"fundable_projects"
+          className: "fundable_projects"
         },
         {
           to: "/contact/",
