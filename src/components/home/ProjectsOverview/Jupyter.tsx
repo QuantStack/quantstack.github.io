@@ -10,7 +10,7 @@ export default function JupyterProject() {
         marginTop: "var(--ifm-spacing-4xl)",
       }}
     >
-      <div className={styles.row_projects}>
+      <div className="row-max-width">
         <div className={"col col--6" + " " + styles.col_project_overview_with_padding}>
           <h1 className="padding-none">Jupyter project </h1>
           <h2 className={styles.h2_custom}>We strive to sustain the project in the long term.</h2>

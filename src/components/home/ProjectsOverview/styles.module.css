@@ -19,12 +19,6 @@
 .project_light_yellow {
   background-color: var(--ifm-color-primary-p0);
 }
-
-.row_projects {
-  max-width: 1500px;
-  display: flex;
-}
-
 .container_projects {
   padding: 0;
   display: flex;

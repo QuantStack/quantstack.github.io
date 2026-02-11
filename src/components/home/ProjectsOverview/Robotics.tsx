@@ -5,7 +5,7 @@ import RoboticsPictureUrl from "@site/static/img/projects/robotics.png";
 export default function RoboticsProjects() {
   return (
     <div className={styles.container_projects + " "+ styles.project_light_yellow}>
-      <div className={styles.row_projects}>
+      <div className="row-max-width">
         <div
           className={
             "col col--6" + " " + styles.col_project_overview_with_padding

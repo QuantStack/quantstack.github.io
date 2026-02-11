@@ -5,7 +5,7 @@ import SpecialProjectsPictureUrl from "@site/static/img/projects/special_project
 export default function SpecialProjects() {
     return (
       <div className={styles.container_projects + " " + styles.project_yellow}>
-        <div className={styles.row_projects}>
+        <div className="row-max-width">
           <div className={"col col--6" + " " + styles.col_project_overview_with_padding}>
             <h1 className="padding-none">Special projects</h1>
             <h2 className={styles.h2_custom}>

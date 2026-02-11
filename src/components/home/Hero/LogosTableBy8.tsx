@@ -46,27 +46,27 @@ export default function SimpleSlider() {
     autoplay: true,
   };
   return (
-    <Slider {...settings}>
-      <div>
-        <LogosTable1 />
-      </div>
-      <div>
-        <LogosTable2 />
-      </div>
-      <div>
-        <LogosTable3 />
-      </div>
-      <div>
-        <LogosTable4 />
-      </div>
-    </Slider>
+      <Slider {...settings} style={{maxWidth:"1500px", justifyContent: "center"}}>
+        <div>
+          <LogosTable1 />
+        </div>
+        <div>
+          <LogosTable2 />
+        </div>
+        <div>
+          <LogosTable3 />
+        </div>
+        <div>
+          <LogosTable4 />
+        </div>
+      </Slider>
   );
 }
 
 export function LogosTable1() {
   return (
     <div className={"container" + " " + styles.table_with_8_customers}>
-      <div className="row-max-width row--no-gutters">
+      <div className="row row--no-gutters">
         <div className={"col col--3 flex-full-centered"}>
           <img
             src={BloombergLogoUrl}

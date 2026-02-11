@@ -45,12 +45,12 @@ export function Hero() {
       <div className="main-container-with-margins">
         <div className={"container" + " " + styles.logos_carousel}>
           <div className="row">
-            <div className="col col--8 col--offset-2">
+            <div className="col col--12 col">
               <div className={styles.worked_with}> We have worked with </div>
             </div>
           </div>
-          <div className="row">
-            <div className="col col--8 col--offset-2">
+          <div className="row" >
+            <div className="col col--12" style={{display:"flex", justifyContent: "center"}}>
               <SimpleSlider />
             </div>
           </div>
