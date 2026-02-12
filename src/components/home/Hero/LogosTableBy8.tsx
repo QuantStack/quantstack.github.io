@@ -49,7 +49,7 @@ export default function SimpleSlider() {
     autoplay: true,
   };
   return (
-    <Slider {...settings}>
+    <Slider {...settings} style={{maxWidth:"1500px", justifyContent: "center"}}>
       <div>
         <LogosTable1 />
       </div>
