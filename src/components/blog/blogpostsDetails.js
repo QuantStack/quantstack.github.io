@@ -3,6 +3,15 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.blogpostsDetails = void 0;
 exports.blogpostsDetails = [
     {
+        url: "https://blog.jupyter.org/jupyterlite-officially-joins-project-jupyter-77df24c8db80",
+        title: "JupyterLite Officially Joins Project Jupyter",
+        image: "img/blogposts/resized-images/JupyterLite-Joins-Jupyter.png",
+        summary: "We are thrilled to announce that JupyterLite is now an official part of Project Jupyter. This milestone marks a significant step forward for interactive computing in the browser and strengthens JupyterLite’s role within the Jupyter ecosystem.",
+        date: "2026-02-12",
+        authors: "Project Jupyter",
+        imageID: "blogpost-image-147"
+    },
+    {
         url: "https://blog.jupyter.org/instantly-view-parquet-files-in-jupyterlab-with-arbalister-4799c28bbce7",
         title: "Instantly view Parquet files in JupyterLab with Arbalister",
         image: "img/blogposts/resized-images/Arbalister.png",
