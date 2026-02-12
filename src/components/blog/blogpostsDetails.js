@@ -8,7 +8,7 @@ exports.blogpostsDetails = [
         image: "img/blogposts/resized-images/JupyterLite-Joins-Jupyter.png",
         summary: "We are thrilled to announce that JupyterLite is now an official part of Project Jupyter. This milestone marks a significant step forward for interactive computing in the browser and strengthens JupyterLite’s role within the Jupyter ecosystem.",
         date: "2026-02-12",
-        authors: "Project Jupyter",
+        authors: "Jérémy Tuloup, Sylvain Corlay, Fernando Pérez",
         imageID: "blogpost-image-147"
     },
     {
