@@ -3,6 +3,15 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.blogpostsDetails = void 0;
 exports.blogpostsDetails = [
     {
+        url: "https://blog.jupyter.org/expanding-geospatial-workflows-in-jupytergis-stac-browsing-and-story-maps-7fb98eece82e",
+        title: "Expanding Geospatial Workflows in JupyterGIS: STAC Browsing and Story Maps",
+        image: "img/blogposts/resized-images/Story-Maps.png",
+        summary: "We introduce two new JupyterGIS features: a STAC browser integrated directly into JupyterGIS, and a new Story Map feature, which makes it possible to combine maps and narrative content in a single, interactive view.",
+        date: "2026-02-19",
+        authors: "Gregory Mooney",
+        imageID: "blogpost-image-148"
+    },
+    {
         url: "https://blog.jupyter.org/jupyterlite-officially-joins-project-jupyter-77df24c8db80",
         title: "JupyterLite Officially Joins Project Jupyter",
         image: "img/blogposts/resized-images/JupyterLite-Joins-Jupyter.png",
