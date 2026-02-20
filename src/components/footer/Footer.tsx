@@ -100,7 +100,7 @@ export default function Footer() {
 
       <div className={"row flex-full-centered"}>
         <div className={styles.copyright_container}>
-          Copyright © 2025 · QuantStack
+          Copyright © 2026 · QuantStack
         </div>
       </div>
     </div>
