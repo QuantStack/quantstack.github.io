@@ -5,7 +5,7 @@ a different application.
 
               Such examples include:
 
-              - Glue-Web: a JupyterLab extension to link visualisations of scientific datasets across many files,
+              - Glue-Web: a JupyterLab extension to link visualizations of scientific datasets across many files,
               - JupyterCAD: a JupyterLab extension for collaborative 3D geometry modeling,
               - JupyterGIS : a JupyterLab extension for collaborative GIS (Geographical Information System) editor in Jupyter.
 
