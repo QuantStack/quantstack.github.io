@@ -6,6 +6,9 @@ import DarianPictureurl from "@site/static/img/interviews/Darian_WTJ.png";
 import DavidPictureurl from "@site/static/img/interviews/David_WTJ.png";
 import GabrielaPictureurl from "@site/static/img/interviews/Gabriela_WTJ.png";
 import TrungPictureurl from "@site/static/img/interviews/Trung_WTJ.png";
+import MeriemPictureurl from "@site/static/img/interviews/Meriem_WTJ.png";
+import MatthiasPictureurl from "@site/static/img/interviews/Matthias_WTJ.png";
+import SandrinePictureurl from "@site/static/img/interviews/Sandrine_WTJ.png";
 
 export const interviewDetails = [
   {
@@ -64,4 +67,26 @@ export const interviewDetails = [
     pictureRoute: TrungPictureurl,
     url: "https://www.dailymotion.com/video/x9zl9t0",
   },
+
+  {
+    completeName: "Sandrine Pataut",
+    firstName: "Sandrine",
+    position: "Scientific Software Developer",
+    pictureRoute: SandrinePictureurl,
+    url: "https://www.dailymotion.com/video/xa0qmai",
+  },
+  {
+    completeName: "Matthias Meschede",
+    firstName: "Matthias",
+    position: "Chief Operating Officer",
+    pictureRoute: MatthiasPictureurl,
+    url: "https://www.dailymotion.com/video/xa0qmae",
+  },
+  {
+    completeName: "Meriem Ben Ismail",
+    firstName: "Meriem",
+    position: "Scientific Software Developer",
+    pictureRoute: MeriemPictureurl,
+    url: "https://www.dailymotion.com/video/xa0qmag",
+  }
 ];
