@@ -5154,7 +5154,7 @@ CSS variables, meant to be overridden by final theme
 .details_node_modules-\@docusaurus-theme-common-lib-components-Details-styles-module {
   --docusaurus-details-summary-arrow-size: 0.38rem;
   --docusaurus-details-transition: transform 200ms ease;
-  --docusaurus-details-decoration-color: grey;
+  --docusaurus-details-decoration-color: gray;
 }
 
 .details_node_modules-\@docusaurus-theme-common-lib-components-Details-styles-module > summary {
