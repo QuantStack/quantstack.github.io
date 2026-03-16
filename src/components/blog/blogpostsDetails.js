@@ -3,6 +3,15 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.blogpostsDetails = void 0;
 exports.blogpostsDetails = [
     {
+        url: "https://medium.com/@AntoineProuvost/faster-reads-for-apache-parquet-improving-integer-unpacking-f6e21ce49a85",
+        title: "Faster Reads for Apache Parquet: Improving Integer Unpacking",
+        image: "img/blogposts/resized-images/Accelerating-Arrow.png",
+        summary: "By rewriting the SIMD optimizations of a critical low-level algorithm in Arrow C++, we have been able to deliver substantial speedups when reading Parquet data, up to 60% on some Arrow benchmarks with specific column encodings.",
+        date: "2026-03-16",
+        authors: "Antoine Prouvost",
+        imageID: "blogpost-image-149"
+    },
+    {
         url: "https://blog.jupyter.org/expanding-geospatial-workflows-in-jupytergis-stac-browsing-and-story-maps-7fb98eece82e",
         title: "Expanding Geospatial Workflows in JupyterGIS: STAC Browsing and Story Maps",
         image: "img/blogposts/resized-images/Story-Maps.png",
