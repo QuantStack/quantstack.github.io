@@ -1,17 +1,13 @@
 # Simple workflow for deploying static content to GitHub Pages
 name: Deploy static content to Pages
 
-# on:
-#   # Runs on pushes targeting the default branch
-#   push:
-#     branches: ["master"]
-#   pull_request:
-#     branches:
-#       - '*'
 on:
+  # Runs on pushes targeting the default branch
   push:
+    branches: ["master"]
+  pull_request:
     branches:
-      - '**'
+      - '*'
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 
@@ -59,7 +55,7 @@ jobs:
 
   deploy-s3:
     needs: build
-    # if: github.ref == 'refs/heads/master'
+    if: github.ref == 'refs/heads/master'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
