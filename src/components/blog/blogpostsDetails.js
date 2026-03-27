@@ -3,6 +3,15 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.blogpostsDetails = void 0;
 exports.blogpostsDetails = [
     {
+        url: "https://prefix.dev/blog/serverless-scientific-computing-how-notebook-link-scales-without-backends",
+        title: "How notebook.link Scales Without Backends",
+        image: "img/blogposts/resized-images/Notebook-Link-Prefix.png",
+        summary: "Notebook.link combines WebAssembly and the conda ecosystem to deliver scalable, serverless computing environments that run entirely in the browser.",
+        date: "2026-03-27",
+        authors: "Sylvain Corlay",
+        imageID: "blogpost-image-150"
+    },
+    {
         url: "https://medium.com/@AntoineProuvost/faster-reads-for-apache-parquet-improving-integer-unpacking-f6e21ce49a85",
         title: "Faster Reads for Apache Parquet: Improving Integer Unpacking",
         image: "img/blogposts/resized-images/Accelerating-Arrow.png",
