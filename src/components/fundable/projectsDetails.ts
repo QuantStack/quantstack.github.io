@@ -8,7 +8,7 @@ export const fundableProjectsDetails = {
     jupyterEcosystem: [
         {
             category: "Jupyter Ecosystem",
-            title: "Modernize nbconvert",
+            title: "Modernizing nbconvert",
             pageName: "NbconvertModernization",
             shortDescription: "Conversion of Jupyter notebooks to PDF currently relies on nbconvert in the backend, which in turns uses a headless browser for producing the PDF. We propose to directly perform the PDF conversion in the user's browser, which will simplify the architecture and make it function with JupyterLite.",
             description: NbconvertModernizationMD,
