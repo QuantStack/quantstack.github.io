@@ -31,7 +31,7 @@ jobs:
       - name: Install the dependencies
         run: npm ci
       - name: Build
-        run: npm run build         
+        run: npm run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -52,3 +52,52 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  deploy-s3:
+    needs: build
+    if: github.ref == 'refs/heads/master'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install s3cmd
+        run: sudo apt-get update && sudo apt-get install -y s3cmd
+
+      - name: Download build artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: github-pages
+          path: build
+
+      - name: Extract artifact
+        run: |
+          tar -xf build/artifact.tar -C build
+
+      - name: Check secret
+        run: |
+          if [ -z "${{ secrets.SCW_ACCESS_KEY }}" ]; then
+            echo "Secret SCW_ACCESS_KEY is not set"
+            exit 1
+          fi
+
+      - name: Create s3cmd config
+        run: |
+          echo "[default]" > /home/runner/.s3cfg
+          echo "access_key = ${{ secrets.SCW_ACCESS_KEY }}" >> /home/runner/.s3cfg
+          echo "secret_key = ${{ secrets.SCW_SECRET_KEY }}" >> /home/runner/.s3cfg
+          echo "host_base = s3.fr-par.scw.cloud" >> /home/runner/.s3cfg
+          echo "host_bucket = %(bucket)s.s3.fr-par.scw.cloud" >> /home/runner/.s3cfg
+          echo "use_https = True" >> /home/runner/.s3cfg
+
+      - name: Sync build to S3
+        run: |
+          s3cmd sync build/ s3://quantstack-site/ --acl-public \
+            --delete-removed --exclude '*.css' --exclude '*.js' --force
+          s3cmd sync build/ s3://quantstack-site/ --acl-public \
+            --mime-type=text/css --exclude '*' --include '*.css' --force
+          s3cmd sync build/ s3://quantstack-site/ --acl-public \
+            --mime-type=application/javascript --exclude '*' --include '*.js' --force
+
+      - name: Ensure public ACL
+        run: s3cmd setacl s3://quantstack-site/ --acl-public --recursive
