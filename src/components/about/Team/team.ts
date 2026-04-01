@@ -163,7 +163,7 @@ export const teams = {
       completeName: "Isabel Paredes",
       pageName: "IsabelParedes",
       position: "Scientific Software Developer",
-      GitHubLink: "https://github.com/ihuicatl",
+      GitHubLink: "https://github.com/IsabelParedes",
       LinkedInLink: "https://www.linkedin.com/in/isabel-paredes/",
       BlueskyLink: "",
       MastodonLink: "",
