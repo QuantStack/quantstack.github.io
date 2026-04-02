@@ -575,7 +575,8 @@ a.menu__link:active {
   border-radius: 4px;
   font-weight: bolder;
   font-style: normal;
-  margin: var(--ifm-navbar-item-padding-vertical) 2px;
+  margin: var(--ifm-navbar-item-padding-vertical) 4px;
+  padding: 8px;
 }
 
 .contact:hover {
@@ -589,7 +590,8 @@ a.menu__link:active {
   border-radius: 4px;
   font-weight: bolder;
   font-style: normal;
-  margin: var(--ifm-navbar-item-padding-vertical) 2px;
+  margin: var(--ifm-navbar-item-padding-vertical) 4px;
+  padding: 8px;
 }
 
 .fundable_projects:hover {
