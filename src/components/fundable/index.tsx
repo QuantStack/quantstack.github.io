@@ -54,7 +54,7 @@ export default function FundableProjects() {
         <div className={"col col--2" + " " + styles.menu_sidebar}>
           <MenuSidebar />
         </div>
-        <div className={"col col--9 col--offset-1" + " " + styles.main_area_desktop} >
+        <div className={"col col--10 col" + " " + styles.main_area_desktop} >
           <MainAreaFundableProjects />
         </div >
         <div className={"col col--12" + " " + styles.main_area_mobile} >
