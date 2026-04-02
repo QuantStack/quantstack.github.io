@@ -490,6 +490,10 @@
     display: none;
   }
 
+  .main_area_desktop {
+    padding-left: 80px;
+  }
+
   .small_input {
     width: 400px;
     height: 56px;
