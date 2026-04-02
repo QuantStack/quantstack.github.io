@@ -65,8 +65,8 @@ export const fundableProjectsDetails = {
             pageName: "SVE2SupportInXsimd",
             shortDescription: "xsimd is a C++ scientific library that abstract low-level high performances computing primitives across different hardwares. We will add support for the latest SVE2 generation of ARM CPUs.",
             description: SVE2SupportInXsimdMD,
-            price: "TBD",
-            maxNbOfFunders: 1,
+            price: "30 000 €",
+            maxNbOfFunders: 2,
             currentNbOfFunders: 0,
             currentFundingPercentage: 0,
             repoLink: "https://github.com/xtensor-stack/xsimd"
