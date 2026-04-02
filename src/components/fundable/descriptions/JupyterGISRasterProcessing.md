@@ -1,6 +1,6 @@
 #### Overview
 
-JupyterGIS provides a powerful suite of vector geospatial processing tools—such as buffer creation, centroid calculation, and convex hull generation—directly in the browser. These capabilities are enabled by a GDAL WebAssembly (WASM) build, eliminating the need for server-side processing or local installations.
+JupyterGIS provides a powerful suite of vector geospatial processing tools - such as buffer creation, centroid calculation, and convex hull generation—directly in the browser. These capabilities are enabled by a GDAL WebAssembly (WASM) build, eliminating the need for server-side processing or local installations.
 
 Building on this foundation, we are now expanding support to raster processing tools, unlocking even more geospatial workflows in JupyterLite and notebook.link. This will enable users to perform complex raster operations entirely client-side, making geospatial analysis more accessible, collaborative, and scalable.
 
