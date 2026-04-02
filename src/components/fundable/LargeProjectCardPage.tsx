@@ -51,7 +51,6 @@ export default function LargeProjectCardPage() {
           const { pageName } = match.params; /* extract the dynamic part from the url i.e. the pageName*/
           const projectsByCategory = getCategoryFromProjectPageName(pageName);
           const project = projectsByCategory.find((project) => project.pageName === pageName);
-          console.log('project:', project)
           if (!project) return null;
 
           return (

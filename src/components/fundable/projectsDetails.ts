@@ -3,6 +3,7 @@ import JupyterGISRasterProcessingMD from "@site/src/components/fundable/descript
 import JupyterGISToolsForPythonAPIMD from "@site/src/components/fundable/descriptions/JupyterGISToolsForPythonAPI.md"
 import EmscriptenForgePackageRequestsMD from "@site/src/components/fundable/descriptions/EmscriptenForgePackageRequests.md"
 import SVE2SupportInXsimdMD from "@site/src/components/fundable/descriptions/SVE2SupportInXsimd.md"
+import MatrixOperationsInXtensor from "@site/src/components/fundable/descriptions/MatrixOperationsInXtensor.md"
 
 export const fundableProjectsDetails = {
     jupyterEcosystem: [
@@ -57,7 +58,7 @@ export const fundableProjectsDetails = {
             currentFundingPercentage: 0,
             repoLink: "https://github.com/mamba-org/mamba"
         }],
-        
+
     scientificComputing: [
         {
             category: "Scientific Computing",
@@ -70,6 +71,18 @@ export const fundableProjectsDetails = {
             currentNbOfFunders: 0,
             currentFundingPercentage: 0,
             repoLink: "https://github.com/xtensor-stack/xsimd"
+        },
+        {
+            category: "Scientific Computing",
+            title: "Implementing Kazushige Goto Algorithms for Matrix Operations in xtensor",
+            pageName: "MatrixOperationsInXtensor",
+            shortDescription: "This project aims to integrate Kazushige Goto’s highly optimized matrix multiplication algorithms into the [xtensor](https://github.com/xtensor-stack/xtensor/) framework, leveraging the [xsimd](https://github.com/xtensor-stack/xsimd/) library for SIMD acceleration.",
+            description: MatrixOperationsInXtensor,
+            price: "45 000 €",
+            maxNbOfFunders: 1,
+            currentNbOfFunders: 0,
+            currentFundingPercentage: 0,
+            repoLink: "https://github.com/xtensor-stack/xtensor"
         }
     ]
 }
