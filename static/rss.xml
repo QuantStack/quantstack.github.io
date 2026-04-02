@@ -4,7 +4,7 @@
         <description><![CDATA[RSS feed for QuantStack website blog page]]></description>
         <link>https://quantstack.net</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 02 Apr 2026 09:01:53 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 02 Apr 2026 15:13:25 GMT</lastBuildDate>
         <atom:link href="https://quantstack.net/rss.xml" rel="self" type="application/rss+xml"/>
         <language><![CDATA[en]]></language>
         <item>
