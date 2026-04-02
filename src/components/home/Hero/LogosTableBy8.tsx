@@ -33,6 +33,7 @@ import EcolePolytechniqueLogoUrl from "@site/static/img/logos/EcolePolytechnique
 import ESALogoUrl from "@site/static/img/logos/ESA.png";
 import CNESLogoUrl from "@site/static/img/logos/CNES.png";
 import GatesFoundationLogoUrl from "@site/static/img/logos/GatesFoundation.png";
+import SovereignTechAgencyLogoUrl from "@site/static/img/logos/SovereignTechAgency.png";
 
 import Slider from "react-slick";
 // Import css files
@@ -365,6 +366,14 @@ export function LogosTable5() {
             className={styles.customer_logo}
             alt={"Logo of Gates Foundation."}
             style={{ width: "120px" }}
+          />
+        </div>
+        <div className="col col--3 flex-full-centered">
+          <img
+            src={SovereignTechAgencyLogoUrl}
+            className={styles.customer_logo}
+            alt={"Logo of the Sovereign Tech Agency."}
+            style={{ width: "100px" }}
           />
         </div>
       </div>
