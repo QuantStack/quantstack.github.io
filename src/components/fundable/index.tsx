@@ -31,6 +31,12 @@ export function MainAreaFundableProjects() {
           projectCategory={fundableProjectsDetails.packageManagement}
         />
       </section>
+       <section id="scientific-computing">
+        <ProjectCategory
+          projectCategoryName={"Scientific computing"}
+          projectCategory={fundableProjectsDetails.scientificComputing}
+        />
+      </section>
       <section id="propose-and-fund-a-project">
         <h2 className={styles.project_category_header} style={{ margin: "0px" }}>Can't find a project?</h2>
         <p style={{ marginTop: "var(--ifm-spacing-lg)" }}>If you have a project in mind that you think would be relevant to our expertise, please contact us to discuss it.</p>

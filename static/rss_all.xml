@@ -4,9 +4,45 @@
         <description><![CDATA[RSS feed for QuantStack website blog page]]></description>
         <link>https://quantstack.net</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 10 Feb 2026 09:21:50 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 02 Apr 2026 09:01:53 GMT</lastBuildDate>
         <atom:link href="https://quantstack.net/rss_all.xml" rel="self" type="application/rss+xml"/>
         <language><![CDATA[en]]></language>
+        <item>
+            <title><![CDATA[How notebook.link Scales Without Backends]]></title>
+            <description><![CDATA[Notebook.link combines WebAssembly and the conda ecosystem to deliver scalable, serverless computing environments that run entirely in the browser.]]></description>
+            <link>https://prefix.dev/blog/serverless-scientific-computing-how-notebook-link-scales-without-backends</link>
+            <guid isPermaLink="true">https://prefix.dev/blog/serverless-scientific-computing-how-notebook-link-scales-without-backends</guid>
+            <dc:creator><![CDATA[Sylvain Corlay]]></dc:creator>
+            <pubDate>Fri, 27 Mar 2026 00:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.netimg/blogposts/resized-images/Notebook-Link-Prefix.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Faster Reads for Apache Parquet: Improving Integer Unpacking]]></title>
+            <description><![CDATA[By rewriting the SIMD optimizations of a critical low-level algorithm in Arrow C++, we have been able to deliver substantial speedups when reading Parquet data, up to 60% on some Arrow benchmarks with specific column encodings.]]></description>
+            <link>https://medium.com/@AntoineProuvost/faster-reads-for-apache-parquet-improving-integer-unpacking-f6e21ce49a85</link>
+            <guid isPermaLink="true">https://medium.com/@AntoineProuvost/faster-reads-for-apache-parquet-improving-integer-unpacking-f6e21ce49a85</guid>
+            <dc:creator><![CDATA[Antoine Prouvost]]></dc:creator>
+            <pubDate>Mon, 16 Mar 2026 00:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.netimg/blogposts/resized-images/Accelerating-Arrow.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Expanding Geospatial Workflows in JupyterGIS: STAC Browsing and Story Maps]]></title>
+            <description><![CDATA[We introduce two new JupyterGIS features: a STAC browser integrated directly into JupyterGIS, and a new Story Map feature, which makes it possible to combine maps and narrative content in a single, interactive view.]]></description>
+            <link>https://blog.jupyter.org/expanding-geospatial-workflows-in-jupytergis-stac-browsing-and-story-maps-7fb98eece82e</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/expanding-geospatial-workflows-in-jupytergis-stac-browsing-and-story-maps-7fb98eece82e</guid>
+            <dc:creator><![CDATA[Gregory Mooney]]></dc:creator>
+            <pubDate>Thu, 19 Feb 2026 00:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.netimg/blogposts/resized-images/Story-Maps.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[JupyterLite Officially Joins Project Jupyter]]></title>
+            <description><![CDATA[We are thrilled to announce that JupyterLite is now an official part of Project Jupyter. This milestone marks a significant step forward for interactive computing in the browser and strengthens JupyterLite’s role within the Jupyter ecosystem.]]></description>
+            <link>https://blog.jupyter.org/jupyterlite-officially-joins-project-jupyter-77df24c8db80</link>
+            <guid isPermaLink="true">https://blog.jupyter.org/jupyterlite-officially-joins-project-jupyter-77df24c8db80</guid>
+            <dc:creator><![CDATA[Jérémy Tuloup, Sylvain Corlay, Fernando Pérez]]></dc:creator>
+            <pubDate>Thu, 12 Feb 2026 00:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.netimg/blogposts/resized-images/JupyterLite-Joins-Jupyter.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Instantly view Parquet files in JupyterLab with Arbalister]]></title>
             <description><![CDATA[Arbalister is a JupyterLab extension that enables seamless viewing of many tabular file formats, including Parquet, CSV, Avro, ORC, and SQLite.]]></description>
