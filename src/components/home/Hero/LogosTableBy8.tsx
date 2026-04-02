@@ -32,6 +32,7 @@ import CEALogoUrl from "@site/static/img/logos/CEA.png";
 import EcolePolytechniqueLogoUrl from "@site/static/img/logos/EcolePolytechnique.png";
 import ESALogoUrl from "@site/static/img/logos/ESA.png";
 import CNESLogoUrl from "@site/static/img/logos/CNES.png";
+import GatesFoundationLogoUrl from "@site/static/img/logos/GatesFoundation.png";
 
 import Slider from "react-slick";
 // Import css files
@@ -49,7 +50,7 @@ export default function SimpleSlider() {
     autoplay: true,
   };
   return (
-    <Slider {...settings} style={{maxWidth:"1500px", justifyContent: "center"}}>
+    <Slider {...settings} style={{ maxWidth: "1500px", justifyContent: "center" }}>
       <div>
         <LogosTable1 />
       </div>
@@ -356,6 +357,14 @@ export function LogosTable5() {
             className={styles.customer_logo}
             alt={"Logo of CNES."}
             style={{ width: "80px" }}
+          />
+        </div>
+        <div className="col col--3 flex-full-centered">
+          <img
+            src={GatesFoundationLogoUrl}
+            className={styles.customer_logo}
+            alt={"Logo of Gates Foundation."}
+            style={{ width: "120px" }}
           />
         </div>
       </div>
