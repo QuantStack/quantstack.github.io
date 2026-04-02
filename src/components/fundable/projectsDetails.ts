@@ -2,7 +2,7 @@ import NbconvertModernizationMD from "@site/src/components/fundable/descriptions
 import JupyterGISRasterProcessingMD from "@site/src/components/fundable/descriptions/JupyterGISRasterProcessing.md"
 import JupyterGISToolsForPythonAPIMD from "@site/src/components/fundable/descriptions/JupyterGISToolsForPythonAPI.md"
 import EmscriptenForgePackageRequestsMD from "@site/src/components/fundable/descriptions/EmscriptenForgePackageRequests.md"
-import JupyterLabParquetFileViewerMD from "@site/src/components/fundable/descriptions/JupyterLabParquetFileViewer.md"
+import SVE2SupportInXsimdMD from "@site/src/components/fundable/descriptions/SVE2SupportInXsimd.md"
 
 export const fundableProjectsDetails = {
     jupyterEcosystem: [
@@ -57,5 +57,20 @@ export const fundableProjectsDetails = {
             currentFundingPercentage: 0,
             repoLink: "https://github.com/mamba-org/mamba"
         }],
+        
+    scientificComputing: [
+        {
+            category: "Scientific Computing",
+            title: "SVE2 support in xsimd",
+            pageName: "SVE2SupportInXsimd",
+            shortDescription: "xsimd is a C++ scientific library that abstract low-level high performances computing primitives across different hardwares. We will add support for the latest SVE2 generation of ARM CPUs.",
+            description: SVE2SupportInXsimdMD,
+            price: "30 000 €",
+            maxNbOfFunders: 2,
+            currentNbOfFunders: 0,
+            currentFundingPercentage: 0,
+            repoLink: "https://github.com/xtensor-stack/xsimd"
+        }
+    ]
 }
 

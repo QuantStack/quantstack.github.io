@@ -2,9 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id/>
     <title>All blog posts featured by QuantStack team</title>
-    <updated>2026-02-10T09:21:50.260Z</updated>
+    <updated>2026-04-02T09:01:54.038Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <subtitle>Atom feed for QuantStack website blog page</subtitle>
+    <entry>
+        <title type="html"><![CDATA[How notebook.link Scales Without Backends]]></title>
+        <id>https://prefix.dev/blog/serverless-scientific-computing-how-notebook-link-scales-without-backends</id>
+        <link href="https://prefix.dev/blog/serverless-scientific-computing-how-notebook-link-scales-without-backends"/>
+        <updated>2026-03-27T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<img src="img/blogposts/resized-images/Notebook-Link-Prefix.png" alt="Image for How notebook.link Scales Without Backends" style="max-width:100%; height:auto;" /><p>Notebook.link combines WebAssembly and the conda ecosystem to deliver scalable, serverless computing environments that run entirely in the browser.</p>]]></content>
+        <author>
+            <name>Sylvain Corlay</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Faster Reads for Apache Parquet: Improving Integer Unpacking]]></title>
+        <id>https://medium.com/@AntoineProuvost/faster-reads-for-apache-parquet-improving-integer-unpacking-f6e21ce49a85</id>
+        <link href="https://medium.com/@AntoineProuvost/faster-reads-for-apache-parquet-improving-integer-unpacking-f6e21ce49a85"/>
+        <updated>2026-03-16T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<img src="img/blogposts/resized-images/Accelerating-Arrow.png" alt="Image for Faster Reads for Apache Parquet: Improving Integer Unpacking" style="max-width:100%; height:auto;" /><p>By rewriting the SIMD optimizations of a critical low-level algorithm in Arrow C++, we have been able to deliver substantial speedups when reading Parquet data, up to 60% on some Arrow benchmarks with specific column encodings.</p>]]></content>
+        <author>
+            <name>Antoine Prouvost</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Expanding Geospatial Workflows in JupyterGIS: STAC Browsing and Story Maps]]></title>
+        <id>https://blog.jupyter.org/expanding-geospatial-workflows-in-jupytergis-stac-browsing-and-story-maps-7fb98eece82e</id>
+        <link href="https://blog.jupyter.org/expanding-geospatial-workflows-in-jupytergis-stac-browsing-and-story-maps-7fb98eece82e"/>
+        <updated>2026-02-19T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<img src="img/blogposts/resized-images/Story-Maps.png" alt="Image for Expanding Geospatial Workflows in JupyterGIS: STAC Browsing and Story Maps" style="max-width:100%; height:auto;" /><p>We introduce two new JupyterGIS features: a STAC browser integrated directly into JupyterGIS, and a new Story Map feature, which makes it possible to combine maps and narrative content in a single, interactive view.</p>]]></content>
+        <author>
+            <name>Gregory Mooney</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JupyterLite Officially Joins Project Jupyter]]></title>
+        <id>https://blog.jupyter.org/jupyterlite-officially-joins-project-jupyter-77df24c8db80</id>
+        <link href="https://blog.jupyter.org/jupyterlite-officially-joins-project-jupyter-77df24c8db80"/>
+        <updated>2026-02-12T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<img src="img/blogposts/resized-images/JupyterLite-Joins-Jupyter.png" alt="Image for JupyterLite Officially Joins Project Jupyter" style="max-width:100%; height:auto;" /><p>We are thrilled to announce that JupyterLite is now an official part of Project Jupyter. This milestone marks a significant step forward for interactive computing in the browser and strengthens JupyterLite’s role within the Jupyter ecosystem.</p>]]></content>
+        <author>
+            <name>Jérémy Tuloup, Sylvain Corlay, Fernando Pérez</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Instantly view Parquet files in JupyterLab with Arbalister]]></title>
         <id>https://blog.jupyter.org/instantly-view-parquet-files-in-jupyterlab-with-arbalister-4799c28bbce7</id>
