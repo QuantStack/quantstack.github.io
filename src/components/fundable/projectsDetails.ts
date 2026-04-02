@@ -76,7 +76,7 @@ export const fundableProjectsDetails = {
             category: "Scientific Computing",
             title: "Implementing Kazushige Goto Algorithms for Matrix Operations in xtensor",
             pageName: "MatrixOperationsInXtensor",
-            shortDescription: "This project aims to integrate Kazushige Goto’s highly optimized matrix multiplication algorithms into the [xtensor](https://github.com/xtensor-stack/xtensor/) framework, leveraging the [xsimd](https://github.com/xtensor-stack/xsimd/) library for SIMD acceleration.",
+            shortDescription: "This project aims to integrate Kazushige Goto’s highly optimized matrix multiplication algorithms into the xtensor framework, leveraging the xsimd library for SIMD acceleration.",
             description: MatrixOperationsInXtensor,
             price: "45 000 €",
             maxNbOfFunders: 1,
