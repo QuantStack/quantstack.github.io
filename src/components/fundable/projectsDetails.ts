@@ -58,7 +58,7 @@ export const fundableProjectsDetails = {
             currentFundingPercentage: 0,
             repoLink: "https://github.com/mamba-org/mamba"
         }],
-        
+
     scientificComputing: [
         {
             category: "Scientific Computing",
@@ -72,7 +72,7 @@ export const fundableProjectsDetails = {
             currentFundingPercentage: 0,
             repoLink: "https://github.com/xtensor-stack/xsimd"
         },
-                {
+        {
             category: "Scientific Computing",
             title: "Implementing Kazushige Goto Algorithms for Matrix Operations in xtensor",
             pageName: "MatrixOperationsInXtensor",
