@@ -30,7 +30,7 @@ export default function BlogsComponent() {
           >
             <div className="flex-full-centered">
               <h1 className="padding-none margin-none">
-                Featured Posts by QuantStack Contributors
+                Featured Blog Posts by QuantStack Contributors
               </h1>
             <div style={{padding:"0 10px"}}>
               <a href={"/atom.xml"}>
