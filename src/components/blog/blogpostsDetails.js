@@ -3,6 +3,15 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.blogpostsDetails = void 0;
 exports.blogpostsDetails = [
     {
+        url: "https://medium.com/@QuantStack/introducing-sparrow-ipc-modern-c-20-arrow-ipc-e1690ae82b81",
+        title: "Introducing Sparrow-IPC: A modern C++ implementation of Arrow IPC",
+        image: "img/blogposts/resized-images/Introducing-Sparrow-IPC.png",
+        summary: "If you work in the world of data engineering, you are probably familiar with Apache Arrow — the universal columnar format and multi-language toolbox that has become the gold standard for fast in-memory analytics and data interchange.",
+        date: "2026-04-04",
+        authors: "Hind Montassif, Alexis Placet, Johan Mabille",
+        imageID: "blogpost-image-151"
+    },
+    {
         url: "https://prefix.dev/blog/serverless-scientific-computing-how-notebook-link-scales-without-backends",
         title: "How notebook.link Scales Without Backends",
         image: "img/blogposts/resized-images/Notebook-Link-Prefix.png",
