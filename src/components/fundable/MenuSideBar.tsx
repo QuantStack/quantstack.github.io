@@ -5,7 +5,8 @@ import styles from "./styles.module.css";
 const sections = [
   { id: 'jupyter-ecosystem', label: 'Jupyter ecosystem' },
   { id: 'package-management', label: 'Package management' },
-  { id: 'scientific-computing', label: 'Scientific computing' }
+  { id: 'scientific-computing', label: 'Scientific computing' },
+  { id: 'apache-arrow', label: 'Apache Arrow and Parquet' }
 ];
 
 export default function MenuSideBar() {
