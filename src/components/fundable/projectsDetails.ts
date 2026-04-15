@@ -4,6 +4,7 @@ import JupyterGISToolsForPythonAPIMD from "@site/src/components/fundable/descrip
 import EmscriptenForgePackageRequestsMD from "@site/src/components/fundable/descriptions/EmscriptenForgePackageRequests.md"
 import SVE2SupportInXsimdMD from "@site/src/components/fundable/descriptions/SVE2SupportInXsimd.md"
 import MatrixOperationsInXtensor from "@site/src/components/fundable/descriptions/MatrixOperationsInXtensor.md"
+import BinaryViewInArrowCpp from "@site/src/components/fundable/descriptions/BinaryViewInArrowCpp.md"
 
 export const fundableProjectsDetails = {
     jupyterEcosystem: [
@@ -84,6 +85,22 @@ export const fundableProjectsDetails = {
             currentFundingPercentage: 0,
             repoLink: "https://github.com/xtensor-stack/xtensor"
         }
+    ],
+
+    apacheArrow: [
+        {
+            category: "Apache Arrow and Parquet",
+            title: "Complete BinaryView / StringView support in Arrow C++",
+            pageName: "BinaryViewInApacheArrow",
+            shortDescription: "BinaryView is a more recent and more efficient alternative to Arrow's standard Binary type. It allows for inlined storage of short strings and fast prefix comparison.",
+            description: BinaryViewInArrowCpp,
+            price: "TBD",
+            maxNbOfFunders: 4,
+            currentNbOfFunders: 0,
+            currentFundingPercentage: 0,
+            repoLink: "https://github.com/apache/arrow"
+        }
     ]
+
 }
 
