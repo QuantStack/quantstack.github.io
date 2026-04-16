@@ -3,9 +3,9 @@ import JupyterGISRasterProcessingMD from "@site/src/components/fundable/descript
 import JupyterGISToolsForPythonAPIMD from "@site/src/components/fundable/descriptions/JupyterGISToolsForPythonAPI.md"
 import EmscriptenForgePackageRequestsMD from "@site/src/components/fundable/descriptions/EmscriptenForgePackageRequests.md"
 import SVE2SupportInXsimdMD from "@site/src/components/fundable/descriptions/SVE2SupportInXsimd.md"
-import MatrixOperationsInXtensor from "@site/src/components/fundable/descriptions/MatrixOperationsInXtensor.md"
-import BinaryViewInArrowCpp from "@site/src/components/fundable/descriptions/BinaryViewInArrowCpp.md"
-
+import MatrixOperationsInXtensorMD from "@site/src/components/fundable/descriptions/MatrixOperationsInXtensor.md"
+import BinaryViewInArrowCppMD from "@site/src/components/fundable/descriptions/BinaryViewInArrowCpp.md"
+import Decimal32InArrowCppMD from"@site/src/components/fundable/descriptions/Decimal32InArrowCpp.md"
 export const fundableProjectsDetails = {
     jupyterEcosystem: [
         {
@@ -78,7 +78,7 @@ export const fundableProjectsDetails = {
             title: "Implementing Kazushige Goto Algorithms for Matrix Operations in xtensor",
             pageName: "MatrixOperationsInXtensor",
             shortDescription: "This project aims to integrate Kazushige Goto’s highly optimized matrix multiplication algorithms into the xtensor framework, leveraging the xsimd library for SIMD acceleration.",
-            description: MatrixOperationsInXtensor,
+            description: MatrixOperationsInXtensorMD,
             price: "45 000 €",
             maxNbOfFunders: 1,
             currentNbOfFunders: 0,
@@ -93,7 +93,7 @@ export const fundableProjectsDetails = {
             title: "Complete BinaryView / StringView support in Arrow C++",
             pageName: "BinaryViewInApacheArrow",
             shortDescription: "BinaryView is a more recent and more efficient alternative to Arrow's standard Binary type. It allows for inlined storage of short strings and fast prefix comparison.",
-            description: BinaryViewInArrowCpp,
+            description: BinaryViewInArrowCppMD,
             price: "TBD",
             maxNbOfFunders: 4,
             currentNbOfFunders: 0,
@@ -105,7 +105,7 @@ export const fundableProjectsDetails = {
             title: "Complete Decimal32 / Decimal64 support in Arrow C++",
             pageName: "Decimal32InApacheArrow",
             shortDescription: "Decimal32 and Decimal64 are more compact and computationally more efficient data types than the standard Decimal128.",
-            description: Decimal32InArrowCpp,
+            description: Decimal32InArrowCppMD,
             price: "TBD",
             maxNbOfFunders: 2,
             currentNbOfFunders: 0,

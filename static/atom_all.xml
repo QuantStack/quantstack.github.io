@@ -2,9 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id/>
     <title>All blog posts featured by QuantStack team</title>
-    <updated>2026-04-02T15:13:26.013Z</updated>
+    <updated>2026-04-16T16:09:35.882Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <subtitle>Atom feed for QuantStack website blog page</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Introducing Sparrow-IPC: A modern C++ implementation of Arrow IPC]]></title>
+        <id>https://medium.com/@QuantStack/introducing-sparrow-ipc-modern-c-20-arrow-ipc-e1690ae82b81</id>
+        <link href="https://medium.com/@QuantStack/introducing-sparrow-ipc-modern-c-20-arrow-ipc-e1690ae82b81"/>
+        <updated>2026-04-04T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<img src="img/blogposts/resized-images/Introducing-Sparrow-IPC.png" alt="Image for Introducing Sparrow-IPC: A modern C++ implementation of Arrow IPC" style="max-width:100%; height:auto;" /><p>If you work in the world of data engineering, you are probably familiar with Apache Arrow — the universal columnar format and multi-language toolbox that has become the gold standard for fast in-memory analytics and data interchange.</p>]]></content>
+        <author>
+            <name>Hind Montassif, Alexis Placet, Johan Mabille</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How notebook.link Scales Without Backends]]></title>
         <id>https://prefix.dev/blog/serverless-scientific-computing-how-notebook-link-scales-without-backends</id>
