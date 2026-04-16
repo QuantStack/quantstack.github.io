@@ -99,6 +99,18 @@ export const fundableProjectsDetails = {
             currentNbOfFunders: 0,
             currentFundingPercentage: 0,
             repoLink: "https://github.com/apache/arrow"
+        },
+        {
+            category: "Apache Arrow and Parquet",
+            title: "Complete Decimal32 / Decimal64 support in Arrow C++",
+            pageName: "Decimal32InApacheArrow",
+            shortDescription: "Decimal32 and Decimal64 are more compact and computationally more efficient data types than the standard Decimal128.",
+            description: Decimal32InArrowCpp,
+            price: "TBD",
+            maxNbOfFunders: 2,
+            currentNbOfFunders: 0,
+            currentFundingPercentage: 0,
+            repoLink: "https://github.com/apache/arrow"
         }
     ]
 
