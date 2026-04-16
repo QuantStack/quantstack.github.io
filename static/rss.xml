@@ -4,9 +4,18 @@
         <description><![CDATA[RSS feed for QuantStack website blog page]]></description>
         <link>https://quantstack.net</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 02 Apr 2026 15:13:25 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 16 Apr 2026 16:09:35 GMT</lastBuildDate>
         <atom:link href="https://quantstack.net/rss.xml" rel="self" type="application/rss+xml"/>
         <language><![CDATA[en]]></language>
+        <item>
+            <title><![CDATA[Introducing Sparrow-IPC: A modern C++ implementation of Arrow IPC]]></title>
+            <description><![CDATA[If you work in the world of data engineering, you are probably familiar with Apache Arrow — the universal columnar format and multi-language toolbox that has become the gold standard for fast in-memory analytics and data interchange.]]></description>
+            <link>https://medium.com/@QuantStack/introducing-sparrow-ipc-modern-c-20-arrow-ipc-e1690ae82b81</link>
+            <guid isPermaLink="true">https://medium.com/@QuantStack/introducing-sparrow-ipc-modern-c-20-arrow-ipc-e1690ae82b81</guid>
+            <dc:creator><![CDATA[Hind Montassif, Alexis Placet, Johan Mabille]]></dc:creator>
+            <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.netimg/blogposts/resized-images/Introducing-Sparrow-IPC.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[How notebook.link Scales Without Backends]]></title>
             <description><![CDATA[Notebook.link combines WebAssembly and the conda ecosystem to deliver scalable, serverless computing environments that run entirely in the browser.]]></description>
@@ -177,15 +186,6 @@
             <dc:creator><![CDATA[Johan Mabille]]></dc:creator>
             <pubDate>Thu, 15 May 2025 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.net/img/blogposts/resized-images/Congratulations-Distinguished-Contributors-2025.png" length="0" type="image/png"/>
-        </item>
-        <item>
-            <title><![CDATA[Making Qt collaborative using CRDTs]]></title>
-            <description><![CDATA[A journal on creating a collaborative application with Qt]]></description>
-            <link>https://david-brochart.medium.com/making-qt-collaborative-using-crdts-94c470703253</link>
-            <guid isPermaLink="true">https://david-brochart.medium.com/making-qt-collaborative-using-crdts-94c470703253</guid>
-            <dc:creator><![CDATA[David Brochart]]></dc:creator>
-            <pubDate>Mon, 31 Mar 2025 00:00:00 GMT</pubDate>
-            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Collaborative-Qt.png" length="0" type="image/png"/>
         </item>
     </channel>
 </rss>
