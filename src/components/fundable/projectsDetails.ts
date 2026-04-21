@@ -3,6 +3,7 @@ import JupyterGISRasterProcessingMD from "@site/src/components/fundable/descript
 import JupyterGISToolsForPythonAPIMD from "@site/src/components/fundable/descriptions/JupyterGISToolsForPythonAPI.md"
 import EmscriptenForgePackageRequestsMD from "@site/src/components/fundable/descriptions/EmscriptenForgePackageRequests.md"
 import SVE2SupportInXsimdMD from "@site/src/components/fundable/descriptions/SVE2SupportInXsimd.md"
+import Float16SupportInXsimdMD from "@site/src/components/fundable/descriptions/Float16SupportInXsimd.md"
 import MatrixOperationsInXtensorMD from "@site/src/components/fundable/descriptions/MatrixOperationsInXtensor.md"
 import BinaryViewInArrowCppMD from "@site/src/components/fundable/descriptions/BinaryViewInArrowCpp.md"
 import Decimal32InArrowCppMD from"@site/src/components/fundable/descriptions/Decimal32InArrowCpp.md"
@@ -70,6 +71,18 @@ export const fundableProjectsDetails = {
             shortDescription: "xsimd is a C++ scientific library that abstract low-level high performances computing primitives across different hardwares. We will add support for the latest SVE2 generation of ARM CPUs.",
             description: SVE2SupportInXsimdMD,
             price: "30 000 €",
+            maxNbOfFunders: 2,
+            currentNbOfFunders: 0,
+            currentFundingPercentage: 0,
+            repoLink: "https://github.com/xtensor-stack/xsimd"
+        },
+        {
+            category: "Scientific Computing",
+            title: "Float16 support in xsimd",
+            pageName: "Float16SupportInXsimd",
+            shortDescription: "xsimd is a C++ scientific library that abstract low-level high performances computing primitives across different hardwares. We will add vectorized support for half-precision 16 bits float operations where hardware supports them, and correct fallbacks elsewhere.",
+            description: Float16SupportInXsimdMD,
+            price: "20 000 €",
             maxNbOfFunders: 2,
             currentNbOfFunders: 0,
             currentFundingPercentage: 0,
