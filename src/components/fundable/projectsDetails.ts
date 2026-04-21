@@ -6,6 +6,8 @@ import SVE2SupportInXsimdMD from "@site/src/components/fundable/descriptions/SVE
 import MatrixOperationsInXtensorMD from "@site/src/components/fundable/descriptions/MatrixOperationsInXtensor.md"
 import BinaryViewInArrowCppMD from "@site/src/components/fundable/descriptions/BinaryViewInArrowCpp.md"
 import Decimal32InArrowCppMD from"@site/src/components/fundable/descriptions/Decimal32InArrowCpp.md"
+import Float16InArrowCppMD from"@site/src/components/fundable/descriptions/Float16InArrowCpp.md"
+
 export const fundableProjectsDetails = {
     jupyterEcosystem: [
         {
@@ -106,6 +108,18 @@ export const fundableProjectsDetails = {
             pageName: "Decimal32InApacheArrow",
             shortDescription: "Decimal32 and Decimal64 are more compact and computationally more efficient data types than the standard Decimal128.",
             description: Decimal32InArrowCppMD,
+            price: "TBD",
+            maxNbOfFunders: 2,
+            currentNbOfFunders: 0,
+            currentFundingPercentage: 0,
+            repoLink: "https://github.com/apache/arrow"
+        },
+        {
+            category: "Apache Arrow and Parquet",
+            title: "Complete Float16 support in Arrow C++",
+            pageName: "Float16InApacheArrow",
+            shortDescription: "Float16 is a more compact data type than Float32 and Float64, and sees growing usage in applications where its limited precision is sufficient.",
+            description: Float16InArrowCppMD,
             price: "TBD",
             maxNbOfFunders: 2,
             currentNbOfFunders: 0,
