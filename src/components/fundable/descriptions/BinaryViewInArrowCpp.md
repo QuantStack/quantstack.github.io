@@ -40,4 +40,4 @@ We propose to finish implementing support for Binary View and String View types 
 
 Funders can decide to fund the entire package, or choose the components they are interested in.
 
-##### Are you interested in this project? Either entirely or partially, contact us for more information on how to help us fund it
+##### Are you interested in this project? Either entirely or partially, contact us for more information on how to help us fund it.

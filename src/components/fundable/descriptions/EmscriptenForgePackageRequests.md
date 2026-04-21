@@ -29,4 +29,4 @@ We are prioritizing the following projects, but welcome suggestions for others:
 | Custom Requests                   | Have a specific package in mind? Let’s discuss how to prioritize it! |
 
 
-##### Are you interested in this project? Either entirely or partially, contact us for more information on how to help us fund it
+##### Are you interested in this project? Either entirely or partially, contact us for more information on how to help us fund it.

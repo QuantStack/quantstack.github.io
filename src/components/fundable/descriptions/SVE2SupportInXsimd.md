@@ -9,4 +9,4 @@ We propose to implement a complete xsimd::sve2 backend - all arithmetic, mathema
 
 Funding this development will directly enhance the cutting-edge data processing workflow using Arrow and Velox, paving the way for the future of ARM computing!
 
-##### Are you interested in this project? Either entirely or partially, contact us for more information on how to help us fund it
+##### Are you interested in this project? Either entirely or partially, contact us for more information on how to help us fund it.

@@ -15,4 +15,4 @@ We are prioritizing the following features, but welcome community input to shape
 | Generating Contours | Create contour lines from elevation or other continuous raster datasets. |
 | Polygonizing Raster Data | Convert raster cells into vector polygons for further analysis. |
 
-##### Are you interested in this project? Either entirely or partially, contact us for more information on how to help us fund it
+##### Are you interested in this project? Either entirely or partially, contact us for more information on how to help us fund it.
