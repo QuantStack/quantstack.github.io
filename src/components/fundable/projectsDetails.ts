@@ -6,8 +6,9 @@ import SVE2SupportInXsimdMD from "@site/src/components/fundable/descriptions/SVE
 import Float16SupportInXsimdMD from "@site/src/components/fundable/descriptions/Float16SupportInXsimd.md"
 import MatrixOperationsInXtensorMD from "@site/src/components/fundable/descriptions/MatrixOperationsInXtensor.md"
 import BinaryViewInArrowCppMD from "@site/src/components/fundable/descriptions/BinaryViewInArrowCpp.md"
-import Decimal32InArrowCppMD from"@site/src/components/fundable/descriptions/Decimal32InArrowCpp.md"
-import Float16InArrowCppMD from"@site/src/components/fundable/descriptions/Float16InArrowCpp.md"
+import Decimal32InArrowCppMD from "@site/src/components/fundable/descriptions/Decimal32InArrowCpp.md"
+import Float16InArrowCppMD from "@site/src/components/fundable/descriptions/Float16InArrowCpp.md"
+import ParquetNullOptimizationsMD from "@site/src/components/fundable/descriptions/ParquetNullOptimizations.md"
 
 export const fundableProjectsDetails = {
     jupyterEcosystem: [
@@ -135,6 +136,18 @@ export const fundableProjectsDetails = {
             description: Float16InArrowCppMD,
             price: "TBD",
             maxNbOfFunders: 2,
+            currentNbOfFunders: 0,
+            currentFundingPercentage: 0,
+            repoLink: "https://github.com/apache/arrow"
+        },
+        {
+            category: "Apache Arrow and Parquet",
+            title: "Parquet reader optimizations",
+            pageName: "ParquetNullOptimizations",
+            shortDescription: "Converting Parquet optional values to nullable Arrow data is often a performance bottleneck. We will optimize that step for the most common cases.",
+            description: ParquetNullOptimizationsMD,
+            price: "TBD",
+            maxNbOfFunders: 1,
             currentNbOfFunders: 0,
             currentFundingPercentage: 0,
             repoLink: "https://github.com/apache/arrow"
