@@ -2,7 +2,7 @@
 
 Apache Parquet is an open source, column-oriented data file format designed for
 efficient data storage and retrieval. Together with Apache Arrow for in-memory data,
-it has become for the de facto standard for efficient columnar analytics.
+it has become for the *de facto* standard for efficient columnar analytics.
 
 While Parquet and Arrow are most often used together, they have incompatible physical
 representations of data with optional values: data where some values can be
@@ -24,11 +24,14 @@ for flat (non-nested) data:
 2. avoiding decoding definition levels entirely when a data page's statistics shows
    it cannot contain any nulls (or, conversely, when it cannot contain any non-null values).
 
-This work can optionally be extended so as to apply to schemas with moderate amounts
-of nesting.
+As a subsequent task, these optimizations may be extended so as to apply to schemas
+with moderate amounts of nesting.
+
+This work will benefit to applications using Arrow C++ or any of its language
+bindings (such as PyArrow, R-Arrow...).
 
 Depending on the typology of Parquet data, this could make Parquet reading 2x
-faster, even more in some cases. If you are ensure whether your workload could
+faster, even more in some cases. If you are unsure whether your workload could
 benefit, we can discuss this based on sample Parquet files you provide us.
 
 ##### Are you interested in this project? Either entirely or partially, contact us for more information on how to help us fund it

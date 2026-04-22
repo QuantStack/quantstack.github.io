@@ -129,9 +129,9 @@ export const fundableProjectsDetails = {
         },
         {
             category: "Apache Arrow and Parquet",
-            title: "Parquet C++ reader optimizations",
+            title: "Parquet reader optimizations",
             pageName: "ParquetNullOptimizations",
-            shortDescription: "Converting Parquet optional values to nullable Arrow data is often a performance bottleneck.",
+            shortDescription: "Converting Parquet optional values to nullable Arrow data is often a performance bottleneck. We will optimize that step for the most common cases.",
             description: ParquetNullOptimizationsMD,
             price: "TBD",
             maxNbOfFunders: 1,
