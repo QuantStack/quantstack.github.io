@@ -2,7 +2,7 @@
 
 Apache Arrow is the universal columnar format and multi-language toolbox for fast data interchange and in-memory analytics.
 
-Fixed-width decimal data in Arrow is usually represented the Decimal128 data type.
+Fixed-width decimal data in Arrow is usually represented by the Decimal128 data type.
 This data type has non-trivial memory costs (16 bytes per value) and computational costs (operations on 128-bit integers must be emulated on most if not all architectures).
 
 Arrow recently gained Decimal32 and Decimal64 data types which, as their names suggest, encode fixed-width decimal data more compactly.

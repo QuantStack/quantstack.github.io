@@ -2,7 +2,7 @@
 
 Apache Parquet is an open source, column-oriented data file format designed for
 efficient data storage and retrieval. Together with Apache Arrow for in-memory data,
-it has become for the *de facto* standard for efficient columnar analytics.
+it has become the *de facto* standard for efficient columnar analytics.
 
 While Parquet and Arrow are most often used together, they have incompatible physical
 representations of data with optional values: data where some values can be
@@ -18,7 +18,7 @@ the data is declared nullable (optional) at the schema level.
 We propose to optimize the conversion of null values from Parquet in Arrow C++
 for flat (non-nested) data:
 
-1. decoding Parquet definition levels directly into a Arrow validity bitmap, rather than using an
+1. decoding Parquet definition levels directly into an Arrow validity bitmap, rather than using an
    intermediate representation as 16-bit integers;
 
 2. avoiding decoding definition levels entirely when a data page's statistics shows
@@ -27,7 +27,7 @@ for flat (non-nested) data:
 As a subsequent task, these optimizations may be extended so as to apply to schemas
 with moderate amounts of nesting.
 
-This work will benefit to applications using Arrow C++ or any of its language
+This work will benefit applications using Arrow C++ or any of its language
 bindings (such as PyArrow, R-Arrow...).
 
 Depending on the typology of Parquet data, this could make Parquet reading 2x
