@@ -8,6 +8,7 @@ import MatrixOperationsInXtensorMD from "@site/src/components/fundable/descripti
 import BinaryViewInArrowCppMD from "@site/src/components/fundable/descriptions/BinaryViewInArrowCpp.md"
 import Decimal32InArrowCppMD from "@site/src/components/fundable/descriptions/Decimal32InArrowCpp.md"
 import Float16InArrowCppMD from "@site/src/components/fundable/descriptions/Float16InArrowCpp.md"
+import RunEndEncodedInArrowCppMD from "@site/src/components/fundable/descriptions/RunEndEncodedInArrowCpp.md"
 import ParquetNullOptimizationsMD from "@site/src/components/fundable/descriptions/ParquetNullOptimizations.md"
 
 export const fundableProjectsDetails = {
@@ -136,6 +137,18 @@ export const fundableProjectsDetails = {
             description: Float16InArrowCppMD,
             price: "TBD",
             maxNbOfFunders: 2,
+            currentNbOfFunders: 0,
+            currentFundingPercentage: 0,
+            repoLink: "https://github.com/apache/arrow"
+        },
+        {
+            category: "Apache Arrow and Parquet",
+            title: "Complete Run-End-Encoded support in Arrow C++",
+            pageName: "RunEndEncodedInApacheArrow",
+            shortDescription: "Like dictionary encoding, run-end-encoding allows representing some kinds of data more efficiently.",
+            description: RunEndEncodedInArrowCppMD,
+            price: "TBD",
+            maxNbOfFunders: 4,
             currentNbOfFunders: 0,
             currentFundingPercentage: 0,
             repoLink: "https://github.com/apache/arrow"
