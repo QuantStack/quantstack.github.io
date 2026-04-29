@@ -3,6 +3,15 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.blogpostsDetails = void 0;
 exports.blogpostsDetails = [
     {
+        url: "https://medium.com/@julien.jerphanion/sharded-repodata-support-in-mamba-ae6147d1d608",
+        title: "Sharded Repodata Support in Mamba",
+        image: "/img/blogposts/resized-images/Introducing-Mamba-2-6.png",
+        summary: "We are thrilled to introduce Mamba 2.6, the first release of the package manager with support for sharded repodata, improving perfomance by a large factor, both in execution time and memory consumption.",
+        date: "2026-04-29",
+        authors: "Julien Jerphanion",
+        imageID: "blogpost-image-152"
+    },
+    {
         url: "https://medium.com/@QuantStack/introducing-sparrow-ipc-modern-c-20-arrow-ipc-e1690ae82b81",
         title: "Introducing Sparrow-IPC: A modern C++ implementation of Arrow IPC",
         image: "img/blogposts/resized-images/Introducing-Sparrow-IPC.png",
