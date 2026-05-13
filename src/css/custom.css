@@ -552,12 +552,35 @@ a.menu__link:active {
 }
 
 
+.navbar__inner {
+  position: relative;
+}
+
+.navbar__brand {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.theme-layout-navbar-left {
+  flex: 1;
+  justify-content: center;
+}
+
+.theme-layout-navbar-right {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 .custom_navbar_item {
   font-family: var(--ifm-font-family-roboto);
-  width: 117px;
   height: 36px;
   padding: 6px 14px;
   text-align: center;
+  white-space: nowrap;
 }
 
 .custom_navbar_item:hover {

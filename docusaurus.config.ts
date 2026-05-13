@@ -139,15 +139,15 @@ const config: Config = {
         },
         {
           to: "/fundable/",
+          className: "custom_navbar_item",
           label: "Fundable projects",
-          position: "right",
-          className: "fundable_projects"
+          position: "left",
         },
         {
           to: "/contact/",
+          className: "custom_navbar_item",
           label: "Contact us",
-          position: "right",
-          className: "contact",
+          position: "left",
         },
         {
           to: "https://github.com/QuantStack",

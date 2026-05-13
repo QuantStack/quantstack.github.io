@@ -22,46 +22,36 @@ export default function BlogsComponent() {
   };
 
   return (
-    <div className="main-container-with-margins">
-      <div className="container upper-container-with-margin-top">
-        <div className={"row row-with-margin-bottom"}>
-          <div
-            className={"col col--8 col--offset-2"}
-          >
-            <div className="flex-full-centered">
-              <h1 className="padding-none margin-none">
-                Featured Posts by QuantStack Contributors
-              </h1>
-            <div style={{padding:"0 10px"}}>
-              <a href={"/atom.xml"}>
-                <AtomOrange width={"42px"} height={"42px"} />
-              </a>
-              </div>
-            </div>
-            <div>
-              <input
-                className={styles.search_input}
-                type="search"
-                placeholder="Search for blog posts"
-                onChange={handleChange}
-              />
-            </div>
-          </div>
+    <div className="page-content upper-container-with-margin-top">
+      <div className="flex-full-centered" style={{ marginBottom: "var(--ifm-spacing-lg)" }}>
+        <h1 className="padding-none margin-none">
+          Featured Posts by QuantStack Contributors
+        </h1>
+        <div style={{ padding: "0 10px" }}>
+          <a href={"/atom.xml"}>
+            <AtomOrange width={"42px"} height={"42px"} />
+          </a>
         </div>
-
-        <ul className={"row" + " " + "flex-full-centered"}>
-          {filteredBlogPosts.map((blogpost, index) => (
-            <li className="cards-list" key={index}>
-              <div className="col">
-                <BlogpostCard
-                  blogpost={blogpost}
-                  timeIndex={numberOfBlogs - index}
-                ></BlogpostCard>
-              </div>
-            </li>
-          ))}
-        </ul>
       </div>
+      <div>
+        <input
+          className={styles.search_input}
+          type="search"
+          placeholder="Search for blog posts"
+          onChange={handleChange}
+        />
+      </div>
+
+      <ul className="cards-row">
+        {filteredBlogPosts.map((blogpost, index) => (
+          <li key={index}>
+            <BlogpostCard
+              blogpost={blogpost}
+              timeIndex={numberOfBlogs - index}
+            />
+          </li>
+        ))}
+      </ul>
     </div>
   );
 }
