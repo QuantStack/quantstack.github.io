@@ -9,10 +9,9 @@ const TopicsDescriptions = [JupyterMD, SupplyChainMD, ComputingMD];
 export function Topics() {
   return (
     <div>
-      <div className="container flex-full-centered">
-        <ul className="row flex-full-centered">
+      <ul className="cards-row">
           {topicsDetails.map((topics, index) => (
-            <li className="cards-list" key={index}>
+            <li key={index}>
               <TopicsCard
                 topics={topics}
                 TopicsDescriptionMD={TopicsDescriptions[index]}
@@ -20,7 +19,6 @@ export function Topics() {
             </li>
           ))}
         </ul>
-      </div>
     </div>
   );
 }

@@ -2,7 +2,7 @@
 .project_title {
   margin-bottom: var(--ifm-spacing-md);
   margin-top: var(--ifm-spacing-xl);
-  font-family: var(--ifm-font-family-bebas-neue);
+  font-family: var(--ifm-font-family-roboto);
   font-size: var(--ifm-font-size-secondary-title);
   font-style: normal;
   font-weight: bolder;

@@ -16,7 +16,7 @@
 
 @media only screen and (min-width: 996px) {
   .aboutQS_container {
-    background-color: var(--ifm-color-primary-p1);
+    background: linear-gradient(180deg, var(--ifm-color-primary-p0) 0%, #ffffff 100%);
     color: var(--ifm-color-primary-p2);
     padding: var(--ifm-spacing-2xl) var(--ifm-spacing-5xl) 0
       var(--ifm-spacing-5xl);

@@ -12,12 +12,10 @@ export default function FourValues() {
           </h1>
         </div>
       </div>
-      <ul className="row padding-none flex-full-centered row-with-margins">
+      <ul className="cards-row">
         {valuesDetails.map((value, index) => (
-          <li className="cards-list" key={index}>
-            <div className="col">
-              <ValueCard value={value} />
-            </div>
+          <li key={index}>
+            <ValueCard value={value} />
           </li>
         ))}
       </ul>

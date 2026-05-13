@@ -6,7 +6,7 @@
   height: 556px;
   width: 369px;
   border-radius: 8px;
-  box-shadow: 4px 4px 18px -1px #dee0fc;
+  box-shadow: 4px 4px 18px -1px rgba(160, 140, 40, 0.15);
   padding: var(--ifm-spacing-xl);
   background: var(--ifm-background-color-card);
 }
@@ -44,7 +44,7 @@ div .blogpost_date {
 }
 
 .blogpost_header {
-  color: var(---ifm-text-color);
+  color: var(--ifm-text-color);
   font-family: var(--ifm-font-family-roboto);
   font-size: 16px;
   font-style: normal;
@@ -57,7 +57,7 @@ div .blogpost_date {
 }
 
 .blogpost_date {
-  color: var(---ifm-text-color);
+  color: var(--ifm-text-color);
   font-family: var(--ifm-font-family-roboto);
   font-size: 12px;
   font-style: normal;

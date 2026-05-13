@@ -3,9 +3,9 @@
 }
 
 .project_category_header {
-  font-family: var(--ifm-font-family-rubik-one);
+  font-family: var(--ifm-font-family-roboto);
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 20px;
   text-align: center;
   margin-bottom: var(--ifm-spacing-xl);
@@ -15,7 +15,7 @@
 
 .project_title {
   color: var(--ifm-text-color-main-title);
-  font-family: var(--ifm-font-family-bebas-neue);
+  font-family: var(--ifm-font-family-roboto);
   font-size: 32px;
   font-style: normal;
   font-weight: 600;

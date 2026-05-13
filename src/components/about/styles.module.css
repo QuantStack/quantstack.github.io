@@ -37,6 +37,12 @@
   text-decoration: #0000ee underline;
 }
 
+.value_icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: var(--ifm-spacing-lg);
+}
+
 .value_text p {
   font-family: var(--ifm-font-family-roboto);
   font-size: 14px;
@@ -45,7 +51,8 @@
   line-height: 20px;
   letter-spacing: 0.25px;
   color: var(--ifm-text-color-on-primary-p1);
-  text-align: justify;
+  text-align: left;
+  margin-bottom: var(--ifm-spacing-xs);
 }
 
 div .row {
@@ -151,14 +158,6 @@ div .join_the_team_text {
   padding-right: 5px;
 }
 
-.card {
-  border: 1px solid #ccc;
-  padding: 16px;
-  margin: 16px;
-  cursor: pointer;
-  border-radius: 8px;
-  transition: box-shadow 0.2s;
-}
 
 .small_portrait_card:hover {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
@@ -167,20 +166,15 @@ div .join_the_team_text {
 @media only screen and (max-width: 996px) {
   /*Mobile*/
   .value_card {
-    height: 420px;
     width: 264px;
     padding: var(--ifm-spacing-lg) var(--ifm-spacing-md);
-    border-radius: 8px;
-    box-shadow: var(--ifm-shadow-card);
-    background-color: var(--ifm-color-primary-p1);
-    margin-bottom: var(--ifm-spacing-xl);
   }
 
   .value_header {
-    font-family: var(--ifm-font-family-rubik-one);
+    font-family: var(--ifm-font-family-roboto);
     font-size: 20px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     line-height: 20px;
     text-align: center;
     margin-bottom: var(--ifm-spacing-xl);
@@ -188,7 +182,7 @@ div .join_the_team_text {
   }
 
   .value_text p {
-    text-align: justify;
+    text-align: left;
     padding: 0;
   }
 
@@ -235,20 +229,15 @@ div .join_the_team_text {
 @media only screen and (min-width: 996px) {
   /*Desktop*/
   .value_card {
-    height: 460px;
     width: 264px;
     padding: var(--ifm-spacing-2xl) var(--ifm-spacing-lg);
-    border-radius: 8px;
-    box-shadow: var(--ifm-shadow-card);
-    background-color: var(--ifm-color-primary-p1);
-    margin-bottom: var(--ifm-spacing-xl);
   }
 
   .value_header {
-    font-family: var(--ifm-font-family-rubik-one);
+    font-family: var(--ifm-font-family-roboto);
     font-size: var(--ifm-font-size-secondary-title);
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     line-height: 28px;
     text-align: center;
     margin-bottom: var(--ifm-spacing-xl);

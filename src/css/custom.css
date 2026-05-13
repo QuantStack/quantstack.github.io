@@ -1,7 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-@import url("https://fonts.cdnfonts.com/css/bebas-neue?display=swap");
-@import url("https://fonts.cdnfonts.com/css/rubik-one?display=swap");
-@import url("https://fonts.cdnfonts.com/css/roboto-flex?display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700;800;900&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
@@ -30,7 +27,7 @@
   --ifm-color-accent-indigo: #5242FF;
   --ifm-color-accent-dark: #2A2A2A;
 
-  --ifm-shadow-card: 0px 0px 8px 1px var(--ifm-color-neutral-n3);
+  --ifm-shadow-card: 0px 2px 12px rgba(160, 140, 40, 0.15);
   --ifm-shadow-dialog: 0 8px 16px rgba(0, 0, 0, 0.2);
   --ifm-overlay-background: rgba(0, 0, 0, 0.3);
 
@@ -53,10 +50,6 @@
 
   /*Font families */
   --ifm-font-family-roboto: "Roboto";
-  --ifm-font-family-roboto-flex: "Roboto Flex";
-  --ifm-font-family-bebas-neue: "Bebas Neue";
-  --ifm-font-family-rubik-one: "Rubik One";
-  --ifm-font-family-dosis: "Dosis";
   --ifm-font-family-kode-mono: "Kode Mono";
   --ifm-font-family-inter: "Inter";
 
@@ -212,7 +205,7 @@ ul {
 
   h1 {
     color: var(--ifm-text-color-main-title);
-    font-family: var(--ifm-font-family-bebas-neue);
+    font-family: var(--ifm-font-family-roboto);
     font-size: 32px;
     font-style: normal;
     font-weight: 600;
@@ -224,7 +217,7 @@ ul {
   }
 
   h2 {
-    font-family: var(--ifm-font-family-bebas-neue);
+    font-family: var(--ifm-font-family-roboto);
     font-size: 24px;
     font-style: normal;
     font-weight: bolder;
@@ -251,9 +244,9 @@ ul {
     font-family: var(--ifm-font-family-roboto);
     font-size: 16px;
     font-weight: 500;
-    color: var(--ifm-color-secondary-s2);
+    color: white;
     padding: var(--ifm-spacing-2xl) var(--ifm-spacing-lg) 0 var(--ifm-spacing-lg);
-    background-color: var(--ifm-color-secondary-s1);
+    background-color: var(--ifm-color-secondary-s2);
     line-height: 20px;
     letter-spacing: 0.1px;
     text-align: center;
@@ -261,14 +254,14 @@ ul {
 
   .blue-banner-header {
     text-align: center;
-    font-family: var(--ifm-font-family-bebas-neue);
+    font-family: var(--ifm-font-family-roboto);
     font-size: 32px;
     font-style: normal;
     font-weight: 600;
     line-height: 150%;
     letter-spacing: 2.112px;
-    background-color: var(--ifm-color-secondary-s1);
-    color: var(--ifm-color-secondary-s2);
+    background-color: var(--ifm-color-secondary-s2);
+    color: var(--ifm-color-primary-p1);
   }
 
   .link-to-button {
@@ -304,7 +297,7 @@ ul {
 
   h1 {
     color: var(--ifm-color-primary-p2);
-    font-family: var(--ifm-font-family-bebas-neue);
+    font-family: var(--ifm-font-family-roboto);
     font-size: var(--ifm-font-size-main-title);
     font-style: normal;
     font-weight: 800;
@@ -315,7 +308,7 @@ ul {
   }
 
   h2 {
-    font-family: var(--ifm-font-family-bebas-neue);
+    font-family: var(--ifm-font-family-roboto);
     font-size: var(--ifm-font-size-secondary-title);
     font-style: normal;
     font-weight: bolder;
@@ -338,21 +331,21 @@ ul {
     font-style: normal;
     font-weight: 500;
     line-height: 150%;
-    background-color: var(--ifm-color-secondary-s1);
-    color: var(--ifm-color-secondary-s2);
+    background-color: var(--ifm-color-secondary-s2);
+    color: white;
     padding: var(--ifm-spacing-2xl) var(--ifm-spacing-4xl) 0 var(--ifm-spacing-4xl);
   }
 
   .blue-banner-header {
     text-align: center;
-    font-family: var(--ifm-font-family-bebas-neue);
+    font-family: var(--ifm-font-family-roboto);
     font-size: 48px;
     font-style: normal;
     font-weight: 600;
     line-height: 150%;
     letter-spacing: 2.112px;
-    background-color: var(--ifm-color-secondary-s1);
-    color: var(--ifm-color-secondary-s2);
+    background-color: var(--ifm-color-secondary-s2);
+    color: var(--ifm-color-primary-p1);
     margin-bottom: var(--ifm-spacing-2xl);
   }
 
@@ -692,4 +685,26 @@ ul.row {
 
 .custom-progress-bar::-webkit-progress-bar {
   background-color: #eee;
+}
+
+.cards-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: var(--ifm-spacing-xl);
+  list-style: none;
+  padding: 0;
+  margin: var(--ifm-spacing-2xl) 0;
+}
+
+.cards-row > li {
+  display: flex;
+}
+
+.content-card {
+  border-radius: 8px;
+  box-shadow: var(--ifm-shadow-card);
+  background-color: var(--ifm-color-primary-p0);
+  height: 100%;
+  box-sizing: border-box;
 }
