@@ -61,7 +61,7 @@ div .topics_header {
   }
 
   .topics_card {
-    min-height: 462px;
+    height: 462px;
     width: 350px;
     padding: var(--ifm-spacing-2xl) var(--ifm-spacing-lg);
     border-radius: 8px;
