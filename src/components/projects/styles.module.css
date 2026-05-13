@@ -19,14 +19,6 @@
   color: var(--ifm-color-primary-p2);
 }
 
-/* Unified card wrapper — gives both text and image columns the same background */
-.project_row {
-  border-radius: 10px;
-  overflow: hidden;
-  margin-bottom: var(--ifm-spacing-xl);
-  background-color: var(--ifm-color-orange-light);
-}
-
 /* Logo wrapper — border is on the inner box, not the full column */
 .project_logo {
   max-width: 160px;
@@ -83,15 +75,6 @@
 }
 
 @media only screen and (max-width: 996px) {
-  .all_projects_container {
-    margin-bottom: var(--ifm-spacing-3xl);
-  }
-
-  .header_container {
-    padding-top: var(--ifm-spacing-xl);
-    background-color: var(--ifm-color-primary-p1);
-  }
-
   .header_text {
     font-family: var(--ifm-font-family-roboto);
     color: var(--ifm-color-primary-p2);
@@ -101,10 +84,6 @@
     line-height: 20px;
     letter-spacing: 0.25px;
     margin-bottom: var(--ifm-spacing-lg);
-  }
-
-  .project_text {
-    padding: var(--ifm-spacing-lg);
   }
 
   .project_picture_jupyter,
@@ -118,14 +97,6 @@
 }
 
 @media only screen and (min-width: 996px) {
-  .all_projects_container {
-    margin-bottom: var(--ifm-spacing-5xl);
-  }
-
-  .header_container {
-    padding-top: var(--ifm-spacing-3xl);
-  }
-
   .header_text {
     font-family: var(--ifm-font-family-roboto);
     color: var(--ifm-color-primary-p2);
@@ -134,9 +105,5 @@
     font-weight: 400;
     line-height: 28px;
     margin-bottom: var(--ifm-spacing-xl);
-  }
-
-  .project_text {
-    padding: var(--ifm-spacing-2xl);
   }
 }

@@ -1,26 +1,16 @@
+import SplitSection from "../../layout/SplitSection";
 import styles from "./styles.module.css";
-import ComputingMD from "@site/src/components/home/ProjectsOverview/descriptions/Computing.md";
+import ComputingMD from "./descriptions/Computing.md";
 import XTensorXSIMDPicture from "@site/static/img/projects/xtensor_xsimd.svg";
 
 export default function ComputingProjects() {
   return (
-    <div className={styles.container_projects}>
-      <div className="row-max-width">
-        <div
-          className={"col col--6" + " " + styles.col_project_overview_with_padding}
-        >
-          <h1 className="padding-none">Scientific computing </h1>
-          <h2 className={styles.h2_custom}>
-            Supporting the development of several C++ scientific computing
-            packages.
-          </h2>
-
-          <ComputingMD />
-        </div>
-        <div className={"col col--6 flex-full-centered"+ " " + styles.col_project_overview_with_padding}>
-          <XTensorXSIMDPicture width={"500px"}/>
-        </div>
-      </div>
-    </div>
+    <SplitSection
+      image={<XTensorXSIMDPicture style={{ maxWidth: "100%" }} />}
+    >
+      <h1 className="padding-none">Scientific computing</h1>
+      <h2 className={styles.h2_custom}>Supporting the development of several C++ scientific computing packages.</h2>
+      <ComputingMD />
+    </SplitSection>
   );
 }

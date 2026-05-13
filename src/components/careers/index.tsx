@@ -1,15 +1,15 @@
 import styles from "./styles.module.css";
+import Section from "../layout/Section";
 import { interviewDetails } from "./interviewDetails";
 import Interviews from "./Interviews";
-import Header from "./Header";
 import VisitWTJProfile from "./VisitWTJProfile";
 import JoinTheTeam from "./JoinTheTeam";
 import GroupPhotoJupyterConUrl from "@site/static/img/group/group-photo.png";
 
 export default function Careers() {
   return (
-    <div>
-      <div className="page-content upper-container-with-margin-top">
+    <>
+      <Section pageTop>
         <h1>Join the QuantStack team!</h1>
         <div className={styles.group_photo_container + " flex-full-centered"}>
           <img
@@ -26,8 +26,8 @@ export default function Careers() {
             />
           </div>
         </div>
-      </div>
+      </Section>
       <VisitWTJProfile />
-    </div>
+    </>
   );
 }

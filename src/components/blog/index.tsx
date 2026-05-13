@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import BlogpostCard from "./BlogpostCard";
 import { blogpostsDetails } from "./blogpostsDetails";
 import AtomOrange from "/img/icons/RSSOrange.svg";
+import Section from "../layout/Section";
 
 export default function BlogsComponent() {
   const numberOfBlogs = blogpostsDetails.length;
@@ -22,7 +23,7 @@ export default function BlogsComponent() {
   };
 
   return (
-    <div className="page-content upper-container-with-margin-top">
+    <Section pageTop>
       <div className="flex-full-centered" style={{ marginBottom: "var(--ifm-spacing-lg)" }}>
         <h1 className="padding-none margin-none">
           Featured Posts by QuantStack Contributors
@@ -52,6 +53,6 @@ export default function BlogsComponent() {
           </li>
         ))}
       </ul>
-    </div>
+    </Section>
   );
 }

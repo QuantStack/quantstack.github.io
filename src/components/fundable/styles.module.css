@@ -32,24 +32,6 @@
   border-color: var(--ifm-color-secondary-s2);
 }
 
-.cards_grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: var(--ifm-spacing-xl);
-  margin-bottom: var(--ifm-spacing-3xl);
-}
-
-@media (max-width: 996px) {
-  .cards_grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 600px) {
-  .cards_grid {
-    grid-template-columns: 1fr;
-  }
-}
 
 .fund_card {
   background: white;

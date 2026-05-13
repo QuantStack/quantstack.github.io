@@ -2,6 +2,8 @@ import styles from "./styles.module.css";
 import { teams } from "./Team/team";
 import FourValues from "./FourValues";
 import SubTeam from "./SubTeam";
+import Section from "../layout/Section";
+import Banner from "../layout/Banner";
 import LinkToContact from "../home/LinkToContact";
 
 export function getTeamByPageName(name: string) {
@@ -14,21 +16,18 @@ export function getTeamByPageName(name: string) {
   return null;
 }
 
- 
 export function About() {
   return (
-    <div>
-      <div className="page-content upper-container-with-margin-top">
+    <>
+      <Section pageTop>
         <FourValues />
-
-        <div className="row-with-margins">
-          <h1>Meet the QuantStack team</h1>
-          <div className={styles.team_description}>
-            A team of outliers, leaders in software projects adopted at the
-            global scale, benefiting millions of people worldwide.
-          </div>
+      </Section>
+      <Section bg="light">
+        <h1>Meet the QuantStack team</h1>
+        <div className={styles.team_description}>
+          A team of outliers, leaders in software projects adopted at the
+          global scale, benefiting millions of people worldwide.
         </div>
-
         <SubTeam
           subTeamName={"The leadership team"}
           subTeam={teams.leadershipTeam}
@@ -38,13 +37,15 @@ export function About() {
           subTeamName={"QuantStack collaborators"}
           subTeam={teams.QSCollaboratorsTeam}
         />
-      </div>
-      <div className="blue-banner-container">
-        <div className="blue-banner-header">Join the team</div>
+      </Section>
+      <Banner
+        bg="dark"
+        title="Join the team"
+        cta={<LinkToContact label={"JOIN THE TEAM!"} />}
+      >
         QuantStack is seeking talents in the open-source scientific computing
         community. Join a team committed to open-science and free software.
-        <LinkToContact label={"JOIN THE TEAM!"} />
-      </div>
-    </div>
+      </Banner>
+    </>
   );
 }
