@@ -22,7 +22,7 @@
 
 .small_portrait_card {
   width: 279px;
-  height: 320px;
+  min-height: 320px;
   background-color: white;
   color: var(--ifm-color-primary-p2);
   border-radius: 8px;
