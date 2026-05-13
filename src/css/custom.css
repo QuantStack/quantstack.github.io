@@ -716,7 +716,8 @@ ul.row {
   max-width: var(--ifm-content-width);
   width: 100%;
   margin: 0 auto;
-  padding: 0 var(--ifm-spacing-2xl);
+  padding-left: var(--ifm-spacing-2xl);
+  padding-right: var(--ifm-spacing-2xl);
 }
 
 .page-content-narrow {
@@ -728,6 +729,7 @@ ul.row {
 
 @media (max-width: 996px) {
   .page-content {
-    padding: 0 var(--ifm-spacing-lg);
+    padding-left: var(--ifm-spacing-lg);
+    padding-right: var(--ifm-spacing-lg);
   }
 }
