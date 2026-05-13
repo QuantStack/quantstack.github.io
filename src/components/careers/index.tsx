@@ -10,7 +10,7 @@ export default function Careers() {
   return (
     <div>
       <div className="page-content upper-container-with-margin-top">
-        <h1 className="text--center">Join the QuantStack team!</h1>
+        <h1>Join the QuantStack team!</h1>
         <div className={styles.group_photo_container + " flex-full-centered"}>
           <img
             src={GroupPhotoJupyterConUrl}

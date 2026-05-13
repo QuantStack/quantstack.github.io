@@ -106,26 +106,44 @@
   margin: var(--ifm-spacing-md) 0;
 }
 
+.fundable_layout {
+  display: flex;
+  gap: var(--ifm-spacing-3xl);
+  align-items: flex-start;
+}
+
+.fundable_sidebar {
+  width: 200px;
+  flex-shrink: 0;
+}
+
+.fundable_main {
+  flex: 1;
+  min-width: 0;
+}
+
 .menu_sidebar {
-  padding: 1rem;
-  overflow-y: auto;
+  padding: var(--ifm-spacing-sm) 0;
 }
 
 .menu_sidebar_item {
   font-family: var(--ifm-font-family-roboto);
-  font-size: 16px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 500;
-  line-height: 48px;
-  /* 300% */
+  line-height: 40px;
   letter-spacing: 0.15px;
 }
 
 .menu_sidebar_container {
   position: sticky;
   top: 80px;
-  display: flex;
-  height: fit-content;
+}
+
+@media (max-width: 996px) {
+  .fundable_sidebar {
+    display: none;
+  }
 }
 
 .menu_sidebar_indicator {
@@ -303,14 +321,6 @@
     padding: var(--ifm-spacing-md);
   }
 
-  .main_area_desktop {
-    display: none
-  }
-
-  .menu_sidebar {
-    display: none
-  }
-
   .small_project_card {
     width: 90vw;
     margin-bottom: var(--ifm-spacing-lg);
@@ -410,10 +420,6 @@
     max-height: 95vh;
   }
 
-  .main_area_desktop {
-    display: none
-  }
-
   .small_input {
     width: 400px;
     height: 56px;
@@ -434,10 +440,6 @@
   .empty_card_large_input {
     width: 70vw;
     height: 200px;
-  }
-
-  .menu_sidebar {
-    display: none
   }
 
   .get_a_quote_dialog {
@@ -485,14 +487,6 @@
     border-radius: 8px;
     overflow-y: auto;
     max-height: 95vh;
-  }
-
-  .main_area_mobile {
-    display: none;
-  }
-
-  .main_area_desktop {
-    padding-left: 80px;
   }
 
   .small_input {

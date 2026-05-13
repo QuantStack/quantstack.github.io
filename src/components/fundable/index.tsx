@@ -56,14 +56,11 @@ export default function FundableProjects() {
   return (
 
     <div className="page-content upper-container-with-margin-top">
-      <div className="row">
-        <div className={"col col--2" + " " + styles.menu_sidebar}>
+      <div className={styles.fundable_layout}>
+        <aside className={styles.fundable_sidebar}>
           <MenuSidebar />
-        </div>
-        <div className={"col col--10" + " " + styles.main_area_desktop}>
-          <MainAreaFundableProjects />
-        </div>
-        <div className={"col col--12" + " " + styles.main_area_mobile}>
+        </aside>
+        <div className={styles.fundable_main}>
           <MainAreaFundableProjects />
         </div>
       </div>

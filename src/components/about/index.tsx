@@ -22,7 +22,7 @@ export function About() {
         <FourValues />
 
         <div className="row-with-margins">
-          <h1 className="text--center">Meet the QuantStack team</h1>
+          <h1>Meet the QuantStack team</h1>
           <div className={styles.team_description}>
             A team of outliers, leaders in software projects adopted at the
             global scale, benefiting millions of people worldwide.

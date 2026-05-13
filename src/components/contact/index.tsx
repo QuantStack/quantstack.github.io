@@ -6,7 +6,7 @@ import ContactIllustration from "/img/illustrations/contact.svg";
 export function Contact() {
   return (
     <div className="page-content upper-container-with-margin-top">
-      <h1 className="padding-none text--center">Contact us</h1>
+      <h1>Contact us</h1>
       <div className="row">
         <div className="col col--6 flex-full-centered" style={{ padding: "var(--ifm-spacing-xl)" }}>
           <ContactIllustration

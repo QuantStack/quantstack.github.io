@@ -7,9 +7,7 @@ export default function FourValues() {
     <div>
       <div className="row">
         <div className="col">
-          <h1 className={"padding-none" + " " + "full-flex-centered"}>
-            Our values{" "}
-          </h1>
+          <h1>Our values</h1>
         </div>
       </div>
       <ul className={"cards-row " + styles.values_row}>
