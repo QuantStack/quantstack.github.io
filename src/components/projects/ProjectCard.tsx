@@ -4,23 +4,22 @@ export default function ProjectCard({ project }): JSX.Element {
   const prefix = "project_picture_";
   const base = `${prefix}${project.name}` 
   return (
-    <div className="container">
-      <div className="row row--no-gutters">
-        <div
-          className={"col col--6 col col--offset-1" + " " + styles.project_text}
-        >
-          <div className={styles.project_title}>{project.title}</div>
-          <div className={styles.project_description}>
-            <project.ProjectMD />
-          </div>
+    <div className="row row--no-gutters">
+      <div
+        className={"col col--6" + " " + styles.project_text}
+      >
+        <div className={styles.project_title}>{project.title}</div>
+        <div className={styles.project_description}>
+          <project.ProjectMD />
         </div>
-        <div
-          className={
-            "col col--4 flex-full-centered padding-none" +
-            " " +
-            styles[base]
-          }
-        >
+      </div>
+      <div
+        className={
+          "col col--6 flex-full-centered padding-none" +
+          " " +
+          styles[base]
+        }
+      >
           <div className={styles.col_project_picture}></div>
           <img
             src={project.pictureRoute}
@@ -28,7 +27,6 @@ export default function ProjectCard({ project }): JSX.Element {
             height={project.pictureHeight}
             alt={project.pictureAltText}
           />
-        </div>
       </div>
     </div>
   );

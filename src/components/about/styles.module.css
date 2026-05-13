@@ -229,8 +229,11 @@ div .join_the_team_text {
 @media only screen and (min-width: 996px) {
   /*Desktop*/
   .value_card {
-    width: 264px;
     padding: var(--ifm-spacing-2xl) var(--ifm-spacing-lg);
+  }
+
+  .values_row > li {
+    flex: 1 1 0;
   }
 
   .value_header {
@@ -250,7 +253,7 @@ div .join_the_team_text {
   }
 
   .subteam_container {
-    margin: var(--ifm-spacing-5xl) var(--ifm-spacing-6xl);
+    margin: var(--ifm-spacing-5xl) 0;
   }
 
   .team_description {

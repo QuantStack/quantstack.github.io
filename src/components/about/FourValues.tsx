@@ -12,7 +12,7 @@ export default function FourValues() {
           </h1>
         </div>
       </div>
-      <ul className="cards-row">
+      <ul className={"cards-row " + styles.values_row}>
         {valuesDetails.map((value, index) => (
           <li key={index}>
             <ValueCard value={value} />

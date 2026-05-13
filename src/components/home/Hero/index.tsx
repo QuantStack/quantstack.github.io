@@ -42,18 +42,10 @@ export function Hero() {
           </div>
         </div>
       </div>
-      <div className="main-container-with-margins">
-        <div className={"container" + " " + styles.logos_carousel}>
-          <div className="row">
-            <div className="col col--12 col">
-              <div className={styles.worked_with}> We have worked with </div>
-            </div>
-          </div>
-          <div className="row" >
-            <div className="col col--12" style={{display:"flex", justifyContent: "center"}}>
-              <SimpleSlider />
-            </div>
-          </div>
+      <div className={"page-content " + styles.logos_carousel}>
+        <div className={styles.worked_with}>We have worked with</div>
+        <div style={{display:"flex", justifyContent: "center"}}>
+          <SimpleSlider />
         </div>
       </div>
     </div>

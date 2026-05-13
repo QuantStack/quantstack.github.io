@@ -27,17 +27,12 @@ div .project_title {
 @media only screen and (max-width: 996px) {
   /*Mobile*/
   .all_projects_container {
-    margin-bottom:  var(--ifm-spacing-3xl);
-    
+    margin-bottom: var(--ifm-spacing-3xl);
   }
 
   .header_container {
-    padding-top: var(--ifm-spacing-2xl);
+    padding-top: var(--ifm-spacing-xl);
     background-color: var(--ifm-color-primary-p1);
-  }
-
-  .header_title {
-    padding-left: none;
   }
 
   .header_text {
@@ -88,15 +83,11 @@ div .project_title {
   /*Desktop*/
 
   .all_projects_container {
-    margin:  0 0 var(--ifm-spacing-5xl) 0 ;
+    margin-bottom: var(--ifm-spacing-5xl);
   }
   .header_container {
-    margin-top: var(--ifm-spacing-6xl);
+    padding-top: var(--ifm-spacing-3xl);
   }
-  .header_title {
-    padding-left: var(--ifm-spacing-4xl);
-  }
-
   .header_text {
     font-family: var(--ifm-font-family-roboto);
     color: var(--ifm-color-primary-p2);
@@ -104,8 +95,7 @@ div .project_title {
     font-style: normal;
     font-weight: 400;
     line-height: 28px;
-    margin-bottom: var(--ifm-spacing-3xl);
-    padding: var(--ifm-spacing-lg) var(--ifm-spacing-4xl);
+    margin-bottom: var(--ifm-spacing-xl);
   }
 
   .project_text {

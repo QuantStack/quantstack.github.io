@@ -122,9 +122,10 @@
 }
 
 .menu_sidebar_container {
-  position: fixed;
+  position: sticky;
+  top: 80px;
   display: flex;
-  height: auto;
+  height: fit-content;
 }
 
 .menu_sidebar_indicator {

@@ -55,19 +55,19 @@ export function MainAreaFundableProjects() {
 export default function FundableProjects() {
   return (
 
-    <div className="container upper-container-with-margin-top">
+    <div className="page-content upper-container-with-margin-top">
       <div className="row">
         <div className={"col col--2" + " " + styles.menu_sidebar}>
           <MenuSidebar />
         </div>
-        <div className={"col col--10 col" + " " + styles.main_area_desktop} >
+        <div className={"col col--10" + " " + styles.main_area_desktop}>
           <MainAreaFundableProjects />
-        </div >
-        <div className={"col col--12" + " " + styles.main_area_mobile} >
+        </div>
+        <div className={"col col--12" + " " + styles.main_area_mobile}>
           <MainAreaFundableProjects />
         </div>
       </div>
-    </div >
+    </div>
 
   );
 }

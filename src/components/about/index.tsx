@@ -18,39 +18,26 @@ export function getTeamByPageName(name: string) {
 export function About() {
   return (
     <div>
-      <div className="main-container-with-margins">
-        <div className="container upper-container-with-margin-top">
-          <div className={"row"}>
-            <div className={"col flex-full-centered"}>
-              <FourValues />
-            </div>
-          </div>
-         
+      <div className="page-content upper-container-with-margin-top">
+        <FourValues />
 
-          <div className="row">
-            <div className="col col--10 col--offset-1">
-              <h1 className="text--center">Meet the QuantStack team</h1>
-              <div className={styles.team_description}>
-                A team of outliers, leaders in software projects adopted at the
-                global scale, benefiting millions of people worldwide.
-              </div>
-            </div>
-          </div>
- 
-          <div className="row">
-            <div className="col">
-              <SubTeam
-                subTeamName={"The leadership team"}
-                subTeam={teams.leadershipTeam}
-              />
-              <SubTeam subTeamName={"The core team"} subTeam={teams.coreTeam} />
-              <SubTeam
-                subTeamName={"QuantStack collaborators"}
-                subTeam={teams.QSCollaboratorsTeam}
-              />
-            </div>
+        <div className="row-with-margins">
+          <h1 className="text--center">Meet the QuantStack team</h1>
+          <div className={styles.team_description}>
+            A team of outliers, leaders in software projects adopted at the
+            global scale, benefiting millions of people worldwide.
           </div>
         </div>
+
+        <SubTeam
+          subTeamName={"The leadership team"}
+          subTeam={teams.leadershipTeam}
+        />
+        <SubTeam subTeamName={"The core team"} subTeam={teams.coreTeam} />
+        <SubTeam
+          subTeamName={"QuantStack collaborators"}
+          subTeam={teams.QSCollaboratorsTeam}
+        />
       </div>
       <div className="blue-banner-container">
         <div className="blue-banner-header">Join the team</div>

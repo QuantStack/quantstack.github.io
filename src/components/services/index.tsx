@@ -6,7 +6,7 @@ import LinkToContact from "../home/LinkToContact";
 
 export default function Services() {
   return (
-    <div className="upper-container-with-margin-top">
+    <div>
       <Header />
       <Support />
       <SpecialProjects />
