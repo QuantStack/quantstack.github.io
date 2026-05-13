@@ -107,10 +107,6 @@ div .row {
   letter-spacing: 0.5px;
 }
 
-a {
-  color: var(--ifm-color-primary-p2);
-}
-
 div .large_card_position {
   color: var(--ifm-color-primary-p2);
 }
