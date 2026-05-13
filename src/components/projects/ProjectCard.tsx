@@ -26,8 +26,10 @@ export default function ProjectCard({ project }): JSX.Element {
   );
 
   return (
-    <div className="row row--no-gutters">
-      {isReverse ? <>{imageCol}{textCol}</> : <>{textCol}{imageCol}</>}
+    <div className={styles.project_row}>
+      <div className="row row--no-gutters">
+        {isReverse ? <>{imageCol}{textCol}</> : <>{textCol}{imageCol}</>}
+      </div>
     </div>
   );
 }

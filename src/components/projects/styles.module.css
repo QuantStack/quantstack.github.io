@@ -19,6 +19,14 @@
   color: var(--ifm-color-primary-p2);
 }
 
+/* Unified card wrapper — gives both text and image columns the same background */
+.project_row {
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: var(--ifm-spacing-xl);
+  background-color: var(--ifm-color-orange-light);
+}
+
 /* Logo wrapper — border is on the inner box, not the full column */
 .project_logo {
   max-width: 160px;
@@ -96,7 +104,6 @@
   }
 
   .project_text {
-    background-color: white;
     padding: var(--ifm-spacing-lg);
   }
 
@@ -130,9 +137,6 @@
   }
 
   .project_text {
-    background-color: var(--ifm-color-orange-light);
-    padding: var(--ifm-spacing-2xl) var(--ifm-spacing-2xl);
-    margin-bottom: var(--ifm-spacing-lg);
-    border-radius: 10px;
+    padding: var(--ifm-spacing-2xl);
   }
 }
