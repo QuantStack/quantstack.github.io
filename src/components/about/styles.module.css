@@ -4,7 +4,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: var(--ifm-overlay-background);
   z-index: 1000;
 }
 
@@ -15,7 +15,7 @@
   transform: translate(-50%, -50%);
   background-color: white;
   border: 1px solid #ccc;
-  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  box-shadow: var(--ifm-shadow-dialog);
   border-radius: 20px;
   z-index: 4000;
 }
@@ -26,7 +26,7 @@
   background-color: white;
   color: var(--ifm-color-primary-p2);
   border-radius: 8px;
-  box-shadow: 0px 0px 8px 1px #c8c8c7;
+  box-shadow: var(--ifm-shadow-card);
   padding: var(--ifm-spacing-lg) var(--ifm-spacing-xs);
   margin-bottom: var(--ifm-spacing-xl);
 }
@@ -171,7 +171,7 @@ div .join_the_team_text {
     width: 264px;
     padding: var(--ifm-spacing-lg) var(--ifm-spacing-md);
     border-radius: 8px;
-    box-shadow: 0px 0px 8px 1px #c8c8c7;
+    box-shadow: var(--ifm-shadow-card);
     background-color: var(--ifm-color-primary-p1);
     margin-bottom: var(--ifm-spacing-xl);
   }
@@ -239,7 +239,7 @@ div .join_the_team_text {
     width: 264px;
     padding: var(--ifm-spacing-2xl) var(--ifm-spacing-lg);
     border-radius: 8px;
-    box-shadow: 0px 0px 8px 1px #c8c8c7;
+    box-shadow: var(--ifm-shadow-card);
     background-color: var(--ifm-color-primary-p1);
     margin-bottom: var(--ifm-spacing-xl);
   }

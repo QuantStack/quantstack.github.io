@@ -95,7 +95,7 @@
 }
 
 .notebook_link {
-  color: #FCF12B;
+  color: var(--ifm-color-accent-yellow);
   font-weight: 700;
   font-style: bold;
   line-height: 100%;
@@ -107,8 +107,8 @@
   align-items: center;
   justify-content: center;
   background: linear-gradient(135deg,
-      #5242FF,
-      #2A2A2A);
+      var(--ifm-color-accent-indigo),
+      var(--ifm-color-accent-dark));
   color: white;
   width: 358px;
   font-weight: 700;

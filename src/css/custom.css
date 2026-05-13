@@ -24,6 +24,15 @@
 
   --ifm-color-neutral-n1: #605e58;
   --ifm-color-neutral-n2: #371300;
+  --ifm-color-neutral-n3: #c8c8c7;
+
+  --ifm-color-accent-yellow: #FCF12B;
+  --ifm-color-accent-indigo: #5242FF;
+  --ifm-color-accent-dark: #2A2A2A;
+
+  --ifm-shadow-card: 0px 0px 8px 1px var(--ifm-color-neutral-n3);
+  --ifm-shadow-dialog: 0 8px 16px rgba(0, 0, 0, 0.2);
+  --ifm-overlay-background: rgba(0, 0, 0, 0.3);
 
   --ifm-text-color: var(--ifm-color-primary-p2);
   --ifm-background-color: white;
