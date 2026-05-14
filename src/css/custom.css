@@ -347,16 +347,17 @@ a.menu__link:active {
 /* Scroll-adaptive navbar */
 .navbar {
   transition: background-color 0.25s ease, box-shadow 0.25s ease;
+  background-color: var(--ifm-navbar-background-color);
 }
 
 html:not([data-navbar-scrolled]) .navbar {
-  background: transparent;
-  box-shadow: none;
+  --ifm-navbar-background-color: transparent;
+  --ifm-navbar-shadow: none;
 }
 
 html[data-navbar-scrolled] .navbar {
-  background: var(--ifm-bg-neutral);
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.08);
+  --ifm-navbar-background-color: var(--ifm-bg-neutral);
+  --ifm-navbar-shadow: 0 1px 6px rgba(0, 0, 0, 0.08);
 }
 
 /* Home page at top: white links over dark hero */
