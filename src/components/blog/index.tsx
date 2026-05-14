@@ -4,6 +4,7 @@ import BlogpostCard from "./BlogpostCard";
 import { blogpostsDetails } from "./blogpostsDetails";
 import AtomOrange from "/img/icons/RSSOrange.svg";
 import Section from "../layout/Section";
+import CardGrid from "../layout/CardGrid";
 
 export default function BlogsComponent() {
   const numberOfBlogs = blogpostsDetails.length;
@@ -43,7 +44,7 @@ export default function BlogsComponent() {
         />
       </div>
 
-      <ul className="cards-row">
+      <CardGrid cols={3}>
         {filteredBlogPosts.map((blogpost, index) => (
           <li key={index}>
             <BlogpostCard
@@ -52,7 +53,7 @@ export default function BlogsComponent() {
             />
           </li>
         ))}
-      </ul>
+      </CardGrid>
     </Section>
   );
 }

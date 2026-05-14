@@ -4,7 +4,7 @@
 
 .blogpost_card {
   height: 556px;
-  width: 369px;
+  width: 100%;
   border-radius: 8px;
   box-shadow: 4px 4px 18px -1px rgba(160, 140, 40, 0.15);
   padding: var(--ifm-spacing-xl);
