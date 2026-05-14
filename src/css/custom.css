@@ -344,6 +344,36 @@ a.menu__link:active {
   transform: scale(1);
 }
 
+/* Scroll-adaptive navbar */
+.navbar {
+  transition: background-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+html:not([data-navbar-scrolled]) .navbar {
+  background: transparent;
+  box-shadow: none;
+}
+
+html[data-navbar-scrolled] .navbar {
+  background: var(--ifm-bg-neutral);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.08);
+}
+
+/* Home page at top: white links over dark hero */
+html[data-navbar-home-top] .navbar__link,
+html[data-navbar-home-top] .custom_navbar_item {
+  color: white;
+}
+
+html[data-navbar-home-top] .custom_navbar_item:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: white;
+}
+
+html[data-navbar-home-top] .navbar__link:hover {
+  color: var(--ifm-color-primary-p1);
+}
+
 .navbar__inner {
   position: relative;
 }
@@ -387,7 +417,8 @@ a.menu__link:active {
   border-radius: 4px;
 }
 
-.navbar__link:hover {
+html[data-navbar-scrolled] .navbar__link:hover,
+html:not([data-navbar-home-top]) .navbar__link:hover {
   color: black;
 }
 
