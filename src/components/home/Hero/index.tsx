@@ -1,5 +1,5 @@
 import styles from "./styles.module.css";
-import SimpleSlider from "./LogosTableBy8";
+import LogoGrid from "./LogosTableBy8";
 import Astronaut from "/img/quantstack/astronaut.svg";
 import Banner from "./Banner";
 
@@ -42,11 +42,9 @@ export function Hero() {
           </div>
         </div>
       </div>
-      <div className={"page-content " + styles.logos_carousel}>
+      <div className="page-content">
         <div className={styles.worked_with}>We have worked with</div>
-        <div style={{display:"flex", justifyContent: "center"}}>
-          <SimpleSlider />
-        </div>
+        <LogoGrid />
       </div>
     </div>
   );

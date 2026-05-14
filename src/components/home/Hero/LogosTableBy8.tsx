@@ -35,348 +35,50 @@ import CNESLogoUrl from "@site/static/img/logos/CNES.png";
 import GatesFoundationLogoUrl from "@site/static/img/logos/GatesFoundation.png";
 import SovereignTechAgencyLogoUrl from "@site/static/img/logos/SovereignTechAgency.png";
 
-import Slider from "react-slick";
-// Import css files
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+const logos = [
+  { src: BloombergLogoUrl, alt: "Bloomberg" },
+  { src: SGLogoUrl, alt: "Société Générale" },
+  { src: AirbusLogoUrl, alt: "Airbus" },
+  { src: DEShawLogoUrl, alt: "DE Shaw" },
+  { src: HarvardLogoUrl, alt: "Harvard University" },
+  { src: GatesFoundationLogoUrl, alt: "Gates Foundation" },
+  { src: SovereignTechAgencyLogoUrl, alt: "Sovereign Tech Agency" },
+  { src: NatixisLogoUrl, alt: "Natixis" },
+  { src: CFMLogoUrl, alt: "CFM" },
+  { src: NumfocusLogoUrl, alt: "NumFocus" },
+  { src: INRIALogoUrl, alt: "INRIA" },
+  { src: EngieLogoUrl, alt: "Engie" },
+  { src: EMBLLogoUrl, alt: "EMBL" },
+  { src: ESALogoUrl, alt: "ESA" },
+  { src: CEALogoUrl, alt: "CEA" },
+  { src: EcolePolytechniqueLogoUrl, alt: "École Polytechnique" },
+  { src: UniversiteParisCiteLogoUrl, alt: "Université Paris Cité" },
+  { src: UniversiteParisSaclayLogoUrl, alt: "Université Paris-Saclay" },
+  { src: CNAMLogoUrl, alt: "CNAM" },
+  { src: CalPolyLogoUrl, alt: "Cal Poly" },
+  { src: RapyutaLogoUrl, alt: "Rapyuta" },
+  { src: VoltronDataLogoUrl, alt: "Voltron Data" },
+  { src: QuantCoUrl, alt: "QuantCo" },
+  { src: EnthoughtLogoUrl, alt: "Enthought" },
+  { src: SafranLogoUrl, alt: "Safran" },
+  { src: UnitedRoboticsLogoUrl, alt: "United Robotics" },
+  { src: RobocorpLogoUrl, alt: "Robocorp" },
+  { src: TDKLogoUrl, alt: "TDK" },
+  { src: CressetLogoUrl, alt: "Cresset" },
+  { src: MaxFordhamLogoUrl, alt: "MaxFordham" },
+  { src: GainTheoryUrl, alt: "Gain Theory" },
+  { src: JRCLogoUrl, alt: "JRC" },
+  { src: ERDCLogoUrl, alt: "ERDC" },
+  { src: PandaLogoUrl, alt: "Panda" },
+  { src: CNESLogoUrl, alt: "CNES" },
+];
 
-export default function SimpleSlider() {
-  let settings = {
-    dots: true,
-    infinite: true,
-    speed: 1000,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: false,
-    autoplay: true,
-  };
+export default function LogoGrid() {
   return (
-    <Slider {...settings} style={{ maxWidth: "1500px", justifyContent: "center" }}>
-      <div>
-        <LogosTable1 />
-      </div>
-      <div>
-        <LogosTable2 />
-      </div>
-      <div>
-        <LogosTable3 />
-      </div>
-      <div>
-        <LogosTable4 />
-      </div>
-      <div>
-        <LogosTable5 />
-      </div>
-    </Slider>
-  );
-}
-
-export function LogosTable1() {
-  return (
-    <div className={"container" + " " + styles.table_with_8_customers}>
-      <div className="row row--no-gutters">
-        <div className={"col col--3 flex-full-centered"}>
-          <img
-            src={BloombergLogoUrl}
-            className={styles.customer_logo}
-            alt={"Logo of Bloomberg."}
-          />
-        </div>
-        <div className={"col col--3 flex-full-centered"}>
-          <img
-            src={SGLogoUrl}
-            className={styles.customer_logo}
-            alt={"Logo of Société Générale bank."}
-          />
-        </div>
-        <div className={"col col--3 flex-full-centered"}>
-          <img
-            src={RapyutaLogoUrl}
-            className={styles.customer_logo}
-            alt={"Logo of Rapyuta company."}
-          />
-        </div>
-        <div className="col col--3 flex-full-centered">
-          <img
-            src={CFMLogoUrl}
-            className={styles.customer_logo}
-            alt={"Logo of CFM) "}
-          />
-        </div>
-      </div>
-      <div className="row row--no-gutters">
-        <div className="col col--3 flex-full-centered">
-          <img
-            src={EngieLogoUrl}
-            className={styles.customer_logo}
-            alt={"Logo of Engie company."}
-          />
-        </div>
-        <div className="col col--3 flex-full-centered">
-          <img
-            src={JRCLogoUrl}
-            className={styles.customer_logo}
-            alt={"Logo of JRC."}
-            style={{ width: "100px" }}
-          />
-        </div>
-
-        <div className="col col--3 flex-full-centered">
-          <img
-            src={ERDCLogoUrl}
-            className={styles.customer_logo}
-            alt={"Logo of ERDC."}
-          />
-        </div>
-        <div className="col col--3 flex-full-centered">
-          <img
-            src={PandaLogoUrl}
-            className={styles.customer_logo}
-            alt={"Logo of Panda company."}
-          />
-        </div>
-      </div>
-    </div>
-  );
-}
-
-export function LogosTable2() {
-  return (
-    <div className={"container" + " " + styles.table_with_8_customers}>
-      <div className="row row--no-gutters">
-        <div className="col col--3 flex-full-centered">
-          <img
-            src={UniversiteParisCiteLogoUrl}
-            className={styles.customer_logo}
-            alt={"Logo of Paris Cité Université."}
-          />
-        </div>
-        <div className="col col--3 flex-full-centered">
-          <img
-            src={AirbusLogoUrl}
-            className={styles.customer_logo}
-            alt={"Logo of Airbus company."}
-          />
-        </div>
-        <div className="col col--3 flex-full-centered">
-          <img
-            src={INRIALogoUrl}
-            className={styles.customer_logo}
-            alt={"Logo of INRIA."}
-          />
-        </div>
-        <div className="col col--3 flex-full-centered">
-          <img
-            src={CNAMLogoUrl}
-            className={styles.customer_logo}
-            alt={"Logo of CNAM."}
-          />
-        </div>
-      </div>
-      <div className="row row--no-gutters">
-        <div className="col col--3 flex-full-centered">
-          <img
-            src={NatixisLogoUrl}
-            className={styles.customer_logo}
-            alt={"Logo of Natixis bank."}
-          />
-        </div>
-        <div className="col col--3 flex-full-centered">
-          <img
-            src={NumfocusLogoUrl}
-            className={styles.customer_logo}
-            alt={"Logo of Numfocus foundation."}
-          />
-        </div>
-        <div className="col col--3 flex-full-centered">
-          <img
-            src={RobocorpLogoUrl}
-            className={styles.customer_logo}
-            alt={"Logo of Robocorp company."}
-          />
-        </div>
-        <div className="col col--3 flex-full-centered">
-          <img
-            src={CalPolyLogoUrl}
-            className={styles.customer_logo}
-            alt={"Logo of CalPoly University."}
-          />
-        </div>
-      </div>
-    </div>
-  );
-}
-
-export function LogosTable3() {
-  return (
-    <div className={"container" + " " + styles.table_with_8_customers}>
-      <div className="row row--no-gutters">
-        <div className="col col--3 flex-full-centered">
-          <img
-            src={MaxFordhamLogoUrl}
-            className={styles.customer_logo}
-            alt={"Logo of MaxFordham company."}
-          />
-        </div>
-        <div className="col col--3 flex-full-centered">
-          <img
-            src={GainTheoryUrl}
-            className={styles.customer_logo}
-            alt={"Logo of Gain Theory company."}
-            style={{ width: "60px" }}
-          />
-        </div>
-
-        <div className="col col--3 flex-full-centered">
-          <img
-            src={EnthoughtLogoUrl}
-            className={styles.customer_logo}
-            alt={"Logo of Enthought company."}
-          />
-        </div>
-        <div className="col col--3 flex-full-centered">
-          <img
-            src={CressetLogoUrl}
-            className={styles.customer_logo}
-            alt={"Logo of Cresset company."}
-          />
-        </div>
-      </div>
-      <div className="row row--no-gutters">
-        <div className="col col--3 flex-full-centered">
-          <img
-            src={TDKLogoUrl}
-            className={styles.customer_logo}
-            alt={"Logo of TDK company."}
-            style={{ width: "60px" }}
-          />
-        </div>
-        <div className="col col--3 flex-full-centered">
-          <img
-            src={HarvardLogoUrl}
-            className={styles.customer_logo}
-            alt={"Logo of Harvard University."}
-          />
-        </div>
-        <div className="col col--3 flex-full-centered">
-          <img
-            src={EMBLLogoUrl}
-            className={styles.customer_logo}
-            alt={"Logo of EMBL."}
-          />
-        </div>
-        <div className="col col--3 flex-full-centered">
-          <img
-            src={QuantCoUrl}
-            className={styles.customer_logo}
-            alt={"Logo of QuantCo company."}
-          />
-        </div>
-      </div>
-    </div>
-  );
-}
-
-export function LogosTable4() {
-  return (
-    <div className={"container" + " " + styles.table_with_8_customers}>
-      <div className="row row--no-gutters">
-        <div className="col col--3 flex-full-centered">
-          <img
-            src={VoltronDataLogoUrl}
-            className={styles.customer_logo}
-            alt={"Logo of Voltron Data company."}
-            style={{ width: "140px" }}
-          />
-        </div>
-        <div className="col col--3 flex-full-centered">
-          <img
-            src={SafranLogoUrl}
-            className={styles.customer_logo}
-            alt={"Logo of Safran company."}
-          />
-        </div>
-        <div className="col col--3 flex-full-centered">
-          <img
-            src={DEShawLogoUrl}
-            className={styles.customer_logo}
-            alt={"Logo of DE Shaw company."}
-          />
-        </div>
-        <div className="col col--3 flex-full-centered">
-          <img
-            src={UniversiteParisSaclayLogoUrl}
-            className={styles.customer_logo}
-            alt={"Logo of Université Paris Saclay."}
-          />
-        </div>
-      </div>
-      <div className="row row--no-gutters">
-        <div className="col col--3 flex-full-centered">
-          <img
-            src={UnitedRoboticsLogoUrl}
-            className={styles.customer_logo}
-            alt={"Logo of United Robotics company."}
-          />
-        </div>
-        <div className="col col--3 flex-full-centered">
-          <img
-            src={CEALogoUrl}
-            className={styles.customer_logo}
-            style={{ width: "60px" }}
-            alt={"Logo of CEA."}
-          />
-        </div>
-        <div className="col col--3 flex-full-centered">
-          <img
-            src={EcolePolytechniqueLogoUrl}
-            className={styles.customer_logo}
-            alt={"Logo of Ecole Polytechnique."}
-            style={{ width: "80px" }}
-          />
-        </div>
-        <div className="col col--3 flex-full-centered">
-          <img
-            src={ESALogoUrl}
-            className={styles.customer_logo}
-            alt={"Logo of ESA."}
-            style={{ width: "80px" }}
-          />
-        </div>
-      </div>
-    </div>
-  );
-}
-
-export function LogosTable5() {
-  return (
-    <div className={"container" + " " + styles.table_with_8_customers}>
-      <div className="row row--no-gutters">
-        <div className="col col--3 flex-full-centered">
-          <img
-            src={CNESLogoUrl}
-            className={styles.customer_logo}
-            alt={"Logo of CNES."}
-            style={{ width: "80px" }}
-          />
-        </div>
-        <div className="col col--3 flex-full-centered">
-          <img
-            src={GatesFoundationLogoUrl}
-            className={styles.customer_logo}
-            alt={"Logo of Gates Foundation."}
-            style={{ width: "120px" }}
-          />
-        </div>
-        <div className="col col--3 flex-full-centered">
-          <img
-            src={SovereignTechAgencyLogoUrl}
-            className={styles.customer_logo}
-            alt={"Logo of the Sovereign Tech Agency."}
-            style={{ width: "100px" }}
-          />
-        </div>
-      </div>
+    <div className={styles.logo_grid}>
+      {logos.map(({ src, alt }) => (
+        <img key={alt} src={src} alt={`Logo of ${alt}`} className={styles.customer_logo} />
+      ))}
     </div>
   );
 }
