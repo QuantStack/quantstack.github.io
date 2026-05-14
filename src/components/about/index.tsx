@@ -19,10 +19,10 @@ export function getTeamByPageName(name: string) {
 export function About() {
   return (
     <>
-      <Section pageTop>
+      <Section pageTop bg="light">
         <FourValues />
       </Section>
-      <Section bg="light">
+      <Section>
         <h1>Meet the QuantStack team</h1>
         <div className={styles.team_description}>
           A team of outliers, leaders in software projects adopted at the
