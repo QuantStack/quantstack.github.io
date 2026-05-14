@@ -36,7 +36,7 @@ export default function BlogsComponent() {
             </a>
           </div>
         </div>
-        <p className="text--center">News, releases, and technical articles from the QuantStack team.</p>
+        <p className="text--center">Technical deep-dives, release notes, and perspectives from maintainers at the source. Read about the decisions, trade-offs, and discoveries that go into the tools powering modern science.</p>
       </Section>
       <Section>
         <div>

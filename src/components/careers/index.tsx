@@ -11,7 +11,7 @@ export default function Careers() {
     <>
       <Section pageTop bg="yellow">
         <h1>Join the QuantStack team!</h1>
-        <p>Work on open-source software that powers scientific discovery, adopted at global scale by millions of researchers and engineers.</p>
+        <p>Build software used by millions — as a core contributor, not a user. Join a team that shapes the scientific computing ecosystem from the inside.</p>
       </Section>
       <Section>
         <div className={styles.group_photo_container + " flex-full-centered"}>

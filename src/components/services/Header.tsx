@@ -8,7 +8,7 @@ export default function Header() {
         Hire QuantStack to build upon the Jupyter, Mamba, and the PyData
         ecosystem.
       </h1>
-      <p>We offer software development, support retainers, and custom engineering for teams relying on open-source scientific infrastructure.</p>
+      <p>Expert-led development from the people who built and maintain the tools you depend on. Whether you need a custom feature, a support retainer, or hands-on engineering, you work directly with the upstream maintainers.</p>
     </Section>
   );
 }

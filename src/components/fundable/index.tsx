@@ -60,7 +60,7 @@ export default function FundableProjects() {
     <>
       <Section pageTop bg="yellow">
         <h1>Projects available for funding</h1>
-        <p>Open-source features and improvements you can sponsor to move your priorities forward.</p>
+        <p>Commission specific open-source improvements — fund the work, shape the roadmap. Tell us what your team needs, and we'll deliver it as open-source that benefits the whole community.</p>
       </Section>
       <Section>
         <MainAreaFundableProjects />
