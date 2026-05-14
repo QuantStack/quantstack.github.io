@@ -97,10 +97,6 @@
   padding: 0;
 }
 
-.row-reverse {
-  flex-direction: column-reverse;
-}
-
 ul {
   padding-left: 0;
   margin-left: 0;
@@ -110,12 +106,6 @@ ul {
   max-width: none;
   padding: 0;
 }
-
-.row-max-width {
-  max-width: 1500px;
-  display: flex;
-}
-
 
 /***footer*****/
 .footer__item {
@@ -163,13 +153,6 @@ ul {
 
 .footer__link-item {
   color: var(--ifm-text-color-footer);
-}
-
-.footer-astronaut {
-  display: flex;
-  width: 35px;
-  height: 35px;
-  padding: 10px;
 }
 
 @media (min-width: 1440px) {
@@ -263,67 +246,6 @@ ul {
 
 /***********************************************************/
 
-.social-media-links {
-  margin-left: var(--ifm-spacing-3xl);
-  text-align: start;
-}
-
-.spacing-none {
-  height: var(--ifm-spacing-none);
-}
-
-.spacing-2xs {
-  height: var(--ifm-spacing-2xs);
-}
-
-.spacing-xs {
-  height: var(--ifm-spacing-xs);
-}
-
-.spacing-sm {
-  height: var(--ifm-spacing-sm);
-}
-
-.spacing-md {
-  height: var(--ifm-spacing-md);
-}
-
-.spacing-lg {
-  height: var(--ifm-spacing-lg);
-}
-
-.spacing-xl {
-  height: var(--ifm-spacing-xl);
-}
-
-.spacing-2xl {
-  height: var(--ifm-spacing-2xl);
-}
-
-.spacing-3xl {
-  height: var(--ifm-spacing-3xl);
-}
-
-.spacing-4xl {
-  height: var(--ifm-spacing-4xl);
-}
-
-.spacing-5xl {
-  height: var(--ifm-spacing-5xl);
-}
-
-.spacing-6xl {
-  height: var(--ifm-spacing-6xl);
-}
-
-.spacing-7xl {
-  height: var(--ifm-spacing-7xl);
-}
-
-.spacing-8xl {
-  height: var(--ifm-spacing-8xl);
-}
-
 .link-to-button {
   width: 258px;
   height: 56px;
@@ -339,14 +261,6 @@ ul {
   padding: 16px 36px;
   border: none;
   text-align: center;
-}
-
-.link-box {
-  height: 59px;
-  width: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 /*
@@ -424,37 +338,6 @@ a.menu__link:active {
   transform: scale(1);
 }
 
-.contact {
-  background-color: var(--ifm-color-primary-p1);
-  color: var(--ifm-color-text-on-primary-p1);
-  font-size: 14px;
-  border-radius: 4px;
-  font-weight: bolder;
-  font-style: normal;
-  margin: var(--ifm-navbar-item-padding-vertical) 4px;
-  padding: 8px;
-}
-
-.contact:hover {
-  background-color: white;
-}
-
-.fundable_projects {
-  background-color: var(--ifm-color-secondary-s1);
-  font-size: 14px;
-  color: black;
-  border-radius: 4px;
-  font-weight: bolder;
-  font-style: normal;
-  margin: var(--ifm-navbar-item-padding-vertical) 4px;
-  padding: 8px;
-}
-
-.fundable_projects:hover {
-  background-color: var(--ifm-color-primary-p0);
-}
-
-
 .navbar__inner {
   position: relative;
 }
@@ -500,15 +383,6 @@ a.menu__link:active {
 
 .navbar__link:hover {
   color: black;
-}
-
-.astronaut-footer {
-  background: url(@site/static/img/quantstack/astronaut-footer.svg);
-  content: "";
-  display: flex;
-  height: 240px;
-  width: 240px;
-  background-repeat: no-repeat;
 }
 
 .rss-circle-icon:hover {
@@ -586,28 +460,12 @@ a.menu__link:active {
   border: 0px solid;
 }
 
-.custom-progress-bar::-webkit-progress-value {
-  background-color: var(--ifm-color-primary-p1);
-}
-
-.custom-progress-bar::-webkit-progress-bar {
-  background-color: #eee;
-}
-
-
 .page-content {
   max-width: var(--ifm-content-width);
   width: 100%;
   margin: 0 auto;
   padding-left: var(--ifm-spacing-2xl);
   padding-right: var(--ifm-spacing-2xl);
-}
-
-.page-content-narrow {
-  max-width: 720px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 var(--ifm-spacing-lg);
 }
 
 @media (max-width: 996px) {
