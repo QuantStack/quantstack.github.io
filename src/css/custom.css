@@ -556,7 +556,7 @@ a.menu__link:active {
   position: relative;
 }
 
-.navbar__brand {
+.navbar__inner .navbar__brand {
   position: absolute;
   left: 0;
   top: 50%;
@@ -566,6 +566,12 @@ a.menu__link:active {
 .theme-layout-navbar-left {
   flex: 1;
   justify-content: center;
+}
+
+@media (max-width: 996px) {
+  .theme-layout-navbar-left {
+    justify-content: flex-end;
+  }
 }
 
 .theme-layout-navbar-right {
