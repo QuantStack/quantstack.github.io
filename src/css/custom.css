@@ -731,6 +731,7 @@ ul.row {
 
 .cards-row > li {
   display: flex;
+  margin-left: 0;
 }
 
 .content-card {

@@ -166,7 +166,6 @@ div .join_the_team_text {
 @media only screen and (max-width: 996px) {
   /*Mobile*/
   .value_card {
-    width: 264px;
     padding: var(--ifm-spacing-lg) var(--ifm-spacing-md);
   }
 

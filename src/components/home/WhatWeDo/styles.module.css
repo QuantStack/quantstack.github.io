@@ -19,13 +19,12 @@ div .topics_header {
   }
 
   .whatwedo_container {
-    /*background-color: var(--ifm-color-primary-p1);*/
-    padding: 0;
+    padding: var(--ifm-spacing-xl) var(--ifm-spacing-lg);
     margin-top: 0;
   }
 
   .topics_card {
-    width: 80%;
+    padding: var(--ifm-spacing-lg) var(--ifm-spacing-md);
     text-align: left;
   }
 
@@ -54,7 +53,7 @@ div .topics_header {
   }
 
   .topics_card {
-    width: 350px;
     padding: var(--ifm-spacing-2xl) var(--ifm-spacing-lg);
+    height: 100%;
   }
 }

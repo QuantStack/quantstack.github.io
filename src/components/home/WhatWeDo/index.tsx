@@ -5,7 +5,7 @@ import LinkToProjects from "../LinkToProjects";
 
 export function WhatWeDo() {
   return (
-    <div className={"container" + styles.whatwedo_container}>
+    <div className={"container " + styles.whatwedo_container}>
       <div className="row flex-full-centered">
         <div className={styles.services_link_mobile}>
           <LinkToServices label={"DISCOVER OUR SERVICES"} />
