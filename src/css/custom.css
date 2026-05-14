@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700;800;900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800;900&display=swap');
 
 :root {
   --ifm-color-orange-jupyter: #f37726;
@@ -15,7 +14,7 @@
   --ifm-text-color-on-primary-p1: #1e1c00;
 
   --ifm-color-secondary-s1: #a0c9ff;
-  --ifm-color-secondary-s2: #002646;
+  --ifm-color-secondary-s2: #0A0E2E;
   --ifm-color-secondary-s3: #00497F;
 
 
@@ -23,9 +22,8 @@
   --ifm-color-neutral-n2: #371300;
   --ifm-color-neutral-n3: #c8c8c7;
 
-  --ifm-color-accent-yellow: #FCF12B;
-  --ifm-color-accent-indigo: #5242FF;
-  --ifm-color-accent-dark: #2A2A2A;
+  --ifm-color-accent-yellow: #F5E53B;
+  --ifm-color-accent-red: #E8462A;
 
   --ifm-shadow-card: 0px 2px 12px rgba(160, 140, 40, 0.15);
   --ifm-shadow-dialog: 0 8px 16px rgba(0, 0, 0, 0.2);
@@ -56,8 +54,7 @@
 
   /*Font families */
   --ifm-font-family-roboto: "Roboto";
-  --ifm-font-family-kode-mono: "Kode Mono";
-  --ifm-font-family-inter: "Inter";
+  --ifm-font-family-display: "Barlow Condensed";
 
   /* Spacing for margins and paddings */
   --ifm-spacing-none: 0px;
@@ -171,23 +168,23 @@ ul {
 @media (max-width: 996px) {
   h1 {
     color: var(--ifm-text-color-main-title);
-    font-family: var(--ifm-font-family-roboto);
-    font-size: 32px;
+    font-family: var(--ifm-font-family-display);
+    font-size: 44px;
     font-style: normal;
-    font-weight: 600;
-    line-height: 150%;
-    /* 36px */
-    letter-spacing: 1.056px;
+    font-weight: 900;
+    line-height: 110%;
+    letter-spacing: 0;
     text-align: center;
     padding: 0;
   }
 
   h2 {
-    font-family: var(--ifm-font-family-roboto);
-    font-size: 24px;
+    font-family: var(--ifm-font-family-display);
+    font-size: 30px;
     font-style: normal;
-    font-weight: bolder;
-    line-height: 150%;
+    font-weight: 800;
+    line-height: 115%;
+    letter-spacing: 0;
     text-align: center;
   }
 
@@ -216,23 +213,24 @@ ul {
 @media (min-width: 996px) {
   h1 {
     color: var(--ifm-color-primary-p2);
-    font-family: var(--ifm-font-family-roboto);
-    font-size: var(--ifm-font-size-main-title);
+    font-family: var(--ifm-font-family-display);
+    font-size: 64px;
     font-style: normal;
-    font-weight: 800;
-    line-height: 150%;
-    letter-spacing: 2.112px;
+    font-weight: 900;
+    line-height: 110%;
+    letter-spacing: 0;
     text-align: start;
     padding: 0;
     margin: var(--ifm-spacing-md) 0;
   }
 
   h2 {
-    font-family: var(--ifm-font-family-roboto);
-    font-size: var(--ifm-font-size-secondary-title);
+    font-family: var(--ifm-font-family-display);
+    font-size: 40px;
     font-style: normal;
-    font-weight: bolder;
-    line-height: 150%;
+    font-weight: 800;
+    line-height: 115%;
+    letter-spacing: 0;
     text-align: start;
   }
 
@@ -276,7 +274,7 @@ ul {
 .link-to-button:hover {
   color: white;
   transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(0, 38, 70, 0.35);
+  box-shadow: 0 8px 24px rgba(10, 14, 46, 0.35);
   text-decoration: none;
 }
 

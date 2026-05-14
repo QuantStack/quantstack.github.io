@@ -106,7 +106,7 @@
   text-align: center;
   color: white;
   font-size: 2rem;
-  font-family: var(--ifm-font-family-kode-mono);
+  font-family: var(--ifm-font-family-display);
 }
 
 .banner_text_overlay_title {
@@ -126,7 +126,7 @@
   font-weight: 700;
   font-style: bold;
   line-height: 100%;
-  font-family: var(--ifm-font-family-inter);
+  font-family: var(--ifm-font-family-display);
 }
 
 :global(.link-to-button).link_to_notebook_link {
@@ -149,15 +149,15 @@
 :global(.link-to-button).link_to_notebook_link:hover {
   transform: scale(1.05);
   animation: none;
-  box-shadow: 0 0 32px rgba(252, 241, 43, 0.85);
+  box-shadow: 0 0 32px rgba(245, 229, 59, 0.85);
 }
 
 @keyframes notebookLinkGlow {
   0%, 100% {
-    box-shadow: 0 0 10px rgba(252, 241, 43, 0.3), 0 0 24px rgba(252, 241, 43, 0.12);
+    box-shadow: 0 0 10px rgba(245, 229, 59, 0.3), 0 0 24px rgba(245, 229, 59, 0.12);
   }
   50% {
-    box-shadow: 0 0 22px rgba(252, 241, 43, 0.7), 0 0 48px rgba(252, 241, 43, 0.3);
+    box-shadow: 0 0 22px rgba(245, 229, 59, 0.7), 0 0 48px rgba(245, 229, 59, 0.3);
   }
 }
 

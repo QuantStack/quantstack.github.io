@@ -28,7 +28,7 @@ export default function BlogsComponent() {
       <Section pageTop bg="yellow">
         <div className="flex-full-centered">
           <h1 className="padding-none margin-none">
-            Featured Posts by QuantStack Contributors
+            Featured posts by QuantStack contributors
           </h1>
           <div style={{ padding: "0 10px" }}>
             <a href={"/atom.xml"}>
