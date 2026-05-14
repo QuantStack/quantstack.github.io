@@ -1,6 +1,7 @@
 import styles from "./styles.module.css";
 import { useHistory } from "@docusaurus/router";
 import ProgressBar from "./ProgressBar";
+import Card from "../layout/Card";
 
 export default function FundableProjectCard({ project }) {
   const history = useHistory();
@@ -17,7 +18,7 @@ export default function FundableProjectCard({ project }) {
     : project.shortDescription;
 
   return (
-    <div className={styles.fund_card} onClick={open}>
+    <Card hover onClick={open} className={styles.fund_card}>
       <div className={styles.fund_card_category}>{project.category}</div>
       <div className={styles.fund_card_title}>{project.title}</div>
       <p className={styles.fund_card_desc}>{desc}</p>
@@ -29,6 +30,6 @@ export default function FundableProjectCard({ project }) {
           {project.currentNbOfFunders > 0 && ` · ${project.currentNbOfFunders} funder${project.currentNbOfFunders > 1 ? "s" : ""}`}
         </div>
       </div>
-    </div>
+    </Card>
   );
 }

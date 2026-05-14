@@ -54,6 +54,5 @@ div .topics_header {
 
   .topics_card {
     padding: var(--ifm-spacing-2xl) var(--ifm-spacing-lg);
-    height: 100%;
   }
 }

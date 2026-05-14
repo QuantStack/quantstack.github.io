@@ -1,11 +1,12 @@
 import styles from "./styles.module.css";
+import Card from "../../layout/Card";
 
 export function TopicsCard({ topics, TopicsDescriptionMD }) {
   return (
-    <div className={"content-card " + styles.topics_card}>
+    <Card bg="yellow" className={styles.topics_card}>
       <div className={styles.topics_header}>{topics.name}</div>
       <div><TopicsDescriptionMD /></div>
-    </div>
+    </Card>
   );
 }
 

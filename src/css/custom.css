@@ -734,13 +734,6 @@ ul.row {
   margin-left: 0;
 }
 
-.content-card {
-  border-radius: 8px;
-  box-shadow: var(--ifm-shadow-card);
-  background-color: var(--ifm-color-primary-p0);
-  height: 100%;
-  box-sizing: border-box;
-}
 
 .page-content {
   max-width: var(--ifm-content-width);

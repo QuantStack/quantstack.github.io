@@ -1,8 +1,9 @@
 import styles from "./styles.module.css";
+import Card from "../layout/Card";
 
 export function ValueCard({ value }) {
   return (
-    <div className={"content-card " + styles.value_card}>
+    <Card bg="yellow" className={styles.value_card}>
       <div className={styles.value_icon}>
         <value.pictureComponent alt={value.alt} />
       </div>
@@ -10,7 +11,7 @@ export function ValueCard({ value }) {
       <div className={styles.value_text}>
         <value.DescriptionMD />
       </div>
-    </div>
+    </Card>
   );
 }
 export default ValueCard;

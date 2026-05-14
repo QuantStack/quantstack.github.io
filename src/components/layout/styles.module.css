@@ -89,6 +89,40 @@
   }
 }
 
+/* ─── Card ─── */
+
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: var(--ifm-spacing-lg);
+  box-shadow: var(--ifm-shadow-card);
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.card_yellow {
+  background: var(--ifm-color-primary-p0);
+}
+
+.card_hover {
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: box-shadow 0.2s, border-color 0.2s;
+}
+
+.card_hover:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border-color: var(--ifm-color-neutral-n3);
+}
+
+@media (min-width: 996px) {
+  .card {
+    padding: var(--ifm-spacing-xl) var(--ifm-spacing-lg);
+  }
+}
+
 /* ─── CardGrid ─── */
 
 .card_grid {

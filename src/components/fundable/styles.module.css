@@ -34,21 +34,7 @@
 
 
 .fund_card {
-  background: white;
-  border-radius: 10px;
-  padding: var(--ifm-spacing-lg);
-  box-shadow: var(--ifm-shadow-card);
-  cursor: pointer;
-  display: flex;
-  flex-direction: column;
   gap: var(--ifm-spacing-sm);
-  transition: box-shadow 0.2s;
-  border: 1px solid transparent;
-}
-
-.fund_card:hover {
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
-  border-color: var(--ifm-color-neutral-n3);
 }
 
 .fund_card_category {
