@@ -130,7 +130,7 @@ const config: Config = {
         {
           to: "/about/",
           className: "custom_navbar_item",
-          label: "About us",
+          label: "About",
           position: "left",
         },
         {
@@ -154,7 +154,7 @@ const config: Config = {
         {
           to: "/contact/",
           className: "custom_navbar_item",
-          label: "Contact us",
+          label: "Contact",
           position: "left",
         },
         {
