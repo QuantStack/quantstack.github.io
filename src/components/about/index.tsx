@@ -21,6 +21,9 @@ export function About() {
     <>
       <Section pageTop bg="yellow">
         <h1>About QuantStack</h1>
+        <p>We are an open-source software company focused on the scientific computing ecosystem. We build, maintain, and contribute to projects used by millions of researchers, engineers, and developers worldwide.</p>
+      </Section>
+      <Section>
         <FourValues />
       </Section>
       <Section>

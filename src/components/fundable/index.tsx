@@ -26,8 +26,6 @@ export function MainAreaFundableProjects() {
 
   return (
     <>
-      <h1>Projects available for funding</h1>
-
       <div className={styles.filter_tags}>
         {CATEGORIES.map((cat) => (
           <button
@@ -59,8 +57,14 @@ export function MainAreaFundableProjects() {
 
 export default function FundableProjects() {
   return (
-    <Section pageTop>
-      <MainAreaFundableProjects />
-    </Section>
+    <>
+      <Section pageTop bg="yellow">
+        <h1>Projects available for funding</h1>
+        <p>Open-source features and improvements you can sponsor to move your priorities forward.</p>
+      </Section>
+      <Section>
+        <MainAreaFundableProjects />
+      </Section>
+    </>
   );
 }

@@ -10,7 +10,7 @@ import styles from "./styles.module.css";
 export default function ProjectsOverview() {
   return (
     <div className={styles.projects_overview_container}>
-      <Section bg="yellow">
+      <Section>
         <h2 className="text--center">Our open-source projects</h2>
       </Section>
       <JupyterProject />

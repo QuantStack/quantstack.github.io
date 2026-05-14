@@ -9,8 +9,11 @@ import GroupPhotoJupyterConUrl from "@site/static/img/group/group-photo.png";
 export default function Careers() {
   return (
     <>
-      <Section pageTop>
+      <Section pageTop bg="yellow">
         <h1>Join the QuantStack team!</h1>
+        <p>Work on open-source software that powers scientific discovery, adopted at global scale by millions of researchers and engineers.</p>
+      </Section>
+      <Section>
         <div className={styles.group_photo_container + " flex-full-centered"}>
           <img
             src={GroupPhotoJupyterConUrl}

@@ -24,36 +24,41 @@ export default function BlogsComponent() {
   };
 
   return (
-    <Section pageTop>
-      <div className="flex-full-centered" style={{ marginBottom: "var(--ifm-spacing-lg)" }}>
-        <h1 className="padding-none margin-none">
-          Featured Posts by QuantStack Contributors
-        </h1>
-        <div style={{ padding: "0 10px" }}>
-          <a href={"/atom.xml"}>
-            <AtomOrange width={"42px"} height={"42px"} />
-          </a>
+    <>
+      <Section pageTop bg="yellow">
+        <div className="flex-full-centered">
+          <h1 className="padding-none margin-none">
+            Featured Posts by QuantStack Contributors
+          </h1>
+          <div style={{ padding: "0 10px" }}>
+            <a href={"/atom.xml"}>
+              <AtomOrange width={"42px"} height={"42px"} />
+            </a>
+          </div>
         </div>
-      </div>
-      <div>
-        <input
-          className={styles.search_input}
-          type="search"
-          placeholder="Search for blog posts"
-          onChange={handleChange}
-        />
-      </div>
+        <p className="text--center">News, releases, and technical articles from the QuantStack team.</p>
+      </Section>
+      <Section>
+        <div>
+          <input
+            className={styles.search_input}
+            type="search"
+            placeholder="Search for blog posts"
+            onChange={handleChange}
+          />
+        </div>
 
-      <CardGrid cols={3}>
-        {filteredBlogPosts.map((blogpost, index) => (
-          <li key={index}>
-            <BlogpostCard
-              blogpost={blogpost}
-              timeIndex={numberOfBlogs - index}
-            />
-          </li>
-        ))}
-      </CardGrid>
-    </Section>
+        <CardGrid cols={3}>
+          {filteredBlogPosts.map((blogpost, index) => (
+            <li key={index}>
+              <BlogpostCard
+                blogpost={blogpost}
+                timeIndex={numberOfBlogs - index}
+              />
+            </li>
+          ))}
+        </CardGrid>
+      </Section>
+    </>
   );
 }
