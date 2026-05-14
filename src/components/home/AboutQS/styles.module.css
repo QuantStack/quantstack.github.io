@@ -1,10 +1,8 @@
-@media only screen and (max-width: 996px) {
-  .aboutQS_container {
+@media (max-width: 996px) {
+  .aboutQS_outer {
     background-color: var(--ifm-color-secondary-s2);
     color: white;
-    padding: var(--ifm-spacing-2xl) var(--ifm-spacing-2xl) 0
-      var(--ifm-spacing-2xl);
-    text-align: center;
+    padding: var(--ifm-spacing-2xl) 0;
   }
 
   .aboutQS_text {
@@ -12,19 +10,30 @@
     text-align: center;
     margin-bottom: var(--ifm-spacing-xl);
   }
+
+  .learn_more_button_container {
+    display: flex;
+    justify-content: center;
+    margin-top: var(--ifm-spacing-xl);
+  }
 }
 
-@media only screen and (min-width: 996px) {
-  .aboutQS_container {
+@media (min-width: 996px) {
+  .aboutQS_outer {
     background: linear-gradient(180deg, var(--ifm-color-primary-p0) 0%, #ffffff 100%);
     color: var(--ifm-color-primary-p2);
-    padding: var(--ifm-spacing-2xl) var(--ifm-spacing-5xl) 0
-      var(--ifm-spacing-5xl);
+    padding: var(--ifm-spacing-4xl) 0;
   }
 
   .aboutQS_text {
     font-size: 24px;
     text-align: center;
     margin-bottom: var(--ifm-spacing-lg);
+  }
+
+  .learn_more_button_container {
+    display: flex;
+    justify-content: center;
+    margin-top: var(--ifm-spacing-xl);
   }
 }

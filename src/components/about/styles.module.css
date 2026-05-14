@@ -21,10 +21,8 @@
 }
 
 .small_portrait_card {
-  width: 279px;
   height: 320px;
   padding: var(--ifm-spacing-lg) var(--ifm-spacing-xs);
-  margin-bottom: var(--ifm-spacing-xl);
   align-items: center;
 }
 

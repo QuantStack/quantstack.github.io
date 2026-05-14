@@ -5,24 +5,17 @@ import LinkToProjects from "../LinkToProjects";
 
 export function WhatWeDo() {
   return (
-    <div className={"container " + styles.whatwedo_container}>
-      <div className="row flex-full-centered">
+    <div className={styles.whatwedo_outer}>
+      <div className="page-content">
         <div className={styles.services_link_mobile}>
-          <LinkToServices label={"DISCOVER OUR SERVICES"} />
+          <LinkToServices label="DISCOVER OUR SERVICES" />
         </div>
-      </div>
-      <div className={"row flex-full-centered"}>
-        <h1 className={styles.header}> What we do </h1>
-      </div>
-      <div className={"row flex-full-centered"}>
+        <h1 className={styles.header}>What we do</h1>
         <Topics />
-      </div>
-      <div className="row flex-full-centered">
         <div className={styles.projects_link}>
-          <LinkToProjects label={"DISCOVER ALL OF OUR PROJECTS"} />
-
+          <LinkToProjects label="DISCOVER ALL OF OUR PROJECTS" />
           <div className={styles.services_link_desktop}>
-            <LinkToServices label={"DISCOVER OUR SERVICES"} />
+            <LinkToServices label="DISCOVER OUR SERVICES" />
           </div>
         </div>
       </div>

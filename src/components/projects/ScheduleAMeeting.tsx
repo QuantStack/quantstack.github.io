@@ -1,12 +1,11 @@
-import styles from "./styles.module.css";
+import Banner from "../layout/Banner";
 import LinkToContact from "../home/LinkToContact";
 
 export default function ScheduleAMeeting() {
   return (
-    <div className="blue-banner-container">
+    <Banner bg="dark" cta={<LinkToContact label="CONTACT US!" />}>
       Schedule a meeting and benefit from our experience in Python, C++,
       in-browser data visualization, and high-performance computing.
-      <LinkToContact label={"CONTACT US!"} />
-    </div>
+    </Banner>
   );
 }

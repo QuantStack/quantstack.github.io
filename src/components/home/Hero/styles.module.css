@@ -11,9 +11,34 @@
   padding-bottom: var(--ifm-spacing-3xl);
 }
 
-.row_max_width {
-  max-width: 1500px;
+.hero_body {
   display: flex;
+  align-items: center;
+  gap: var(--ifm-spacing-2xl);
+  padding: var(--ifm-spacing-3xl) 0;
+}
+
+.hero_text {
+  flex: 3;
+  min-width: 0;
+}
+
+.hero_image {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 996px) {
+  .hero_body {
+    flex-direction: column;
+    padding: var(--ifm-spacing-xl) 0;
+  }
+
+  .hero_image {
+    display: none;
+  }
 }
 
 .banner_container_small {

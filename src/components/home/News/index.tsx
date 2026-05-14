@@ -1,46 +1,30 @@
+import styles from "./styles.module.css";
 import BlogpostCard from "../../blog/BlogpostCard";
 import { blogpostsDetails } from "../../blog/blogpostsDetails";
-import styles from "./styles.module.css";
+import CardGrid from "../../layout/CardGrid";
+import Section from "../../layout/Section";
 import LinkToBlogs from "../LinkToBlogs";
 
 export default function News() {
   const numberOfBlogs = blogpostsDetails.length;
   return (
-    <div className={"container" + " " + styles.news_container}>
-      <div className={"row flex-full-centerd"}>
-        <div className="col col--10 col--offset-1">
-          <h2 className="text--center">Recent blog contributions</h2>
+    <div className={styles.news_wrapper}>
+      <Section>
+        <h2 className="text--center">Recent blog contributions</h2>
+        <CardGrid cols={3}>
+          {[0, 1, 2].map((i) => (
+            <li key={i}>
+              <BlogpostCard
+                blogpost={blogpostsDetails[i]}
+                timeIndex={numberOfBlogs - i}
+              />
+            </li>
+          ))}
+        </CardGrid>
+        <div className="flex-full-centered" style={{ marginTop: "var(--ifm-spacing-xl)" }}>
+          <LinkToBlogs label="READ MORE POSTS" />
         </div>
-        <div className="spacing-2xl"></div>
-      </div>
-      <ul className={"row flex-full-centered"}>
-        <li className="cards-list">
-          <div className="col">
-            <BlogpostCard
-              blogpost={blogpostsDetails[0]}
-              timeIndex={numberOfBlogs}
-            />
-          </div>
-        </li>
-        <li className="cards-list">
-          <div className="col col--2 col--offset-1">
-            <BlogpostCard
-              blogpost={blogpostsDetails[1]}
-              timeIndex={numberOfBlogs - 1}
-            />
-          </div>
-        </li>
-        <li className="cards-list">
-          <div className="col col--2 col--offset-1">
-            <BlogpostCard
-              blogpost={blogpostsDetails[2]}
-              timeIndex={numberOfBlogs - 2}
-            />
-          </div>
-        </li>
-      </ul>
-
-      <LinkToBlogs label={"READ MORE POSTS"} />
+      </Section>
     </div>
   );
 }
