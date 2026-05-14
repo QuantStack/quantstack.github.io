@@ -3,7 +3,7 @@ import styles from "./styles.module.css";
 import type { ReactNode } from "react";
 
 type Props = {
-  bg?: "white" | "light" | "dark";
+  bg?: "white" | "yellow" | "dark";
   spacing?: "normal" | "tight" | "loose";
   pageTop?: boolean;
   children: ReactNode;

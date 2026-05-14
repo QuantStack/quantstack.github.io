@@ -32,7 +32,13 @@
   --ifm-overlay-background: rgba(0, 0, 0, 0.3);
 
   --ifm-text-color: var(--ifm-color-primary-p2);
-  --ifm-background-color: white;
+  --ifm-background-color: var(--ifm-bg-neutral);
+
+  /* Semantic background roles */
+  --ifm-bg-neutral: #ffffff;                         /* default reading surface */
+  --ifm-bg-brand: var(--ifm-color-primary-p0);       /* brand identity — yellow */
+  --ifm-bg-emphasis: var(--ifm-color-secondary-s2);  /* CTA / strong contrast — navy */
+
 
   /* footer */
   --ifm-background-color-footer: var(--ifm-color-primary-p1);
@@ -318,7 +324,7 @@ so they are already assumed to be clickable anyway */
 .pagination-nav__link:active,
 a.card:active,
 a.menu__link:active {
-  background: white;
+  background: var(--ifm-bg-neutral);
   color: #000;
 }
 

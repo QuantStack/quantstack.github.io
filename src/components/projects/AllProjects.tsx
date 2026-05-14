@@ -9,7 +9,7 @@ export default function AllProjects() {
         <ProjectCard
           key={index}
           project={project}
-          bg={index % 2 === 0 ? "light" : "white"}
+          bg="white"
         />
       ))}
     </>

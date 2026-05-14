@@ -25,7 +25,7 @@
 
 @media only screen and (min-width: 996px) {
   .link_to {
-    background-color: var(--ifm-color-secondary-s2);
+    background-color: var(--ifm-bg-emphasis);
     color: white;
     width: 358px;
     font-weight: 700;
@@ -40,7 +40,7 @@
 
 
   .link_to_about_us {
-    background-color: var(--ifm-color-secondary-s2);
+    background-color: var(--ifm-bg-emphasis);
     color: white;
     width: 358px;
     font-weight: 700;

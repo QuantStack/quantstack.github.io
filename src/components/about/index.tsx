@@ -19,7 +19,7 @@ export function getTeamByPageName(name: string) {
 export function About() {
   return (
     <>
-      <Section pageTop bg="light">
+      <Section pageTop bg="yellow">
         <h1>About QuantStack</h1>
         <FourValues />
       </Section>

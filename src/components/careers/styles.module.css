@@ -27,7 +27,7 @@
 }
 
 .link_to_WTJ {
-  background-color: var(--ifm-color-secondary-s2);
+  background-color: var(--ifm-bg-emphasis);
   color: white;
   width: 358px;
   font-weight: 700;
@@ -36,7 +36,7 @@
 .interview_card {
   width: 280px;
   height: 300px;
-  background-color: var(--ifm-background-color);
+  background-color: var(--ifm-bg-neutral);
   border-radius: 10px;
   box-shadow: var(--ifm-shadow-card);
   padding: var(--ifm-spacing-sm);

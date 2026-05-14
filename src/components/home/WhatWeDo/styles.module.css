@@ -33,7 +33,7 @@
   }
 
   .whatwedo_outer {
-    background: linear-gradient(180deg, #ffffff 0%, var(--ifm-color-primary-p0) 100%);
+    background: var(--ifm-bg-neutral);
     padding: var(--ifm-spacing-3xl) 0;
   }
 

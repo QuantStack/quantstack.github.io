@@ -9,7 +9,7 @@
 }
 
 .hero_container {
-  background-color: var(--ifm-color-primary-p0);
+  background-color: var(--ifm-bg-brand);
   padding-bottom: var(--ifm-spacing-3xl);
 }
 

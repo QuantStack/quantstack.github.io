@@ -6,7 +6,6 @@ import MambaPictureUrl from "@site/static/img/projects/mamba_console.png";
 export default function SupplyChainProjects() {
   return (
     <SplitSection
-      bg="light"
       reverse
       image={<img src={MambaPictureUrl} alt={"Picture showing a terminal in which mamba commands are run."} style={{ maxWidth: "100%" }} />}
     >

@@ -3,7 +3,7 @@ import SplitSection from "../layout/SplitSection";
 
 type Props = {
   project: any;
-  bg?: "white" | "light";
+  bg?: "white";
 };
 
 export default function ProjectCard({ project, bg = "light" }: Props) {

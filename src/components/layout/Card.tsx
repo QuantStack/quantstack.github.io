@@ -3,7 +3,7 @@ import styles from "./styles.module.css";
 import React from "react";
 
 type Props = {
-  bg?: "white" | "yellow";
+  bg?: "white" | "yellow" | "transparent";
   hover?: boolean;
   className?: string;
   onClick?: () => void;
@@ -16,6 +16,7 @@ export default function Card({ bg = "white", hover = false, className, onClick, 
       className={clsx(
         styles.card,
         bg === "yellow" && styles.card_yellow,
+        bg === "transparent" && styles.card_transparent,
         hover && styles.card_hover,
         className
       )}

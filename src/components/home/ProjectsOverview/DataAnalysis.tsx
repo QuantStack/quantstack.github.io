@@ -6,7 +6,6 @@ import ApacheArrowPicture from "@site/static/img/projects/apache_arrow.svg";
 export default function DataAnalysisProjects() {
   return (
     <SplitSection
-      bg="light"
       reverse
       image={<ApacheArrowPicture style={{ maxWidth: "100%" }} />}
     >

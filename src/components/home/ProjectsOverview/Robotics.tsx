@@ -6,7 +6,6 @@ import RoboticsPictureUrl from "@site/static/img/projects/robotics.png";
 export default function RoboticsProjects() {
   return (
     <SplitSection
-      bg="light"
       reverse
       image={<img src={RoboticsPictureUrl} alt={"Picture showing two jupyterlab user interfaces displaying robotics projects."} style={{ maxWidth: "100%" }} />}
     >

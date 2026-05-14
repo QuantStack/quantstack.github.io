@@ -1,5 +1,6 @@
 
 import Hero from "./Hero";
+import TrustedBy from "./TrustedBy";
 import WhatWeDo from "./WhatWeDo";
 import ProjectsOverview from "./ProjectsOverview";
 import AboutQS from "./AboutQS";
@@ -11,6 +12,7 @@ export function Home(): JSX.Element {
   return (
    <>
       <Hero />
+      <TrustedBy />
       <WhatWeDo />
       <ProjectsOverview />
       <AboutQS />

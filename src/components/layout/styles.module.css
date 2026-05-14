@@ -10,15 +10,15 @@
 }
 
 .section_white {
-  background: var(--ifm-background-color);
+  background: var(--ifm-bg-neutral);
 }
 
-.section_light {
-  background: var(--ifm-color-orange-light);
+.section_yellow {
+  background: var(--ifm-bg-brand);
 }
 
 .section_dark {
-  background: var(--ifm-color-secondary-s2);
+  background: var(--ifm-bg-emphasis);
   color: white;
 }
 
@@ -92,7 +92,7 @@
 /* ─── Card ─── */
 
 .card {
-  background: white;
+  background: var(--ifm-bg-neutral);
   border-radius: 10px;
   padding: var(--ifm-spacing-lg);
   box-shadow: var(--ifm-shadow-card);
@@ -103,7 +103,12 @@
 }
 
 .card_yellow {
-  background: var(--ifm-color-primary-p0);
+  background: var(--ifm-bg-brand);
+}
+
+.card_transparent {
+  background: transparent;
+  box-shadow: none;
 }
 
 .card_hover {
@@ -186,17 +191,11 @@
 }
 
 .banner_dark {
-  background: var(--ifm-color-secondary-s2);
+  background: var(--ifm-bg-emphasis);
   color: white;
   font-size: 28px;
 }
 
-.banner_light {
-  background: var(--ifm-color-orange-light);
-  color: var(--ifm-color-primary-p2);
-  font-size: 22px;
-  font-weight: 400;
-}
 
 .banner_title {
   font-style: normal;

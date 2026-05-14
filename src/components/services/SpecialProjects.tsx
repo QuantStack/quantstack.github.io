@@ -6,7 +6,7 @@ export default function SpecialProjects() {
   return (
     <SplitSection
       ratio="50/50"
-      bg="light"
+      bg="white"
       image={
         <SpecialProjectsIllustration
           alt="Picture showing an illustration of a group of people working together in an office."
