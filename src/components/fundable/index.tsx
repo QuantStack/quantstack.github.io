@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import styles from "./styles.module.css";
 import Section from "../layout/Section";
 import CardGrid from "../layout/CardGrid";
@@ -18,7 +18,21 @@ export function getCategoryFromProjectPageName(pageName: string) {
 }
 
 export function MainAreaFundableProjects() {
-  const [active, setActive] = useState("All");
+  const [active, setActive] = useState(() => {
+    if (typeof window === "undefined") return "All";
+    const param = new URLSearchParams(window.location.search).get("category");
+    return CATEGORIES.includes(param) ? param : "All";
+  });
+
+  useEffect(() => {
+    const url = new URL(window.location.href);
+    if (active === "All") {
+      url.searchParams.delete("category");
+    } else {
+      url.searchParams.set("category", active);
+    }
+    window.history.replaceState(null, "", url.toString());
+  }, [active]);
 
   const visible = active === "All"
     ? ALL_PROJECTS
