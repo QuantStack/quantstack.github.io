@@ -11,6 +11,7 @@
 .hero_container {
   background-color: var(--ifm-bg-brand);
   padding-bottom: var(--ifm-spacing-3xl);
+  margin-top: calc(-1 * var(--ifm-navbar-height));
 }
 
 .hero_body {

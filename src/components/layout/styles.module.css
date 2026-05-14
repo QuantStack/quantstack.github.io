@@ -6,7 +6,8 @@
 }
 
 .section_page_top {
-  padding-top: var(--ifm-spacing-3xl);
+  margin-top: calc(-1 * var(--ifm-navbar-height));
+  padding-top: calc(var(--ifm-spacing-3xl) + var(--ifm-navbar-height));
 }
 
 .section_white {
@@ -36,7 +37,7 @@
   }
 
   .section_page_top {
-    padding-top: var(--ifm-spacing-2xl);
+    padding-top: calc(var(--ifm-spacing-2xl) + var(--ifm-navbar-height));
   }
 }
 
