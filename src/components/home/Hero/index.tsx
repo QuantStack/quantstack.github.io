@@ -1,5 +1,4 @@
 import styles from "./styles.module.css";
-import LogoGrid from "./LogosTableBy8";
 import Astronaut from "/img/quantstack/astronaut.svg";
 import Banner from "./Banner";
 
@@ -17,9 +16,9 @@ export function Hero() {
               A team behind major open-source projects of the scientific
               computing ecosystem
             </p>
-            <h2 className={styles.h2_custom}>
+            <p className={styles.tech_tagline}>
               Jupyter, Conda-forge, Mamba, Voilà, Xtensor and more.
-            </h2>
+            </p>
           </div>
           <div className={styles.hero_image}>
             <Astronaut
@@ -29,8 +28,6 @@ export function Hero() {
             />
           </div>
         </div>
-        <div className={styles.worked_with}>We have worked with</div>
-        <LogoGrid />
       </div>
     </div>
   );

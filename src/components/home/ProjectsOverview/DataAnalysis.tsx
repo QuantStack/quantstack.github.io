@@ -10,8 +10,8 @@ export default function DataAnalysisProjects() {
       reverse
       image={<ApacheArrowPicture style={{ maxWidth: "100%" }} />}
     >
-      <h1 className="padding-none">Data Analysis</h1>
-      <h2 className={styles.h2_custom}>Supporting the development of key data analysis technologies.</h2>
+      <h2 className="padding-none">Data Analysis</h2>
+      <p className={styles.tagline}>Supporting the development of key data analysis technologies.</p>
       <DataAnalysisMD />
     </SplitSection>
   );

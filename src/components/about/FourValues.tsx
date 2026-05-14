@@ -5,7 +5,7 @@ import { valuesDetails } from "./Values/valuesDetails";
 export default function FourValues() {
   return (
     <>
-      <h1>Our values</h1>
+      <h2>Our values</h2>
       <CardGrid cols={4}>
         {valuesDetails.map((value, index) => (
           <li key={index}>

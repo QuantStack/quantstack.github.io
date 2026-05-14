@@ -9,10 +9,6 @@
 }
 
 @media (max-width: 996px) {
-  .header {
-    display: none;
-  }
-
   .whatwedo_outer {
     padding: var(--ifm-spacing-xl) 0;
   }

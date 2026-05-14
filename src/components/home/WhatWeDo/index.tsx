@@ -10,7 +10,7 @@ export function WhatWeDo() {
         <div className={styles.services_link_mobile}>
           <LinkToServices label="DISCOVER OUR SERVICES" />
         </div>
-        <h1 className={styles.header}>What we do</h1>
+        <h2 className={styles.header}>What we do</h2>
         <Topics />
         <div className={styles.projects_link}>
           <LinkToProjects label="DISCOVER ALL OF OUR PROJECTS" />

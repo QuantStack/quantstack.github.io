@@ -1,0 +1,21 @@
+.trusted_by_outer {
+  background-color: var(--ifm-color-primary-p0);
+  padding: var(--ifm-spacing-2xl) 0;
+}
+
+.logo_grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: var(--ifm-spacing-xl) var(--ifm-spacing-2xl);
+  padding: var(--ifm-spacing-lg) 0;
+}
+
+.customer_logo {
+  height: 36px;
+  width: auto;
+  filter: grayscale(1);
+  opacity: 0.75;
+  object-fit: contain;
+}

@@ -8,8 +8,8 @@ export default function ComputingProjects() {
     <SplitSection
       image={<XTensorXSIMDPicture style={{ maxWidth: "100%" }} />}
     >
-      <h1 className="padding-none">Scientific computing</h1>
-      <h2 className={styles.h2_custom}>Supporting the development of several C++ scientific computing packages.</h2>
+      <h2 className="padding-none">Scientific computing</h2>
+      <p className={styles.tagline}>Supporting the development of several C++ scientific computing packages.</p>
       <ComputingMD />
     </SplitSection>
   );

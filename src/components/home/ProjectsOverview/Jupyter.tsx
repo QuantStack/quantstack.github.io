@@ -8,8 +8,8 @@ export default function JupyterProject() {
     <SplitSection
       image={<img src={JupyterPictureUrl} alt={"Picture showing two jupyterlab user interfaces"} style={{ maxWidth: "100%" }} />}
     >
-      <h1 className="padding-none">Jupyter project</h1>
-      <h2 className={styles.h2_custom}>We strive to sustain the project in the long term.</h2>
+      <h2 className="padding-none">Jupyter project</h2>
+      <p className={styles.tagline}>We strive to sustain the project in the long term.</p>
       <JupyterMD />
     </SplitSection>
   );

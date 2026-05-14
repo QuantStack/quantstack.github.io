@@ -20,10 +20,11 @@ export function About() {
   return (
     <>
       <Section pageTop bg="light">
+        <h1>About QuantStack</h1>
         <FourValues />
       </Section>
       <Section>
-        <h1>Meet the QuantStack team</h1>
+        <h2>Meet the QuantStack team</h2>
         <div className={styles.team_description}>
           A team of outliers, leaders in software projects adopted at the
           global scale, benefiting millions of people worldwide.

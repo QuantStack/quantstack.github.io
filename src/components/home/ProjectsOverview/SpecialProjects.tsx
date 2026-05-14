@@ -8,8 +8,8 @@ export default function SpecialProjects() {
     <SplitSection
       image={<img src={SpecialProjectsPictureUrl} alt={"Picture showing examples of Jupyter CAD projects in Jupyterlab."} style={{ maxWidth: "100%", maxHeight: "500px", objectFit: "contain" }} />}
     >
-      <h1 className="padding-none">Special projects</h1>
-      <h2 className={styles.h2_custom}>Applications built from the ground up and addressing a complete use case.</h2>
+      <h2 className="padding-none">Special projects</h2>
+      <p className={styles.tagline}>Applications built from the ground up and addressing a complete use case.</p>
       <SpecialProjectsMD />
     </SplitSection>
   );

@@ -10,8 +10,8 @@ export default function RoboticsProjects() {
       reverse
       image={<img src={RoboticsPictureUrl} alt={"Picture showing two jupyterlab user interfaces displaying robotics projects."} style={{ maxWidth: "100%" }} />}
     >
-      <h1 className="padding-none">Robotics</h1>
-      <h2 className={styles.h2_custom}>We just kicked off a new initiative to Robotics education.</h2>
+      <h2 className="padding-none">Robotics</h2>
+      <p className={styles.tagline}>We just kicked off a new initiative to Robotics education.</p>
       <RoboticsMD />
     </SplitSection>
   );
