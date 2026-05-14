@@ -18,7 +18,7 @@
   display: flex;
   align-items: center;
   gap: var(--ifm-spacing-2xl);
-  padding: var(--ifm-spacing-3xl) 0;
+  padding: var(--ifm-spacing-xl) 0 var(--ifm-spacing-3xl);
 }
 
 .hero_text {
@@ -100,12 +100,11 @@
 }
 
 .banner_text_overlay {
-  margin-top: 50px;
+  margin-top: calc(var(--ifm-navbar-height) + 96px);
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   color: white;
-  /* or whatever contrasts with your SVG */
   font-size: 2rem;
   font-family: var(--ifm-font-family-kode-mono);
 }
@@ -131,18 +130,35 @@
 }
 
 :global(.link-to-button).link_to_notebook_link {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg,
-      var(--ifm-color-accent-indigo),
-      var(--ifm-color-accent-dark));
-  color: white;
-  width: 358px;
+  background: var(--ifm-color-accent-yellow);
+  color: var(--ifm-color-primary-p2);
+  width: auto;
+  padding: 14px 40px;
   font-weight: 700;
   font-family: var(--ifm-font-family-roboto);
-  font-weight: 600;
-  font-size: 24px;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  border-radius: 35px;
+  animation: notebookLinkGlow 2.5s ease-in-out infinite;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+:global(.link-to-button).link_to_notebook_link:hover {
+  transform: scale(1.05);
+  animation: none;
+  box-shadow: 0 0 32px rgba(252, 241, 43, 0.85);
+}
+
+@keyframes notebookLinkGlow {
+  0%, 100% {
+    box-shadow: 0 0 10px rgba(252, 241, 43, 0.3), 0 0 24px rgba(252, 241, 43, 0.12);
+  }
+  50% {
+    box-shadow: 0 0 22px rgba(252, 241, 43, 0.7), 0 0 48px rgba(252, 241, 43, 0.3);
+  }
 }
 
 

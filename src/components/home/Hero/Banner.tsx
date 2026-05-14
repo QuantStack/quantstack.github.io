@@ -9,7 +9,7 @@ export default function Banner() {
             <div className={styles.banner_container_small}>
                 <div className={styles.banner_text_overlay}>
                     <div className={styles.banner_text_overlay_title}>Introducing <span className={styles.notebook_link}>Notebook.link</span></div>
-                    <div className={styles.banner_text_overlay_subtile}>The future of notebook sharing</div>
+                    <div className={styles.banner_text_overlay_subtitle}>The future of notebook sharing</div>
                     <LinkToNotebookLink label={"Get started"} />
                 </div>
             </div>
@@ -17,21 +17,21 @@ export default function Banner() {
                 
                 <div className={styles.banner_text_overlay}>
                     <div className={styles.banner_text_overlay_title}>Introducing <span className={styles.notebook_link}>Notebook.link</span></div>
-                    <div className={styles.banner_text_overlay_subtile}>The future of notebook sharing</div>
+                    <div className={styles.banner_text_overlay_subtitle}>The future of notebook sharing</div>
                     <LinkToNotebookLink label={"Get started"} />
                 </div>
             </div>
             <div className={styles.banner_container_large}>
                 <div className={styles.banner_text_overlay}>
                     <div className={styles.banner_text_overlay_title}>Introducing <span className={styles.notebook_link}>Notebook.link</span></div>
-                    <div className={styles.banner_text_overlay_subtile}>The future of notebook sharing</div>
+                    <div className={styles.banner_text_overlay_subtitle}>The future of notebook sharing</div>
                     <LinkToNotebookLink label={"Get started"} />
                 </div>
             </div>
             <div className={styles.banner_container_very_large}>
                 <div className={styles.banner_text_overlay}>
                     <div className={styles.banner_text_overlay_title}>Introducing <span className={styles.notebook_link}>Notebook.link</span></div>
-                    <div className={styles.banner_text_overlay_subtile}>The future of notebook sharing</div>
+                    <div className={styles.banner_text_overlay_subtitle}>The future of notebook sharing</div>
                     <LinkToNotebookLink label={"Get started"} />
                 </div>
             </div>

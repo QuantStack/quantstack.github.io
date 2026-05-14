@@ -5,8 +5,7 @@ export default function Header() {
   return (
     <Section pageTop bg="yellow">
       <h1 className={styles.services_header_text}>
-        Hire QuantStack to build upon the Jupyter, Mamba, and the PyData
-        ecosystem.
+        Hire QuantStack for expert engineering at the frontier of open-source.
       </h1>
       <p>Expert-led development from the people who built and maintain the tools you depend on. Whether you need a custom feature, a support retainer, or hands-on engineering, you work directly with the upstream maintainers.</p>
     </Section>
