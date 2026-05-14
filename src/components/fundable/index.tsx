@@ -73,8 +73,8 @@ export default function FundableProjects() {
   return (
     <>
       <Section pageTop bg="yellow">
-        <h1>Projects available for funding</h1>
-        <p>Commission specific open-source improvements — fund the work, shape the roadmap. Tell us what your team needs, and we'll deliver it as open-source that benefits the whole community.</p>
+        <h1>Sponsor open-source work</h1>
+        <p>High-demand open-source features with detailed plans already in place — the work is scoped, the need is proven, only funding is missing. Back a project and get it shipped.</p>
       </Section>
       <Section>
         <MainAreaFundableProjects />

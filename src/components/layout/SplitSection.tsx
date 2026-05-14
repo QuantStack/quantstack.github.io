@@ -7,7 +7,7 @@ type Props = {
   image: ReactNode;
   reverse?: boolean;
   ratio?: "60/40" | "50/50";
-  bg?: "white" | "light" | "dark";
+  bg?: "white" | "yellow" | "dark";
   spacing?: "normal" | "tight" | "loose";
   pageTop?: boolean;
   children: ReactNode;

@@ -49,7 +49,7 @@ export const projectsDetails = [
     pictureHeight: "63px",
     pictureAltText: "Picture for Apache Arrow project showing the logo made of arrows.",
     ProjectMD: ApacheArrowMD,
-    reverse:"false"
+    reverse:"true"
   },
   {
     name: "robotics",
@@ -59,6 +59,6 @@ export const projectsDetails = [
     pictureHeight: "210px",
     pictureAltText: "Picture for robotics project showing an illustration with a robotics device.",
     ProjectMD: RoboticsMD,
-    reverse:"true"
+    reverse:"false"
   },
 ];

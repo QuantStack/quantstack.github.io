@@ -189,7 +189,6 @@
 .link_to_get_a_quote {
   background-color: var(--ifm-color-orange-jupyter);
   color: white;
-  width: 358px;
   font-weight: 700;
 }
 

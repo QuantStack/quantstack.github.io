@@ -197,6 +197,16 @@
   font-size: 28px;
 }
 
+.banner_dark :global(.link-to-button) {
+  background: var(--ifm-color-accent-yellow);
+  color: var(--ifm-color-primary-p2);
+}
+
+.banner_dark :global(.link-to-button):hover {
+  color: var(--ifm-color-primary-p2);
+  box-shadow: 0 8px 28px rgba(252, 241, 43, 0.5);
+}
+
 
 .banner_title {
   font-style: normal;

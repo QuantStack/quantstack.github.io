@@ -110,6 +110,12 @@ const config: Config = {
 
       items: [
         {
+          to: "/",
+          className: "custom_navbar_item",
+          label: "Home",
+          position: "left",
+        },
+        {
           to: "/projects/",
           className: "custom_navbar_item",
           label: "Projects",
@@ -142,7 +148,7 @@ const config: Config = {
         {
           to: "/fundable/",
           className: "custom_navbar_item",
-          label: "Fundable projects",
+          label: "Sponsor",
           position: "left",
         },
         {

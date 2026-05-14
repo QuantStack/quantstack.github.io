@@ -17,8 +17,13 @@
 }
 
 .learn_more_button_container :global(.link-to-button) {
-  background: var(--ifm-bg-brand);
+  background: var(--ifm-color-accent-yellow);
   color: var(--ifm-color-primary-p2);
+}
+
+.learn_more_button_container :global(.link-to-button):hover {
+  color: var(--ifm-color-primary-p2);
+  box-shadow: 0 8px 28px rgba(252, 241, 43, 0.5);
 }
 
 @media (min-width: 996px) {

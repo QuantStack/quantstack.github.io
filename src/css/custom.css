@@ -253,20 +253,36 @@ ul {
 /***********************************************************/
 
 .link-to-button {
-  width: 258px;
-  height: 56px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
   font-family: var(--ifm-font-family-roboto);
   border-radius: 35px;
   background: var(--ifm-color-secondary-s2);
   color: white;
-  font-size: 16px;
+  font-size: 15px;
   font-style: normal;
-  font-weight: 600;
-  line-height: 150%;
-  letter-spacing: -0.176px;
-  padding: 16px 36px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  padding: 14px 36px;
   border: none;
   text-align: center;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  text-decoration: none;
+}
+
+.link-to-button:hover {
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 38, 70, 0.35);
+  text-decoration: none;
+}
+
+.link-to-button:active {
+  transform: translateY(0);
+  box-shadow: none;
 }
 
 /*
