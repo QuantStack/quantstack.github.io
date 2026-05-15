@@ -18,11 +18,12 @@ const EDGES: [number, number][] = [
 ];
 
 const SNIPPETS = [
-  { text: "import xarray as xr",          x: 770,  y: 765, angle: -4 },
-  { text: "conda install -c conda-forge", x: 1075, y: 540, angle: -6 },
-  { text: "∂L/∂θ = ∇θ L",                x: 1295, y: 435, angle:  5 },
-  { text: "df.groupby('date').sum()",      x: 305,  y: 855, angle:  7 },
-  { text: "kernel = rbf(X, X.T)",         x: 920,  y: 115, angle: -3 },
+  { text: "mamba install xtensor",        x: 770,  y: 765, angle: -4 },
+  { text: "import ipywidgets as w",       x: 1075, y: 540, angle: -6 },
+  { text: "voila dashboard.ipynb",        x: 1295, y: 435, angle:  5 },
+  { text: "xt::arange<double>(10)",       x: 305,  y: 855, angle:  7 },
+  { text: "jupyter lite build",           x: 920,  y: 115, angle: -3 },
+  { text: "import pyarrow as pa",          x: 180,  y: 380, angle:  4 },
 ];
 
 function buildSVG(): string {
