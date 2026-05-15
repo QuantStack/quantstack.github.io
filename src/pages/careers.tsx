@@ -73,7 +73,7 @@ function CareersContent() {
           <div className={styles.interviews_container}>
             <h2>Working at QuantStack</h2>
             <div className="container">
-              <ul className={`row flex-full-centered`}>
+              <ul className={`row flex-full-centered`} style={{ listStyle: "none" }}>
                 {interviews.map((person) => (
                   <li className="cards-list" key={person.firstName}>
                     <div className="col col--2">
