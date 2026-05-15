@@ -4,8 +4,8 @@ import { useHistory, useLocation } from '@docusaurus/router';
 import { useEffect } from 'react';
 import { Route } from 'react-router-dom';
 import { getCategoryFromProjectPageName } from ".";
+import { FundableContent } from "@site/src/pages/sponsor";
 import styles from "@site/src/components/about/styles.module.css";
-import FundableProjects from '.';
 import LargeProjectCard from './LargeProjectCard';
 
 export default function LargeProjectCardPage() {
@@ -25,13 +25,13 @@ export default function LargeProjectCardPage() {
         window.scrollTo({ top: scrollY, behavior: 'auto' });
       }
     }, 0);
-    history.replace('/fundable');
+    history.replace('/sponsor');
   };
 
   const handleClose = () => {
     const scrollY = location.state?.scrollY;
     if (location.state?.fromFundable) {
-      history.replace('/fundable');
+      history.replace('/sponsor');
 
       setTimeout(() => {
         if (scrollY !== undefined) {
@@ -44,9 +44,9 @@ export default function LargeProjectCardPage() {
   }
   return (
     <Layout>
-      <FundableProjects />
+      <FundableContent />
       <Route
-        path="/fundable/:pageName"
+        path="/sponsor/:pageName"
         render={({ match }) => {
           const { pageName } = match.params; /* extract the dynamic part from the url i.e. the pageName*/
           const projectsByCategory = getCategoryFromProjectPageName(pageName);

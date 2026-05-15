@@ -1,0 +1,29 @@
+.product_label {
+  color: var(--ifm-color-accent-yellow);
+  font-family: var(--ifm-font-family-roboto);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  margin-bottom: var(--ifm-spacing-xs);
+  padding: 0;
+}
+
+.subtitle {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: var(--ifm-font-size-medium);
+  padding: 0;
+}
+
+.feature_icon {
+  font-size: 32px;
+  margin-bottom: var(--ifm-spacing-sm);
+  display: block;
+}
+
+.feature_title {
+  font-family: var(--ifm-font-family-display);
+  font-weight: 800;
+  font-size: 22px;
+  margin-bottom: var(--ifm-spacing-xs);
+}

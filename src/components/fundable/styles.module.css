@@ -1,11 +1,104 @@
+/* ── Filter + grid layout ──────────────────────────────── */
+
+.filter_tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--ifm-spacing-sm);
+  margin-bottom: var(--ifm-spacing-xl);
+}
+
+.filter_tag {
+  padding: 6px var(--ifm-spacing-md);
+  border-radius: 20px;
+  border: 1.5px solid var(--ifm-color-secondary-s3);
+  background: transparent;
+  color: var(--ifm-color-secondary-s3);
+  font-family: var(--ifm-font-family-roboto);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+
+.filter_tag:hover {
+  background: var(--ifm-color-secondary-s1);
+  color: var(--ifm-color-secondary-s2);
+  border-color: var(--ifm-color-secondary-s1);
+}
+
+.filter_tag_active {
+  background: var(--ifm-bg-emphasis);
+  color: white;
+  border-color: var(--ifm-bg-emphasis);
+}
+
+
+.fund_card {
+  gap: var(--ifm-spacing-sm);
+}
+
+.fund_card_category {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  color: var(--ifm-color-secondary-s3);
+}
+
+.fund_card_title {
+  font-family: var(--ifm-font-family-roboto);
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--ifm-color-primary-p2);
+  line-height: 1.4;
+}
+
+.fund_card_desc {
+  font-size: 13px !important;
+  color: var(--ifm-color-neutral-n1);
+  line-height: 1.5;
+  flex: 1;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.fund_card_footer {
+  margin-top: auto;
+  padding-top: var(--ifm-spacing-sm);
+  border-top: 1px solid var(--ifm-color-neutral-n3);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.fund_card_price {
+  font-family: var(--ifm-font-family-roboto);
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--ifm-color-primary-p2);
+}
+
+.fund_card_pct {
+  font-size: 12px;
+  color: var(--ifm-color-neutral-n1);
+}
+
+.propose_section {
+  border-top: 1px solid var(--ifm-color-neutral-n3);
+  padding-top: var(--ifm-spacing-2xl);
+  margin-top: var(--ifm-spacing-xl);
+}
+
+/* ── Legacy card (kept for SmallProjectCard / ProjectCategory) ── */
+
 .small_project_card:hover {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
 .project_category_header {
-  font-family: var(--ifm-font-family-rubik-one);
+  font-family: var(--ifm-font-family-roboto);
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 20px;
   text-align: center;
   margin-bottom: var(--ifm-spacing-xl);
@@ -15,7 +108,7 @@
 
 .project_title {
   color: var(--ifm-text-color-main-title);
-  font-family: var(--ifm-font-family-bebas-neue);
+  font-family: var(--ifm-font-family-roboto);
   font-size: 32px;
   font-style: normal;
   font-weight: 600;
@@ -43,7 +136,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: var(--ifm-overlay-background);
   z-index: 1000;
 }
 
@@ -52,7 +145,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: white;
+  background-color: var(--ifm-bg-neutral);
   border: 1px solid #ccc;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
@@ -96,7 +189,6 @@
 .link_to_get_a_quote {
   background-color: var(--ifm-color-orange-jupyter);
   color: white;
-  width: 358px;
   font-weight: 700;
 }
 
@@ -106,41 +198,6 @@
   margin: var(--ifm-spacing-md) 0;
 }
 
-.menu_sidebar {
-  padding: 1rem;
-  overflow-y: auto;
-}
-
-.menu_sidebar_item {
-  font-family: var(--ifm-font-family-roboto);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 48px;
-  /* 300% */
-  letter-spacing: 0.15px;
-}
-
-.menu_sidebar_container {
-  position: fixed;
-  display: flex;
-  height: auto;
-}
-
-.menu_sidebar_indicator {
-  display: inline-block;
-  width: 6px;
-  height: 20px;
-  border-radius: 4px;
-  background-color: transparent;
-  margin-right: 10px;
-  transition: background-color 0.3s ease;
-  vertical-align: middle;
-}
-
-.active_section .menu_sidebar_indicator {
-  background-color: #D9D9D9;
-}
 
 .send_button {
   width: 258px;
@@ -158,7 +215,7 @@
 .form_label {
   font-size: 12px;
   color: var(--ifm-text-color);
-  background-color: var(--ifm-background-color);
+  background-color: var(--ifm-bg-neutral);
 }
 
 .project_information_container {
@@ -302,14 +359,6 @@
     padding: var(--ifm-spacing-md);
   }
 
-  .main_area_desktop {
-    display: none
-  }
-
-  .menu_sidebar {
-    display: none
-  }
-
   .small_project_card {
     width: 90vw;
     margin-bottom: var(--ifm-spacing-lg);
@@ -409,10 +458,6 @@
     max-height: 95vh;
   }
 
-  .main_area_desktop {
-    display: none
-  }
-
   .small_input {
     width: 400px;
     height: 56px;
@@ -433,10 +478,6 @@
   .empty_card_large_input {
     width: 70vw;
     height: 200px;
-  }
-
-  .menu_sidebar {
-    display: none
   }
 
   .get_a_quote_dialog {
@@ -484,14 +525,6 @@
     border-radius: 8px;
     overflow-y: auto;
     max-height: 95vh;
-  }
-
-  .main_area_mobile {
-    display: none;
-  }
-
-  .main_area_desktop {
-    padding-left: 80px;
   }
 
   .small_input {

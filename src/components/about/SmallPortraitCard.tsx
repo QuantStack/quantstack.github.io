@@ -1,6 +1,6 @@
 import styles from "./styles.module.css";
 import { useHistory } from "@docusaurus/router";
-import Avatar from "./Avatar";
+import Card from "../layout/Card";
 
 export function SmallPortraitCard({ person }) {
   const history = useHistory();
@@ -9,34 +9,28 @@ export function SmallPortraitCard({ person }) {
     const completeName = person.completeName.replace(/\s+/g, '');
     const completeNameWithoutAccents = completeName
       .normalize("NFD")
-      .replace(/[\u0300-\u036f]/g, '');
+      .replace(/[̀-ͯ]/g, '');
     history.push({
       pathname: `/about/${completeNameWithoutAccents}`,
-      state: { fromAbout: true, scrollY: window.scrollY, },
+      state: { fromAbout: true, scrollY: window.scrollY },
     });
   }
 
   return (
-    <div onClick={openDialog}>
-      <div className={"card" + " " + styles.small_portrait_card}>
-        <div className="card__header">
-          <Avatar person={person} />
-          <div
-            className={
-              "flex-full-centered" + " " + styles.small_card_complete_name
-            }
-          >
-            {person.completeName}
-          </div>
-        </div>
-        <div className="card__body">
-          <div
-            className={"flex-full-centered" + " " + styles.small_card_position}
-          >
-            {person.position}
-          </div>
-        </div>
+    <Card hover onClick={openDialog} className={styles.small_portrait_card}>
+      <div className="flex-full-centered">
+        <img
+          src={person.avatarUrl}
+          className={styles.avatar}
+          alt={`Avatar of ${person.completeName} working at QuantStack as a ${person.position}`}
+        />
       </div>
-    </div>
+      <div className={"flex-full-centered " + styles.small_card_complete_name}>
+        {person.completeName}
+      </div>
+      <div className={"flex-full-centered " + styles.small_card_position}>
+        {person.position}
+      </div>
+    </Card>
   );
 }

@@ -20,6 +20,11 @@ const config: Config = {
   organizationName: "/HaudinFlorence/", // Usually your GitHub org/user name.
   projectName: "quantstack.github.io", // Usually your repo name.
 
+  clientModules: [
+    require.resolve("./src/clientModules/navbarScroll.ts"),
+    require.resolve("./src/clientModules/backgroundScene.ts"),
+  ],
+
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
   staticDirectories: ["static"],
@@ -108,6 +113,12 @@ const config: Config = {
 
       items: [
         {
+          to: "/",
+          className: "custom_navbar_item",
+          label: "Home",
+          position: "left",
+        },
+        {
           to: "/projects/",
           className: "custom_navbar_item",
           label: "Projects",
@@ -122,7 +133,7 @@ const config: Config = {
         {
           to: "/about/",
           className: "custom_navbar_item",
-          label: "About us",
+          label: "About",
           position: "left",
         },
         {
@@ -138,16 +149,22 @@ const config: Config = {
           position: "left",
         },
         {
-          to: "/fundable/",
-          label: "Fundable projects",
-          position: "right",
-          className: "fundable_projects"
+          to: "/sponsor/",
+          className: "custom_navbar_item",
+          label: "Sponsor",
+          position: "left",
         },
         {
           to: "/contact/",
-          label: "Contact us",
+          className: "custom_navbar_item",
+          label: "Contact",
+          position: "left",
+        },
+        {
+          to: "/notebooklink/",
+          className: "navbar_notebooklink",
+          label: "Notebook.link",
           position: "right",
-          className: "contact",
         },
         {
           to: "https://github.com/QuantStack",

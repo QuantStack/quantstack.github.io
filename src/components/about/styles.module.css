@@ -4,7 +4,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: var(--ifm-overlay-background);
   z-index: 1000;
 }
 
@@ -13,28 +13,23 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: white;
+  background-color: var(--ifm-bg-neutral);
   border: 1px solid #ccc;
-  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  box-shadow: var(--ifm-shadow-dialog);
   border-radius: 20px;
   z-index: 4000;
 }
 
 .small_portrait_card {
-  width: 279px;
   height: 320px;
-  background-color: white;
-  color: var(--ifm-color-primary-p2);
-  border-radius: 8px;
-  box-shadow: 0px 0px 8px 1px #c8c8c7;
   padding: var(--ifm-spacing-lg) var(--ifm-spacing-xs);
-  margin-bottom: var(--ifm-spacing-xl);
+  align-items: center;
 }
 
-.small_portrait_card:hover {
-  border: solid 1px gray;
-  cursor: pointer;
-  text-decoration: #0000ee underline;
+.value_icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: var(--ifm-spacing-lg);
 }
 
 .value_text p {
@@ -45,7 +40,8 @@
   line-height: 20px;
   letter-spacing: 0.25px;
   color: var(--ifm-text-color-on-primary-p1);
-  text-align: justify;
+  text-align: left;
+  margin-bottom: var(--ifm-spacing-xs);
 }
 
 div .row {
@@ -79,7 +75,6 @@ div .row {
 .small_card_position {
   font-size: 16px;
   font-family: var(--ifm-font-family-roboto);
-  color: var(---ifm-text-color);
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
@@ -92,7 +87,6 @@ div .row {
 .large_card_complete_name {
   font-family: var(--ifm-font-family-roboto);
   font-size: 28px;
-  color: var(---ifm-text-color);
   font-style: normal;
   font-weight: 400;
   line-height: 40px;
@@ -100,17 +94,13 @@ div .row {
 }
 
 .large_card_position {
-  font-size: var(--ifm--font-size-normal);
+  font-size: var(--ifm-font-size-normal);
   font-family: var(--ifm-font-family-roboto);
   color: var(--ifm-color-primary-p2);
   font-style: normal;
   font-weight: 400;
   line-height: 24px; /* 133.333% */
   letter-spacing: 0.5px;
-}
-
-a {
-  color: var(--ifm-color-primary-p2);
 }
 
 div .large_card_position {
@@ -157,36 +147,19 @@ div .join_the_team_text {
   padding-right: 5px;
 }
 
-.card {
-  border: 1px solid #ccc;
-  padding: 16px;
-  margin: 16px;
-  cursor: pointer;
-  border-radius: 8px;
-  transition: box-shadow 0.2s;
-}
 
-.small_portrait_card:hover {
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-}
 
 @media only screen and (max-width: 996px) {
   /*Mobile*/
   .value_card {
-    height: 420px;
-    width: 264px;
     padding: var(--ifm-spacing-lg) var(--ifm-spacing-md);
-    border-radius: 8px;
-    box-shadow: 0px 0px 8px 1px #c8c8c7;
-    background-color: var(--ifm-color-primary-p1);
-    margin-bottom: var(--ifm-spacing-xl);
   }
 
   .value_header {
-    font-family: var(--ifm-font-family-rubik-one);
+    font-family: var(--ifm-font-family-roboto);
     font-size: 20px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     line-height: 20px;
     text-align: center;
     margin-bottom: var(--ifm-spacing-xl);
@@ -194,7 +167,7 @@ div .join_the_team_text {
   }
 
   .value_text p {
-    text-align: justify;
+    text-align: left;
     padding: 0;
   }
 
@@ -241,20 +214,18 @@ div .join_the_team_text {
 @media only screen and (min-width: 996px) {
   /*Desktop*/
   .value_card {
-    height: 460px;
-    width: 264px;
     padding: var(--ifm-spacing-2xl) var(--ifm-spacing-lg);
-    border-radius: 8px;
-    box-shadow: 0px 0px 8px 1px #c8c8c7;
-    background-color: var(--ifm-color-primary-p1);
-    margin-bottom: var(--ifm-spacing-xl);
+  }
+
+  .values_row > li {
+    flex: 1 1 0;
   }
 
   .value_header {
-    font-family: var(--ifm-font-family-rubik-one);
+    font-family: var(--ifm-font-family-roboto);
     font-size: var(--ifm-font-size-secondary-title);
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     line-height: 28px;
     text-align: center;
     margin-bottom: var(--ifm-spacing-xl);
@@ -267,7 +238,7 @@ div .join_the_team_text {
   }
 
   .subteam_container {
-    margin: var(--ifm-spacing-5xl) var(--ifm-spacing-6xl);
+    margin: var(--ifm-spacing-5xl) 0;
   }
 
   .team_description {

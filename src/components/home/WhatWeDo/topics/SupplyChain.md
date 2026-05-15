@@ -1,1 +1,0 @@
-We contribute to the conda-forge project, which provides thousands of packages and accounts for billions of downloads. We created the mamba package manager, which underlies a lot of conda-forge’s infrastructure.

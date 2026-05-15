@@ -1,73 +1,61 @@
+import { useState, useEffect } from "react";
 import styles from "./styles.module.css";
-import { fundableProjectsDetails } from "./projectsDetails";
-import ProjectCategory from "./ProjectCategory";
-import MenuSidebar from "./MenuSideBar";
-import LinkToContact from "../home/LinkToContact";
+import CardGrid from "../layout/CardGrid";
+import { fundableProjectsDetails } from "@site/src/pages/sponsor/_projectsDetails";
+import FundableProjectCard from "./FundableProjectCard";
+
+const ALL_PROJECTS = Object.values(fundableProjectsDetails).flat();
+const CATEGORIES = ["All", ...new Set(ALL_PROJECTS.map((p) => p.category))];
 
 export function getCategoryFromProjectPageName(pageName: string) {
-  for (const [categoryName, projectsByCategory] of Object.entries(fundableProjectsDetails)) {
-    const project = projectsByCategory.find((project) => project.pageName === pageName);
-    if (project) {
-      return projectsByCategory;
-    }
+  for (const projects of Object.values(fundableProjectsDetails)) {
+    const found = projects.find((p) => p.pageName === pageName);
+    if (found) return projects;
   }
   return null;
 }
 
 export function MainAreaFundableProjects() {
+  const [active, setActive] = useState(() => {
+    if (typeof window === "undefined") return "All";
+    const param = new URLSearchParams(window.location.search).get("category");
+    return CATEGORIES.includes(param) ? param : "All";
+  });
+
+  useEffect(() => {
+    const url = new URL(window.location.href);
+    if (active === "All") {
+      url.searchParams.delete("category");
+    } else {
+      url.searchParams.set("category", active);
+    }
+    window.history.replaceState(null, "", url.toString());
+  }, [active]);
+
+  const visible = active === "All"
+    ? ALL_PROJECTS
+    : ALL_PROJECTS.filter((p) => p.category === active);
+
   return (
-    <div>
-      <h1 style={{ padding: "0" }}>Check out our projects available for funding!</h1>
-
-      <section id="jupyter-ecosystem">
-        <ProjectCategory
-          projectCategoryName={"Jupyter ecosystem"}
-          projectCategory={fundableProjectsDetails.jupyterEcosystem}
-        />
-      </section>
-      <section id="package-management">
-        <ProjectCategory
-          projectCategoryName={"Package management"}
-          projectCategory={fundableProjectsDetails.packageManagement}
-        />
-      </section>
-       <section id="scientific-computing">
-        <ProjectCategory
-          projectCategoryName={"Scientific computing"}
-          projectCategory={fundableProjectsDetails.scientificComputing}
-        />
-      </section>
-      <section id="apache-arrow">
-        <ProjectCategory
-          projectCategoryName={"Apache Arrow and Parquet"}
-          projectCategory={fundableProjectsDetails.apacheArrow}
-        />
-      </section>
-      <section id="propose-and-fund-a-project">
-        <h2 className={styles.project_category_header} style={{ margin: "0px" }}>Can't find a project?</h2>
-        <p style={{ marginTop: "var(--ifm-spacing-lg)" }}>If you have a project in mind that you think would be relevant to our expertise, please contact us to discuss it.</p>
-        <LinkToContact label={"CONTACT US!"} />
-      </section>
-    </div>
-  )
-}
-
-export default function FundableProjects() {
-  return (
-
-    <div className="container upper-container-with-margin-top">
-      <div className="row">
-        <div className={"col col--2" + " " + styles.menu_sidebar}>
-          <MenuSidebar />
-        </div>
-        <div className={"col col--10 col" + " " + styles.main_area_desktop} >
-          <MainAreaFundableProjects />
-        </div >
-        <div className={"col col--12" + " " + styles.main_area_mobile} >
-          <MainAreaFundableProjects />
-        </div>
+    <>
+      <div className={styles.filter_tags}>
+        {CATEGORIES.map((cat) => (
+          <button
+            key={cat}
+            className={styles.filter_tag + (active === cat ? " " + styles.filter_tag_active : "")}
+            onClick={() => setActive(cat)}
+          >
+            {cat}
+          </button>
+        ))}
       </div>
-    </div >
-
+      <CardGrid cols={3}>
+        {visible.map((project) => (
+          <li key={project.pageName}>
+            <FundableProjectCard project={project} />
+          </li>
+        ))}
+      </CardGrid>
+    </>
   );
 }

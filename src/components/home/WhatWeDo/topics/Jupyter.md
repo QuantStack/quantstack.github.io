@@ -1,1 +1,0 @@
-Our team comprises key maintainers of the Jupyter project. We are responsible for a large part of the maintenance and continuous improvement of the project, ensuring its long-term sustainability.

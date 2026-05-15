@@ -4,9 +4,18 @@
         <description><![CDATA[RSS feed for QuantStack website blog page]]></description>
         <link>https://quantstack.net</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 16 Apr 2026 16:09:35 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 15 May 2026 20:50:46 GMT</lastBuildDate>
         <atom:link href="https://quantstack.net/rss.xml" rel="self" type="application/rss+xml"/>
         <language><![CDATA[en]]></language>
+        <item>
+            <title><![CDATA[Sharded Repodata Support in Mamba]]></title>
+            <description><![CDATA[We are thrilled to introduce Mamba 2.6, the first release of the package manager with support for sharded repodata, improving perfomance by a large factor, both in execution time and memory consumption.]]></description>
+            <link>https://medium.com/@julien.jerphanion/sharded-repodata-support-in-mamba-ae6147d1d608</link>
+            <guid isPermaLink="true">https://medium.com/@julien.jerphanion/sharded-repodata-support-in-mamba-ae6147d1d608</guid>
+            <dc:creator><![CDATA[Julien Jerphanion]]></dc:creator>
+            <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Introducing-Mamba-2-6.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Introducing Sparrow-IPC: A modern C++ implementation of Arrow IPC]]></title>
             <description><![CDATA[If you work in the world of data engineering, you are probably familiar with Apache Arrow — the universal columnar format and multi-language toolbox that has become the gold standard for fast in-memory analytics and data interchange.]]></description>
@@ -177,15 +186,6 @@
             <dc:creator><![CDATA[Jeremy Tuloup]]></dc:creator>
             <pubDate>Wed, 21 May 2025 00:00:00 GMT</pubDate>
             <enclosure url="https://quantstack.netimg/blogposts/resized-images/JupyterLab-44.png" length="0" type="image/png"/>
-        </item>
-        <item>
-            <title><![CDATA[Congratulations, Distinguished Contributors!]]></title>
-            <description><![CDATA[We are proud to announce the recipients of the Jupyter Distinguished Contributor (JDC) award for the 2024 cohort of contributors.]]></description>
-            <link>https://blog.jupyter.org/congratulations-distinguished-contributors-2504029fc5a9</link>
-            <guid isPermaLink="true">https://blog.jupyter.org/congratulations-distinguished-contributors-2504029fc5a9</guid>
-            <dc:creator><![CDATA[Johan Mabille]]></dc:creator>
-            <pubDate>Thu, 15 May 2025 00:00:00 GMT</pubDate>
-            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Congratulations-Distinguished-Contributors-2025.png" length="0" type="image/png"/>
         </item>
     </channel>
 </rss>
