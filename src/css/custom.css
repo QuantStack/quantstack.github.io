@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700;800;900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800;900&display=swap');
+@import url("https://fonts.cdnfonts.com/css/bebas-neue?display=swap");
 
 :root {
   /* ── Page background scene ── */
@@ -60,7 +60,7 @@
 
   /*Font families */
   --ifm-font-family-roboto: "Roboto";
-  --ifm-font-family-display: "Barlow Condensed";
+  --ifm-font-family-display: "Bebas Neue";
 
   /* Spacing for margins and paddings */
   --ifm-spacing-none: 0px;
