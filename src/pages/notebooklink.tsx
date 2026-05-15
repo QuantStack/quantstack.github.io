@@ -26,9 +26,8 @@ function NotebookLinkContent() {
           />
         }
       >
-        <p className={styles.product_label}>A QuantStack Product</p>
-        <h1 className="padding-none">Notebook.link</h1>
-        <p className={styles.subtitle}>Browser-native scientific computing. No server, no setup, no limits.</p>
+        <h1 className="padding-none">Our product: Notebook.link</h1>
+        <p className={styles.subtitle}>Browser-native scientific computing. Large-scale deployments, no server, no setup, no limits.</p>
         <LinkToNotebookLink label="Get started — it's free" />
       </SplitSection>
 
@@ -41,8 +40,8 @@ function NotebookLinkContent() {
         </p>
         <p>
           Built on JupyterLite and emscripten-forge, our open-source stack that brings
-          the complete scientific Python ecosystem — NumPy, SciPy, Pandas, Matplotlib,
-          and hundreds more — to any modern browser. The compute runs on your users' devices,
+          the complete scientific ecosystem — NumPy, SciPy, Pandas, Matplotlib,
+          and hundreds more including in C, R, Fortran and other languages — to any modern browser. The compute runs on your users' devices,
           not our servers. That means it scales to any number of users for the cost of file storage.
         </p>
       </Section>
@@ -50,26 +49,25 @@ function NotebookLinkContent() {
       <Section bg="dark">
         <h2 className="text--center">Proven at scale.</h2>
         <p className="text--center">
-          The French Ministry of Education runs 400,000 students and 40,000 teachers on the same
-          open-source stack — on just 2 servers, with 50,000+ concurrent users during national exams.
-          Four years of operation. Zero compute infrastructure cost per user.
+          The technology has been tested to deploy notebooks to tens of thousands of concurrent users
+          — just from standard static web servers. Zero compute infrastructure cost per user.
         </p>
         <CardGrid cols={3}>
           <li>
             <Card bg="transparent">
-              <div className={styles.feature_title}>400,000 students</div>
-              <p>Capytale, the French national education platform, runs on JupyterLite — the same engine powering notebook.link.</p>
+              <div className={styles.feature_title}>hundres of thousands of students</div>
+              <p>JupyterLite — the same engine powering notebook.link — has been tested with hundreds of thousands of users.</p>
             </Card>
           </li>
           <li>
             <Card bg="transparent">
-              <div className={styles.feature_title}>17–170× cheaper</div>
-              <p>Compared to JupyterHub or Google Colab. Because users bring their own compute, your infrastructure cost is near zero.</p>
+              <div className={styles.feature_title}>orders of magnitude cheaper</div>
+              <p>Compared to JupyterHub, or other commercial platforms. Because users bring their own compute, we only add the comfort layer, your cost remains low.</p>
             </Card>
           </li>
           <li>
             <Card bg="transparent">
-              <div className={styles.feature_title}>O(0) scaling</div>
+              <div className={styles.feature_title}>Order-0 scaling</div>
               <p>More users don't mean more servers. Browser-based execution means your platform scales without your costs scaling with it.</p>
             </Card>
           </li>
@@ -78,7 +76,7 @@ function NotebookLinkContent() {
 
       <Section>
         <h2 className="text--center">Built for every use case.</h2>
-        <CardGrid cols={2}>
+        <CardGrid cols={3}>
           <li>
             <Card>
               <div className={styles.feature_title}>Education</div>
@@ -88,19 +86,25 @@ function NotebookLinkContent() {
           <li>
             <Card>
               <div className={styles.feature_title}>Research</div>
-              <p>Share reproducible work as a link. Byte-identical WASM environments mean your results are reproducible — not just in theory, but in practice. Computational irreproducibility costs science ~€28B annually.</p>
+              <p>Share reproducible work as a link. Byte-identical WASM environments mean your results are reproducible — not just in theory, but in practice. Computational irreproducibility costs billions annually.</p>
             </Card>
           </li>
           <li>
             <Card>
               <div className={styles.feature_title}>Enterprise data platforms</div>
-              <p>Give internal analysts a Jupyter environment without the security overhead of local installs or the cost of per-user cloud kernels. SSO, RBAC, and audit logging on the roadmap.</p>
+              <p>Give internal analysts a Jupyter environment without the security overhead of local installs or the cost of per-user cloud kernels. SSO, RBAC, and audit logging on the roadmap. Backend kernels still available on demand.</p>
             </Card>
           </li>
           <li>
             <Card>
               <div className={styles.feature_title}>Public data portals</div>
-              <p>Let millions of visitors interact with your data — including geospatial datasets via JupyterGIS — without provisioning a single compute server. Data stays in the browser, GDPR-compliant by architecture.</p>
+              <p>Let millions of visitors interact with your data — including geospatial datasets via JupyterGIS or other advanced IDEs — without provisioning a single compute server. Data stays in the browser, GDPR-compliant by architecture.</p>
+            </Card>
+          </li>
+          <li>
+            <Card>
+              <div className={styles.feature_title}>Agentic AI</div>
+              <p>Let AI agents access compute environments and run real calculations right in the browser, like claude code but sandboxed, safe and available on the fly.</p>
             </Card>
           </li>
         </CardGrid>
@@ -111,8 +115,8 @@ function NotebookLinkContent() {
         title="Start for free."
         cta={<LinkToNotebookLink label="Try Notebook.link" />}
       >
-        Free tier includes unlimited WebAssembly compute, link sharing, and 100 MB storage.
-        Enterprise plans for universities and organizations from €5,000/year.
+        Free tier includes unlimited WebAssembly compute, link sharing, and basic storage.
+        Enterprise plans for universities and organizations with advanced storage and user management, on-demand backend kernels, grading + Moodle integration available.
       </Banner>
     </>
   );

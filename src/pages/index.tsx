@@ -33,17 +33,14 @@ function HomeContent() {
         <div className="page-content" style={{ position: "relative", zIndex: 2 }}>
           <div className={styles.hero_body}>
             <div className={styles.hero_text}>
-              <h1 className="padding-none">
-                The team behind open-source scientific computing.
-              </h1>
-              <p className={styles.sub_header}>
-                From interactive environments to package managers to data formats: we build the
-                open-source infrastructure for scientific computing. Today we're building
-                notebook.link, next generation compute environments that run fully in the browser,
-                at any scale.
-              </p>
+              <h1 className={`padding-none ${styles.hero_title}`}>QUANTSTACK</h1>
               <p className={styles.tech_tagline}>
-                Millions of researchers, engineers, and students use what we ship.
+                BUILDING THE OPEN SCIENTIFIC COMPUTE STACK
+              </p>
+              <p className={styles.sub_header}>
+                From Jupyter to Mamba to Apache Arrow — we maintain the stack millions of
+                researchers, engineers, and students depend on. Today we're also building
+                notebook.link to ship entire compute environments right your browser.
               </p>
             </div>
             <div className={styles.hero_image}>
@@ -152,7 +149,7 @@ function HomeContent() {
       <Banner
         bg="dark"
         fullHeight
-        title="notebook.link"
+        title="Our product: notebook.link"
         cta={<LinkToNotebookLink label="Try it for free" />}
       >
         A full Jupyter environment as a link. Instant setup, no server, no hassle. Sandboxed

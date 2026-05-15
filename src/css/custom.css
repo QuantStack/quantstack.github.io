@@ -393,6 +393,8 @@ a.menu__link:active {
   transform: scale(1);
 }
 
+
+
 /* Scroll-adaptive navbar */
 .navbar {
   transition: background-color 0.25s ease, box-shadow 0.25s ease;

@@ -37,6 +37,12 @@
   z-index: 1;
 }
 
+.hero_title {
+  font-size: 8rem;
+  line-height: 1;
+  white-space: nowrap;
+}
+
 .sub_header {
   text-align: left;
 }
@@ -52,6 +58,10 @@
 }
 
 @media (max-width: 996px) {
+  .hero_title {
+    font-size: 4rem;
+  }
+
   .hero_body {
     flex-direction: column;
     padding: var(--ifm-spacing-xl) 0;
