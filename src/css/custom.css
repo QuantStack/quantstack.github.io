@@ -459,13 +459,12 @@ html[data-navbar-dark-top] .navbar__toggle {
 }
 
 /* Sidebar opens over a light background — reset dark-top overrides */
-html[data-navbar-dark-top] .navbar-sidebar .navbar__link,
-html[data-navbar-dark-top] .navbar-sidebar .navbar-sidebar__item {
-  color: var(--ifm-color-primary-p2);
+html[data-navbar-dark-top] .navbar-sidebar a {
+  color: var(--ifm-color-primary-p2) !important;
 }
 
-html[data-navbar-dark-top] .navbar-sidebar .navbar__link:hover {
-  color: black;
+html[data-navbar-dark-top] .navbar-sidebar a:hover {
+  color: black !important;
 }
 
 .navbar__inner {
