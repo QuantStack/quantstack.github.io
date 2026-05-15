@@ -6,11 +6,11 @@ export default function LearnMore() {
     <Banner
       bg="dark"
       fullHeight
-      title="Want to learn more?"
+      title="Work with the people who built it."
       cta={<LinkToContact label={"SCHEDULE A MEETING"} />}
     >
-      Schedule a meeting and benefit from our expertise on Jupyter, Conda-forge,
-      high-performance computing, and open-source development.
+      Support retainer, custom feature, or a full engineering engagement —
+      you work directly with the upstream maintainers of the tools your team depends on.
     </Banner>
   );
 }

@@ -6,9 +6,9 @@ export default function Header() {
   return (
     <Section pageTop bg="yellow">
       <h1 className={styles.services_header_text}>
-        Hire QuantStack for expert engineering at the frontier of open-source.
+        Hire the team that built the tools you depend on.
       </h1>
-      <p>Expert-led development from the people who built and maintain the tools you depend on. Whether you need a custom feature, a support retainer, or hands-on engineering, you work directly with the upstream maintainers.</p>
+      <p>Bloomberg, AWS, Safran, ESA, and the Gates Foundation work with us because there is no shortcut to deep expertise. Whether you need a support retainer, a custom feature, or a long-term engineering partner — you talk to the people who wrote the code.</p>
       <LinkToContact label="Get in touch" />
     </Section>
   );

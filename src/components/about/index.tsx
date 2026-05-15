@@ -22,7 +22,7 @@ export function About() {
     <>
       <Section pageTop bg="yellow">
         <h1>About QuantStack</h1>
-        <p>A small team of outliers — core maintainers of projects adopted globally by researchers, engineers, and educators. We believe open-source is the most powerful way to make high-quality tools available to everyone.</p>
+        <p>Founded in Paris in 2016, we are ~30 engineers and researchers who built the infrastructure layer of modern scientific computing. JupyterLab, Mamba, JupyterLite, emscripten-forge — tools reaching millions daily. Our founder received the ACM Software System Award, given to the same cohort as the creators of Unix, Java, and the World Wide Web. We do this because we believe open-source is the most powerful force for good in science and technology.</p>
       </Section>
       <SectionSeparator variant={4} />
       <Section>
@@ -32,8 +32,7 @@ export function About() {
       <Section>
         <h2>Meet the QuantStack team</h2>
         <div className={styles.team_description}>
-          A team of outliers, leaders in software projects adopted at the
-          global scale, benefiting millions of people worldwide.
+          Most of us have PhDs or deep research backgrounds. We operate as a collective of principal contributors — everyone on the team ships code to the projects we maintain. No passengers.
         </div>
         <SubTeam
           subTeamName={"The leadership team"}
@@ -50,8 +49,7 @@ export function About() {
         title="Join the team"
         cta={<LinkToContact label={"JOIN THE TEAM!"} />}
       >
-        QuantStack is seeking talents in the open-source scientific computing
-        community. Join a team committed to open-science and free software.
+        We're looking for researchers and engineers who want to work at the frontier of open-source scientific computing — and ship code that millions of people depend on.
       </Banner>
     </>
   );

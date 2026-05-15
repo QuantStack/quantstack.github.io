@@ -8,14 +8,13 @@ export function Hero() {
         <div className={styles.hero_body}>
           <div className={styles.hero_text}>
             <h1 className="padding-none">
-              Open-source for discovery, science, and education
+              The team behind open-source scientific computing.
             </h1>
             <p className={styles.sub_header}>
-              A team behind major open-source projects of the scientific
-              computing ecosystem
+              From interactive environments to package managers to data formats: we build the open-source infrastructure for scientific computing. Today we're building notebook.link, next generation compute environments that run fully in the browser, at any scale.
             </p>
             <p className={styles.tech_tagline}>
-              Jupyter, Conda-forge, Mamba, Voilà, Xtensor and more.
+              Millions of researchers, engineers, and students use what we ship.
             </p>
           </div>
           <div className={styles.hero_image}>

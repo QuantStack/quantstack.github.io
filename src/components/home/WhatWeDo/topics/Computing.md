@@ -1,1 +1,3 @@
-We created several popular scientific computing packages. XSimd, an unified API for SIMD operations, adopted by projects such as Apache Arrow, FireFox, Kytra, Pythran... Xtensor, a C++ n-dimensional array library with broadcasting and lazy evaluation.
+Need a specific fix or feature in Mamba, JupyterLab, Arrow, or another project we maintain? We implement it upstream.
+
+You get the feature. The community maintains it. No fork, no long-term maintenance burden on your team.

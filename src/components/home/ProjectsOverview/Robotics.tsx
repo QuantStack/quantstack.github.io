@@ -10,7 +10,7 @@ export default function RoboticsProjects() {
       image={<img src={RoboticsPictureUrl} alt={"Picture showing two jupyterlab user interfaces displaying robotics projects."} style={{ maxWidth: "100%" }} />}
     >
       <h2 className="padding-none">Robotics</h2>
-      <p className={styles.tagline}>We just kicked off a new initiative to Robotics education.</p>
+      <p className={styles.tagline}>Creators of RoboStack, the first multi-platform ROS distribution, and maintainers of jupyter-ros.</p>
       <RoboticsMD />
     </SplitSection>
   );

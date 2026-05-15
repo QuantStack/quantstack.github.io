@@ -1,17 +1,17 @@
 export const topicsDetails = [
   {
     topics: "jupyter",
-    name: "Project Jupyter",
+    name: "Support Retainer",
     imageRoute: "",
   },
   {
     topics: "supplychain",
-    name: "Software Supply Chain",
+    name: "Custom Engineering",
     imageRoute: "",
   },
   {
     topics: "computing",
-    name: "Scientific Computing",
+    name: "Funded Development",
     imageRoute: "",
   },
 ];

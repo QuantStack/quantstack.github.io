@@ -1,4 +1,2 @@
-Our team is deeply involved in the development of the Jupyter project, at both technical and organizational levels, with several members participating in the project governance in various capacities.
+We co-founded JupyterLab and JupyterLite — the browser-native Jupyter that runs without a server. Our team drives real-time collaboration, AI integration, and the visual debugger across the Jupyter stack, and maintains Voilà, xeus, JupyterGIS, and JupyterCAD. JupyterLab reaches over 10 million users worldwide; JupyterLite serves hundreds of thousands of students on minimal infrastructure.
 
-We are responsible for some of the main innovations of the past years (JupyterLite, Collaborative editing in JupyterLab, the Voilà dashboard system, the JupyterLab visual debugger).
-       

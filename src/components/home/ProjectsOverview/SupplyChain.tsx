@@ -9,8 +9,8 @@ export default function SupplyChainProjects() {
       reverse
       image={<img src={MambaPictureUrl} alt={"Picture showing a terminal in which mamba commands are run."} style={{ maxWidth: "100%" }} />}
     >
-      <h2 className="padding-none">Software supply chain</h2>
-      <p className={styles.tagline}>We are the main organization supporting the mamba package manager.</p>
+      <h2 className="padding-none">Package Management</h2>
+      <p className={styles.tagline}>We created Mamba, the fast conda replacement serving 5 million downloads per month.</p>
       <SupplyChainMD />
     </SplitSection>
   );

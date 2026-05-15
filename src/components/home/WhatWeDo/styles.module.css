@@ -3,7 +3,11 @@
   font-size: var(--ifm-font-size-secondary-title);
   font-weight: 700;
   line-height: 28px;
-  text-align: center;
+  min-height: 56px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
   margin-bottom: var(--ifm-spacing-xl);
   color: var(--ifm-color-neutral-n2);
 }

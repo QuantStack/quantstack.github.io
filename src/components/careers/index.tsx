@@ -11,8 +11,8 @@ export default function Careers() {
   return (
     <>
       <Section pageTop bg="yellow">
-        <h1>Join the QuantStack team!</h1>
-        <p>Build software used by millions — as a core contributor, not a user. Join a team that shapes the scientific computing ecosystem from the inside.</p>
+        <h1>Join the QuantStack team.</h1>
+        <p>We are ~30 researchers and engineers building the infrastructure of scientific computing. Your code will reach millions of users. Your contributions will go upstream. This is not a support role — it's a principal contributor role from day one.</p>
       </Section>
       <SectionSeparator variant={2} />
       <Section>

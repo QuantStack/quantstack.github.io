@@ -1,5 +1,5 @@
-We support organizations that depend on Jupyter, conda-forge, or the broader PyData ecosytem.
+We support organizations that build on Jupyter, Mamba, conda-forge, Apache Arrow, or the broader PyData stack.
 
-We help deploy, extend, or customize software of the open-source scientific computing ecosystem.
+A QuantStack support retainer gives you direct access to the upstream maintainers — not a helpdesk. We triage issues, review pull requests, advise on architecture, and take ownership of problems your team cannot solve alone.
 
-Work with the people behind the technology, and develop your strategy around the open-source stack.
+Our clients include AWS, Bloomberg, Safran, and the European Space Agency. We have supported financial firms running Jupyter at scale, aerospace engineers building domain-specific extensions, and research institutions deploying open-source infrastructure for thousands of users.

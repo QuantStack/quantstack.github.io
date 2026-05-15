@@ -13,8 +13,8 @@ export default function Services() {
       <Support />
       <SectionSeparator variant={5} />
       <SpecialProjects />
-      <Banner bg="dark" cta={<LinkToContact label={"CONTACT US!"} />}>
-        Sign a support retainer for QuantStack services in our ecosystem.
+      <Banner bg="dark" title="Ready to work together?" cta={<LinkToContact label={"GET IN TOUCH"} />}>
+        Tell us what you're building. We'll tell you honestly whether and how we can help.
       </Banner>
     </>
   );

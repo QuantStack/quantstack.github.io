@@ -11,7 +11,7 @@ export default function ProjectsOverview() {
   return (
     <div className={styles.projects_overview_container}>
       <Section>
-        <h2 className="text--center">Our open-source projects</h2>
+        <h2 className="text--center">What we work on</h2>
       </Section>
       <JupyterProject />
       <SupplyChainProjects />

@@ -8,8 +8,8 @@ export default function ComputingProjects() {
     <SplitSection
 image={<XTensorXSIMDPicture style={{ maxWidth: "100%" }} />}
     >
-      <h2 className="padding-none">Scientific computing</h2>
-      <p className={styles.tagline}>Supporting the development of several C++ scientific computing packages.</p>
+      <h2 className="padding-none">Scientific Computing</h2>
+      <p className={styles.tagline}>Authors of xtensor and xsimd, adopted by Apache Arrow, Firefox, and Pythran.</p>
       <ComputingMD />
     </SplitSection>
   );

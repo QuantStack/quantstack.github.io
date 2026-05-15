@@ -1,4 +1,1 @@
-We embrace challenges with a positive outlook.
-
-Moonshots may seem impossible, but with determination, we can achieve the extraordinary.
-
+Running Python in a browser with no server — on 2 servers for 400,000 students — sounded impossible until it wasn't. We take on the hard problems because we believe they're worth solving. The best open-source tools are still ahead of us.

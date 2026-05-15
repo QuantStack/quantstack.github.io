@@ -3,6 +3,7 @@ import Hero from "./Hero";
 import TrustedBy from "./TrustedBy";
 import WhatWeDo from "./WhatWeDo";
 import ProjectsOverview from "./ProjectsOverview";
+import NotebookLinkSpotlight from "./NotebookLinkSpotlight";
 import AboutQS from "./AboutQS";
 import News from "./News";
 import LearnMore from "./LearnMore";
@@ -19,7 +20,9 @@ export function Home(): JSX.Element {
       <WhatWeDo />
       <SectionSeparator variant={3} />
       <ProjectsOverview />
+      <NotebookLinkSpotlight />
       <AboutQS />
+      <SectionSeparator variant={6} />
       <News />
       <LearnMore/>
    </>
