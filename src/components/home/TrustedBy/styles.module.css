@@ -1,6 +1,10 @@
 .trusted_by_outer {
   background-color: var(--ifm-bg-neutral);
   padding: var(--ifm-spacing-2xl) 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .logo_grid {

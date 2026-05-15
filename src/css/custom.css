@@ -34,12 +34,12 @@
 
   /* Semantic background roles */
   --ifm-bg-neutral: #ffffff;                         /* default reading surface */
-  --ifm-bg-brand: var(--ifm-color-primary-p0);       /* brand identity — yellow */
+  --ifm-bg-brand: #ffffff;                           /* yellow dropped — white throughout */
   --ifm-bg-emphasis: var(--ifm-color-secondary-s2);  /* CTA / strong contrast — navy */
 
 
   /* footer */
-  --ifm-background-color-footer: var(--ifm-color-primary-p1);
+  --ifm-background-color-footer: #f5f5f3;
   --ifm-text-color-footer: black;
 
   /*popup overlay*/
@@ -250,6 +250,35 @@ ul {
 
 /***********************************************************/
 
+/* Headings inside dark sections need explicit white */
+[class*="section_dark"] h1,
+[class*="section_dark"] h2,
+[class*="section_dark"] h3 {
+  color: white;
+}
+
+/* BD-style red accent bar below section headings */
+.page-content h2::after {
+  content: '';
+  display: block;
+  width: 36px;
+  height: 3px;
+  background: var(--ifm-color-accent-red);
+  margin-top: 10px;
+}
+
+.page-content h2.text--center::after {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* No red bar on dark-background sections */
+[class*="section_dark"] .page-content h2::after {
+  display: none;
+}
+
+/***********************************************************/
+
 .link-to-button {
   display: inline-flex;
   align-items: center;
@@ -374,19 +403,42 @@ html[data-navbar-scrolled] .navbar {
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.08) !important;
 }
 
-/* Home page at top: white links over dark hero */
+/* Home page at top: dark links over white hero */
 html[data-navbar-home-top] .navbar__link,
 html[data-navbar-home-top] .custom_navbar_item {
-  color: white;
+  color: var(--ifm-color-primary-p2);
 }
 
 html[data-navbar-home-top] .custom_navbar_item:hover {
-  background-color: rgba(255, 255, 255, 0.15);
-  color: white;
+  background-color: var(--ifm-color-primary-p1);
+  color: var(--ifm-color-primary-p2);
 }
 
 html[data-navbar-home-top] .navbar__link:hover {
+  color: var(--ifm-color-primary-p2);
+}
+
+/* Dark-hero pages (e.g. /notebooklink/): white links over dark section */
+html[data-navbar-dark-top] .navbar__link,
+html[data-navbar-dark-top] .custom_navbar_item {
+  color: white;
+}
+
+html[data-navbar-dark-top] .custom_navbar_item:hover {
+  background-color: var(--ifm-color-primary-p1);
+  color: var(--ifm-color-primary-p2);
+}
+
+html[data-navbar-dark-top] .navbar__link:hover {
   color: var(--ifm-color-primary-p1);
+}
+
+html[data-navbar-dark-top] .github-icon,
+html[data-navbar-dark-top] .linkedin-icon,
+html[data-navbar-dark-top] .bluesky-icon,
+html[data-navbar-dark-top] .mastodon-icon,
+html[data-navbar-dark-top] .rss-circle-icon {
+  filter: invert(1);
 }
 
 .navbar__inner {
@@ -430,6 +482,36 @@ html[data-navbar-home-top] .navbar__link:hover {
   background-color: var(--ifm-color-primary-p1);
   justify-items: center;
   border-radius: 4px;
+}
+
+.navbar_notebooklink {
+  font-family: var(--ifm-font-family-roboto);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  padding: 6px 14px;
+  border: 2px solid var(--ifm-color-accent-red);
+  border-radius: 4px;
+  color: var(--ifm-color-accent-red) !important;
+  white-space: nowrap;
+  transition: background-color 0.15s ease, color 0.15s ease;
+  margin-right: var(--ifm-spacing-sm);
+}
+
+.navbar_notebooklink:hover {
+  background-color: var(--ifm-color-accent-red) !important;
+  color: white !important;
+  text-decoration: none;
+}
+
+html[data-navbar-dark-top] .navbar_notebooklink {
+  border-color: var(--ifm-color-accent-yellow);
+  color: var(--ifm-color-accent-yellow) !important;
+}
+
+html[data-navbar-dark-top] .navbar_notebooklink:hover {
+  background-color: var(--ifm-color-accent-yellow) !important;
+  color: var(--ifm-color-primary-p2) !important;
 }
 
 html[data-navbar-scrolled] .navbar__link:hover,

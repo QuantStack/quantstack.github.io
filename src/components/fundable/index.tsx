@@ -1,7 +1,9 @@
 import { useState, useEffect } from "react";
 import styles from "./styles.module.css";
 import Section from "../layout/Section";
+import SectionSeparator from "../layout/SectionSeparator";
 import CardGrid from "../layout/CardGrid";
+import BackgroundScene from "../layout/BackgroundScene";
 import { fundableProjectsDetails } from "./projectsDetails";
 import FundableProjectCard from "./FundableProjectCard";
 import LinkToContact from "../home/LinkToContact";
@@ -72,10 +74,11 @@ export function MainAreaFundableProjects() {
 export default function FundableProjects() {
   return (
     <>
-      <Section pageTop bg="yellow">
+      <Section pageTop bg="yellow" background={<BackgroundScene variant="light" />}>
         <h1>Sponsor open-source work</h1>
         <p>High-demand open-source features with detailed plans already in place — the work is scoped, the need is proven, only funding is missing. Back a project and get it shipped.</p>
       </Section>
+      <SectionSeparator variant={3} />
       <Section>
         <MainAreaFundableProjects />
       </Section>

@@ -5,6 +5,7 @@ export default function LearnMore() {
   return (
     <Banner
       bg="dark"
+      fullHeight
       title="Want to learn more?"
       cta={<LinkToContact label={"SCHEDULE A MEETING"} />}
     >

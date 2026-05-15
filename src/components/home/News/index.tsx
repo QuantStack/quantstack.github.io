@@ -9,7 +9,7 @@ export default function News() {
   const numberOfBlogs = blogpostsDetails.length;
   return (
     <div className={styles.news_wrapper}>
-      <Section>
+      <Section fullHeight>
         <h2 className="text--center">Recent blog contributions</h2>
         <CardGrid cols={3}>
           {[0, 1, 2].map((i) => (

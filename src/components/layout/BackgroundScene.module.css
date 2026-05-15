@@ -1,0 +1,39 @@
+.container {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  user-select: none;
+  z-index: 0;
+}
+
+.planets {
+  animation: bg-planets 58s ease-in-out infinite;
+}
+
+.graph {
+  animation: bg-graph 72s ease-in-out infinite;
+  animation-delay: -18s;
+}
+
+.snippets {
+  animation: bg-snippets 44s ease-in-out infinite;
+  animation-delay: -9s;
+}
+
+@keyframes bg-planets {
+  0%,  100% { transform: translate(0px,   0px); }
+  33%        { transform: translate(11px, -16px); }
+  66%        { transform: translate(-8px,  10px); }
+}
+
+@keyframes bg-graph {
+  0%,  100% { transform: translate(0px,   0px); }
+  50%        { transform: translate(-13px, 8px); }
+}
+
+@keyframes bg-snippets {
+  0%,  100% { transform: translate(0px,   0px); }
+  40%        { transform: translate(7px,  -11px); }
+  75%        { transform: translate(-5px,  13px); }
+}

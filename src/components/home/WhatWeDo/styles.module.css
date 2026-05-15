@@ -35,6 +35,10 @@
   .whatwedo_outer {
     background: var(--ifm-bg-brand);
     padding: var(--ifm-spacing-3xl) 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .topics_card {

@@ -2,6 +2,10 @@
   background: var(--ifm-bg-emphasis);
   color: white;
   padding: var(--ifm-spacing-2xl) 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .aboutQS_text {

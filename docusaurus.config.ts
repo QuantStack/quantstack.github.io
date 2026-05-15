@@ -158,6 +158,12 @@ const config: Config = {
           position: "left",
         },
         {
+          to: "/notebooklink/",
+          className: "navbar_notebooklink",
+          label: "Notebook.link",
+          position: "right",
+        },
+        {
           to: "https://github.com/QuantStack",
           title: "GitHub",
           position: "right",

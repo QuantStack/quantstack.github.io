@@ -4,7 +4,9 @@ import BlogpostCard from "./BlogpostCard";
 import { blogpostsDetails } from "./blogpostsDetails";
 import AtomOrange from "/img/icons/RSSOrange.svg";
 import Section from "../layout/Section";
+import SectionSeparator from "../layout/SectionSeparator";
 import CardGrid from "../layout/CardGrid";
+import BackgroundScene from "../layout/BackgroundScene";
 
 export default function BlogsComponent() {
   const numberOfBlogs = blogpostsDetails.length;
@@ -25,7 +27,7 @@ export default function BlogsComponent() {
 
   return (
     <>
-      <Section pageTop bg="yellow">
+      <Section pageTop bg="yellow" background={<BackgroundScene variant="light" />}>
         <div className="flex-full-centered">
           <h1 className="padding-none margin-none">
             Featured posts by QuantStack contributors
@@ -38,6 +40,7 @@ export default function BlogsComponent() {
         </div>
         <p className="text--center">Technical deep-dives, release notes, and perspectives from maintainers at the source. Read about the decisions, trade-offs, and discoveries that go into the tools powering modern science.</p>
       </Section>
+      <SectionSeparator variant={1} />
       <Section>
         <div>
           <input

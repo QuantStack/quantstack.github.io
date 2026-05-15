@@ -6,6 +6,7 @@ export default function AboutQS() {
   return (
     <div className={styles.aboutQS_outer}>
       <div className="page-content">
+        <h2 className="text--center">About QuantStack</h2>
         <p className={styles.aboutQS_text}>
           We are a team of expert open-source developers, the very same
           people behind a number of technologies that you already use.

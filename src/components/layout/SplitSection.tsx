@@ -10,6 +10,8 @@ type Props = {
   bg?: "white" | "yellow" | "dark";
   spacing?: "normal" | "tight" | "loose";
   pageTop?: boolean;
+  fullHeight?: boolean;
+  background?: ReactNode;
   children: ReactNode;
 };
 
@@ -20,10 +22,12 @@ export default function SplitSection({
   bg = "white",
   spacing = "normal",
   pageTop = false,
+  fullHeight = false,
+  background,
   children,
 }: Props) {
   return (
-    <Section bg={bg} spacing={spacing} pageTop={pageTop}>
+    <Section bg={bg} spacing={spacing} pageTop={pageTop} fullHeight={fullHeight} background={background}>
       <div
         className={clsx(
           styles.split,

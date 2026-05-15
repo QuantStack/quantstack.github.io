@@ -3,6 +3,20 @@
 .section {
   width: 100%;
   padding: var(--ifm-spacing-4xl) 0;
+  position: relative;
+}
+
+.section_bg_slot {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.section_content {
+  position: relative;
+  z-index: 1;
 }
 
 .section_page_top {
@@ -29,6 +43,147 @@
 
 .section_loose {
   padding: var(--ifm-spacing-5xl) 0;
+}
+
+.section_full_height {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+/* ─── SectionSeparator ─── */
+
+.sep {
+  width: 100%;
+  height: 4px;
+  flex-shrink: 0;
+}
+
+/* 8 segments — medium pace, irregular widths */
+.sep_v1 {
+  background: linear-gradient(to right,
+    #1d1d1b 0%, #1d1d1b 21%,
+    var(--ifm-color-accent-red) 21%, var(--ifm-color-accent-red) 28%,
+    #1d1d1b 28%, #1d1d1b 50%,
+    var(--ifm-color-accent-red) 50%, var(--ifm-color-accent-red) 57%,
+    #1d1d1b 57%, #1d1d1b 72%,
+    var(--ifm-color-accent-red) 72%, var(--ifm-color-accent-red) 80%,
+    #1d1d1b 80%, #1d1d1b 94%,
+    var(--ifm-color-accent-red) 94%, var(--ifm-color-accent-red) 100%
+  );
+}
+
+/* 7 segments — red-heavy, bold opener */
+.sep_v2 {
+  background: linear-gradient(to right,
+    var(--ifm-color-accent-red) 0%, var(--ifm-color-accent-red) 6%,
+    #1d1d1b 6%, #1d1d1b 28%,
+    var(--ifm-color-accent-red) 28%, var(--ifm-color-accent-red) 47%,
+    #1d1d1b 47%, #1d1d1b 66%,
+    var(--ifm-color-accent-red) 66%, var(--ifm-color-accent-red) 74%,
+    #1d1d1b 74%, #1d1d1b 89%,
+    var(--ifm-color-accent-red) 89%, var(--ifm-color-accent-red) 100%
+  );
+}
+
+/* 6 segments — wide, muscular */
+.sep_v3 {
+  background: linear-gradient(to right,
+    #1d1d1b 0%, #1d1d1b 26%,
+    var(--ifm-color-accent-red) 26%, var(--ifm-color-accent-red) 43%,
+    #1d1d1b 43%, #1d1d1b 67%,
+    var(--ifm-color-accent-red) 67%, var(--ifm-color-accent-red) 82%,
+    #1d1d1b 82%, #1d1d1b 93%,
+    var(--ifm-color-accent-red) 93%, var(--ifm-color-accent-red) 100%
+  );
+}
+
+/* 11 segments — staccato */
+.sep_v4 {
+  background: linear-gradient(to right,
+    #1d1d1b 0%, #1d1d1b 8%,
+    var(--ifm-color-accent-red) 8%, var(--ifm-color-accent-red) 13%,
+    #1d1d1b 13%, #1d1d1b 25%,
+    var(--ifm-color-accent-red) 25%, var(--ifm-color-accent-red) 33%,
+    #1d1d1b 33%, #1d1d1b 46%,
+    var(--ifm-color-accent-red) 46%, var(--ifm-color-accent-red) 54%,
+    #1d1d1b 54%, #1d1d1b 64%,
+    var(--ifm-color-accent-red) 64%, var(--ifm-color-accent-red) 73%,
+    #1d1d1b 73%, #1d1d1b 86%,
+    var(--ifm-color-accent-red) 86%, var(--ifm-color-accent-red) 93%,
+    #1d1d1b 93%, #1d1d1b 100%
+  );
+}
+
+/* 9 segments — syncopated, red-anchored */
+.sep_v5 {
+  background: linear-gradient(to right,
+    var(--ifm-color-accent-red) 0%, var(--ifm-color-accent-red) 14%,
+    #1d1d1b 14%, #1d1d1b 18%,
+    var(--ifm-color-accent-red) 18%, var(--ifm-color-accent-red) 35%,
+    #1d1d1b 35%, #1d1d1b 48%,
+    var(--ifm-color-accent-red) 48%, var(--ifm-color-accent-red) 57%,
+    #1d1d1b 57%, #1d1d1b 68%,
+    var(--ifm-color-accent-red) 68%, var(--ifm-color-accent-red) 79%,
+    #1d1d1b 79%, #1d1d1b 94%,
+    var(--ifm-color-accent-red) 94%, var(--ifm-color-accent-red) 100%
+  );
+}
+
+/* 12 segments — rapid alternation */
+.sep_v6 {
+  background: linear-gradient(to right,
+    #1d1d1b 0%, #1d1d1b 7%,
+    var(--ifm-color-accent-red) 7%, var(--ifm-color-accent-red) 14%,
+    #1d1d1b 14%, #1d1d1b 23%,
+    var(--ifm-color-accent-red) 23%, var(--ifm-color-accent-red) 30%,
+    #1d1d1b 30%, #1d1d1b 41%,
+    var(--ifm-color-accent-red) 41%, var(--ifm-color-accent-red) 48%,
+    #1d1d1b 48%, #1d1d1b 59%,
+    var(--ifm-color-accent-red) 59%, var(--ifm-color-accent-red) 66%,
+    #1d1d1b 66%, #1d1d1b 76%,
+    var(--ifm-color-accent-red) 76%, var(--ifm-color-accent-red) 84%,
+    #1d1d1b 84%, #1d1d1b 93%,
+    var(--ifm-color-accent-red) 93%, var(--ifm-color-accent-red) 100%
+  );
+}
+
+/* 14 segments — very rapid, nearly even */
+.sep_v7 {
+  background: linear-gradient(to right,
+    #1d1d1b 0%, #1d1d1b 5%,
+    var(--ifm-color-accent-red) 5%, var(--ifm-color-accent-red) 11%,
+    #1d1d1b 11%, #1d1d1b 18%,
+    var(--ifm-color-accent-red) 18%, var(--ifm-color-accent-red) 25%,
+    #1d1d1b 25%, #1d1d1b 34%,
+    var(--ifm-color-accent-red) 34%, var(--ifm-color-accent-red) 41%,
+    #1d1d1b 41%, #1d1d1b 51%,
+    var(--ifm-color-accent-red) 51%, var(--ifm-color-accent-red) 57%,
+    #1d1d1b 57%, #1d1d1b 65%,
+    var(--ifm-color-accent-red) 65%, var(--ifm-color-accent-red) 72%,
+    #1d1d1b 72%, #1d1d1b 81%,
+    var(--ifm-color-accent-red) 81%, var(--ifm-color-accent-red) 87%,
+    #1d1d1b 87%, #1d1d1b 94%,
+    var(--ifm-color-accent-red) 94%, var(--ifm-color-accent-red) 100%
+  );
+}
+
+/* 10 segments — skipped beat, long gap mid-line */
+.sep_v8 {
+  background: linear-gradient(to right,
+    #1d1d1b 0%, #1d1d1b 3%,
+    var(--ifm-color-accent-red) 3%, var(--ifm-color-accent-red) 9%,
+    #1d1d1b 9%, #1d1d1b 28%,
+    var(--ifm-color-accent-red) 28%, var(--ifm-color-accent-red) 36%,
+    #1d1d1b 36%, #1d1d1b 41%,
+    var(--ifm-color-accent-red) 41%, var(--ifm-color-accent-red) 58%,
+    #1d1d1b 58%, #1d1d1b 69%,
+    var(--ifm-color-accent-red) 69%, var(--ifm-color-accent-red) 75%,
+    #1d1d1b 75%, #1d1d1b 88%,
+    var(--ifm-color-accent-red) 88%, var(--ifm-color-accent-red) 100%
+  );
 }
 
 @media (max-width: 996px) {
@@ -228,6 +383,11 @@
 
 .banner_body {
   max-width: 800px;
+}
+
+.banner_full_height {
+  min-height: 100vh;
+  justify-content: center;
 }
 
 @media (max-width: 996px) {
