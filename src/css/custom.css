@@ -467,6 +467,18 @@ html[data-navbar-dark-top] .navbar-sidebar a:hover {
   color: black !important;
 }
 
+html[data-navbar-dark-top] .navbar-sidebar .navbar__logo img {
+  filter: invert(1);
+}
+
+html[data-navbar-dark-top] .navbar-sidebar .github-icon,
+html[data-navbar-dark-top] .navbar-sidebar .linkedin-icon,
+html[data-navbar-dark-top] .navbar-sidebar .bluesky-icon,
+html[data-navbar-dark-top] .navbar-sidebar .mastodon-icon,
+html[data-navbar-dark-top] .navbar-sidebar .rss-circle-icon {
+  filter: none;
+}
+
 .navbar__inner {
   position: relative;
 }
