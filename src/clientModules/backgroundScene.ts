@@ -1,6 +1,6 @@
 // Injects a fixed full-page background scene (planets, graph, code snippets)
-// directly into document.body so it is unaffected by any Docusaurus stacking
-// context. Color switches to white when a dark section centres the viewport.
+// directly into document.body. Color switches to white when a dark section
+// is in the centre of the viewport, detected via a scroll listener.
 
 // ─── SVG data ────────────────────────────────────────────────────────────────
 
@@ -38,8 +38,7 @@ function buildSVG(): string {
     `<text transform="translate(${x},${y}) rotate(${angle})">${text}</text>`,
   ).join("");
 
-  return `
-<svg viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice"
+  return `<svg viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice"
      width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
   <style>
     #_pbg_p { animation: pbg-p 58s ease-in-out infinite; }
@@ -55,8 +54,7 @@ function buildSVG(): string {
       0%,100%{transform:translate(0,0)} 40%{transform:translate(7px,-11px)} 75%{transform:translate(-5px,13px)}
     }
   </style>
-
-  <g id="_pbg_p" opacity="0.07">
+  <g id="_pbg_p" opacity="0.09">
     <circle cx="-40" cy="875" r="178" fill="currentColor"/>
     <ellipse cx="-40" cy="875" rx="285" ry="46" fill="none" stroke="currentColor" stroke-width="2.5" transform="rotate(-22,-40,875)"/>
     <circle cx="1382" cy="72" r="64" fill="currentColor"/>
@@ -69,20 +67,23 @@ function buildSVG(): string {
     <circle cx="1052" cy="828" r="9" fill="currentColor"/>
     <circle cx="582" cy="882" r="14" fill="currentColor"/>
   </g>
-
-  <g id="_pbg_g" opacity="0.11">${edges}${nodes}</g>
-
-  <g id="_pbg_s" opacity="0.09" fill="currentColor"
+  <g id="_pbg_g" opacity="0.14">${edges}${nodes}</g>
+  <g id="_pbg_s" opacity="0.11" fill="currentColor"
      font-family="'Roboto Mono','Courier New',monospace" font-size="13">${snippets}</g>
 </svg>`;
 }
 
-// ─── DOM element ─────────────────────────────────────────────────────────────
+// ─── DOM element ──────────────────────────────────────────────────────────────
 
 let bgEl: HTMLDivElement | null = null;
 
 function mount(): void {
+  // Recover existing element after HMR resets the module variable
+  if (!bgEl) {
+    bgEl = document.getElementById("page-background-scene") as HTMLDivElement | null;
+  }
   if (bgEl) return;
+
   bgEl = document.createElement("div");
   bgEl.setAttribute("aria-hidden", "true");
   bgEl.setAttribute("id", "page-background-scene");
@@ -94,49 +95,52 @@ function mount(): void {
     userSelect: "none",
     overflow: "hidden",
     color: "#1d1d1b",
-    transition: "color 0.7s ease",
+    transition: "color 0.6s ease",
   });
   bgEl.innerHTML = buildSVG();
   document.body.appendChild(bgEl);
 }
 
-function setDark(dark: boolean): void {
+function applyDark(dark: boolean): void {
   if (!bgEl) return;
   bgEl.style.color = dark ? "#ffffff" : "#1d1d1b";
   const p = bgEl.querySelector<SVGGElement>("#_pbg_p");
   const g = bgEl.querySelector<SVGGElement>("#_pbg_g");
   const s = bgEl.querySelector<SVGGElement>("#_pbg_s");
-  if (p) p.setAttribute("opacity", dark ? "0.10" : "0.07");
-  if (g) g.setAttribute("opacity", dark ? "0.15" : "0.11");
-  if (s) s.setAttribute("opacity", dark ? "0.13" : "0.09");
+  if (p) p.setAttribute("opacity", dark ? "0.12" : "0.09");
+  if (g) g.setAttribute("opacity", dark ? "0.18" : "0.14");
+  if (s) s.setAttribute("opacity", dark ? "0.15" : "0.11");
 }
 
-// ─── IntersectionObserver ─────────────────────────────────────────────────────
+// ─── Scroll-based dark detection ──────────────────────────────────────────────
+// Re-queries the DOM on every scroll so it always reflects the current page.
 
-const intersecting = new Set<Element>();
-let currentObserver: IntersectionObserver | null = null;
-
-function observe(): IntersectionObserver {
-  const darkSections = Array.from(
-    document.querySelectorAll("[data-section-bg='dark']"),
-  );
-  const observer = new IntersectionObserver(
-    (entries) => {
-      for (const e of entries) {
-        if (e.isIntersecting) intersecting.add(e.target);
-        else intersecting.delete(e.target);
-      }
-      setDark(intersecting.size > 0);
-    },
-    { rootMargin: "-50% 0px -50% 0px", threshold: 0 },
-  );
-  darkSections.forEach((el) => observer.observe(el));
-  return observer;
+function updateColor(): void {
+  const vh = window.innerHeight;
+  const darkEls = document.querySelectorAll<HTMLElement>("[data-section-bg='dark']");
+  let anyDark = false;
+  darkEls.forEach((el) => {
+    const { top, bottom } = el.getBoundingClientRect();
+    // Trigger when the dark section covers the middle 60 % of the viewport
+    if (top < vh * 0.8 && bottom > vh * 0.2) anyDark = true;
+  });
+  applyDark(anyDark);
 }
+
+let scrollListenerAdded = false;
+
+// ─── Route lifecycle ──────────────────────────────────────────────────────────
 
 export function onRouteDidUpdate(): void {
   mount();
-  intersecting.clear();
-  currentObserver?.disconnect();
-  currentObserver = observe();
+
+  // Add the scroll listener once (persists across SPA navigations)
+  if (!scrollListenerAdded) {
+    window.addEventListener("scroll", updateColor, { passive: true });
+    scrollListenerAdded = true;
+  }
+
+  // Always reset to light first, then re-check after the DOM settles
+  applyDark(false);
+  requestAnimationFrame(updateColor);
 }

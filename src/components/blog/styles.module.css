@@ -11,7 +11,7 @@
 .blogpost_card {
   height: 556px;
   padding: var(--ifm-spacing-xl);
-  border-top: 4px solid var(--ifm-color-accent-red);
+  border-left: 2px solid var(--ifm-color-accent-red);
 }
 
 .blogpost_summary {
