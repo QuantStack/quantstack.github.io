@@ -13,17 +13,6 @@
   padding: var(--ifm-spacing-xl);
 }
 
-.blogpost_date_dot {
-  display: inline-block;
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  background-color: var(--ifm-color-accent-red);
-  margin-right: 6px;
-  vertical-align: middle;
-  margin-bottom: 2px;
-}
-
 .blogpost_summary {
   font-size: 14px;
   font-weight: 300;
@@ -59,11 +48,22 @@
   color: var(--ifm-color-accent-red);
 }
 
+.blogpost_date_dot {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: var(--ifm-color-accent-red);
+  margin-right: 6px;
+  vertical-align: middle;
+  margin-bottom: 2px;
+}
+
 .blogpost_authors {
   font-size: 12px;
   font-weight: 400;
   line-height: 16px;
-  color: var(--ifm-text-color);
+  color: var(--ifm-color-secondary-s3);
 }
 
 .search_input {

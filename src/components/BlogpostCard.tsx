@@ -1,18 +1,17 @@
-import React from "react";
-import styles from "./styles.module.css";
+import styles from "../pages/blog.module.css";
 import Link from "@docusaurus/Link";
 import useBaseUrl from "@docusaurus/useBaseUrl";
-import Card from "../layout/Card";
+import Card from "./layout/Card";
 
-export default function BlogpostCard({ blogpost, timeIndex }) {
+export default function BlogpostCard({ blogpost }) {
   return (
     <Card hover className={styles.blogpost_card}>
       <Link href={blogpost.url}>
-        <div className={styles.blogpost_image + " flex-full-centered"}>
+        <div className={`${styles.blogpost_image} flex-full-centered`}>
           <img
             src={useBaseUrl(blogpost.image)}
             id={blogpost.imageID}
-            alt={"Illustration for the blog post."}
+            alt="Illustration for the blog post."
           />
         </div>
         <div className={styles.blogpost_header}>{blogpost.title}</div>
