@@ -35,10 +35,10 @@ function HomeContent() {
             <div className={styles.hero_text}>
               <h1 className={`padding-none ${styles.hero_title}`}>QUANTSTACK</h1>
               <p className={styles.tech_tagline}>
-                BUILDING THE OPEN SCIENTIFIC COMPUTE STACK
+                OPEN TOOLS FOR DATA AND SCIENTIFIC COMPUTE
               </p>
               <p className={styles.sub_header}>
-                From Jupyter to Mamba to Apache Arrow — we maintain the stack millions of
+                From Jupyter to Mamba to Apache Arrow, we maintain the stack millions of
                 researchers, engineers, and students depend on. Today we're also building
                 notebook.link to ship entire compute environments right your browser.
               </p>
