@@ -6,7 +6,7 @@ import { useHistory, useLocation } from "@docusaurus/router";
 import Layout from "@theme/Layout";
 import { Route } from 'react-router-dom';
 import { getCategoryFromProjectPageName } from ".";
-import { FundableContent as FundableProjects } from "@site/src/pages/fundable";
+import { FundableContent as FundableProjects } from "@site/src/pages/sponsor";
 
 function GetAQuoteComponent({ project }) {
     return (
@@ -32,14 +32,14 @@ export default function GetAQuotePage() {
     const history = useHistory();
 
     const handleClose = () => {
-        history.push('/fundable');
+        history.push('/sponsor');
 
     }
     return (
         <Layout>
             <FundableProjects />
             <Route
-                path="/fundable/:pageName/GetAQuote"
+                path="/sponsor/:pageName/GetAQuote"
                 render={({ match }) => {
                     const { pageName } = match.params; /* extract the dynamic part from the url i.e. the pageName*/
                     const projectsByCategory = getCategoryFromProjectPageName(pageName);

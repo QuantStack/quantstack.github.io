@@ -8,7 +8,7 @@ export default function FundableProjectCard({ project }) {
 
   function open() {
     history.push({
-      pathname: `/fundable/${project.pageName}`,
+      pathname: `/sponsor/${project.pageName}`,
       state: { fromFundable: true, scrollY: window.scrollY },
     });
   }

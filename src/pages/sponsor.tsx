@@ -3,6 +3,7 @@ import BrowserOnly from "@docusaurus/BrowserOnly";
 import Footer from "../components/footer/Footer";
 import Section from "../components/layout/Section";
 import SectionSeparator from "../components/layout/SectionSeparator";
+import Banner from "../components/layout/Banner";
 import LinkToContact from "../components/LinkToContact";
 import { MainAreaFundableProjects } from "../components/fundable";
 
@@ -16,17 +17,19 @@ export function FundableContent() {
       <SectionSeparator variant={3} />
       <Section>
         <MainAreaFundableProjects />
-        <div style={{ marginTop: "var(--ifm-spacing-3xl)" }}>
-          <h2>Can't find a project?</h2>
-          <p>If you have a project in mind that you think would be relevant to our expertise, please contact us to discuss it.</p>
-          <LinkToContact label="CONTACT US!" />
-        </div>
       </Section>
+      <Banner
+        bg="dark"
+        title="Can't find a project?"
+        cta={<LinkToContact label="CONTACT US" />}
+      >
+        If you have a project in mind that you think would be relevant to our expertise, contact us to discuss it.
+      </Banner>
     </>
   );
 }
 
-export default function FundableProjectsPage(): JSX.Element {
+export default function SponsorPage(): JSX.Element {
   return (
     <Layout>
       <BrowserOnly>{() => <FundableContent />}</BrowserOnly>

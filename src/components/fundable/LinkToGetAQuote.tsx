@@ -6,7 +6,7 @@ export default function LinkToGetAQuote({ label, pageName }) {
         <div className="flex-full-centered">
             <Link
                 className={"link-to-button" + " " + styles.link_to_get_a_quote}
-                href={"/fundable/" + pageName+'/GetAQuote'}
+                href={'/sponsor'}
             >
                 {label}
             </Link>

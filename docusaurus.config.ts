@@ -149,7 +149,7 @@ const config: Config = {
           position: "left",
         },
         {
-          to: "/fundable/",
+          to: "/sponsor/",
           className: "custom_navbar_item",
           label: "Sponsor",
           position: "left",
