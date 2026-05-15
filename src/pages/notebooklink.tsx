@@ -32,8 +32,6 @@ function NotebookLinkContent() {
         <LinkToNotebookLink label="Get started — it's free" />
       </SplitSection>
 
-      <SectionSeparator variant={6} />
-
       <Section>
         <h2>A complete compute environment in a link.</h2>
         <p>
@@ -48,8 +46,6 @@ function NotebookLinkContent() {
           not our servers. That means it scales to any number of users for the cost of file storage.
         </p>
       </Section>
-
-      <SectionSeparator variant={7} />
 
       <Section bg="dark">
         <h2 className="text--center">Proven at scale.</h2>
@@ -79,8 +75,6 @@ function NotebookLinkContent() {
           </li>
         </CardGrid>
       </Section>
-
-      <SectionSeparator variant={8} />
 
       <Section>
         <h2 className="text--center">Built for every use case.</h2>

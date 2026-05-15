@@ -164,8 +164,6 @@ function HomeContent() {
         at near-zero infrastructure cost.
       </Banner>
 
-      <SectionSeparator variant={6} />
-
       {/* ── About us ──────────────────────────────────────────────────────── */}
       <Section fullHeight>
         <h2 className="text--center">About us</h2>
