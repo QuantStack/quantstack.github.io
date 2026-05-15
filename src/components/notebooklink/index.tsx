@@ -1,6 +1,5 @@
 import styles from "./styles.module.css";
 import SplitSection from "../layout/SplitSection";
-import BackgroundScene from "../layout/BackgroundScene";
 import Section from "../layout/Section";
 import SectionSeparator from "../layout/SectionSeparator";
 import CardGrid from "../layout/CardGrid";
@@ -16,7 +15,6 @@ export default function NotebookLinkPage() {
         bg="dark"
         pageTop
         fullHeight
-        background={<BackgroundScene variant="dark" />}
         image={
           <Rocket
             alt="Notebook.link rocket illustration"

@@ -12,7 +12,10 @@ type Props = {
 
 export default function Banner({ bg = "dark", title, cta, fullHeight = false, children }: Props) {
   return (
-    <div className={clsx(styles.banner, styles[`banner_${bg}`], fullHeight && styles.banner_full_height)}>
+    <div
+      data-section-bg={bg === "dark" ? "dark" : undefined}
+      className={clsx(styles.banner, styles[`banner_${bg}`], fullHeight && styles.banner_full_height)}
+    >
       {title && (
         <div className={clsx(styles.banner_title, styles[`banner_title_${bg}`])}>
           {title}

@@ -23,6 +23,7 @@ export default function Section({
 }: Props) {
   return (
     <div
+      data-section-bg={bg}
       className={clsx(
         styles.section,
         styles[`section_${bg}`],
@@ -33,7 +34,7 @@ export default function Section({
       )}
     >
       {background && <div className={styles.section_bg_slot}>{background}</div>}
-      <div className={background ? styles.section_content : undefined}>
+      <div className={styles.section_content}>
         <div className="page-content">{children}</div>
       </div>
     </div>

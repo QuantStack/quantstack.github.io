@@ -2,6 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800;900&display=swap');
 
 :root {
+  /* ── Page background scene ── */
+  --bg-scene-color: #1d1d1b;
+  --bg-planet-op: 0.07;
+  --bg-graph-op:  0.11;
+  --bg-snippet-op: 0.09;
+
   --ifm-color-orange-jupyter: #f37726;
   --ifm-color-blue-jupyter: #1976d2;
   --ifm-color-green-xtensor: #4ecb71;
@@ -391,6 +397,13 @@ a.menu__link:active {
 .navbar {
   transition: background-color 0.25s ease, box-shadow 0.25s ease;
   background-color: var(--ifm-navbar-background-color);
+}
+
+html[data-bg-dark] {
+  --bg-scene-color: #ffffff;
+  --bg-planet-op: 0.10;
+  --bg-graph-op:  0.15;
+  --bg-snippet-op: 0.13;
 }
 
 html:not([data-navbar-scrolled]) .navbar {

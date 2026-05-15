@@ -20,7 +20,10 @@ const config: Config = {
   organizationName: "/HaudinFlorence/", // Usually your GitHub org/user name.
   projectName: "quantstack.github.io", // Usually your repo name.
 
-  clientModules: [require.resolve("./src/clientModules/navbarScroll.ts")],
+  clientModules: [
+    require.resolve("./src/clientModules/navbarScroll.ts"),
+    require.resolve("./src/clientModules/backgroundScene.ts"),
+  ],
 
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",

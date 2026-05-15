@@ -1,12 +1,10 @@
 import styles from "./styles.module.css";
 import Astronaut from "/img/quantstack/astronaut.svg";
-import BackgroundScene from "../../layout/BackgroundScene";
 
 export function Hero() {
   return (
     <div className={styles.hero_container}>
-      <BackgroundScene variant="light" />
-      <div className="page-content" style={{ position: "relative", zIndex: 1 }}>
+      <div className="page-content" style={{ position: "relative", zIndex: 2 }}>
         <div className={styles.hero_body}>
           <div className={styles.hero_text}>
             <h1 className="padding-none">

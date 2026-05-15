@@ -4,11 +4,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background: var(--ifm-bg-brand);
+  border-radius: 4px;
 }
 
 .blogpost_card {
   height: 556px;
   padding: var(--ifm-spacing-xl);
+  border-top: 4px solid var(--ifm-color-accent-red);
 }
 
 .blogpost_summary {
@@ -43,7 +46,7 @@
   font-weight: 800;
   line-height: 16px;
   letter-spacing: -0.132px;
-  color: var(--ifm-text-color);
+  color: var(--ifm-color-accent-red);
 }
 
 .blogpost_authors {

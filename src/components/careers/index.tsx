@@ -1,7 +1,6 @@
 import styles from "./styles.module.css";
 import Section from "../layout/Section";
 import SectionSeparator from "../layout/SectionSeparator";
-import BackgroundScene from "../layout/BackgroundScene";
 import { interviewDetails } from "./interviewDetails";
 import Interviews from "./Interviews";
 import VisitWTJProfile from "./VisitWTJProfile";
@@ -11,7 +10,7 @@ import GroupPhotoJupyterConUrl from "@site/static/img/group/group-photo.png";
 export default function Careers() {
   return (
     <>
-      <Section pageTop bg="yellow" background={<BackgroundScene variant="light" />}>
+      <Section pageTop bg="yellow">
         <h1>Join the QuantStack team!</h1>
         <p>Build software used by millions — as a core contributor, not a user. Join a team that shapes the scientific computing ecosystem from the inside.</p>
       </Section>

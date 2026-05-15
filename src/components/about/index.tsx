@@ -6,7 +6,6 @@ import Section from "../layout/Section";
 import Banner from "../layout/Banner";
 import SectionSeparator from "../layout/SectionSeparator";
 import LinkToContact from "../home/LinkToContact";
-import BackgroundScene from "../layout/BackgroundScene";
 
 export function getTeamByPageName(name: string) {
   for (const [teamName, members] of Object.entries(teams)) {
@@ -21,7 +20,7 @@ export function getTeamByPageName(name: string) {
 export function About() {
   return (
     <>
-      <Section pageTop bg="yellow" background={<BackgroundScene variant="light" />}>
+      <Section pageTop bg="yellow">
         <h1>About QuantStack</h1>
         <p>A small team of outliers — core maintainers of projects adopted globally by researchers, engineers, and educators. We believe open-source is the most powerful way to make high-quality tools available to everyone.</p>
       </Section>

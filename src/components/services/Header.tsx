@@ -1,11 +1,10 @@
 import Section from "../layout/Section";
 import LinkToContact from "../home/LinkToContact";
 import styles from "./styles.module.css";
-import BackgroundScene from "../layout/BackgroundScene";
 
 export default function Header() {
   return (
-    <Section pageTop bg="yellow" background={<BackgroundScene variant="light" />}>
+    <Section pageTop bg="yellow">
       <h1 className={styles.services_header_text}>
         Hire QuantStack for expert engineering at the frontier of open-source.
       </h1>

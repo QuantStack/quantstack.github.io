@@ -6,7 +6,6 @@ import AtomOrange from "/img/icons/RSSOrange.svg";
 import Section from "../layout/Section";
 import SectionSeparator from "../layout/SectionSeparator";
 import CardGrid from "../layout/CardGrid";
-import BackgroundScene from "../layout/BackgroundScene";
 
 export default function BlogsComponent() {
   const numberOfBlogs = blogpostsDetails.length;
@@ -27,7 +26,7 @@ export default function BlogsComponent() {
 
   return (
     <>
-      <Section pageTop bg="yellow" background={<BackgroundScene variant="light" />}>
+      <Section pageTop bg="yellow">
         <div className="flex-full-centered">
           <h1 className="padding-none margin-none">
             Featured posts by QuantStack contributors
