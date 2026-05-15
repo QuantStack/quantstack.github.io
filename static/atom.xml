@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://quantstack.net/</id>
     <title>Recent blog posts featured by QuantStack team</title>
-    <updated>2026-04-16T16:09:35.875Z</updated>
+    <updated>2026-05-15T07:18:11.349Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>QuantStack Team</name>
@@ -11,6 +11,16 @@
     <link rel="alternate" href="https://quantstack.net/"/>
     <link rel="self" href="https://quantstack.net/atom.xml"/>
     <subtitle>Atom feed for QuantStack website blog page</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Sharded Repodata Support in Mamba]]></title>
+        <id>https://medium.com/@julien.jerphanion/sharded-repodata-support-in-mamba-ae6147d1d608</id>
+        <link href="https://medium.com/@julien.jerphanion/sharded-repodata-support-in-mamba-ae6147d1d608"/>
+        <updated>2026-04-29T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/Introducing-Mamba-2-6.png" alt="Image for Sharded Repodata Support in Mamba" style="max-width:100%; height:auto;" /><p>We are thrilled to introduce Mamba 2.6, the first release of the package manager with support for sharded repodata, improving perfomance by a large factor, both in execution time and memory consumption.</p>]]></content>
+        <author>
+            <name>Julien Jerphanion</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Introducing Sparrow-IPC: A modern C++ implementation of Arrow IPC]]></title>
         <id>https://medium.com/@QuantStack/introducing-sparrow-ipc-modern-c-20-arrow-ipc-e1690ae82b81</id>
@@ -199,16 +209,6 @@
         <content type="html"><![CDATA[<img src="img/blogposts/resized-images/JupyterLab-44.png" alt="Image for JupyterLab 4.4 and Notebook 7.4 are available!" style="max-width:100%; height:auto;" /><p>JupyterLab 4.4 has been released! This new minor release of JupyterLab includes 28 new features and enhancements, 76 bug fixes, 63 maintenance tasks and 34 documentation improvements.</p>]]></content>
         <author>
             <name>Jeremy Tuloup</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Congratulations, Distinguished Contributors!]]></title>
-        <id>https://blog.jupyter.org/congratulations-distinguished-contributors-2504029fc5a9</id>
-        <link href="https://blog.jupyter.org/congratulations-distinguished-contributors-2504029fc5a9"/>
-        <updated>2025-05-15T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/Congratulations-Distinguished-Contributors-2025.png" alt="Image for Congratulations, Distinguished Contributors!" style="max-width:100%; height:auto;" /><p>We are proud to announce the recipients of the Jupyter Distinguished Contributor (JDC) award for the 2024 cohort of contributors.</p>]]></content>
-        <author>
-            <name>Johan Mabille</name>
         </author>
     </entry>
 </feed>
