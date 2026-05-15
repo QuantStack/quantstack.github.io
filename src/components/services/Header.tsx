@@ -1,5 +1,5 @@
 import Section from "../layout/Section";
-import LinkToContact from "../home/LinkToContact";
+import LinkToContact from "../LinkToContact";
 import styles from "./styles.module.css";
 
 export default function Header() {

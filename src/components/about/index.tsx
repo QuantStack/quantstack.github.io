@@ -5,7 +5,7 @@ import SubTeam from "./SubTeam";
 import Section from "../layout/Section";
 import Banner from "../layout/Banner";
 import SectionSeparator from "../layout/SectionSeparator";
-import LinkToContact from "../home/LinkToContact";
+import LinkToContact from "../LinkToContact";
 
 export function getTeamByPageName(name: string) {
   for (const [teamName, members] of Object.entries(teams)) {

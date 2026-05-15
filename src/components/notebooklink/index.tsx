@@ -6,7 +6,7 @@ import CardGrid from "../layout/CardGrid";
 import Card from "../layout/Card";
 import Banner from "../layout/Banner";
 import Rocket from "/img/notebooklink/rocket.svg";
-import LinkToNotebookLink from "../home/Hero/LinkToNotebookLink";
+import LinkToNotebookLink from "../LinkToNotebookLink";
 
 export default function NotebookLinkPage() {
   return (

@@ -2,7 +2,7 @@ import Support from "./Support";
 import SpecialProjects from "./SpecialProjects";
 import Header from "./Header";
 import Banner from "../layout/Banner";
-import LinkToContact from "../home/LinkToContact";
+import LinkToContact from "../LinkToContact";
 import SectionSeparator from "../layout/SectionSeparator";
 
 export default function Services() {

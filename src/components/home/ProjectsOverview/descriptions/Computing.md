@@ -1,1 +1,0 @@
-We authored xtensor, a multi-dimensional array library for C++ with a NumPy-style API, and xsimd, a unified SIMD operations library adopted by Apache Arrow, Firefox, Krita, and Pythran.

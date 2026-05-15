@@ -1,0 +1,192 @@
+/* ── Hero ─────────────────────────────────────────────────────────────────── */
+
+.hero_container {
+  background-color: var(--ifm-bg-brand);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: calc(var(--ifm-navbar-height) + var(--ifm-spacing-2xl));
+  padding-bottom: var(--ifm-spacing-2xl);
+  margin-top: calc(-1 * var(--ifm-navbar-height));
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero_body {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: var(--ifm-spacing-2xl);
+}
+
+.hero_text {
+  flex: 3;
+  min-width: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.hero_image {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+.sub_header {
+  text-align: left;
+}
+
+.tech_tagline {
+  color: var(--ifm-color-accent-red);
+  font-size: var(--ifm-font-size-secondary-title);
+  font-weight: 700;
+}
+
+.accent {
+  color: var(--ifm-color-accent-red);
+}
+
+@media (max-width: 996px) {
+  .hero_body {
+    flex-direction: column;
+    padding: var(--ifm-spacing-xl) 0;
+  }
+
+  .hero_image {
+    display: none;
+  }
+
+  .tech_tagline {
+    font-size: 20px;
+    line-height: 150%;
+  }
+}
+
+/* ── Services (How we work with you) ─────────────────────────────────────── */
+
+.topics_header {
+  font-family: var(--ifm-font-family-roboto);
+  font-size: var(--ifm-font-size-secondary-title);
+  font-weight: 700;
+  line-height: 28px;
+  min-height: 56px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  margin-bottom: var(--ifm-spacing-xl);
+  color: var(--ifm-color-neutral-n2);
+}
+
+.topics_card {
+  padding: var(--ifm-spacing-2xl) var(--ifm-spacing-lg);
+}
+
+.services_link_mobile {
+  display: none;
+}
+
+.projects_link {
+  display: none;
+}
+
+@media (max-width: 996px) {
+  .services_link_mobile {
+    display: block;
+  }
+
+  .projects_link {
+    display: block;
+  }
+
+  .services_link_desktop {
+    display: none;
+  }
+}
+
+/* ── Projects Overview ────────────────────────────────────────────────────── */
+
+.projects_overview_container {
+  display: block;
+}
+
+.tagline {
+  color: var(--ifm-color-blue-jupyter);
+}
+
+@media (max-width: 996px) {
+  .projects_overview_container {
+    display: none;
+  }
+}
+
+/* ── About Us ─────────────────────────────────────────────────────────────── */
+
+.aboutQS_text {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: var(--ifm-spacing-xl);
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.learn_more_button_container {
+  display: flex;
+  justify-content: center;
+  margin-top: var(--ifm-spacing-xl);
+}
+
+.learn_more_button_container :global(.link-to-button) {
+  background: var(--ifm-color-accent-yellow);
+  color: var(--ifm-color-primary-p2);
+}
+
+.learn_more_button_container :global(.link-to-button):hover {
+  color: var(--ifm-color-primary-p2);
+  box-shadow: 0 8px 28px rgba(245, 229, 59, 0.5);
+}
+
+@media (min-width: 996px) {
+  .aboutQS_text {
+    font-size: 24px;
+    margin-bottom: var(--ifm-spacing-lg);
+  }
+}
+
+/* ── News ─────────────────────────────────────────────────────────────────── */
+
+@media (max-width: 996px) {
+  .news_wrapper {
+    display: none;
+  }
+}
+
+/* ── Link buttons ─────────────────────────────────────────────────────────── */
+
+@media only screen and (max-width: 996px) {
+  .link_to,
+  .link_to_services,
+  .link_to_about_us {
+    background-color: var(--ifm-color-primary-p1);
+    color: var(--ifm-text-color-on-primary-p1);
+  }
+
+  .link_to:hover,
+  .link_to_services:hover,
+  .link_to_about_us:hover {
+    color: var(--ifm-text-color-on-primary-p1);
+    box-shadow: 0 8px 24px rgba(246, 241, 149, 0.5);
+  }
+}
+
+@media only screen and (min-width: 996px) {
+  .link_to        { background-color: var(--ifm-bg-emphasis); color: white; }
+  .link_to_services { background-color: var(--ifm-color-blue-jupyter); color: white; }
+  .link_to_about_us { background-color: var(--ifm-bg-emphasis); color: white; }
+}

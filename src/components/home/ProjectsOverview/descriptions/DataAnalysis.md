@@ -1,1 +1,0 @@
-We are principal maintainers of Apache Arrow's C++ core — the in-memory columnar format underpinning most of the modern data ecosystem. We also maintain Apache Parquet, the dominant columnar storage format for analytics workloads.

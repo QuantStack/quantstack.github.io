@@ -5,7 +5,7 @@ import SectionSeparator from "../layout/SectionSeparator";
 import CardGrid from "../layout/CardGrid";
 import { fundableProjectsDetails } from "./projectsDetails";
 import FundableProjectCard from "./FundableProjectCard";
-import LinkToContact from "../home/LinkToContact";
+import LinkToContact from "../LinkToContact";
 
 const ALL_PROJECTS = Object.values(fundableProjectsDetails).flat();
 const CATEGORIES = ["All", ...new Set(ALL_PROJECTS.map((p) => p.category))];

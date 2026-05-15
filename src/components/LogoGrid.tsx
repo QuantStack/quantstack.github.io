@@ -1,4 +1,4 @@
-import styles from "./styles.module.css";
+import styles from "./LogoGrid.module.css";
 import BloombergLogoUrl from "@site/static/img/logos/Bloomberg.png";
 import SGLogoUrl from "@site/static/img/logos/SG.png";
 import RapyutaLogoUrl from "@site/static/img/logos/Rapyuta.png";

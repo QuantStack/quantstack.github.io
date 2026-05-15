@@ -1,9 +1,0 @@
-@media (max-width: 996px) {
-  .projects_overview_container {
-    display: none;
-  }
-}
-
-.tagline {
-  color: var(--ifm-color-blue-jupyter);
-}
