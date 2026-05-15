@@ -3,12 +3,12 @@ import BrowserOnly from "@docusaurus/BrowserOnly";
 import Footer from "@site/src/components/footer/Footer";
 import styles from "@site/src/components/about/styles.module.css";
 import { teams } from "@site/src/components/about/Team/team";
-import { ValueCard } from "@site/src/components/about/ValueCard";
-import { valuesDetails } from "@site/src/components/about/Values/valuesDetails";
-import SubTeam from "@site/src/components/about/SubTeam";
+import { valuesDetails } from "@site/src/components/about/valuesDetails";
+import { SmallPortraitCard } from "@site/src/components/about/SmallPortraitCard";
 import Section from "@site/src/components/layout/Section";
 import Banner from "@site/src/components/layout/Banner";
 import CardGrid from "@site/src/components/layout/CardGrid";
+import Card from "@site/src/components/layout/Card";
 import SectionSeparator from "@site/src/components/layout/SectionSeparator";
 import LinkToContact from "@site/src/components/LinkToContact";
 
@@ -35,7 +35,15 @@ export function AboutContent() {
         <CardGrid cols={4}>
           {valuesDetails.map((value, index) => (
             <li key={index}>
-              <ValueCard value={value} />
+              <Card className={styles.value_card}>
+                <div className={styles.value_icon}>
+                  <value.pictureComponent alt={value.alt} />
+                </div>
+                <div className={styles.value_header}>{value.name}</div>
+                <div className={styles.value_text}>
+                  <value.DescriptionMD />
+                </div>
+              </Card>
             </li>
           ))}
         </CardGrid>
@@ -46,15 +54,22 @@ export function AboutContent() {
         <div className={styles.team_description}>
           Most of us have PhDs or deep research backgrounds. We operate as a collective of principal contributors — everyone on the team ships code to the projects we maintain. No passengers.
         </div>
-        <SubTeam
-          subTeamName={"The leadership team"}
-          subTeam={teams.leadershipTeam}
-        />
-        <SubTeam subTeamName={"The core team"} subTeam={teams.coreTeam} />
-        <SubTeam
-          subTeamName={"QuantStack collaborators"}
-          subTeam={teams.QSCollaboratorsTeam}
-        />
+        {[
+          { label: "The leadership team", members: teams.leadershipTeam },
+          { label: "The core team", members: teams.coreTeam },
+          { label: "QuantStack collaborators", members: teams.QSCollaboratorsTeam },
+        ].map(({ label, members }) => (
+          <div key={label} className={styles.subteam_container}>
+            <h3 className="text--center">{label}</h3>
+            <CardGrid cols={3}>
+              {members.map((person) => (
+                <li key={person.pageName}>
+                  <SmallPortraitCard person={person} />
+                </li>
+              ))}
+            </CardGrid>
+          </div>
+        ))}
       </Section>
       <Banner
         bg="dark"
