@@ -2,7 +2,7 @@ import Layout from "@theme/Layout";
 import BrowserOnly from "@docusaurus/BrowserOnly";
 import Footer from "@site/src/components/footer/Footer";
 import styles from "@site/src/components/about/styles.module.css";
-import { teams } from "@site/src/components/about/Team/team";
+import { teams } from "@site/src/pages/about/Team/team";
 import { valuesDetails } from "@site/src/components/about/valuesDetails";
 import { SmallPortraitCard } from "@site/src/components/about/SmallPortraitCard";
 import Section from "@site/src/components/layout/Section";
