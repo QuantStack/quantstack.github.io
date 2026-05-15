@@ -4,8 +4,8 @@ import { useHistory, useLocation } from '@docusaurus/router';
 import { useEffect } from 'react';
 import { Route } from 'react-router-dom';
 import { getCategoryFromProjectPageName } from ".";
+import { FundableContent } from "@site/src/pages/fundable";
 import styles from "@site/src/components/about/styles.module.css";
-import FundableProjects from '.';
 import LargeProjectCard from './LargeProjectCard';
 
 export default function LargeProjectCardPage() {
@@ -44,7 +44,7 @@ export default function LargeProjectCardPage() {
   }
   return (
     <Layout>
-      <FundableProjects />
+      <FundableContent />
       <Route
         path="/fundable/:pageName"
         render={({ match }) => {

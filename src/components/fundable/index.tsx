@@ -1,11 +1,8 @@
 import { useState, useEffect } from "react";
 import styles from "./styles.module.css";
-import Section from "../layout/Section";
-import SectionSeparator from "../layout/SectionSeparator";
 import CardGrid from "../layout/CardGrid";
-import { fundableProjectsDetails } from "./projectsDetails";
+import { fundableProjectsDetails } from "@site/src/pages/fundable/projectsDetails";
 import FundableProjectCard from "./FundableProjectCard";
-import LinkToContact from "../LinkToContact";
 
 const ALL_PROJECTS = Object.values(fundableProjectsDetails).flat();
 const CATEGORIES = ["All", ...new Set(ALL_PROJECTS.map((p) => p.category))];
@@ -52,7 +49,6 @@ export function MainAreaFundableProjects() {
           </button>
         ))}
       </div>
-
       <CardGrid cols={3}>
         {visible.map((project) => (
           <li key={project.pageName}>
@@ -60,27 +56,6 @@ export function MainAreaFundableProjects() {
           </li>
         ))}
       </CardGrid>
-
-      <div className={styles.propose_section}>
-        <h2>Can't find a project?</h2>
-        <p>If you have a project in mind that you think would be relevant to our expertise, please contact us to discuss it.</p>
-        <LinkToContact label="CONTACT US!" />
-      </div>
-    </>
-  );
-}
-
-export default function FundableProjects() {
-  return (
-    <>
-      <Section pageTop bg="yellow">
-        <h1>Sponsor open-source work</h1>
-        <p>High-demand open-source features with detailed plans already in place — the work is scoped, the need is proven, only funding is missing. Back a project and get it shipped.</p>
-      </Section>
-      <SectionSeparator variant={3} />
-      <Section>
-        <MainAreaFundableProjects />
-      </Section>
     </>
   );
 }
