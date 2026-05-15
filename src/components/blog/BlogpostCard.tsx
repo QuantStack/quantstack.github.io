@@ -22,7 +22,10 @@ export default function BlogpostCard({ blogpost, timeIndex }) {
             : blogpost.summary.substring(0, 200) + "..."}
         </div>
         <div className={styles.blogpost_footer}>
-          <div className={styles.blogpost_date}>{blogpost.date}</div>
+          <div className={styles.blogpost_date}>
+            <span className={styles.blogpost_date_dot} />
+            {blogpost.date}
+          </div>
           <div className={styles.blogpost_authors}>{blogpost.authors}</div>
         </div>
       </Link>

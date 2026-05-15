@@ -11,7 +11,17 @@
 .blogpost_card {
   height: 556px;
   padding: var(--ifm-spacing-xl);
-  border-left: 2px solid var(--ifm-color-accent-red);
+}
+
+.blogpost_date_dot {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: var(--ifm-color-accent-red);
+  margin-right: 6px;
+  vertical-align: middle;
+  margin-bottom: 2px;
 }
 
 .blogpost_summary {
