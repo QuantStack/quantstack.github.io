@@ -10,17 +10,15 @@ export default function BlogPage(): JSX.Element {
   return (
     <Layout>
       <Section pageTop bg="yellow">
-        <div className="flex-full-centered">
-          <h1 className="padding-none margin-none">
+        <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
+          <h1>
             Featured posts by QuantStack contributors
           </h1>
-          <div style={{ padding: "0 10px" }}>
-            <a href={"/atom.xml"}>
-              <AtomOrange width={"42px"} height={"42px"} />
-            </a>
-          </div>
+          <a href={"/atom.xml"}>
+            <AtomOrange width={"42px"} height={"42px"} />
+          </a>
         </div>
-        <p className="text--center">
+        <p>
           Technical deep-dives, release notes, and perspectives from maintainers at the source. Read about the decisions, trade-offs, and discoveries that go into the tools powering modern science.
         </p>
       </Section>
