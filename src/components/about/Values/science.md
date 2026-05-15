@@ -1,1 +1,0 @@
-We come from research. Most of us have PhDs. We approach every problem rigorously — whether it's a SAT solver for package resolution or a CRDT algorithm for collaborative CAD. Good science makes good software.

@@ -1,1 +1,0 @@
-We build in the open, not because it's fashionable, but because it's right. Open-source removes the barriers that keep good tools from the people who need them most. Our work belongs to the community.
