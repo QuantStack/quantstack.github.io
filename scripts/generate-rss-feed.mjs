@@ -1,6 +1,6 @@
 import fs from 'fs';
 import RSS from 'rss';
-import { blogpostsDetails } from '../src/components/blog/blogpostsDetails.js';
+import { blogpostsDetails } from '../src/pages/blogs/blogpostsDetails.js';
 import path from 'path';
 import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
