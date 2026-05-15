@@ -11,7 +11,7 @@ import CardGrid from "../components/layout/CardGrid";
 import LogoGrid from "../components/LogoGrid";
 import LinkToNotebookLink from "../components/LinkToNotebookLink";
 import BlogpostCard from "../components/BlogpostCard";
-import { blogpostsDetails } from "./blogs/blogpostsDetails";
+import { blogpostsDetails } from "./blogs/_blogpostsDetails";
 import styles from "./index.module.css";
 
 import Astronaut from "/img/quantstack/astronaut.svg";

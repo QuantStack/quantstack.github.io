@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import styles from "./styles.module.css";
 import CardGrid from "../layout/CardGrid";
-import { fundableProjectsDetails } from "@site/src/pages/sponsor/projectsDetails";
+import { fundableProjectsDetails } from "@site/src/pages/sponsor/_projectsDetails";
 import FundableProjectCard from "./FundableProjectCard";
 
 const ALL_PROJECTS = Object.values(fundableProjectsDetails).flat();

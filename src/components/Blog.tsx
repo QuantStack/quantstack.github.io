@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import CardGrid from "./layout/CardGrid";
 import BlogpostCard from "./BlogpostCard";
-import { blogpostsDetails } from "../pages/blogs/blogpostsDetails";
+import { blogpostsDetails } from "../pages/blogs/_blogpostsDetails";
 import styles from "../pages/blog.module.css";
 
 export default function BlogGrid() {
