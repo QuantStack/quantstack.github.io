@@ -6,7 +6,7 @@ import { useHistory, useLocation } from "@docusaurus/router";
 import Layout from "@theme/Layout";
 import { Route } from 'react-router-dom';
 import { getCategoryFromProjectPageName } from ".";
-import FundableProjects from ".";
+import { FundableContent as FundableProjects } from "@site/src/pages/fundable";
 
 function GetAQuoteComponent({ project }) {
     return (
