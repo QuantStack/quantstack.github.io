@@ -170,6 +170,13 @@ ul {
   }
 }
 
+/* Hide the fixed background scene (planets + graph) on mobile */
+@media (max-width: 996px) {
+  #page-background-scene {
+    display: none;
+  }
+}
+
 /******  Class that are specific for smaller screens*/
 @media (max-width: 996px) {
   h1 {
