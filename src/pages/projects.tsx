@@ -35,14 +35,16 @@ function ProjectsContent() {
         </div>
       </Section>
 
+      <SectionSeparator variant={1} />
+
       {/* ── Project list ──────────────────────────────────────────────────── */}
-      <Section spacing="tight" bg="light-grey">
+      <Section spacing="tight">
         <h2 className="text--center">What we <span className="highlight">build</span> and maintain</h2>
       </Section>
 
       {/* ── Jupyter ───────────────────────────────────────────────────────── */}
       <SplitSection
-        bg="light-blue"
+        bg="white"
         ratio="60/40"
         image={
           <div className={`${styles.project_picture} ${styles.project_picture_jupyter}`}>
@@ -59,7 +61,7 @@ function ProjectsContent() {
 
       {/* ── Mamba ─────────────────────────────────────────────────────────── */}
       <SplitSection
-        bg="light-grey"
+        bg="white"
         ratio="60/40"
         reverse
         image={
@@ -77,7 +79,7 @@ function ProjectsContent() {
 
       {/* ── Conda-forge ───────────────────────────────────────────────────── */}
       <SplitSection
-        bg="light-blue"
+        bg="white"
         ratio="60/40"
         image={
           <div className={`${styles.project_picture} ${styles.project_picture_condaforge}`}>
@@ -94,7 +96,7 @@ function ProjectsContent() {
 
       {/* ── Apache Arrow & Parquet ────────────────────────────────────────── */}
       <SplitSection
-        bg="light-grey"
+        bg="white"
         ratio="60/40"
         reverse
         image={
@@ -112,7 +114,7 @@ function ProjectsContent() {
 
       {/* ── Xtensor & Xsimd ──────────────────────────────────────────────── */}
       <SplitSection
-        bg="light-blue"
+        bg="white"
         ratio="60/40"
         image={
           <div className={`${styles.project_picture} ${styles.project_picture_xtensor}`}>
@@ -129,7 +131,7 @@ function ProjectsContent() {
 
       {/* ── Robotics ──────────────────────────────────────────────────────── */}
       <SplitSection
-        bg="light-grey"
+        bg="white"
         ratio="60/40"
         reverse
         image={
