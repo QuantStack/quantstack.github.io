@@ -75,14 +75,14 @@ function HomeContent() {
             <Card bg="transparent" className={styles.topics_card}>
               <div className={styles.topics_header}>Custom Engineering</div>
               <p>We build tools and platforms at the frontier of open-source scientific computing.</p>
-              <p>Recent examples: JupyterGIS for ESA, JupyterCAD for Safran Aircraft Engines, notebook.link. Everything we build goes back upstream wherever possible.</p>
+              <p>Recent examples: JupyterGIS for a large public organisations, JupyterCAD for a big airospace engineering firm, notebook.link. What we build goes back upstream wherever possible.</p>
             </Card>
           </li>
           <li>
             <Card bg="transparent" className={styles.topics_card}>
               <div className={styles.topics_header}>Funded Development</div>
-              <p>Need a specific fix or feature in Mamba, JupyterLab, Arrow, or another project we maintain? We implement it upstream.</p>
-              <p>You get the feature. The community maintains it. No fork, no long-term maintenance burden on your team.</p>
+              <p>Need a specific fix or feature in Mamba, JupyterLab, Arrow, or one of the many projects we maintain? We implement it upstream.</p>
+              <p>You get the feature. The community evolves and maintains it. No fork, no long-term maintenance burden on your team.</p>
             </Card>
           </li>
         </CardGrid>
@@ -168,7 +168,7 @@ function HomeContent() {
         </div>
         <p className={styles.aboutQS_text}>
           QuantStack was founded in 2016. Today we operate as a collective of about 30 engineers
-          contributing remotely or from our offices in Paris to the global open-source stack and
+          contributing remotely or from our office in Paris to the global open-source stack and
           to our clients' projects. Many of us have PhD-level research experience or deep
           engineering backgrounds. Our team combines decades of senior experience with the fresh
           creativity and energy from more recent contributors.
