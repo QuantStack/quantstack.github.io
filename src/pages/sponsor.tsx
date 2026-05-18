@@ -10,7 +10,7 @@ import { MainAreaFundableProjects } from "../components/fundable";
 export function FundableContent() {
   return (
     <>
-      <Section pageTop bg="yellow">
+      <Section pageTop fullHeight bg="yellow">
         <h1>Sponsor open-source work</h1>
         <p>High-demand open-source features with detailed plans already in place — the work is scoped, the need is proven, only funding is missing. Back a project and get it shipped.</p>
       </Section>

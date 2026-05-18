@@ -19,7 +19,7 @@ function ProjectsContent() {
   return (
     <>
       {/* ── Header ────────────────────────────────────────────────────────── */}
-      <Section pageTop bg="yellow">
+      <Section pageTop fullHeight bg="yellow">
         <h1>Working in the open.</h1>
         <p className={styles.header_text}>
           From interactive environments to package managers to data formats — our tools reach

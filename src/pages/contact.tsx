@@ -13,6 +13,7 @@ export default function ContactPage(): JSX.Element {
           <SplitSection
             ratio="50/50"
             pageTop
+            fullHeight
             reverse
             image={
               <ContactIllustration

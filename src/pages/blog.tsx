@@ -9,7 +9,7 @@ import BlogGrid from "../components/Blog";
 export default function BlogPage(): JSX.Element {
   return (
     <Layout>
-      <Section pageTop bg="yellow">
+      <Section pageTop fullHeight bg="yellow">
         <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
           <h1>
             Featured posts by QuantStack contributors

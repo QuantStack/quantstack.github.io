@@ -15,7 +15,7 @@ function ServicesContent() {
   return (
     <>
       {/* ── Header ────────────────────────────────────────────────────────── */}
-      <Section pageTop bg="yellow">
+      <Section pageTop fullHeight bg="yellow">
         <h1>Hire the team that built the tools you depend on.</h1>
         <p>
           Bloomberg, AWS, Safran, ESA, and the Gates Foundation work with us because there is

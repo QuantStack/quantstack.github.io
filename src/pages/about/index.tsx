@@ -25,7 +25,7 @@ export function getTeamByPageName(name: string) {
 export function AboutContent() {
   return (
     <>
-      <Section pageTop bg="yellow">
+      <Section pageTop fullHeight bg="yellow">
         <h1>About QuantStack</h1>
         <p>Founded in Paris in 2016, we are ~30 engineers and researchers who built the infrastructure layer of modern scientific computing. JupyterLab, Mamba, JupyterLite, emscripten-forge — tools reaching millions daily. Our founder received the ACM Software System Award, given to the same cohort as the creators of Unix, Java, and the World Wide Web. We do this because we believe open-source is the most powerful force for good in science and technology.</p>
       </Section>
