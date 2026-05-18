@@ -54,7 +54,7 @@ function HomeContent() {
 
       {/* ── Trusted By ────────────────────────────────────────────────────── */}
       <Section fullHeight>
-        <h2 className="text--center"><span className="highlight">Who</span> we work with</h2>
+        <h2 className="text--center">Who we work with</h2>
         <LogoGrid />
       </Section>
 
@@ -62,7 +62,7 @@ function HomeContent() {
 
       {/* ── How we work with you (services) ───────────────────────────────── */}
       <Section fullHeight>
-        <h2 className="text--center"><span className="highlight">How</span> we work with you</h2>
+        <h2 className="text--center">How we work with you</h2>
         <CardGrid cols={3}>
           <li>
             <Card bg="transparent" className={styles.topics_card}>
@@ -97,7 +97,7 @@ function HomeContent() {
       {/* ── What we work on (projects) ────────────────────────────────────── */}
       <div className={styles.projects_overview_container}>
         <Section>
-          <h2 className="text--center"><span className="highlight">What</span> we work on</h2>
+          <h2 className="text--center">What we work on</h2>
         </Section>
 
         <SplitSection image={<img src={JupyterPictureUrl} alt="JupyterLab interfaces" style={{ maxWidth: "100%" }} />}>

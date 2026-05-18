@@ -301,6 +301,7 @@ ul {
   height: 3px;
   background: var(--ifm-color-accent-red);
   margin-top: 10px;
+  clip-path: polygon(3px 0%, 100% 0%, calc(100% - 3px) 100%, 0% 100%);
 }
 
 .page-content h2.text--center::after {
