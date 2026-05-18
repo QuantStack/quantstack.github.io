@@ -26,7 +26,7 @@ export function AboutContent() {
   return (
     <>
       <Section pageTop fullHeight bg="yellow">
-        <h1>About QuantStack</h1>
+        <h1>About <span className="highlight">QuantStack</span></h1>
         <p className="page-tagline">~30 engineers and researchers building the infrastructure of modern science.</p>
         <p>Founded in Paris in 2016. JupyterLab, Mamba, JupyterLite, emscripten-forge — tools reaching millions daily. Our founder received the ACM Software System Award, given to the same cohort as the creators of Unix, Java, and the World Wide Web.</p>
         <div style={{ display: "flex", gap: "var(--ifm-spacing-xl)", alignItems: "center", flexWrap: "wrap" }}>
@@ -35,7 +35,7 @@ export function AboutContent() {
         </div>
       </Section>
       <Section bg="light-blue">
-        <h2>Our values</h2>
+        <h2>Our <span className="highlight">values</span></h2>
         <CardGrid cols={4}>
           {valuesDetails.map((value, index) => (
             <li key={index}>
@@ -53,7 +53,7 @@ export function AboutContent() {
         </CardGrid>
       </Section>
       <Section>
-        <h2>Meet the QuantStack team</h2>
+        <h2>Meet the QuantStack <span className="highlight">team</span></h2>
         <div className={styles.team_description}>
           Most of us have PhDs or deep research backgrounds. We operate as a collective of principal contributors — everyone on the team ships code to the projects we maintain. No passengers.
         </div>

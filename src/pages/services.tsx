@@ -17,7 +17,7 @@ function ServicesContent() {
     <>
       {/* ── Header ────────────────────────────────────────────────────────── */}
       <Section pageTop fullHeight bg="yellow">
-        <h1>Hire the team that built the tools you depend on.</h1>
+        <h1>Hire the team that <span className="highlight">built</span> the tools you depend on.</h1>
         <p className="page-tagline">Direct access to the upstream maintainers — not a helpdesk.</p>
         <p>
           Bloomberg, AWS, Safran, ESA, and the Gates Foundation work with us because there is
@@ -43,7 +43,7 @@ function ServicesContent() {
           />
         }
       >
-        <h2>Support Retainer</h2>
+        <h2><span className="highlight">Support</span> Retainer</h2>
         <p>
           A QuantStack support retainer gives you direct access to the upstream maintainers —
           not a helpdesk. We triage issues, review pull requests, advise on architecture, and
@@ -67,7 +67,7 @@ function ServicesContent() {
           />
         }
       >
-        <h2>Custom Engineering</h2>
+        <h2><span className="highlight">Custom</span> Engineering</h2>
         <p>
           We take on custom engineering projects that push the boundaries of what open-source
           can do.
@@ -93,7 +93,7 @@ function ServicesContent() {
           />
         }
       >
-        <h2>Funded Development</h2>
+        <h2><span className="highlight">Funded</span> Development</h2>
         <p>
           Need a specific fix or feature in Mamba, JupyterLab, Arrow, or another project we
           maintain? We implement it upstream.

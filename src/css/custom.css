@@ -281,6 +281,11 @@ ul {
   color: white;
 }
 
+/* Single-word red accent inside headings for energy */
+.highlight {
+  color: var(--ifm-color-accent-red);
+}
+
 /* Punchy blue tagline used in page header sections */
 .page-tagline {
   color: var(--ifm-color-blue-jupyter);

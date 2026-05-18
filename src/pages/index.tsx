@@ -54,7 +54,7 @@ function HomeContent() {
 
       {/* ── Trusted By ────────────────────────────────────────────────────── */}
       <Section fullHeight>
-        <h2 className="text--center">Trusted by</h2>
+        <h2 className="text--center">Trusted <span className="highlight">by</span></h2>
         <LogoGrid />
       </Section>
 
@@ -62,7 +62,7 @@ function HomeContent() {
 
       {/* ── How we work with you (services) ───────────────────────────────── */}
       <Section fullHeight>
-        <h2 className="text--center">How we work with you</h2>
+        <h2 className="text--center">How we work with <span className="highlight">you</span></h2>
         <CardGrid cols={3}>
           <li>
             <Card bg="transparent" className={styles.topics_card}>
@@ -97,7 +97,7 @@ function HomeContent() {
       {/* ── What we work on (projects) ────────────────────────────────────── */}
       <div className={styles.projects_overview_container}>
         <Section>
-          <h2 className="text--center">What we work on</h2>
+          <h2 className="text--center">What we <span className="highlight">work</span> on</h2>
         </Section>
 
         <SplitSection image={<img src={JupyterPictureUrl} alt="JupyterLab interfaces" style={{ maxWidth: "100%" }} />}>
@@ -158,7 +158,7 @@ function HomeContent() {
 
       {/* ── About us ──────────────────────────────────────────────────────── */}
       <Section fullHeight>
-        <h2 className="text--center">About us</h2>
+        <h2 className="text--center">About <span className="highlight">us</span></h2>
         <div className="flex-full-centered">
           <img
             src={GroupPhotoUrl}
@@ -183,7 +183,7 @@ function HomeContent() {
       {/* ── Recent blog posts ─────────────────────────────────────────────── */}
       <div className={styles.news_wrapper}>
         <Section fullHeight>
-          <h2 className="text--center">Recent blog contributions</h2>
+          <h2 className="text--center">Recent blog <span className="highlight">contributions</span></h2>
           <CardGrid cols={3}>
             {[0, 1, 2].map((i) => (
               <li key={i}>

@@ -21,7 +21,7 @@ function ProjectsContent() {
     <>
       {/* ── Header ────────────────────────────────────────────────────────── */}
       <Section pageTop fullHeight bg="white">
-        <h1>Working in the open.</h1>
+        <h1>Working in the <span className="highlight">open</span>.</h1>
         <p className="page-tagline">Tools reaching millions of researchers, engineers, and students worldwide.</p>
         <p className={styles.header_text}>
           From interactive environments to package managers to data formats — we build in the open
@@ -37,7 +37,7 @@ function ProjectsContent() {
 
       {/* ── Project list ──────────────────────────────────────────────────── */}
       <Section spacing="tight" bg="light-grey">
-        <h2 className="text--center">What we build and maintain</h2>
+        <h2 className="text--center">What we <span className="highlight">build</span> and maintain</h2>
       </Section>
 
       {/* ── Jupyter ───────────────────────────────────────────────────────── */}

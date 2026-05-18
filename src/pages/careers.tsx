@@ -57,7 +57,7 @@ function CareersContent() {
   return (
     <>
       <Section pageTop fullHeight bg="yellow">
-        <h1>Join the QuantStack team.</h1>
+        <h1><span className="highlight">Join</span> the QuantStack team.</h1>
         <p className="page-tagline">Your code will reach millions. Your contributions go upstream.</p>
         <p>We are ~30 researchers and engineers building the infrastructure of scientific computing. This is not a support role — it's a principal contributor role from day one. Most of us have PhDs or deep research backgrounds, and every one of us ships code upstream.</p>
         <div style={{ display: "flex", gap: "var(--ifm-spacing-xl)", alignItems: "center", flexWrap: "wrap" }}>
@@ -77,7 +77,7 @@ function CareersContent() {
             We're looking for researchers and engineers who want to work at the frontier of open-source scientific computing. If you have strong fundamentals, a taste for hard problems, and care deeply about the impact of your work — we'd like to meet you.
           </div>
           <div className={styles.interviews_container}>
-            <h2>Working at QuantStack</h2>
+            <h2>Working at <span className="highlight">QuantStack</span></h2>
             <div className="container">
               <ul className={`row flex-full-centered`} style={{ listStyle: "none" }}>
                 {interviews.map((person) => (
