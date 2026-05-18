@@ -7,6 +7,7 @@ import Banner from "../components/layout/Banner";
 import Link from "@docusaurus/Link";
 import styles from "./careers.module.css";
 import PlayCircle from "@site/static/img/icons/PlayCircle.svg";
+import ScrollDownCTA from "../components/layout/ScrollDownCTA";
 
 import GroupPhotoUrl from "@site/static/img/group/group-photo.png";
 import SylvainPictureUrl from "@site/static/img/interviews/Sylvain_WTJ.png";
@@ -59,7 +60,10 @@ function CareersContent() {
         <h1>Join the QuantStack team.</h1>
         <p className="page-tagline">Your code will reach millions. Your contributions go upstream.</p>
         <p>We are ~30 researchers and engineers building the infrastructure of scientific computing. This is not a support role — it's a principal contributor role from day one. Most of us have PhDs or deep research backgrounds, and every one of us ships code upstream.</p>
-        <Link className="link-to-button" href="/contact">Get in touch</Link>
+        <div style={{ display: "flex", gap: "var(--ifm-spacing-xl)", alignItems: "center", flexWrap: "wrap" }}>
+          <Link className="link-to-button" href="/contact">Get in touch</Link>
+          <ScrollDownCTA />
+        </div>
       </Section>
 
       <SectionSeparator variant={2} />

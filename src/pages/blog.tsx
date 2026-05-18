@@ -5,6 +5,7 @@ import Section from "../components/layout/Section";
 import SectionSeparator from "../components/layout/SectionSeparator";
 import AtomOrange from "/img/icons/RSSOrange.svg";
 import BlogGrid from "../components/Blog";
+import ScrollDownCTA from "../components/layout/ScrollDownCTA";
 
 export default function BlogPage(): JSX.Element {
   return (
@@ -15,10 +16,13 @@ export default function BlogPage(): JSX.Element {
         <p>
           Technical deep-dives, release notes, and perspectives from the people who wrote the code. Read about the decisions, trade-offs, and discoveries that go into the tools powering modern science. From Mamba's solver design to JupyterLab's real-time collaboration protocol — these posts come from the engineers who made the calls.
         </p>
-        <a href={"/atom.xml"} className="link-to-button" style={{ display: "inline-flex", alignItems: "center", gap: "8px" }}>
-          <AtomOrange width={"20px"} height={"20px"} />
-          Subscribe via RSS
-        </a>
+        <div style={{ display: "flex", gap: "var(--ifm-spacing-xl)", alignItems: "center", flexWrap: "wrap" }}>
+          <a href={"/atom.xml"} className="link-to-button" style={{ display: "inline-flex", alignItems: "center", gap: "8px" }}>
+            <AtomOrange width={"20px"} height={"20px"} />
+            Subscribe via RSS
+          </a>
+          <ScrollDownCTA label="Read posts" />
+        </div>
       </Section>
       <SectionSeparator variant={1} />
       <Section>

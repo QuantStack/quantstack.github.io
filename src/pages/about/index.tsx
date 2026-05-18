@@ -11,6 +11,7 @@ import CardGrid from "@site/src/components/layout/CardGrid";
 import Card from "@site/src/components/layout/Card";
 import SectionSeparator from "@site/src/components/layout/SectionSeparator";
 import LinkToContact from "@site/src/components/LinkToContact";
+import ScrollDownCTA from "@site/src/components/layout/ScrollDownCTA";
 
 export function getTeamByPageName(name: string) {
   for (const [, members] of Object.entries(teams)) {
@@ -29,7 +30,10 @@ export function AboutContent() {
         <h1>About QuantStack</h1>
         <p className="page-tagline">~30 engineers and researchers building the infrastructure of modern science.</p>
         <p>Founded in Paris in 2016. JupyterLab, Mamba, JupyterLite, emscripten-forge — tools reaching millions daily. Our founder received the ACM Software System Award, given to the same cohort as the creators of Unix, Java, and the World Wide Web.</p>
-        <LinkToContact label="Get in touch" />
+        <div style={{ display: "flex", gap: "var(--ifm-spacing-xl)", alignItems: "center", flexWrap: "wrap" }}>
+          <LinkToContact label="Get in touch" />
+          <ScrollDownCTA />
+        </div>
       </Section>
       <SectionSeparator variant={4} />
       <Section>

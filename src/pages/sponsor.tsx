@@ -5,6 +5,7 @@ import Section from "../components/layout/Section";
 import SectionSeparator from "../components/layout/SectionSeparator";
 import Banner from "../components/layout/Banner";
 import LinkToContact from "../components/LinkToContact";
+import ScrollDownCTA from "../components/layout/ScrollDownCTA";
 import { MainAreaFundableProjects } from "../components/fundable";
 
 export function FundableContent() {
@@ -14,7 +15,10 @@ export function FundableContent() {
         <h1>Sponsor open-source work</h1>
         <p className="page-tagline">Back the features the scientific community needs.</p>
         <p>High-demand open-source features with detailed plans already in place — the work is scoped, the need is proven, only funding is missing. Sponsoring through QuantStack means your investment lands upstream and benefits the entire ecosystem. Back a project and get it shipped.</p>
-        <LinkToContact label="Get in touch" />
+        <div style={{ display: "flex", gap: "var(--ifm-spacing-xl)", alignItems: "center", flexWrap: "wrap" }}>
+          <LinkToContact label="Get in touch" />
+          <ScrollDownCTA />
+        </div>
       </Section>
       <SectionSeparator variant={3} />
       <Section>

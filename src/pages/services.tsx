@@ -6,6 +6,7 @@ import SectionSeparator from "../components/layout/SectionSeparator";
 import SplitSection from "../components/layout/SplitSection";
 import Banner from "../components/layout/Banner";
 import LinkToContact from "../components/LinkToContact";
+import ScrollDownCTA from "../components/layout/ScrollDownCTA";
 
 import SupportIllustration from "/img/illustrations/support.svg";
 import SpecialProjectsIllustration from "@site/static/img/illustrations/special_projects.svg";
@@ -24,7 +25,10 @@ function ServicesContent() {
           or a long-term engineering partner — you talk to the people who wrote the code.
           No account managers, no escalation queues.
         </p>
-        <LinkToContact label="Get in touch" />
+        <div style={{ display: "flex", gap: "var(--ifm-spacing-xl)", alignItems: "center", flexWrap: "wrap" }}>
+          <LinkToContact label="Get in touch" />
+          <ScrollDownCTA />
+        </div>
       </Section>
 
       <SectionSeparator variant={4} />

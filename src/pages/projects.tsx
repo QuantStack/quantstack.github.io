@@ -6,6 +6,7 @@ import SectionSeparator from "../components/layout/SectionSeparator";
 import SplitSection from "../components/layout/SplitSection";
 import Banner from "../components/layout/Banner";
 import LinkToContact from "../components/LinkToContact";
+import ScrollDownCTA from "../components/layout/ScrollDownCTA";
 import styles from "./projects.module.css";
 
 import JupyterLogoUrl from "@site/static/img/projects/Jupyter.png";
@@ -28,7 +29,10 @@ function ProjectsContent() {
           Our tools are dependencies of dependencies — the foundation powering research pipelines, commercial data stacks, and classroom notebooks at scale.
           Everything we make is open-source, community-governed, and maintained for the long term.
         </p>
-        <LinkToContact label="Work with us" />
+        <div style={{ display: "flex", gap: "var(--ifm-spacing-xl)", alignItems: "center", flexWrap: "wrap" }}>
+          <LinkToContact label="Work with us" />
+          <ScrollDownCTA />
+        </div>
       </Section>
 
       <SectionSeparator variant={1} />
