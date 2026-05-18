@@ -34,7 +34,7 @@ export function AboutContent() {
           <ScrollDownCTA />
         </div>
       </Section>
-      <Section bg="light-blue">
+      <Section bg="dark">
         <h2>Our <span className="highlight">values</span></h2>
         <CardGrid cols={4}>
           {valuesDetails.map((value, index) => (

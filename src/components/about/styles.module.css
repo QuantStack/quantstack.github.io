@@ -32,6 +32,18 @@
   margin-bottom: var(--ifm-spacing-lg);
 }
 
+:global([data-section-bg="dark"]) .value_icon svg {
+  filter: brightness(0) invert(1);
+}
+
+:global([data-section-bg="dark"]) .value_header {
+  color: white;
+}
+
+:global([data-section-bg="dark"]) .value_text p {
+  color: white;
+}
+
 .value_text p {
   font-family: var(--ifm-font-family-roboto);
   font-size: 14px;
