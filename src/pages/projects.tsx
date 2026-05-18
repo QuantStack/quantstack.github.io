@@ -21,13 +21,12 @@ function ProjectsContent() {
     <>
       {/* ── Header ────────────────────────────────────────────────────────── */}
       <Section pageTop fullHeight bg="white">
-        <h1>Working in the open.</h1>
+        <h1>Working in the open</h1>
         <p className="page-tagline">Tools reaching millions of researchers, engineers, and students worldwide.</p>
         <p className={styles.header_text}>
-          From interactive environments to package managers to data formats — we build in the open
-          so that anyone can build on what we create.
-          Our tools are dependencies of dependencies — the foundation powering research pipelines, commercial data stacks, and classroom notebooks at scale.
-          Everything we make is open-source, community-governed, and maintained for the long term.
+          From interactive environments to package managers to data formats, we build in the open so that anyone can build on what we create.
+          Our tools are the foundation powering research pipelines, commercial data stacks, and classroom notebooks at scale.
+          What we make are digital commons, community-governed, and maintained for the long term.
         </p>
         <div style={{ display: "flex", gap: "var(--ifm-spacing-xl)", alignItems: "center", flexWrap: "wrap" }}>
           <LinkToContact label="Work with us" />
@@ -54,7 +53,7 @@ function ProjectsContent() {
       >
         <div className={styles.project_title}>Jupyter</div>
         <div className={styles.project_description}>
-          <p>QuantStack is one of the main organizations behind the Jupyter project. We co-founded JupyterLab and JupyterLite — the browser-native Jupyter that runs without a server — and drive major features including real-time collaboration, the visual debugger, and AI integration.</p>
+          <p>QuantStack is one of the main organizations behind the Jupyter project. We co-created JupyterLab and JupyterLite — the browser-native Jupyter that runs without a server — and drive major features including real-time collaboration, the visual debugger, and AI integration.</p>
           <p>We also maintain Voilà, xeus, JupyterGIS, and JupyterCAD. JupyterLab reaches over 10 million users worldwide; JupyterLite serves hundreds of thousands of students on minimal infrastructure.</p>
         </div>
       </SplitSection>
@@ -108,7 +107,7 @@ function ProjectsContent() {
         <div className={styles.project_title}>Apache Arrow & Parquet</div>
         <div className={styles.project_description}>
           <p>QuantStack is home to principal maintainers of Apache Arrow's C++ core — the in-memory columnar format that underpins most of the modern data ecosystem, from pandas to Spark to DuckDB.</p>
-          <p>We also maintain Apache Parquet, the dominant columnar storage format for analytics workloads, and provide commercial support and custom development across the Arrow ecosystem.</p>
+          <p>We also co-maintain Apache Parquet, the dominant columnar storage format for analytics workloads, and provide commercial support and custom development across the Arrow ecosystem.</p>
         </div>
       </SplitSection>
 
