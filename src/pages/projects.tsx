@@ -21,11 +21,12 @@ function ProjectsContent() {
       {/* ── Header ────────────────────────────────────────────────────────── */}
       <Section pageTop fullHeight bg="yellow">
         <h1>Working in the open.</h1>
+        <p className="page-tagline">Tools reaching millions of researchers, engineers, and students worldwide.</p>
         <p className={styles.header_text}>
-          From interactive environments to package managers to data formats — our tools reach
-          millions of researchers, engineers, and students across every scientific discipline.
-          We build in the open so that anyone can build on what we create.
+          From interactive environments to package managers to data formats — we build in the open
+          so that anyone can build on what we create.
         </p>
+        <LinkToContact label="Work with us" />
       </Section>
 
       <SectionSeparator variant={1} />

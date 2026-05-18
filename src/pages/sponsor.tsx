@@ -12,7 +12,9 @@ export function FundableContent() {
     <>
       <Section pageTop fullHeight bg="yellow">
         <h1>Sponsor open-source work</h1>
+        <p className="page-tagline">Back the features the scientific community needs.</p>
         <p>High-demand open-source features with detailed plans already in place — the work is scoped, the need is proven, only funding is missing. Back a project and get it shipped.</p>
+        <LinkToContact label="Get in touch" />
       </Section>
       <SectionSeparator variant={3} />
       <Section>

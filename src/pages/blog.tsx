@@ -10,17 +10,15 @@ export default function BlogPage(): JSX.Element {
   return (
     <Layout>
       <Section pageTop fullHeight bg="yellow">
-        <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
-          <h1>
-            Featured posts by QuantStack contributors
-          </h1>
-          <a href={"/atom.xml"}>
-            <AtomOrange width={"42px"} height={"42px"} />
-          </a>
-        </div>
+        <h1>Featured posts by QuantStack contributors</h1>
+        <p className="page-tagline">From the maintainers, at the source.</p>
         <p>
-          Technical deep-dives, release notes, and perspectives from maintainers at the source. Read about the decisions, trade-offs, and discoveries that go into the tools powering modern science.
+          Technical deep-dives, release notes, and perspectives from the people who wrote the code. Read about the decisions, trade-offs, and discoveries that go into the tools powering modern science.
         </p>
+        <a href={"/atom.xml"} className="link-to-button" style={{ display: "inline-flex", alignItems: "center", gap: "8px" }}>
+          <AtomOrange width={"20px"} height={"20px"} />
+          Subscribe via RSS
+        </a>
       </Section>
       <SectionSeparator variant={1} />
       <Section>

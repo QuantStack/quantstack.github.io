@@ -279,6 +279,13 @@ ul {
   color: white;
 }
 
+/* Punchy blue tagline used in page header sections */
+.page-tagline {
+  color: var(--ifm-color-blue-jupyter);
+  font-weight: 700;
+  padding: 0;
+}
+
 /* BD-style red accent bar below section headings */
 .page-content h2::after {
   content: '';
