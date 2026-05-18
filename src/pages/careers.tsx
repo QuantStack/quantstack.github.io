@@ -8,6 +8,7 @@ import Link from "@docusaurus/Link";
 import styles from "./careers.module.css";
 import PlayCircle from "@site/static/img/icons/PlayCircle.svg";
 import ScrollDownCTA from "../components/layout/ScrollDownCTA";
+import LinkToContact from "../components/LinkToContact";
 
 import GroupPhotoUrl from "@site/static/img/group/group-photo.png";
 import SylvainPictureUrl from "@site/static/img/interviews/Sylvain_WTJ.png";
@@ -95,19 +96,9 @@ function CareersContent() {
 
       <Banner
         bg="dark"
-        cta={
-          <div className="flex-full-centered">
-            <Link
-              className={`link-to-button ${styles.link_to_WTJ}`}
-              href="https://www.welcometothejungle.com/fr/companies/quantstack"
-              aria-label="Learn more by visiting the page dedicated to QuantStack on Welcome to the Jungle platform."
-            >
-              OPEN OUR PROFILE
-            </Link>
-          </div>
-        }
+        cta={<LinkToContact label="GET IN TOUCH" />}
       >
-        Learn more on our Welcome to the Jungle web page.
+        Ready to work on tools that millions of people depend on? We'd like to meet you.
       </Banner>
     </>
   );
