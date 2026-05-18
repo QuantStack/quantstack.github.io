@@ -1,50 +1,33 @@
 import styles from "./styles.module.css";
-import SocialMediaContacts from "./SocialMediaContacts";
 import DistinctionIcon from "@site/static/img/icons/Distinction.svg";
+import GHPicture from "@site/static/img/socialmedias/GH.svg";
+import LinkedInPicture from "@site/static/img/socialmedias/LinkedIn.svg";
+import BlueskyPicture from "@site/static/img/socialmedias/Bluesky.svg";
+import MastodonPicture from "@site/static/img/socialmedias/Mastodon.svg";
 import Link from "@docusaurus/Link";
 import React from "react";
-import Avatar from "./Avatar";
-
-export function Distinction({ person }) {
-  const HasPersonDistinction = person.distinctionTitle.length !== 0;
-
-  return (
-    <div>
-      {HasPersonDistinction ? (
-        <ul style={{ paddingLeft: "0px" }}>
-          {person.distinctionTitle.map((distinction, index) => (
-            <li className="items-list" key={person.pageName}>
-              <div>
-                <Link href={person.distinctionLink[index]}>
-                  <DistinctionIcon className={styles.distinction_icon} />
-                  {distinction}
-                </Link>
-              </div>
-            </li>
-          ))}
-        </ul>
-      ) : null}
-    </div>
-  );
-}
 
 export default function LargePortraitCard({ person }) {
+  const hasDistinction = person.distinctionTitle.length !== 0;
+
   return (
     <div className={styles.large_portrait_card}>
       <div className={"container"}>
         <div className={"row padding-none"}>
           <div className="col col--12 col--offset-1">
-            <div className={styles.large_card_complete_name}>
-              {person.completeName}
-            </div>
+            <div className={styles.large_card_complete_name}>{person.completeName}</div>
             <div className={styles.large_card_position}>{person.position}</div>
           </div>
         </div>
         <div className="row">
           <div className={"col col--3 col--offset-1 flex-full-centered"}>
-            <div className="flex-full-centered">
-              <div style={{ marginBottom: "var(--ifm-spacing-md)" }}>
-                <Avatar person={person} />
+            <div style={{ marginBottom: "var(--ifm-spacing-md)" }}>
+              <div className="flex-full-centered">
+                <img
+                  src={person.avatarUrl}
+                  className={styles.avatar}
+                  alt={`Avatar of ${person.completeName} working at QuantStack as a ${person.position}`}
+                />
               </div>
             </div>
           </div>
@@ -56,10 +39,31 @@ export default function LargePortraitCard({ person }) {
         </div>
         <div className="row">
           <div className="col col--3 col--offset-1">
-            <SocialMediaContacts person={person}></SocialMediaContacts>
+            <div className="flex-full-centered">
+              {person.GitHubLink && <Link href={person.GitHubLink}><GHPicture /></Link>}
+              {person.LinkedInLink && <Link href={person.LinkedInLink}><LinkedInPicture /></Link>}
+              {person.BlueskyLink && <Link href={person.BlueskyLink}><BlueskyPicture /></Link>}
+              {person.MastodonLink && <Link href={person.MastodonLink}><MastodonPicture /></Link>}
+            </div>
+            <div className="flex-full-centered">
+              <Link href={person.GitHubLink} className={styles.GitHubName}>{person.GitHubName}</Link>
+            </div>
           </div>
           <div className="col col--6 col--offset-1">
-            <Distinction person={person} />
+            {hasDistinction && (
+              <ul style={{ paddingLeft: "0px" }}>
+                {person.distinctionTitle.map((distinction, index) => (
+                  <li className="items-list" key={person.pageName}>
+                    <div>
+                      <Link href={person.distinctionLink[index]}>
+                        <DistinctionIcon className={styles.distinction_icon} />
+                        {distinction}
+                      </Link>
+                    </div>
+                  </li>
+                ))}
+              </ul>
+            )}
           </div>
         </div>
       </div>

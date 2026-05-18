@@ -1,4 +1,4 @@
-import Fanny from "@site/src/components/about/Team/Fanny.md";
+import Fanny from "@site/src/pages/about/Team/Fanny.md";
 import styles from "@site/src/components/about/styles.module.css";
 import FannyAvatarUrl from "@site/static/img/avatars/Fanny.png";
 import Layout from "@theme/Layout";

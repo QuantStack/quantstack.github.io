@@ -41,7 +41,7 @@ export default function Footer() {
               <div className="col flex-horizontally-centered">
                 <ul>
                   <li>
-                    <Link href={"/home"}>Home</Link>
+                    <Link href={"/"}>Home</Link>
                   </li>
 
                   <li>

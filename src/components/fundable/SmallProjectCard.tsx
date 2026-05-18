@@ -13,7 +13,7 @@ export function SmallProjectCard({ project }) {
     const pageName = project.pageName;
 
     history.push({
-      pathname: `/fundable/${pageName}`,
+      pathname: `/sponsor/${pageName}`,
       state: { fromFundable: true, scrollY: window.scrollY },
     });
   }

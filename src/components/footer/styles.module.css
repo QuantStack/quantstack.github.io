@@ -1,6 +1,8 @@
 .footer_container {
   background-color: var(--ifm-color-primary-p1);
   padding: var(--ifm-spacing-xl) var(--ifm-spacing-2xl) 0 var(--ifm-spacing-2xl);
+  position: relative;
+  z-index: 2;
 }
 
 .copyright_container {

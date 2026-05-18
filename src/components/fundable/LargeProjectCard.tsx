@@ -11,7 +11,7 @@ export function LargeProjectCardContent({ project }) {
         const pageName = project.pageName;
 
         history.push({
-            pathname: `/fundable/${pageName}/GetAQuote`,
+            pathname: `/sponsor/${pageName}/GetAQuote`,
             state: { from: location.pathname, scrollY: window.scrollY },
         });
     }

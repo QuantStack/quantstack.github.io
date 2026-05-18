@@ -3,9 +3,8 @@ import Layout from '@theme/Layout';
 import { useHistory, useLocation } from '@docusaurus/router';
 import { useEffect } from 'react';
 import { Route } from 'react-router-dom';
-import { About } from '@site/src/components/about'
+import { AboutContent, getTeamByPageName } from '@site/src/pages/about';
 import LargePortraitCard from '@site/src/components/about/LargePortraitCard';
-import { getTeamByPageName } from '@site/src/components/about';
 import styles from "@site/src/components/about/styles.module.css";
 
 export default function LargePortraitCardPage() {
@@ -44,7 +43,7 @@ export default function LargePortraitCardPage() {
   }
   return (
     <Layout>
-      <About />
+      <AboutContent />
       <Route
         path="/about/:pageName"
         render={({ match }) => {
