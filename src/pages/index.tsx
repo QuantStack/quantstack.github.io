@@ -40,7 +40,7 @@ function HomeContent() {
               <p className={styles.sub_header}>
                 From Jupyter to Mamba to Apache Arrow, we maintain the stack millions of
                 researchers, engineers, and students depend on. Today we're also building
-                notebook.link to ship entire compute environments right your browser.
+                notebook.link to ship compute environments right in your browser.
               </p>
             </div>
             <div className={styles.hero_image}>
