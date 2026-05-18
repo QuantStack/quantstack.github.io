@@ -26,9 +26,9 @@ export function AboutContent() {
   return (
     <>
       <Section pageTop fullHeight bg="yellow">
-        <h1>About QuantStack</h1>
-        <p className="page-tagline">~30 engineers and researchers building the infrastructure of modern science.</p>
-        <p>Founded in Paris in 2016. JupyterLab, Mamba, JupyterLite, emscripten-forge — tools reaching millions daily. Our founder received the ACM Software System Award, given to the same cohort as the creators of Unix, Java, and the World Wide Web.</p>
+        <h1>About us</h1>
+        <p className="page-tagline">~30 engineers and researchers building the infrastructure for modern data analysis and science.</p>
+        <p>Founded in Paris in 2016. JupyterLab, Mamba, JupyterLite, emscripten-forge — tools reaching millions daily. Our team received several awards for our open source work.</p>
         <div style={{ display: "flex", gap: "var(--ifm-spacing-xl)", alignItems: "center", flexWrap: "wrap" }}>
           <LinkToContact label="Get in touch" />
           <ScrollDownCTA />
@@ -53,9 +53,9 @@ export function AboutContent() {
         </CardGrid>
       </Section>
       <Section>
-        <h2>Meet the QuantStack <span className="highlight">team</span></h2>
+        <h2>Meet the <span className="highlight">team</span></h2>
         <div className={styles.team_description}>
-          Most of us have PhDs or deep research backgrounds. We operate as a collective of principal contributors — everyone on the team ships code to the projects we maintain. No passengers.
+          Many of us have PhDs, deep engineering or open source maintenance backgrounds. We operate as a collective of contributors — everyone on the team ships code to the projects we maintain. No passengers.
         </div>
         {[
           { label: "The leadership team", members: teams.leadershipTeam },
@@ -79,7 +79,7 @@ export function AboutContent() {
         title="Join the team"
         cta={<LinkToContact label={"JOIN THE TEAM!"} />}
       >
-        We're looking for researchers and engineers who want to work at the frontier of open-source scientific computing — and ship code that millions of people depend on.
+        We're looking for researchers and engineers who want to work at the frontier of open-source data science and scientific computing — and ship code that millions of people depend on.
       </Banner>
     </>
   );
