@@ -3,7 +3,7 @@ import styles from "./styles.module.css";
 import type { ReactNode } from "react";
 
 type Props = {
-  bg?: "white" | "yellow" | "dark";
+  bg?: "white" | "yellow" | "dark" | "light-blue" | "light-grey";
   spacing?: "normal" | "tight" | "loose";
   pageTop?: boolean;
   fullHeight?: boolean;
@@ -26,7 +26,7 @@ export default function Section({
       data-section-bg={bg}
       className={clsx(
         styles.section,
-        styles[`section_${bg}`],
+        styles[`section_${bg.replace("-", "_")}`],
         spacing !== "normal" && styles[`section_${spacing}`],
         pageTop && styles.section_page_top,
         fullHeight && styles.section_full_height,

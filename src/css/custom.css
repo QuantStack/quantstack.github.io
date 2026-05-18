@@ -42,6 +42,8 @@
   --ifm-bg-neutral: #ffffff;                         /* default reading surface */
   --ifm-bg-brand: #ffffff;                           /* yellow dropped — white throughout */
   --ifm-bg-emphasis: var(--ifm-color-secondary-s2);  /* CTA / strong contrast — navy */
+  --ifm-bg-light-blue: #edf2fb;                      /* subtle blue tint — section alternation */
+  --ifm-bg-light-grey: #f5f5f3;                      /* neutral grey — section alternation */
 
 
   /* footer */

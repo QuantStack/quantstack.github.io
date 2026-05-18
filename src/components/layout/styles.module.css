@@ -37,6 +37,14 @@
   color: white;
 }
 
+.section_light_blue {
+  background: var(--ifm-bg-light-blue);
+}
+
+.section_light_grey {
+  background: var(--ifm-bg-light-grey);
+}
+
 .section_tight {
   padding: var(--ifm-spacing-2xl) 0;
 }

@@ -9,7 +9,6 @@ import Section from "@site/src/components/layout/Section";
 import Banner from "@site/src/components/layout/Banner";
 import CardGrid from "@site/src/components/layout/CardGrid";
 import Card from "@site/src/components/layout/Card";
-import SectionSeparator from "@site/src/components/layout/SectionSeparator";
 import LinkToContact from "@site/src/components/LinkToContact";
 import ScrollDownCTA from "@site/src/components/layout/ScrollDownCTA";
 
@@ -35,13 +34,12 @@ export function AboutContent() {
           <ScrollDownCTA />
         </div>
       </Section>
-      <SectionSeparator variant={4} />
-      <Section>
+      <Section bg="light-blue">
         <h2>Our values</h2>
         <CardGrid cols={4}>
           {valuesDetails.map((value, index) => (
             <li key={index}>
-              <Card className={styles.value_card}>
+              <Card bg="transparent" className={styles.value_card}>
                 <div className={styles.value_icon}>
                   <value.pictureComponent alt={value.alt} />
                 </div>
@@ -54,7 +52,6 @@ export function AboutContent() {
           ))}
         </CardGrid>
       </Section>
-      <SectionSeparator variant={5} />
       <Section>
         <h2>Meet the QuantStack team</h2>
         <div className={styles.team_description}>

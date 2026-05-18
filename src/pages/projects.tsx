@@ -20,7 +20,7 @@ function ProjectsContent() {
   return (
     <>
       {/* ── Header ────────────────────────────────────────────────────────── */}
-      <Section pageTop fullHeight bg="yellow">
+      <Section pageTop fullHeight bg="white">
         <h1>Working in the open.</h1>
         <p className="page-tagline">Tools reaching millions of researchers, engineers, and students worldwide.</p>
         <p className={styles.header_text}>
@@ -35,16 +35,14 @@ function ProjectsContent() {
         </div>
       </Section>
 
-      <SectionSeparator variant={1} />
-
       {/* ── Project list ──────────────────────────────────────────────────── */}
-      <Section spacing="tight">
+      <Section spacing="tight" bg="light-grey">
         <h2 className="text--center">What we build and maintain</h2>
       </Section>
 
       {/* ── Jupyter ───────────────────────────────────────────────────────── */}
       <SplitSection
-        bg="white"
+        bg="light-blue"
         ratio="60/40"
         image={
           <div className={`${styles.project_picture} ${styles.project_picture_jupyter}`}>
@@ -61,7 +59,7 @@ function ProjectsContent() {
 
       {/* ── Mamba ─────────────────────────────────────────────────────────── */}
       <SplitSection
-        bg="white"
+        bg="light-grey"
         ratio="60/40"
         reverse
         image={
@@ -79,7 +77,7 @@ function ProjectsContent() {
 
       {/* ── Conda-forge ───────────────────────────────────────────────────── */}
       <SplitSection
-        bg="white"
+        bg="light-blue"
         ratio="60/40"
         image={
           <div className={`${styles.project_picture} ${styles.project_picture_condaforge}`}>
@@ -96,7 +94,7 @@ function ProjectsContent() {
 
       {/* ── Apache Arrow & Parquet ────────────────────────────────────────── */}
       <SplitSection
-        bg="white"
+        bg="light-grey"
         ratio="60/40"
         reverse
         image={
@@ -114,7 +112,7 @@ function ProjectsContent() {
 
       {/* ── Xtensor & Xsimd ──────────────────────────────────────────────── */}
       <SplitSection
-        bg="white"
+        bg="light-blue"
         ratio="60/40"
         image={
           <div className={`${styles.project_picture} ${styles.project_picture_xtensor}`}>
@@ -131,7 +129,7 @@ function ProjectsContent() {
 
       {/* ── Robotics ──────────────────────────────────────────────────────── */}
       <SplitSection
-        bg="white"
+        bg="light-grey"
         ratio="60/40"
         reverse
         image={
