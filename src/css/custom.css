@@ -186,7 +186,7 @@ ul {
 
   h2 {
     font-family: var(--ifm-font-family-display);
-    font-size: 30px;
+    font-size: 36px;
     font-style: normal;
     font-weight: 800;
     line-height: 115%;
@@ -276,6 +276,13 @@ ul {
 .page-content h2.text--center::after {
   margin-left: auto;
   margin-right: auto;
+}
+
+@media (max-width: 996px) {
+  .page-content h2::after {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 /* No red bar on dark-background sections */
