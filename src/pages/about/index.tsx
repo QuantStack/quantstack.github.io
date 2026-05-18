@@ -26,7 +26,7 @@ export function AboutContent() {
   return (
     <>
       <Section pageTop fullHeight bg="yellow">
-        <h1>About <span className="highlight">QuantStack</span></h1>
+        <h1>About QuantStack</h1>
         <p className="page-tagline">~30 engineers and researchers building the infrastructure of modern science.</p>
         <p>Founded in Paris in 2016. JupyterLab, Mamba, JupyterLite, emscripten-forge — tools reaching millions daily. Our founder received the ACM Software System Award, given to the same cohort as the creators of Unix, Java, and the World Wide Web.</p>
         <div style={{ display: "flex", gap: "var(--ifm-spacing-xl)", alignItems: "center", flexWrap: "wrap" }}>

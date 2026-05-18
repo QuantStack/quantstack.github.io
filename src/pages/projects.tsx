@@ -21,7 +21,7 @@ function ProjectsContent() {
     <>
       {/* ── Header ────────────────────────────────────────────────────────── */}
       <Section pageTop fullHeight bg="white">
-        <h1>Working in the <span className="highlight">open</span>.</h1>
+        <h1>Working in the open.</h1>
         <p className="page-tagline">Tools reaching millions of researchers, engineers, and students worldwide.</p>
         <p className={styles.header_text}>
           From interactive environments to package managers to data formats — we build in the open

@@ -17,7 +17,7 @@ function ServicesContent() {
     <>
       {/* ── Header ────────────────────────────────────────────────────────── */}
       <Section pageTop fullHeight bg="yellow">
-        <h1>Hire the team that <span className="highlight">built</span> the tools you depend on.</h1>
+        <h1>Hire the team that built the tools you depend on.</h1>
         <p className="page-tagline">Direct access to the upstream maintainers — not a helpdesk.</p>
         <p>
           Bloomberg, AWS, Safran, ESA, and the Gates Foundation work with us because there is
