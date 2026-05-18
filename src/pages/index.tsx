@@ -62,9 +62,6 @@ function HomeContent() {
 
       {/* ── How we work with you (services) ───────────────────────────────── */}
       <Section fullHeight>
-        <div className={styles.services_link_mobile}>
-          <Link className={`link-to-button ${styles.link_to_services}`} href="/services/">DISCOVER OUR SERVICES</Link>
-        </div>
         <h2 className="text--center">How we work with you</h2>
         <CardGrid cols={3}>
           <li>
@@ -91,9 +88,7 @@ function HomeContent() {
         </CardGrid>
         <div className={styles.projects_link}>
           <Link className={`link-to-button ${styles.link_to}`} href="/projects">DISCOVER ALL OF OUR PROJECTS</Link>
-          <div className={styles.services_link_desktop}>
-            <Link className={`link-to-button ${styles.link_to_services}`} href="/services/">DISCOVER OUR SERVICES</Link>
-          </div>
+          <Link className={`link-to-button ${styles.link_to_services}`} href="/services/">DISCOVER OUR SERVICES</Link>
         </div>
       </Section>
 
