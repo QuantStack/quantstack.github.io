@@ -48,7 +48,7 @@
 }
 
 .tech_tagline {
-  color: var(--ifm-color-accent-red);
+  color: var(--ifm-color-blue-jupyter);
   font-size: var(--ifm-font-size-secondary-title);
   font-weight: 700;
 }

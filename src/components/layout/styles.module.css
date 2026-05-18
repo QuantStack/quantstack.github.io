@@ -65,26 +65,26 @@
 .sep_v1 {
   background: linear-gradient(to right,
     #1d1d1b 0%, #1d1d1b 21%,
-    var(--ifm-color-accent-red) 21%, var(--ifm-color-accent-red) 28%,
+    var(--ifm-color-blue-jupyter) 21%, var(--ifm-color-blue-jupyter) 28%,
     #1d1d1b 28%, #1d1d1b 50%,
-    var(--ifm-color-accent-red) 50%, var(--ifm-color-accent-red) 57%,
+    var(--ifm-color-blue-jupyter) 50%, var(--ifm-color-blue-jupyter) 57%,
     #1d1d1b 57%, #1d1d1b 72%,
-    var(--ifm-color-accent-red) 72%, var(--ifm-color-accent-red) 80%,
+    var(--ifm-color-blue-jupyter) 72%, var(--ifm-color-blue-jupyter) 80%,
     #1d1d1b 80%, #1d1d1b 94%,
-    var(--ifm-color-accent-red) 94%, var(--ifm-color-accent-red) 100%
+    var(--ifm-color-blue-jupyter) 94%, var(--ifm-color-blue-jupyter) 100%
   );
 }
 
 /* 7 segments — red-heavy, bold opener */
 .sep_v2 {
   background: linear-gradient(to right,
-    var(--ifm-color-accent-red) 0%, var(--ifm-color-accent-red) 6%,
+    var(--ifm-color-blue-jupyter) 0%, var(--ifm-color-blue-jupyter) 6%,
     #1d1d1b 6%, #1d1d1b 28%,
-    var(--ifm-color-accent-red) 28%, var(--ifm-color-accent-red) 47%,
+    var(--ifm-color-blue-jupyter) 28%, var(--ifm-color-blue-jupyter) 47%,
     #1d1d1b 47%, #1d1d1b 66%,
-    var(--ifm-color-accent-red) 66%, var(--ifm-color-accent-red) 74%,
+    var(--ifm-color-blue-jupyter) 66%, var(--ifm-color-blue-jupyter) 74%,
     #1d1d1b 74%, #1d1d1b 89%,
-    var(--ifm-color-accent-red) 89%, var(--ifm-color-accent-red) 100%
+    var(--ifm-color-blue-jupyter) 89%, var(--ifm-color-blue-jupyter) 100%
   );
 }
 
@@ -92,11 +92,11 @@
 .sep_v3 {
   background: linear-gradient(to right,
     #1d1d1b 0%, #1d1d1b 26%,
-    var(--ifm-color-accent-red) 26%, var(--ifm-color-accent-red) 43%,
+    var(--ifm-color-blue-jupyter) 26%, var(--ifm-color-blue-jupyter) 43%,
     #1d1d1b 43%, #1d1d1b 67%,
-    var(--ifm-color-accent-red) 67%, var(--ifm-color-accent-red) 82%,
+    var(--ifm-color-blue-jupyter) 67%, var(--ifm-color-blue-jupyter) 82%,
     #1d1d1b 82%, #1d1d1b 93%,
-    var(--ifm-color-accent-red) 93%, var(--ifm-color-accent-red) 100%
+    var(--ifm-color-blue-jupyter) 93%, var(--ifm-color-blue-jupyter) 100%
   );
 }
 
@@ -104,15 +104,15 @@
 .sep_v4 {
   background: linear-gradient(to right,
     #1d1d1b 0%, #1d1d1b 8%,
-    var(--ifm-color-accent-red) 8%, var(--ifm-color-accent-red) 13%,
+    var(--ifm-color-blue-jupyter) 8%, var(--ifm-color-blue-jupyter) 13%,
     #1d1d1b 13%, #1d1d1b 25%,
-    var(--ifm-color-accent-red) 25%, var(--ifm-color-accent-red) 33%,
+    var(--ifm-color-blue-jupyter) 25%, var(--ifm-color-blue-jupyter) 33%,
     #1d1d1b 33%, #1d1d1b 46%,
-    var(--ifm-color-accent-red) 46%, var(--ifm-color-accent-red) 54%,
+    var(--ifm-color-blue-jupyter) 46%, var(--ifm-color-blue-jupyter) 54%,
     #1d1d1b 54%, #1d1d1b 64%,
-    var(--ifm-color-accent-red) 64%, var(--ifm-color-accent-red) 73%,
+    var(--ifm-color-blue-jupyter) 64%, var(--ifm-color-blue-jupyter) 73%,
     #1d1d1b 73%, #1d1d1b 86%,
-    var(--ifm-color-accent-red) 86%, var(--ifm-color-accent-red) 93%,
+    var(--ifm-color-blue-jupyter) 86%, var(--ifm-color-blue-jupyter) 93%,
     #1d1d1b 93%, #1d1d1b 100%
   );
 }
@@ -120,15 +120,15 @@
 /* 9 segments — syncopated, red-anchored */
 .sep_v5 {
   background: linear-gradient(to right,
-    var(--ifm-color-accent-red) 0%, var(--ifm-color-accent-red) 14%,
+    var(--ifm-color-blue-jupyter) 0%, var(--ifm-color-blue-jupyter) 14%,
     #1d1d1b 14%, #1d1d1b 18%,
-    var(--ifm-color-accent-red) 18%, var(--ifm-color-accent-red) 35%,
+    var(--ifm-color-blue-jupyter) 18%, var(--ifm-color-blue-jupyter) 35%,
     #1d1d1b 35%, #1d1d1b 48%,
-    var(--ifm-color-accent-red) 48%, var(--ifm-color-accent-red) 57%,
+    var(--ifm-color-blue-jupyter) 48%, var(--ifm-color-blue-jupyter) 57%,
     #1d1d1b 57%, #1d1d1b 68%,
-    var(--ifm-color-accent-red) 68%, var(--ifm-color-accent-red) 79%,
+    var(--ifm-color-blue-jupyter) 68%, var(--ifm-color-blue-jupyter) 79%,
     #1d1d1b 79%, #1d1d1b 94%,
-    var(--ifm-color-accent-red) 94%, var(--ifm-color-accent-red) 100%
+    var(--ifm-color-blue-jupyter) 94%, var(--ifm-color-blue-jupyter) 100%
   );
 }
 
@@ -136,17 +136,17 @@
 .sep_v6 {
   background: linear-gradient(to right,
     #1d1d1b 0%, #1d1d1b 7%,
-    var(--ifm-color-accent-red) 7%, var(--ifm-color-accent-red) 14%,
+    var(--ifm-color-blue-jupyter) 7%, var(--ifm-color-blue-jupyter) 14%,
     #1d1d1b 14%, #1d1d1b 23%,
-    var(--ifm-color-accent-red) 23%, var(--ifm-color-accent-red) 30%,
+    var(--ifm-color-blue-jupyter) 23%, var(--ifm-color-blue-jupyter) 30%,
     #1d1d1b 30%, #1d1d1b 41%,
-    var(--ifm-color-accent-red) 41%, var(--ifm-color-accent-red) 48%,
+    var(--ifm-color-blue-jupyter) 41%, var(--ifm-color-blue-jupyter) 48%,
     #1d1d1b 48%, #1d1d1b 59%,
-    var(--ifm-color-accent-red) 59%, var(--ifm-color-accent-red) 66%,
+    var(--ifm-color-blue-jupyter) 59%, var(--ifm-color-blue-jupyter) 66%,
     #1d1d1b 66%, #1d1d1b 76%,
-    var(--ifm-color-accent-red) 76%, var(--ifm-color-accent-red) 84%,
+    var(--ifm-color-blue-jupyter) 76%, var(--ifm-color-blue-jupyter) 84%,
     #1d1d1b 84%, #1d1d1b 93%,
-    var(--ifm-color-accent-red) 93%, var(--ifm-color-accent-red) 100%
+    var(--ifm-color-blue-jupyter) 93%, var(--ifm-color-blue-jupyter) 100%
   );
 }
 
@@ -154,19 +154,19 @@
 .sep_v7 {
   background: linear-gradient(to right,
     #1d1d1b 0%, #1d1d1b 5%,
-    var(--ifm-color-accent-red) 5%, var(--ifm-color-accent-red) 11%,
+    var(--ifm-color-blue-jupyter) 5%, var(--ifm-color-blue-jupyter) 11%,
     #1d1d1b 11%, #1d1d1b 18%,
-    var(--ifm-color-accent-red) 18%, var(--ifm-color-accent-red) 25%,
+    var(--ifm-color-blue-jupyter) 18%, var(--ifm-color-blue-jupyter) 25%,
     #1d1d1b 25%, #1d1d1b 34%,
-    var(--ifm-color-accent-red) 34%, var(--ifm-color-accent-red) 41%,
+    var(--ifm-color-blue-jupyter) 34%, var(--ifm-color-blue-jupyter) 41%,
     #1d1d1b 41%, #1d1d1b 51%,
-    var(--ifm-color-accent-red) 51%, var(--ifm-color-accent-red) 57%,
+    var(--ifm-color-blue-jupyter) 51%, var(--ifm-color-blue-jupyter) 57%,
     #1d1d1b 57%, #1d1d1b 65%,
-    var(--ifm-color-accent-red) 65%, var(--ifm-color-accent-red) 72%,
+    var(--ifm-color-blue-jupyter) 65%, var(--ifm-color-blue-jupyter) 72%,
     #1d1d1b 72%, #1d1d1b 81%,
-    var(--ifm-color-accent-red) 81%, var(--ifm-color-accent-red) 87%,
+    var(--ifm-color-blue-jupyter) 81%, var(--ifm-color-blue-jupyter) 87%,
     #1d1d1b 87%, #1d1d1b 94%,
-    var(--ifm-color-accent-red) 94%, var(--ifm-color-accent-red) 100%
+    var(--ifm-color-blue-jupyter) 94%, var(--ifm-color-blue-jupyter) 100%
   );
 }
 
@@ -174,15 +174,15 @@
 .sep_v8 {
   background: linear-gradient(to right,
     #1d1d1b 0%, #1d1d1b 3%,
-    var(--ifm-color-accent-red) 3%, var(--ifm-color-accent-red) 9%,
+    var(--ifm-color-blue-jupyter) 3%, var(--ifm-color-blue-jupyter) 9%,
     #1d1d1b 9%, #1d1d1b 28%,
-    var(--ifm-color-accent-red) 28%, var(--ifm-color-accent-red) 36%,
+    var(--ifm-color-blue-jupyter) 28%, var(--ifm-color-blue-jupyter) 36%,
     #1d1d1b 36%, #1d1d1b 41%,
-    var(--ifm-color-accent-red) 41%, var(--ifm-color-accent-red) 58%,
+    var(--ifm-color-blue-jupyter) 41%, var(--ifm-color-blue-jupyter) 58%,
     #1d1d1b 58%, #1d1d1b 69%,
-    var(--ifm-color-accent-red) 69%, var(--ifm-color-accent-red) 75%,
+    var(--ifm-color-blue-jupyter) 69%, var(--ifm-color-blue-jupyter) 75%,
     #1d1d1b 75%, #1d1d1b 88%,
-    var(--ifm-color-accent-red) 88%, var(--ifm-color-accent-red) 100%
+    var(--ifm-color-blue-jupyter) 88%, var(--ifm-color-blue-jupyter) 100%
   );
 }
 
