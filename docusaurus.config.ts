@@ -114,7 +114,7 @@ const config: Config = {
       items: [
         {
           to: "/",
-          className: "custom_navbar_item",
+          className: "custom_navbar_item navbar_hide_mid",
           label: "Home",
           position: "left",
         },

@@ -517,6 +517,34 @@ html[data-navbar-dark-top] .navbar-sidebar .rss-circle-icon {
   transform: translateY(-50%);
 }
 
+/* At 997–1300px: switch to left-aligned to avoid overlap */
+@media (max-width: 1300px) and (min-width: 997px) {
+  .navbar__inner .navbar__brand {
+    position: static;
+    transform: none;
+  }
+
+  .theme-layout-navbar-left {
+    justify-content: flex-start;
+  }
+
+  .theme-layout-navbar-right {
+    position: static;
+    transform: none;
+  }
+
+  .navbar_hide_mid {
+    display: none;
+  }
+}
+
+/* Tighten item padding at narrower intermediate widths */
+@media (max-width: 1150px) and (min-width: 997px) {
+  .custom_navbar_item {
+    padding: 6px 8px;
+  }
+}
+
 .custom_navbar_item {
   font-family: var(--ifm-font-family-roboto);
   height: 36px;
