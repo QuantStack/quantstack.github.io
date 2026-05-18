@@ -78,6 +78,16 @@
   }
 }
 
+@media (max-width: 996px) and (min-width: 600px) {
+  .hero_title {
+    font-size: 6rem;
+  }
+
+  .tech_tagline {
+    font-size: 26px;
+  }
+}
+
 /* ── Services (How we work with you) ─────────────────────────────────────── */
 
 .topics_header {

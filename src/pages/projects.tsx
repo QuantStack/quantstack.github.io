@@ -30,6 +30,11 @@ function ProjectsContent() {
 
       <SectionSeparator variant={1} />
 
+      {/* ── Project list ──────────────────────────────────────────────────── */}
+      <Section spacing="tight">
+        <h2 className="text--center">What we build and maintain</h2>
+      </Section>
+
       {/* ── Jupyter ───────────────────────────────────────────────────────── */}
       <SplitSection
         bg="white"

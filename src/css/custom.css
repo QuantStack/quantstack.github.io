@@ -215,6 +215,22 @@ ul {
   }
 }
 
+/* Tablet range: overrides phone sizes for wider mobile viewports. */
+@media (max-width: 996px) and (min-width: 600px) {
+  body h1 {
+    font-size: 56px;
+  }
+
+  body h2 {
+    font-size: 42px;
+  }
+
+  body p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
 /******  Class that are specific to larger screens*/
 @media (min-width: 996px) {
   h1 {
