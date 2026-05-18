@@ -58,7 +58,7 @@ function CareersContent() {
       <Section pageTop fullHeight bg="yellow">
         <h1>Join the QuantStack team.</h1>
         <p className="page-tagline">Your code will reach millions. Your contributions go upstream.</p>
-        <p>We are ~30 researchers and engineers building the infrastructure of scientific computing. This is not a support role — it's a principal contributor role from day one.</p>
+        <p>We are ~30 researchers and engineers building the infrastructure of scientific computing. This is not a support role — it's a principal contributor role from day one. Most of us have PhDs or deep research backgrounds, and every one of us ships code upstream.</p>
         <Link className="link-to-button" href="/contact">Get in touch</Link>
       </Section>
 

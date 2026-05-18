@@ -22,6 +22,7 @@ function ServicesContent() {
           Bloomberg, AWS, Safran, ESA, and the Gates Foundation work with us because there is
           no shortcut to deep expertise. Whether you need a support retainer, a custom feature,
           or a long-term engineering partner — you talk to the people who wrote the code.
+          No account managers, no escalation queues.
         </p>
         <LinkToContact label="Get in touch" />
       </Section>

@@ -25,6 +25,8 @@ function ProjectsContent() {
         <p className={styles.header_text}>
           From interactive environments to package managers to data formats — we build in the open
           so that anyone can build on what we create.
+          Our tools are dependencies of dependencies — the foundation powering research pipelines, commercial data stacks, and classroom notebooks at scale.
+          Everything we make is open-source, community-governed, and maintained for the long term.
         </p>
         <LinkToContact label="Work with us" />
       </Section>
