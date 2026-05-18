@@ -1,6 +1,7 @@
 import Layout from "@theme/Layout";
 import BrowserOnly from "@docusaurus/BrowserOnly";
 import Footer from "../components/footer/Footer";
+import Section from "../components/layout/Section";
 import SectionSeparator from "../components/layout/SectionSeparator";
 import SplitSection from "../components/layout/SplitSection";
 import Banner from "../components/layout/Banner";
