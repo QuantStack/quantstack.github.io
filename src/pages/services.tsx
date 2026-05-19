@@ -20,7 +20,7 @@ function ServicesContent() {
         <h1>Hire the team that built the tools you depend on</h1>
         <p className="page-tagline">Direct access to the upstream maintainers, no intermediaries.</p>
         <p>
-          Major organisations work with us because there is no shortcut to to deep expertise.
+          Major organisations work with us because there is no shortcut to deep expertise.
           Whether you need a support retainer, a custom feature, or a long-term engineering partner — you talk to the people who wrote the code.
           No account managers, no escalation queues.
         </p>
@@ -45,11 +45,11 @@ function ServicesContent() {
         <h2><span className="highlight">Support</span> Retainer</h2>
         <p>
           A QuantStack support retainer gives you direct access to the upstream maintainers.
-          We triage issues, review pull requests or give feedback on feasibility, implement pocs and full features and shepherd them until they are merged.
+          We triage issues, review pull requests or give feedback on feasibility, implement POCs and full features and shepherd them until they are merged.
           We also advise on your architecture, and take ownership of problems distracting your team.
         </p>
         <p>
-          Our clients include many of the worlds largest enterprises. We have
+          Our clients include many of the world's largest enterprises. We have
           supported financial firms running Jupyter at scale, aerospace engineers building
           domain-specific platforms, and research institutions deploying open-source
           infrastructure for thousands of users.

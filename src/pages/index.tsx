@@ -75,7 +75,7 @@ function HomeContent() {
             <Card bg="transparent" className={styles.topics_card}>
               <div className={styles.topics_header}>Custom Engineering</div>
               <p>We build tools and platforms at the frontier of open-source scientific computing.</p>
-              <p>Recent examples: JupyterGIS for a large public organisations, JupyterCAD for a big airospace engineering firm, notebook.link. What we build goes back upstream wherever possible.</p>
+              <p>Recent examples: JupyterGIS for a large public organisation, JupyterCAD for a big aerospace engineering firm, notebook.link. What we build goes back upstream wherever possible.</p>
             </Card>
           </li>
           <li>

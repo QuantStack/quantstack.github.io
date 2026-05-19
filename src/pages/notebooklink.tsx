@@ -55,7 +55,7 @@ function NotebookLinkContent() {
         <CardGrid cols={3}>
           <li>
             <Card bg="transparent">
-              <div className={styles.feature_title}>hundres of thousands of students</div>
+              <div className={styles.feature_title}>hundreds of thousands of students</div>
               <p>JupyterLite — the same engine powering notebook.link — has been tested with hundreds of thousands of users.</p>
             </Card>
           </li>
@@ -104,7 +104,7 @@ function NotebookLinkContent() {
           <li>
             <Card>
               <div className={styles.feature_title}>Agentic AI</div>
-              <p>Let AI agents access compute environments and run real calculations right in the browser, like claude code but sandboxed, safe and available on the fly.</p>
+              <p>Let AI agents access compute environments and run real calculations right in the browser, like Claude Code but sandboxed, safe and available on the fly.</p>
             </Card>
           </li>
         </CardGrid>
