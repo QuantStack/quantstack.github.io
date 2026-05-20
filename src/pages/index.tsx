@@ -68,7 +68,7 @@ function HomeContent() {
             <Card bg="transparent" className={styles.topics_card}>
               <div className={styles.topics_header}>Support Retainer</div>
               <p>Direct access to the upstream maintainers of the tools your team depends on — not a helpdesk.</p>
-              <p>We triage issues, review pull requests, advise on architecture, and take ownership of problems your team cannot solve alone. Our clients include AWS, Bloomberg, Safran, and the European Space Agency.</p>
+              <p>We triage issues, review pull requests, advise on architecture, and take ownership of problems your team cannot solve alone.</p>
             </Card>
           </li>
           <li>
