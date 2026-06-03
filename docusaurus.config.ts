@@ -69,7 +69,15 @@ const config: Config = {
       {
         domain: 'quantstack.net',
       },
-    ]
+    ],
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: [
+          { from: '/fundable', to: '/sponsor' },
+        ],
+      },
+    ],
   ],
 
   headTags: [
