@@ -34,6 +34,10 @@ import ESALogoUrl from "@site/static/img/logos/ESA.png";
 import CNESLogoUrl from "@site/static/img/logos/CNES.png";
 import GatesFoundationLogoUrl from "@site/static/img/logos/GatesFoundation.png";
 import SovereignTechAgencyLogoUrl from "@site/static/img/logos/SovereignTechAgency.png";
+import WikimediaLogoUrl from "@site/static/img/logos/Wikimedia.png";
+import StripeLogoUrl from "@site/static/img/logos/Stripe.png";
+import LFLogoUrl from "@site/static/img/logos/LF.png";
+
 
 const logos = [
   { src: BloombergLogoUrl, alt: "Bloomberg" },
@@ -71,6 +75,9 @@ const logos = [
   { src: ERDCLogoUrl, alt: "ERDC" },
   { src: PandaLogoUrl, alt: "Panda" },
   { src: CNESLogoUrl, alt: "CNES" },
+  { src: WikimediaLogoUrl, alt: "Wikimedia" },
+  { src: StripeLogoUrl, alt: "Stripe" },
+  { src: LFLogoUrl, alt: "LF" },
 ];
 
 export default function LogoGrid() {
