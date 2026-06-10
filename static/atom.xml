@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://quantstack.net/</id>
     <title>Recent blog posts featured by QuantStack team</title>
-    <updated>2026-05-20T13:59:15.156Z</updated>
+    <updated>2026-06-10T19:10:48.523Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>QuantStack Team</name>
@@ -11,6 +11,16 @@
     <link rel="alternate" href="https://quantstack.net/"/>
     <link rel="self" href="https://quantstack.net/atom.xml"/>
     <subtitle>Atom feed for QuantStack website blog page</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Async Xeus Python]]></title>
+        <id>https://notebook.link/@DerThorsten/async-xeus-python</id>
+        <link href="https://notebook.link/@DerThorsten/async-xeus-python"/>
+        <updated>2026-06-10T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/Async-Xeus-Python.png" alt="Image for Async Xeus Python" style="max-width:100%; height:auto;" /><p>We added top-level await support to xeus-python 🚀. You can now use toplevel async code directly in notebooks without extra boilerplate — and without blocking the kernel.</p>]]></content>
+        <author>
+            <name>Thorsten Beier</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Sharded Repodata Support in Mamba]]></title>
         <id>https://medium.com/@julien.jerphanion/sharded-repodata-support-in-mamba-ae6147d1d608</id>
@@ -197,16 +207,6 @@
         <link href="https://blog.jupyter.org/jupyterlite-0-6-0-is-released-b4bc69bfc8f4"/>
         <updated>2025-06-12T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<img src="img/blogposts/resized-images/JupyterLite-06.png" alt="Image for JupyterLite 0.6.0 is released! 🎉" style="max-width:100%; height:auto;" /><p>The new 0.6.0 release includes a number of new features, bug fixes, and enhancements. This release also brings significant improvements to the user experience and new customization options for JupyterLite deployments.</p>]]></content>
-        <author>
-            <name>Jeremy Tuloup</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JupyterLab 4.4 and Notebook 7.4 are available!]]></title>
-        <id>https://blog.jupyter.org/jupyterlab-4-4-and-notebook-7-4-are-available-aca2782d4f3d</id>
-        <link href="https://blog.jupyter.org/jupyterlab-4-4-and-notebook-7-4-are-available-aca2782d4f3d"/>
-        <updated>2025-05-21T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<img src="img/blogposts/resized-images/JupyterLab-44.png" alt="Image for JupyterLab 4.4 and Notebook 7.4 are available!" style="max-width:100%; height:auto;" /><p>JupyterLab 4.4 has been released! This new minor release of JupyterLab includes 28 new features and enhancements, 76 bug fixes, 63 maintenance tasks and 34 documentation improvements.</p>]]></content>
         <author>
             <name>Jeremy Tuloup</name>
         </author>

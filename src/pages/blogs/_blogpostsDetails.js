@@ -3,6 +3,15 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.blogpostsDetails = void 0;
 exports.blogpostsDetails = [
     {
+        url: "https://notebook.link/@DerThorsten/async-xeus-python",
+        title: "Async Xeus Python",
+        image: "/img/blogposts/resized-images/Async-Xeus-Python.png",
+        summary: "We added top-level await support to xeus-python 🚀. You can now use toplevel async code directly in notebooks without extra boilerplate and without blocking the kernel.",
+        date: "2026-06-10",
+        authors: "Thorsten Beier",
+        imageID: "blogpost-image-153"
+    },
+    {
         url: "https://medium.com/@julien.jerphanion/sharded-repodata-support-in-mamba-ae6147d1d608",
         title: "Sharded Repodata Support in Mamba",
         image: "/img/blogposts/resized-images/Introducing-Mamba-2-6.png",

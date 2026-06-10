@@ -2,9 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id/>
     <title>All blog posts featured by QuantStack team</title>
-    <updated>2026-05-20T13:59:15.163Z</updated>
+    <updated>2026-06-10T19:10:48.526Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <subtitle>Atom feed for QuantStack website blog page</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Async Xeus Python]]></title>
+        <id>https://notebook.link/@DerThorsten/async-xeus-python</id>
+        <link href="https://notebook.link/@DerThorsten/async-xeus-python"/>
+        <updated>2026-06-10T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<img src="/img/blogposts/resized-images/Async-Xeus-Python.png" alt="Image for Async Xeus Python" style="max-width:100%; height:auto;" /><p>We added top-level await support to xeus-python 🚀. You can now use toplevel async code directly in notebooks without extra boilerplate — and without blocking the kernel.</p>]]></content>
+        <author>
+            <name>Thorsten Beier</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Sharded Repodata Support in Mamba]]></title>
         <id>https://medium.com/@julien.jerphanion/sharded-repodata-support-in-mamba-ae6147d1d608</id>
