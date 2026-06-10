@@ -9,7 +9,7 @@ export function SocialMediasQuantStack() {
   return (
     <div>
       <b>Follow us on</b> <br />
-      <div style={{marginBottom: "var(--ifm-spacing-lg)"}}>
+      <div style={{ marginBottom: "var(--ifm-spacing-lg)" }}>
         <Link href={"https://github.com/QuantStack"}>{<GHPicture />}</Link>
         <Link href={"https://www.linkedin.com/company/quantstack/mycompany"}>
           {<LinkedInPicture />}
@@ -27,10 +27,13 @@ export default function Footer() {
       <div className={"row"} style={{ paddingBottom: "var(--ifm-spacing-xl)" }}>
         <div
           className={
-            "col flex-horizontally-centered" + " " + styles.col_social_media_desktop
+            "col" + " " + styles.col_social_media_desktop
           }
         >
           <SocialMediasQuantStack />
+          <div>
+            <Link href={"/legal"}> <b>Legal</b></Link>
+          </div>
         </div>
         <div className={"col flex-horizontally-centered"}>
           <div className={"container" + " " + styles.menu_container}>
