@@ -8,6 +8,15 @@
         <atom:link href="https://quantstack.net/rss_all.xml" rel="self" type="application/rss+xml"/>
         <language><![CDATA[en]]></language>
         <item>
+            <title><![CDATA[Async Xeus Python]]></title>
+            <description><![CDATA[We added top-level await support to xeus-python 🚀. You can now use toplevel async code directly in notebooks without extra boilerplate — and without blocking the kernel.]]></description>
+            <link>https://notebook.link/@DerThorsten/async-xeus-python</link>
+            <guid isPermaLink="true">https://notebook.link/@DerThorsten/async-xeus-python</guid>
+            <dc:creator><![CDATA[Thorsten Beier]]></dc:creator>
+            <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
+            <enclosure url="https://quantstack.net/img/blogposts/resized-images/Async-Xeus-Python.png" length="0" type="image/png"/>
+        </item>
+        <item>
             <title><![CDATA[Sharded Repodata Support in Mamba]]></title>
             <description><![CDATA[We are thrilled to introduce Mamba 2.6, the first release of the package manager with support for sharded repodata, improving perfomance by a large factor, both in execution time and memory consumption.]]></description>
             <link>https://medium.com/@julien.jerphanion/sharded-repodata-support-in-mamba-ae6147d1d608</link>
