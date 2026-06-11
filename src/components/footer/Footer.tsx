@@ -89,6 +89,9 @@ export default function Footer() {
 
         <div className={"col" + " " + styles.col_social_media_and_address_mobile}>
           <SocialMediasQuantStack />
+          <div style={{marginBottom: "var(--ifm-spacing-lg"}}>
+            <Link href={"/legal"}> <b>Legal</b></Link>
+          </div>
 
           <div>
             <div>
