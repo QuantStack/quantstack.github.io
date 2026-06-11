@@ -3,6 +3,15 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.blogpostsDetails = void 0;
 exports.blogpostsDetails = [
     {
+        url: "https://medium.com/@AntoineProuvost/improving-simd-in-apache-arrow-80-faster-parquet-column-reads-on-arm-42150ac4ec21",
+        title: "Improving SIMD in Apache Arrow: 80% faster Parquet column reads on ARM",
+        image: "img/blogposts/resized-images/Accelerating-Arrow.png",
+        summary: "We accelerated Parquet column reads on ARM by up to 80% in Apache Arrow C++, by adding support for the Scalable Vector Extension (SVE) and fixing a compiler optimization issue worth a 5x speedup on a dedicated routine.",
+        date: "2026-06-11",
+        authors: "Antoine Prouvost",
+        imageID: "blogpost-image-154"
+    },
+    {
         url: "https://notebook.link/@DerThorsten/async-xeus-python",
         title: "Async Xeus Python",
         image: "/img/blogposts/resized-images/Async-Xeus-Python.png",
