@@ -41,7 +41,7 @@
     "fs": "^0.0.1-security",
     "image-size": "^1.2.1",
     "jimp": "^0.22.12",
-    "js-yaml": "^4.1.1",
+    "js-yaml": "^4.2.0",
     "nodejs": "^0.0.0",
     "postcss": "^8.4.38",
     "prism-react-renderer": "^2.4.1",
