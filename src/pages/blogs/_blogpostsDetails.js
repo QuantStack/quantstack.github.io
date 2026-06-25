@@ -3,6 +3,15 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.blogpostsDetails = void 0;
 exports.blogpostsDetails = [
     {
+        url: "https://blog.jupyter.org/congratulations-distinguished-contributors-1998f468b29e",
+        title: "Congratulations, Distinguished Contributors!",
+        image: "/img/blogposts/resized-images/Congratulations-Distinguished-Contributors-2026-06.png",
+        summary: "We are proud to announce the recipients of the Jupyter Distinguished Contributor (JDC) award for the 2025 cohort of contributors.",
+        date: "2026-06-24",
+        authors: "Johan Mabille",
+        imageID: "blogpost-image-155"
+    },
+    {
         url: "https://medium.com/@AntoineProuvost/improving-simd-in-apache-arrow-80-faster-parquet-column-reads-on-arm-42150ac4ec21",
         title: "Improving SIMD in Apache Arrow: 80% faster Parquet column reads on ARM",
         image: "img/blogposts/resized-images/Accelerating-Arrow.png",
@@ -203,7 +212,7 @@ exports.blogpostsDetails = [
     {
         url: "https://blog.jupyter.org/congratulations-distinguished-contributors-2504029fc5a9",
         title: "Congratulations, Distinguished Contributors!",
-        image: "/img/blogposts/resized-images/Congratulations-Distinguished-Contributors-2025.png",
+        image: "/img/blogposts/resized-images/Congratulations-Distinguished-Contributors-2025-05.png",
         summary: "We are proud to announce the recipients of the Jupyter Distinguished Contributor (JDC) award for the 2024 cohort of contributors.",
         date: "2025-05-15",
         authors: "Johan Mabille",
