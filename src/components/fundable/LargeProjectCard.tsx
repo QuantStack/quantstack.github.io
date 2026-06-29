@@ -1,22 +1,10 @@
 import styles from "./styles.module.css";
 import React from "react";
 import LinkToGetAQuote from "./LinkToGetAQuote";
-import { useHistory, useLocation } from "@docusaurus/router";
 
 export function LargeProjectCardContent({ project }) {
-    const history = useHistory();
-    const location = useLocation();
-
-    function openDialog() {
-        const pageName = project.pageName;
-
-        history.push({
-            pathname: `/sponsor/${pageName}/GetAQuote`,
-            state: { from: location.pathname, scrollY: window.scrollY },
-        });
-    }
     return (
-        <div className={"container"} onClick={openDialog}>
+        <div className={"container"}>
             <div className={"row-padding-none"}>
                 <div className="col col--12">
                     <div className={styles.large_project_card_title}>{project.title}</div>

@@ -2,11 +2,10 @@
 import styles from "./styles.module.css";
 import GetAQuoteForm from "./GetAQuoteForm"
 import { LargeProjectCardContent } from "./LargeProjectCard";
-import { useHistory, useLocation } from "@docusaurus/router";
+import { useHistory } from "@docusaurus/router";
 import Layout from "@theme/Layout";
 import { Route } from 'react-router-dom';
 import { getCategoryFromProjectPageName } from ".";
-import { FundableContent as FundableProjects } from "@site/src/pages/sponsor";
 
 function GetAQuoteComponent({ project }) {
     return (
@@ -28,16 +27,13 @@ function GetAQuoteComponent({ project }) {
     )
 }
 export default function GetAQuotePage() {
-    const location = useLocation();
     const history = useHistory();
 
     const handleClose = () => {
-        history.push('/sponsor');
-
+        history.goBack();
     }
     return (
         <Layout>
-            <FundableProjects />
             <Route
                 path="/sponsor/:pageName/GetAQuote"
                 render={({ match }) => {
@@ -47,22 +43,17 @@ export default function GetAQuotePage() {
                     if (!project) return null;
 
                     return (
-                        <div className={styles.project_dialog_overlay} >
-                            <div
-                                className={styles.project_dialog_content}
-                                onClick={(e) => e.stopPropagation()}
-                            >
-                                <button
-                                    className="close-button"
-                                    style={{
-                                        position: "absolute",
-                                        top: "10px",
-                                        right: "10px",
-                                    }}
-                                    onClick={handleClose}
-                                />
-                                <GetAQuoteComponent project={project} />
-                            </div>
+                        <div className={styles.get_a_quote_page}>
+                            <button
+                                className="close-button"
+                                style={{
+                                    position: "absolute",
+                                    top: "10px",
+                                    right: "10px",
+                                }}
+                                onClick={handleClose}
+                            />
+                            <GetAQuoteComponent project={project} />
                         </div>
                     );
                 }}

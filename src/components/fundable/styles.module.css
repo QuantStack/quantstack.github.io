@@ -212,6 +212,13 @@
   justify-content: center;
 }
 
+.get_a_quote_page {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--ifm-spacing-3xl) var(--ifm-spacing-xl);
+}
+
 .form_label {
   font-size: 12px;
   color: var(--ifm-text-color);
@@ -378,7 +385,6 @@
   .large_project_card {
     width: 90vw;
     padding: var(--ifm-spacing-xl);
-    border-radius: 8px;
     padding: var(--ifm-spacing-xl) var(--ifm-spacing-xl);
     overflow-y: auto;
     max-height: 95vh;
@@ -412,10 +418,7 @@
 
 
   .get_a_quote_dialog {
-    width: 90vw;
-    padding: 40px;
-    overflow-y: auto;
-    max-height: 95vh;
+    padding: var(--ifm-spacing-md);
   }
 
   .get_a_quote_text_col_desktop {
@@ -452,7 +455,6 @@
   .large_project_card {
     width: 80vw;
     padding: 40px;
-    border-radius: 8px;
     padding: var(--ifm-spacing-xl) var(--ifm-spacing-xl);
     overflow-y: auto;
     max-height: 95vh;
@@ -481,10 +483,7 @@
   }
 
   .get_a_quote_dialog {
-    width: 80vw;
-    padding: 40px;
-    overflow-y: auto;
-    max-height: 95vh;
+    padding: var(--ifm-spacing-lg);
   }
 
   .get_a_quote_text_col_desktop {
@@ -522,7 +521,6 @@
   .large_project_card {
     width: 800px;
     padding: 40px;
-    border-radius: 8px;
     overflow-y: auto;
     max-height: 95vh;
   }
@@ -555,10 +553,7 @@
   }
 
   .get_a_quote_dialog {
-    width: 90vw;
-    padding: 40px;
-    overflow-y: auto;
-    max-height: 95vh;
+    padding: var(--ifm-spacing-xl);
   }
 
   .get_a_quote_form_col_mobile {

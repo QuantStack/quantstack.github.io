@@ -8,6 +8,15 @@ import { FundableContent } from "@site/src/pages/sponsor";
 import styles from "@site/src/components/about/styles.module.css";
 import LargeProjectCard from './LargeProjectCard';
 
+function backToOverview(history, scrollY) {
+  const category = new URLSearchParams(window.location.search).get("category");
+  const search = category ? `?category=${encodeURIComponent(category)}` : "";
+  history.replace({ pathname: '/sponsor', search });
+  if (scrollY !== undefined) {
+    setTimeout(() => window.scrollTo({ top: scrollY, behavior: 'auto' }), 0);
+  }
+}
+
 export default function LargeProjectCardPage() {
   const location = useLocation();
   const history = useHistory();
@@ -18,26 +27,15 @@ export default function LargeProjectCardPage() {
     }
   }, []);
 
-  const handleOverlayClick = () => {
-    const scrollY = location.state?.scrollY;
-    setTimeout(() => {
-      if (scrollY !== undefined) {
-        window.scrollTo({ top: scrollY, behavior: 'auto' });
-      }
-    }, 0);
-    history.replace('/sponsor');
+  const handleOverlayClick = (e) => {
+    if (window.getSelection()?.toString()) return;
+    if (e.target !== e.currentTarget) return;
+    backToOverview(history, location.state?.scrollY);
   };
 
   const handleClose = () => {
-    const scrollY = location.state?.scrollY;
     if (location.state?.fromFundable) {
-      history.replace('/sponsor');
-
-      setTimeout(() => {
-        if (scrollY !== undefined) {
-          window.scrollTo({ top: scrollY, behavior: 'auto' });
-        }
-      }, 0);
+      backToOverview(history, location.state?.scrollY);
     } else {
       history.goBack();
     }

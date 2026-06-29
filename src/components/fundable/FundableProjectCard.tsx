@@ -7,8 +7,12 @@ export default function FundableProjectCard({ project }) {
   const history = useHistory();
 
   function open() {
+    if (window.getSelection()?.toString()) return;
+    const category = new URLSearchParams(window.location.search).get("category");
+    const search = category ? `?category=${encodeURIComponent(category)}` : "";
     history.push({
       pathname: `/sponsor/${project.pageName}`,
+      search,
       state: { fromFundable: true, scrollY: window.scrollY },
     });
   }
