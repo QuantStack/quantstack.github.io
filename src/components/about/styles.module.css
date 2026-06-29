@@ -18,6 +18,7 @@
   box-shadow: var(--ifm-shadow-dialog);
   border-radius: 20px;
   z-index: 4000;
+  overflow: hidden;
 }
 
 .small_portrait_card {

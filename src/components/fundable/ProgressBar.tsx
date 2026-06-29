@@ -9,14 +9,13 @@ export default function ProgressBar({ value = 0, color = '#4caf50' }) {
                 border: 'solid 0.5px',
                 height: '21px',
                 width: '190px',
+                overflow: 'hidden',
             }}>
 
                 <div style={{
                     width: `${value}%`,
                     background: color,
-                    border: 'solid 0.5px',
                     height: '100%',
-                    borderRadius: '16px',
                     transition: 'width 0.3s ease-in-out',
                 }} />
             </div>
