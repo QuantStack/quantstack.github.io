@@ -58,7 +58,7 @@ giving us a direct upstream relationship.
 
 #### Proposed Work
 
-The goal of this project is to deliver:
+The goal of this project is to:
 
 - upstream llvmlite compatibility with browser environments,
   based on our existing patches.
