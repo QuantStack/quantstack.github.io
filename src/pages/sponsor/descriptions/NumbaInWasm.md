@@ -65,8 +65,8 @@ The goal of this project is to:
 - build a proof of concept for general Numba use in the browser to
   - demonstrate, ideally all of Numba, or at least a large part of it, in the browser
   - demonstrate the ability to run libraries that depend on it (such as pytensor/pymc) in the browser
-  - gather the changes required to upstream
-- upstream the required changes to Numba
+  - gather and understand the changes required
+- upstream the required changes
 
 Note that this is a proof of concept effort, we will advance
 incrementally, deliver sub-parts, and adjust the plan based
