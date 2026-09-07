@@ -715,3 +715,8 @@ html:not([data-navbar-home-top]) .navbar__link:hover {
     padding-right: var(--ifm-spacing-lg);
   }
 }
+
+/* fix scrolling issue in blog post */
+.row {
+  margin: 0 auto;
+}

@@ -3,6 +3,15 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.blogpostsDetails = void 0;
 exports.blogpostsDetails = [
     {
+        url: "/blogs/Pablo-Winant-Scientific-Advisor",
+        title: "Welcoming Pablo Winant as Scientific Advisor at QuantStack",
+        image: "/img/blogposts/resized-images/Pablo-Advisor.png",
+        summary: "We are thrilled to welcome Pablo Winant to QuantStack as a Scientific Advisor. Pablo joins us part-time while on a sabbatical year from his roles as a Professor at ESCP Business School and École Polytechnique.",
+        date: "2026-09-04",
+        authors: "Sylvain Corlay",
+        imageID: "blogpost-image-160"
+    },
+    {
         url: "https://blog.jupyter.org/a-robotics-workbench-for-jupytercad-6eb498a22178",
         title: "A Robotics Workbench for JupyterCAD",
         image: "/img/blogposts/resized-images/Robotics-Workbench.png",
