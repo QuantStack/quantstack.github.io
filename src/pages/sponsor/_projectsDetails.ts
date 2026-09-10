@@ -10,6 +10,7 @@ import Decimal32InArrowCppMD from "@site/src/pages/sponsor/descriptions/Decimal3
 import Float16InArrowCppMD from "@site/src/pages/sponsor/descriptions/Float16InArrowCpp.md"
 import RunEndEncodedInArrowCppMD from "@site/src/pages/sponsor/descriptions/RunEndEncodedInArrowCpp.md"
 import ParquetNullOptimizationsMD from "@site/src/pages/sponsor/descriptions/ParquetNullOptimizations.md"
+import NumbaInWasmMD from "@site/src/pages/sponsor/descriptions/NumbaInWasm.md"
 
 export const fundableProjectsDetails = {
     jupyterEcosystem: [
@@ -49,6 +50,18 @@ export const fundableProjectsDetails = {
             currentNbOfFunders: 0,
             currentFundingPercentage: 0,
             repoLink: "https://github.com/geojupyter/jupytergis"
+        },
+        {
+            category: "Jupyter Ecosystem",
+            title: "Numba and llvmlite in the browser",
+            pageName: "NumbaInWasm",
+            shortDescription: "Numba, the standard JIT compiler for numerical Python, cannot run in Pyodide or emscripten-forge today. Its llvmlite backend relies on MCJIT, which WebAssembly does not allow. We have working demos of llvmlite and Numba scalar @jit in the browser. This proof-of-concept effort will resolve the remaining issues to make Numba work generally and initiate upstreaming of the patches.",
+            description: NumbaInWasmMD,
+            price: "TBD",
+            maxNbOfFunders: 1,
+            currentNbOfFunders: 0,
+            currentFundingPercentage: 0,
+            repoLink: "https://github.com/numba/llvmlite"
         },
     ],
     packageManagement: [
