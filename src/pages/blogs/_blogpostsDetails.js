@@ -3,6 +3,15 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.blogpostsDetails = void 0;
 exports.blogpostsDetails = [
     {
+        url: "https://notebook.link/blog/the-last-mile-faster-numpy",
+        title: "The last mile of a long road: faster NumPy in the browser",
+        image: "/img/blogposts/resized-images/Emscripten-Forge.png",
+        summary: "For a long time, running NumPy in the browser meant running it without an accelerated BLAS. Matrix multiplications fell back to plain loops (portable, but blind to cache and SIMD). That just changed. The Emscripten-forge NumPy package now links OpenBLAS in WebAssembly.",
+        date: "2026-09-15",
+        authors: "Julien Jerphanion, Ian Thomas, Matthias Meschede",
+        imageID: "blogpost-image-161"
+    },
+    {
         url: "/blogs/Pablo-Winant-Scientific-Advisor",
         title: "Welcoming Pablo Winant as Scientific Advisor at QuantStack",
         image: "/img/blogposts/resized-images/Pablo-Advisor.png",
