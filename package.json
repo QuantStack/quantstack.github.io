@@ -39,7 +39,7 @@
     "curl": "^0.1.4",
     "docusaurus-plugin-plausible": "^0.0.5",
     "fs": "^0.0.1-security",
-    "image-size": "^1.2.1",
+    "image-size": "^2.0.4",
     "jimp": "^0.22.12",
     "js-yaml": "^4.1.1",
     "nodejs": "^0.0.0",
