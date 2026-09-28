@@ -36,8 +36,6 @@ import JoelMD from "@site/src/pages/about/Team/Joel.md";
 import JoelAvatarUrl from "@site/static/img/avatars/Joel.png";
 import JohanMD from "@site/src/pages/about/Team/Johan.md";
 import JohanAvatarUrl from "@site/static/img/avatars/Johan.png";
-import JulienMD from "@site/src/pages/about/Team/Julien.md";
-import JulienAvatarUrl from "@site/static/img/avatars/Julien.png";
 import MarionMD from "@site/src/pages/about/Team/Marion.md";
 import MarionAvatarUrl from "@site/static/img/avatars/Marion.png";
 import MartinMD from "@site/src/pages/about/Team/Martin.md";
@@ -203,21 +201,6 @@ export const teams = {
       distinctionLink: [],
       subTeamName: "coreTeam",
       BioComponent: HindMD,
-    },
-    {
-      completeName: "Julien Jerphanion",
-      pageName: "JulienJerphanion",
-      position: "Scientific Software Developer",
-      GitHubLink: "https://github.com/jjerphan",
-      LinkedInLink: "https://www.linkedin.com/in/jjerphan/",
-      BlueskyLink: "https://bsky.app/profile/jjerphan.xyz",
-      MastodonLink: "https://fosstodon.org/@jjerphan",
-      GitHubName: "@jjerphan",
-      avatarUrl: JulienAvatarUrl,
-      distinctionTitle: [],
-      distinctionLink: [],
-      subTeamName: "coreTeam",
-      BioComponent: JulienMD,
     },
     {
       completeName: "Anutosh Bhat",
