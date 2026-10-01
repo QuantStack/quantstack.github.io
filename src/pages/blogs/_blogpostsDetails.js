@@ -3,6 +3,15 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.blogpostsDetails = void 0;
 exports.blogpostsDetails = [
     {
+        url: "https://blog.jupyter.org/posts/2026/from-punch-cards-to-the-browser-fortran-comes-to-jupyterlite/",
+        title: "From Punch Cards to the Browser: Fortran Comes to JupyterLite",
+        image: "/img/blogposts/resized-images/Punch-Card.png",
+        summary: "The LFortran kernel now runs entirely in your browser, with no installation and no server.",
+        date: "2026-10-01",
+        authors: "Anutosh Bhat, Ondřej Čertík",
+        imageID: "blogpost-image-162"
+    },
+    {
         url: "https://notebook.link/blog/the-last-mile-faster-numpy",
         title: "The last mile of a long road: faster NumPy in the browser",
         image: "/img/blogposts/resized-images/Emscripten-Forge.png",
