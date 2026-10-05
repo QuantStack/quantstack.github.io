@@ -3,6 +3,15 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.blogpostsDetails = void 0;
 exports.blogpostsDetails = [
     {
+        url: "https://blog.jupyter.org/posts/2026/jupyter-compute-paris-2026/",
+        title: "Jupyter @ Compute! Paris 2026",
+        image: "/img/blogposts/resized-images/Compute-Paris.png",
+        summary: "Jupyter Takes Center Stage at Compute! Paris, Nov 25-26, 2026",
+        date: "2026-10-05",
+        authors: "Sylvain Corlay",
+        imageID: "blogpost-image-163"
+    },
+    {
         url: "https://blog.jupyter.org/posts/2026/from-punch-cards-to-the-browser-fortran-comes-to-jupyterlite/",
         title: "From Punch Cards to the Browser: Fortran Comes to JupyterLite",
         image: "/img/blogposts/resized-images/Punch-Card.png",
