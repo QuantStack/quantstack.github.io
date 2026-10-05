@@ -48,17 +48,6 @@
   color: var(--ifm-color-orange-jupyter);
 }
 
-.blogpost_date_dot {
-  display: inline-block;
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  background-color: var();
-  margin-right: 6px;
-  vertical-align: middle;
-  margin-bottom: 2px;
-}
-
 .blogpost_authors {
   font-size: 12px;
   font-weight: 400;
