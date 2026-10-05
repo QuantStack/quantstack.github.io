@@ -22,7 +22,6 @@ export default function BlogpostCard({ blogpost }) {
         </div>
         <div className={styles.blogpost_footer}>
           <div className={styles.blogpost_date}>
-            <span className={styles.blogpost_date_dot} />
             {blogpost.date}
           </div>
           <div className={styles.blogpost_authors}>{blogpost.authors}</div>
