@@ -3,6 +3,15 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.blogpostsDetails = void 0;
 exports.blogpostsDetails = [
     {
+        url: "https://emscripten-forge.org/blog/posts/reticulate.html",
+        title: "Mixed R and Python workflows in the browser with Emscripten-Forge",
+        image: "/img/blogposts/resized-images/Reticulate.png",
+        summary: "Today, we are thrilled to announce that the Reticulate R package is available in emscripten-forge, enabling users to call Python from R.",
+        date: "2026-10-07",
+        authors: "Thorsten Beier",
+        imageID: "blogpost-image-164"
+    },
+    {
         url: "https://blog.jupyter.org/posts/2026/jupyter-compute-paris-2026/",
         title: "Jupyter @ Compute! Paris 2026",
         image: "/img/blogposts/resized-images/Compute-Paris.png",
