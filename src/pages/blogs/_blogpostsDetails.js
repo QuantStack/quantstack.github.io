@@ -3,6 +3,15 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.blogpostsDetails = void 0;
 exports.blogpostsDetails = [
     {
+        url: "https://emscripten-forge.org/blog/posts/r_shiny.html",
+        title: "Static Shiny Dashboards in the Browser with Emscripten-Forge",
+        image: "/img/blogposts/resized-images/Shiny-Emscripten.png",
+        summary: "We are excited to announce the integration of Shiny with emscripten-forge, enabling fully-static Shiny dashboards that run entirely in the browser!",
+        date: "2026-10-09",
+        authors: "Isabel Paredes",
+        imageID: "blogpost-image-166"
+    },
+    {
         url: "https://emscripten-forge.org/blog/posts/reticulate.html",
         title: "Mixed R and Python workflows in the browser with Emscripten-Forge",
         image: "/img/blogposts/resized-images/Reticulate.png",
