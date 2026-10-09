@@ -55,7 +55,7 @@ export const fundableProjectsDetails = {
             category: "Jupyter Ecosystem",
             title: "Numba and llvmlite in the browser",
             pageName: "NumbaInWasm",
-            shortDescription: "Numba, the standard JIT compiler for numerical Python, cannot run in Pyodide or emscripten-forge today. Its llvmlite backend relies on MCJIT, which WebAssembly does not allow. We have working demos of llvmlite and Numba scalar @jit in the browser. This proof-of-concept effort will resolve the remaining issues to make Numba work generally and initiate upstreaming of the patches.",
+            shortDescription: "Numba, the standard JIT compiler for numerical Python, now runs in the browser: we have it compiling and executing code inside JupyterLite, along with packages that depend on it such as PyTensor and PyMC. Help us upstream the llvmlite and Numba changes, expand test coverage, add persistent caching, and bring the wider Numba ecosystem to emscripten-forge.",
             description: NumbaInWasmMD,
             price: "TBD",
             maxNbOfFunders: 1,
