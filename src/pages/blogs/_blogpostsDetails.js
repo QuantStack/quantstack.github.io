@@ -3,6 +3,15 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.blogpostsDetails = void 0;
 exports.blogpostsDetails = [
     {
+        url: "https://notebook.link/blog/news-october-2026",
+        title: "Notebook.link News — October 2026",
+        image: "/img/blogposts/resized-images/PyEmscripten.png",
+        summary: "We have been working on making the Notebook.link JupyterLite experience faster, more powerful, and easier to use.",
+        date: "2026-10-12",
+        authors: "QuantStack",
+        imageID: "blogpost-image-167"
+    },
+    {
         url: "https://emscripten-forge.org/blog/posts/r_shiny.html",
         title: "Static Shiny Dashboards in the Browser with Emscripten-Forge",
         image: "/img/blogposts/resized-images/Shiny-Emscripten.png",
