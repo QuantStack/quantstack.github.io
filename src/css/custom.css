@@ -283,7 +283,7 @@ ul {
 
 /* Single-word red accent inside headings for energy */
 .highlight {
-  color: var(--ifm-color-accent-red);
+  color: var(--ifm-color-orange-jupyter);
 }
 
 /* Punchy blue tagline used in page header sections */
@@ -299,7 +299,7 @@ ul {
   display: block;
   width: 36px;
   height: 3px;
-  background: var(--ifm-color-accent-red);
+  background: var(--ifm-color-orange-jupyter);
   margin-top: 10px;
   clip-path: polygon(3px 0%, 100% 0%, calc(100% - 3px) 100%, 0% 100%);
 }
@@ -597,16 +597,16 @@ html[data-navbar-dark-top] .navbar-sidebar .rss-circle-icon {
   font-weight: 700;
   letter-spacing: 0.3px;
   padding: 6px 14px;
-  border: 2px solid var(--ifm-color-accent-red);
+  border: 2px solid var(--ifm-color-orange-jupyter);
   border-radius: 4px;
-  color: var(--ifm-color-accent-red) !important;
+  color: var(--ifm-color-orange-jupyter) !important;
   white-space: nowrap;
   transition: background-color 0.15s ease, color 0.15s ease;
   margin-right: var(--ifm-spacing-sm);
 }
 
 .navbar_notebooklink:hover {
-  background-color: var(--ifm-color-accent-red) !important;
+  background-color: var(--ifm-color-orange-jupyter) !important;
   color: white !important;
   text-decoration: none;
 }
@@ -714,4 +714,9 @@ html:not([data-navbar-home-top]) .navbar__link:hover {
     padding-left: var(--ifm-spacing-lg);
     padding-right: var(--ifm-spacing-lg);
   }
+}
+
+/* fix scrolling issue in blog post */
+.row {
+  margin: 0 auto;
 }

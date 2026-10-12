@@ -4,7 +4,11 @@
         <description><![CDATA[RSS feed for QuantStack website blog page]]></description>
         <link>https://quantstack.net</link>
         <generator>RSS for Node</generator>
+<<<<<<< HEAD
         <lastBuildDate>Fri, 10 Jul 2026 11:54:34 GMT</lastBuildDate>
+=======
+        <lastBuildDate>Fri, 07 Aug 2026 10:17:06 GMT</lastBuildDate>
+>>>>>>> 8280fd0 (Add new jupyter distinguished contributors.)
         <atom:link href="https://quantstack.net/rss_all.xml" rel="self" type="application/rss+xml"/>
         <language><![CDATA[en]]></language>
         <item>

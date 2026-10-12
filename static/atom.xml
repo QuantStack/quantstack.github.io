@@ -2,7 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://quantstack.net/</id>
     <title>Recent blog posts featured by QuantStack team</title>
+<<<<<<< HEAD
     <updated>2026-07-10T11:54:34.497Z</updated>
+=======
+    <updated>2026-08-07T10:17:06.984Z</updated>
+>>>>>>> 8280fd0 (Add new jupyter distinguished contributors.)
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>QuantStack Team</name>
