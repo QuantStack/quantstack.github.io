@@ -10,6 +10,7 @@ import Decimal32InArrowCppMD from "@site/src/pages/sponsor/descriptions/Decimal3
 import Float16InArrowCppMD from "@site/src/pages/sponsor/descriptions/Float16InArrowCpp.md"
 import RunEndEncodedInArrowCppMD from "@site/src/pages/sponsor/descriptions/RunEndEncodedInArrowCpp.md"
 import ParquetNullOptimizationsMD from "@site/src/pages/sponsor/descriptions/ParquetNullOptimizations.md"
+import NumbaInWasmMD from "@site/src/pages/sponsor/descriptions/NumbaInWasm.md"
 
 export const fundableProjectsDetails = {
     jupyterEcosystem: [
@@ -49,6 +50,18 @@ export const fundableProjectsDetails = {
             currentNbOfFunders: 0,
             currentFundingPercentage: 0,
             repoLink: "https://github.com/geojupyter/jupytergis"
+        },
+        {
+            category: "Jupyter Ecosystem",
+            title: "Numba and llvmlite in the browser",
+            pageName: "NumbaInWasm",
+            shortDescription: "Numba, the standard JIT compiler for numerical Python, now runs in the browser: we have it compiling and executing code inside JupyterLite, along with packages that depend on it such as PyTensor and PyMC. Help us upstream the llvmlite and Numba changes, expand test coverage, add persistent caching, and bring the wider Numba ecosystem to emscripten-forge.",
+            description: NumbaInWasmMD,
+            price: "TBD",
+            maxNbOfFunders: 1,
+            currentNbOfFunders: 0,
+            currentFundingPercentage: 0,
+            repoLink: "https://github.com/numba/llvmlite"
         },
     ],
     packageManagement: [
