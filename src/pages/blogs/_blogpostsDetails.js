@@ -3,6 +3,96 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.blogpostsDetails = void 0;
 exports.blogpostsDetails = [
     {
+        url: "https://notebook.link/blog/news-october-2026",
+        title: "Notebook.link News — October 2026",
+        image: "/img/blogposts/resized-images/PyEmscripten.png",
+        summary: "We have been working on making the Notebook.link JupyterLite experience faster, more powerful, and easier to use.",
+        date: "2026-10-12",
+        authors: "QuantStack",
+        imageID: "blogpost-image-167"
+    },
+    {
+        url: "https://emscripten-forge.org/blog/posts/r_shiny.html",
+        title: "Static Shiny Dashboards in the Browser with Emscripten-Forge",
+        image: "/img/blogposts/resized-images/Shiny-Emscripten.png",
+        summary: "We are excited to announce the integration of Shiny with emscripten-forge, enabling fully-static Shiny dashboards that run entirely in the browser!",
+        date: "2026-10-09",
+        authors: "Isabel Paredes",
+        imageID: "blogpost-image-166"
+    },
+    {
+        url: "https://emscripten-forge.org/blog/posts/reticulate.html",
+        title: "Mixed R and Python workflows in the browser with Emscripten-Forge",
+        image: "/img/blogposts/resized-images/Reticulate.png",
+        summary: "Today, we are thrilled to announce that the Reticulate R package is available in emscripten-forge, enabling users to call Python from R.",
+        date: "2026-10-07",
+        authors: "Thorsten Beier",
+        imageID: "blogpost-image-164"
+    },
+    {
+        url: "https://blog.jupyter.org/posts/2026/jupyter-compute-paris-2026/",
+        title: "Jupyter @ Compute! Paris 2026",
+        image: "/img/blogposts/resized-images/Compute-Paris.png",
+        summary: "Jupyter Takes Center Stage at Compute! Paris, Nov 25-26, 2026",
+        date: "2026-10-05",
+        authors: "Sylvain Corlay",
+        imageID: "blogpost-image-163"
+    },
+    {
+        url: "https://blog.jupyter.org/posts/2026/from-punch-cards-to-the-browser-fortran-comes-to-jupyterlite/",
+        title: "From Punch Cards to the Browser: Fortran Comes to JupyterLite",
+        image: "/img/blogposts/resized-images/Punch-Card.png",
+        summary: "The LFortran kernel now runs entirely in your browser, with no installation and no server.",
+        date: "2026-10-01",
+        authors: "Anutosh Bhat, Ondřej Čertík",
+        imageID: "blogpost-image-162"
+    },
+    {
+        url: "https://notebook.link/blog/the-last-mile-faster-numpy",
+        title: "The last mile of a long road: faster NumPy in the browser",
+        image: "/img/blogposts/resized-images/Emscripten-Forge.png",
+        summary: "For a long time, running NumPy in the browser meant running it without an accelerated BLAS. Matrix multiplications fell back to plain loops (portable, but blind to cache and SIMD). That just changed. The Emscripten-forge NumPy package now links OpenBLAS in WebAssembly.",
+        date: "2026-09-15",
+        authors: "Julien Jerphanion, Ian Thomas, Matthias Meschede",
+        imageID: "blogpost-image-161"
+    },
+    {
+        url: "/blogs/Pablo-Winant-Scientific-Advisor",
+        title: "Welcoming Pablo Winant as Scientific Advisor at QuantStack",
+        image: "/img/blogposts/resized-images/Pablo-Advisor.png",
+        summary: "We are thrilled to welcome Pablo Winant to QuantStack as a Scientific Advisor. Pablo joins us part-time while on a sabbatical year from his roles as a Professor at ESCP Business School and École Polytechnique.",
+        date: "2026-09-04",
+        authors: "Sylvain Corlay",
+        imageID: "blogpost-image-160"
+    },
+    {
+        url: "https://blog.jupyter.org/a-robotics-workbench-for-jupytercad-6eb498a22178",
+        title: "A Robotics Workbench for JupyterCAD",
+        image: "/img/blogposts/resized-images/Robotics-Workbench.png",
+        summary: "By leveraging JupyterCAD and JupyterLite, the entire toolchain from parametric CAD design to kinematic description is delivered as instant, zero-install workspace in the browser.",
+        date: "2026-09-02",
+        authors: "Yahia Heni",
+        imageID: "blogpost-image-159"
+    },
+    {
+        url: "/blogs/Decade-of-Open-Source",
+        title: "A Decade of Open Source at QuantStack",
+        image: "/img/blogposts/resized-images/Decade-QuantStack.png",
+        summary: "Ten years ago, I founded QuantStack on a conviction: that we could build a sustainable business by supporting world-class open-source software to advance science. It was a bold bet. We had no outside funding, no guarantees—just the belief that…",
+        date: "2026-08-17",
+        authors: "Sylvain Corlay",
+        imageID: "blogpost-image-158"
+    },
+    {
+        url: "https://notebook.link/blog/numba-in-the-browser",
+        title: "Numba in the Browser: Unlocking a New Scientific Python Stack in JupyterLite",
+        image: "/img/blogposts/resized-images/Numba-Browser.png",
+        summary: "Today, we are excited to share the first working version of the Numba JIT compiler running entirely in the browser with JupyterLite and emscripten-forge!",
+        date: "2026-08-11",
+        authors: "Anutosh Bhat",
+        imageID: "blogpost-image-157"
+    },
+    {
         url: "https://blog.jupyter.org/jupyterlite-0-8-is-released-0c89c4200f79",
         title: "JupyterLite 0.8 is released! 🎉",
         image: "/img/blogposts/resized-images/JupyterLite-08.png",

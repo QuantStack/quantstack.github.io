@@ -54,7 +54,7 @@
 }
 
 .accent {
-  color: var(--ifm-color-accent-red);
+  color: var(--ifm-color-orange-jupyter);
 }
 
 @media (max-width: 996px) {

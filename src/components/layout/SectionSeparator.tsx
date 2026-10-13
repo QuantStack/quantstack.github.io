@@ -33,7 +33,7 @@ const VARIANTS: Record<number, Segment[]> = {
 const COLOR_MAP: Record<Color, string> = {
   dark:  "#1d1d1b",
   blue:  "var(--ifm-color-blue-jupyter)",
-  red:   "var(--ifm-color-accent-red)",
+  red:   "var(--ifm-color-orange-jupyter)",
   white: "#ffffff",
 };
 

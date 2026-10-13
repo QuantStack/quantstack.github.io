@@ -31,7 +31,7 @@ const interviews = [
   { completeName: "Afshin Darian", firstName: "Darian", position: "Technical Director", pictureUrl: DarianPictureUrl, url: "https://www.dailymotion.com/video/x9zl9t2" },
   { completeName: "David Brochart", firstName: "David", position: "Technical Director", pictureUrl: DavidPictureUrl, url: "https://www.dailymotion.com/video/x9zl9t4" },
   { completeName: "Gabriela Vives", firstName: "Gabriela", position: "UX Designer and Researcher", pictureUrl: GabrielaPictureUrl, url: "https://www.dailymotion.com/video/x9zl9sw" },
-  { completeName: "Trung Le Duc", firstName: "Trung", position: "Scientific Software Developer", pictureUrl: TrungPictureUrl, url: "https://www.dailymotion.com/video/x9zl9t0" },
+  { completeName: "Trung Le Duc", firstName: "Trung", position: "Technical Director", pictureUrl: TrungPictureUrl, url: "https://www.dailymotion.com/video/x9zl9t0" },
   { completeName: "Sandrine Pataut", firstName: "Sandrine", position: "Scientific Software Developer", pictureUrl: SandrinePictureUrl, url: "https://www.dailymotion.com/video/xa0qmai" },
   { completeName: "Matthias Meschede", firstName: "Matthias", position: "Chief Operating Officer", pictureUrl: MatthiasPictureUrl, url: "https://www.dailymotion.com/video/xa0qmae" },
   { completeName: "Meriem Ben Ismail", firstName: "Meriem", position: "Scientific Software Developer", pictureUrl: MeriemPictureUrl, url: "https://www.dailymotion.com/video/xa0qmag" },

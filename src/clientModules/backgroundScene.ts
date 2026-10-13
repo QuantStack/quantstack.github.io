@@ -55,7 +55,7 @@ function buildSVG(): string {
       0%,100%{transform:translate(0,0)} 40%{transform:translate(7px,-11px)} 75%{transform:translate(-5px,13px)}
     }
   </style>
-  <g id="_pbg_p" opacity="0.09">
+  <g id="_pbg_p">
     <circle cx="-40" cy="875" r="178" fill="currentColor"/>
     <ellipse cx="-40" cy="875" rx="285" ry="46" fill="none" stroke="currentColor" stroke-width="2.5" transform="rotate(-22,-40,875)"/>
     <circle cx="1382" cy="72" r="64" fill="currentColor"/>
@@ -68,8 +68,8 @@ function buildSVG(): string {
     <circle cx="1052" cy="828" r="9" fill="currentColor"/>
     <circle cx="582" cy="882" r="14" fill="currentColor"/>
   </g>
-  <g id="_pbg_g" opacity="0.14">${edges}${nodes}</g>
-  <g id="_pbg_s" opacity="0.11" fill="currentColor"
+  <g id="_pbg_g">${edges}${nodes}</g>
+  <g id="_pbg_s" fill="currentColor"
      font-family="'Roboto Mono','Courier New',monospace" font-size="13">${snippets}</g>
 </svg>`;
 }
@@ -108,9 +108,9 @@ function applyDark(dark: boolean): void {
   const p = bgEl.querySelector<SVGGElement>("#_pbg_p");
   const g = bgEl.querySelector<SVGGElement>("#_pbg_g");
   const s = bgEl.querySelector<SVGGElement>("#_pbg_s");
-  if (p) p.setAttribute("opacity", dark ? "0.12" : "0.09");
-  if (g) g.setAttribute("opacity", dark ? "0.18" : "0.14");
-  if (s) s.setAttribute("opacity", dark ? "0.15" : "0.11");
+  if (p) p.setAttribute("opacity", dark ? "0.08" : "0.06");
+  if (g) g.setAttribute("opacity", dark ? "0.12" : "0.09");
+  if (s) s.setAttribute("opacity", dark ? "0.10" : "0.08");
 }
 
 // ─── Scroll-based dark detection ──────────────────────────────────────────────
