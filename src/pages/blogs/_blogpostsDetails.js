@@ -3,6 +3,15 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.blogpostsDetails = void 0;
 exports.blogpostsDetails = [
     {
+        url: "https://notebook.link/blog/dyno-in-the-browser",
+        title: "Dyno and Dyno Lab: Macroeconomic Models on Notebook.link",
+        image: "/img/blogposts/resized-images/DynoLite.png",
+        summary: "With Notebook.link Dyno can now be used without installing anything at all.",
+        date: "2026-10-15",
+        authors: "Pablo Winant",
+        imageID: "blogpost-image-168"
+    },
+    {
         url: "https://notebook.link/blog/news-october-2026",
         title: "Notebook.link News — October 2026",
         image: "/img/blogposts/resized-images/PyEmscripten.png",
