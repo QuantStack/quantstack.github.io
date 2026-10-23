@@ -1,4 +1,5 @@
 import Layout from "@theme/Layout";
+import Link from "@docusaurus/Link";
 import BrowserOnly from "@docusaurus/BrowserOnly";
 import Footer from "../components/footer/Footer";
 import React from "react";
@@ -35,6 +36,25 @@ function LegalContent() {
                 United States </p>
             <p>
                 <b>Email</b> : https://enterprise.github.com/contact
+            </p>
+            <div className={styles.legal_title}>Trademarks </div>
+            <p>
+                QUANTSTACK® is a registered trademark of QuantStack SAS.
+            </p>
+            <p>
+                <b>United States (USPTO)</b>: <Link href="https://tmsearch.uspto.gov/search/search-results/79291853">Reg. No. 6358534</Link>
+            </p>
+            <p>
+                <b>European Union (EUIPO)</b>: <Link href="https://euipo.europa.eu/eSearch/#details/trademarks/018192786">No. 018192786</Link>
+            </p>
+            <p>
+                <b>France (INPI)</b>: <Link href="https://data.inpi.fr/marques/FR4610708">No. 4610708</Link>
+            </p>
+            <p>
+                <b>United Kingdom (UKIPO)</b>: <Link href="https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK00003733739">No. UK00003733739</Link>
+            </p>
+            <p>
+                <b>International registration (WIPO)</b>: <Link href="https://data.inpi.fr/marques/WO1545986">No. 1545986</Link>
             </p>
         </div>
     )

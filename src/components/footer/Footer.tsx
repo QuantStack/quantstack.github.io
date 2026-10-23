@@ -107,6 +107,12 @@ export default function Footer() {
       <div className={"row flex-full-centered"}>
         <div className={styles.copyright_container}>
           Copyright © 2026 · QuantStack
+          <br />
+          <small>
+            QuantStack® is a registered trademark of QuantStack SAS in the
+            United States, the European Union, France, the United Kingdom and
+            under the Madrid international system.
+          </small>
         </div>
       </div>
     </div>
