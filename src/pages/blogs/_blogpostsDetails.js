@@ -3,13 +3,22 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.blogpostsDetails = void 0;
 exports.blogpostsDetails = [
     {
+        url: "https://notebook.link/blog/learning-with-robots-in-jupyter/",
+        title: "Learning with Robots in Jupyter",
+        image: "/img/blogposts/resized-images/MoveHub.png",
+        summary: "What could be more rewarding for an aspiring programmer than watching their code come to life in a robot?",
+        date: "2026-11-06",
+        authors: "Florence Haudin, Sylvain Corlay",
+        imageID: "blogpost-image-170"
+    },
+    {
         url: "https://medium.com/@AntoineProuvost/when-parquet-levels-are-bitmaps-d8a00320abb5",
         title: "When Parquet levels are bitmaps",
         image: "/img/blogposts/resized-images/Parquet-Bitmaps.png",
         summary: "The next release of Apache Arrow C++ and PyArrow will see up to 20% speedup in reading whole Parquet files thanks to an optimization of flat optional column decoding.",
         date: "2026-10-30",
         authors: "Antoine Prouvost",
-        imageID: "blogpost-image-168"
+        imageID: "blogpost-image-169"
     },
     {
         url: "https://notebook.link/blog/dyno-in-the-browser",
