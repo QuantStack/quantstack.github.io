@@ -37,7 +37,8 @@ import SovereignTechAgencyLogoUrl from "@site/static/img/logos/SovereignTechAgen
 import WikimediaLogoUrl from "@site/static/img/logos/Wikimedia.png";
 import StripeLogoUrl from "@site/static/img/logos/Stripe.png";
 import LFLogoUrl from "@site/static/img/logos/LF.png";
-
+import PrefixDevLogoUrl from "@site/static/img/logos/PrefixDev.png";
+import EducNatLogoUrl from "@site/static/img/logos/EducNat.png";
 
 const logos = [
   { src: BloombergLogoUrl, alt: "Bloomberg" },
@@ -78,6 +79,8 @@ const logos = [
   { src: WikimediaLogoUrl, alt: "Wikimedia" },
   { src: StripeLogoUrl, alt: "Stripe" },
   { src: LFLogoUrl, alt: "LF" },
+  { src: PrefixDevLogoUrl, alt: "PrefixDev" },
+  { src: EducNatLogoUrl, alt: "EducNat" },
 ];
 
 export default function LogoGrid() {
